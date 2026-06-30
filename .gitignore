@@ -1,0 +1,17 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Local runtime output, logs, and databases
+output/esg_xbrl.db
+output/pipeline.log
+output/resume_state.json
+
+# Generated Knowledge Graph CSVs (Neo4j import)
+output/nodes.csv
+output/relationships.csv
+
+# Extracted parquet files
+output/parquet/
