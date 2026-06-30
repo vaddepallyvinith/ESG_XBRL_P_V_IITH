@@ -1,0 +1,128 @@
+{
+  "/home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/financial_dataset/TCS/XBRL/FY2021-22.xml": {
+    "hash": "6e86069308d8d4ec479d1501871c9c49",
+    "processed_at": "2026-06-30 15:56:12",
+    "metadata": {
+      "company_name": "Tata Consultancy Services Limited",
+      "report_year": "2021-04-01",
+      "fact_count": 1775
+    }
+  },
+  "/home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/financial_dataset/TCS/XBRL/FY2025-26.xml": {
+    "hash": "dd1f45fecf28870401359d377f751141",
+    "processed_at": "2026-06-30 15:56:13",
+    "metadata": {
+      "company_name": "Tata Consultancy Services Limited",
+      "report_year": "2025-04-01",
+      "fact_count": 2317
+    }
+  },
+  "/home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/financial_dataset/TCS/XBRL/FY2024-25.xml": {
+    "hash": "11b1679b8997fb23ed223741d1c000c9",
+    "processed_at": "2026-06-30 15:56:13",
+    "metadata": {
+      "company_name": "Tata Consultancy Services Limited",
+      "report_year": "2024-04-01",
+      "fact_count": 2233
+    }
+  },
+  "/home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/financial_dataset/TCS/XBRL/FY2022-23.xml": {
+    "hash": "337a05649967c9007786f4eba861d33d",
+    "processed_at": "2026-06-30 15:56:13",
+    "metadata": {
+      "company_name": "Tata Consultancy Services Limited",
+      "report_year": "2022-04-01",
+      "fact_count": 1922
+    }
+  },
+  "/home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/financial_dataset/TCS/XBRL/FY2023-24.xml": {
+    "hash": "36165ae742fa4424128c4b20fc7f7a9c",
+    "processed_at": "2026-06-30 15:56:13",
+    "metadata": {
+      "company_name": "Tata Consultancy Services Limited",
+      "report_year": "2023-04-01",
+      "fact_count": 2198
+    }
+  },
+  "/home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/financial_dataset/Reliance/XBRL/FY2022-23.xml": {
+    "hash": "a6f118d09cdaab24cd76b67e857c7afb",
+    "processed_at": "2026-06-30 15:56:14",
+    "metadata": {
+      "company_name": "Reliance Industries Limited",
+      "report_year": "2022-04-01",
+      "fact_count": 2984
+    }
+  },
+  "/home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/financial_dataset/Reliance/XBRL/FY2024-25.xml": {
+    "hash": "c47c28a3db350912cf948cfd939d8414",
+    "processed_at": "2026-06-30 15:56:14",
+    "metadata": {
+      "company_name": "Reliance Industries Limited",
+      "report_year": "2024-04-01",
+      "fact_count": 3604
+    }
+  },
+  "/home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/financial_dataset/Reliance/XBRL/FY2025-26.xml": {
+    "hash": "7890e7d729fd26a88c05a88a006385d5",
+    "processed_at": "2026-06-30 15:56:14",
+    "metadata": {
+      "company_name": "Reliance Industries Limited",
+      "report_year": "2025-04-01",
+      "fact_count": 3798
+    }
+  },
+  "/home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/financial_dataset/Reliance/XBRL/FY2023-24.xml": {
+    "hash": "15c4e898601376fb489d64339002f795",
+    "processed_at": "2026-06-30 15:56:14",
+    "metadata": {
+      "company_name": "Reliance Industries Limited",
+      "report_year": "2023-04-01",
+      "fact_count": 3538
+    }
+  },
+  "/home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/financial_dataset/Infosys/XBRL/FY2025-26.xml": {
+    "hash": "6c960f4fdca3578dc0e34aeb9a5262a9",
+    "processed_at": "2026-06-30 16:00:44",
+    "metadata": {
+      "company_name": "Infosys Limited",
+      "report_year": "2025-04-01",
+      "fact_count": 2956
+    }
+  },
+  "/home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/financial_dataset/Infosys/XBRL/FY2023-24.xml": {
+    "hash": "f88e89213c6b0a75c09874f10bdd6b1f",
+    "processed_at": "2026-06-30 16:00:45",
+    "metadata": {
+      "company_name": "Infosys Limited",
+      "report_year": "2023-04-01",
+      "fact_count": 2544
+    }
+  },
+  "/home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/financial_dataset/Infosys/XBRL/FY2024-25.xml": {
+    "hash": "b844d3bf2817141984bff930faef7284",
+    "processed_at": "2026-06-30 16:02:16",
+    "metadata": {
+      "company_name": "Infosys Limited",
+      "report_year": "2024-04-01",
+      "fact_count": 2791
+    }
+  },
+  "/home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/financial_dataset/Infosys/XBRL/FY2021-22.xml": {
+    "hash": "3d4313ff05509182c301dc044ac741bd",
+    "processed_at": "2026-06-30 16:02:20",
+    "metadata": {
+      "company_name": "Infosys Limited",
+      "report_year": "2021-04-01",
+      "fact_count": 1511
+    }
+  },
+  "/home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/financial_dataset/Infosys/XBRL/FY2022-23.xml": {
+    "hash": "e79d75c1088efdd41d02e2a9a5eee453",
+    "processed_at": "2026-06-30 16:02:21",
+    "metadata": {
+      "company_name": "Infosys Limited",
+      "report_year": "2022-04-01",
+      "fact_count": 2290
+    }
+  }
+}

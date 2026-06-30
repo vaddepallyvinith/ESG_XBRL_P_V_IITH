@@ -1,0 +1,39 @@
+{
+  "ontology_version": "1.0.0",
+  "canonical_concepts_mapped": [
+    "Scope1Emission",
+    "Scope2Emission",
+    "RenewableEnergy",
+    "WaterWithdrawal",
+    "WasteGenerated",
+    "WomenEmployees",
+    "BoardIndependence",
+    "CSRSpending"
+  ],
+  "standards_included": [
+    "BRSR",
+    "GRI",
+    "SASB",
+    "ESRS",
+    "ISSB"
+  ],
+  "nodes_count": 672,
+  "relationships_count": 3762,
+  "node_type_breakdown": {
+    "Category": 4,
+    "Standard": 5,
+    "ESGMetric;CanonicalConcept": 8,
+    "ESGMetric;FrameworkTag": 32,
+    "Company": 3,
+    "Year": 5,
+    "ESGMetric;Fact": 615
+  },
+  "relationship_type_breakdown": {
+    "BELONGS_TO": 655,
+    "MAPS_TO": 1262,
+    "REPORTS": 615,
+    "HAS_METRIC": 615,
+    "DISCLOSED_IN": 615
+  },
+  "cross_standard_mapped_tags_count": 32
+}
