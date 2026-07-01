@@ -1,0 +1,11 @@
+# XML & HTML Parsing
+lxml==6.1.1
+beautifulsoup4==4.15.0
+
+# Database & Data Processing
+duckdb==1.5.4
+pandas==3.0.3
+pyarrow==24.0.0
+
+# HTTP client for Gemini API fallback
+httpx==0.28.1
