@@ -1,0 +1,5413 @@
+{
+  "framework": "BRSR",
+  "framework_full_name": "Business Responsibility and Sustainability Report",
+  "issuer": "SEBI",
+  "company": "",
+  "fiscal_year": "Business responsibility and sustainability reporting by listed entitiesAnnexure1_p",
+  "source_file": "Business responsibility and sustainability reporting by listed entitiesAnnexure1_p.pdf",
+  "total_pages": 35,
+  "content": [],
+  "tables": [],
+  "sections": [
+    {
+      "section_id": "C",
+      "label": "SECTION A: GENERAL DISCLOSURES",
+      "page_start": 1,
+      "page_end": 5,
+      "content": [
+        "I. Details of the listed entity 1. Corporate Identity Number (CIN) of the Listed Entity 2. Name of the Listed Entity 3. Year of incorporation 4. Registered office address 5. Corporate address 6. E-mail 7. Telephone 8. Website 9. Financial year for which reporting is being done 10. Name of the Stock Exchange(s) where shares are listed 11. Paid-up Capital 12. Name and contact details (telephone, email address) of the person who may be contacted in case of any queries on the BRSR report 13. Reporting boundary - Are the disclosures under this report made on a standalone basis (i.e. only for the entity) or on a consolidated basis (i.e. for the entity and all the entities which form a part of its consolidated financial statements, taken together).",
+        "III. Operations 16. Number of locations where plants and/or operations/offices of the entity are situated: Location Number of plants Number of offices Total"
+      ],
+      "tables": [
+        {
+          "headers": [
+            "Location",
+            "Number of plants",
+            "Number of offices",
+            "Total"
+          ],
+          "rows": [
+            [
+              "National",
+              "",
+              "",
+              ""
+            ],
+            [
+              "International",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "row_count": 2,
+          "col_count": 4,
+          "page_num": 2,
+          "bbox": [
+            72.22610875179893,
+            130.77200927734376,
+            523.2400283813477,
+            208.26796875
+          ]
+        }
+      ],
+      "principles": [],
+      "disclosures": [
+        {
+          "id": "Q17",
+          "label": "17. Markets served by the entity: a. Number of locations",
+          "text": "17. Markets served by the entity: a. Number of locations",
+          "content": [
+            "Locations Number",
+            "b. What is the contribution of exports as a percentage of the total turnover of the entity?",
+            "c. A brief on types of customers"
+          ],
+          "tables": [
+            {
+              "headers": [
+                "Locations",
+                "Number"
+              ],
+              "rows": [
+                [
+                  "National (No. of States)",
+                  ""
+                ],
+                [
+                  "International (No. of Countries)",
+                  ""
+                ]
+              ],
+              "row_count": 2,
+              "col_count": 2,
+              "page_num": 2,
+              "bbox": [
+                72.22610875179893,
+                279.08998616536456,
+                523.2400283813477,
+                356.7699890136719
+              ]
+            }
+          ],
+          "page_start": 2,
+          "page_end": 2
+        },
+        {
+          "id": "Q18",
+          "label": "18. Details as at the end of Financial Year: a. Employees and workers (including differently abled):",
+          "text": "18. Details as at the end of Financial Year: a. Employees and workers (including differently abled):",
+          "content": [],
+          "tables": [],
+          "page_start": 2,
+          "page_end": 2
+        },
+        {
+          "id": "S.",
+          "label": "S.",
+          "text": "S.",
+          "content": [],
+          "tables": [
+            {
+              "headers": [
+                "S. No.",
+                "Particulars",
+                "Total (A)",
+                "Male",
+                "",
+                "Female",
+                ""
+              ],
+              "rows": [
+                [
+                  "",
+                  "",
+                  "",
+                  "No. (B)",
+                  "% (B / A)",
+                  "No. (C)",
+                  "% (C / A)"
+                ],
+                [
+                  "EMPLOYEES",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "1.",
+                  "Permanent (D)",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Other than Permanent (E)",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Total employees (D + E)",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "WORKERS",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Permanent (F)",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "5.",
+                  "Other than Permanent (G)",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "6.",
+                  "Total workers (F + G)",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              ],
+              "row_count": 9,
+              "col_count": 7,
+              "page_num": 2,
+              "bbox": [
+                72.22610875179893,
+                527.4299723307291,
+                504.48182539506394,
+                762.0060119628906
+              ]
+            }
+          ],
+          "page_start": 2,
+          "page_end": 2
+        },
+        {
+          "id": "S.",
+          "label": "S.",
+          "text": "S.",
+          "content": [],
+          "tables": [
+            {
+              "headers": [
+                "S. No",
+                "Particulars",
+                "Total (A)",
+                "Male",
+                "",
+                "Female",
+                ""
+              ],
+              "rows": [
+                [
+                  "",
+                  "",
+                  "",
+                  "No. (B)",
+                  "% (B / A)",
+                  "No. (C)",
+                  "% (C / A)"
+                ],
+                [
+                  "DIFFERENTLY ABLED EMPLOYEES",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "1.",
+                  "Permanent (D)",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Other than Permanent (E)",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Total differently abled employees (D + E)",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "DIFFERENTLY ABLED WORKERS",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Permanent (F)",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "5.",
+                  "Other than permanent (G)",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "6.",
+                  "Total differently abled workers (F + G)",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              ],
+              "row_count": 9,
+              "col_count": 7,
+              "page_num": 3,
+              "bbox": [
+                72.24218541925603,
+                101.49997965494792,
+                504.48182539506394,
+                351.4399890899658
+              ]
+            }
+          ],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Q19",
+          "label": "19. Participation/Inclusion/Representation of women",
+          "text": "19. Participation/Inclusion/Representation of women",
+          "content": [
+            "(Disclose trends for the past 3 years)"
+          ],
+          "tables": [
+            {
+              "headers": [
+                "",
+                "Total (A)",
+                "No. and percentage of Females",
+                ""
+              ],
+              "rows": [
+                [
+                  "",
+                  "",
+                  "No. (B)",
+                  "% (B / A)"
+                ],
+                [
+                  "Board of Directors",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "Key Management Personnel",
+                  "",
+                  "",
+                  ""
+                ]
+              ],
+              "row_count": 3,
+              "col_count": 4,
+              "page_num": 3,
+              "bbox": [
+                96.57784623366136,
+                419.7499809265137,
+                499.7080017089844,
+                498.3579833984375
+              ]
+            },
+            {
+              "headers": [
+                "",
+                "FY _____ (Turnover rate in current FY)",
+                "",
+                "",
+                "FY _____ (Turnover rate in previous FY)",
+                "",
+                "",
+                "FY _____ (Turnover rate in the year prior to the previous FY)",
+                "",
+                ""
+              ],
+              "rows": [
+                [
+                  "",
+                  "Male",
+                  "Female",
+                  "Total",
+                  "Male",
+                  "Female",
+                  "Total",
+                  "Male",
+                  "Female",
+                  "Total"
+                ],
+                [
+                  "Permanent Employees",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "Permanent Workers",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              ],
+              "row_count": 3,
+              "col_count": 10,
+              "page_num": 3,
+              "bbox": [
+                81.57600402832031,
+                578.661962890625,
+                513.8680419921875,
+                704.0418368252841
+              ]
+            }
+          ],
+          "page_start": 3,
+          "page_end": 4
+        },
+        {
+          "id": "Q22",
+          "label": "22. (i) Whether CSR is applicable as per section 135 of Companies Act, 2013: (Yes/No) (ii) Turnover (in Rs.) (iii) Net w",
+          "text": "22. (i) Whether CSR is applicable as per section 135 of Companies Act, 2013: (Yes/No) (ii) Turnover (in Rs.) (iii) Net worth (in Rs.)",
+          "content": [],
+          "tables": [],
+          "page_start": 4,
+          "page_end": 4
+        },
+        {
+          "id": "Q23",
+          "label": "23. Complaints/Grievances on any of the principles (Principles 1 to 9) under the National Guidelines on Responsible Busi",
+          "text": "23. Complaints/Grievances on any of the principles (Principles 1 to 9) under the National Guidelines on Responsible Business Conduct: Stakeholder",
+          "content": [],
+          "tables": [
+            {
+              "headers": [
+                "Stakeholder group from whom complaint is received",
+                "Grievance Redressal Mechanism in Place (Yes/No) (If Yes, then provide web-link for grievance redress policy)",
+                "FY _____ Current Financial Year",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "FY _____",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "rows": [
+                [
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "Previous Financial Year",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "",
+                  "",
+                  "Number of complaints filed during the year",
+                  "Number of complaints pending resolution at close of the year",
+                  "Remarks",
+                  "",
+                  "",
+                  "Number of complaints filed during the year",
+                  "",
+                  "",
+                  "Number of complaints pending resolution at close of the year",
+                  "",
+                  "",
+                  "Remarks",
+                  "",
+                  ""
+                ],
+                [
+                  "Communities",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "Investors (other than shareholders)",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              ],
+              "row_count": 4,
+              "col_count": 16,
+              "page_num": 4,
+              "bbox": [
+                53.95199813842773,
+                461.72313145228793,
+                541.338880750868,
+                763.2406193659856
+              ]
+            },
+            {
+              "headers": [
+                "Stakeholder group from whom complaint is received",
+                "Grievance Redressal Mechanism in Place (Yes/No) (If Yes, then provide web-link for grievance redress policy)",
+                "FY _____ Current Financial Year",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "FY _____",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "rows": [
+                [
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "Previous Financial Year",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "",
+                  "",
+                  "Number of complaints filed during the year",
+                  "Number of complaints pending resolution at close of the year",
+                  "Remarks",
+                  "",
+                  "",
+                  "Number of complaints filed during the year",
+                  "",
+                  "",
+                  "Number of complaints pending resolution at close of the year",
+                  "",
+                  "",
+                  "Remarks",
+                  "",
+                  ""
+                ],
+                [
+                  "Shareholders",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "Employees and workers",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "Customers",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "Value Chain Partners",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "Other (please specify)",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              ],
+              "row_count": 7,
+              "col_count": 16,
+              "page_num": 5,
+              "bbox": [
+                53.9699981212616,
+                72.27314104352679,
+                541.3233235677084,
+                472.5746037409856
+              ]
+            }
+          ],
+          "page_start": 4,
+          "page_end": 5
+        },
+        {
+          "id": "Q24",
+          "label": "24. Overview of the entity’s material responsible business conduct issues",
+          "text": "24. Overview of the entity’s material responsible business conduct issues",
+          "content": [
+            "Please indicate material responsible business conduct and sustainability issues pertaining to environmental and social matters that present a risk or an opportunity to your business, rationale for identifying the same, approach to adapt or mitigate the risk along-with its financial implications, as per the following format"
+          ],
+          "tables": [],
+          "page_start": 5,
+          "page_end": 5
+        }
+      ]
+    },
+    {
+      "section_id": "C",
+      "label": "SECTION B: MANAGEMENT AND PROCESS DISCLOSURES",
+      "page_start": 6,
+      "page_end": 7,
+      "content": [
+        "This section is aimed at helping businesses demonstrate the structures, policies and processes put in place towards adopting the NGRBC Principles and Core Elements."
+      ],
+      "tables": [
+        {
+          "headers": [
+            "",
+            "Disclosure",
+            "",
+            "",
+            "P",
+            "",
+            "",
+            "P",
+            "",
+            "",
+            "P",
+            "",
+            "",
+            "P",
+            "",
+            "",
+            "P",
+            "",
+            "",
+            "P",
+            "",
+            "",
+            "P",
+            "",
+            "",
+            "P",
+            "",
+            "",
+            "P",
+            ""
+          ],
+          "rows": [
+            [
+              "",
+              "Questions",
+              "",
+              "",
+              "1",
+              "",
+              "",
+              "2",
+              "",
+              "",
+              "3",
+              "",
+              "",
+              "4",
+              "",
+              "",
+              "5",
+              "",
+              "",
+              "6",
+              "",
+              "",
+              "7",
+              "",
+              "",
+              "8",
+              "",
+              "",
+              "9",
+              ""
+            ],
+            [
+              "Policy and management processes",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "1. a. Whether your entity’s policy/policies cover each principle and its core elements of the NGRBCs. (Yes/No)",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "b. Has the policy been approved by the Board? (Yes/No)",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "c. Web Link of the Policies, if available",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "2. Whether the entity has translated the policy into procedures. (Yes / No)",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "3. Do the enlisted policies extend to your value chain partners? (Yes/No)",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "4. Name of the national and international codes/certifications/labels/ standards (e.g. Forest Stewardship Council, Fairtrade, Rainforest Alliance, Trustea) standards (e.g. SA 8000, OHSAS, ISO, BIS) adopted by your entity and mapped to each principle.",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "5. Specific commitments, goals and targets set by the entity with defined timelines, if any.",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "6. Performance of the entity against the specific commitments, goals and targets along-with reasons in case the same are not met.",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Governance, leadership and oversight",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "7. Statement by director responsible for the business responsibility report, highlighting ESG related challenges, targets and achievements (listed entity has flexibility regarding the placement of this disclosure)",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "8. Details of the highest authority responsible for implementation and oversight of the Business Responsibility policy (ies).",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "9. Does the entity have a specified Committee of the Board/ Director responsible for decision making on sustainability related issues? (Yes / No). If yes, provide details.",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "row_count": 14,
+          "col_count": 30,
+          "page_num": 6,
+          "bbox": [
+            72.26400327682495,
+            138.28706605972783,
+            534.9400329589844,
+            703.1399739583334
+          ]
+        },
+        {
+          "headers": [
+            "10. Details of Review of NGRBCs by the Company: Subject for Review Indicate whether review was Frequency undertaken by Director / (Annually/ Half yearly/ Committee of the Board/ Quarterly/ Any other – please Any other Committee specify) P P P P P P P P P P P P P P P P P P 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 Performance against above policies and follow up action Compliance with statutory requirements of relevance to the principles, and, rectification of any non-compliances",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "",
+              "Subject for Review",
+              "Indicate whether review was undertaken by Director / Committee of the Board/ Any other Committee",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "Frequency (Annually/ Half yearly/ Quarterly/ Any other – please specify)",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "P 1",
+              "P 2",
+              "P 3",
+              "P 4",
+              "P 5",
+              "P 6",
+              "P 7",
+              "",
+              "P 8",
+              "",
+              "P 9",
+              "P 1",
+              "P 2",
+              "",
+              "P 3",
+              "",
+              "P 4",
+              "P 5",
+              "",
+              "P 6",
+              "",
+              "P 7",
+              "",
+              "P 8",
+              "P 9"
+            ],
+            [
+              "",
+              "Performance against above policies and follow up action",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "Compliance with statutory requirements of relevance to the principles, and, rectification of any non-compliances",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "11. Has the entity carried out independent assessment/ evaluation of the working of its policies by an external agency? (Yes/No). If yes, provide name of the agency.",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "P 1",
+              "",
+              "P 2",
+              "",
+              "P 3",
+              "",
+              "P 4",
+              "",
+              "P 5",
+              "",
+              "",
+              "P 6",
+              "",
+              "P 7",
+              "",
+              "P 8",
+              "",
+              "P 9"
+            ]
+          ],
+          "row_count": 5,
+          "col_count": 27,
+          "page_num": 7,
+          "bbox": [
+            72.244002978007,
+            72.1199951171875,
+            535.0000381469727,
+            407.1117997602983
+          ]
+        }
+      ],
+      "principles": [],
+      "disclosures": [
+        {
+          "id": "Q12",
+          "label": "12. If answer to question (1) above is “No” i.e. not all Principles are covered by a policy,",
+          "text": "12. If answer to question (1) above is “No” i.e. not all Principles are covered by a policy,",
+          "content": [
+            "reasons to be stated:"
+          ],
+          "tables": [
+            {
+              "headers": [
+                "Questions",
+                "",
+                "P",
+                "",
+                "P 2",
+                "",
+                "P 3",
+                "",
+                "P",
+                "",
+                "",
+                "P",
+                "",
+                "",
+                "P",
+                "",
+                "P 7",
+                "",
+                "",
+                "P",
+                "",
+                "",
+                "P",
+                ""
+              ],
+              "rows": [
+                [
+                  "",
+                  "",
+                  "1",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "4",
+                  "",
+                  "",
+                  "5",
+                  "",
+                  "",
+                  "6",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "8",
+                  "",
+                  "",
+                  "9",
+                  ""
+                ],
+                [
+                  "The entity does not consider the Principles material to its business (Yes/No)",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "The entity is not at a stage where it is in a position to formulate and implement the policies on specified principles (Yes/No)",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "The entity does not have the financial or/human and technical resources available for the task (Yes/No)",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "It is planned to be done in the next financial year (Yes/No)",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "Any other reason (please specify)",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              ],
+              "row_count": 6,
+              "col_count": 24,
+              "page_num": 7,
+              "bbox": [
+                72.244002978007,
+                471.57398681640626,
+                523.1800231933594,
+                716.1618319424716
+              ]
+            }
+          ],
+          "page_start": 7,
+          "page_end": 7
+        }
+      ]
+    },
+    {
+      "section_id": "C",
+      "label": "SECTION C: PRINCIPLE WISE PERFORMANCE DISCLOSURE",
+      "page_start": 8,
+      "page_end": 35,
+      "content": [],
+      "tables": [],
+      "principles": [
+        {
+          "principle_num": 2,
+          "label": "Principle2",
+          "text": "PRINCIPLE 2 Businesses should provide goods and services in a manner that is sustainable and safe",
+          "page_start": 11,
+          "page_end": 12,
+          "content": [],
+          "tables": [],
+          "indicator_groups": [
+            {
+              "group_type": "Essential",
+              "page_start": 11,
+              "page_end": 11,
+              "content": [],
+              "tables": [],
+              "disclosures": [
+                {
+                  "id": "Q1",
+                  "label": "1. Percentage of R&D and capital expenditure (capex) investments in specific technologies",
+                  "text": "1. Percentage of R&D and capital expenditure (capex) investments in specific technologies",
+                  "content": [
+                    "to improve the environmental and social impacts of product and processes to total R&D and capex investments made by the entity, respectively."
+                  ],
+                  "tables": [
+                    {
+                      "headers": [
+                        "",
+                        "Current Financial Year",
+                        "Previous Financial Year",
+                        "Details of improvements in environmental and social impacts"
+                      ],
+                      "rows": [
+                        [
+                          "R&D",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Capex",
+                          "",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 2,
+                      "col_count": 4,
+                      "page_num": 11,
+                      "bbox": [
+                        93.26400375366211,
+                        207.02001953125,
+                        517.5399780273438,
+                        330.4099884033203
+                      ]
+                    }
+                  ],
+                  "page_start": 11,
+                  "page_end": 11
+                },
+                {
+                  "id": "Q2",
+                  "label": "2. a. Does the entity have procedures in place for sustainable sourcing? (Yes/No)",
+                  "text": "2. a. Does the entity have procedures in place for sustainable sourcing? (Yes/No)",
+                  "content": [
+                    "b. If yes, what percentage of inputs were sourced sustainably? 3. Describe the processes in place to safely reclaim your products for reusing, recycling and",
+                    "disposing at the end of life, for (a) Plastics (including packaging) (b) E-waste (c) Hazardous waste and (d) other waste. 4. Whether Extended Producer Responsibility (EPR) is applicable to the entity’s activities",
+                    "(Yes / No). If yes, whether the waste collection plan is in line with the Extended Producer Responsibility (EPR) plan submitted to Pollution Control Boards? If not, provide steps taken to address the same."
+                  ],
+                  "tables": [],
+                  "page_start": 11,
+                  "page_end": 11
+                }
+              ]
+            },
+            {
+              "group_type": "Leadership",
+              "page_start": 11,
+              "page_end": 12,
+              "content": [],
+              "tables": [],
+              "disclosures": [
+                {
+                  "id": "Q1",
+                  "label": "1. Has the entity conducted Life Cycle Perspective / Assessments (LCA) for any of its",
+                  "text": "1. Has the entity conducted Life Cycle Perspective / Assessments (LCA) for any of its",
+                  "content": [
+                    "products (for manufacturing industry) or for its services (for service industry)? If yes, provide details in the following format? NIC Code"
+                  ],
+                  "tables": [],
+                  "page_start": 11,
+                  "page_end": 11
+                },
+                {
+                  "id": "Q2",
+                  "label": "2. If there are any significant social or environmental concerns and/or risks arising from",
+                  "text": "2. If there are any significant social or environmental concerns and/or risks arising from",
+                  "content": [
+                    "production or disposal of your products / services, as identified in the Life Cycle Perspective / Assessments (LCA) or through any other means, briefly describe the same along-with action taken to mitigate the same."
+                  ],
+                  "tables": [],
+                  "page_start": 12,
+                  "page_end": 12
+                },
+                {
+                  "id": "Q3",
+                  "label": "3. Percentage of recycled or reused input material to total material (by value) used in",
+                  "text": "3. Percentage of recycled or reused input material to total material (by value) used in",
+                  "content": [
+                    "production (for manufacturing industry) or providing services (for service industry)."
+                  ],
+                  "tables": [
+                    {
+                      "headers": [
+                        "Indicate input material",
+                        "Recycled or re-used input material to total material",
+                        ""
+                      ],
+                      "rows": [
+                        [
+                          "",
+                          "FY _____ Current Financial Year",
+                          "FY _____ Previous Financial Year"
+                        ]
+                      ],
+                      "row_count": 1,
+                      "col_count": 3,
+                      "page_num": 12,
+                      "bbox": [
+                        100.66571753365653,
+                        335.6899871826172,
+                        517.6708984375,
+                        399.8899841308594
+                      ]
+                    }
+                  ],
+                  "page_start": 12,
+                  "page_end": 12
+                },
+                {
+                  "id": "Q4",
+                  "label": "4. Of the products and packaging reclaimed at end of life of products, amount (in metric",
+                  "text": "4. Of the products and packaging reclaimed at end of life of products, amount (in metric",
+                  "content": [
+                    "tonnes) reused, recycled, and safely disposed, as per the following format:"
+                  ],
+                  "tables": [
+                    {
+                      "headers": [
+                        "",
+                        "FY _____ Current Financial Year",
+                        "",
+                        "",
+                        "FY _____ Previous Financial Year",
+                        "",
+                        ""
+                      ],
+                      "rows": [
+                        [
+                          "",
+                          "Re-Used",
+                          "Recycled",
+                          "Safely Disposed",
+                          "Re-Used",
+                          "Recycled",
+                          "Safely Disposed"
+                        ],
+                        [
+                          "Plastics (including packaging)",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "E-waste",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Hazardous waste",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Other waste",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 5,
+                      "col_count": 7,
+                      "page_num": 12,
+                      "bbox": [
+                        77.90400314331055,
+                        458.92999267578125,
+                        517.6708984375,
+                        646.989990234375
+                      ]
+                    }
+                  ],
+                  "page_start": 12,
+                  "page_end": 12
+                },
+                {
+                  "id": "Q5",
+                  "label": "5. Reclaimed products and their packaging materials (as percentage of products sold) for",
+                  "text": "5. Reclaimed products and their packaging materials (as percentage of products sold) for",
+                  "content": [
+                    "each product category."
+                  ],
+                  "tables": [],
+                  "page_start": 12,
+                  "page_end": 12
+                }
+              ]
+            }
+          ],
+          "disclosures": []
+        },
+        {
+          "principle_num": 3,
+          "label": "Principle3",
+          "text": "PRINCIPLE 3 Businesses should respect and promote the well-being of all employees, including those in their value chains",
+          "page_start": 13,
+          "page_end": 17,
+          "content": [],
+          "tables": [],
+          "indicator_groups": [
+            {
+              "group_type": "Essential",
+              "page_start": 13,
+              "page_end": 16,
+              "content": [
+                "b. Details of measures for the well-being of workers:"
+              ],
+              "tables": [
+                {
+                  "headers": [
+                    "Category",
+                    "% of employees covered by",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "rows": [
+                    [
+                      "",
+                      "Total (A)",
+                      "Health insurance",
+                      "",
+                      "Accident insurance",
+                      "",
+                      "Maternity benefits",
+                      "",
+                      "Paternity Benefits",
+                      "",
+                      "Day Care facilities",
+                      ""
+                    ],
+                    [
+                      "",
+                      "",
+                      "Number (B)",
+                      "% (B / A)",
+                      "Number (C)",
+                      "% (C / A)",
+                      "Number (D)",
+                      "% (D / A)",
+                      "Number (E)",
+                      "% (E / A)",
+                      "Number (F)",
+                      "% (F / A)"
+                    ],
+                    [
+                      "Permanent employees",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Male",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Female",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Total",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Other than Permanent employees",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Male",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Female",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Total",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  ],
+                  "row_count": 10,
+                  "col_count": 12,
+                  "page_num": 13,
+                  "bbox": [
+                    77.90400314331055,
+                    190.82000732421875,
+                    517.5399780273438,
+                    371.9299774169922
+                  ]
+                },
+                {
+                  "headers": [
+                    "Category",
+                    "% of workers covered by",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "rows": [
+                    [
+                      "",
+                      "Total (A)",
+                      "Health insurance",
+                      "",
+                      "Accident insurance",
+                      "",
+                      "Maternity benefits",
+                      "",
+                      "Paternity Benefits",
+                      "",
+                      "Day Care facilities",
+                      ""
+                    ],
+                    [
+                      "",
+                      "",
+                      "Number (B)",
+                      "% (B / A)",
+                      "Number (C)",
+                      "% (C / A)",
+                      "Number (D)",
+                      "% (D / A)",
+                      "Number (E)",
+                      "% (E / A)",
+                      "Number (F)",
+                      "% (F / A)"
+                    ],
+                    [
+                      "Permanent workers",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Male",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Female",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Total",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Other than Permanent workers",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Male",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Female",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Total",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  ],
+                  "row_count": 10,
+                  "col_count": 12,
+                  "page_num": 13,
+                  "bbox": [
+                    77.90400314331055,
+                    413.6899871826172,
+                    517.5399780273438,
+                    594.7899780273438
+                  ]
+                },
+                {
+                  "headers": [
+                    "Benefits",
+                    "FY _____ Current Financial Year",
+                    "",
+                    "",
+                    "FY _____ Previous Financial Year",
+                    "",
+                    ""
+                  ],
+                  "rows": [
+                    [
+                      "",
+                      "No. of employees covered as a % of total employees",
+                      "No. of workers covered as a % of total workers",
+                      "Deducted and deposited with the authority (Y/N/N.A.)",
+                      "No. of employees covered as a % of total employees",
+                      "No. of workers covered as a % of total workers",
+                      "Deducted and deposited with the authority (Y/N/N.A.)"
+                    ],
+                    [
+                      "PF",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  ],
+                  "row_count": 2,
+                  "col_count": 7,
+                  "page_num": 13,
+                  "bbox": [
+                    77.90400314331055,
+                    639.0700073242188,
+                    517.5399780273438,
+                    767.1493157280815
+                  ]
+                },
+                {
+                  "headers": [
+                    "Gratuity",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "rows": [
+                    [
+                      "ESI",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Others – please specify",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  ],
+                  "row_count": 2,
+                  "col_count": 7,
+                  "page_num": 14,
+                  "bbox": [
+                    77.90400314331055,
+                    72.58664279513889,
+                    517.5399780273438,
+                    140.77996826171875
+                  ]
+                }
+              ],
+              "disclosures": [
+                {
+                  "id": "Q3",
+                  "label": "3. Accessibility of workplaces",
+                  "text": "3. Accessibility of workplaces",
+                  "content": [
+                    "Are the premises / offices of the entity accessible to differently abled employees and workers, as per the requirements of the Rights of Persons with Disabilities Act, 2016? If not, whether any steps are being taken by the entity in this regard."
+                  ],
+                  "tables": [],
+                  "page_start": 14,
+                  "page_end": 14
+                },
+                {
+                  "id": "Q4",
+                  "label": "4. Does the entity have an equal opportunity policy as per the Rights of Persons with",
+                  "text": "4. Does the entity have an equal opportunity policy as per the Rights of Persons with",
+                  "content": [
+                    "Disabilities Act, 2016? If so, provide a web-link to the policy. 5. Return to work and Retention rates of permanent employees and workers that took",
+                    "parental leave."
+                  ],
+                  "tables": [
+                    {
+                      "headers": [
+                        "",
+                        "Permanent employees",
+                        "",
+                        "Permanent workers",
+                        ""
+                      ],
+                      "rows": [
+                        [
+                          "Gender",
+                          "Return to work rate",
+                          "Retention rate",
+                          "Return to work rate",
+                          "Retention rate"
+                        ],
+                        [
+                          "Male",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Female",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 4,
+                      "col_count": 5,
+                      "page_num": 14,
+                      "bbox": [
+                        93.26400375366211,
+                        331.489990234375,
+                        517.5399780273438,
+                        427.489990234375
+                      ]
+                    }
+                  ],
+                  "page_start": 14,
+                  "page_end": 14
+                },
+                {
+                  "id": "Q6",
+                  "label": "6. Is there a mechanism available to receive and redress grievances for the following",
+                  "text": "6. Is there a mechanism available to receive and redress grievances for the following",
+                  "content": [
+                    "listed entity: Category FY _____"
+                  ],
+                  "tables": [
+                    {
+                      "headers": [
+                        "",
+                        "Yes/No (If Yes, then give details of the mechanism in brief)"
+                      ],
+                      "rows": [
+                        [
+                          "Permanent Workers",
+                          ""
+                        ],
+                        [
+                          "Other than Permanent Workers",
+                          ""
+                        ],
+                        [
+                          "Permanent Employees",
+                          ""
+                        ],
+                        [
+                          "Other than Permanent Employees",
+                          ""
+                        ]
+                      ],
+                      "row_count": 4,
+                      "col_count": 2,
+                      "page_num": 14,
+                      "bbox": [
+                        77.90400314331055,
+                        471.9099884033203,
+                        517.5399780273438,
+                        567.4299926757812
+                      ]
+                    },
+                    {
+                      "headers": [
+                        "Category",
+                        "FY _____ (Current Financial Year)",
+                        "",
+                        "",
+                        "FY _____ (Previous Financial Year)",
+                        "",
+                        ""
+                      ],
+                      "rows": [
+                        [
+                          "",
+                          "Total employees / workers in respective category (A)",
+                          "No. of employees / workers in respective category, who are part of association(s) or Union (B)",
+                          "% (B / A)",
+                          "Total employees / workers in respective category (C)",
+                          "No. of employees / workers in respective category, who are part of association(s) or Union (D)",
+                          "% (D / C)"
+                        ]
+                      ],
+                      "row_count": 1,
+                      "col_count": 7,
+                      "page_num": 14,
+                      "bbox": [
+                        77.90400314331055,
+                        641.1099853515625,
+                        517.5399780273438,
+                        768.2293362087673
+                      ]
+                    },
+                    {
+                      "headers": [
+                        "Total Permanent Employees",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "rows": [
+                        [
+                          "- Male",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "- Female",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total Permanent Workers",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "- Male",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "- Female",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 5,
+                      "col_count": 7,
+                      "page_num": 15,
+                      "bbox": [
+                        77.90400314331055,
+                        72.58664279513889,
+                        517.5399780273438,
+                        208.82000732421875
+                      ]
+                    },
+                    {
+                      "headers": [
+                        "Category",
+                        "FY _____ Current Financial Year",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "FY _____ Previous Financial Year",
+                        "",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "rows": [
+                        [
+                          "",
+                          "Total (A)",
+                          "On Health and safety measures",
+                          "",
+                          "On Skill upgradation",
+                          "",
+                          "Total (D)",
+                          "On Health and safety measures",
+                          "",
+                          "On Skill upgradation",
+                          ""
+                        ],
+                        [
+                          "",
+                          "",
+                          "No. (B)",
+                          "% (B / A)",
+                          "No. (C)",
+                          "% (C / A)",
+                          "",
+                          "No. (E)",
+                          "% (E / D)",
+                          "No. (F)",
+                          "% (F / D)"
+                        ],
+                        [
+                          "Employees",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Male",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Female",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Workers",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Male",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Female",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 10,
+                      "col_count": 11,
+                      "page_num": 15,
+                      "bbox": [
+                        77.90400314331055,
+                        238.58001708984375,
+                        517.5399780273438,
+                        433.84999084472656
+                      ]
+                    },
+                    {
+                      "headers": [
+                        "Category",
+                        "FY _____ Current Financial Year",
+                        "",
+                        "",
+                        "FY _____ Previous Financial Year",
+                        "",
+                        ""
+                      ],
+                      "rows": [
+                        [
+                          "",
+                          "Total (A)",
+                          "No. (B)",
+                          "% (B / A)",
+                          "Total (C)",
+                          "No. (D)",
+                          "% (D / C)"
+                        ],
+                        [
+                          "Employees",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Male",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Female",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Workers",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Male",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Female",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 9,
+                      "col_count": 7,
+                      "page_num": 15,
+                      "bbox": [
+                        77.90400314331055,
+                        463.6099853515625,
+                        517.5399780273438,
+                        637.0299682617188
+                      ]
+                    }
+                  ],
+                  "page_start": 14,
+                  "page_end": 15
+                },
+                {
+                  "id": "Q10",
+                  "label": "10. Health and safety management system:",
+                  "text": "10. Health and safety management system:",
+                  "content": [
+                    "a. Whether an occupational health and safety management system has been",
+                    "implemented by the entity? (Yes/ No). If yes, the coverage such system? b. What are the processes used to identify work-related hazards and assess risks on a",
+                    "routine and non-routine basis by the entity? c. Whether you have processes for workers to report the work related hazards and to",
+                    "remove themselves from such risks. (Y/N)",
+                    "and healthcare services? (Yes/ No) 11. Details of safety related incidents, in the following format:"
+                  ],
+                  "tables": [
+                    {
+                      "headers": [
+                        "Safety Incident/Number",
+                        "Category",
+                        "FY _____ Current Financial Year",
+                        "FY _____ Previous Financial Year"
+                      ],
+                      "rows": [
+                        [
+                          "Lost Time Injury Frequency Rate (LTIFR) (per one million-person hours worked)",
+                          "Employees",
+                          "",
+                          ""
+                        ],
+                        [
+                          "",
+                          "Workers",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total recordable work-related injuries",
+                          "Employees",
+                          "",
+                          ""
+                        ],
+                        [
+                          "",
+                          "Workers",
+                          "",
+                          ""
+                        ],
+                        [
+                          "No. of fatalities",
+                          "Employees",
+                          "",
+                          ""
+                        ],
+                        [
+                          "",
+                          "Workers",
+                          "",
+                          ""
+                        ],
+                        [
+                          "High consequence work-related injury or ill-health (excluding fatalities)",
+                          "Employees",
+                          "",
+                          ""
+                        ],
+                        [
+                          "",
+                          "Workers",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 8,
+                      "col_count": 4,
+                      "page_num": 16,
+                      "bbox": [
+                        77.90400314331055,
+                        145.94000244140625,
+                        517.5399780273438,
+                        344.08998107910156
+                      ]
+                    }
+                  ],
+                  "page_start": 15,
+                  "page_end": 16
+                },
+                {
+                  "id": "Q12",
+                  "label": "12. Describe the measures taken by the entity to ensure a safe and healthy work place.",
+                  "text": "12. Describe the measures taken by the entity to ensure a safe and healthy work place.",
+                  "content": [],
+                  "tables": [
+                    {
+                      "headers": [
+                        "",
+                        "FY _____ (Current Financial Year)",
+                        "",
+                        "",
+                        "FY _____ (Previous Financial Year)",
+                        "",
+                        ""
+                      ],
+                      "rows": [
+                        [
+                          "",
+                          "Filed during the year",
+                          "Pending resolution at the end of year",
+                          "Remarks",
+                          "Filed during the year",
+                          "Pending resolution at the end of year",
+                          "Remarks"
+                        ],
+                        [
+                          "Working Conditions",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Health & Safety",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 3,
+                      "col_count": 7,
+                      "page_num": 16,
+                      "bbox": [
+                        77.90400314331055,
+                        403.12998962402344,
+                        517.5399780273438,
+                        570.3099975585938
+                      ]
+                    }
+                  ],
+                  "page_start": 16,
+                  "page_end": 16
+                },
+                {
+                  "id": "Q14",
+                  "label": "14. Assessments for the year:",
+                  "text": "14. Assessments for the year:",
+                  "content": [
+                    "incidents (if any) and on significant risks / concerns arising from assessments of health & safety practices and working conditions."
+                  ],
+                  "tables": [
+                    {
+                      "headers": [
+                        "",
+                        "% of your plants and offices that were assessed (by entity or statutory authorities or third parties)"
+                      ],
+                      "rows": [
+                        [
+                          "Health and safety practices",
+                          ""
+                        ],
+                        [
+                          "Working Conditions",
+                          ""
+                        ]
+                      ],
+                      "row_count": 2,
+                      "col_count": 2,
+                      "page_num": 16,
+                      "bbox": [
+                        77.90400314331055,
+                        602.22998046875,
+                        517.5399780273438,
+                        656.97998046875
+                      ]
+                    }
+                  ],
+                  "page_start": 16,
+                  "page_end": 16
+                }
+              ]
+            },
+            {
+              "group_type": "Leadership",
+              "page_start": 17,
+              "page_end": 17,
+              "content": [
+                "death of (A) Employees (Y/N) (B) Workers (Y/N). 2. Provide the measures undertaken by the entity to ensure that statutory dues have been",
+                "deducted and deposited by the value chain partners."
+              ],
+              "tables": [],
+              "disclosures": []
+            },
+            {
+              "group_type": "Essential",
+              "page_start": 17,
+              "page_end": 17,
+              "content": [],
+              "tables": [
+                {
+                  "headers": [
+                    "",
+                    "Total no. of affected employees/ workers",
+                    "",
+                    "No. of employees/workers that are rehabilitated and placed in suitable employment or whose family members have been placed in suitable employment",
+                    ""
+                  ],
+                  "rows": [
+                    [
+                      "",
+                      "FY _____ (Current Financial Year)",
+                      "FY _____ (Previous Financial Year)",
+                      "FY _____ (Current Financial Year)",
+                      "FY _____ (Previous Financial Year)"
+                    ],
+                    [
+                      "Employees",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Workers",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  ],
+                  "row_count": 3,
+                  "col_count": 5,
+                  "page_num": 17,
+                  "bbox": [
+                    77.90400314331055,
+                    248.77996826171875,
+                    517.5399780273438,
+                    403.84999084472656
+                  ]
+                }
+              ],
+              "disclosures": [
+                {
+                  "id": "Q4",
+                  "label": "4. Does the entity provide transition assistance programs to facilitate continued",
+                  "text": "4. Does the entity provide transition assistance programs to facilitate continued",
+                  "content": [
+                    "employability and the management of career endings resulting from retirement or termination of employment? (Yes/ No) 5. Details on assessment of value chain partners:",
+                    "concerns arising from assessments of health and safety practices and working conditions of value chain partners."
+                  ],
+                  "tables": [
+                    {
+                      "headers": [
+                        "",
+                        "% of value chain partners (by value of business done with such partners) that were assessed"
+                      ],
+                      "rows": [
+                        [
+                          "Health and safety practices",
+                          ""
+                        ],
+                        [
+                          "Working Conditions",
+                          ""
+                        ]
+                      ],
+                      "row_count": 2,
+                      "col_count": 2,
+                      "page_num": 17,
+                      "bbox": [
+                        77.90400314331055,
+                        489.42999267578125,
+                        517.5399780273438,
+                        544.1499633789062
+                      ]
+                    }
+                  ],
+                  "page_start": 17,
+                  "page_end": 17
+                }
+              ]
+            }
+          ],
+          "disclosures": []
+        },
+        {
+          "principle_num": 4,
+          "label": "Principle4",
+          "text": "PRINCIPLE 4: Businesses should respect the interests of and be responsive to all its stakeholders",
+          "page_start": 18,
+          "page_end": 18,
+          "content": [],
+          "tables": [],
+          "indicator_groups": [
+            {
+              "group_type": "Essential",
+              "page_start": 18,
+              "page_end": 18,
+              "content": [],
+              "tables": [],
+              "disclosures": [
+                {
+                  "id": "Q1",
+                  "label": "1. Describe the processes for identifying key stakeholder groups of the entity.",
+                  "text": "1. Describe the processes for identifying key stakeholder groups of the entity.",
+                  "content": [],
+                  "tables": [],
+                  "page_start": 18,
+                  "page_end": 18
+                },
+                {
+                  "id": "Q2",
+                  "label": "2. List stakeholder groups identified as key for your entity and the frequency of",
+                  "text": "2. List stakeholder groups identified as key for your entity and the frequency of",
+                  "content": [
+                    "engagement with each stakeholder group."
+                  ],
+                  "tables": [],
+                  "page_start": 18,
+                  "page_end": 18
+                }
+              ]
+            },
+            {
+              "group_type": "Leadership",
+              "page_start": 18,
+              "page_end": 18,
+              "content": [],
+              "tables": [],
+              "disclosures": [
+                {
+                  "id": "Q1",
+                  "label": "1. Provide the processes for consultation between stakeholders and the Board on",
+                  "text": "1. Provide the processes for consultation between stakeholders and the Board on",
+                  "content": [
+                    "economic, environmental, and social topics or if consultation is delegated, how is feedback from such consultations provided to the Board. 2. Whether stakeholder consultation is used to support the identification and",
+                    "management of environmental, and social topics (Yes / No). If so, provide details of instances as to how the inputs received from stakeholders on these topics were incorporated into policies and activities of the entity. 3. Provide details of instances of engagement with, and actions taken to, address the",
+                    "concerns of vulnerable/ marginalized stakeholder groups."
+                  ],
+                  "tables": [],
+                  "page_start": 18,
+                  "page_end": 18
+                }
+              ]
+            }
+          ],
+          "disclosures": []
+        },
+        {
+          "principle_num": 5,
+          "label": "Principle5",
+          "text": "PRINCIPLE 5 Businesses should respect and promote human rights",
+          "page_start": 19,
+          "page_end": 21,
+          "content": [],
+          "tables": [],
+          "indicator_groups": [
+            {
+              "group_type": "Essential",
+              "page_start": 19,
+              "page_end": 21,
+              "content": [
+                "policy(ies) of the entity, in the following format: Category FY _____",
+                "Category FY _____",
+                "Male Female"
+              ],
+              "tables": [
+                {
+                  "headers": [
+                    "Category",
+                    "FY _____ Current Financial Year",
+                    "",
+                    "",
+                    "FY _____ Previous Financial Year",
+                    "",
+                    ""
+                  ],
+                  "rows": [
+                    [
+                      "",
+                      "Total (A)",
+                      "No. of employees / workers covered (B)",
+                      "% (B / A)",
+                      "Total (C)",
+                      "No. of employees / workers covered (D)",
+                      "% (D / C)"
+                    ],
+                    [
+                      "Employees",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Permanent",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Other than permanent",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Total Employees",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Workers",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Permanent",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Other than permanent",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Total Workers",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  ],
+                  "row_count": 9,
+                  "col_count": 7,
+                  "page_num": 19,
+                  "bbox": [
+                    77.90400314331055,
+                    179.05999755859375,
+                    517.5399780273438,
+                    389.8099822998047
+                  ]
+                },
+                {
+                  "headers": [
+                    "Category",
+                    "FY _____ Current Financial Year",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "FY _____ Previous Financial Year",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "rows": [
+                    [
+                      "",
+                      "Total (A)",
+                      "Equal to Minimum Wage",
+                      "",
+                      "More than Minimum Wage",
+                      "",
+                      "Total (D)",
+                      "Equal to Minimum Wage",
+                      "",
+                      "More than Minimum Wage",
+                      ""
+                    ],
+                    [
+                      "",
+                      "",
+                      "No. (B)",
+                      "% (B / A)",
+                      "No. (C)",
+                      "% (C / A)",
+                      "",
+                      "No. (E)",
+                      "% (E / D)",
+                      "No. (F)",
+                      "% (F / D)"
+                    ],
+                    [
+                      "Employees",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Permanent",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Male",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Female",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Other than Permanent",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Male",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Female",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Workers",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Permanent",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Male",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Female",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Other than Permanent",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Male",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Female",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  ],
+                  "row_count": 16,
+                  "col_count": 11,
+                  "page_num": 19,
+                  "bbox": [
+                    77.90400314331055,
+                    434.08998107910156,
+                    517.5399780273438,
+                    738.8199768066406
+                  ]
+                }
+              ],
+              "disclosures": [
+                {
+                  "id": "Q3",
+                  "label": "3. Details of remuneration/salary/wages, in the following format:",
+                  "text": "3. Details of remuneration/salary/wages, in the following format:",
+                  "content": [
+                    "Workers"
+                  ],
+                  "tables": [
+                    {
+                      "headers": [
+                        "",
+                        "Male",
+                        "",
+                        "Female",
+                        ""
+                      ],
+                      "rows": [
+                        [
+                          "",
+                          "Number",
+                          "Median remuneration/ salary/ wages of respective category",
+                          "Number",
+                          "Median remuneration/ salary/ wages of respective category"
+                        ],
+                        [
+                          "Board of Directors (BoD)",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Key Managerial Personnel",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Employees other than BoD and KMP",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Workers",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 5,
+                      "col_count": 5,
+                      "page_num": 20,
+                      "bbox": [
+                        77.90400314331055,
+                        102.02001953125,
+                        517.5399780273438,
+                        260.65997314453125
+                      ]
+                    }
+                  ],
+                  "page_start": 20,
+                  "page_end": 20
+                },
+                {
+                  "id": "Q4",
+                  "label": "4. Do you have a focal point (Individual/ Committee) responsible for addressing human",
+                  "text": "4. Do you have a focal point (Individual/ Committee) responsible for addressing human",
+                  "content": [
+                    "rights impacts or issues caused or contributed to by the business? (Yes/No) 5. Describe the internal mechanisms in place to redress grievances related to human rights",
+                    "issues."
+                  ],
+                  "tables": [
+                    {
+                      "headers": [
+                        "",
+                        "FY _____ Current Financial Year",
+                        "",
+                        "",
+                        "FY _____ Previous Financial Year",
+                        "",
+                        ""
+                      ],
+                      "rows": [
+                        [
+                          "",
+                          "Filed during the year",
+                          "Pending resolution at the end of year",
+                          "Remarks",
+                          "Filed during the year",
+                          "Pending resolution at the end of year",
+                          "Remarks"
+                        ],
+                        [
+                          "Sexual Harassment",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Discrimination at workplace",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Child Labour",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Forced Labour/Involuntary Labour",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Wages",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Other human rights related issues",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 7,
+                      "col_count": 7,
+                      "page_num": 20,
+                      "bbox": [
+                        77.90400314331055,
+                        378.16998291015625,
+                        517.5399780273438,
+                        653.8299560546875
+                      ]
+                    }
+                  ],
+                  "page_start": 20,
+                  "page_end": 20
+                },
+                {
+                  "id": "Q7",
+                  "label": "7. Mechanisms to prevent adverse consequences to the complainant in discrimination and",
+                  "text": "7. Mechanisms to prevent adverse consequences to the complainant in discrimination and",
+                  "content": [
+                    "harassment cases."
+                  ],
+                  "tables": [],
+                  "page_start": 20,
+                  "page_end": 20
+                },
+                {
+                  "id": "Q8",
+                  "label": "8. Do human rights requirements form part of your business agreements and contracts?",
+                  "text": "8. Do human rights requirements form part of your business agreements and contracts?",
+                  "content": [],
+                  "tables": [],
+                  "page_start": 20,
+                  "page_end": 20
+                },
+                {
+                  "id": "Q9",
+                  "label": "9. Assessments for the year:",
+                  "text": "9. Assessments for the year:",
+                  "content": [
+                    "concerns arising from the assessments at Question 9 above."
+                  ],
+                  "tables": [
+                    {
+                      "headers": [
+                        "",
+                        "% of your plants and offices that were assessed (by entity or statutory authorities or third parties)"
+                      ],
+                      "rows": [
+                        [
+                          "Child labour",
+                          ""
+                        ],
+                        [
+                          "Forced/involuntary labour",
+                          ""
+                        ],
+                        [
+                          "Sexual harassment",
+                          ""
+                        ],
+                        [
+                          "Discrimination at workplace",
+                          ""
+                        ],
+                        [
+                          "Wages",
+                          ""
+                        ],
+                        [
+                          "Others – please specify",
+                          ""
+                        ]
+                      ],
+                      "row_count": 6,
+                      "col_count": 2,
+                      "page_num": 21,
+                      "bbox": [
+                        77.90400314331055,
+                        87.3599853515625,
+                        517.5399780273438,
+                        197.29998779296875
+                      ]
+                    }
+                  ],
+                  "page_start": 21,
+                  "page_end": 21
+                }
+              ]
+            },
+            {
+              "group_type": "Leadership",
+              "page_start": 21,
+              "page_end": 21,
+              "content": [],
+              "tables": [],
+              "disclosures": [
+                {
+                  "id": "Q1",
+                  "label": "1. Details of a business process being modified / introduced as a result of addressing",
+                  "text": "1. Details of a business process being modified / introduced as a result of addressing",
+                  "content": [
+                    "human rights grievances/complaints."
+                  ],
+                  "tables": [],
+                  "page_start": 21,
+                  "page_end": 21
+                },
+                {
+                  "id": "Q2",
+                  "label": "2. Details of the scope and coverage of any Human rights due-diligence conducted.",
+                  "text": "2. Details of the scope and coverage of any Human rights due-diligence conducted.",
+                  "content": [],
+                  "tables": [],
+                  "page_start": 21,
+                  "page_end": 21
+                },
+                {
+                  "id": "Q3",
+                  "label": "3. Is the premise/office of the entity accessible to differently abled visitors, as per the",
+                  "text": "3. Is the premise/office of the entity accessible to differently abled visitors, as per the",
+                  "content": [
+                    "requirements of the Rights of Persons with Disabilities Act, 2016? 4. Details on assessment of value chain partners:",
+                    "concerns arising from the assessments at Question 4 above."
+                  ],
+                  "tables": [
+                    {
+                      "headers": [
+                        "",
+                        "% of value chain partners (by value of business done with such partners) that were assessed"
+                      ],
+                      "rows": [
+                        [
+                          "Sexual Harassment",
+                          ""
+                        ],
+                        [
+                          "Discrimination at workplace",
+                          ""
+                        ],
+                        [
+                          "Child Labour",
+                          ""
+                        ],
+                        [
+                          "Forced Labour/Involuntary Labour",
+                          ""
+                        ],
+                        [
+                          "Wages",
+                          ""
+                        ],
+                        [
+                          "Others – please specify",
+                          ""
+                        ]
+                      ],
+                      "row_count": 6,
+                      "col_count": 2,
+                      "page_num": 21,
+                      "bbox": [
+                        77.90400314331055,
+                        438.16998291015625,
+                        517.5399780273438,
+                        548.1099853515625
+                      ]
+                    }
+                  ],
+                  "page_start": 21,
+                  "page_end": 21
+                }
+              ]
+            }
+          ],
+          "disclosures": []
+        },
+        {
+          "principle_num": 6,
+          "label": "Principle6",
+          "text": "PRINCIPLE 6: Businesses should respect and make efforts to protect and restore the environment",
+          "page_start": 22,
+          "page_end": 30,
+          "content": [],
+          "tables": [],
+          "indicator_groups": [
+            {
+              "group_type": "Essential",
+              "page_start": 22,
+              "page_end": 26,
+              "content": [],
+              "tables": [],
+              "disclosures": [
+                {
+                  "id": "Q1",
+                  "label": "1. Details of total energy consumption (in Joules or multiples) and energy intensity, in the",
+                  "text": "1. Details of total energy consumption (in Joules or multiples) and energy intensity, in the",
+                  "content": [
+                    "following format:",
+                    "Note: Indicate if any independent assessment/ evaluation/assurance has been carried out by an external",
+                    "agency? (Y/N) If yes, name of the external agency."
+                  ],
+                  "tables": [
+                    {
+                      "headers": [
+                        "Parameter",
+                        "FY _____ (Current Financial Year)",
+                        "FY ______ (Previous Financial Year)"
+                      ],
+                      "rows": [
+                        [
+                          "Total electricity consumption (A)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total fuel consumption (B)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Energy consumption through other sources (C)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total energy consumption (A+B+C)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Energy intensity per rupee of turnover (Total energy consumption/ turnover in rupees)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Energy intensity (optional) – the relevant metric may be selected by the entity",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 6,
+                      "col_count": 3,
+                      "page_num": 22,
+                      "bbox": [
+                        72.22036708484997,
+                        218.3599853515625,
+                        523.2236633300781,
+                        508.0899848937988
+                      ]
+                    }
+                  ],
+                  "page_start": 22,
+                  "page_end": 22
+                },
+                {
+                  "id": "Q2",
+                  "label": "2. Does the entity have any sites / facilities identified as designated consumers (DCs) under",
+                  "text": "2. Does the entity have any sites / facilities identified as designated consumers (DCs) under",
+                  "content": [
+                    "the Performance, Achieve and Trade (PAT) Scheme of the Government of India? (Y/N) If",
+                    "yes, disclose whether targets set under the PAT scheme have been achieved. In case targets",
+                    "have not been achieved, provide the remedial action taken, if any."
+                  ],
+                  "tables": [],
+                  "page_start": 22,
+                  "page_end": 22
+                },
+                {
+                  "id": "Q3",
+                  "label": "3. Provide details of the following disclosures related to water, in the following format:",
+                  "text": "3. Provide details of the following disclosures related to water, in the following format:",
+                  "content": [
+                    "Note: Indicate if any independent assessment/ evaluation/assurance has been carried out by an external",
+                    "agency? (Y/N) If yes, name of the external agency."
+                  ],
+                  "tables": [
+                    {
+                      "headers": [
+                        "Parameter",
+                        "FY _____ (Current Financial Year)",
+                        "FY ______ (Previous Financial Year)"
+                      ],
+                      "rows": [
+                        [
+                          "Water withdrawal by source (in kilolitres)",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 1,
+                      "col_count": 3,
+                      "page_num": 22,
+                      "bbox": [
+                        72.22036708484997,
+                        686.4399642944336,
+                        523.2236633300781,
+                        754.89599609375
+                      ]
+                    },
+                    {
+                      "headers": [
+                        "(i) Surface water",
+                        "",
+                        ""
+                      ],
+                      "rows": [
+                        [
+                          "(ii) Groundwater",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(iii) Third party water",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(iv) Seawater / desalinated water",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(v) Others",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total volume of water withdrawal (in kilolitres) (i + ii + iii + iv + v)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total volume of water consumption (in kilolitres)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Water intensity per rupee of turnover (Water consumed / turnover)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Water intensity (optional) – the relevant metric may be selected by the entity",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 8,
+                      "col_count": 3,
+                      "page_num": 23,
+                      "bbox": [
+                        72.24000358581543,
+                        72.17999267578125,
+                        523.2040252685547,
+                        312.469970703125
+                      ]
+                    }
+                  ],
+                  "page_start": 22,
+                  "page_end": 23
+                },
+                {
+                  "id": "Q4",
+                  "label": "4. Has the entity implemented a mechanism for Zero Liquid Discharge? If yes, provide details",
+                  "text": "4. Has the entity implemented a mechanism for Zero Liquid Discharge? If yes, provide details",
+                  "content": [
+                    "of its coverage and implementation."
+                  ],
+                  "tables": [],
+                  "page_start": 23,
+                  "page_end": 23
+                },
+                {
+                  "id": "Q5",
+                  "label": "5. Please provide details of air emissions (other than GHG emissions) by the entity, in the",
+                  "text": "5. Please provide details of air emissions (other than GHG emissions) by the entity, in the",
+                  "content": [
+                    "following format:",
+                    "Note: Indicate if any independent assessment/ evaluation/assurance has been carried out by an",
+                    "external agency? (Y/N) If yes, name of the external agency."
+                  ],
+                  "tables": [
+                    {
+                      "headers": [
+                        "Parameter",
+                        "Please specify unit",
+                        "FY _____ (Current Financial Year)",
+                        "FY ______ (Previous Financial Year)"
+                      ],
+                      "rows": [
+                        [
+                          "NOx",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "SOx",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Particulate matter (PM)",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Persistent organic pollutants (POP)",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Volatile organic compounds (VOC)",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Hazardous air pollutants (HAP)",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Others – please specify",
+                          "",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 7,
+                      "col_count": 4,
+                      "page_num": 23,
+                      "bbox": [
+                        107.99333360460069,
+                        457.2019836425781,
+                        518.6466946072048,
+                        695.3079833984375
+                      ]
+                    }
+                  ],
+                  "page_start": 23,
+                  "page_end": 23
+                },
+                {
+                  "id": "Q6",
+                  "label": "6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its",
+                  "text": "6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its",
+                  "content": [
+                    "intensity, in the following format:",
+                    "Note: Indicate if any independent assessment/ evaluation/assurance has been carried out by an external",
+                    "agency? (Y/N) If yes, name of the external agency."
+                  ],
+                  "tables": [
+                    {
+                      "headers": [
+                        "Parameter",
+                        "Unit",
+                        "FY _____ (Current Financial Year)",
+                        "FY ______ (Previous Financial Year)"
+                      ],
+                      "rows": [
+                        [
+                          "Total Scope 1 emissions (Break-up of the GHG into CO2, CH4, N2O, HFCs, PFCs, SF6, NF3, if available)",
+                          "Metric tonnes of CO2 equivalent",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total Scope 2 emissions (Break-up of the GHG into CO2, CH4, N2O, HFCs, PFCs, SF6, NF3, if available)",
+                          "Metric tonnes of CO2 equivalent",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total Scope 1 and Scope 2 emissions per rupee of turnover",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total Scope 1 and Scope 2 emission intensity (optional) – the relevant metric may be selected by the entity",
+                          "",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 4,
+                      "col_count": 4,
+                      "page_num": 24,
+                      "bbox": [
+                        72.23200352986653,
+                        143.25198974609376,
+                        518.6600290934244,
+                        445.53798828125
+                      ]
+                    }
+                  ],
+                  "page_start": 24,
+                  "page_end": 24
+                },
+                {
+                  "id": "Q7",
+                  "label": "7. Does the entity have any project related to reducing Green House Gas emission? If Yes,",
+                  "text": "7. Does the entity have any project related to reducing Green House Gas emission? If Yes,",
+                  "content": [
+                    "then provide details."
+                  ],
+                  "tables": [],
+                  "page_start": 24,
+                  "page_end": 24
+                },
+                {
+                  "id": "Q8",
+                  "label": "8. Provide details related to waste management by the entity, in the following format:",
+                  "text": "8. Provide details related to waste management by the entity, in the following format:",
+                  "content": [
+                    "Note: Indicate if any independent assessment/ evaluation/assurance has been carried out by an external",
+                    "agency? (Y/N) If yes, name of the external agency."
+                  ],
+                  "tables": [
+                    {
+                      "headers": [
+                        "Parameter",
+                        "FY _____ (Current Financial Year)",
+                        "FY ______ (Previous Financial Year)"
+                      ],
+                      "rows": [
+                        [
+                          "Total Waste generated (in metric tonnes)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Plastic waste (A)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "E-waste (B)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Bio-medical waste (C)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Construction and demolition waste (D)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Battery waste (E)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Radioactive waste (F)",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 7,
+                      "col_count": 3,
+                      "page_num": 24,
+                      "bbox": [
+                        72.23200352986653,
+                        573.489990234375,
+                        523.2066921657986,
+                        750.5159912109375
+                      ]
+                    },
+                    {
+                      "headers": [
+                        "Other Hazardous waste. Please specify, if any. (G)",
+                        "",
+                        ""
+                      ],
+                      "rows": [
+                        [
+                          "Other Non-hazardous waste generated (H). Please specify, if any. (Break-up by composition i.e. by materials relevant to the sector)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total (A+B + C + D + E + F + G + H)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "For each category of waste generated, total waste recovered through recycling, re-using or other recovery operations (in metric tonnes)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Category of waste",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(i) Recycled",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(ii) Re-used",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(iii) Other recovery operations",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total",
+                          "",
+                          ""
+                        ],
+                        [
+                          "For each category of waste generated, total waste disposed by nature of disposal method (in metric tonnes)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Category of waste",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(i) Incineration",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(ii) Landfilling",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(iii) Other disposal operations",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 14,
+                      "col_count": 3,
+                      "page_num": 25,
+                      "bbox": [
+                        72.24000358581543,
+                        72.17999267578125,
+                        523.1950244903564,
+                        431.6299934387207
+                      ]
+                    }
+                  ],
+                  "page_start": 24,
+                  "page_end": 25
+                },
+                {
+                  "id": "Q9",
+                  "label": "9. Briefly describe the waste management practices adopted in your establishments. Describe",
+                  "text": "9. Briefly describe the waste management practices adopted in your establishments. Describe",
+                  "content": [
+                    "the strategy adopted by your company to reduce usage of hazardous and toxic chemicals",
+                    "in your products and processes and the practices adopted to manage such wastes.",
+                    "parks, wildlife sanctuaries, biosphere reserves, wetlands, biodiversity hotspots, forests,",
+                    "coastal regulation zones etc.) where environmental approvals / clearances are required,",
+                    "please specify details in the following format:"
+                  ],
+                  "tables": [],
+                  "page_start": 25,
+                  "page_end": 25
+                },
+                {
+                  "id": "Q11",
+                  "label": "11. Details of environmental impact assessments of projects undertaken by the entity based",
+                  "text": "11. Details of environmental impact assessments of projects undertaken by the entity based",
+                  "content": [
+                    "on applicable laws, in the current financial year:"
+                  ],
+                  "tables": [],
+                  "page_start": 26,
+                  "page_end": 26
+                },
+                {
+                  "id": "Q12",
+                  "label": "12. Is the entity compliant with the applicable environmental law/ regulations/ guidelines in",
+                  "text": "12. Is the entity compliant with the applicable environmental law/ regulations/ guidelines in",
+                  "content": [
+                    "India; such as the Water (Prevention and Control of Pollution) Act, Air (Prevention and",
+                    "Control of Pollution) Act, Environment protection act and rules thereunder (Y/N).  If not,",
+                    "provide details of all such non-compliances, in the following format:"
+                  ],
+                  "tables": [],
+                  "page_start": 26,
+                  "page_end": 26
+                }
+              ]
+            },
+            {
+              "group_type": "Leadership",
+              "page_start": 26,
+              "page_end": 30,
+              "content": [],
+              "tables": [],
+              "disclosures": [
+                {
+                  "id": "Q1",
+                  "label": "1. Provide break-up of the total energy consumed (in Joules or multiples) from renewable",
+                  "text": "1. Provide break-up of the total energy consumed (in Joules or multiples) from renewable",
+                  "content": [
+                    "and non-renewable sources, in the following format:",
+                    "Note: Indicate if any independent assessment/ evaluation/assurance has been carried out by an external",
+                    "agency? (Y/N) If yes, name of the external agency."
+                  ],
+                  "tables": [
+                    {
+                      "headers": [
+                        "Parameter",
+                        "FY _____ (Current Financial Year)",
+                        "FY ______ (Previous Financial Year)"
+                      ],
+                      "rows": [
+                        [
+                          "From renewable sources",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total electricity consumption (A)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total fuel consumption (B)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Energy consumption through other sources (C)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total energy consumed from renewable sources (A+B+C)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "From non-renewable sources",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 6,
+                      "col_count": 3,
+                      "page_num": 26,
+                      "bbox": [
+                        72.22400347391765,
+                        555.489990234375,
+                        523.2250270843506,
+                        761.135986328125
+                      ]
+                    },
+                    {
+                      "headers": [
+                        "Total electricity consumption (D)",
+                        "",
+                        ""
+                      ],
+                      "rows": [
+                        [
+                          "Total fuel consumption (E)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Energy consumption through other sources (F)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total energy consumed from non-renewable sources (D+E+F)",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 3,
+                      "col_count": 3,
+                      "page_num": 27,
+                      "bbox": [
+                        72.24400361378987,
+                        72.17999267578125,
+                        523.2000249226888,
+                        209.0
+                      ]
+                    }
+                  ],
+                  "page_start": 26,
+                  "page_end": 27
+                },
+                {
+                  "id": "Q2",
+                  "label": "2. Provide the following details related to water discharged:",
+                  "text": "2. Provide the following details related to water discharged:",
+                  "content": [
+                    "Note: Indicate if any independent assessment/ evaluation/assurance has been carried out by an external",
+                    "agency? (Y/N) If yes, name of the external agency."
+                  ],
+                  "tables": [
+                    {
+                      "headers": [
+                        "Parameter",
+                        "FY _____ (Current Financial Year)",
+                        "FY ______ (Previous Financial Year)"
+                      ],
+                      "rows": [
+                        [
+                          "Water discharge by destination and level of treatment (in kilolitres)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(i) To Surface water",
+                          "",
+                          ""
+                        ],
+                        [
+                          "- No treatment",
+                          "",
+                          ""
+                        ],
+                        [
+                          "- With treatment – please specify level of treatment",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(ii) To Groundwater",
+                          "",
+                          ""
+                        ],
+                        [
+                          "- No treatment",
+                          "",
+                          ""
+                        ],
+                        [
+                          "- With treatment – please specify level of treatment",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(iii) To Seawater",
+                          "",
+                          ""
+                        ],
+                        [
+                          "- No treatment",
+                          "",
+                          ""
+                        ],
+                        [
+                          "- With treatment – please specify level of treatment",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(iv) Sent to third-parties",
+                          "",
+                          ""
+                        ],
+                        [
+                          "- No treatment",
+                          "",
+                          ""
+                        ],
+                        [
+                          "- With treatment – please specify level of treatment",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(v) Others",
+                          "",
+                          ""
+                        ],
+                        [
+                          "- No treatment",
+                          "",
+                          ""
+                        ],
+                        [
+                          "- With treatment – please specify level of treatment",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total water discharged (in kilolitres)",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 17,
+                      "col_count": 3,
+                      "page_num": 27,
+                      "bbox": [
+                        72.24400361378987,
+                        283.07000732421875,
+                        523.2000249226888,
+                        729.7599868774414
+                      ]
+                    }
+                  ],
+                  "page_start": 27,
+                  "page_end": 27
+                },
+                {
+                  "id": "Q3",
+                  "label": "3. Water withdrawal, consumption and discharge in areas of water stress (in kilolitres):",
+                  "text": "3. Water withdrawal, consumption and discharge in areas of water stress (in kilolitres):",
+                  "content": [
+                    "For each facility / plant located in areas of water stress, provide the following information:",
+                    "(i) Name of the area",
+                    "(iii) Water withdrawal, consumption and discharge in the following format:",
+                    "Note: Indicate if any independent assessment/ evaluation/assurance has been carried out by an external",
+                    "agency? (Y/N) If yes, name of the external agency."
+                  ],
+                  "tables": [
+                    {
+                      "headers": [
+                        "Parameter",
+                        "FY _____ (Current Financial Year)",
+                        "FY ______ (Previous Financial Year)"
+                      ],
+                      "rows": [
+                        [
+                          "Water withdrawal by source (in kilolitres)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(i) Surface water",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(ii) Groundwater",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(iii) Third party water",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(iv) Seawater / desalinated water",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(v) Others",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total volume of water withdrawal (in kilolitres)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total volume of water consumption (in kilolitres)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Water intensity per rupee of turnover (Water consumed / turnover)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Water intensity (optional) – the relevant metric may be selected by the entity",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Water discharge by destination and level of treatment (in kilolitres)",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(i) Into Surface water",
+                          "",
+                          ""
+                        ],
+                        [
+                          "- No treatment",
+                          "",
+                          ""
+                        ],
+                        [
+                          "- With treatment – please specify level of treatment",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(ii) Into Groundwater",
+                          "",
+                          ""
+                        ],
+                        [
+                          "- No treatment",
+                          "",
+                          ""
+                        ],
+                        [
+                          "- With treatment – please specify level of treatment",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(iii) Into Seawater",
+                          "",
+                          ""
+                        ],
+                        [
+                          "- No treatment",
+                          "",
+                          ""
+                        ],
+                        [
+                          "- With treatment – please specify level of treatment",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(iv) Sent to third-parties",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 21,
+                      "col_count": 3,
+                      "page_num": 28,
+                      "bbox": [
+                        72.2535688980766,
+                        201.08001708984375,
+                        523.1904588782269,
+                        767.5559463500977
+                      ]
+                    },
+                    {
+                      "headers": [
+                        "- No treatment",
+                        "",
+                        ""
+                      ],
+                      "rows": [
+                        [
+                          "- With treatment – please specify level of treatment",
+                          "",
+                          ""
+                        ],
+                        [
+                          "(v) Others",
+                          "",
+                          ""
+                        ],
+                        [
+                          "- No treatment",
+                          "",
+                          ""
+                        ],
+                        [
+                          "- With treatment – please specify level of treatment",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total water discharged (in kilolitres)",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 5,
+                      "col_count": 3,
+                      "page_num": 29,
+                      "bbox": [
+                        72.21067004733615,
+                        72.17999267578125,
+                        523.2143118722098,
+                        209.9599609375
+                      ]
+                    }
+                  ],
+                  "page_start": 28,
+                  "page_end": 29
+                },
+                {
+                  "id": "Q4",
+                  "label": "4. Please provide details of total Scope 3 emissions & its intensity, in the following format:",
+                  "text": "4. Please provide details of total Scope 3 emissions & its intensity, in the following format:",
+                  "content": [
+                    "Note: Indicate if any independent assessment/ evaluation/assurance has been carried out by an",
+                    "external agency? (Y/N) If yes, name of the external agency. 5. With respect to the ecologically sensitive areas reported at Question 10 of Essential",
+                    "Indicators above, provide details of significant direct & indirect impact of the entity on biodiversity in such areas along-with prevention and remediation activities. 6. If the entity has undertaken any specific initiatives or used innovative technology or",
+                    "solutions to improve resource efficiency, or reduce impact due to emissions / effluent",
+                    "discharge / waste generated, please provide details of the same as well as outcome of such",
+                    "initiatives, as per the following format:",
+                    "Sr. No Initiative undertaken  Details of the initiative (Web-link, if",
+                    "Outcome of",
+                    "any, may be provided along-with",
+                    "the initiative",
+                    "summary)"
+                  ],
+                  "tables": [
+                    {
+                      "headers": [
+                        "Parameter",
+                        "Unit",
+                        "FY _____ (Current Financial Year)",
+                        "FY ______ (Previous Financial Year)"
+                      ],
+                      "rows": [
+                        [
+                          "Total Scope 3 emissions (Break-up of the GHG into CO2, CH4, N2O, HFCs, PFCs, SF6, NF3, if available)",
+                          "Metric tonnes of CO2 equivalent",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total Scope 3 emissions per rupee of turnover",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Total Scope 3 emission intensity (optional) – the relevant metric may be selected by the entity",
+                          "",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 3,
+                      "col_count": 4,
+                      "page_num": 29,
+                      "bbox": [
+                        86.13600158691406,
+                        301.202001953125,
+                        511.58799438476564,
+                        512.8779541015625
+                      ]
+                    }
+                  ],
+                  "page_start": 29,
+                  "page_end": 29
+                },
+                {
+                  "id": "Q7",
+                  "label": "7. Does the entity have a business continuity and disaster management plan? Give details in",
+                  "text": "7. Does the entity have a business continuity and disaster management plan? Give details in",
+                  "content": [
+                    "100 words/ web link."
+                  ],
+                  "tables": [],
+                  "page_start": 30,
+                  "page_end": 30
+                },
+                {
+                  "id": "Q8",
+                  "label": "8. Disclose any significant adverse impact to the environment, arising from the value chain of",
+                  "text": "8. Disclose any significant adverse impact to the environment, arising from the value chain of",
+                  "content": [
+                    "the entity. What mitigation or adaptation measures have been taken by the entity in this",
+                    "regard."
+                  ],
+                  "tables": [],
+                  "page_start": 30,
+                  "page_end": 30
+                },
+                {
+                  "id": "Q9",
+                  "label": "9. Percentage of value chain partners (by value of business done with such partners) that",
+                  "text": "9. Percentage of value chain partners (by value of business done with such partners) that",
+                  "content": [
+                    "were assessed for environmental impacts."
+                  ],
+                  "tables": [],
+                  "page_start": 30,
+                  "page_end": 30
+                }
+              ]
+            }
+          ],
+          "disclosures": []
+        },
+        {
+          "principle_num": 7,
+          "label": "Principle7",
+          "text": "PRINCIPLE 7 Businesses, when engaging in influencing public and regulatory policy, should do so in a manner that is responsible and transparent",
+          "page_start": 31,
+          "page_end": 31,
+          "content": [],
+          "tables": [],
+          "indicator_groups": [
+            {
+              "group_type": "Essential",
+              "page_start": 31,
+              "page_end": 31,
+              "content": [],
+              "tables": [],
+              "disclosures": [
+                {
+                  "id": "Q1",
+                  "label": "1. a. Number of affiliations with trade and industry chambers/ associations.",
+                  "text": "1. a. Number of affiliations with trade and industry chambers/ associations.",
+                  "content": [
+                    "b. List the top 10 trade and industry chambers/ associations (determined based on the",
+                    "total members of such body) the entity is a member of/ affiliated to."
+                  ],
+                  "tables": [
+                    {
+                      "headers": [
+                        "S. No.",
+                        "Name of the trade and industry chambers/ associations",
+                        "Reach of trade and industry chambers/ associations (State/National)"
+                      ],
+                      "rows": [
+                        [
+                          "1",
+                          "",
+                          ""
+                        ],
+                        [
+                          "2",
+                          "",
+                          ""
+                        ],
+                        [
+                          "3",
+                          "",
+                          ""
+                        ],
+                        [
+                          "4",
+                          "",
+                          ""
+                        ],
+                        [
+                          "5",
+                          "",
+                          ""
+                        ],
+                        [
+                          "6",
+                          "",
+                          ""
+                        ],
+                        [
+                          "7",
+                          "",
+                          ""
+                        ],
+                        [
+                          "8",
+                          "",
+                          ""
+                        ],
+                        [
+                          "9",
+                          "",
+                          ""
+                        ],
+                        [
+                          "10",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 10,
+                      "col_count": 3,
+                      "page_num": 31,
+                      "bbox": [
+                        77.90400314331055,
+                        253.3399658203125,
+                        517.5399780273438,
+                        431.9299774169922
+                      ]
+                    }
+                  ],
+                  "page_start": 31,
+                  "page_end": 31
+                },
+                {
+                  "id": "Q2",
+                  "label": "2. Provide details of corrective action taken or underway on any issues related to anti-",
+                  "text": "2. Provide details of corrective action taken or underway on any issues related to anti-",
+                  "content": [
+                    "competitive conduct by the entity, based on adverse orders from regulatory authorities."
+                  ],
+                  "tables": [],
+                  "page_start": 31,
+                  "page_end": 31
+                },
+                {
+                  "id": "Q1",
+                  "label": "1. Details of public policy positions advocated by the entity:",
+                  "text": "1. Details of public policy positions advocated by the entity:",
+                  "content": [],
+                  "tables": [],
+                  "page_start": 31,
+                  "page_end": 31
+                }
+              ]
+            }
+          ],
+          "disclosures": []
+        },
+        {
+          "principle_num": 8,
+          "label": "Principle8",
+          "text": "PRINCIPLE 8 Businesses should promote inclusive growth and equitable development",
+          "page_start": 32,
+          "page_end": 33,
+          "content": [],
+          "tables": [],
+          "indicator_groups": [
+            {
+              "group_type": "Essential",
+              "page_start": 32,
+              "page_end": 32,
+              "content": [],
+              "tables": [],
+              "disclosures": [
+                {
+                  "id": "Q1",
+                  "label": "1. Details of Social Impact Assessments (SIA) of projects undertaken by the entity based",
+                  "text": "1. Details of Social Impact Assessments (SIA) of projects undertaken by the entity based",
+                  "content": [
+                    "on applicable laws, in the current financial year. Name and brief"
+                  ],
+                  "tables": [],
+                  "page_start": 32,
+                  "page_end": 32
+                },
+                {
+                  "id": "Q2",
+                  "label": "2. Provide information on project(s) for which ongoing Rehabilitation and Resettlement",
+                  "text": "2. Provide information on project(s) for which ongoing Rehabilitation and Resettlement",
+                  "content": [],
+                  "tables": [],
+                  "page_start": 32,
+                  "page_end": 32
+                },
+                {
+                  "id": "Q3",
+                  "label": "3. Describe the mechanisms to receive and redress grievances of the community.",
+                  "text": "3. Describe the mechanisms to receive and redress grievances of the community.",
+                  "content": [],
+                  "tables": [],
+                  "page_start": 32,
+                  "page_end": 32
+                },
+                {
+                  "id": "Q4",
+                  "label": "4. Percentage of input material (inputs to total inputs by value) sourced from suppliers:",
+                  "text": "4. Percentage of input material (inputs to total inputs by value) sourced from suppliers:",
+                  "content": [],
+                  "tables": [
+                    {
+                      "headers": [
+                        "",
+                        "FY _____ Current Financial Year",
+                        "FY _____ Previous Financial Year"
+                      ],
+                      "rows": [
+                        [
+                          "Directly sourced from MSMEs/ small producers",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Sourced directly from within the district and neighbouring districts",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 2,
+                      "col_count": 3,
+                      "page_num": 32,
+                      "bbox": [
+                        100.22400283813477,
+                        509.94996643066406,
+                        517.5399780273438,
+                        623.3499755859375
+                      ]
+                    }
+                  ],
+                  "page_start": 32,
+                  "page_end": 32
+                }
+              ]
+            },
+            {
+              "group_type": "Leadership",
+              "page_start": 32,
+              "page_end": 32,
+              "content": [],
+              "tables": [],
+              "disclosures": [
+                {
+                  "id": "Q1",
+                  "label": "1. Provide details of actions taken to mitigate any negative social impacts identified in the",
+                  "text": "1. Provide details of actions taken to mitigate any negative social impacts identified in the",
+                  "content": [],
+                  "tables": [],
+                  "page_start": 32,
+                  "page_end": 32
+                }
+              ]
+            },
+            {
+              "group_type": "Essential",
+              "page_start": 32,
+              "page_end": 33,
+              "content": [],
+              "tables": [],
+              "disclosures": [
+                {
+                  "id": "Q2",
+                  "label": "2. Provide the following information on CSR projects undertaken by your entity in",
+                  "text": "2. Provide the following information on CSR projects undertaken by your entity in",
+                  "content": [],
+                  "tables": [],
+                  "page_start": 33,
+                  "page_end": 33
+                },
+                {
+                  "id": "Q3",
+                  "label": "3. (a) Do you have a preferential procurement policy where you give preference to",
+                  "text": "3. (a) Do you have a preferential procurement policy where you give preference to",
+                  "content": [
+                    "purchase from suppliers comprising marginalized /vulnerable groups? (Yes/No) (b) From which marginalized /vulnerable groups do you procure? (c) What percentage of total procurement (by value) does it constitute?"
+                  ],
+                  "tables": [],
+                  "page_start": 33,
+                  "page_end": 33
+                },
+                {
+                  "id": "Q4",
+                  "label": "4. Details of the benefits derived and shared from the intellectual properties owned or",
+                  "text": "4. Details of the benefits derived and shared from the intellectual properties owned or",
+                  "content": [],
+                  "tables": [],
+                  "page_start": 33,
+                  "page_end": 33
+                },
+                {
+                  "id": "Q5",
+                  "label": "5. Details of corrective actions taken or underway, based on any adverse order in",
+                  "text": "5. Details of corrective actions taken or underway, based on any adverse order in",
+                  "content": [],
+                  "tables": [],
+                  "page_start": 33,
+                  "page_end": 33
+                }
+              ]
+            }
+          ],
+          "disclosures": []
+        },
+        {
+          "principle_num": 9,
+          "label": "Principle9",
+          "text": "PRINCIPLE 9 Businesses should engage with and provide value to their consumers in a responsible manner",
+          "page_start": 34,
+          "page_end": 35,
+          "content": [],
+          "tables": [],
+          "indicator_groups": [
+            {
+              "group_type": "Essential",
+              "page_start": 34,
+              "page_end": 34,
+              "content": [],
+              "tables": [],
+              "disclosures": [
+                {
+                  "id": "Q1",
+                  "label": "1. Describe the mechanisms in place to receive and respond to consumer complaints and",
+                  "text": "1. Describe the mechanisms in place to receive and respond to consumer complaints and",
+                  "content": [
+                    "feedback."
+                  ],
+                  "tables": [],
+                  "page_start": 34,
+                  "page_end": 34
+                },
+                {
+                  "id": "Q2",
+                  "label": "2. Turnover of products and/ services as a percentage of turnover from all products/service",
+                  "text": "2. Turnover of products and/ services as a percentage of turnover from all products/service",
+                  "content": [],
+                  "tables": [
+                    {
+                      "headers": [
+                        "",
+                        "As a percentage to total turnover"
+                      ],
+                      "rows": [
+                        [
+                          "Environmental and social parameters relevant to the product",
+                          ""
+                        ],
+                        [
+                          "Safe and responsible usage",
+                          ""
+                        ],
+                        [
+                          "Recycling and/or safe disposal",
+                          ""
+                        ]
+                      ],
+                      "row_count": 3,
+                      "col_count": 2,
+                      "page_num": 34,
+                      "bbox": [
+                        77.90400314331055,
+                        217.70001220703125,
+                        517.5399780273438,
+                        286.25
+                      ]
+                    }
+                  ],
+                  "page_start": 34,
+                  "page_end": 34
+                },
+                {
+                  "id": "Q3",
+                  "label": "3. Number of consumer complaints in respect of the following: FY _____",
+                  "text": "3. Number of consumer complaints in respect of the following: FY _____",
+                  "content": [],
+                  "tables": [
+                    {
+                      "headers": [
+                        "",
+                        "FY _____ (Current Financial Year)",
+                        "",
+                        "Remarks",
+                        "FY _____ (Previous Financial Year)",
+                        "",
+                        "Remarks"
+                      ],
+                      "rows": [
+                        [
+                          "",
+                          "Received during the year",
+                          "Pending resolution at end of year",
+                          "",
+                          "Received during the year",
+                          "Pending resolution at end of year",
+                          ""
+                        ],
+                        [
+                          "Data privacy",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Advertising",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Cyber-security",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Delivery of essential services",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Restrictive Trade Practices",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Unfair Trade Practices",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Other",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 8,
+                      "col_count": 7,
+                      "page_num": 34,
+                      "bbox": [
+                        77.90400314331055,
+                        313.3699951171875,
+                        517.5399780273438,
+                        559.329963684082
+                      ]
+                    }
+                  ],
+                  "page_start": 34,
+                  "page_end": 34
+                },
+                {
+                  "id": "Q4",
+                  "label": "4. Details of instances of product recalls on account of safety issues:",
+                  "text": "4. Details of instances of product recalls on account of safety issues:",
+                  "content": [],
+                  "tables": [
+                    {
+                      "headers": [
+                        "",
+                        "Number",
+                        "Reasons for recall"
+                      ],
+                      "rows": [
+                        [
+                          "Voluntary recalls",
+                          "",
+                          ""
+                        ],
+                        [
+                          "Forced recalls",
+                          "",
+                          ""
+                        ]
+                      ],
+                      "row_count": 2,
+                      "col_count": 3,
+                      "page_num": 34,
+                      "bbox": [
+                        77.90400314331055,
+                        586.8699951171875,
+                        517.5399780273438,
+                        632.3499755859375
+                      ]
+                    }
+                  ],
+                  "page_start": 34,
+                  "page_end": 34
+                },
+                {
+                  "id": "Q5",
+                  "label": "5. Does the entity have a framework/ policy on cyber security and risks related to data",
+                  "text": "5. Does the entity have a framework/ policy on cyber security and risks related to data",
+                  "content": [
+                    "privacy? (Yes/No) If available, provide a web-link of the policy. 6. Provide details of any corrective actions taken or underway on issues relating to",
+                    "advertising, and delivery of essential services; cyber security and data privacy of customers; re-occurrence of instances of product recalls; penalty / action taken by regulatory authorities on safety of products / services."
+                  ],
+                  "tables": [],
+                  "page_start": 34,
+                  "page_end": 34
+                }
+              ]
+            },
+            {
+              "group_type": "Leadership",
+              "page_start": 35,
+              "page_end": 35,
+              "content": [],
+              "tables": [],
+              "disclosures": [
+                {
+                  "id": "Q1",
+                  "label": "1. Channels / platforms where information on products and services of the entity can be",
+                  "text": "1. Channels / platforms where information on products and services of the entity can be",
+                  "content": [
+                    "accessed (provide web link, if available)."
+                  ],
+                  "tables": [],
+                  "page_start": 35,
+                  "page_end": 35
+                },
+                {
+                  "id": "Q2",
+                  "label": "2. Steps taken to inform and educate consumers about safe and responsible usage of",
+                  "text": "2. Steps taken to inform and educate consumers about safe and responsible usage of",
+                  "content": [
+                    "products and/or services."
+                  ],
+                  "tables": [],
+                  "page_start": 35,
+                  "page_end": 35
+                },
+                {
+                  "id": "Q3",
+                  "label": "3. Mechanisms in place to inform consumers of any risk of disruption/discontinuation of",
+                  "text": "3. Mechanisms in place to inform consumers of any risk of disruption/discontinuation of",
+                  "content": [
+                    "essential services."
+                  ],
+                  "tables": [],
+                  "page_start": 35,
+                  "page_end": 35
+                },
+                {
+                  "id": "Q4",
+                  "label": "4. Does the entity display product information on the product over and above what is",
+                  "text": "4. Does the entity display product information on the product over and above what is",
+                  "content": [
+                    "mandated as per local laws? (Yes/No/Not Applicable) If yes, provide details in brief. Did your entity carry out any survey with regard to consumer satisfaction relating to the major products / services of the entity, significant locations of operation of the entity or the entity as a whole? (Yes/No)"
+                  ],
+                  "tables": [],
+                  "page_start": 35,
+                  "page_end": 35
+                },
+                {
+                  "id": "Q5",
+                  "label": "5. Provide the following information relating to data breaches:",
+                  "text": "5. Provide the following information relating to data breaches:",
+                  "content": [
+                    "a. Number of instances of data breaches along-with impact b. Percentage of data breaches involving personally identifiable information of",
+                    "customers"
+                  ],
+                  "tables": [],
+                  "page_start": 35,
+                  "page_end": 35
+                }
+              ]
+            }
+          ],
+          "disclosures": []
+        }
+      ],
+      "disclosures": []
+    }
+  ]
+}

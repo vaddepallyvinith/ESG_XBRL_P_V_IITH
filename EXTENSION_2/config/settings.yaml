@@ -1,0 +1,87 @@
+# Global configuration
+# ====================
+
+project:
+  name: "BRSR-GRI Ontology Mapping"
+  version: "1.0.0"
+
+# PDF Sources
+data:
+  raw_dir: "data/raw"
+  output_dir: "data/processed"
+
+# Parser settings
+parser:
+  # Font size thresholds for heading detection
+  heading_font_sizes:
+    h1: 16.0   # Major section headers
+    h2: 13.0   # Sub-section headers
+    h3: 11.0   # Disclosure headers
+    body: 9.0   # Body text threshold
+  # BRSR section patterns
+  brsr_patterns:
+    sections: ["SECTION A", "SECTION B", "SECTION C"]
+    principles: ["PRINCIPLE 1", "PRINCIPLE 2", "PRINCIPLE 3", "PRINCIPLE 4",
+                  "PRINCIPLE 5", "PRINCIPLE 6", "PRINCIPLE 7", "PRINCIPLE 8", "PRINCIPLE 9"]
+    indicator_types: ["Essential Indicators", "Leadership Indicators"]
+  # Companies to process (empty = all)
+  companies: []
+  # Fiscal years to process (empty = all)
+  fiscal_years: []
+
+# Ontology settings
+ontology:
+  base_iri: "http://example.org/brsr-gri-onto#"
+  brsr_ns: "http://example.org/brsr#"
+  gri_ns: "http://example.org/gri#"
+  rso_ns: "http://example.org/rso#"
+
+# Mapping settings
+mapping:
+  embedding_model: "all-mpnet-base-v2"
+  candidate_top_k: 10
+  thresholds:
+    equivalent: 0.70
+    partial: 0.50
+    broader_narrower: 0.30
+  weights:
+    definition_similarity: 0.25
+    embedding_similarity: 0.20
+    hierarchy_similarity: 0.15
+    relationship_similarity: 0.10
+    topic_similarity: 0.10
+    label_similarity: 0.10
+    unit_compatibility: 0.05
+    datatype_compatibility: 0.05
+    context_similarity: 0.05
+
+# LLM settings
+llm:
+  provider: "groq"
+  model: "llama-3.3-70b-versatile"
+  temperature: 0.1
+  max_retries: 3
+
+# Logging
+logging:
+  level: "INFO"
+  log_dir: "logs"
+
+# Evaluation settings
+evaluation:
+  models:
+    - name: "Groq"
+      provider: "groq"
+      model: "llama-3.3-70b-versatile"
+      env_var: "GROQ_API_KEY"
+      cost_per_1k_tokens: 0.00059
+    - name: "OpenRouter"
+      provider: "openrouter"
+      model: "meta-llama/llama-3.3-70b-instruct"
+      env_var: "OWL_ALPHA_API_KEY"
+      cost_per_1k_tokens: 0.00040
+    - name: "Gemini"
+      provider: "gemini"
+      model: "gemini-3.5-flash"
+      env_var: "GEMINI_API_KEY"
+      cost_per_1k_tokens: 0.00035

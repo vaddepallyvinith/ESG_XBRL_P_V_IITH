@@ -1,0 +1,1152 @@
+{
+  "framework": "GRI",
+  "source_file": "GRI 403_ Occupational Health and Safety 2018.pdf",
+  "total_pages": 35,
+  "content": [],
+  "tables": [],
+  "standards": [
+    {
+      "standard_id": "GRI 403: Occupational Health and Safety 2018",
+      "title": "GRI 403: Occupational Health and Safety 2018",
+      "page_start": 1,
+      "page_end": 1,
+      "content": [
+        "EFFECTIVE DATE: 1 JANUARY 2021 TOPIC STANDARD 403"
+      ],
+      "tables": [],
+      "disclosures": []
+    },
+    {
+      "standard_id": "GRI 403: Occupational Health and Safety 2018",
+      "title": "GRI 403: Occupational Health and Safety 2018",
+      "page_start": 2,
+      "page_end": 2,
+      "content": [
+        "Topic Standard",
+        "Effective Date This Standard is effective for reports or other materials published on or after 1 January 2021",
+        "Responsibility This Standard is issued by the Global Sustainability Standards Board (GSSB) . Any feedback on the GRI Standards can be submitted to gssbsecretariat@globalreporting.org for the consideration of the GSSB.",
+        "Due Process This Standard was developed in the public interest and in accordance with the requirements of the GSSB Due Process Protocol. It has been developed using multi-stakeholder expertise, and with regard to authoritative intergovernmental instruments and widely held expectations of organizations relating to social, environmental, and economic responsibilities.",
+        "Legal Liability This document, designed to promote sustainability reporting, has been developed by the Global Sustainability Standards Board (GSSB) through a unique multi-stakeholder consultative process involving representatives from organizations and report information users from around the world. While the GRI Supervisory Board, Management Board, and GSSB encourage the use of the GRI Sustainability Reporting Standards (GRI Standards) and related Interpretations by all organizations, the preparation and publication of reports based fully or partially on the GRI Standards and related Interpretations are the full responsibility of those producing them. Neither the GRI Supervisory Board, Management Board, GSSB, nor Stichting Global Reporting Initiative (GRI) can assume responsibility for any consequences or damages resulting directly or indirectly from the use of the GRI Standards and related Interpretations in the preparation of reports, or the use of reports based on the GRI Standards and related Interpretations.",
+        "Copyright and trademark notice This document is copyright-protected by Stichting Global Reporting Initiative (GRI). The reproduction and distribution of this document for information and/or use in preparing a sustainability report is permitted without prior permission from GRI. However, neither this document nor any extract from it may be reproduced, stored, translated, or transferred in any form or by any means (electronic, mechanical, photocopied, recorded, or otherwise) for any other purpose without prior written permission from GRI.",
+        "Global Reporting Initiative, GRI and logo, GSSB and logo, and GRI Sustainability Reporting Standards (GRI Standards) and logo are trademarks of Stichting Global Reporting Initiative.",
+        "© 2025 GRI. All rights reserved.",
+        "ISBN 978-90-8866-093-1"
+      ],
+      "tables": [],
+      "disclosures": []
+    },
+    {
+      "standard_id": "GRI 403: Occupational Health and Safety 2018 3",
+      "title": "GRI 403: Occupational Health and Safety 2018 3",
+      "page_start": 3,
+      "page_end": 35,
+      "content": [],
+      "tables": [],
+      "disclosures": [
+        {
+          "id": "1. Topic management disclosures 9",
+          "label": "1. Topic management disclosures 9",
+          "text": "1. Topic management disclosures 9",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 403-1 Occupational health and safety ma",
+          "label": "Disclosure 403-1 Occupational health and safety management system 10",
+          "text": "Disclosure 403-1 Occupational health and safety management system 10",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 403-2 Hazard identification, risk asses",
+          "label": "Disclosure 403-2 Hazard identification, risk assessment, and incident investigation 11",
+          "text": "Disclosure 403-2 Hazard identification, risk assessment, and incident investigation 11",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 403-3 Occupational health services 12",
+          "label": "Disclosure 403-3 Occupational health services 12",
+          "text": "Disclosure 403-3 Occupational health services 12",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 403-4 Worker participation, consultatio",
+          "label": "Disclosure 403-4 Worker participation, consultation, and communication on occupational health and safety 13",
+          "text": "Disclosure 403-4 Worker participation, consultation, and communication on occupational health and safety 13",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 403-5 Worker training on occupational h",
+          "label": "Disclosure 403-5 Worker training on occupational health and safety 15",
+          "text": "Disclosure 403-5 Worker training on occupational health and safety 15",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 403-6 Promotion of worker health 16",
+          "label": "Disclosure 403-6 Promotion of worker health 16",
+          "text": "Disclosure 403-6 Promotion of worker health 16",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 403-7 Prevention and mitigation of occu",
+          "label": "Disclosure 403-7 Prevention and mitigation of occupational health and safety impacts directly linked by business relatio",
+          "text": "Disclosure 403-7 Prevention and mitigation of occupational health and safety impacts directly linked by business relationships 18",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "2. Topic disclosures 19",
+          "label": "2. Topic disclosures 19",
+          "text": "2. Topic disclosures 19",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 403-8 Workers covered by an occupationa",
+          "label": "Disclosure 403-8 Workers covered by an occupational health and safety management system 19",
+          "text": "Disclosure 403-8 Workers covered by an occupational health and safety management system 19",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 403-9 Work-related injuries 21",
+          "label": "Disclosure 403-9 Work-related injuries 21",
+          "text": "Disclosure 403-9 Work-related injuries 21",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 403-10 Work-related ill health 25",
+          "label": "Disclosure 403-10 Work-related ill health 25",
+          "text": "Disclosure 403-10 Work-related ill health 25",
+          "requirements": [],
+          "content": [
+            "GRI 403: Occupational Health and Safety 2018 4",
+            "Introduction",
+            "GRI 403: Occupational Health and Safety 2018 contains disclosures for organizations to report information about their occupational health and safety-related impacts, and how they manage these impacts.",
+            "The Standard is structured as follows:",
+            "Section 1 contains seven disclosures, which provide information about how the organization manages its occupational health and safety-related impacts. •",
+            "Section 2 contains three disclosures, which provide information about the organization’s occupational health and safety-related impacts. •",
+            "The Glossary contains defined terms with a specific meaning when used in the GRI Standards. The terms are underlined in the text of the GRI Standards and linked to the definitions. •",
+            "The Bibliography lists authoritative intergovernmental instruments and additional references used in developing this Standard. •",
+            "The rest of the Introduction section provides a background on the topic, an overview of the system of GRI Standards and further information on using this Standard.",
+            "Background on the topic This Standard addresses the topic of occupational health and safety.",
+            "Healthy and safe work conditions are recognized as a human right and addressed in authoritative intergovernmental instruments, including those of the International Labour Organization (ILO), the Organisation for Economic Co- operation and Development (OECD), and the World Health Organization (WHO): see the Bibliography .",
+            "Healthy and safe work conditions are also a target of the Sustainable Development Goals, adopted by the United Nations (UN) as part of the 2030 Agenda for Sustainable Development.",
+            "1",
+            "Healthy and safe work conditions involve both prevention of physical and mental harm, and promotion of workers’ health.",
+            "Prevention of harm and promotion of health require an organization to demonstrate commitment to workers' health and safety. They also require the organization to engage workers in the development, implementation, and performance evaluation of an occupational health and safety policy, management system and programs that are appropriate to the organization’s size and activities.",
+            "It is essential that workers are consulted in the development of an organization’s occupational health and safety policy, and participate in the processes necessary to plan, support, operate, and continually evaluate the effectiveness of the occupational health and safety management system and programs.",
+            "Hazard identification and risk assessment, worker training, and incident identification and investigation are also key to planning, supporting, operating, and evaluating the occupational health and safety management system.",
+            "In addition to preventing harm, an organization can promote workers’ health by offering healthcare services or voluntary health promotion services and programs, which, for example, help workers improve their diet or quit smoking. These additional services and programs cannot serve as a substitute for occupational health and safety programs, services and systems that prevent harm and protect workers from work-related injuries and ill health.",
+            "All services and programs that aim to prevent harm and promote workers’ health are expected to respect workers’ right to privacy. Organizations are expected not to use workers' participation in such services and programs, or the health data derived therefrom, as criteria for their decisions regarding employment or engagement of workers, including termination, demotion, promotion or offering of prospects, compensation, or any other favorable or unfavorable treatment.",
+            "System of GRI Standards This Standard is part of the GRI Sustainability Reporting Standards (GRI Standards). The GRI Standards enable an organization to report information about its most significant impacts on the economy, environment, and people, including impacts on their human rights, and how it manages these impacts.",
+            "1 See Target 8.8: ‘Protect labour rights and promote safe and secure working environments for all workers, including migrant workers, in particular",
+            "women migrants, and those in precarious employment’, within Goal 8: ‘Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all’. Other Sustainable Development Goals are also relevant to the topic of occupational health and safety, for example Goal 3: ‘Ensure healthy lives and promote well-being for all at all ages’.",
+            "GRI 403: Occupational Health and Safety 2018 5",
+            "The GRI Standards are structured as a system of interrelated standards that are organized into three series: GRI Universal Standards, GRI Sector Standards, and GRI Topic Standards (see Figure 1 in this Standard).",
+            "Universal Standards: GRI 1, GRI 2 and GRI 3 GRI 1: Foundation 2021 specifies the requirements that the organization must comply with to report in accordance with the GRI Standards. The organization begins using the GRI Standards by consulting GRI 1 .",
+            "GRI 2: General Disclosures 2021 contains disclosures that the organization uses to provide information about its reporting practices and other organizational details, such as its activities, governance, and policies.",
+            "GRI 3: Material Topics 2021 provides guidance on how to determine material topics. It also contains disclosures that the organization uses to report information about its process of determining material topics, its list of material topics, and how it manages each topic.",
+            "Sector Standards The Sector Standards provide information for organizations about their likely material topics. The organization uses the Sector Standards that apply to its sectors when determining its material topics and when determining what to report for each material topic.",
+            "Topic Standards The Topic Standards contain disclosures that the organization uses to report information about its impacts in relation to particular topics. The organization uses the Topic Standards according to the list of material topics it has determined using GRI 3 .",
+            "Figure 1. GRI Standards: Universal, Sector and Topic Standards",
+            "GRI Standards",
+            "Sector Standards Universal Standards Topic Standards",
+            "Requirements and principles for using the GRI Standards",
+            "Disclosures about the reporting organization",
+            "Disclosures and guidance about the organization's material topics",
+            "Apply all three Universal Standards to your reporting",
+            "Use the Sector Standards that",
+            "Select Topic Standards to report",
+            "apply to your sectors",
+            "specific information on your",
+            "material topics",
+            "Using this Standard This Standard can be used by any organization – regardless of size, type, sector, geographic location, or reporting experience – to report information about its occupational health and safety-related impacts.",
+            "An organization reporting in accordance with the GRI Standards is required to report the following disclosures if it has determined occupational health and safety to be a material topic:",
+            "GRI 403: Occupational Health and Safety 2018 6"
+          ],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 6
+        },
+        {
+          "id": "Disclosure 3-3 in GRI 3: Material Topics 2021 (see",
+          "label": "Disclosure 3-3 in GRI 3: Material Topics 2021 (see clause 1.1 in this Standard); • Any disclosures from this Topic Stand",
+          "text": "Disclosure 3-3 in GRI 3: Material Topics 2021 (see clause 1.1 in this Standard); • Any disclosures from this Topic Standard that are relevant to the organization’s occupational health and safety- related impacts (Disclosure 403-1 through Disclosure 403-10). •",
+          "requirements": [],
+          "content": [
+            "See Requirements 4 and 5 in GRI 1: Foundation 2021 .",
+            "Reasons for omission are permitted for these disclosures.",
+            "If the organization cannot comply with a disclosure or with a requirement in a disclosure (e.g., because the required information is confidential or subject to legal prohibitions), the organization is required to specify the disclosure or the requirement it cannot comply with, and provide a reason for omission together with an explanation in the GRI content index. See Requirement 6 in GRI 1: Foundation 2021 for more information on reasons for omission.",
+            "If the organization cannot report the required information about an item specified in a disclosure because the item (e.g., committee, policy, practice, process) does not exist, it can comply with the requirement by reporting this to be the case. The organization can explain the reasons for not having this item, or describe any plans to develop it. The disclosure does not require the organization to implement the item (e.g., developing a policy), but to report that the item does not exist.",
+            "If the organization intends to publish a standalone sustainability report, it does not need to repeat information that it has already reported publicly elsewhere, such as on web pages or in its annual report. In such a case, the organization can report a required disclosure by providing a reference in the GRI content index as to where this information can be found (e.g., by providing a link to the web page or citing the page in the annual report where the information has been published).",
+            "Requirements, guidance and defined terms The following apply throughout this Standard:",
+            "Requirements are presented in bold font and indicated by the word 'shall'. An organization must comply with requirements to report in accordance with the GRI Standards.",
+            "Requirements may be accompanied by guidance.",
+            "Guidance includes background information, explanations, and examples to help the organization better understand the requirements. The organization is not required to comply with guidance.",
+            "The Standards may also include recommendations. These are cases where a particular course of action is encouraged but not required.",
+            "The word ‘should’ indicates a recommendation, and the word ‘can’ indicates a possibility or option.",
+            "Defined terms are underlined in the text of the GRI Standards and linked to their definitions in the Glossary . The organization is required to apply the definitions in the Glossary. Scope of ‘workers’ in this Standard",
+            "GRI 403: Occupational Health and Safety 2018 7",
+            "Scope of ‘workers’ in this Standard",
+            "In the context of the GRI Standards, the term ‘worker’ is defined as a person that performs work. Some GRI Standards specify the use of a particular subset of workers.",
+            "This Standard covers the following subset of workers, for whose occupational health and safety an organization is expected to be responsible:",
+            "All workers who are employees (i.e., those workers who are in an employment relationship with the organization according to national law or practice); •",
+            "All workers who are not employees but whose work and/or workplace is controlled by the organization; • All workers who are not employees and whose work and workplace are not controlled by the organization, but the organization’s operations, products, or services are directly linked to significant occupational health and safety impacts on those workers by its business relationships.",
+            "•",
+            "See Table 1 for examples of employees and workers who are not employees according to the criteria of ‘control of work’ and ‘control of workplace’.",
+            "When the reporting organization does not have data available for all the workers specified in a disclosure, the organization is required to identify the types of worker excluded from the disclosures and explain why they have been excluded. See also Requirement 6 in GRI 1: Foundation 2021 for requirements on reasons for omission.",
+            "Workers who are employees All employees are to be included by the organization in its reported data, regardless of whether the organization controls their work and/or workplace.",
+            "For employees, the organization is required to report the topic management disclosures (except Disclosure 403-7) and the topic disclosures.",
+            "Workers who are not employees but whose work and/or workplace is controlled by the organization Workers who are not employees might include agency workers, contractors, self-employed persons, and volunteers, among other types of worker. Workers who are not employees might include those working for the organization, or for the organization’s suppliers, customers, or other business partners.",
+            "Note that the worker type does not determine whether the worker is to be included by the organization in its reported data. Workers, of any type, are to be included if the organization controls their work and/or workplace, because these forms of control position the organization to take action to eliminate hazards and minimize risks, to protect workers from harm.",
+            "Control of work implies that the organization has control over the means or methods, or directs the work performed with respect to its occupational health and safety performance. Control of workplace implies that the organization has control over the physical aspects of the workplace (e.g., access to the workplace), and/or the type of activities that can be performed in the workplace.",
+            "The organization might have sole control of the work and/or workplace, or share control with one or more organizations (e.g., suppliers, customers, or other business partners, such as in joint ventures). In cases of shared control, workers of the organization’s business partner are to be included in the reported data when there is a contractual obligation between the organization and the partner, and the organization shares control over the means or methods, or shares direction of the work performed, and/or over the workplace. In such cases, through contractual obligation, the organization can require the partner to, for example, use a less harmful chemical in its products or production process.",
+            "For workers who are not employees but whose work and/or workplace is controlled by the organization, the organization is required to report the topic management disclosures (except Disclosure 403-7) and the topic disclosures.",
+            "Workers who are not employees and whose work and workplace are not controlled by the organization, but the organization’s operations, products, or services are directly linked to significant occupational health and safety impacts on those workers by its business relationships An organization is expected to be responsible for the occupational health and safety of employees and of workers who are not employees but whose work and/or workplace it controls. Beyond that, an organization might also be involved with occupational health and safety impacts as a result of its business relationships with other entities, such as entities in its value chain.",
+            "GRI 403: Occupational Health and Safety 2018 8",
+            "In cases where an organization has no control over both the work and workplace, it still has a responsibility to make efforts, including exercising any leverage it might have, to prevent and mitigate negative occupational health and safety impacts that are directly linked to its operations, products, or services by its business relationships.",
+            "In these cases, the organization is required, at a minimum, to describe its approach to preventing and mitigating significant negative occupational health and safety impacts and the related hazards and risks, using Disclosure 403- 7 in the Topic management disclosures section.",
+            "GRI 403: Occupational Health and Safety 2018 9"
+          ],
+          "tables": [
+            {
+              "headers": [
+                "Table 1 Examples of employees and workers who are not employees according to the criteria of ‘control of work’ and ‘control of workplace’",
+                "",
+                ""
+              ],
+              "rows": [
+                [
+                  "",
+                  "Control of work The organization has sole control of the work, or shares control with one or more organizations",
+                  "No control of work The organization has no control of the work"
+                ],
+                [
+                  "Control of workplace The organization has sole control of the workplace, or shares control with one or more organizations",
+                  "Examples: Employees of the reporting organization working at a workplace controlled by the organization. Contractor hired by the reporting organization to perform work that would otherwise be carried out by an employee, at a workplace controlled by the organization. Volunteers performing work for the reporting organization, at a workplace controlled by the organization.",
+                  "Example: Workers of an equipment supplier to the reporting organization who, at a workplace controlled by the organization, perform regular maintenance on the supplier’s equipment (e.g., photocopier) as stipulated in the contract between the equipment supplier and the organization. In this case, the organization has control over the workplace but not over the work done by the equipment supplier’s workers in its workplace."
+                ],
+                [
+                  "No control of workplace The organization has no control of the workplace",
+                  "Examples: Employees of the reporting organization working at sites other than those controlled by the organization (e.g., at home or in a public area, on domestic or international temporary work assignments, or on business travels organized by the organization). Contractors hired by the reporting organization to perform work in a public area (e.g., on a road, on the street). Contractors hired by the reporting organization to deliver the work/service directly at the workplace of a client of the organization. Workers of a supplier to the reporting organization who work on the supplier’s premises, and where the organization instructs the supplier to use particular materials or work methods in manufacturing/delivering the required goods or services.",
+                  "Example: Workers of a supplier contracted by the reporting organization who work on the supplier’s premises using the supplier’s work methods. For instance, the reporting organization sources buttons and thread from a supplier, which are standard products of the supplier. The supplier’s workers make the buttons and thread at the supplier’s workplace. The organization, however, learns that the buttons are coated with a sealant that releases toxic gases when being applied by workers, thereby affecting their health. In this case, the organization has no control over both the work and workplace of the supplier’s workers, but its products are directly linked to significant occupational health and safety impacts on those workers by its business relationship with the supplier."
+                ]
+              ],
+              "row_count": 3,
+              "col_count": 3,
+              "page_num": 8,
+              "bbox": [
+                57.333333333333336,
+                179.5,
+                537.4166666666666,
+                713.6785714285714
+              ]
+            }
+          ],
+          "page_start": 6,
+          "page_end": 9
+        },
+        {
+          "id": "1. Topic management disclosures",
+          "label": "1. Topic management disclosures",
+          "text": "1. Topic management disclosures",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS The reporting organization shall report how it manages occupational health and safety using Disclosure 3-3 in GRI 3: Material Topics 2021 . 1.1",
+              "content": [],
+              "tables": [],
+              "page_start": 9,
+              "page_end": 9
+            },
+            {
+              "type": "RECOMMENDATIONS",
+              "text": "RECOMMENDATIONS The reporting organization should report any other leading indicators or measures used to inform the management and evaluation of the occupational health and safety performance.",
+              "content": [
+                "1.2",
+                "If the operations of the reporting organization span a large number of countries or sites, it may group the topic management disclosures across countries or sites by relevant categories. For example, the organization may group information required in Disclosure 403-4-b on formal joint management-worker health and safety committees across sites with similar characteristics together; it does not have to report on each committee separately."
+              ],
+              "tables": [],
+              "page_start": 9,
+              "page_end": 9
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Guidance for clause 1.2 Leading indicators measure an organization’s performance in relation to the actions it takes to prevent work-related injuries and ill health. They are important because organizations cannot rely solely on lagging indicators, which might not give a true picture of their occupational health and safety performance due to issues such as long-latency ill health and underreporting.",
+                "Leading indicators are often unique or tailored to a specific organization. Examples of such indicators include the number of workers trained in hazard identification and incident reporting, the increase in reporting of hazards and incidents after implementation of reporting policy and processes and worker training, the frequency of health and safety inspections or audits, the average time it takes to implement the recommendations of an inspection or audit, and response times for the investigation and elimination of hazards.",
+                "References See references [2], [4], [7], [8], [11], and [12] in the Bibliography .",
+                "GRI 403: Occupational Health and Safety 2018 10"
+              ],
+              "tables": [],
+              "page_start": 9,
+              "page_end": 10
+            }
+          ],
+          "content": [
+            "An organization reporting in accordance with the GRI Standards is required to report how it manages each of its material topics.",
+            "An organization that has determined occupational health and safety to be a material topic is required to report how it manages the topic using Disclosure 3-3 in GRI 3: Material Topics 2021 (see clause 1.1 in this section). The organization is also required to report any disclosures from this section (Disclosure 403-1 through Disclosure 403-7) that are relevant to its occupational health and safety-related impacts.",
+            "This section is therefore designed to supplement – and not replace – Disclosure 3-3 in GRI 3 ."
+          ],
+          "tables": [],
+          "page_start": 9,
+          "page_end": 10
+        },
+        {
+          "id": "Disclosure 403-1 Occupational health and safety ma",
+          "label": "Disclosure 403-1 Occupational health and safety management system",
+          "text": "Disclosure 403-1 Occupational health and safety management system",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "a.",
+                "A statement of whether an occupational health and safety management system has been implemented, including whether:",
+                "the system has been implemented because of legal requirements and, if so, a list of the requirements; i.",
+                "ii.",
+                "the system has been implemented based on recognized risk management and/or management system standards/guidelines and, if so, a list of the standards/guidelines.",
+                "b.",
+                "A description of the scope of workers, activities, and workplaces covered by the occupational health and safety management system, and an explanation of whether and, if so, why any workers, activities, or workplaces are not covered.",
+                "Guidance for Disclosure 403-1 Disclosure 403-1 requires the reporting organization to list any legal requirements it has followed in implementing the occupational health and safety management system."
+              ],
+              "tables": [],
+              "page_start": 10,
+              "page_end": 10
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Recognized standards/guidelines for occupational health and safety management systems include international, national, and industry-specific standards.",
+                "When reporting on the occupational health and safety management system, the organization can also describe:",
+                "•",
+                "the type of occupational health and safety professionals responsible for the management system, and whether these individuals are employed by the organization or engaged as consultants;",
+                "•",
+                "how the continual improvement of the management system is achieved, i.e., the iterative process of enhancing the management system to achieve improvements in overall occupational health and safety performance. 2",
+                "2 International Labour Organization (ILO), Guidelines on Occupational Safety and Health Management Systems, ILO-OSH , 2001.",
+                "GRI 403: Occupational Health and Safety 2018 11"
+              ],
+              "tables": [],
+              "page_start": 10,
+              "page_end": 11
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information for employees and for workers who are not employees but whose work and/or workplace is controlled by the organization:"
+          ],
+          "tables": [],
+          "page_start": 10,
+          "page_end": 11
+        },
+        {
+          "id": "Disclosure 403-2 Hazard identification, risk asses",
+          "label": "Disclosure 403-2 Hazard identification, risk assessment, and incident investigation",
+          "text": "Disclosure 403-2 Hazard identification, risk assessment, and incident investigation",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "a.",
+                "A description of the processes used to identify work-related hazards and assess risks on a routine and non-routine basis, and to apply the hierarchy of controls in order to eliminate hazards and minimize risks, including:",
+                "how the organization ensures the quality of these processes, including the competency of persons who carry them out; i.",
+                "how the results of these processes are used to evaluate and continually improve the occupational health and safety management system. ii.",
+                "b.",
+                "A description of the processes for workers to report work-related hazards and hazardous situations, and an explanation of how workers are protected against reprisals.",
+                "c.",
+                "A description of the policies and processes for workers to remove themselves from work situations that they believe could cause injury or ill health, and an explanation of how workers are protected against reprisals.",
+                "d.",
+                "A description of the processes used to investigate work-related incidents, including the processes to identify hazards and assess risks relating to the incidents, to determine corrective actions using the hierarchy of controls, and to determine improvements needed in the occupational health and safety management system.",
+                "Guidance for Disclosure 403-2-a When describing the processes used to identify hazards and assess risks on a routine and non-routine basis, and to apply the hierarchy of controls, the reporting organization can:"
+              ],
+              "tables": [],
+              "page_start": 11,
+              "page_end": 11
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "specify whether these processes are based on legal requirements and/or recognized standards/guidelines; •",
+                "describe the frequency and scope of processes undertaken on a routine basis; • describe the triggers for processes undertaken on a non-routine basis, such as changes in operating procedures or equipment; incident investigations; worker complaints or referrals; changes in workers or workflow; results of surveillance of work environment and worker health, including exposure monitoring (e.g., exposure to noise, vibration, dust);",
+                "•",
+                "•",
+                "explain how obstacles to the implementation of these processes are removed for workers who might be more vulnerable to the risk of work-related injury or ill health, such as workers facing language barriers or having visual or hearing impairments (e.g., by providing occupational health and safety training and information in a language easily understood by workers).",
+                "Guidance for Disclosures 403-2-b and 403-2-c Protecting workers against reprisals involves putting policies and processes in place that provide them with protection against intimidation, threats, or acts that could have a negative impact on their employment or work engagement, including termination, demotion, loss of compensation, discipline, and any other unfavorable treatment. Workers might face reprisals on account of their decision to either remove themselves from work situations that they believe could cause injury or ill health, or for reporting hazards or hazardous situations to their workers’ representatives, to their employer, or to regulatory authorities."
+              ],
+              "tables": [],
+              "page_start": 11,
+              "page_end": 11
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information for employees and for workers who are not employees but whose work and/or workplace is controlled by the organization:"
+          ],
+          "tables": [],
+          "page_start": 11,
+          "page_end": 11
+        },
+        {
+          "id": "Disclosure 403-2-c covers the right of workers to",
+          "label": "Disclosure 403-2-c covers the right of workers to refuse or stop unsafe or unhealthy work. Workers have the right to rem",
+          "text": "Disclosure 403-2-c covers the right of workers to refuse or stop unsafe or unhealthy work. Workers have the right to remove themselves from work situations that they believe could cause them or another person injury or ill health.",
+          "requirements": [],
+          "content": [
+            "GRI 403: Occupational Health and Safety 2018 12"
+          ],
+          "tables": [],
+          "page_start": 11,
+          "page_end": 12
+        },
+        {
+          "id": "Disclosure 403-3 Occupational health services",
+          "label": "Disclosure 403-3 Occupational health services",
+          "text": "Disclosure 403-3 Occupational health services",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "a.",
+                "A description of the occupational health services’ functions that contribute to the identification and elimination of hazards and minimization of risks, and an explanation of how the organization ensures the quality of these services and facilitates workers’ access to them."
+              ],
+              "tables": [],
+              "page_start": 12,
+              "page_end": 12
+            },
+            {
+              "type": "RECOMMENDATIONS",
+              "text": "RECOMMENDATIONS 1.3 The reporting organization should report the following additional information:",
+              "content": [
+                "How the organization maintains the confidentiality of workers’ personal health- related information; 1.3.1",
+                "1.3.2",
+                "How the organization ensures that workers’ personal health-related information and their participation in any occupational health services is not used for any favorable or unfavorable treatment of workers.",
+                "Guidance for Disclosure 403-3 Occupational health services aim to protect the health of workers in relation to their work environment."
+              ],
+              "tables": [],
+              "page_start": 12,
+              "page_end": 12
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "When describing how the quality of occupational health services is ensured, the reporting organization can explain whether the services are provided by competent individuals with recognized qualifications and accreditations, and whether it complies with legal requirements and/or recognized standards/guidelines.",
+                "When describing how it facilitates workers’ access to occupational health services, the organization can describe whether it provides these services at the workplace and during working hours; whether it arranges transport to health clinics or expedites service there; whether it provides information about the services, including in a language easily understood by workers; and whether it adjusts workloads to allow workers to make use of these services.",
+                "The organization can also report the metrics used to evaluate the effectiveness of these services, and the approaches used to raise awareness about them and encourage participation.",
+                "Guidance for clauses 1.3.1 and 1.3.2 Occupational health services are expected to respect workers’ right to privacy. Organizations are expected not to use workers' participation in such services and programs, or the health data derived therefrom, as criteria for their decisions regarding the employment or engagement of workers, including termination, demotion, promotion or offering of prospects, compensation, or any other favorable or unfavorable treatment. See reference [6] in the Bibliography .",
+                "References See references [3] and [9] in the Bibliography .",
+                "GRI 403: Occupational Health and Safety 2018 13"
+              ],
+              "tables": [],
+              "page_start": 12,
+              "page_end": 13
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information for employees and for workers who are not employees but whose work and/or workplace is controlled by the organization:"
+          ],
+          "tables": [],
+          "page_start": 12,
+          "page_end": 13
+        },
+        {
+          "id": "Disclosure 403-4 Worker participation, consultatio",
+          "label": "Disclosure 403-4 Worker participation, consultation, and communication on occupational health and safety",
+          "text": "Disclosure 403-4 Worker participation, consultation, and communication on occupational health and safety",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "a.",
+                "A description of the processes for worker participation and consultation in the development, implementation, and evaluation of the occupational health and safety management system, and for providing access to and communicating relevant information on occupational health and safety to workers.",
+                "b.",
+                "Where formal joint management-worker health and safety committees exist, a description of their responsibilities, meeting frequency, decision-making authority, and whether and, if so, why any workers are not represented by these committees."
+              ],
+              "tables": [],
+              "page_start": 13,
+              "page_end": 13
+            },
+            {
+              "type": "RECOMMENDATIONS",
+              "text": "RECOMMENDATIONS The reporting organization should report whether and, if so, which occupational health and safety topics are covered in local or global formal agreements with trade unions. 1.4",
+              "content": [
+                "Guidance for Disclosure 403-4-a When describing the processes for worker participation in occupational health and safety, the reporting organization can include information on:"
+              ],
+              "tables": [],
+              "page_start": 13,
+              "page_end": 13
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "formal participation, based on legal requirements; • participation through engagement with formally recognized workers’ representatives; • direct participation, particularly by affected workers (e.g., the direct involvement of all workers in occupational health and safety decisions in small organizations); •",
+                "the use of committees, and how these committees are established and operated; • participation in the occupational health and safety management system (e.g., participation in identification of hazards, assessment of risks, application of the hierarchy of controls, investigation of incidents, audits, decision-making about the use of contractors and outsourcing);",
+                "•",
+                "how obstacles to participation are identified and removed (e.g., by providing training, by protecting workers against reprisals). •",
+                "When describing the processes for providing access to and communicating relevant information on occupational health and safety to workers, the organization can report whether it provides information about work-related incidents and the actions taken in response.",
+                "Guidance for Disclosure 403-4-b A common form of worker participation in occupational health and safety is through joint management-worker health and safety committees. In addition to direct participation of workers from all job levels in these committees, workers’ representatives, where they exist, might also be involved in these joint activities, as they might be authorized to make decisions about occupational health and safety, among other workplace decisions.",
+                "Where formal joint management-worker health and safety committees exist, the organization can also describe the level at which each committee operates within the organization, its dispute resolution mechanism, its chairing responsibilities, and how the committee members are protected against reprisals."
+              ],
+              "tables": [],
+              "page_start": 13,
+              "page_end": 13
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information for employees and for workers who are not employees but whose work and/or workplace is controlled by the organization:"
+          ],
+          "tables": [],
+          "page_start": 13,
+          "page_end": 13
+        },
+        {
+          "id": "Disclosure 403-4-b requires a description of wheth",
+          "label": "Disclosure 403-4-b requires a description of whether and, if so, why any workers are not represented by these committees",
+          "text": "Disclosure 403-4-b requires a description of whether and, if so, why any workers are not represented by these committees. It does not require information on which workers are or are not members of such committees.",
+          "requirements": [],
+          "content": [
+            "Guidance for clause 1.4 Agreements at the local level typically include topics such as provision of personal protective equipment; participation of workers’ representatives in health and safety inspections, audits, and incident investigations; provision of training and education; and protection against reprisals.",
+            "Agreements at the global level typically include topics such as compliance with the ILO’s International Labour Standards; arrangements or structures for resolving problems; and commitments regarding occupational health and safety standards and levels of performance.",
+            "GRI 403: Occupational Health and Safety 2018 14",
+            "GRI 403: Occupational Health and Safety 2018 15"
+          ],
+          "tables": [],
+          "page_start": 13,
+          "page_end": 15
+        },
+        {
+          "id": "Disclosure 403-5 Worker training on occupational h",
+          "label": "Disclosure 403-5 Worker training on occupational health and safety",
+          "text": "Disclosure 403-5 Worker training on occupational health and safety",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "a.",
+                "A description of any occupational health and safety training provided to workers, including generic training as well as training on specific work-related hazards, hazardous activities, or hazardous situations.",
+                "Guidance for Disclosure 403-5 When describing the occupational health and safety training provided, the reporting organization can include information on:"
+              ],
+              "tables": [],
+              "page_start": 15,
+              "page_end": 15
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "how training needs are assessed; • how the training is designed and delivered, including the content or topics addressed, the competency of trainers, which workers receive the training, the frequency of the training, and whether the training is provided in a language easily understood by workers;",
+                "•",
+                "whether the training is provided free of charge and during paid working hours – if not, whether it is mandatory for workers to attend, and whether they are compensated for this; •",
+                "how the effectiveness of the training is evaluated. •",
+                "GRI 403: Occupational Health and Safety 2018 16"
+              ],
+              "tables": [],
+              "page_start": 15,
+              "page_end": 16
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information for employees and for workers who are not employees but whose work and/or workplace is controlled by the organization:"
+          ],
+          "tables": [],
+          "page_start": 15,
+          "page_end": 16
+        },
+        {
+          "id": "Disclosure 403-6 Promotion of worker health",
+          "label": "Disclosure 403-6 Promotion of worker health",
+          "text": "Disclosure 403-6 Promotion of worker health",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "An explanation of how the organization facilitates workers’ access to non-occupational medical and healthcare services, and the scope of access provided. a.",
+                "b.",
+                "A description of any voluntary health promotion services and programs offered to workers to address major non-work-related health risks, including the specific health risks addressed, and how the organization facilitates workers’ access to these services and programs."
+              ],
+              "tables": [],
+              "page_start": 16,
+              "page_end": 16
+            },
+            {
+              "type": "RECOMMENDATIONS",
+              "text": "RECOMMENDATIONS The reporting organization should report the following additional information: 1.5",
+              "content": [
+                "How the organization maintains the confidentiality of workers’ personal health- related information; 1.5.1",
+                "1.5.2",
+                "How the organization ensures that workers’ personal health-related information and their participation in any services or programs is not used for any favorable or unfavorable treatment of workers.",
+                "Guidance for Disclosure 403-6-a Achieving universal health coverage, including financial risk protection; access to quality essential healthcare services; and access to safe, effective, quality and affordable essential medicines and vaccines for all, is one of the targets of the UN Sustainable Development Goals (Target 3.8)."
+              ],
+              "tables": [],
+              "page_start": 16,
+              "page_end": 16
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Workers’ access to non-occupational medical and healthcare services might be facilitated, for example, through company clinics or disease treatment programs, referral systems, or health insurance or financial contributions.",
+                "When describing the scope of access to non-occupational medical and healthcare services provided, the reporting organization can specify the types of service to which access is facilitated and the types of worker that have access to them.",
+                "If the organization does not facilitate workers’ access to non-occupational medical and healthcare services because it operates in a country where the population already has access to high-quality and accessible services (e.g., through financial or other support), the organization can state this in its reported information.",
+                "If the organization does not facilitate access to non-occupational medical and healthcare services for workers who are not employees because the employer of those workers facilitates their access to these services, the organization can state this in its reported information.",
+                "Guidance for Disclosure 403-6-b Ensuring healthy lives and promoting wellbeing for all at all ages is one of the UN Sustainable Development Goals (Goal 3). This goal includes targets such as reducing premature mortality from non-communicable diseases through prevention and treatment, and promoting mental health and wellbeing; strengthening the prevention and treatment of substance abuse, including narcotic drug abuse and harmful consumption of alcohol; ensuring universal access to sexual and reproductive healthcare services; and ending epidemics of AIDS, tuberculosis, malaria, and neglected tropical diseases, and combating hepatitis, water-borne diseases, and other communicable diseases."
+              ],
+              "tables": [],
+              "page_start": 16,
+              "page_end": 16
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information for employees and for workers who are not employees but whose work and/or workplace is controlled by the organization:"
+          ],
+          "tables": [],
+          "page_start": 16,
+          "page_end": 16
+        },
+        {
+          "id": "Disclosure 403-6-b covers voluntary services and p",
+          "label": "Disclosure 403-6-b covers voluntary services and programs aimed at addressing major non- work-related health risks among",
+          "text": "Disclosure 403-6-b covers voluntary services and programs aimed at addressing major non- work-related health risks among workers, including both physical and mental health-related risks. Examples of these risks include smoking, drug and alcohol abuse, physical inactivity, unhealthy diets, HIV, and psychosocial factors.",
+          "requirements": [],
+          "content": [
+            "Voluntary health promotion programs and services might include smoking cessation programs, dietary advice, offering of healthy food in the canteen, stress-reducing programs, provision of a gym, or fitness programs. A program or service is voluntary when it does not set mandatory",
+            "GRI 403: Occupational Health and Safety 2018 17",
+            "personal targets, and if incentives are provided, these are not associated with the organization’s decisions regarding employment or engagement of workers.",
+            "Voluntary health promotion services and programs complement but cannot be a substitute for occupational health and safety services, programs and systems that prevent harm and protect workers from work-related injuries and ill health. Voluntary health promotion and occupational health and safety may be managed jointly by the organization, as part of an overall approach to ensuring the health and safety of workers.",
+            "When describing how it facilitates workers’ access to voluntary health promotion services and programs, the organization can explain whether it allows workers to make use of these during paid working hours. The organization can also report if these services and programs are available for family members of workers.",
+            "When describing its voluntary health promotion services and programs, the organization can also report:",
+            "how the topics covered in these services and programs are selected, including how workers are engaged in the selection of topics; •",
+            "the extent to which these services and programs include proven effective interventions (see reference [19] in the Bibliography ); •",
+            "the metrics used to evaluate the effectiveness of these services and programs; • the approaches used to raise awareness about these services and programs and encourage participation. •",
+            "Guidance for clauses 1.5.1 and 1.5.2 Non-occupational health services and programs are expected to respect workers’ right to privacy. Organizations are expected not to use workers' participation in such services and programs, or the health data derived therefrom, as criteria for their decisions regarding the employment or engagement of workers, including termination, demotion, promotion or offering of prospects, compensation, or any other favorable or unfavorable treatment. See reference [6] in the Bibliography .",
+            "References See references [1], [14], and [15] in the Bibliography .",
+            "GRI 403: Occupational Health and Safety 2018 18"
+          ],
+          "tables": [],
+          "page_start": 16,
+          "page_end": 18
+        },
+        {
+          "id": "Disclosure 403-7 Prevention and mitigation of occu",
+          "label": "Disclosure 403-7 Prevention and mitigation of occupational health and safety impacts directly linked by business relatio",
+          "text": "Disclosure 403-7 Prevention and mitigation of occupational health and safety impacts directly linked by business relationships",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "References See reference [13] in the Bibliography .",
+                "GRI 403: Occupational Health and Safety 2018 19"
+              ],
+              "tables": [],
+              "page_start": 18,
+              "page_end": 19
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information: REQUIREMENTS",
+            "a.",
+            "A description of the organization’s approach to preventing or mitigating significant negative occupational health and safety impacts that are directly linked to its operations, products, or services by its business relationships, and the related hazards and risks.",
+            "Background In cases where an organization has no control over both the work and workplace, it still has a responsibility to make efforts, including exercising any leverage it might have, to prevent and mitigate negative occupational health and safety impacts that are directly linked to its operations, products, or services by its business relationships. For more guidance, see the Scope of ‘workers’ in this Standard section."
+          ],
+          "tables": [],
+          "page_start": 18,
+          "page_end": 19
+        },
+        {
+          "id": "2. Topic disclosures",
+          "label": "2. Topic disclosures",
+          "text": "2. Topic disclosures",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 19,
+          "page_end": 19
+        },
+        {
+          "id": "Disclosure 403-8 Workers covered by an occupationa",
+          "label": "Disclosure 403-8 Workers covered by an occupational health and safety management system",
+          "text": "Disclosure 403-8 Workers covered by an occupational health and safety management system",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "A systems-based approach, which encompasses fully integrated processes, can be a significant advancement over an approach that considers hazard identification, risk assessment, and incident investigation as isolated activities. Focusing on system deficiencies can enable an organization to identify deficiencies in its overall management of occupational health and safety; address resources, policy, and operational controls; and ensure continual improvement.",
+                "Guidance for Disclosure 403-8 This disclosure indicates what proportion of an organization’s employees, and workers who are not employees but whose work and/or workplace is controlled by the organization, are covered by an occupational health and safety management system based on legal requirements and/or recognized standards/guidelines. The list of legal requirements and/or recognized standards/guidelines used by the reporting organization in its occupational health and safety management system are reported using Disclosures 403-1-a-i and 403-1-a-ii in the Topic management disclosures section.",
+                "If not all workers are covered by the occupational health and safety management system, the organization can report whether any of the workers not covered are at high risk of work-related injury or ill health.",
+                "In addition to the information required by this disclosure, the organization can report the number and percentage of sites covered by an occupational health and safety management system based on legal requirements and/or recognized standards/guidelines.",
+                "The organization can also describe:",
+                "the approach used for internal audits (e.g., whether they are carried out following an internally-developed audit standard or a recognized audit standard, what is the qualification •",
+                "GRI 403: Occupational Health and Safety 2018 20",
+                "of the auditors); whether any processes or functions have been excluded from the scope of the audit or certification, and how occupational health and safety performance is being monitored in those areas;",
+                "•",
+                "the audit or certification standard used. •",
+                "Audits by external parties may include both second-party and third-party audits. Second-party audits are usually performed by customers or others on behalf of customers, or by any other external parties that have a formal interest in the organization. Third-party audits are performed by independent organizations such as registrars (i.e., certification bodies) or regulators.",
+                "Guidance for Disclosure 403-8-b Types of worker can be based on criteria such as full-time, part-time, non-guaranteed hours, permanent or temporary basis, type or degree of control (e.g., control of work or workplace, sole or shared control), and location, among others.",
+                "GRI 403: Occupational Health and Safety 2018 21"
+              ],
+              "tables": [],
+              "page_start": 19,
+              "page_end": 21
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information: REQUIREMENTS",
+            "a.",
+            "If the organization has implemented an occupational health and safety management system based on legal requirements and/or recognized standards/guidelines:",
+            "i.",
+            "the number and percentage of all employees and workers who are not employees but whose work and/or workplace is controlled by the organization, who are covered by such a system;",
+            "ii.",
+            "the number and percentage of all employees and workers who are not employees but whose work and/or workplace is controlled by the organization, who are covered by such a system that has been internally audited;",
+            "iii.",
+            "the number and percentage of all employees and workers who are not employees but whose work and/or workplace is controlled by the organization, who are covered by such a system that has been audited or certified by an external party.",
+            "Whether and, if so, why any workers have been excluded from this disclosure, including the types of worker excluded. b.",
+            "Any contextual information necessary to understand how the data have been compiled, such as any standards, methodologies, and assumptions used. c.",
+            "Background Occupational health and safety management systems can serve as an effective approach to managing and continually eliminating hazards and minimizing risks. It is a systems-based approach that seeks to integrate occupational health and safety management into overall business processes. A system typically moves through a ‘plan-do-check-act’ cycle, promoting leadership and practice through meaningful consultation and participation of workers from all job levels in the organization."
+          ],
+          "tables": [],
+          "page_start": 19,
+          "page_end": 21
+        },
+        {
+          "id": "Disclosure 403-9 Work-related injuries",
+          "label": "Disclosure 403-9 Work-related injuries",
+          "text": "Disclosure 403-9 Work-related injuries",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "a.",
+                "For all employees:",
+                "The number and rate of fatalities as a result of work-related injury; i.",
+                "The number and rate of high-consequence work-related injuries (excluding fatalities); ii.",
+                "The number and rate of recordable work-related injuries; iii.",
+                "The main types of work-related injury; iv.",
+                "The number of hours worked. v.",
+                "b.",
+                "For all workers who are not employees but whose work and/or workplace is controlled by the organization:",
+                "The number and rate of fatalities as a result of work-related injury; i.",
+                "The number and rate of high-consequence work-related injuries (excluding fatalities); ii.",
+                "The number and rate of recordable work-related injuries; iii.",
+                "The main types of work-related injury; iv.",
+                "The number of hours worked. v.",
+                "c.",
+                "The work-related hazards that pose a risk of high-consequence injury, including:",
+                "how these hazards have been determined; i.",
+                "which of these hazards have caused or contributed to high-consequence injuries during the reporting period; ii.",
+                "actions taken or underway to eliminate these hazards and minimize risks using the hierarchy of controls. iii.",
+                "Any actions taken or underway to eliminate other work-related hazards and minimize risks using the hierarchy of controls. d.",
+                "Whether the rates have been calculated based on 200,000 or 1,000,000 hours worked. e.",
+                "Whether and, if so, why any workers have been excluded from this disclosure, including the types of worker excluded. f.",
+                "Any contextual information necessary to understand how the data have been compiled, such as any standards, methodologies, and assumptions used. g.",
+                "Compilation requirements",
+                "When compiling the information specified in Disclosure 403-9, the reporting organization shall: 2.1",
+                "exclude fatalities in the calculation of the number and rate of high- consequence work-related injuries; 2.1.1",
+                "include fatalities as a result of work-related injury in the calculation of the number and rate of recordable work-related injuries; 2.1.2",
+                "include injuries as a result of commuting incidents only where the transport has been organized by the organization; 2.1.3",
+                "calculate the rates based on either 200,000 or 1,000,000 hours worked, using the following formulas: 2.1.4",
+                "Number of fatalities as a result",
+                "Rate of fatalities as a result of work-related injury",
+                "of work-related injury ______________________",
+                "=",
+                "x  [200,000 or",
+                "1,000,000]",
+                "Number of hours worked",
+                "GRI 403: Occupational Health and Safety 2018 22",
+                "Number of high-consequence",
+                "work-related injuries",
+                "Rate of high-consequence work-related injuries (excluding fatalities)",
+                "(excluding fatalities) ______________________",
+                "x  [200,000 or",
+                "=",
+                "1,000,000]",
+                "Number of hours worked",
+                "Number of recordable work-",
+                "related injuries ______________________",
+                "Rate of recordable work- related injuries =",
+                "x  [200,000 or",
+                "1,000,000]",
+                "Number of hours worked"
+              ],
+              "tables": [],
+              "page_start": 21,
+              "page_end": 22
+            },
+            {
+              "type": "RECOMMENDATIONS",
+              "text": "RECOMMENDATIONS The reporting organization should report the following additional information: 2.2",
+              "content": [
+                "2.2.1",
+                "If the numbers and rates reported are significantly higher for certain types of injury, countries, business lines, or workers’ demographics (e.g., sex, gender, migrant status, age, or worker type), a breakdown of these data;",
+                "A breakdown of the number of recordable work-related injuries by type of incident; 2.2.2",
+                "If chemical hazards have been identified in Disclosure 403-9-c, a list of the chemicals; 2.2.3",
+                "The number of high-potential work-related incidents identified; 2.2.4",
+                "The number of close calls identified. 2.2.5",
+                "Guidance for Disclosure 403-9 This disclosure covers work-related injuries. Data on work-related injuries are a measure of the extent of harm suffered by workers; they are not a measure of safety."
+              ],
+              "tables": [],
+              "page_start": 22,
+              "page_end": 22
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "An increase in the number or rate of reported incidents does not necessarily mean that there have been a greater number of incidents than before; it can indicate an improvement in the recording and reporting of incidents.",
+                "If an increase in the number or rate of reported incidents is the result of the organization’s actions to improve the reporting and recording of fatalities, injuries, and ill health, or its actions to expand the scope of its management system to cover more workers or workplaces, the reporting organization can explain this and report on these actions and their results.",
+                "Types of work-related injury can include death, amputation of a limb, laceration, fracture, hernia, burns, loss of consciousness, and paralysis, among others.",
+                "In the context of this Standard, work-related musculoskeletal disorders are covered under ill health (and not injuries) and are to be reported using Disclosure 403-10 . If the organization operates in a jurisdiction where worker compensation systems classify musculoskeletal disorders as injuries, the organization can explain this and report these disorders using Disclosure 403-9. See references [5] and [16] in the Bibliography for a list of musculoskeletal disorders.",
+                "Injuries involving members of the public as a result of a work-related incident are not included in this disclosure, but the organization can report this information separately. For example, the organization can report incidents where a vehicle driven by a worker causes the deaths of other road users or incidents where visitors are injured during their visit to the organization’s workplace.",
+                "Guidance for reporting on high-consequence work-related injuries As per the definition of recordable work-related injury, the organization is required to report all work-related injuries as part of the ‘number and rate of recordable work-related injuries’. In addition, the organization is required to separately report high-consequence work- related injuries, with a breakdown by:",
+                "fatalities, to be reported using Disclosures 403-9-a-i and 403-9-b-i. • other injuries from which the worker cannot recover (e.g., amputation of a limb), or does not or is not expected to recover fully to pre-injury health status within 6 months (e.g., fracture •",
+                "GRI 403: Occupational Health and Safety 2018 23",
+                "with complications), to be reported using Disclosures 403-9-a-ii and 403-9-b-ii.",
+                "The definition of ‘high-consequence work-related injury’ uses ‘recovery time’, instead of ‘lost time’, as the criterion for determining the severity of an injury. Lost time is an indicator of the loss of productivity for an organization as a result of a work-related injury; it does not necessarily indicate the extent of harm suffered by a worker.",
+                "‘Recovery time’, in contrast, refers to the time needed for a worker to recover fully to pre-injury health status; it does not refer to the time needed for a worker to return to work. In some cases, a worker might return to work before full recovery.",
+                "In addition to reporting information on high-consequence work-related injuries based on recovery time as required by this disclosure, the organization can also report the number and rate of work-related injuries that resulted in lost-workday cases, the average number of lost days per lost-workday case, the number of lost workdays, and the absentee rate.",
+                "Guidance for Disclosure 403-9-c This disclosure covers work-related hazards that pose a risk of high-consequence injury if not controlled, even when there are control measures in place. The hazards might have been identified proactively through risk assessment, or reactively as a result of either a high-potential incident or a high-consequence injury.",
+                "Examples of work-related hazards causing or contributing to high-consequence injuries include excessive workload demands, tripping hazards, or exposure to flammable materials.",
+                "If the identified work-related hazards vary significantly across different locations, the organization may group or disaggregate these by relevant categories, such as by geographical area or business line. Similarly, if there are a high number of hazards, the organization may group or categorize them to facilitate reporting.",
+                "When reporting how it has determined which work-related hazards pose a risk of high- consequence injury using Disclosure 403-9-c-i, the organization can describe the criteria or threshold used to determine which hazards pose such a risk and which do not. The processes to identify hazards and assess risks, and to apply the hierarchy of controls, are reported using Disclosure 403-2-a ."
+              ],
+              "tables": [],
+              "page_start": 22,
+              "page_end": 23
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information:"
+          ],
+          "tables": [],
+          "page_start": 21,
+          "page_end": 23
+        },
+        {
+          "id": "Disclosure 403-9-c-ii does not require reporting w",
+          "label": "Disclosure 403-9-c-ii does not require reporting which work-related hazards have caused or contributed to which high-con",
+          "text": "Disclosure 403-9-c-ii does not require reporting which work-related hazards have caused or contributed to which high-consequence injuries during the reporting period; it requires the aggregate analysis of all work-related hazards that resulted in high-consequence injuries.",
+          "requirements": [],
+          "content": [
+            "If a work-related incident resulting in a high-consequence injury is still under investigation at the end of the reporting period, the organization can state this in its reported information. The organization can report on actions taken during the reporting period to eliminate hazards and minimize risks that were identified, or to address work-related incidents that took place, in prior reporting periods.",
+            "Guidance for Disclosure 403-9-d This disclosure covers any actions taken or underway to eliminate other work-related hazards and minimize risks (i.e., not covered in Disclosure 403-9-c) using the hierarchy of controls. This disclosure can include actions taken in response to non-high-consequence work-related injuries, and work-related incidents with low probability of causing high-consequence injuries.",
+            "Guidance for Disclosure 403-9-f Types of worker can be based on criteria such as full-time, part-time, non-guaranteed hours, permanent or temporary basis, type or degree of control (e.g., control of work or workplace, sole or shared control), and location, among others.",
+            "Guidance for Disclosure 403-9-g If the organization follows the ILO code of practice on Recording and notification of occupational accidents and diseases , it can state this in response to Disclosure 403-9-g.",
+            "If the organization does not follow the ILO code of practice, it can indicate which system of rules it applies in recording and reporting work-related injuries and its relationship to the ILO code of practice.",
+            "GRI 403: Occupational Health and Safety 2018 24",
+            "If the organization cannot directly calculate the number of hours worked, it may estimate this on the basis of normal or standard hours of work, taking into account entitlements to periods of paid leave of absence from work (e.g., paid vacations, paid sick leave, public holidays) and explain this in its reported information.",
+            "When the organization cannot directly calculate or estimate the number of hours worked (e.g., because the workers performed non-routine work during an emergency situation, or because the performed work was not paid for by the hour), it is required to provide a reason for this omission as set out in GRI 1: Foundation 2021 . See Requirement 6 in GRI 1 for requirements on reasons for omission.",
+            "Guidance for clause 2.1.3 Clause 2.1.3 requires the organization to include injuries as a result of commuting incidents in cases where the transport has been organized by the organization (e.g., company or contracted bus or vehicle). The organization can report other commuting incidents separately; for example if this information is to be reported under local law.",
+            "Guidance for clause 2.1.4 Clause 2.1.4 requires the organization to calculate the rates based on either 200,000 or 1,000,000 hours worked.",
+            "Standardized rates allow for meaningful comparisons of statistics, for example between different periods or organizations, or help account for differences in the number of workers in the reference group and the number of hours worked by them.",
+            "A rate based on 200,000 hours worked indicates the number of work-related injuries per 100 full-time workers over a one-year timeframe, based on the assumption that one full-time worker works 2,000 hours per year. For example, a rate of 1.0 means that, on average, there is one work-related injury for every group of 100 full-time workers over a one-year timeframe. A rate based on 1,000,000 hours worked indicates the number of work-related injuries per 500 full- time workers over a one-year timeframe.",
+            "A rate based on 200,000 hours worked might be more suitable for small organizations.",
+            "In addition to standardized rates, this disclosure requires the organization to report absolute data (i.e., numbers), to allow information users to calculate the rates themselves using other methodologies if needed.",
+            "Guidance for clauses 2.2.1 and 2.2.2 Target 8.8 of the UN Sustainable Development Goals aims to ‘protect labour rights and promote safe and secure working environments for all workers, including migrant workers, in particular women migrants, and those in precarious employment’. Some groups might be at increased risk of work-related injury due to demographic factors such as sex, gender, migrant status, or age; it can thus be beneficial to break down data on work-related injuries by these demographic criteria. See reference [14] in the Bibliography .",
+            "ILO Convention 143 ‘Migrant Workers (Supplementary Provisions) Convention’ defines ‘migrant worker’ as ‘a person who migrates or who has migrated from one country to another with a view to being employed otherwise than on his own account and includes any person regularly admitted as a migrant worker’. See ILO Convention 143 for more guidance.",
+            "If the data on work-related injuries are driven primarily by certain types of injury (e.g., amputation, paralysis) or incident (e.g., explosion, road accident), the organization can provide a breakdown of this information.",
+            "References See reference [10] in the Bibliography .",
+            "GRI 403: Occupational Health and Safety 2018 25"
+          ],
+          "tables": [],
+          "page_start": 23,
+          "page_end": 25
+        },
+        {
+          "id": "Disclosure 403-10 Work-related ill health",
+          "label": "Disclosure 403-10 Work-related ill health",
+          "text": "Disclosure 403-10 Work-related ill health",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "a.",
+                "For all employees:",
+                "The number of fatalities as a result of work-related ill health; i.",
+                "The number of cases of recordable work-related ill health; ii.",
+                "The main types of work-related ill health. iii.",
+                "b.",
+                "For all workers who are not employees but whose work and/or workplace is controlled by the organization:",
+                "The number of fatalities as a result of work-related ill health; i.",
+                "The number of cases of recordable work-related ill health; ii.",
+                "The main types of work-related ill health. iii.",
+                "c.",
+                "The work-related hazards that pose a risk of ill health, including:",
+                "how these hazards have been determined; i.",
+                "which of these hazards have caused or contributed to cases of ill health during the reporting period; ii.",
+                "actions taken or underway to eliminate these hazards and minimize risks using the hierarchy of controls. iii.",
+                "Whether and, if so, why any workers have been excluded from this disclosure, including the types of worker excluded. d.",
+                "Any contextual information necessary to understand how the data have been compiled, such as any standards, methodologies, and assumptions used. e.",
+                "Compilation requirements",
+                "2.3",
+                "When compiling the information specified in Disclosure 403-10, the reporting organization shall include fatalities as a result of work-related ill health in the calculation of the number of cases of recordable work-related ill health."
+              ],
+              "tables": [],
+              "page_start": 25,
+              "page_end": 25
+            },
+            {
+              "type": "RECOMMENDATIONS",
+              "text": "RECOMMENDATIONS The reporting organization should report the following additional information: 2.4",
+              "content": [
+                "2.4.1",
+                "If the numbers reported are significantly higher for certain types of ill health, countries, business lines, or workers’ demographics (e.g., sex, gender, migrant status, age, or worker type), a breakdown of these data;",
+                "If chemical hazards have been identified in Disclosure 403-10-c, a list of the chemicals; 2.4.2",
+                "2.4.3",
+                "The number of employees and workers who are not employees but whose work and/or workplace is controlled by the organization, exposed to each hazard identified in Disclosure 403-10-c.",
+                "Guidance for Disclosure 403-10 Work-related ill health can include acute, recurring, and chronic health problems caused or aggravated by work conditions or practices. They include musculoskeletal disorders, skin and respiratory diseases, malignant cancers, diseases caused by physical agents (e.g., noise- induced hearing loss, vibration-caused diseases), and mental illnesses (e.g., anxiety, post- traumatic stress disorder). This disclosure covers, but is not limited to, the diseases included in the ILO List of Occupational Diseases . In the context of this Standard, work-related musculoskeletal disorders are covered under ill health (and not injuries) and are to be reported using this disclosure. See references [5] and [16] in the Bibliography ."
+              ],
+              "tables": [],
+              "page_start": 25,
+              "page_end": 25
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "This disclosure covers all cases of work-related ill health notified to the reporting organization or identified by the organization through medical surveillance, during the reporting period. The organization might be notified of cases of work-related ill health through reports by affected workers, compensation agencies, or healthcare professionals. The disclosure may include cases of work-related ill health that were detected during the reporting period among former workers. If the organization determines, for example through investigation, that the notified case",
+                "GRI 403: Occupational Health and Safety 2018 26",
+                "of work-related ill health is not due to exposure whilst working for the organization, it can explain this in its reported information.",
+                "This disclosure covers both short-latency and long-latency work-related ill health. Latency refers to the time period between exposure and the onset of ill health.",
+                "Many cases of long-latency work-related ill health go undetected; if detected, they might not necessarily be due to exposures with one employer. For example, a worker might be exposed to asbestos while working for different employers over time, or might suffer from a long-latency disease that turns fatal many years after the worker has left the organization. For this reason, data on work-related ill health are to be complemented with information on work-related hazards.",
+                "In some situations, an organization might not be able to collect or publicly disclose data on work-related ill health. The following are examples of these situations:",
+                "•",
+                "National or regional regulations, contractual obligations, health insurance provisions, and other legal requirements related to the privacy of workers’ health-related information, might prevent organizations from collecting, maintaining, and publicly reporting these data.",
+                "•",
+                "The nature of information on workers’ exposure to psychosocial factors, largely based on self-disclosure and in many instances protected under healthcare privacy regulations, might limit organizations in disclosing this information.",
+                "In these situations, the organization is required to provide a reason for omission of these data as set out in GRI 1: Foundation 2021 . See Requirement 6 in GRI 1 for requirements on reasons for omission.",
+                "Cases of ill health involving members of the public as a result of a work-related incident are not included in this disclosure, but the organization can report this information separately. An example of such an incident is when a chemical substance spill causes ill health among members of a nearby community.",
+                "Guidance for Disclosure 403-10-c This disclosure includes exposures to the 'International Agency for Research on Cancer (IARC) Group 1’ (carcinogenic to humans), ‘IARC Group 2A’ (probably carcinogenic to humans), and ‘IARC Group 2B’ (possibly carcinogenic to humans) agents. See references [17] and [18] in the Bibliography .",
+                "See Guidance for Disclosure for 403-9-c for more information on reporting on hazards.",
+                "Guidance for Disclosure 403-10-d Types of worker can be based on criteria such as full-time, part-time, non-guaranteed hours, permanent or temporary basis, type or degree of control (e.g., control of work or workplace, sole or shared control), and location, among others.",
+                "Guidance for Disclosure 403-10-e If the organization follows the ILO code of practice on Recording and notification of occupational accidents and diseases , it can state this in response to Disclosure 403-10-e.",
+                "If the organization does not follow the ILO code of practice, it can indicate which system of rules it applies in recording and reporting work-related ill health and its relationship to the ILO code of practice.",
+                "Guidance for clause 2.4.1 If the data on work-related ill health are driven primarily by certain types of ill health or disease (e.g., respiratory diseases, skin diseases) or incident (e.g., exposure to bacteria or viruses), the organization can provide a breakdown of this information.",
+                "See also Guidance for clauses 2.2.1 and 2.2.2 .",
+                "References See references [5], [10], and [16] in the Bibliography .",
+                "GRI 403: Occupational Health and Safety 2018 27",
+                "Glossary",
+                "This glossary provides definitions for terms used in this Standard. The organization is required to apply these definitions when using the GRI Standards.",
+                "The definitions included in this glossary may contain terms that are further defined in the complete GRI Standards Glossary . All defined terms are underlined. If a term is not defined in this glossary or in the complete GRI Standards Glossary , definitions that are commonly used and understood apply.",
+                "business partner entity with which the organization has some form of direct and formal engagement for the purpose of meeting its business objectives",
+                "B",
+                "Source: Shift and Mazars LLP, UN Guiding Principles Reporting Framework , 2015; modified",
+                "Examples: affiliates, business-to-business customers, clients, first-tier suppliers, franchisees, joint venture partners, investee companies in which the organization has a shareholding position",
+                "Note: Business partners do not include subsidiaries and affiliates that the organization controls.",
+                "business relationships relationships that the organization has with business partners, with entities in its value chain including those beyond the first tier, and with any other entities directly linked to its operations, products, or services",
+                "Source: United Nations (UN), Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework , 2011; modified",
+                "Note: Examples of other entities directly linked to the organization’s operations, products, or services are a non-governmental organization with which the organization delivers support to a local community or state security forces that protect the organization’s facilities.",
+                "close call work-related incident where no injury or ill health occurs, but which has the potential to cause these",
+                "C",
+                "Source: International Organization for Standardization. ISO 45001:2018. Occupational health and safety management systems — Requirements with guidance for use. Geneva: ISO, 2018; modified",
+                "Note: A ‘close call’ might also be referred to as a ‘near-miss’ or ‘near-hit’.",
+                "collective bargaining all negotiations that take place between one or more employers or employers' organizations, on the one hand, and one or more workers' organizations (e.g., trade unions), on the other, for determining working conditions and terms of employment or for regulating relations between employers and workers",
+                "Source: International Labour Organization (ILO), Collective Bargaining Convention , 1981 (No. 154); modified",
+                "commuting incident incident that occurs when the worker is traveling between a place of private activity (e.g., residence, restaurant) and a place of work or workplace",
+                "Note: Modes of travel include motor vehicles (e.g., motorcycles, cars, trucks, buses), railed vehicles (e.g., trains, trams), bicycles, aircrafts, and walking, among others.",
+                "GRI 403: Occupational Health and Safety 2018 28",
+                "employee individual who is in an employment relationship with the organization according to national law or practice",
+                "E",
+                "exposure quantity of time spent at or the nature of contact with certain environments that possess various degrees and kinds of hazard, or proximity to a condition that might cause injury or ill health (e.g., chemicals, radiation, high pressure, noise, fire, explosives)",
+                "formal agreement written document signed by all relevant parties declaring a mutual intention to abide by what is stipulated in the document",
+                "F",
+                "Examples: a local collective bargaining agreement, a national or international framework agreement",
+                "formal joint management–worker health and safety committee committee composed of management and worker representatives, whose function is integrated into an organizational structure, and which operates according to agreed written policies, procedures, and rules, and helps facilitate worker participation and consultation on matters of occupational health and safety",
+                "full-time employee employee whose working hours per week, month, or year are defined according to national law or practice regarding working time",
+                "health promotion process of enabling people to increase control over and improve their health",
+                "H",
+                "Source: World Health Organization (WHO), Ottawa Charter for Health Promotion , 1986",
+                "Note: The terms ‘health promotion’, ‘wellbeing’, and ‘wellness’ are often used interchangeably.",
+                "hierarchy of controls systematic approach to enhance occupational health and safety, eliminate hazards, and minimize risks",
+                "Note 1: The hierarchy of controls seeks to protect workers by ranking the ways in which hazards can be controlled. Each control in the hierarchy is considered less effective than the one before it. The priority is to eliminate the hazard, which is the most effective way to control it.",
+                "Note 2: The International Labour Organization (ILO) Guidelines on Occupational Safety and Health Management Systems , 2001 and ISO 45001:2018 list the following preventive and protective measures in the following order of priority:",
+                "eliminate the hazard/risk; • substitute the hazard/risk with less hazardous processes, operations, materials, or equipment; •",
+                "control the hazard/risk at source, through the use of engineering controls or organizational measures; •",
+                "minimize the hazard/risk by the design of safe work systems, which include administrative control measures; •",
+                "•",
+                "where residual hazards/risks cannot be controlled by collective measures, provide for appropriate personal protective equipment, including clothing, at no cost, and implement measures to ensure its use and maintenance.",
+                "high-consequence work-related injury work-related injury that results in a fatality or in an injury from which the worker cannot, does not, or is not expected to recover fully to pre-injury health status within six months",
+                "high-potential work-related incident work-related incident with a high probability of causing a high-consequence injury",
+                "GRI 403: Occupational Health and Safety 2018 29",
+                "Examples: incidents involving explosions, malfunctioning equipment, vehicle collisions with a high probability of causing a high-consequence injury",
+                "human rights rights inherent to all human beings, which include, at a minimum, the rights set out in the United Nations (UN) International Bill of Human Rights and the principles concerning fundamental rights set out in the International Labour Organization (ILO) Declaration on Fundamental Principles and Rights at Work",
+                "Source: United Nations (UN), Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework , 2011; modified",
+                "Note: See Guidance to 2-23-b-i in GRI 2: General Disclosures 2021 for more information on ‘human rights’.",
+                "impact effect the organization has or could have on the economy, environment, and people, including on their human rights, which in turn can indicate its contribution (negative or positive) to sustainable development",
+                "I",
+                "Note 1: Impacts can be actual or potential, negative or positive, short-term or long-term, intended or unintended, and reversible or irreversible.",
+                "Note 2: See section 2.1 in GRI 1: Foundation 2021 for more information on ‘impact’.",
+                "material topics topics that represent the organization’s most significant impacts on the economy, environment, and people, including impacts on their human rights",
+                "M",
+                "Note: See section 2.2 in GRI 1: Foundation 2021 and section 1 in GRI 3: Material Topics 2021 for more information on ‘material topics’.",
+                "non-guaranteed hours employee employee who is not guaranteed a minimum or fixed number of working hours per day, week, or month, but who may need to make themselves available for work as required",
+                "N",
+                "Source: ShareAction, Workforce Disclosure Initiative Survey Guidance Document , 2020; modified",
+                "Examples: casual employees, employees with zero-hour contracts, on-call employees",
+                "occupational health and safety management system set of interrelated or interacting elements to establish an occupational health and safety policy and objectives, and to achieve those objectives",
+                "O",
+                "Source: International Labour Organization (ILO), Guidelines on Occupational Safety and Health Management Systems, ILO-OSH 2001 , 2001",
+                "occupational health and safety risk combination of the likelihood of occurrence of a work-related hazardous situation or exposure, and the severity of injury or ill health that can be caused by the situation or exposure",
+                "Source: International Organization for Standardization. ISO 45001:2018. Occupational health and safety management systems — Requirements with guidance for use. Geneva: ISO, 2018",
+                "occupational health services services entrusted with essentially preventive functions, and responsible for advising the employer, the workers, and their representatives in the undertaking, on the requirements for establishing and maintaining a safe and healthy work environment, which will facilitate optimal physical and mental health in relation to work and the adaptation of work to the capabilities of workers in the light of their state of physical and mental health",
+                "GRI 403: Occupational Health and Safety 2018 30",
+                "Source: International Labour Organization (ILO), Occupational Health Services Convention , 1985 (No. 161)",
+                "Examples: advice on ergonomics, and on individual and collective protective equipment; advice on occupational health, safety, and hygiene; organization of first aid and emergency treatment; promotion of the adaptation of work to the worker; surveillance of factors in the work environment, including any sanitary installations, canteens, and housing provided to workers, or in work practices, which might affect workers’ health; surveillance of workers' health in relation to work",
+                "part-time employee employee whose working hours per week, month, or year are less than the number of working hours for full-time employees",
+                "P",
+                "permanent employee employee with a contract for an indeterminate period (i.e., indefinite contract) for full-time or part- time work",
+                "recordable work-related injury or ill health work-related injury or ill health that results in any of the following: death, days away from work, restricted work or transfer to another job, medical treatment beyond first aid, or loss of consciousness; or significant injury or ill health diagnosed by a physician or other licensed healthcare professional, even if it does not result in death, days away from work, restricted work or job transfer, medical treatment beyond first aid, or loss of consciousness",
+                "R",
+                "Source: United States Occupational Safety and Health Administration (OSHA), General recording criteria 1904.7, https://www.osha.gov/pls/oshaweb/owadisp.show_document?p_ table=STANDARDS&p_id=9638 , accessed on 1 June 2018; modified",
+                "supplier entity upstream from the organization (i.e., in the organization’s supply chain), which provides a product or service that is used in the development of the organization’s own products or services",
+                "S",
+                "Examples: brokers, consultants, contractors, distributors, franchisees, home workers, independent contractors, licensees, manufacturers, primary producers, sub- contractors, wholesalers",
+                "Note: A supplier can have a direct business relationship with the organization (often referred to as a first-tier supplier) or an indirect business relationship.",
+                "supply chain range of activities carried out by entities upstream from the organization, which provide products or services that are used in the development of the organization’s own products or services",
+                "sustainable development / sustainability development that meets the needs of the present without compromising the ability of future generations to meet their own needs",
+                "Source: World Commission on Environment and Development, Our Common Future , 1987",
+                "Note: The terms ‘sustainability’ and ‘sustainable development’ are used interchangeably in the GRI Standards.",
+                "temporary employee employee with a contract for a limited period (i.e., fixed term contract) that ends when the specific time period expires, or when the specific task or event that has an attached time estimate is completed (e.g., the end of a project or return of replaced employees)",
+                "T",
+                "value chain range of activities carried out by the organization, and by entities upstream and downstream from the organization, to bring the organization’s products or services from their conception to their end use",
+                "V",
+                "GRI 403: Occupational Health and Safety 2018 31",
+                "Note 1: Entities upstream from the organization (e.g., suppliers) provide products or services that are used in the development of the organization’s own products or services. Entities downstream from the organization (e.g., distributors, customers) receive products or services from the organization.",
+                "Note 2: The value chain includes the supply chain.",
+                "work-related hazard source or situation with the potential to cause injury or ill health",
+                "W",
+                "Source: International Labour Organization (ILO) Guidelines on Occupational Safety and Health Management Systems, 2001; modified International Organization for Standardization. ISO 45001:2018. Occupational health and safety management systems — Requirements with guidance for use. Geneva: ISO, 2018; modified Definitions that are based on or come from the ISO 14046:2014 and ISO 45001:2018 standards are reproduced with the permission of the International Organization for Standardization, ISO. Copyright remains with ISO.",
+                "Note: Hazards can be:",
+                "physical (e.g., radiation, temperature extremes, constant loud noise, spills on floors or tripping hazards, unguarded machinery, faulty electrical equipment); •",
+                "ergonomic (e.g., improperly adjusted workstations and chairs, awkward movements, vibration); •",
+                "chemical (e.g., exposure to solvents, carbon monoxide, flammable materials, or pesticides); •",
+                "biological (e.g., exposure to blood and bodily fluids, fungi, bacteria, viruses, or insect bites); •",
+                "psychosocial (e.g., verbal abuse, harassment, bullying); • related to work-organization (e.g., excessive workload demands, shift work, long hours, night work, workplace violence). •",
+                "work-related incident occurrence arising out of or in the course of work that could or does result in injury or ill health",
+                "Source: International Organization for Standardization. ISO 45001:2018. Occupational health and safety management systems — Requirements with guidance for use. Geneva: ISO, 2018; modified Definitions that are based on or come from the ISO 14046:2014 and ISO 45001:2018 standards are reproduced with the permission of the International Organization for Standardization, ISO. Copyright remains with ISO.",
+                "Note 1: Incidents might be due to, for example, electrical problems, explosion, fire; overflow, overturning, leakage, flow; breakage, bursting, splitting; loss of control, slipping, stumbling and falling; body movement without stress; body movement under/with stress; shock, fright; workplace violence or harassment (e.g., sexual harassment).",
+                "Note 2: An incident that results in injury or ill health is often referred to as an ‘accident’. An incident that has the potential to result in injury or ill health but where none occurs is often referred to as a ‘close call', ‘near-miss’, or ‘near-hit’.",
+                "work-related injury or ill health negative impacts on health arising from exposure to hazards at work",
+                "Source: International Labour Organization (ILO), Guidelines on Occupational Safety and Health Management Systems, ILO-OSH 2001 , 2001; modified",
+                "Note 1: ‘Ill health’ indicates damage to health and includes diseases, illnesses, and disorders. The terms ‘disease’, ‘illness’, and ‘disorder’ are often used interchangeably and refer to conditions with specific symptoms and diagnoses.",
+                "GRI 403: Occupational Health and Safety 2018 32",
+                "Note 2: Work-related injuries and ill health are those that arise from exposure to hazards at work. Other types of incident can occur that are not connected with the work itself. For example, the following incidents are not considered to be work related:",
+                "a worker suffers a heart attack while at work that is unconnected with work; • a worker driving to or from work is injured in a car accident (where driving is not part of the work, and where the transport has not been organized by the employer);",
+                "•",
+                "a worker with epilepsy has a seizure at work that is unconnected with work. •",
+                "Note 3: Traveling for work: Injuries and ill health that occur while a worker is traveling are work related if, at the time of the injury or ill health, the worker was engaged in work activities ‘in the interest of the employer’. Examples of such activities include traveling to and from customer contacts; conducting job tasks; and entertaining or being entertained to transact, discuss, or promote business (at the direction of the employer).",
+                "Working at home: Injuries and ill health that occur when working at home are work related if the injury or ill health occurs while the worker is performing work at home, and the injury or ill health is directly related to the performance of work rather than the general home environment or setting.",
+                "Mental illness: A mental illness is considered to be work related if it has been notified voluntarily by the worker and is supported by an opinion from a licensed healthcare professional with appropriate training and experience stating that the illness is work related.",
+                "For more guidance on determining ‘work-relatedness’, see the United States Occupational Safety and Health Administration, Determination of work-relatedness 1904.5 , https://www.osha.gov/pls/ oshaweb/owadisp.show_document? p_table=STANDARDS&p_id=9636 , accessed on 1 June 2018.",
+                "Note 4: The terms ‘occupational’ and ‘work-related’ are often used interchangeably.",
+                "worker person that performs work for the organization",
+                "Examples: employees, agency workers, apprentices, contractors, home workers, interns, self- employed persons, sub-contractors, volunteers, and persons working for organizations other than the reporting organization, such as for suppliers",
+                "Note: In the GRI Standards, in some cases, it is specified whether a particular subset of workers is required to be used.",
+                "worker consultation seeking of workers’ views before making a decision",
+                "Note 1: Worker consultation might be carried out through workers’ representatives.",
+                "Note 2: Consultation is a formal process, whereby management takes the views of workers into account when making a decision. Therefore, consultation needs to take place before the decision is made. It is essential to provide timely information to workers or their representatives in order for them to provide meaningful and effective input before decisions are made. Genuine consultation involves dialogue.",
+                "Note 3: Worker participation and worker consultation are two distinct terms with specific meanings. See definition of ‘worker participation’.",
+                "worker participation workers’ involvement in decision-making",
+                "Note 1: Worker participation might be carried out through workers’ representatives.",
+                "Note 2: Worker participation and worker consultation are two distinct terms with specific meanings. See definition of ‘worker consultation’.",
+                "GRI 403: Occupational Health and Safety 2018 33",
+                "worker representative person who is recognized as such under national law or practice, whether they are:",
+                "a trade union representative, namely, a representative designated or elected by trade unions or by members of such unions; or •",
+                "•",
+                "an elected representative, namely, a representative who is freely elected by the workers of the undertaking in accordance with provisions of national laws, regulations, or collective agreements, whose functions do not include activities which are recognized as the exclusive prerogative of trade unions in the country concerned.",
+                "Source: International Labour Organization (ILO), Workers' Representatives Convention , 1971 (No. 135)",
+                "Bibliography",
+                "GRI 403: Occupational Health and Safety 2018 34",
+                "Bibliography",
+                "This section lists authoritative intergovernmental instruments and additional references used in developing this Standard.",
+                "Authoritative instruments:",
+                "International Labour Organization (ILO), An ILO code of practice on HIV/AIDS and the world of work , 2001. 1.",
+                "International Labour Organization (ILO) Convention 155, ‘Occupational Safety and Health Convention’, 1981. 2.",
+                "International Labour Organization (ILO) Convention 161, ‘Occupational Health Services Convention’, 1985. 3.",
+                "International Labour Organization (ILO), Guidelines on Occupational Safety and Health Management Systems, ILO-OSH 2001 , 2001. 4.",
+                "International Labour Organization (ILO), ILO List of Occupational Diseases , 2010. 5.",
+                "International Labour Organization (ILO), Protection of workers’ personal data. An ILO code of practice , 1997. 6.",
+                "International Labour Organization (ILO) Protocol 155, ‘Protocol of 2002 to the Occupational Safety and Health Convention, 1981’, 2002. 7.",
+                "International Labour Organization (ILO) Recommendation 164, ‘Occupational Safety and Health Recommendation’, 1981. 8.",
+                "International Labour Organization (ILO) Recommendation 171, ‘Occupational Health Services Recommendation’, 1985. 9.",
+                "International Labour Organization (ILO), Recording and notification of occupational accidents and diseases. An ILO code of practice , 1996. 10.",
+                "International Labour Organization (ILO), ‘Tripartite Declaration of Principles concerning Multinational Enterprises and Social Policy’, 2017. 11.",
+                "Organisation for Economic Co-operation and Development (OECD), OECD Guidelines for Multinational Enterprises , 2011. 12.",
+                "United Nations (UN), ‘Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework’, 2011. 13.",
+                "United Nations (UN) Resolution, ‘Transforming our world: the 2030 Agenda for Sustainable Development’, 2015. 14.",
+                "World Health Organization (WHO), Global Action Plan for the Prevention and Control of Noncommunicable Diseases 2013-2020 , 2013. 15.",
+                "World Health Organization (WHO), International Classification of Diseases (ICD) , updated regularly. 16.",
+                "Additional references:",
+                "International Agency for Research on Cancer (IARC), IARC Monographs on the Evaluation of Carcinogenic Risks to Humans , http://monographs.iarc.fr/ENG/Classification/ , accessed on 1 June 2018. 17.",
+                "National Institute for Occupational Safety and Health (NIOSH), NIOSH Pocket Guide to Chemical Hazards , 2007. 18.",
+                "World Health Organization (WHO), (Burton, Joan), WHO Healthy Workplace Framework and Model: Background and Supporting Literature and Practices , 2010. 19.",
+                "PO Box 10039",
+                "1001 EA Amsterdam",
+                "The Netherlands",
+                "www.globalreporting.org"
+              ],
+              "tables": [],
+              "page_start": 25,
+              "page_end": 35
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information:"
+          ],
+          "tables": [],
+          "page_start": 25,
+          "page_end": 35
+        }
+      ]
+    }
+  ]
+}

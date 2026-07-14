@@ -1,0 +1,918 @@
+{
+  "framework": "GRI",
+  "source_file": "GRI 306_ Waste 2020.pdf",
+  "total_pages": 30,
+  "content": [],
+  "tables": [],
+  "standards": [
+    {
+      "standard_id": "GRI 306: Waste 2020",
+      "title": "GRI 306: Waste 2020",
+      "page_start": 1,
+      "page_end": 1,
+      "content": [
+        "EFFECTIVE DATE: 1 JANUARY 2022 TOPIC STANDARD 306"
+      ],
+      "tables": [],
+      "disclosures": []
+    },
+    {
+      "standard_id": "GRI 306: Waste 2020",
+      "title": "GRI 306: Waste 2020",
+      "page_start": 2,
+      "page_end": 2,
+      "content": [
+        "Topic Standard",
+        "Effective Date This Standard is effective for reports or other materials published on or after 1 January 2022",
+        "Responsibility This Standard is issued by the Global Sustainability Standards Board (GSSB) . Any feedback on the GRI Standards can be submitted to gssbsecretariat@globalreporting.org for the consideration of the GSSB.",
+        "Due Process This Standard was developed in the public interest and in accordance with the requirements of the GSSB Due Process Protocol. It has been developed using multi-stakeholder expertise, and with regard to authoritative intergovernmental instruments and widely held expectations of organizations relating to social, environmental, and economic responsibilities.",
+        "Legal Liability This document, designed to promote sustainability reporting, has been developed by the Global Sustainability Standards Board (GSSB) through a unique multi-stakeholder consultative process involving representatives from organizations and report information users from around the world. While the GRI Supervisory Board, Management Board, and GSSB encourage the use of the GRI Sustainability Reporting Standards (GRI Standards) and related Interpretations by all organizations, the preparation and publication of reports based fully or partially on the GRI Standards and related Interpretations are the full responsibility of those producing them. Neither the GRI Supervisory Board, Management Board, GSSB, nor Stichting Global Reporting Initiative (GRI) can assume responsibility for any consequences or damages resulting directly or indirectly from the use of the GRI Standards and related Interpretations in the preparation of reports, or the use of reports based on the GRI Standards and related Interpretations.",
+        "Copyright and trademark notice This document is copyright-protected by Stichting Global Reporting Initiative (GRI). The reproduction and distribution of this document for information and/or use in preparing a sustainability report is permitted without prior permission from GRI. However, neither this document nor any extract from it may be reproduced, stored, translated, or transferred in any form or by any means (electronic, mechanical, photocopied, recorded, or otherwise) for any other purpose without prior written permission from GRI.",
+        "Global Reporting Initiative, GRI and logo, GSSB and logo, and GRI Sustainability Reporting Standards (GRI Standards) and logo are trademarks of Stichting Global Reporting Initiative.",
+        "ISBN 978-90-8866-132-7"
+      ],
+      "tables": [],
+      "disclosures": []
+    },
+    {
+      "standard_id": "GRI 306: Waste 2020 3",
+      "title": "GRI 306: Waste 2020 3",
+      "page_start": 3,
+      "page_end": 30,
+      "content": [],
+      "tables": [],
+      "disclosures": [
+        {
+          "id": "1. Topic management disclosures 7",
+          "label": "1. Topic management disclosures 7",
+          "text": "1. Topic management disclosures 7",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 306-1 Waste generation and significant",
+          "label": "Disclosure 306-1 Waste generation and significant waste-related impacts 8",
+          "text": "Disclosure 306-1 Waste generation and significant waste-related impacts 8",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 306-2 Management of significant waste-r",
+          "label": "Disclosure 306-2 Management of significant waste-related impacts 10",
+          "text": "Disclosure 306-2 Management of significant waste-related impacts 10",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "2. Topic disclosures 12",
+          "label": "2. Topic disclosures 12",
+          "text": "2. Topic disclosures 12",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 306-3 Waste generated 12",
+          "label": "Disclosure 306-3 Waste generated 12",
+          "text": "Disclosure 306-3 Waste generated 12",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 306-4 Waste diverted from disposal 13",
+          "label": "Disclosure 306-4 Waste diverted from disposal 13",
+          "text": "Disclosure 306-4 Waste diverted from disposal 13",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 306-5 Waste directed to disposal 15",
+          "label": "Disclosure 306-5 Waste directed to disposal 15",
+          "text": "Disclosure 306-5 Waste directed to disposal 15",
+          "requirements": [],
+          "content": [
+            "Process flow examples (clause 1.2) 23",
+            "Template examples for presenting information for Disclosures 306-3, 306-4, and 306-5 28",
+            "GRI 306: Waste 2020 4",
+            "Introduction",
+            "GRI 306: Waste 2020 contains disclosures for organizations to report information about their waste-related impacts, and how they manage these impacts. The disclosures enable an organization to provide information on how it prevents waste generation and how it manages waste that cannot be prevented, in its own activities and upstream and downstream in its value chain.",
+            "The Standard is structured as follows:",
+            "Section 1 contains two disclosures, which provide information about how the organization manages its waste- related impacts. •",
+            "Section 2 contains three disclosures, which provide information about the organization’s waste-related impacts. • The Glossary contains defined terms with a specific meaning when used in the GRI Standards. The terms are underlined in the text of the GRI Standards and linked to the definitions. •",
+            "The Bibliography lists authoritative intergovernmental instruments and additional references used in developing this Standard. •",
+            "The Appendix includes examples of process flows and examples of templates for presenting information for Disclosures 306-3, 306-4, and 306-5. •",
+            "The rest of the Introduction section provides a background on the topic, an overview of the system of GRI Standards and further information on using this Standard.",
+            "Background on the topic This Standard addresses the topic of waste.",
+            "Waste can be generated in the organization’s own activities, for example, during the production of its products and delivery of services. It can also be generated by entities upstream and downstream in the organization’s value chain, for example, when suppliers process materials that are later used or procured by the organization, or when consumers use the services or discard the products that the organization sells to them.",
+            "Waste can have significant negative impacts on the environment and human health when inadequately managed. These impacts often extend beyond locations where waste is generated and discarded. The resources and materials contained in waste that is incinerated or landfilled are lost to future use, which accelerates their depletion.",
+            "The United Nations recognizes the role of responsible consumption and production in achieving the Sustainable Development Goals . The targets under Goal 12, in particular, call on organizations to implement environmentally sound waste management and prevent and reduce waste through reuse and recycling.",
+            "1",
+            "System of GRI Standards This Standard is part of the GRI Sustainability Reporting Standards (GRI Standards). The GRI Standards enable an organization to report information about its most significant impacts on the economy, environment, and people, including impacts on their human rights, and how it manages these impacts.",
+            "The GRI Standards are structured as a system of interrelated standards that are organized into three series: GRI Universal Standards, GRI Sector Standards, and GRI Topic Standards (see Figure 1 in this Standard).",
+            "Universal Standards: GRI 1, GRI 2 and GRI 3 GRI 1: Foundation 2021 specifies the requirements that the organization must comply with to report in accordance with the GRI Standards. The organization begins using the GRI Standards by consulting GRI 1 .",
+            "GRI 2: General Disclosures 2021 contains disclosures that the organization uses to provide information about its reporting practices and other organizational details, such as its activities, governance, and policies.",
+            "GRI 3: Material Topics 2021 provides guidance on how to determine material topics. It also contains disclosures that the organization uses to report information about its process of determining material topics, its list of material topics, and how it manages each topic.",
+            "Sector Standards The Sector Standards provide information for organizations about their likely material topics. The organization uses the Sector Standards that apply to its sectors when determining its material topics and when determining what to report for each material topic.",
+            "1 United Nations (UN) Resolution, Transforming our world: the 2030 Agenda for Sustainable Development , 2015. (See in particular Goal 12: ‘Ensure",
+            "sustainable consumption and production patterns’.)",
+            "GRI 306: Waste 2020 5",
+            "Topic Standards The Topic Standards contain disclosures that the organization uses to report information about its impacts in relation to particular topics. The organization uses the Topic Standards according to the list of material topics it has determined using GRI 3 .",
+            "Figure 1. GRI Standards: Universal, Sector and Topic Standards",
+            "GRI Standards",
+            "Sector Standards Universal Standards Topic Standards",
+            "Requirements and principles for using the GRI Standards",
+            "Disclosures about the reporting organization",
+            "Disclosures and guidance about the organization's material topics",
+            "Apply all three Universal Standards to your reporting",
+            "Use the Sector Standards that",
+            "Select Topic Standards to report",
+            "apply to your sectors",
+            "specific information on your",
+            "material topics",
+            "Using this Standard This Standard can be used by any organization – regardless of size, type, sector, geographic location, or reporting experience – to report information about its waste-related impacts. This Standard can also be used by organizations that manage waste generated by other organizations, such as public and private waste management organizations. In addition to this Standard, disclosures that relate to this topic can be found in GRI 301: Materials 2016 .",
+            "An organization reporting in accordance with the GRI Standards is required to report the following disclosures if it has determined waste to be a material topic:"
+          ],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 5
+        },
+        {
+          "id": "Disclosure 3-3 in GRI 3: Material Topics 2021 (see",
+          "label": "Disclosure 3-3 in GRI 3: Material Topics 2021 (see clause 1.1 in this Standard); • Any disclosures from this Topic Stand",
+          "text": "Disclosure 3-3 in GRI 3: Material Topics 2021 (see clause 1.1 in this Standard); • Any disclosures from this Topic Standard that are relevant to the organization’s waste-related impacts (Disclosure 306-1 through Disclosure 306-5). •",
+          "requirements": [],
+          "content": [
+            "See Requirements 4 and 5 in GRI 1: Foundation 2021 .",
+            "Reasons for omission are permitted for these disclosures.",
+            "If the organization cannot comply with a disclosure or with a requirement in a disclosure (e.g., because the required information is confidential or subject to legal prohibitions), the organization is required to specify the disclosure or the requirement it cannot comply with, and provide a reason for omission together with an explanation in the GRI content index. See Requirement 6 in GRI 1: Foundation 2021 for more information on reasons for omission.",
+            "If the organization cannot report the required information about an item specified in a disclosure because the item (e.g., committee, policy, practice, process) does not exist, it can comply with the requirement by reporting this to be the case. The organization can explain the reasons for not having this item, or describe any plans to develop it. The disclosure does not require the organization to implement the item (e.g., developing a policy), but to report that the",
+            "GRI 306: Waste 2020 6",
+            "item does not exist.",
+            "If the organization intends to publish a standalone sustainability report, it does not need to repeat information that it has already reported publicly elsewhere, such as on web pages or in its annual report. In such a case, the organization can report a required disclosure by providing a reference in the GRI content index as to where this information can be found (e.g., by providing a link to the web page or citing the page in the annual report where the information has been published).",
+            "Requirements, guidance and defined terms The following apply throughout this Standard:",
+            "Requirements are presented in bold font and indicated by the word 'shall'. An organization must comply with requirements to report in accordance with the GRI Standards.",
+            "Requirements may be accompanied by guidance.",
+            "Guidance includes background information, explanations, and examples to help the organization better understand the requirements. The organization is not required to comply with guidance.",
+            "The Standards may also include recommendations. These are cases where a particular course of action is encouraged but not required.",
+            "The word ‘should’ indicates a recommendation, and the word ‘can’ indicates a possibility or option.",
+            "Defined terms are underlined in the text of the GRI Standards and linked to their definitions in the Glossary . The organization is required to apply the definitions in the Glossary.",
+            "GRI 306: Waste 2020 7"
+          ],
+          "tables": [],
+          "page_start": 5,
+          "page_end": 7
+        },
+        {
+          "id": "1. Topic management disclosures",
+          "label": "1. Topic management disclosures",
+          "text": "1. Topic management disclosures",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS The reporting organization shall report how it manages waste using Disclosure 3-3 in GRI 3: Material Topics 2021 . 1.1",
+              "content": [
+                "GRI 306: Waste 2020 8"
+              ],
+              "tables": [],
+              "page_start": 7,
+              "page_end": 8
+            }
+          ],
+          "content": [
+            "An organization reporting in accordance with the GRI Standards is required to report how it manages each of its material topics.",
+            "An organization that has determined waste to be a material topic is required to report how it manages the topic using Disclosure 3-3 in GRI 3: Material Topics 2021 (see clause 1.1 in this section). The organization is also required to report any disclosures from this section (Disclosure 306-1 through Disclosure 306-2) that are relevant to its waste- related impacts.",
+            "This section is therefore designed to supplement – and not replace – Disclosure 3-3 in GRI 3 ."
+          ],
+          "tables": [],
+          "page_start": 7,
+          "page_end": 8
+        },
+        {
+          "id": "Disclosure 306-1 Waste generation and significant",
+          "label": "Disclosure 306-1 Waste generation and significant waste-related impacts",
+          "text": "Disclosure 306-1 Waste generation and significant waste-related impacts",
+          "requirements": [
+            {
+              "type": "RECOMMENDATIONS",
+              "text": "RECOMMENDATIONS The reporting organization should report a process flow of inputs, activities, and outputs that lead or could lead to significant waste-related impacts. 1.2",
+              "content": [
+                "Background The quantity, type, and quality of waste generated by an organization is a consequence of the activities involved in the production of its products and services (e.g., extraction, processing, procurement of materials, product or service design, production, distribution) and their subsequent consumption. An assessment of how materials move into, through, and out of the organization can help understand where in the organization’s value chain these materials eventually become waste. This provides a holistic overview of waste generation and its causes, which in turn can support the organization in identifying opportunities for waste prevention and for adopting circularity measures. In this way, the organization can go beyond mitigating and remediating negative impacts once waste has been generated and move towards managing waste as a resource."
+              ],
+              "tables": [],
+              "page_start": 8,
+              "page_end": 8
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Guidance for Disclosure 306-1 When reporting on this disclosure, the organization can specify the types of inputs and outputs. The types of inputs and outputs can include raw materials, process and manufacturing materials, leaks and losses, waste, by-products, products, or packaging.",
+                "The organization can assess and report whether inputs, activities, and outputs lead or could lead to significant waste-related impacts using the following criteria:",
+                "Quantity of inputs used to produce the organization’s products or services, which will become waste after they are used for production. •",
+                "•",
+                "Quantity of waste outputs generated in the organization’s own activities, or quantity of outputs it provides to entities downstream that will eventually become waste when they reach their end of life.",
+                "Hazardous characteristics of inputs and outputs. • Properties of input materials or design characteristics of outputs that limit or prevent their recovery or limit the length of their life. •",
+                "•",
+                "Known potential negative threats associated with specific materials when they are discarded. For example, the potential threat of marine pollution resulting from leakage of discarded plastic packaging into waterbodies.",
+                "Types of activities that lead to significant quantities of waste generation or to generation of hazardous waste. •",
+                "The organization is required to report on inputs that it receives from entities upstream in its value chain, as well as outputs it provides to entities downstream in its value chain. For example, if an organization procures components with hazardous characteristics from a supplier and uses these in a product that will continue to carry these components and their hazardous characteristics, the organization is required to report these components under inputs that lead or could lead to significant waste-related impacts. Similarly, if an organization sells to consumers products that generate large quantities of packaging waste, it is required to report this packaging under outputs that lead or could lead to significant waste-related impacts.",
+                "If the organization has identified many inputs and outputs or many activities that lead or could lead to significant waste-related impacts, it may group these by:",
+                "product or service category that the inputs and outputs relate to; • business units or facilities that procure the inputs, or whose activities produce the outputs; •",
+                "GRI 306: Waste 2020 9",
+                "•",
+                "categories of upstream and downstream activities that produce the outputs (for examples of upstream and downstream categories, see the guidance for Disclosure 302-2 in GRI 302: Energy 2016 ).",
+                "Guidance for clause 1.2 A process flow is a tool to visualize the information required to be reported under Disclosure 306-1. A graphic illustration of the process flow can help the organization and its stakeholders understand how inputs and outputs move through the organization’s own activities as well as through the activities of entities upstream and downstream in its value chain. It shows where waste is generated in the value chain or where outputs become waste.",
+                "The organization can also use the process flow to illustrate information that is required under other disclosures of this Standard, such as:",
+                "actions taken to prevent waste generation (Disclosure 306-2); •",
+                "composition of waste generated (Disclosure 306-3); • recovery operations used to divert waste from disposal (Disclosure 306-4); • disposal operations (Disclosure 306-5). •",
+                "The organization can include estimates of the weight of inputs and the weight of outputs in metric tons or the ratio of inputs to outputs.",
+                "For examples of process flow illustrations, see the Appendix .",
+                "GRI 306: Waste 2020 10"
+              ],
+              "tables": [],
+              "page_start": 8,
+              "page_end": 10
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information: REQUIREMENTS",
+            "a.",
+            "For the organization’s significant actual and potential waste-related impacts, a description of:",
+            "the inputs, activities, and outputs that lead or could lead to these impacts; i.",
+            "whether these impacts relate to waste generated in the organization’s own activities or to waste generated upstream or downstream in its value chain. ii."
+          ],
+          "tables": [],
+          "page_start": 8,
+          "page_end": 10
+        },
+        {
+          "id": "Disclosure 306-2 Management of significant waste-r",
+          "label": "Disclosure 306-2 Management of significant waste-related impacts",
+          "text": "Disclosure 306-2 Management of significant waste-related impacts",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Even when the organization has not contributed to waste-related impacts upstream or downstream in its value chain, its operations, products, or services could be directly linked to waste-related impacts by its business relationships with the entities in its value chain. For example, when third parties hired by the organization carry out inadequate recovery or disposal operations.",
+                "The way an organization is involved with negative impacts is important for determining the organization’s response to an impact.",
+                "Guidance for Disclosure 306-2-a Actions, including circularity measures, to prevent waste generation and to manage significant impacts from waste generated can include:",
+                "•",
+                "Input material choices and product design:",
+                "Improving materials selection and product design through consideration for longevity and durability, repairability, modularity and disassembly, and recyclability. -",
+                "Reducing the use of raw and finite materials by procuring secondary materials (e.g., used or recycled input materials) or renewable materials. -",
+                "Substituting inputs that have hazardous characteristics with inputs that are non- hazardous. -",
+                "•",
+                "Collaboration in the value chain and business model innovation:",
+                "Setting policies for procurement from suppliers that have sound waste prevention and waste management criteria. -",
+                "-",
+                "Engaging in or setting up industrial symbiosis as a result of which the organization’s waste or other outputs (e.g., by-products from production) become inputs for another organization.",
+                "-",
+                "Participating in a collective or individual extended producer responsibility scheme or applying product stewardship, which extends the producer’s responsibility for a product or service to its end of life.",
+                "Transitioning to and applying new business models, such as product service systems that use services instead of products to meet consumer demand. -",
+                "Engaging in or setting up product take-back schemes and reverse logistics processes to divert products and materials from disposal. -",
+                "•",
+                "End-of-life interventions:",
+                "Establishing and improving facilities for waste management, including facilities for the collection and sorting of waste. -",
+                "Recovering products, components, and materials from waste through preparation for reuse and recycling. -",
+                "Engaging with consumers to raise awareness about sustainable consumption practices, such as reduced purchasing of products, product sharing, exchange, reuse, and -",
+                "GRI 306: Waste 2020 11",
+                "recycling.",
+                "See references [9] and [11] in the Bibliography .",
+                "Guidance for Disclosure 306-2-b This disclosure can provide insight into the level of control the organization assumes for waste management outsourced to a third party. In the context of this Standard, a third party includes a public or private waste management organization, or any other entity or group of individuals formally or informally involved in handling the reporting organization’s waste. Waste management by third parties can include the collection, transportation, recovery, and disposal of waste, as well as the supervision of such operations and the aftercare of disposal sites. The organization may specify agreements in a contract for the third party to follow when managing its waste, or rely on existing legislative obligations, such as local environmental laws and regulations, to ensure that the third party manages the waste adequately.",
+                "Guidance for Disclosure 306-2-c The processes that the organization has in place for collecting and monitoring waste-related data can reflect its commitment to managing waste-related impacts. Such processes can include online data entry, maintaining a centralized database, real-time weighbridge measurement, and annual external data validation.",
+                "The organization can specify whether the data collection and monitoring processes extend beyond waste generated in its own activities to include waste generated upstream and downstream in its value chain.",
+                "GRI 306: Waste 2020 12"
+              ],
+              "tables": [],
+              "page_start": 10,
+              "page_end": 12
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information: REQUIREMENTS",
+            "a.",
+            "Actions, including circularity measures, taken to prevent waste generation in the organization’s own activities and upstream and downstream in its value chain, and to manage significant impacts from waste generated.",
+            "b.",
+            "If the waste generated by the organization in its own activities is managed by a third party, a description of the processes used to determine whether the third party manages the waste in line with contractual or legislative obligations.",
+            "The processes used to collect and monitor waste-related data. c.",
+            "Background An organization can cause waste-related impacts through its own activities. For example, when its operations generate waste outputs. It can also contribute to waste-related impacts through activities carried out in its value chain upstream or downstream. For example, through criteria in its procurement policies that lead to waste generation upstream, or through management decisions that limit the life of its products and therefore contribute to waste generation downstream."
+          ],
+          "tables": [],
+          "page_start": 10,
+          "page_end": 12
+        },
+        {
+          "id": "2. Topic disclosures",
+          "label": "2. Topic disclosures",
+          "text": "2. Topic disclosures",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 12,
+          "page_end": 12
+        },
+        {
+          "id": "Disclosure 306-3 Waste generated",
+          "label": "Disclosure 306-3 Waste generated",
+          "text": "Disclosure 306-3 Waste generated",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "Total weight of waste generated in metric tons, and a breakdown of this total by composition of the waste. a.",
+                "Contextual information necessary to understand the data and how the data has been compiled. b.",
+                "Compilation requirements",
+                "When compiling the information specified in Disclosure 306-3-a, the reporting organization shall: 2.1",
+                "exclude effluent, unless required by national legislation to be reported under total waste; 2.1.1",
+                "use 1000 kilograms as the measure for a metric ton. 2.1.2",
+                "Background The total weight of waste generated, when contrasted with the weight of waste that the organization directs to recovery and disposal, can show the extent to which the organization manages its waste-related impacts."
+              ],
+              "tables": [],
+              "page_start": 12,
+              "page_end": 12
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "The composition of the waste generated can help identify recovery or disposal operations appropriate to the type of waste and to the specific materials present in the waste.",
+                "Guidance for Disclosure 306-3 This disclosure covers waste generated in the organization’s own activities. The organization can separately report waste generated upstream and downstream in its value chain, if this information is available.",
+                "Guidance for Disclosure 306-3-a When reporting composition of the waste, the organization can describe:",
+                "the type of waste, such as hazardous waste or non-hazardous waste; • the waste streams, relevant to its sector or activities (e.g., tailings for an organization in the mining sector, electronic waste for an organization in the consumer electronics sector, or food waste for an organization in the agriculture or in the hospitality sector);",
+                "•",
+                "the materials that are present in the waste (e.g., biomass, metals, non-metallic minerals, plastics, textiles). •",
+                "Templates for how to present information under this disclosure can be found in the Appendix Tables .",
+                "Guidance for Disclosure 306-3-b To help understand the data, the organization can explain the reasons for the difference between the weight of waste generated and the weight of waste directed to recovery or disposal. This difference can be a result of precipitation or evaporation, leaks or losses, or other modifications to the waste. In the context of this Standard, leaks result from physical or technical failures (e.g., a trail of waste from a waste collection truck), while losses result from inadequate security measures or administrative failures (e.g., theft or lost records).",
+                "To help understand how the data has been compiled, the organization can specify whether the data has been modeled or sourced from direct measurements, such as waste transfer notes from contracted waste collectors, external assurance, or audits of waste-related data.",
+                "See references [1], [4], [10], and [11] in the Bibliography .",
+                "GRI 306: Waste 2020 13"
+              ],
+              "tables": [],
+              "page_start": 12,
+              "page_end": 13
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information:"
+          ],
+          "tables": [],
+          "page_start": 12,
+          "page_end": 13
+        },
+        {
+          "id": "Disclosure 306-4 Waste diverted from disposal",
+          "label": "Disclosure 306-4 Waste diverted from disposal",
+          "text": "Disclosure 306-4 Waste diverted from disposal",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "Total weight of waste diverted from disposal in metric tons, and a breakdown of this total by composition of the waste. a.",
+                "b.",
+                "Total weight of hazardous waste diverted from disposal in metric tons, and a breakdown of this total by the following recovery operations:",
+                "Preparation for reuse; i.",
+                "Recycling; ii.",
+                "Other recovery operations. iii.",
+                "c.",
+                "Total weight of non-hazardous waste diverted from disposal in metric tons, and a breakdown of this total by the following recovery operations:",
+                "Preparation for reuse; i.",
+                "Recycling; ii.",
+                "Other recovery operations. iii.",
+                "d.",
+                "For each recovery operation listed in Disclosures 306-4-b and 306-4-c, a breakdown of the total weight in metric tons of hazardous waste and of non-hazardous waste diverted from disposal:",
+                "onsite; i.",
+                "offsite. ii.",
+                "Contextual information necessary to understand the data and how the data has been compiled. e.",
+                "Compilation requirements",
+                "When compiling the information specified in Disclosure 306-4, the reporting organization shall: 2.2",
+                "exclude effluent, unless required by national legislation to be reported under total waste; 2.2.1",
+                "use 1000 kilograms as the measure for a metric ton. 2.2.2"
+              ],
+              "tables": [],
+              "page_start": 13,
+              "page_end": 13
+            },
+            {
+              "type": "RECOMMENDATIONS",
+              "text": "RECOMMENDATIONS The reporting organization should report the total weight of waste prevented, and the baseline and methodology for this calculation. 2.3",
+              "content": [
+                "Background An organization’s choice of operations to manage waste shows how it addresses significant waste-related impacts. The options to manage waste can be informed by the waste management hierarchy, which orders operations to manage waste from the most preferable to the least preferable. The waste management hierarchy prioritizes waste prevention, followed by recovery operations that divert waste from being sent to disposal, such as preparation for reuse, recycling, and other recovery operations."
+              ],
+              "tables": [],
+              "page_start": 13,
+              "page_end": 13
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Guidance for Disclosure 306-4 Templates for how to present information under this disclosure can be found in the Appendix Tables .",
+                "Guidance for Disclosure 306-4-a When reporting composition of the waste, the organization can describe:",
+                "the type of waste, such as hazardous waste or non-hazardous waste; •",
+                "•",
+                "the waste streams, relevant to its sector or activities (e.g., tailings for an organization in the mining sector, electronic waste for an organization in the consumer electronics sector, or food waste for an organization in the agriculture or in the hospitality sector);",
+                "the materials that are present in the waste (e.g., biomass, metals, non-metallic minerals, plastics, textiles). •",
+                "GRI 306: Waste 2020 14",
+                "Guidance for Disclosures 306-4-b and 306-4-c When reporting on Disclosures 306-4-b-ii and 306-4-c-ii, the organization can specify the type of recycling operations, such as downcycling, upcycling, composting, or anaerobic digestion.",
+                "Besides preparation for reuse and recycling, the organization can report the other types of recovery operations it uses under Disclosures 306-4-b-iii and 306-4-c-iii, such as repurposing or refurbishment.",
+                "Guidance for Disclosure 306-4-d Reporting on the quantity and type of waste diverted from disposal onsite and offsite shows the extent to which the organization knows how its waste is managed. In the context of this Standard, ‘onsite’ means within the physical boundary or administrative control of the reporting organization, and ‘offsite’ means outside the physical boundary or administrative control of the reporting organization.",
+                "Guidance for Disclosure 306-4-e To help understand the data, the organization can explain the reasons for the difference between the weights of waste diverted from disposal onsite and offsite (e.g., lack of infrastructure onsite to recover materials from waste). It can also describe sector practices, sector standards, or external regulations that mandate a specific recovery operation.",
+                "To help understand how the data has been compiled, the organization can specify whether the data has been modeled or sourced from direct measurements, such as waste transfer notes from contracted waste collectors, external assurance, or audits of waste-related data.",
+                "Guidance for clause 2.3 Waste prevention is the most preferable option in the waste management hierarchy, as it prevents the resulting impacts on the environment and human health. The organization can calculate waste prevented as the reduction in waste generation resulting from the actions reported under Disclosure 306-2-a . Reductions in waste generation resulting from reduced production capacity are not considered waste prevention. The organization can report waste prevented in its own activities as well as waste prevented in entities upstream and downstream in its value chain.",
+                "See reference [1] in the Bibliography .",
+                "GRI 306: Waste 2020 15"
+              ],
+              "tables": [],
+              "page_start": 13,
+              "page_end": 15
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information:"
+          ],
+          "tables": [],
+          "page_start": 13,
+          "page_end": 15
+        },
+        {
+          "id": "Disclosure 306-5 Waste directed to disposal",
+          "label": "Disclosure 306-5 Waste directed to disposal",
+          "text": "Disclosure 306-5 Waste directed to disposal",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "Total weight of waste directed to disposal in metric tons, and a breakdown of this total by composition of the waste. a.",
+                "b.",
+                "Total weight of hazardous waste directed to disposal in metric tons, and a breakdown of this total by the following disposal operations:",
+                "Incineration (with energy recovery); i.",
+                "Incineration (without energy recovery); ii.",
+                "Landfilling; iii.",
+                "Other disposal operations. iv.",
+                "c.",
+                "Total weight of non-hazardous waste directed to disposal in metric tons, and a breakdown of this total by the following disposal operations:",
+                "Incineration (with energy recovery); i.",
+                "Incineration (without energy recovery); ii.",
+                "Landfilling; iii.",
+                "Other disposal operations. iv.",
+                "d.",
+                "For each disposal operation listed in Disclosures 306-5-b and 306-5-c, a breakdown of the total weight in metric tons of hazardous waste and of non-hazardous waste directed to disposal:",
+                "onsite; i.",
+                "offsite. ii.",
+                "Contextual information necessary to understand the data and how the data has been compiled. e.",
+                "Compilation requirements",
+                "When compiling the information specified in Disclosure 306-5, the reporting organization shall: 2.4",
+                "exclude effluent, unless required by national legislation to be reported under total waste; 2.4.1",
+                "use 1000 kilograms as the measure for a metric ton. 2.4.2",
+                "Background Disposal is the least preferable option in the waste management hierarchy because of its negative impacts on the environment and human health. Leachate from landfills can contaminate land and water, methane released from the decay of organic waste in landfills contributes to climate change, and uncontrolled burning of waste contributes to air pollution. Disposal prevents the materials present in the waste from being recirculated in the environment and economy, making them unavailable for future use."
+              ],
+              "tables": [],
+              "page_start": 15,
+              "page_end": 15
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Guidance for Disclosure 306-5 Templates for how to present information under this disclosure can be found in the Appendix Tables .",
+                "Guidance for Disclosure 306-5-a When reporting composition of the waste, the organization can describe:",
+                "the type of waste, such as hazardous waste or non-hazardous waste; • the waste streams, relevant to its sector or activities (e.g., tailings for an organization in the mining sector, electronic waste for an organization in the consumer electronics sector, or food waste for an organization in the agriculture or in the hospitality sector);",
+                "•",
+                "the materials that are present in the waste (e.g., biomass, metals, non-metallic minerals, plastics, textiles). •",
+                "Guidance for Disclosures 306-5-b and 306-5-c Besides incineration and landfilling, the organization can specify the other types of disposal",
+                "GRI 306: Waste 2020 16",
+                "operations it uses under Disclosures 306-5-b-iv and 306-5-c-iv, such as dumping, open burning, or deep well injection.",
+                "Guidance for Disclosure 306-5-d Reporting the quantity and type of waste directed to disposal onsite and offsite shows the extent to which the organization knows how its waste is managed. In the context of this Standard, ‘onsite’ means within the physical boundary or administrative control of the reporting organization, and ‘offsite’ means outside the physical boundary or administrative control of the reporting organization.",
+                "Guidance for Disclosure 306-5-e To help understand the data, the organization can explain the reasons for the difference between the weights of waste directed to disposal onsite and offsite (e.g., local regulations that prohibit landfilling of specific types of waste). It can also describe sector practices, sector standards, or external regulations that mandate a specific disposal operation.",
+                "To help understand how the data has been compiled, the organization can specify whether the data has been modeled or sourced from direct measurements, such as waste transfer notes from contracted waste collectors, external assurance, or audits of waste-related data.",
+                "GRI 306: Waste 2020 17",
+                "Glossary",
+                "This glossary provides definitions for terms used in this Standard. The organization is required to apply these definitions when using the GRI Standards.",
+                "The definitions included in this glossary may contain terms that are further defined in the complete GRI Standards Glossary . All defined terms are underlined. If a term is not defined in this glossary or in the complete GRI Standards Glossary , definitions that are commonly used and understood apply.",
+                "baseline * starting point used for comparisons",
+                "B",
+                "Note: In the context of energy reporting, the baseline is the projected energy consumption or emissions in the absence of any reduction activity.",
+                "* Please note this term will be updated following the effective date of GRI 102: Climate Change 2025 and GRI 103: Energy 2025, as of 1 January 2027. Please see GRI 102/103 for the updated term.",
+                "business partner entity with which the organization has some form of direct and formal engagement for the purpose of meeting its business objectives",
+                "Source: Shift and Mazars LLP, UN Guiding Principles Reporting Framework , 2015; modified",
+                "Examples: affiliates, business-to-business customers, clients, first-tier suppliers, franchisees, joint venture partners, investee companies in which the organization has a shareholding position",
+                "Note: Business partners do not include subsidiaries and affiliates that the organization controls.",
+                "business relationships relationships that the organization has with business partners, with entities in its value chain including those beyond the first tier, and with any other entities directly linked to its operations, products, or services",
+                "Source: United Nations (UN), Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework , 2011; modified",
+                "Note: Examples of other entities directly linked to the organization’s operations, products, or services are a non-governmental organization with which the organization delivers support to a local community or state security forces that protect the organization’s facilities.",
+                "child person under the age of 15 years, or under the age of completion of compulsory schooling, whichever is higher",
+                "C",
+                "Note 1: Exceptions can occur in certain countries where economies and educational facilities are insufficiently developed, and a minimum age of 14 years applies. These countries of exception are specified by the International Labour Organization (ILO) in response to a special application by the country concerned and in consultation with representative organizations of employers and workers.",
+                "Note 2: The ILO Minimum Age Convention, 1973, (No. 138), refers to both child labor and young workers.",
+                "circularity measures measures taken to retain the value of products, materials, and resources and redirect them back to use for as long as possible with the lowest carbon and resource footprint possible, such that fewer raw materials and resources are extracted and waste generation is prevented",
+                "GRI 306: Waste 2020 18",
+                "disposal any operation which is not recovery, even where the operation has as a secondary consequence the recovery of energy",
+                "D",
+                "Source: European Union (EU), Waste Framework Directive , 2008 (Directive 2008/98/EC)",
+                "Note: Disposal is the end-of-life management of discarded products, materials, and resources in a sink or through a chemical or thermal transformation that makes these products, materials, and resources unavailable for further use.",
+                "effluent treated or untreated wastewater that is discharged",
+                "E",
+                "Source: Alliance for Water Stewardship (AWS), AWS International Water Stewardship Standard, Version 1.0 , 2014",
+                "employee individual who is in an employment relationship with the organization according to national law or practice",
+                "environmental laws and regulations laws and regulations related to all types of environmental issues applicable to the organization",
+                "Note 1: Environmental issues can include those such as emissions, effluents, and waste, as well as material use, energy, water, and biodiversity.",
+                "Note 2: Environmental laws and regulations can include binding voluntary agreements that are made with regulatory authorities and developed as a substitute for implementing a new regulation.",
+                "Note 3: Voluntary agreements can be applicable if the organization directly joins the agreement, or if public agencies make the agreement applicable to organizations in their territory through legislation or regulation.",
+                "hazardous waste waste that possesses any of the characteristics contained in Annex III of the Basel Convention, or that is considered to be hazardous by national legislation",
+                "H",
+                "Source: United Nations Environment Programme (UNEP), Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and Their Disposal , 1989",
+                "human rights rights inherent to all human beings, which include, at a minimum, the rights set out in the United Nations (UN) International Bill of Human Rights and the principles concerning fundamental rights set out in the International Labour Organization (ILO) Declaration on Fundamental Principles and Rights at Work",
+                "Source: United Nations (UN), Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework , 2011; modified",
+                "Note: See Guidance to 2-23-b-i in GRI 2: General Disclosures 2021 for more information on ‘human rights’.",
+                "impact effect the organization has or could have on the economy, environment, and people, including on their human rights, which in turn can indicate its contribution (negative or positive) to sustainable development",
+                "I",
+                "Note 1: Impacts can be actual or potential, negative or positive, short-term or long-term, intended or unintended, and reversible or irreversible.",
+                "Note 2: See section 2.1 in GRI 1: Foundation 2021 for more information on ‘impact’.",
+                "incineration",
+                "GRI 306: Waste 2020 19",
+                "controlled burning of waste at high temperatures",
+                "Source: United Nations (UN), Glossary of Environment Statistics, Studies in Methods , Series F, No. 67, 1997 Note: Incineration of waste can be carried out with or without energy recovery. Incineration with energy recovery is also known as waste to energy. In the context of waste reporting, incineration with energy recovery is considered a disposal operation.",
+                "Indigenous Peoples Indigenous Peoples are generally identified as:",
+                "•",
+                "tribal peoples in independent countries whose social, cultural and economic conditions distinguish them from other sections of the national community, and whose status is regulated wholly or partially by their own customs or traditions or by special laws or regulations;",
+                "•",
+                "peoples in independent countries who are regarded as indigenous on account of their descent from the populations which inhabited the country, or a geographical region to which the country belongs, at the time of conquest or colonization or the establishment of present state boundaries and who, irrespective of their legal status, retain some or all of their own social, economic, cultural and political institutions.",
+                "Source: International Labour Organization (ILO), Indigenous and Tribal Peoples Convention , 1989 (No. 169)",
+                "landfilling final depositing of solid waste at, below, or above ground level at engineered disposal sites",
+                "L",
+                "Source: United Nations (UN), Glossary of Environment Statistics, Studies in Methods , Series F, No. 67, 1997",
+                "Note: In the context of waste reporting, landfilling refers to depositing of solid waste in sanitary landfills, and excludes uncontrolled waste disposal such as open burning and dumping.",
+                "local community individuals or groups of individuals living or working in areas that are affected or that could be affected by the organization’s activities",
+                "Note: The local community can range from those living adjacent to the organization’s operations to those living at a distance.",
+                "material topics topics that represent the organization’s most significant impacts on the economy, environment, and people, including impacts on their human rights",
+                "M",
+                "Note: See section 2.2 in GRI 1: Foundation 2021 and section 1 in GRI 3: Material Topics 2021 for more information on ‘material topics’.",
+                "preparation for reuse checking, cleaning, or repairing operations, by which products or components of products that have become waste are prepared to be put to use for the same purpose for which they were conceived",
+                "P",
+                "Source: European Union (EU), Waste Framework Directive , 2008 (Directive 2008/98/EC); modified",
+                "product or service category group of related products or services sharing a common, managed set of features that satisfy the specific needs of a selected market",
+                "recovery operation wherein products, components of products, or materials that have become waste are prepared to fulfill a purpose in place of new products, components, or materials that would otherwise have been used for that purpose",
+                "R",
+                "GRI 306: Waste 2020 20",
+                "Source: United Nations Environment Programme (UNEP), Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and Their Disposal , 1989; modified",
+                "Examples: preparation for reuse, recycling",
+                "Note: In the context of waste reporting, recovery operations do not include energy recovery.",
+                "recycling reprocessing of products or components of products that have become waste, to make new materials",
+                "Sources: United Nations Environment Programme (UNEP), Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and Their Disposal , 1989; modified",
+                "severity (of an impact) The severity of an actual or potential negative impact is determined by its scale (i.e., how grave the impact is), scope (i.e., how widespread the impact is), and irremediable character (how hard it is to counteract or make good the resulting harm).",
+                "S",
+                "Source: Organisation for Economic Co-operation and Development (OECD), OECD Due Diligence Guidance for Responsible Business Conduct , 2018; modified United Nations (UN), The Corporate Responsibility to Respect Human Rights: An Interpretive Guide , 2012; modified",
+                "Note: See section 1 in GRI 3: Material Topics 2021 for more information on ‘severity’.",
+                "stakeholder individual or group that has an interest that is affected or could be affected by the organization’s activities",
+                "Source: Organisation for Economic Co-operation and Development (OECD), OECD Due Diligence Guidance for Responsible Business Conduct , 2018; modified",
+                "Examples: business partners, civil society organizations, consumers, customers, employees and other workers, governments, local communities, non-governmental organizations, shareholders and other investors, suppliers, trade unions, vulnerable groups",
+                "Note: See section 2.4 in GRI 1: Foundation 2021 for more information on ‘stakeholder’.",
+                "supplier entity upstream from the organization (i.e., in the organization’s supply chain), which provides a product or service that is used in the development of the organization’s own products or services",
+                "Examples: brokers, consultants, contractors, distributors, franchisees, home workers, independent contractors, licensees, manufacturers, primary producers, sub- contractors, wholesalers",
+                "Note: A supplier can have a direct business relationship with the organization (often referred to as a first-tier supplier) or an indirect business relationship.",
+                "supply chain range of activities carried out by entities upstream from the organization, which provide products or services that are used in the development of the organization’s own products or services",
+                "sustainable development / sustainability development that meets the needs of the present without compromising the ability of future generations to meet their own needs",
+                "Source: World Commission on Environment and Development, Our Common Future , 1987",
+                "Note: The terms ‘sustainability’ and ‘sustainable development’ are used interchangeably in the GRI Standards.",
+                "GRI 306: Waste 2020 21",
+                "value chain range of activities carried out by the organization, and by entities upstream and downstream from the organization, to bring the organization’s products or services from their conception to their end use",
+                "V",
+                "Note 1: Entities upstream from the organization (e.g., suppliers) provide products or services that are used in the development of the organization’s own products or services. Entities downstream from the organization (e.g., distributors, customers) receive products or services from the organization.",
+                "Note 2: The value chain includes the supply chain.",
+                "vulnerable group group of individuals with a specific condition or characteristic (e.g., economic, physical, political, social) that could experience negative impacts as a result of the organization’s activities more severely than the general population",
+                "Examples: children and youth; elderly persons; ex-combatants; HIV/AIDS-affected households; human rights defenders; Indigenous Peoples; internally displaced persons; migrant workers and their families; national or ethnic, religious and linguistic minorities; persons who might be discriminated against based on their sexual orientation, gender identity, gender expression, or sex characteristics (e.g., lesbian, gay, bisexual, transgender, intersex); persons with disabilities; refugees or returning refugees; women",
+                "Note: Vulnerabilities and impacts can differ by gender.",
+                "waste anything that the holder discards, intends to discard, or is required to discard",
+                "W",
+                "Source: United Nations Environment Programme (UNEP), Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and Their Disposal , 1989",
+                "Note 1: Waste can be defined according to the national legislation at the point of generation.",
+                "Note 2: A holder can be the reporting organization, an entity in the organization’s value chain upstream or downstream (e.g., supplier or consumer), or a waste management organization, among others.",
+                "worker person that performs work for the organization",
+                "Examples: employees, agency workers, apprentices, contractors, home workers, interns, self- employed persons, sub-contractors, volunteers, and persons working for organizations other than the reporting organization, such as for suppliers",
+                "Note: In the GRI Standards, in some cases, it is specified whether a particular subset of workers is required to be used.",
+                "Bibliography",
+                "GRI 306: Waste 2020 22",
+                "Bibliography",
+                "This section lists authoritative intergovernmental instruments and additional references used in developing this Standard.",
+                "Authoritative instruments:",
+                "European Union (EU), Waste Framework Directive , 2008 (Directive 2008/98/EC). 1.",
+                "International Maritime Organization (IMO), Convention on the Prevention of Marine Pollution by Dumping of Wastes and Other Matter (London Convention), 1972. 2.",
+                "International Maritime Organization (IMO), International Convention for the Prevention of Pollution from Ships (Marpol), 1973, as modified by the Protocol of 1978. 3.",
+                "United Nations Environment Programme (UNEP), Ban Amendment to the Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and Their Disposal , 1995. 4.",
+                "United Nations Environment Programme (UNEP), Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and Their Disposal (Basel Convention), 1989. 5.",
+                "United Nations Environment Programme (UNEP), Rotterdam Convention on the Prior Informed Consent (PIC)",
+                "6.",
+                "Procedure for Certain Hazardous Chemicals and Pesticides in International Trade (Rotterdam Convention), 1998.",
+                "United Nations Environment Programme (UNEP), Stockholm Convention on Persistent Organic Pollutants",
+                "7.",
+                "(Stockholm Convention), 2001.",
+                "United Nations (UN) Resolution , Transforming our world: the 2030 Agenda for Sustainable Development , 2015. 8.",
+                "Additional references:",
+                "United Nations Environment Programme (UNEP), Global Waste Management Outlook , 2015. 9.",
+                "United Nations Environment Programme (UNEP), Guidelines for National Waste Management Strategies:",
+                "10.",
+                "Moving from Challenges to Opportunities , 2013.",
+                "World Resources Institute (WRI), Food Loss and Waste Protocol, https://flwprotocol.org/ , accessed 19 May 2020. 11. Appendix",
+                "3 GRI 306: Waste 2020",
+                "Appendix",
+                "Process flow examples (clause 1.2)",
+                "Template examples for presenting information for Disclosures 306-3, 306-4, and 306-5",
+                "Process flow A. Generic example",
+                "4 GRI 306: Waste 2020",
+                "Process flow A. Generic example",
+                "Process flow B. Electronic consumer goods manufacturer",
+                "5 GRI 306: Waste 2020",
+                "Process flow B. Electronic consumer goods manufacturer",
+                "Process flow C. Food products manufacturer",
+                "6 GRI 306: Waste 2020",
+                "Process flow C. Food products manufacturer",
+                "Process flow D. Waste management organization",
+                "7 GRI 306: Waste 2020",
+                "Process flow D. Waste management organization",
+                "8 GRI 306: Waste 2020",
+                "Template examples for presenting information for Disclosures 306-3, 306-4, and 306-5",
+                "Tables 1, 2, and 3 offer templates for presenting the information required under Disclosure 306-3 Waste generated, Disclosure 306-4 Waste diverted from disposal, and Disclosure 306-5 Waste directed to disposal. The organization can amend the tables according to its practices.",
+                "Table 1. Waste by composition, in metric tons (t)",
+                "Table 2. Waste diverted from disposal by recovery operation, in metric tons (t)",
+                "9 GRI 306: Waste 2020",
+                "Table 3. Waste directed to disposal by disposal operation, in metric tons (t)",
+                "PO Box 10039",
+                "1001 EA Amsterdam",
+                "The Netherlands",
+                "www.globalreporting.org"
+              ],
+              "tables": [
+                {
+                  "headers": [
+                    "",
+                    "WASTE GENERATED",
+                    "WASTE DIVERTED FROM DISPOSAL",
+                    "WASTE DIRECTED TO DISPOSAL"
+                  ],
+                  "rows": [
+                    [
+                      "Waste composition",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Category 1",
+                      "t (306-3-a)",
+                      "t (306-4-a)",
+                      "t (306-5-a)"
+                    ],
+                    [
+                      "Category 2",
+                      "t (306-3-a)",
+                      "t (306-4-a)",
+                      "t (306-5-a)"
+                    ],
+                    [
+                      "Category 3",
+                      "t (306-3-a)",
+                      "t (306-4-a)",
+                      "t (306-5-a)"
+                    ],
+                    [
+                      "Etc.",
+                      "t (306-3-a)",
+                      "t (306-4-a)",
+                      "t (306-5-a)"
+                    ],
+                    [
+                      "Total waste",
+                      "t (306-3-a)",
+                      "t (306-4-a)",
+                      "t (306-5-a)"
+                    ]
+                  ],
+                  "row_count": 6,
+                  "col_count": 4,
+                  "page_num": 28,
+                  "bbox": [
+                    57.308961050851,
+                    182.98940700954861,
+                    537.6908162434896,
+                    312.71369086371527
+                  ]
+                },
+                {
+                  "headers": [
+                    "",
+                    "ONSITE",
+                    "OFFSITE",
+                    "TOTAL"
+                  ],
+                  "rows": [
+                    [
+                      "Hazardous waste",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Preparation for reuse",
+                      "t (306-4-d-i)",
+                      "t (306-4-d-ii)",
+                      "t (306-4-b-i)"
+                    ],
+                    [
+                      "Recycling",
+                      "t (306-4-d-i)",
+                      "t (306-4-d-ii)",
+                      "t (306-4-b-ii)"
+                    ],
+                    [
+                      "Other recovery operations",
+                      "t (306-4-d-i)",
+                      "t (306-4-d-ii)",
+                      "t (306-4-b-iii)"
+                    ],
+                    [
+                      "Total",
+                      "",
+                      "",
+                      "t (306-4-b)"
+                    ],
+                    [
+                      "Non-hazardous waste",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Preparation for reuse",
+                      "t (306-4-d-i)",
+                      "t (306-4-d-ii)",
+                      "t (306-4-c-i)"
+                    ],
+                    [
+                      "Recycling",
+                      "t (306-4-d-i)",
+                      "t (306-4-d-ii)",
+                      "t (306-4-c-ii)"
+                    ],
+                    [
+                      "Other recovery operations",
+                      "t (306-4-d-i)",
+                      "t (306-4-d-ii)",
+                      "t (306-4-c-iii)"
+                    ],
+                    [
+                      "Total",
+                      "",
+                      "",
+                      "t (306-4-c)"
+                    ],
+                    [
+                      "Waste prevented",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Waste prevented",
+                      "",
+                      "",
+                      "t (clause 2.3)"
+                    ]
+                  ],
+                  "row_count": 12,
+                  "col_count": 4,
+                  "page_num": 28,
+                  "bbox": [
+                    57.308961050851,
+                    334.36214870876734,
+                    537.6908162434896,
+                    558.54033203125
+                  ]
+                },
+                {
+                  "headers": [
+                    "",
+                    "ONSITE",
+                    "OFFSITE",
+                    "TOTAL"
+                  ],
+                  "rows": [
+                    [
+                      "Hazardous waste",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Incineration (with energy recovery)",
+                      "t (306-5-d-i)",
+                      "",
+                      "t (306-5-b-i)"
+                    ],
+                    [
+                      "Incineration (without energy recovery)",
+                      "t (306-5-d-i)",
+                      "t (306-5-d-ii)",
+                      "t (306-5-b-ii)"
+                    ],
+                    [
+                      "Landfilling",
+                      "t (306-5-d-i)",
+                      "t (306-5-d-ii)",
+                      "t (306-5-b-iii)"
+                    ],
+                    [
+                      "Other disposal operations",
+                      "t (306-5-d-i)",
+                      "t (306-5-d-ii)",
+                      "t (306-5-b-iv)"
+                    ],
+                    [
+                      "Total",
+                      "",
+                      "",
+                      "t (306-5-b)"
+                    ],
+                    [
+                      "Non-hazardous waste",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Incineration (with energy recovery)",
+                      "t (306-5-d-i)",
+                      "t (306-5-d-ii)",
+                      "t (306-5-c-i)"
+                    ],
+                    [
+                      "Incineration (without energy recovery)",
+                      "t (306-5-d-i)",
+                      "t (306-5-d-ii)",
+                      "t (306-5-c-ii)"
+                    ],
+                    [
+                      "Landfilling",
+                      "t (306-5-d-i)",
+                      "t (306-5-d-ii)",
+                      "t (306-5-c-iii)"
+                    ],
+                    [
+                      "Other disposal operations",
+                      "t (306-5-d-i)",
+                      "t (306-5-d-ii)",
+                      "t (306-5-c-iv)"
+                    ],
+                    [
+                      "Total",
+                      "",
+                      "",
+                      "t (306-5-c)"
+                    ]
+                  ],
+                  "row_count": 12,
+                  "col_count": 4,
+                  "page_num": 29,
+                  "bbox": [
+                    57.32680320739746,
+                    83.36509704589844,
+                    537.6729736328125,
+                    343.396484375
+                  ]
+                }
+              ],
+              "page_start": 15,
+              "page_end": 30
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information:"
+          ],
+          "tables": [],
+          "page_start": 15,
+          "page_end": 30
+        }
+      ]
+    }
+  ]
+}

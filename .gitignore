@@ -16,4 +16,14 @@ output/relationships.csv
 # Extracted parquet files
 output/parquet/
 
+EXTENSION_2/data/raw/BRSR/*.pdf
+EXTENSION_2/data/raw/Full set of GRI Standards - English/*.pdf
+
+# Extension 2 specific ignores
+EXTENSION_2/logs/
+EXTENSION_2/venv/
+EXTENSION_2/.env
+EXTENSION_2/.pytest_cache/
+EXTENSION_2/data/processed/ontology/esg_ontology.ttl.lock
+
 

@@ -1,0 +1,483 @@
+{
+  "framework": "GRI",
+  "source_file": "GRI 401_ Employment 2016.pdf",
+  "total_pages": 16,
+  "content": [],
+  "tables": [],
+  "standards": [
+    {
+      "standard_id": "GRI 401: Employment 2016",
+      "title": "GRI 401: Employment 2016",
+      "page_start": 1,
+      "page_end": 1,
+      "content": [
+        "EFFECTIVE DATE: 1 JULY 2018 TOPIC STANDARD 401"
+      ],
+      "tables": [],
+      "disclosures": []
+    },
+    {
+      "standard_id": "GRI 401: Employment 2016",
+      "title": "GRI 401: Employment 2016",
+      "page_start": 2,
+      "page_end": 2,
+      "content": [
+        "Topic Standard",
+        "Effective Date This Standard is effective for reports or other materials published on or after 1 July 2018",
+        "Responsibility This Standard is issued by the Global Sustainability Standards Board (GSSB) . Any feedback on the GRI Standards can be submitted to gssbsecretariat@globalreporting.org for the consideration of the GSSB.",
+        "Due Process This Standard was developed in the public interest and in accordance with the requirements of the GSSB Due Process Protocol. It has been developed using multi-stakeholder expertise, and with regard to authoritative intergovernmental instruments and widely held expectations of organizations relating to social, environmental, and economic responsibilities.",
+        "Legal Liability This document, designed to promote sustainability reporting, has been developed by the Global Sustainability Standards Board (GSSB) through a unique multi-stakeholder consultative process involving representatives from organizations and report information users from around the world. While the GRI Supervisory Board, Management Board, and GSSB encourage the use of the GRI Sustainability Reporting Standards (GRI Standards) and related Interpretations by all organizations, the preparation and publication of reports based fully or partially on the GRI Standards and related Interpretations are the full responsibility of those producing them. Neither the GRI Supervisory Board, Management Board, GSSB, nor Stichting Global Reporting Initiative (GRI) can assume responsibility for any consequences or damages resulting directly or indirectly from the use of the GRI Standards and related Interpretations in the preparation of reports, or the use of reports based on the GRI Standards and related Interpretations.",
+        "Copyright and trademark notice This document is copyright-protected by Stichting Global Reporting Initiative (GRI). The reproduction and distribution of this document for information and/or use in preparing a sustainability report is permitted without prior permission from GRI. However, neither this document nor any extract from it may be reproduced, stored, translated, or transferred in any form or by any means (electronic, mechanical, photocopied, recorded, or otherwise) for any other purpose without prior written permission from GRI.",
+        "Global Reporting Initiative, GRI and logo, GSSB and logo, and GRI Sustainability Reporting Standards (GRI Standards) and logo are trademarks of Stichting Global Reporting Initiative.",
+        "© 2025 GRI. All rights reserved.",
+        "ISBN 978-90-8866-112-9"
+      ],
+      "tables": [],
+      "disclosures": []
+    },
+    {
+      "standard_id": "GRI 401: Employment 2016 3",
+      "title": "GRI 401: Employment 2016 3",
+      "page_start": 3,
+      "page_end": 16,
+      "content": [],
+      "tables": [],
+      "disclosures": [
+        {
+          "id": "1. Topic management disclosures 7",
+          "label": "1. Topic management disclosures 7",
+          "text": "1. Topic management disclosures 7",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "2. Topic disclosures 8",
+          "label": "2. Topic disclosures 8",
+          "text": "2. Topic disclosures 8",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 401-1 New employee hires and employee t",
+          "label": "Disclosure 401-1 New employee hires and employee turnover 8",
+          "text": "Disclosure 401-1 New employee hires and employee turnover 8",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 401-2 Benefits provided to full-time em",
+          "label": "Disclosure 401-2 Benefits provided to full-time employees that are not provided to temporary or part-time employees 9",
+          "text": "Disclosure 401-2 Benefits provided to full-time employees that are not provided to temporary or part-time employees 9",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 401-3 Parental leave 10",
+          "label": "Disclosure 401-3 Parental leave 10",
+          "text": "Disclosure 401-3 Parental leave 10",
+          "requirements": [],
+          "content": [
+            "GRI 401: Employment 2016 4",
+            "Introduction",
+            "GRI 401: Employment 2016 contains disclosures for organizations to report information about their employment- related impacts, and how they manage these impacts.",
+            "The Standard is structured as follows:",
+            "Section 1 contains a requirement, which provides information about how the organization manages its employment-related impacts. •",
+            "Section 2 contains three disclosures, which provide information about the organization’s employment-related impacts. •",
+            "The Glossary contains defined terms with a specific meaning when used in the GRI Standards. The terms are underlined in the text of the GRI Standards and linked to the definitions. •",
+            "The Bibliography lists authoritative intergovernmental instruments used in developing this Standard. •",
+            "The rest of the Introduction section provides a background on the topic, an overview of the system of GRI Standards and further information on using this Standard.",
+            "Background on the topic This Standard addresses the topic of employment. This includes an organization’s approach to employment or job creation, that is, an organization’s approach to hiring, recruitment, retention and related practices, and the working conditions it provides. The Standard also covers the employment and working conditions in an organization’s supply chain.",
+            "An employment relationship is a legal relationship between a worker and an organization that confers rights and obligations to both parties. This relationship is usually the means for determining whether employment or labor law is applicable or whether commercial law is applicable.",
+            "These concepts are covered in key instruments of the International Labour Organization, the Organisation for Economic Co-operation and Development, and the United Nations: see the Bibliography .",
+            "System of GRI Standards This Standard is part of the GRI Sustainability Reporting Standards (GRI Standards). The GRI Standards enable an organization to report information about its most significant impacts on the economy, environment, and people, including impacts on their human rights, and how it manages these impacts.",
+            "The GRI Standards are structured as a system of interrelated standards that are organized into three series: GRI Universal Standards, GRI Sector Standards, and GRI Topic Standards (see Figure 1 in this Standard).",
+            "Universal Standards: GRI 1, GRI 2 and GRI 3 GRI 1: Foundation 2021 specifies the requirements that the organization must comply with to report in accordance with the GRI Standards. The organization begins using the GRI Standards by consulting GRI 1 .",
+            "GRI 2: General Disclosures 2021 contains disclosures that the organization uses to provide information about its reporting practices and other organizational details, such as its activities, governance, and policies.",
+            "GRI 3: Material Topics 2021 provides guidance on how to determine material topics. It also contains disclosures that the organization uses to report information about its process of determining material topics, its list of material topics, and how it manages each topic.",
+            "Sector Standards The Sector Standards provide information for organizations about their likely material topics. The organization uses the Sector Standards that apply to its sectors when determining its material topics and when determining what to report for each material topic.",
+            "Topic Standards The Topic Standards contain disclosures that the organization uses to report information about its impacts in relation to particular topics. The organization uses the Topic Standards according to the list of material topics it has determined using GRI 3 .",
+            "GRI 401: Employment 2016 5",
+            "Figure 1. GRI Standards: Universal, Sector and Topic Standards",
+            "GRI Standards",
+            "Sector Standards Universal Standards Topic Standards",
+            "Requirements and principles for using the GRI Standards",
+            "Disclosures about the reporting organization",
+            "Disclosures and guidance about the organization's material topics",
+            "Apply all three Universal Standards to your reporting",
+            "Use the Sector Standards that",
+            "Select Topic Standards to report",
+            "apply to your sectors",
+            "specific information on your",
+            "material topics",
+            "Using this Standard This Standard can be used by any organization – regardless of size, type, sector, geographic location, or reporting experience – to report information about its employment-related impacts. In addition to this Standard, conditions of work are also covered in detail in other GRI Standards:",
+            "GRI 402: Labor/Management Relations 2016 • GRI 403: Occupational Health and Safety 2018 • GRI 404: Training and Education 2016 • GRI 405: Diversity and Equal Opportunity 2016 • GRI 406: Non-discrimination 2016 •",
+            "In addition, Disclosure 2-7 and Disclosure 2-8 in GRI 2: General Disclosures 2021 require information on employees and other workers performing work for the organization, such as the total number of employees, and the total number of permanent and temporary employees, by gender and by region.",
+            "An organization reporting in accordance with the GRI Standards is required to report the following disclosures if it has determined employment to be a material topic:"
+          ],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 5
+        },
+        {
+          "id": "Disclosure 3-3 in GRI 3: Material Topics 2021 (see",
+          "label": "Disclosure 3-3 in GRI 3: Material Topics 2021 (see clause 1.1 in this Standard); • Any disclosures from this Topic Stand",
+          "text": "Disclosure 3-3 in GRI 3: Material Topics 2021 (see clause 1.1 in this Standard); • Any disclosures from this Topic Standard that are relevant to the organization’s employment-related impacts (Disclosure 401-1 through Disclosure 401-3). •",
+          "requirements": [],
+          "content": [
+            "See Requirements 4 and 5 in GRI 1: Foundation 2021 .",
+            "Reasons for omission are permitted for these disclosures.",
+            "If the organization cannot comply with a disclosure or with a requirement in a disclosure (e.g., because the required information is confidential or subject to legal prohibitions), the organization is required to specify the disclosure or the requirement it cannot comply with, and provide a reason for omission together with an explanation in the GRI content index. See Requirement 6 in GRI 1: Foundation 2021 for more information on reasons for omission.",
+            "If the organization cannot report the required information about an item specified in a disclosure because the item (e.g., committee, policy, practice, process) does not exist, it can comply with the requirement by reporting this to be the",
+            "GRI 401: Employment 2016 6",
+            "case. The organization can explain the reasons for not having this item, or describe any plans to develop it. The disclosure does not require the organization to implement the item (e.g., developing a policy), but to report that the item does not exist.",
+            "If the organization intends to publish a standalone sustainability report, it does not need to repeat information that it has already reported publicly elsewhere, such as on web pages or in its annual report. In such a case, the organization can report a required disclosure by providing a reference in the GRI content index as to where this information can be found (e.g., by providing a link to the web page or citing the page in the annual report where the information has been published).",
+            "Requirements, guidance and defined terms The following apply throughout this Standard:",
+            "Requirements are presented in bold font and indicated by the word 'shall'. An organization must comply with requirements to report in accordance with the GRI Standards.",
+            "Requirements may be accompanied by guidance.",
+            "Guidance includes background information, explanations, and examples to help the organization better understand the requirements. The organization is not required to comply with guidance.",
+            "The Standards may also include recommendations. These are cases where a particular course of action is encouraged but not required.",
+            "The word ‘should’ indicates a recommendation, and the word ‘can’ indicates a possibility or option.",
+            "Defined terms are underlined in the text of the GRI Standards and linked to their definitions in the Glossary . The organization is required to apply the definitions in the Glossary.",
+            "GRI 401: Employment 2016 7"
+          ],
+          "tables": [],
+          "page_start": 5,
+          "page_end": 7
+        },
+        {
+          "id": "1. Topic management disclosures",
+          "label": "1. Topic management disclosures",
+          "text": "1. Topic management disclosures",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS The reporting organization shall report how it manages employment using Disclosure 3-3 in GRI 3: Material Topics 2021 . 1.1",
+              "content": [
+                "1.2 The reporting organization should describe: RECOMMENDATIONS",
+                "its policies or practices covering the relationships under which work is performed for the organization; 1.2.1",
+                "1.2.2",
+                "actions taken to determine and address situations where work undertaken within its supply chain does not take place within appropriate institutional and legal frameworks;",
+                "1.2.3",
+                "actions taken to determine and address situations where persons working for suppliers are not provided the social and labor protection that they are entitled to receive by national labor law;",
+                "actions taken to determine and address situations where working conditions in its supply chain do not meet international labor standards or national labor law; 1.2.4",
+                "actions taken to determine and address situations where work undertaken in its supply chain is inadequately remunerated; 1.2.5",
+                "1.2.6",
+                "actions taken to determine and address situations of disguised employment relationships where workers in its supply chain are falsely considered to be self- employed or where there is no legally recognized employer;",
+                "1.2.7",
+                "actions taken to determine and address situations where work undertaken in its supply chain that is performed at home is not subject to legally recognized contracts.",
+                "Guidance for clause 1.2 Policies or practices covering the relationships under which work is performed for an organization can include recognized employment relationships, the use of employees of other organizations (such as workers supplied by agencies), and the extent to which work is performed on a temporary or part-time basis. A description of policies and practices can include policies and practices with respect to discrimination, compensation, promotion, privacy, human resource development and industrial relations."
+              ],
+              "tables": [],
+              "page_start": 7,
+              "page_end": 7
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Work taking place within an appropriate institutional and legal framework usually entails a recognized employment relationship with an identifiable and legally recognized employer.",
+                "Conditions of work can include compensation, working time, rest periods, holidays, disciplinary and dismissal practices, maternity protection, the workplace environment, and occupational health and safety. They can also include the quality of living accommodations where provided, and welfare matters, such as safe drinking water, canteens and access to medical services.",
+                "Adequately remunerated work is work where wages and compensation for a standard working week, excluding overtime, meet legal and industry minimum standards, and are sufficient to meet the basic needs of workers and their families, and to provide them with some discretionary income. Actions taken to address situations where work is inadequately remunerated can include:",
+                "dialogue with suppliers regarding the relationship of the prices paid to suppliers and the wages paid to workers; •",
+                "changes to an organization’s procurement practices; • support for collective bargaining to determine wages; • determining the extent that overtime is used, whether it is mandatory, and whether it is compensated at a premium rate. •",
+                "GRI 401: Employment 2016 8"
+              ],
+              "tables": [],
+              "page_start": 7,
+              "page_end": 8
+            }
+          ],
+          "content": [
+            "An organization reporting in accordance with the GRI Standards is required to report how it manages each of its material topics.",
+            "An organization that has determined employment to be a material topic is required to report how it manages the topic using Disclosure 3-3 in GRI 3: Material Topics 2021 (see clause 1.1 in this section).",
+            "This section is therefore designed to supplement – and not replace – Disclosure 3-3 in GRI 3 ."
+          ],
+          "tables": [],
+          "page_start": 7,
+          "page_end": 8
+        },
+        {
+          "id": "2. Topic disclosures",
+          "label": "2. Topic disclosures",
+          "text": "2. Topic disclosures",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 8,
+          "page_end": 8
+        },
+        {
+          "id": "Disclosure 401-1 New employee hires and employee t",
+          "label": "Disclosure 401-1 New employee hires and employee turnover",
+          "text": "Disclosure 401-1 New employee hires and employee turnover",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "Total number and rate of new employee hires during the reporting period, by age group, gender and region. a.",
+                "Total number and rate of employee turnover during the reporting period, by age group, gender and region. b.",
+                "Compilation requirements",
+                "2.1",
+                "When compiling the information specified in Disclosure 401-1, the reporting organization shall use the total employee numbers at the end of the reporting period to calculate the rates of new employee hires and employee turnover . See Standard Interpretations ."
+              ],
+              "tables": [],
+              "page_start": 8,
+              "page_end": 8
+            },
+            {
+              "type": "RECOMMENDATIONS",
+              "text": "RECOMMENDATIONS When compiling the information specified in Disclosure 401-1, the reporting organization should use data from Disclosure 2-7 in GRI 2: General Disclosures 2021 to identify the total number of employees.",
+              "content": [
+                "2.2",
+                "Guidance for Disclosure 401-1 An organization can use the following age groups:"
+              ],
+              "tables": [],
+              "page_start": 8,
+              "page_end": 8
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Under 30 years old; • 30-50 years old; • Over 50 years old. •",
+                "Background The number, age, gender, and region of an organization’s new employee hires can indicate its strategy and ability to attract diverse, qualified employees. This information can signify the organization’s efforts to implement inclusive recruitment practices based on age and gender. It can also signify the optimal use of available labor and talent in different regions.",
+                "A high rate of employee turnover can indicate levels of uncertainty and dissatisfaction among employees. It can also signal a fundamental change in the structure of an organization’s core operations. An uneven pattern of turnover by age or gender can indicate incompatibility or potential inequity in the workplace. Turnover results in changes to the human and intellectual capital of the organization and can impact productivity. Turnover has direct cost implications either in terms of reduced payroll or greater expenses for the recruitment of employees.",
+                "GRI 401: Employment 2016 9"
+              ],
+              "tables": [],
+              "page_start": 8,
+              "page_end": 9
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information:"
+          ],
+          "tables": [],
+          "page_start": 8,
+          "page_end": 9
+        },
+        {
+          "id": "Disclosure 401-2 Benefits provided to full-time em",
+          "label": "Disclosure 401-2 Benefits provided to full-time employees that are not provided to temporary or part-time employees",
+          "text": "Disclosure 401-2 Benefits provided to full-time employees that are not provided to temporary or part-time employees",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "a.",
+                "Benefits which are standard for full-time employees of the organization but are not provided to temporary or part-time employees, by significant locations of operation. These include, as a minimum:",
+                "life insurance; i.",
+                "health care; ii.",
+                "disability and invalidity coverage; iii.",
+                "parental leave; iv.",
+                "retirement provision; v.",
+                "stock ownership; vi.",
+                "others. vii.",
+                "The definition used for ‘significant locations of operation’. b.",
+                "Compilation requirements",
+                "2.3",
+                "When compiling the information specified in Disclosure 401-2, the reporting organization shall exclude in-kind benefits such as provision of sports or child day care facilities, free meals during working time, and similar general employee welfare programs.",
+                "Background Data reported under this disclosure provide a measure of an organization’s investment in human resources and the minimum benefits it offers its full-time employees. The quality of benefits for full-time employees is a key factor in retaining employees."
+              ],
+              "tables": [],
+              "page_start": 9,
+              "page_end": 9
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "GRI 401: Employment 2016 10"
+              ],
+              "tables": [],
+              "page_start": 9,
+              "page_end": 10
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information:"
+          ],
+          "tables": [],
+          "page_start": 9,
+          "page_end": 10
+        },
+        {
+          "id": "Disclosure 401-3 Parental leave",
+          "label": "Disclosure 401-3 Parental leave",
+          "text": "Disclosure 401-3 Parental leave",
+          "requirements": [
+            {
+              "type": "RECOMMENDATIONS",
+              "text": "RECOMMENDATIONS When compiling the information specified in Disclosure 401-3, the reporting organization should use the following formulas to calculate the return to work and retention rates: 2.4",
+              "content": [
+                "Total number of employees that did return to work after",
+                "parental leave ___________________________________________",
+                "Return to work rate =",
+                "x 100",
+                "Total number of employees due to return to work after",
+                "taking parental leave",
+                "Total number of employees retained 12 months after",
+                "returning to work following a period of parental leave ___________________________________________",
+                "Retention rate =",
+                "x 100",
+                "Total number of employees returning from parental",
+                "leave in the prior reporting period(s)",
+                "Guidance for Disclosure 401-3 Employees entitled to parental leave means those employees that are covered by organizational policies, agreements or contracts that contain parental leave entitlements."
+              ],
+              "tables": [],
+              "page_start": 10,
+              "page_end": 10
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "To determine who returned to work after parental leave ended and were still employed 12 months later, an organization can consult records from the prior reporting periods.",
+                "Background Many countries have introduced legislation to provide parental leave. The aim of the legislation is to allow employees to take leave and return to work in the same or a comparable position.",
+                "The application of legislation varies according to interpretation by government, employers and employees. Many women are discouraged from taking leave and returning to work by employer practices that affect their employment security, remuneration and career path. Many men are not encouraged to take the leave to which they are entitled.",
+                "Equitable gender choice for maternity and paternity leave, and other leave entitlements, can lead to the greater recruitment and retention of qualified employees. It can also boost employee morale and productivity. Men’s uptake of paternity leave options can indicate the degree to which an organization encourages fathers to take such leave. Men taking advantage of leave entitlements positively impacts women to take such leave without prejudicing their career path.",
+                "GRI 401: Employment 2016 11",
+                "Glossary",
+                "This glossary provides definitions for terms used in this Standard. The organization is required to apply these definitions when using the GRI Standards.",
+                "The definitions included in this glossary may contain terms that are further defined in the complete GRI Standards Glossary . All defined terms are underlined. If a term is not defined in this glossary or in the complete GRI Standards Glossary , definitions that are commonly used and understood apply.",
+                "benefit direct benefit provided in the form of financial contributions, care paid for by the organization, or the reimbursement of expenses borne by the employee",
+                "B",
+                "Note: Redundancy payments over and above legal minimums, lay-off pay, extra employment injury benefit, survivors’ benefits, and extra paid holiday entitlements can also be included as a benefit.",
+                "business partner entity with which the organization has some form of direct and formal engagement for the purpose of meeting its business objectives",
+                "Source: Shift and Mazars LLP, UN Guiding Principles Reporting Framework , 2015; modified",
+                "Examples: affiliates, business-to-business customers, clients, first-tier suppliers, franchisees, joint venture partners, investee companies in which the organization has a shareholding position",
+                "Note: Business partners do not include subsidiaries and affiliates that the organization controls.",
+                "business relationships relationships that the organization has with business partners, with entities in its value chain including those beyond the first tier, and with any other entities directly linked to its operations, products, or services",
+                "Source: United Nations (UN), Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework , 2011; modified",
+                "Note: Examples of other entities directly linked to the organization’s operations, products, or services are a non-governmental organization with which the organization delivers support to a local community or state security forces that protect the organization’s facilities.",
+                "employee individual who is in an employment relationship with the organization according to national law or practice",
+                "E",
+                "employee turnover employees who leave the organization voluntarily or due to dismissal, retirement, or death in service",
+                "full-time employee employee whose working hours per week, month, or year are defined according to national law or practice regarding working time",
+                "F",
+                "human rights rights inherent to all human beings, which include, at a minimum, the rights set out in the United Nations (UN) International Bill of Human Rights and the principles concerning fundamental rights set out in the International Labour Organization (ILO) Declaration on Fundamental Principles and Rights at Work",
+                "H",
+                "GRI 401: Employment 2016 12",
+                "Source: United Nations (UN), Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework , 2011; modified",
+                "Note: See Guidance to 2-23-b-i in GRI 2: General Disclosures 2021 for more information on ‘human rights’.",
+                "impact effect the organization has or could have on the economy, environment, and people, including on their human rights, which in turn can indicate its contribution (negative or positive) to sustainable development",
+                "I",
+                "Note 1: Impacts can be actual or potential, negative or positive, short-term or long-term, intended or unintended, and reversible or irreversible.",
+                "Note 2: See section 2.1 in GRI 1: Foundation 2021 for more information on ‘impact’.",
+                "material topics topics that represent the organization’s most significant impacts on the economy, environment, and people, including impacts on their human rights",
+                "M",
+                "Note: See section 2.2 in GRI 1: Foundation 2021 and section 1 in GRI 3: Material Topics 2021 for more information on ‘material topics’.",
+                "parental leave leave granted to men and women employees on the grounds of the birth of a child",
+                "P",
+                "part-time employee employee whose working hours per week, month, or year are less than the number of working hours for full-time employees",
+                "standard benefit benefit typically offered to the majority of full-time employees",
+                "S",
+                "Note: Standard benefits do not need to be offered to every single full-time employee of the organization. The intention of reporting on standard benefits is to disclose what full- time employees can reasonably expect.",
+                "supplier entity upstream from the organization (i.e., in the organization’s supply chain), which provides a product or service that is used in the development of the organization’s own products or services",
+                "Examples: brokers, consultants, contractors, distributors, franchisees, home workers, independent contractors, licensees, manufacturers, primary producers, sub- contractors, wholesalers",
+                "Note: A supplier can have a direct business relationship with the organization (often referred to as a first-tier supplier) or an indirect business relationship.",
+                "supply chain range of activities carried out by entities upstream from the organization, which provide products or services that are used in the development of the organization’s own products or services",
+                "sustainable development / sustainability development that meets the needs of the present without compromising the ability of future generations to meet their own needs",
+                "Source: World Commission on Environment and Development, Our Common Future , 1987",
+                "Note: The terms ‘sustainability’ and ‘sustainable development’ are used interchangeably in the GRI Standards.",
+                "temporary employee employee with a contract for a limited period (i.e., fixed term contract) that ends when the specific time period expires, or when the specific task or event that has an attached time estimate is completed (e.g., the end of a project or return of replaced employees)",
+                "T",
+                "GRI 401: Employment 2016 13",
+                "value chain range of activities carried out by the organization, and by entities upstream and downstream from the organization, to bring the organization’s products or services from their conception to their end use",
+                "V",
+                "Note 1: Entities upstream from the organization (e.g., suppliers) provide products or services that are used in the development of the organization’s own products or services. Entities downstream from the organization (e.g., distributors, customers) receive products or services from the organization.",
+                "Note 2: The value chain includes the supply chain.",
+                "worker person that performs work for the organization",
+                "W",
+                "Examples: employees, agency workers, apprentices, contractors, home workers, interns, self- employed persons, sub-contractors, volunteers, and persons working for organizations other than the reporting organization, such as for suppliers",
+                "Note: In the GRI Standards, in some cases, it is specified whether a particular subset of workers is required to be used.",
+                "Bibliography",
+                "GRI 401: Employment 2016 14",
+                "Bibliography",
+                "This section lists authoritative intergovernmental instruments used in developing this Standard.",
+                "Authoritative instruments:",
+                "International Labour Organization (ILO) Convention 102, ‘Social Security (Minimum Standards) Convention’, 1952. 1.",
+                "International Labour Organization (ILO) Convention 121, ‘Employment Injury Benefits Convention’, 1964. 2.",
+                "International Labour Organization (ILO) Convention 128, ‘Invalidity, Old-Age and Survivors’ Benefits Convention’, 1967. 3.",
+                "International Labour Organization (ILO) Convention 130, ‘Medical Care and Sickness Benefits Convention’, 1969. 4.",
+                "International Labour Organization (ILO) Convention 132, ‘Holidays with Pay Convention (Revised)’, 1970. 5.",
+                "International Labour Organization (ILO) Convention 140, ‘Paid Educational Leave Convention’, 1974. 6.",
+                "International Labour Organization (ILO) Convention 156, ‘Workers with Family Responsibilities Convention’, 1981. 7.",
+                "International Labour Organization (ILO) Convention 157, ‘Maintenance of Social Security Rights Convention’, 1982. 8.",
+                "International Labour Organization (ILO) Convention 168, ‘Employment Promotion and Protection against Unemployment Convention’, 1988. 9.",
+                "International Labour Organization (ILO) Convention 183, ‘Maternity Protection Convention’, 2000. 10.",
+                "International Labour Organization (ILO) Declaration, ‘Declaration Concerning the Aims and Purposes of the International Labour Organization (Declaration of Philadelphia)’, 1944. 11.",
+                "International Labour Organization (ILO) Declaration, ‘Declaration of Social Justice for a Fair Globalization’, 2008. 12.",
+                "International Labour Organization (ILO), ‘Decent Work’, 1999. 13.",
+                "International Labour Organization (ILO) Recommendation 198, ‘Employment Relationship Recommendation’, 2006. 14.",
+                "International Labour Organization (ILO), ‘Tripartite Declaration of Principles concerning Multinational Enterprises and Social Policy’, 2006. 15.",
+                "Organisation for Economic Co-operation and Development (OECD), OECD Guidelines for Multinational Enterprises , 2011. 16.",
+                "United Nations (UN) Convention, ‘International Convention on the Protection of the Rights of All Migrant Workers and Members of Their Families’, 1990. 17.",
+                "Standard Interpretations",
+                "GRI 401: Employment 2016 15",
+                "Standard Interpretations",
+                "Standard Interpretation 1 to GRI 401: Employment 2016 on calculating the rates of new employee hires and employee turnover",
+                "Responsibility",
+                "This Standard Interpretation is issued by the Global Sustainability Standards Board (GSSB) . Any feedback on the GRI Standards and related Interpretations can be submitted to gssbsecretariat@globalreporting.org for the consideration of the GSSB.",
+                "Relevant section",
+                "Clause 2.1 in GRI 401: Employment 2016",
+                "Issue"
+              ],
+              "tables": [],
+              "page_start": 10,
+              "page_end": 15
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information: REQUIREMENTS",
+            "Total number of employees that were entitled to parental leave, by gender. a.",
+            "Total number of employees that took parental leave, by gender. b.",
+            "Total number of employees that returned to work in the reporting period after parental leave ended, by gender. c.",
+            "Total number of employees that returned to work after parental leave ended that were still employed 12 months after their return to work, by gender. d.",
+            "Return to work and retention rates of employees that took parental leave, by gender. e."
+          ],
+          "tables": [],
+          "page_start": 10,
+          "page_end": 15
+        },
+        {
+          "id": "Disclosure 401-1 New employee hires and employee t",
+          "label": "Disclosure 401-1 New employee hires and employee turnover in GRI 401: Employment 2016 requires organizations to report t",
+          "text": "Disclosure 401-1 New employee hires and employee turnover in GRI 401: Employment 2016 requires organizations to report the total numbers and rates of new employee hires and employee turnover during the reporting period, by age group, gender and region.",
+          "requirements": [],
+          "content": [
+            "Clause 2.1 in GRI 401 further requires organizations to use the total employee numbers at the end of the reporting period to calculate the rates of new employee hires and employee turnover.",
+            "Feedback from users of the GRI Standards indicated that the required methodology in clause 2.1 is incorrect.",
+            "Interpretation Statement",
+            "An organization is not required to comply with clause 2.1 in GRI 401: Employment 2016 (‘The reporting organization shall use the total employee numbers at the end of the reporting period to calculate the rates of new employee hires and employee turnover’).",
+            "The organization is free to choose the methodology for calculating these rates.",
+            "The organization is recommended to adequately describe data measurements and bases for calculations (see the Accuracy principle in GRI 1: Foundation 2021 ). When using ratios or normalized data, the organization is recommended to report total numbers or absolute data and provide explanatory notes (see the Comparability principle in GRI 1 ).",
+            "Effective date",
+            "This Standard Interpretation is effective for reports or other materials published on or after 1 July 2018.",
+            "PO Box 10039",
+            "1001 EA Amsterdam",
+            "The Netherlands",
+            "www.globalreporting.org"
+          ],
+          "tables": [],
+          "page_start": 15,
+          "page_end": 16
+        }
+      ]
+    }
+  ]
+}
