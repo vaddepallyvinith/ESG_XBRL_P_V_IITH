@@ -124,7 +124,6 @@ def run_phase2(config: dict):
     t0 = time.time()
     
     from ontology.builder import OntologyBuilder
-    from ontology.visualizer import generate_mermaid_diagram
     
     processed_dir = config["data"]["output_dir"]
     ontology_output_dir = os.path.join(processed_dir, "ontology")
@@ -145,12 +144,8 @@ def run_phase2(config: dict):
     # 2. Export to Neo4j CSV
     builder.export_neo4j_csv(graph_output_dir)
     
-    # 3. Generate Mermaid visualization
-    visualizer_path = os.path.join(ontology_output_dir, "ontology_diagram.md")
-    try:
-        generate_mermaid_diagram(builder.nodes_data, builder.edges_data, visualizer_path)
-    except Exception as e:
-        logger.error(f"Failed to generate visualization: {e}")
+    # 3. Generate Mermaid visualization (Disabled / Visualizer Removed)
+    logger.info("Mermaid visualization skipped (visualizer removed).")
     
     elapsed = time.time() - t0
     logger.info(f"Phase 2 complete in {elapsed:.1f}s")
@@ -173,7 +168,7 @@ def run_phase3(config: dict):
         logger.error(f"Ontology not found at {ontology_path}. Run Phase 2 first.")
         return
         
-    from mapping.engine import SemanticMappingEngine
+    from matcher.engine import SemanticMappingEngine
     engine = SemanticMappingEngine(config)
     engine.run(str(ontology_path), str(mapping_out_dir))
     
@@ -191,7 +186,7 @@ def run_phase4(config: dict):
         logger.error("Mapping repository not found. Run Phase 3 first.")
         return
         
-    from mapping.evaluator import MappingEvaluator
+    from evaluation.evaluator import MappingEvaluator
     evaluator = MappingEvaluator(config)
     
     logger.info("Running Multi-LLM Evaluation...")
@@ -200,10 +195,7 @@ def run_phase4(config: dict):
     logger.info("Generating CLI Report...")
     evaluator.generate_cli_report(str(mapping_dir))
     
-    logger.info("Generating HTML Dashboard...")
-    evaluator.generate_dashboard(str(mapping_dir), str(mapping_dir))
-    
-    logger.info("Phase 4 complete. Dashboard saved to data/processed/mapping/mapping_dashboard.html")
+    logger.info("Phase 4 complete. CLI and JSON reports generated in data/processed/mapping/")
 
 
 def run_phase5(config: dict):
@@ -221,6 +213,7 @@ def main():
     parser.add_argument("--all", action="store_true", help="Run all phases")
     parser.add_argument("--company", type=str, help="Process specific company (Phase 1)")
     parser.add_argument("--config", default="config/settings.yaml", help="Config file path")
+    parser.add_argument("--fresh", action="store_true", help="Clear previous evaluation checkpoints and reports before running")
 
     args = parser.parse_args()
 
@@ -229,6 +222,18 @@ def main():
 
     banner()
     config = load_config(args.config)
+
+    if args.fresh:
+        logger.info("Cleaning previous Phase 4 checkpoints and reports...")
+        mapping_dir = Path(config["data"]["output_dir"]) / "mapping"
+        for file_name in ["multi_llm_results.json", "evaluation_report.json", "evaluation_report.csv"]:
+            p = mapping_dir / file_name
+            if p.exists():
+                try:
+                    p.unlink()
+                    logger.info(f"Removed {p}")
+                except Exception as e:
+                    logger.error(f"Failed to remove {p}: {e}")
 
     if args.phase == 1 or args.all:
         run_phase1(config, args.company)

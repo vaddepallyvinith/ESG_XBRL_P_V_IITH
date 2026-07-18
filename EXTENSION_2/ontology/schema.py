@@ -33,6 +33,13 @@ def create_base_graph() -> Graph:
     # Define Object Properties (Relationships)
     # ---------------------------------------------------------
     g.add((RSO.belongsTo, RDF.type, OWL.ObjectProperty))
+    g.add((RSO.belongsToFramework, RDF.type, OWL.ObjectProperty))
+    g.add((RSO.belongsToFramework, RDFS.subPropertyOf, RSO.belongsTo))
+    g.add((RSO.belongsToTopic, RDF.type, OWL.ObjectProperty))
+    g.add((RSO.belongsToTopic, RDFS.subPropertyOf, RSO.belongsTo))
+    g.add((RSO.belongsToDisclosure, RDF.type, OWL.ObjectProperty))
+    g.add((RSO.belongsToDisclosure, RDFS.subPropertyOf, RSO.belongsTo))
+    
     g.add((RSO.contains, RDF.type, OWL.ObjectProperty))
     g.add((RSO.requires, RDF.type, OWL.ObjectProperty))
     g.add((RSO.hasMetric, RDF.type, OWL.ObjectProperty))

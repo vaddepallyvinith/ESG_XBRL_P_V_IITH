@@ -129,7 +129,7 @@ class OntologyBuilder:
                 "text": sec_content
             })
             self._add_edge(doc_uri, sec_uri, RSO.contains)
-            self._add_edge(sec_uri, doc_uri, RSO.belongsTo)
+            self._add_edge(sec_uri, doc_uri, RSO.belongsToFramework)
             
             # Non-principle disclosures (Questions in Section A & B) -> Disclosure
             for disc in sec.get("disclosures", []):
@@ -183,7 +183,7 @@ class OntologyBuilder:
             "applicability": disc.get("applicability")
         })
         self._add_edge(parent_uri, q_uri, RSO.contains)
-        self._add_edge(q_uri, parent_uri, RSO.belongsTo)
+        self._add_edge(q_uri, parent_uri, RSO.belongsToTopic)
         
         if disc.get("metric"):
             m_uri = RSO[f"Metric_{clean_uri(disc.get('metric'))}"]
@@ -229,7 +229,7 @@ class OntologyBuilder:
                 "text": std_content
             })
             self._add_edge(doc_uri, std_uri, RSO.contains)
-            self._add_edge(std_uri, doc_uri, RSO.belongsTo)
+            self._add_edge(std_uri, doc_uri, RSO.belongsToFramework)
             
             for disc in std.get("disclosures", []):
                 disc_id = clean_uri(disc.get("id", ""))
@@ -257,7 +257,7 @@ class OntologyBuilder:
                     "applicability": disc.get("applicability")
                 })
                 self._add_edge(std_uri, disc_uri, RSO.contains)
-                self._add_edge(disc_uri, std_uri, RSO.belongsTo)
+                self._add_edge(disc_uri, std_uri, RSO.belongsToTopic)
                 
                 if disc.get("metric"):
                     m_uri = RSO[f"Metric_{clean_uri(disc.get('metric'))}"]
@@ -286,7 +286,7 @@ class OntologyBuilder:
                         "applicability": req.get("applicability")
                     })
                     self._add_edge(disc_uri, req_uri, RSO.requires)
-                    self._add_edge(req_uri, disc_uri, RSO.belongsTo)
+                    self._add_edge(req_uri, disc_uri, RSO.belongsToDisclosure)
                     
                     if req.get("metric"):
                         m_uri = RSO[f"Metric_{clean_uri(req.get('metric'))}"]

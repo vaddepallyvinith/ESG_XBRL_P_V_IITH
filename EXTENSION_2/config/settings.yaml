@@ -70,18 +70,120 @@ logging:
 # Evaluation settings
 evaluation:
   models:
-    - name: "Groq"
-      provider: "groq"
-      model: "llama-3.3-70b-versatile"
-      env_var: "GROQ_API_KEY"
-      cost_per_1k_tokens: 0.00059
-    - name: "OpenRouter"
-      provider: "openrouter"
-      model: "meta-llama/llama-3.3-70b-instruct"
-      env_var: "OWL_ALPHA_API_KEY"
-      cost_per_1k_tokens: 0.00040
+    - name: "OpenAI"
+      provider: "openai"
+      model: "gpt-4o-mini"
+      env_var: "OPENAI_API_KEY"
+      base_url: "https://api.openai.com/v1/chat/completions"
+      cost_per_1k_tokens: 0.00015
+      temperature: 0.0
+      timeout: 30
+      max_tokens: 2000
+      batch_size: 10
+      retries: 5
+      delay: 0.5
+      concurrency: 4
+    - name: "Claude"
+      provider: "anthropic"
+      model: "claude-3-5-sonnet-20241022"
+      env_var: "ANTHROPIC_API_KEY"
+      base_url: "https://api.anthropic.com/v1/messages"
+      cost_per_1k_tokens: 0.003
+      temperature: 0.0
+      timeout: 30
+      max_tokens: 2000
+      batch_size: 10
+      retries: 5
+      delay: 0.5
+      concurrency: 2
     - name: "Gemini"
       provider: "gemini"
       model: "gemini-3.5-flash"
       env_var: "GEMINI_API_KEY"
+      base_url: "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
       cost_per_1k_tokens: 0.00035
+      temperature: 0.0
+      timeout: 30
+      max_tokens: 2000
+      batch_size: 10
+      retries: 5
+      delay: 1.0
+      concurrency: 2
+    - name: "Groq"
+      provider: "groq"
+      model: "llama-3.3-70b-versatile"
+      env_var: "GROQ_API_KEY"
+      base_url: "https://api.groq.com/openai/v1/chat/completions"
+      cost_per_1k_tokens: 0.00059
+      temperature: 0.0
+      timeout: 30
+      max_tokens: 2000
+      batch_size: 10
+      retries: 5
+      delay: 1.5
+      concurrency: 4
+    - name: "Cerebras"
+      provider: "cerebras"
+      model: "llama3.1-70b"
+      env_var: "CRESBRAS_API_KEY"
+      base_url: "https://api.cerebras.ai/v1/chat/completions"
+      cost_per_1k_tokens: 0.0006
+      temperature: 0.0
+      timeout: 30
+      max_tokens: 2000
+      batch_size: 10
+      retries: 5
+      delay: 1.0
+      concurrency: 2
+    - name: "GitHub Models"
+      provider: "github"
+      model: "gpt-4o-mini"
+      env_var: "GIT_HUB_TOKEN"
+      base_url: "https://models.inference.ai.azure.com/chat/completions"
+      cost_per_1k_tokens: 0.0
+      temperature: 0.0
+      timeout: 30
+      max_tokens: 2000
+      batch_size: 10
+      retries: 5
+      delay: 1.0
+      concurrency: 2
+    - name: "Mistral"
+      provider: "mistral"
+      model: "mistral-large-latest"
+      env_var: "MISTRAL_API_KEY"
+      base_url: "https://api.mistral.ai/v1/chat/completions"
+      cost_per_1k_tokens: 0.0020
+      temperature: 0.0
+      timeout: 30
+      max_tokens: 2000
+      batch_size: 10
+      retries: 5
+      delay: 1.0
+      concurrency: 2
+    - name: "DeepSeek"
+      provider: "deepseek"
+      model: "deepseek-chat"
+      env_var: "DEEP_SEEK_API_KEY"
+      base_url: "https://api.deepseek.com/chat/completions"
+      cost_per_1k_tokens: 0.00014
+      temperature: 0.0
+      timeout: 30
+      max_tokens: 2000
+      batch_size: 10
+      retries: 5
+      delay: 1.0
+      concurrency: 2
+    - name: "OpenRouter"
+      provider: "openrouter"
+      model: "meta-llama/llama-3.3-70b-instruct"
+      env_var: "OWL_ALPHA_API_KEY"
+      base_url: "https://openrouter.ai/api/v1/chat/completions"
+      cost_per_1k_tokens: 0.00040
+      temperature: 0.0
+      timeout: 30
+      max_tokens: 2000
+      batch_size: 10
+      retries: 5
+      delay: 3.0
+      concurrency: 1

@@ -80,6 +80,11 @@ def test_ontology_builder(dummy_brsr_json):
     # Check edges
     assert len(builder.edges_data) == 6 # 3 pairs of bidirectional edges
     
+    # Verify specific belongsTo subproperties are used in the graph
+    predicates = set(graph.predicates(None, None))
+    assert RSO.belongsToFramework in predicates
+    assert RSO.belongsToTopic in predicates
+    
     # Check provenance
     disc_node = next(n for n in builder.nodes_data if n["label:LABEL"] == "Disclosure")
     assert disc_node["pageStart"] == 3

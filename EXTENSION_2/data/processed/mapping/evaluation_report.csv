@@ -1,0 +1,10 @@
+Provider,Status,Reason,API Calls,Cached Calls,Execution Time (s),Cost Estimate ($),Failed Requests,Success Rate (%)
+OpenAI,Completed,Loaded from checkpoint,0,0,0.0,0.0,0,100.00%
+Claude,Skipped,Missing API Key in env: ANTHROPIC_API_KEY,0,0,0.0,0.0,0,100.00%
+Gemini,Completed,Loaded from checkpoint,0,0,0.0,0.0,0,100.00%
+Groq,Completed,Loaded from checkpoint,0,0,0.0,0.0,0,100.00%
+Cerebras,Completed,Loaded from checkpoint,0,0,0.0,0.0,0,100.00%
+GitHub Models,Completed,Loaded from checkpoint,0,0,0.0,0.0,0,100.00%
+Mistral,Completed,Loaded from checkpoint,0,0,0.0,0.0,0,100.00%
+DeepSeek,No Credits,Insufficient Balance (HTTP 402),2,0,1.6,0.0,4,-100.00%
+OpenRouter,Completed,Loaded from checkpoint,0,0,0.0,0.0,0,100.00%
