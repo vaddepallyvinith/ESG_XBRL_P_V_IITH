@@ -1,0 +1,106 @@
+{
+    "Evaluation Summary": {
+        "generated_at": "2026-07-17 20:32:21"
+    },
+    "Provider Status": [
+        {
+            "provider": "OpenAI",
+            "status": "Completed",
+            "reason": "Loaded from checkpoint",
+            "api_calls": 0,
+            "cached_calls": 0,
+            "execution_time_sec": 0.0,
+            "cost_estimate_usd": 0.0,
+            "failed_requests": 0,
+            "success_rate_percent": 100.0
+        },
+        {
+            "provider": "Claude",
+            "status": "Skipped",
+            "reason": "Missing API Key in env: ANTHROPIC_API_KEY",
+            "api_calls": 0,
+            "cached_calls": 0,
+            "execution_time_sec": 0.0,
+            "cost_estimate_usd": 0.0,
+            "failed_requests": 0,
+            "success_rate_percent": 100.0
+        },
+        {
+            "provider": "Gemini",
+            "status": "Completed",
+            "reason": "Loaded from checkpoint",
+            "api_calls": 0,
+            "cached_calls": 0,
+            "execution_time_sec": 0.0,
+            "cost_estimate_usd": 0.0,
+            "failed_requests": 0,
+            "success_rate_percent": 100.0
+        },
+        {
+            "provider": "Groq",
+            "status": "Completed",
+            "reason": "Loaded from checkpoint",
+            "api_calls": 0,
+            "cached_calls": 0,
+            "execution_time_sec": 0.0,
+            "cost_estimate_usd": 0.0,
+            "failed_requests": 0,
+            "success_rate_percent": 100.0
+        },
+        {
+            "provider": "Cerebras",
+            "status": "Completed",
+            "reason": "Loaded from checkpoint",
+            "api_calls": 0,
+            "cached_calls": 0,
+            "execution_time_sec": 0.0,
+            "cost_estimate_usd": 0.0,
+            "failed_requests": 0,
+            "success_rate_percent": 100.0
+        },
+        {
+            "provider": "GitHub Models",
+            "status": "Completed",
+            "reason": "Loaded from checkpoint",
+            "api_calls": 0,
+            "cached_calls": 0,
+            "execution_time_sec": 0.0,
+            "cost_estimate_usd": 0.0,
+            "failed_requests": 0,
+            "success_rate_percent": 100.0
+        },
+        {
+            "provider": "Mistral",
+            "status": "Completed",
+            "reason": "Loaded from checkpoint",
+            "api_calls": 0,
+            "cached_calls": 0,
+            "execution_time_sec": 0.0,
+            "cost_estimate_usd": 0.0,
+            "failed_requests": 0,
+            "success_rate_percent": 100.0
+        },
+        {
+            "provider": "DeepSeek",
+            "status": "No Credits",
+            "reason": "Insufficient Balance (HTTP 402)",
+            "api_calls": 2,
+            "cached_calls": 0,
+            "execution_time_sec": 1.6,
+            "cost_estimate_usd": 0.0,
+            "failed_requests": 4,
+            "success_rate_percent": -100.0
+        },
+        {
+            "provider": "OpenRouter",
+            "status": "Completed",
+            "reason": "Loaded from checkpoint",
+            "api_calls": 0,
+            "cached_calls": 0,
+            "execution_time_sec": 0.0,
+            "cost_estimate_usd": 0.0,
+            "failed_requests": 0,
+            "success_rate_percent": 100.0
+        }
+    ]
+}

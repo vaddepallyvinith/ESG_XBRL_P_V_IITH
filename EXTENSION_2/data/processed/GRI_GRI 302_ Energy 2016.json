@@ -1,0 +1,595 @@
+{
+  "framework": "GRI",
+  "source_file": "GRI 302_ Energy 2016.pdf",
+  "total_pages": 19,
+  "content": [],
+  "tables": [],
+  "standards": [
+    {
+      "standard_id": "GRI 302: Energy 2016",
+      "title": "GRI 302: Energy 2016",
+      "page_start": 1,
+      "page_end": 1,
+      "content": [
+        "Please note: GRI 302: Energy 2016 has been revised and will be superseded by GRI 103: Energy 2025 with the effective date of 1 January 2027. Earlier adoption of GRI 103 is encouraged.",
+        "EFFECTIVE DATE: UNTIL 31 DECEMBER 2026 TOPIC STANDARD 302"
+      ],
+      "tables": [],
+      "disclosures": []
+    },
+    {
+      "standard_id": "GRI 302: Energy 2016",
+      "title": "GRI 302: Energy 2016",
+      "page_start": 2,
+      "page_end": 3,
+      "content": [
+        "Topic Standard",
+        "Effective Date This Standard is effective for reports or other materials published until 31 December 2026.",
+        "Responsibility This Standard is issued by the Global Sustainability Standards Board (GSSB) . Any feedback on the GRI Standards can be submitted to gssbsecretariat@globalreporting.org for the consideration of the GSSB.",
+        "Due Process This Standard was developed in the public interest and in accordance with the requirements of the GSSB Due Process Protocol. It has been developed using multi-stakeholder expertise, and with regard to authoritative intergovernmental instruments and widely held expectations of organizations relating to social, environmental, and economic responsibilities.",
+        "Legal Liability This document, designed to promote sustainability reporting, has been developed by the Global Sustainability Standards Board (GSSB) through a unique multi-stakeholder consultative process involving representatives from organizations and report information users from around the world. While the GRI Supervisory Board, Management Board, and GSSB encourage the use of the GRI Sustainability Reporting Standards (GRI Standards) and related Interpretations by all organizations, the preparation and publication of reports based fully or partially on the GRI Standards and related Interpretations are the full responsibility of those producing them. Neither the GRI Supervisory Board, Management Board, GSSB, nor Stichting Global Reporting Initiative (GRI) can assume responsibility for any consequences or damages resulting directly or indirectly from the use of the GRI Standards and related Interpretations in the preparation of reports, or the use of reports based on the GRI Standards and related Interpretations.",
+        "Copyright and trademark notice This document is copyright-protected by Stichting Global Reporting Initiative (GRI). The reproduction and distribution of this document for information and/or use in preparing a sustainability report is permitted without prior permission from GRI. However, neither this document nor any extract from it may be reproduced, stored, translated, or transferred in any form or by any means (electronic, mechanical, photocopied, recorded, or otherwise) for any other purpose without prior written permission from GRI.",
+        "Global Reporting Initiative, GRI and logo, GSSB and logo, and GRI Sustainability Reporting Standards (GRI Standards) and logo are trademarks of Stichting Global Reporting Initiative.",
+        "© 2025 GRI. All rights reserved.",
+        "ISBN 978-90-8866-105-1",
+        "Note: This Standard has been revised and will be superseded by GRI 103: Energy 2025"
+      ],
+      "tables": [],
+      "disclosures": []
+    },
+    {
+      "standard_id": "GRI 302: Energy 2016",
+      "title": "GRI 302: Energy 2016",
+      "page_start": 3,
+      "page_end": 19,
+      "content": [
+        "3"
+      ],
+      "tables": [],
+      "disclosures": [
+        {
+          "id": "1. Topic management disclosures 7",
+          "label": "1. Topic management disclosures 7",
+          "text": "1. Topic management disclosures 7",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "2. Topic disclosures 8",
+          "label": "2. Topic disclosures 8",
+          "text": "2. Topic disclosures 8",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 302-1 Energy consumption within the org",
+          "label": "Disclosure 302-1 Energy consumption within the organization 8",
+          "text": "Disclosure 302-1 Energy consumption within the organization 8",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 302-2 Energy consumption outside of the",
+          "label": "Disclosure 302-2 Energy consumption outside of the organization 11",
+          "text": "Disclosure 302-2 Energy consumption outside of the organization 11",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 302-3 Energy intensity 13",
+          "label": "Disclosure 302-3 Energy intensity 13",
+          "text": "Disclosure 302-3 Energy intensity 13",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 302-5 Reductions in energy requirements",
+          "label": "Disclosure 302-5 Reductions in energy requirements of products and services 15",
+          "text": "Disclosure 302-5 Reductions in energy requirements of products and services 15",
+          "requirements": [],
+          "content": [
+            "Note: This Standard has been revised and will be superseded by GRI 103: Energy 2025",
+            "GRI 302: Energy 2016",
+            "4",
+            "Introduction",
+            "GRI 302: Energy 2016 contains disclosures for organizations to report information about their energy-related impacts, and how they manage these impacts.",
+            "The Standard is structured as follows:",
+            "Section 1 contains a requirement, which provides information about how the organization manages its energy- related impacts. •",
+            "Section 2 contains five disclosures, which provide information about the organization’s energy-related impacts. • The Glossary contains defined terms with a specific meaning when used in the GRI Standards. The terms are underlined in the text of the GRI Standards and linked to the definitions. •",
+            "The Bibliography lists references used in developing this Standard. •",
+            "The rest of the Introduction section provides a background on the topic, an overview of the system of GRI Standards and further information on using this Standard.",
+            "Background on the topic This Standard addresses the topic of energy.",
+            "An organization can consume energy in various forms, such as fuel, electricity, heating, cooling or steam. Energy can be self-generated or purchased from external sources and it can come from renewable sources (such as wind, hydro or solar) or from non-renewable sources such as coal, petroleum or natural gas).",
+            "Using energy more efficiently and opting for renewable energy sources is essential for combating climate change and for lowering an organization’s overall environmental footprint.",
+            "Energy consumption can also occur throughout the upstream and downstream activities connected with an organization’s operations. This can include consumers’ use of products the organization sells, and the end-of-life treatment of these products.",
+            "System of GRI Standards This Standard is part of the GRI Sustainability Reporting Standards (GRI Standards). The GRI Standards enable an organization to report information about its most significant impacts on the economy, environment, and people, including impacts on their human rights, and how it manages these impacts.",
+            "The GRI Standards are structured as a system of interrelated standards that are organized into three series: GRI Universal Standards, GRI Sector Standards, and GRI Topic Standards (see Figure 1 in this Standard).",
+            "Universal Standards: GRI 1, GRI 2 and GRI 3 GRI 1: Foundation 2021 specifies the requirements that the organization must comply with to report in accordance with the GRI Standards. The organization begins using the GRI Standards by consulting GRI 1 .",
+            "GRI 2: General Disclosures 2021 contains disclosures that the organization uses to provide information about its reporting practices and other organizational details, such as its activities, governance, and policies.",
+            "GRI 3: Material Topics 2021 provides guidance on how to determine material topics. It also contains disclosures that the organization uses to report information about its process of determining material topics, its list of material topics, and how it manages each topic.",
+            "Sector Standards The Sector Standards provide information for organizations about their likely material topics. The organization uses the Sector Standards that apply to its sectors when determining its material topics and when determining what to report for each material topic.",
+            "Topic Standards The Topic Standards contain disclosures that the organization uses to report information about its impacts in relation to particular topics. The organization uses the Topic Standards according to the list of material topics it has determined using GRI 3 .",
+            "Note: This Standard has been revised and will be superseded by GRI 103: Energy 2025",
+            "GRI 302: Energy 2016",
+            "5",
+            "Figure 1. GRI Standards: Universal, Sector and Topic Standards",
+            "GRI Standards",
+            "Sector Standards Universal Standards Topic Standards",
+            "Requirements and principles for using the GRI Standards",
+            "Disclosures about the reporting organization",
+            "Disclosures and guidance about the organization's material topics",
+            "Apply all three Universal Standards to your reporting",
+            "Use the Sector Standards that",
+            "Select Topic Standards to report",
+            "apply to your sectors",
+            "specifc information on your",
+            "material topics",
+            "Using this Standard This Standard can be used by any organization – regardless of size, type, sector, geographic location, or reporting experience – to report information about its energy-related impacts.",
+            "An organization reporting in accordance with the GRI Standards is required to report the following disclosures if it has determined energy to be a material topic:"
+          ],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 5
+        },
+        {
+          "id": "Disclosure 3-3 in GRI 3: Material Topics 2021 (see",
+          "label": "Disclosure 3-3 in GRI 3: Material Topics 2021 (see clause 1.1 in this Standard); • Any disclosures from this Topic Stand",
+          "text": "Disclosure 3-3 in GRI 3: Material Topics 2021 (see clause 1.1 in this Standard); • Any disclosures from this Topic Standard that are relevant to the organization’s energy-related impacts (Disclosure 302-1 through Disclosure 302-5). •",
+          "requirements": [],
+          "content": [
+            "See Requirements 4 and 5 in GRI 1: Foundation 2021 .",
+            "Reasons for omission are permitted for these disclosures.",
+            "If the organization cannot comply with a disclosure or with a requirement in a disclosure (e.g., because the required information is confidential or subject to legal prohibitions), the organization is required to specify the disclosure or the requirement it cannot comply with, and provide a reason for omission together with an explanation in the GRI content index. See Requirement 6 in GRI 1: Foundation 2021 for more information on reasons for omission.",
+            "If the organization cannot report the required information about an item specified in a disclosure because the item (e.g., committee, policy, practice, process) does not exist, it can comply with the requirement by reporting this to be the case. The organization can explain the reasons for not having this item, or describe any plans to develop it. The disclosure does not require the organization to implement the item (e.g., developing a policy), but to report that the item does not exist.",
+            "If the organization intends to publish a standalone sustainability report, it does not need to repeat information that it has already reported publicly elsewhere, such as on web pages or in its annual report. In such a case, the organization can report a required disclosure by providing a reference in the GRI content index as to where this information can be found (e.g., by providing a link to the web page or citing the page in the annual report where the information has been published).",
+            "Note: This Standard has been revised and will be superseded by GRI 103: Energy 2025",
+            "GRI 302: Energy 2016",
+            "6",
+            "Requirements, guidance and defined terms The following apply throughout this Standard:",
+            "Requirements are presented in bold font and indicated by the word 'shall'. An organization must comply with requirements to report in accordance with the GRI Standards.",
+            "Requirements may be accompanied by guidance.",
+            "Guidance includes background information, explanations, and examples to help the organization better understand the requirements. The organization is not required to comply with guidance.",
+            "The Standards may also include recommendations. These are cases where a particular course of action is encouraged but not required.",
+            "The word ‘should’ indicates a recommendation, and the word ‘can’ indicates a possibility or option.",
+            "Defined terms are underlined in the text of the GRI Standards and linked to their definitions in the Glossary . The organization is required to apply the definitions in the Glossary.",
+            "Note: This Standard has been revised and will be superseded by GRI 103: Energy 2025",
+            "GRI 302: Energy 2016",
+            "7"
+          ],
+          "tables": [],
+          "page_start": 5,
+          "page_end": 7
+        },
+        {
+          "id": "1. Topic management disclosures",
+          "label": "1. Topic management disclosures",
+          "text": "1. Topic management disclosures",
+          "requirements": [],
+          "content": [
+            "An organization reporting in accordance with the GRI Standards is required to report how it manages each of its material topics.",
+            "An organization that has determined energy to be a material topic is required to report how it manages the topic using Disclosure 3-3 in GRI 3: Material Topics 2021 (see clause 1.1 in this section).",
+            "This section is therefore designed to supplement – and not replace – Disclosure 3-3 in GRI 3 .",
+            "Note: This Standard has been revised and will be superseded by GRI 103: Energy 2025",
+            "GRI 302: Energy 2016",
+            "8"
+          ],
+          "tables": [],
+          "page_start": 7,
+          "page_end": 8
+        },
+        {
+          "id": "2. Topic disclosures",
+          "label": "2. Topic disclosures",
+          "text": "2. Topic disclosures",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 8,
+          "page_end": 8
+        },
+        {
+          "id": "Disclosure 302-1 Energy consumption within the org",
+          "label": "Disclosure 302-1 Energy consumption within the organization",
+          "text": "Disclosure 302-1 Energy consumption within the organization",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "Total fuel consumption within the organization from non-renewable sources, in joules or multiples, and including fuel types used. a.",
+                "Total fuel consumption within the organization from renewable sources, in joules or multiples, and including fuel types used. b.",
+                "c.",
+                "In joules, watt-hours or multiples, the total:",
+                "electricity consumption i.",
+                "heating consumption ii.",
+                "cooling consumption iii.",
+                "steam consumption iv.",
+                "d.",
+                "In joules, watt-hours or multiples, the total:",
+                "electricity sold i.",
+                "heating sold ii.",
+                "cooling sold iii.",
+                "steam sold iv.",
+                "Total energy consumption within the organization, in joules or multiples. e.",
+                "Standards, methodologies, assumptions, and/or calculation tools used. f.",
+                "Source of the conversion factors used. g.",
+                "Compilation requirements",
+                "When compiling the information specified in Disclosure 302-1, the reporting organization shall: 2.1",
+                "2.1.1",
+                "avoid the double-counting of fuel consumption, when reporting self-generated energy consumption. If the organization generates electricity from a non- renewable or renewable fuel source and then consumes the generated electricity, the energy consumption shall be counted once under fuel consumption;",
+                "report fuel consumption separately for non-renewable and renewable fuel sources; 2.1.2",
+                "only report energy consumed by entities owned or controlled by the organization; 2.1.3",
+                "calculate the total energy consumption within the organization in joules or multiples using the following formula: 2.1.4",
+                "Note: This Standard has been revised and will be superseded by GRI 103: Energy 2025",
+                "GRI 302: Energy 2016",
+                "9",
+                "Total energy consumption within the organization",
+                "=",
+                "Non-renewable fuel consumed",
+                "+",
+                "Renewable fuel consumed",
+                "+",
+                "Electricity, heating, cooling, and steam purchased for consumption",
+                "+",
+                "Self-generated electricity, heating, cooling, and steam, which are not consumed (see",
+                "clause 2.1.1)",
+                "-",
+                "Electricity, heating, cooling, and steam sold"
+              ],
+              "tables": [],
+              "page_start": 8,
+              "page_end": 9
+            },
+            {
+              "type": "RECOMMENDATIONS",
+              "text": "RECOMMENDATIONS When compiling the information specified in Disclosure 302-1, the reporting organization should: 2.2",
+              "content": [
+                "apply conversion factors consistently for the data disclosed; 2.2.1",
+                "use local conversion factors to convert fuel to joules, or multiples, when possible; 2.2.2",
+                "use the generic conversion factors, when local conversion factors are unavailable; 2.2.3",
+                "if subject to different standards and methodologies, describe the approach to selecting them; 2.2.4",
+                "2.2.5",
+                "report energy consumption for a consistent group of entities. When possible, the group of entities should also be consistent with the group of entities used in Disclosures 305-1 and 305-2 of GRI 305: Emissions 2016 ;",
+                "where it aids transparency or comparability over time, provide a breakdown of energy consumption data by: 2.2.6",
+                "business unit or facility; 2.2.6.1",
+                "country; 2.2.6.2",
+                "type of source (see definitions for the listing of non-renewable sources and renewable sources); 2.2.6.3",
+                "type of activity. 2.2.6.4",
+                "Background For some organizations, electricity is the only significant form of energy they consume. For others, energy sources such as steam or water provided from a district heating plant or chilled water plant can also be important."
+              ],
+              "tables": [],
+              "page_start": 9,
+              "page_end": 9
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Energy can be purchased from sources external to the organization or produced by the organization itself (self-generated).",
+                "Non-renewable fuel sources can include fuel for combustion in boilers, furnaces, heaters, turbines, flares, incinerators, generators and vehicles that are owned or controlled by the organization. Non-renewable fuel sources cover fuels purchased by the organization. They also include fuel generated by the organization’s activities – such as mined coal, or gas from oil and gas extraction.",
+                "Renewable fuel sources can include biofuels, when purchased for direct use, and biomass in sources owned or controlled by the organization.",
+                "Consuming non-renewable fuels is usually the main contributor to direct (Scope 1) GHG emissions, which are reported in Disclosure 305-1 of GRI 305: Emissions 2016 . Consuming",
+                "Note: This Standard has been revised and will be superseded by GRI 103: Energy 2025",
+                "GRI 302: Energy 2016",
+                "10",
+                "purchased electricity, heating, cooling, and steam contributes to the organization’s energy indirect (Scope 2) GHG emissions, which are reported in Disclosure 305-2 of GRI 305: Emissions 2016 .",
+                "Note: This Standard has been revised and will be superseded by GRI 103: Energy 2025",
+                "GRI 302: Energy 2016",
+                "11"
+              ],
+              "tables": [],
+              "page_start": 9,
+              "page_end": 11
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information:"
+          ],
+          "tables": [],
+          "page_start": 8,
+          "page_end": 11
+        },
+        {
+          "id": "Disclosure 302-2 Energy consumption outside of the",
+          "label": "Disclosure 302-2 Energy consumption outside of the organization",
+          "text": "Disclosure 302-2 Energy consumption outside of the organization",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "Energy consumption outside of the organization, in joules or multiples. a.",
+                "Standards, methodologies, assumptions, and/or calculation tools used. b.",
+                "Source of the conversion factors used. c.",
+                "Compilation requirements",
+                "When compiling the information specified in Disclosure 302-2, the reporting organization shall exclude energy consumption reported in Disclosure 302-1. 2.3"
+              ],
+              "tables": [],
+              "page_start": 11,
+              "page_end": 11
+            },
+            {
+              "type": "RECOMMENDATIONS",
+              "text": "RECOMMENDATIONS When compiling the information specified in Disclosure 302-2, the reporting organization should: 2.4",
+              "content": [
+                "if subject to different standards and methodologies, describe the approach to selecting them; 2.4.1",
+                "list energy consumption outside of the organization, with a breakdown by upstream and downstream categories and activities. 2.4.2",
+                "Guidance for Disclosure 302-2 The reporting organization can identify energy consumption outside of the organization by assessing whether an activity’s energy consumption:"
+              ],
+              "tables": [],
+              "page_start": 11,
+              "page_end": 11
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "contributes significantly to the organization’s total anticipated energy consumption outside of the organization; •",
+                "offers potential for reductions the organization can undertake or influence; • contributes to climate change-related risks, such as financial, regulatory, supply chain, product and customer, litigation, and reputational risks; •",
+                "is deemed material by stakeholders, such as customers, suppliers, investors, or civil society; •",
+                "results from outsourced activities previously performed in-house, or that are typically performed in-house by other organizations in the same sector; •",
+                "has been identified as significant for the organization’s sector; • meets any additional criteria for determining relevance, developed by the organization or by organizations in its sector. •",
+                "The organization can use the following upstream and downstream categories and activities from the ‘GHG Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard’ for identifying relevant energy consumption outside of the organization (see reference [2] in the Bibliography ):",
+                "Upstream categories 1. Purchased goods and services 2. Capital goods 3. Fuel- and energy-related activities (not included in Disclosure 302-1) 4. Upstream transportation and distribution 5. Waste generated in operations 6. Business travel 7. Employee commuting 8. Upstream leased assets Other upstream Downstream categories 1. Downstream transportation and distribution 2. Processing of sold products 3. Use of sold products 4. End-of-life treatment of sold products 5. Downstream leased assets",
+                "Note: This Standard has been revised and will be superseded by GRI 103: Energy 2025",
+                "GRI 302: Energy 2016",
+                "12",
+                "6. Franchises 7. Investments Other downstream",
+                "For each of these categories and activities, the organization can calculate or estimate the amount of energy consumed.",
+                "The organization can report energy consumption separately for non-renewable sources and renewable sources.",
+                "Background Energy consumption can occur outside an organization, i.e., throughout the organization’s upstream and downstream activities associated with its operations.",
+                "This can include consumers’ use of products the organization sells, and the end-of-life treatment of products.",
+                "Quantifying energy consumption outside of the organization can provide a basis for calculating some of the relevant other indirect (Scope 3) GHG emissions in Disclosure 305-3 of GRI 305: Emissions 2016 .",
+                "Note: This Standard has been revised and will be superseded by GRI 103: Energy 2025",
+                "GRI 302: Energy 2016",
+                "13"
+              ],
+              "tables": [],
+              "page_start": 11,
+              "page_end": 13
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information:"
+          ],
+          "tables": [],
+          "page_start": 11,
+          "page_end": 13
+        },
+        {
+          "id": "Disclosure 302-3 Energy intensity",
+          "label": "Disclosure 302-3 Energy intensity",
+          "text": "Disclosure 302-3 Energy intensity",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "Energy intensity ratio for the organization. a.",
+                "Organization-specific metric (the denominator) chosen to calculate the ratio. b.",
+                "Types of energy included in the intensity ratio; whether fuel, electricity, heating, cooling, steam, or all. c.",
+                "Whether the ratio uses energy consumption within the organization, outside of it, or both. d.",
+                "Compilation requirements",
+                "When compiling the information specified in Disclosure 302-3, the reporting organization shall: 2.5",
+                "calculate the ratio by dividing the absolute energy consumption (the numerator) by the organization-specific metric (the denominator); 2.5.1",
+                "if reporting an intensity ratio both for the energy consumed within the organization and outside of it, report these intensity ratios separately. 2.5.2"
+              ],
+              "tables": [],
+              "page_start": 13,
+              "page_end": 13
+            },
+            {
+              "type": "RECOMMENDATIONS",
+              "text": "RECOMMENDATIONS When compiling the information specified in Disclosure 302-3, the reporting organization should, where it aids transparency or comparability over time, provide a breakdown of the energy intensity ratio by:",
+              "content": [
+                "2.6",
+                "business unit or facility; 2.6.1",
+                "country; 2.6.2",
+                "type of source (see definitions for the listing of non-renewable sources and renewable sources); 2.6.3",
+                "type of activity. 2.6.4",
+                "Guidance for Disclosure 302-3 Intensity ratios can be provided for, among others:"
+              ],
+              "tables": [],
+              "page_start": 13,
+              "page_end": 13
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "products (such as energy consumed per unit produced); • services (such as energy consumed per function or per service); • sales (such as energy consumed per monetary unit of sales). •",
+                "Organization-specific metrics (denominators) can include:",
+                "units of product; • production volume (such as metric tons, liters, or MWh); • size (such as m floor space); 2 •",
+                "number of full-time employees; • monetary units (such as revenue or sales). •",
+                "Background Energy intensity ratios define energy consumption in the context of an organization-specific metric.",
+                "These ratios express the energy required per unit of activity, output, or any other organization- specific metric. Intensity ratios are often called normalized environmental impact data.",
+                "In combination with the organization’s total energy consumption, reported in Disclosures 302-1 and 302-2, energy intensity helps to contextualize the organization’s efficiency, including in relation to other organizations.",
+                "See references [1] and [3] in the Bibliography .",
+                "Note: This Standard has been revised and will be superseded by GRI 103: Energy 2025",
+                "GRI 302: Energy 2016",
+                "14"
+              ],
+              "tables": [],
+              "page_start": 13,
+              "page_end": 14
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information:"
+          ],
+          "tables": [],
+          "page_start": 13,
+          "page_end": 14
+        },
+        {
+          "id": "Disclosure 302-4 Reduction of energy consumption",
+          "label": "Disclosure 302-4 Reduction of energy consumption",
+          "text": "Disclosure 302-4 Reduction of energy consumption",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "Amount of reductions in energy consumption achieved as a direct result of conservation and efficiency initiatives, in joules or multiples. a.",
+                "Types of energy included in the reductions; whether fuel, electricity, heating, cooling, steam, or all. b.",
+                "Basis for calculating reductions in energy consumption, such as base year or baseline, including the rationale for choosing it. c.",
+                "Standards, methodologies, assumptions, and/or calculation tools used. d.",
+                "Compilation requirements",
+                "When compiling the information specified in Disclosure 302-4, the reporting organization shall: 2.7",
+                "exclude reductions resulting from reduced production capacity or outsourcing; 2.7.1",
+                "2.7.2",
+                "describe whether energy reduction is estimated, modeled, or sourced from direct measurements. If estimation or modeling is used, the organization shall disclose the methods used."
+              ],
+              "tables": [],
+              "page_start": 14,
+              "page_end": 14
+            },
+            {
+              "type": "RECOMMENDATIONS",
+              "text": "RECOMMENDATIONS When compiling the information specified in Disclosure 302-4, the reporting organization should, if subject to different standards and methodologies, describe the approach to selecting them.",
+              "content": [
+                "2.8",
+                "Guidance for Disclosure 302-4 The reporting organization can prioritize disclosing reduction initiatives that were implemented in the reporting period, and that have the potential to contribute significantly to reductions. The organization can describe reduction initiatives and their targets when reporting how it manages this topic."
+              ],
+              "tables": [],
+              "page_start": 14,
+              "page_end": 14
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Reduction initiatives can include:",
+                "process redesign; • conversion and retrofitting of equipment; • changes in behavior; • operational changes. •",
+                "The organization can report reductions in energy consumption by combining energy types, or separately for fuel, electricity, heating, cooling, and steam.",
+                "The organization can also provide a breakdown of reductions in energy consumption by individual initiatives or groups of initiatives.",
+                "Note: This Standard has been revised and will be superseded by GRI 103: Energy 2025",
+                "GRI 302: Energy 2016",
+                "15"
+              ],
+              "tables": [],
+              "page_start": 14,
+              "page_end": 15
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information:"
+          ],
+          "tables": [],
+          "page_start": 14,
+          "page_end": 15
+        },
+        {
+          "id": "Disclosure 302-5 Reductions in energy requirements",
+          "label": "Disclosure 302-5 Reductions in energy requirements of products and services",
+          "text": "Disclosure 302-5 Reductions in energy requirements of products and services",
+          "requirements": [
+            {
+              "type": "RECOMMENDATIONS",
+              "text": "RECOMMENDATIONS When compiling the information specified in Disclosure 302-5, the reporting organization should: 2.9",
+              "content": [
+                "if subject to different standards and methodologies, describe the approach to selecting them; 2.9.1",
+                "refer to industry use standards to obtain this information, where available (such as fuel consumption of cars for 100 km at 90 km/h). 2.9.2",
+                "Guidance for Disclosure 302-5 Use-oriented figures can include, for example, the energy requirements of a car or a computer."
+              ],
+              "tables": [],
+              "page_start": 15,
+              "page_end": 15
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Consumption patterns can include, for example, 10 percent less energy use per 100 km travelled or per time unit (hour, average working day).",
+                "Note: This Standard has been revised and will be superseded by GRI 103: Energy 2025",
+                "GRI 302: Energy 2016",
+                "16",
+                "Glossary",
+                "This glossary provides definitions for terms used in this Standard. The organization is required to apply these definitions when using the GRI Standards.",
+                "The definitions included in this glossary may contain terms that are further defined in the complete GRI Standards Glossary . All defined terms are underlined. If a term is not defined in this glossary or in the complete GRI Standards Glossary , definitions that are commonly used and understood apply.",
+                "base year * historical datum (such as year) against which a measurement is tracked over time",
+                "B",
+                "* Please note this term will be updated following the effective date of GRI 102: Climate Change 2025 and GRI 103: Energy 2025, as of 1 January 2027. Please see GRI 102/103 for the updated term.",
+                "baseline * starting point used for comparisons",
+                "Note: In the context of energy reporting, the baseline is the projected energy consumption or emissions in the absence of any reduction activity.",
+                "* Please note this term will be updated following the effective date of GRI 102: Climate Change 2025 and GRI 103: Energy 2025, as of 1 January 2027. Please see GRI 102/103 for the updated term.",
+                "conservation and efficiency initiative organizational or technological modification that allows a defined process or task to be carried out using less energy",
+                "C",
+                "Examples: conversion and retrofitting of equipment such as energy-efficient lighting, elimination of unnecessary energy use due to changes in behavior, process redesign",
+                "energy reduction * amount of energy no longer used or needed to carry out the same processes or tasks",
+                "E",
+                "Note: Energy reduction does not include overall reduction in energy consumption from reducing production capacity or outsourcing organizational activities.",
+                "* Please note this term will be updated following the effective date of GRI 102: Climate Change 2025 and GRI 103: Energy 2025, as of 1 January 2027. Please see GRI 102/103 for the updated term.",
+                "human rights rights inherent to all human beings, which include, at a minimum, the rights set out in the United Nations (UN) International Bill of Human Rights and the principles concerning fundamental rights set out in the International Labour Organization (ILO) Declaration on Fundamental Principles and Rights at Work",
+                "H",
+                "Source: United Nations (UN), Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework , 2011; modified",
+                "Note: See Guidance to 2-23-b-i in GRI 2: General Disclosures 2021 for more information on ‘human rights’.",
+                "impact effect the organization has or could have on the economy, environment, and people, including on their human rights, which in turn can indicate its contribution (negative or positive) to sustainable development",
+                "I",
+                "Note: This Standard has been revised and will be superseded by GRI 103: Energy 2025",
+                "GRI 302: Energy 2016",
+                "17",
+                "Note 1: Impacts can be actual or potential, negative or positive, short-term or long-term, intended or unintended, and reversible or irreversible.",
+                "Note 2: See section 2.1 in GRI 1: Foundation 2021 for more information on ‘impact’.",
+                "material topics topics that represent the organization’s most significant impacts on the economy, environment, and people, including impacts on their human rights",
+                "M",
+                "Note: See section 2.2 in GRI 1: Foundation 2021 and section 1 in GRI 3: Material Topics 2021 for more information on ‘material topics’.",
+                "non-renewable energy source energy source that cannot be replenished, reproduced, grown or generated in a short time period through ecological cycles or agricultural processes",
+                "N",
+                "Examples: coal; fuels distilled from petroleum or crude oil, such as gasoline, diesel fuel, jet fuel, and heating oil; fuels extracted from natural gas processing and petroleum refining, such as butane, propane, and liquefied petroleum gas (LPG); natural gas, such as compressed natural gas (CNG), and liquefied natural gas (LNG); nuclear power",
+                "renewable energy source energy source that is capable of being replenished in a short time through ecological cycles or agricultural processes",
+                "R",
+                "Examples: biomass, geothermal, hydro, solar, wind",
+                "sustainable development / sustainability development that meets the needs of the present without compromising the ability of future generations to meet their own needs",
+                "S",
+                "Source: World Commission on Environment and Development, Our Common Future , 1987",
+                "Note: The terms ‘sustainability’ and ‘sustainable development’ are used interchangeably in the GRI Standards.",
+                "Bibliography",
+                "Note: This Standard has been revised and will be superseded by GRI 103: Energy 2025",
+                "GRI 302: Energy 2016",
+                "18",
+                "Bibliography",
+                "This section lists references used in developing this Standard.",
+                "References:",
+                "World Resources Institute (WRI) and World Business Council for Sustainable Development (WBCSD), ‘GHG Protocol Corporate Accounting and Reporting Standard’, Revised Edition, 2004. 1.",
+                "World Resources Institute (WRI) and World Business Council for Sustainable Development (WBCSD), ‘GHG Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard’, 2011. 2.",
+                "World Resources Institute (WRI) and World Business Council for Sustainable Development (WBCSD), ‘Greenhouse Gas Protocol Accounting Notes, No. 1, Accounting and Reporting Standard Amendment’, 2012. 3.",
+                "PO Box 10039",
+                "1001 EA Amsterdam",
+                "The Netherlands",
+                "www.globalreporting.org"
+              ],
+              "tables": [],
+              "page_start": 15,
+              "page_end": 19
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information: REQUIREMENTS",
+            "Reductions in energy requirements of sold products and services achieved during the reporting period, in joules or multiples. a.",
+            "Basis for calculating reductions in energy consumption, such as base year or baseline, including the rationale for choosing it. b.",
+            "Standards, methodologies, assumptions, and/or calculation tools used. c."
+          ],
+          "tables": [],
+          "page_start": 15,
+          "page_end": 19
+        }
+      ]
+    }
+  ]
+}

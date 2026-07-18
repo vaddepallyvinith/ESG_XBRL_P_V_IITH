@@ -1,0 +1,285 @@
+{
+  "framework": "GRI",
+  "source_file": "GRI 204_ Procurement Practices 2016.pdf",
+  "total_pages": 11,
+  "content": [],
+  "tables": [],
+  "standards": [
+    {
+      "standard_id": "GRI 204: Procurement Practices 2016",
+      "title": "GRI 204: Procurement Practices 2016",
+      "page_start": 1,
+      "page_end": 1,
+      "content": [
+        "EFFECTIVE DATE: 1 JULY 2018 TOPIC STANDARD 204"
+      ],
+      "tables": [],
+      "disclosures": []
+    },
+    {
+      "standard_id": "GRI 204: Procurement Practices 2016",
+      "title": "GRI 204: Procurement Practices 2016",
+      "page_start": 2,
+      "page_end": 2,
+      "content": [
+        "Topic Standard",
+        "Effective Date This Standard is effective for reports or other materials published on or after 1 July 2018",
+        "Responsibility This Standard is issued by the Global Sustainability Standards Board (GSSB) . Any feedback on the GRI Standards can be submitted to gssbsecretariat@globalreporting.org for the consideration of the GSSB.",
+        "Due Process This Standard was developed in the public interest and in accordance with the requirements of the GSSB Due Process Protocol. It has been developed using multi-stakeholder expertise, and with regard to authoritative intergovernmental instruments and widely held expectations of organizations relating to social, environmental, and economic responsibilities.",
+        "Legal Liability This document, designed to promote sustainability reporting, has been developed by the Global Sustainability Standards Board (GSSB) through a unique multi-stakeholder consultative process involving representatives from organizations and report information users from around the world. While the GRI Supervisory Board, Management Board, and GSSB encourage the use of the GRI Sustainability Reporting Standards (GRI Standards) and related Interpretations by all organizations, the preparation and publication of reports based fully or partially on the GRI Standards and related Interpretations are the full responsibility of those producing them. Neither the GRI Supervisory Board, Management Board, GSSB, nor Stichting Global Reporting Initiative (GRI) can assume responsibility for any consequences or damages resulting directly or indirectly from the use of the GRI Standards and related Interpretations in the preparation of reports, or the use of reports based on the GRI Standards and related Interpretations.",
+        "Copyright and trademark notice This document is copyright-protected by Stichting Global Reporting Initiative (GRI). The reproduction and distribution of this document for information and/or use in preparing a sustainability report is permitted without prior permission from GRI. However, neither this document nor any extract from it may be reproduced, stored, translated, or transferred in any form or by any means (electronic, mechanical, photocopied, recorded, or otherwise) for any other purpose without prior written permission from GRI.",
+        "Global Reporting Initiative, GRI and logo, GSSB and logo, and GRI Sustainability Reporting Standards (GRI Standards) and logo are trademarks of Stichting Global Reporting Initiative.",
+        "© 2025 GRI. All rights reserved.",
+        "ISBN 978-90-8866-101-3"
+      ],
+      "tables": [],
+      "disclosures": []
+    },
+    {
+      "standard_id": "GRI 204: Procurement Practices 2016 3",
+      "title": "GRI 204: Procurement Practices 2016 3",
+      "page_start": 3,
+      "page_end": 11,
+      "content": [],
+      "tables": [],
+      "disclosures": [
+        {
+          "id": "1. Topic management disclosures 7",
+          "label": "1. Topic management disclosures 7",
+          "text": "1. Topic management disclosures 7",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "2. Topic disclosures 8",
+          "label": "2. Topic disclosures 8",
+          "text": "2. Topic disclosures 8",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 204-1 Proportion of spending on local s",
+          "label": "Disclosure 204-1 Proportion of spending on local suppliers 8",
+          "text": "Disclosure 204-1 Proportion of spending on local suppliers 8",
+          "requirements": [],
+          "content": [
+            "GRI 204: Procurement Practices 2016 4",
+            "Introduction",
+            "GRI 204: Procurement Practices 2016 contains disclosures for organizations to report information about their procurement practice-related impacts, and how they manage these impacts.",
+            "The Standard is structured as follows:",
+            "Section 1 contains a requirement, which provides information about how the organization manages its procurement practice-related impacts. •",
+            "Section 2 contains one disclosure, which provides information about the organization’s procurement practice- related impacts. •",
+            "The Glossary contains defined terms with a specific meaning when used in the GRI Standards. The terms are underlined in the text of the GRI Standards and linked to the definitions. •",
+            "The rest of the Introduction section provides a background on the topic, an overview of the system of GRI Standards and further information on using this Standard.",
+            "Background on the topic This Standard addresses the topic of procurement practices. This covers an organization’s support for local suppliers or those owned by women or members of vulnerable groups. It also covers how the organization’s procurement practices (such as the lead times it gives to suppliers, or the purchasing prices it negotiates) cause or contribute to negative impacts in the supply chain.",
+            "System of GRI Standards This Standard is part of the GRI Sustainability Reporting Standards (GRI Standards). The GRI Standards enable an organization to report information about its most significant impacts on the economy, environment, and people, including impacts on their human rights, and how it manages these impacts.",
+            "The GRI Standards are structured as a system of interrelated standards that are organized into three series: GRI Universal Standards, GRI Sector Standards, and GRI Topic Standards (see Figure 1 in this Standard).",
+            "Universal Standards: GRI 1, GRI 2 and GRI 3 GRI 1: Foundation 2021 specifies the requirements that the organization must comply with to report in accordance with the GRI Standards. The organization begins using the GRI Standards by consulting GRI 1 .",
+            "GRI 2: General Disclosures 2021 contains disclosures that the organization uses to provide information about its reporting practices and other organizational details, such as its activities, governance, and policies.",
+            "GRI 3: Material Topics 2021 provides guidance on how to determine material topics. It also contains disclosures that the organization uses to report information about its process of determining material topics, its list of material topics, and how it manages each topic.",
+            "Sector Standards The Sector Standards provide information for organizations about their likely material topics. The organization uses the Sector Standards that apply to its sectors when determining its material topics and when determining what to report for each material topic.",
+            "Topic Standards The Topic Standards contain disclosures that the organization uses to report information about its impacts in relation to particular topics. The organization uses the Topic Standards according to the list of material topics it has determined using GRI 3 .",
+            "GRI 204: Procurement Practices 2016 5",
+            "Figure 1. GRI Standards: Universal, Sector and Topic Standards",
+            "GRI Standards",
+            "Sector Standards Universal Standards Topic Standards",
+            "Requirements and principles for using the GRI Standards",
+            "Disclosures about the reporting organization",
+            "Disclosures and guidance about the organization's material topics",
+            "Apply all three Universal Standards to your reporting",
+            "Use the Sector Standards that",
+            "Select Topic Standards to report",
+            "apply to your sectors",
+            "specific information on your",
+            "material topics",
+            "Using this Standard This Standard can be used by any organization – regardless of size, type, sector, geographic location, or reporting experience – to report information about its procurement practice-related impacts.",
+            "An organization reporting in accordance with the GRI Standards is required to report the following disclosures if it has determined procurement practices to be a material topic:"
+          ],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 5
+        },
+        {
+          "id": "Disclosure 3-3 in GRI 3: Material Topics 2021 (see",
+          "label": "Disclosure 3-3 in GRI 3: Material Topics 2021 (see clause 1.1 in this Standard); • Any disclosure from this Topic Standa",
+          "text": "Disclosure 3-3 in GRI 3: Material Topics 2021 (see clause 1.1 in this Standard); • Any disclosure from this Topic Standard that is relevant to the organization’s procurement practice-related impacts (Disclosure 204-1). •",
+          "requirements": [],
+          "content": [
+            "See Requirements 4 and 5 in GRI 1: Foundation 2021 .",
+            "Reasons for omission are permitted for these disclosures.",
+            "If the organization cannot comply with a disclosure or with a requirement in a disclosure (e.g., because the required information is confidential or subject to legal prohibitions), the organization is required to specify the disclosure or the requirement it cannot comply with, and provide a reason for omission together with an explanation in the GRI content index. See Requirement 6 in GRI 1: Foundation 2021 for more information on reasons for omission.",
+            "If the organization cannot report the required information about an item specified in a disclosure because the item (e.g., committee, policy, practice, process) does not exist, it can comply with the requirement by reporting this to be the case. The organization can explain the reasons for not having this item, or describe any plans to develop it. The disclosure does not require the organization to implement the item (e.g., developing a policy), but to report that the item does not exist.",
+            "If the organization intends to publish a standalone sustainability report, it does not need to repeat information that it has already reported publicly elsewhere, such as on web pages or in its annual report. In such a case, the organization can report a required disclosure by providing a reference in the GRI content index as to where this information can be found (e.g., by providing a link to the web page or citing the page in the annual report where the information has been published).",
+            "GRI 204: Procurement Practices 2016 6",
+            "Requirements, guidance and defined terms The following apply throughout this Standard:",
+            "Requirements are presented in bold font and indicated by the word 'shall'. An organization must comply with requirements to report in accordance with the GRI Standards.",
+            "Requirements may be accompanied by guidance.",
+            "Guidance includes background information, explanations, and examples to help the organization better understand the requirements. The organization is not required to comply with guidance.",
+            "The Standards may also include recommendations. These are cases where a particular course of action is encouraged but not required.",
+            "The word ‘should’ indicates a recommendation, and the word ‘can’ indicates a possibility or option.",
+            "Defined terms are underlined in the text of the GRI Standards and linked to their definitions in the Glossary . The organization is required to apply the definitions in the Glossary.",
+            "GRI 204: Procurement Practices 2016 7"
+          ],
+          "tables": [],
+          "page_start": 5,
+          "page_end": 7
+        },
+        {
+          "id": "1. Topic management disclosures",
+          "label": "1. Topic management disclosures",
+          "text": "1. Topic management disclosures",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS The reporting organization shall report how it manages procurement practices using Disclosure 3-3 in GRI 3: Material Topics 2021 . 1.1",
+              "content": [
+                "The reporting organization can also:"
+              ],
+              "tables": [],
+              "page_start": 7,
+              "page_end": 7
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "•",
+                "describe actions taken to identify and adjust the organization’s procurement practices that cause or contribute to negative impacts in the supply chain, including:",
+                "how dialogue with suppliers is used to identify procurement practices that cause or contribute to negative impacts in the supply chain; -",
+                "actions taken to adjust payment policies and procedures; -",
+                "describe policies and practices used to select locally-based suppliers, either organization- wide or for specific locations; •",
+                "explain the rationale and methodology for tracing the source, origin, or production conditions of raw materials and production inputs purchased, if applicable; •",
+                "describe policies and practices used to promote economic inclusion when selecting suppliers. •",
+                "Procurement practices that cause or contribute to negative impacts in the supply chain can include:",
+                "stability or length of relationships with suppliers; • lead times; • ordering and payment routines; • purchasing prices; • changing or cancelling orders. •",
+                "Forms of economic inclusion can include:",
+                "small and medium-sized suppliers; • suppliers owned by women; • suppliers which are owned by or recruit workers from members of vulnerable, marginalized, or under-represented social groups. •",
+                "GRI 204: Procurement Practices 2016 8"
+              ],
+              "tables": [],
+              "page_start": 7,
+              "page_end": 8
+            }
+          ],
+          "content": [
+            "An organization reporting in accordance with the GRI Standards is required to report how it manages each of its material topics.",
+            "An organization that has determined procurement practices to be a material topic is required to report how it manages the topic using Disclosure 3-3 in GRI 3: Material Topics 2021 (see clause 1.1 in this section).",
+            "This section is therefore designed to supplement – and not replace – Disclosure 3-3 in GRI 3 ."
+          ],
+          "tables": [],
+          "page_start": 7,
+          "page_end": 8
+        },
+        {
+          "id": "2. Topic disclosures",
+          "label": "2. Topic disclosures",
+          "text": "2. Topic disclosures",
+          "requirements": [],
+          "content": [
+            "An organization is expected to compile information for economic disclosures using figures from its audited financial statements or from its internally-audited management accounts, whenever possible. Data can be compiled using, for example:",
+            "•",
+            "the relevant International Financial Reporting Standards (IFRS), published by the International Accounting Standards Board (IASB), and the Interpretations developed by the IFRS Interpretations Committee (specific IFRS are referenced for some of the disclosures);",
+            "the International Public Sector Accounting Standards (IPSAS) issued by the International Federation of Accountants (IFAC); •",
+            "national or regional standards recognized internationally for the purpose of financial reporting. •"
+          ],
+          "tables": [],
+          "page_start": 8,
+          "page_end": 8
+        },
+        {
+          "id": "Disclosure 204-1 Proportion of spending on local s",
+          "label": "Disclosure 204-1 Proportion of spending on local suppliers",
+          "text": "Disclosure 204-1 Proportion of spending on local suppliers",
+          "requirements": [
+            {
+              "type": "RECOMMENDATIONS",
+              "text": "RECOMMENDATIONS When compiling the information specified in Disclosure 204-1, the reporting organization should calculate the percentages based on invoices or commitments made during the reporting period, e.g, using accruals accounting.",
+              "content": [
+                "2.1",
+                "Guidance for Disclosure 204-1 Local purchases can be made either from a budget managed at the location of operation or at an organization’s headquarters."
+              ],
+              "tables": [],
+              "page_start": 8,
+              "page_end": 8
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Background By supporting local suppliers, an organization can indirectly attract additional investment to the local economy. Local sourcing can be a strategy to help ensure supply, support a stable local economy, and maintain community relations.",
+                "GRI 204: Procurement Practices 2016 9",
+                "Glossary",
+                "This glossary provides definitions for terms used in this Standard. The organization is required to apply these definitions when using the GRI Standards.",
+                "The definitions included in this glossary may contain terms that are further defined in the complete GRI Standards Glossary . All defined terms are underlined. If a term is not defined in this glossary or in the complete GRI Standards Glossary , definitions that are commonly used and understood apply.",
+                "business partner entity with which the organization has some form of direct and formal engagement for the purpose of meeting its business objectives",
+                "B",
+                "Source: Shift and Mazars LLP, UN Guiding Principles Reporting Framework , 2015; modified",
+                "Examples: affiliates, business-to-business customers, clients, first-tier suppliers, franchisees, joint venture partners, investee companies in which the organization has a shareholding position",
+                "Note: Business partners do not include subsidiaries and affiliates that the organization controls.",
+                "business relationships relationships that the organization has with business partners, with entities in its value chain including those beyond the first tier, and with any other entities directly linked to its operations, products, or services",
+                "Source: United Nations (UN), Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework , 2011; modified",
+                "Note: Examples of other entities directly linked to the organization’s operations, products, or services are a non-governmental organization with which the organization delivers support to a local community or state security forces that protect the organization’s facilities.",
+                "employee individual who is in an employment relationship with the organization according to national law or practice",
+                "E",
+                "human rights rights inherent to all human beings, which include, at a minimum, the rights set out in the United Nations (UN) International Bill of Human Rights and the principles concerning fundamental rights set out in the International Labour Organization (ILO) Declaration on Fundamental Principles and Rights at Work",
+                "H",
+                "Source: United Nations (UN), Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework , 2011; modified",
+                "Note: See Guidance to 2-23-b-i in GRI 2: General Disclosures 2021 for more information on ‘human rights’.",
+                "impact effect the organization has or could have on the economy, environment, and people, including on their human rights, which in turn can indicate its contribution (negative or positive) to sustainable development",
+                "I",
+                "Note 1: Impacts can be actual or potential, negative or positive, short-term or long-term, intended or unintended, and reversible or irreversible.",
+                "Note 2: See section 2.1 in GRI 1: Foundation 2021 for more information on ‘impact’.",
+                "GRI 204: Procurement Practices 2016 10",
+                "local supplier organization or person that provides a product or service to the reporting organization, and that is based in the same geographic market as the reporting organization (that is, no transnational payments are made to a local supplier)",
+                "L",
+                "Note: The geographic definition of ‘local’ can include the community surrounding operations, a region within a country or a country.",
+                "material topics topics that represent the organization’s most significant impacts on the economy, environment, and people, including impacts on their human rights",
+                "M",
+                "Note: See section 2.2 in GRI 1: Foundation 2021 and section 1 in GRI 3: Material Topics 2021 for more information on ‘material topics’.",
+                "supplier entity upstream from the organization (i.e., in the organization’s supply chain), which provides a product or service that is used in the development of the organization’s own products or services",
+                "S",
+                "Examples: brokers, consultants, contractors, distributors, franchisees, home workers, independent contractors, licensees, manufacturers, primary producers, sub- contractors, wholesalers",
+                "Note: A supplier can have a direct business relationship with the organization (often referred to as a first-tier supplier) or an indirect business relationship.",
+                "supply chain range of activities carried out by entities upstream from the organization, which provide products or services that are used in the development of the organization’s own products or services",
+                "sustainable development / sustainability development that meets the needs of the present without compromising the ability of future generations to meet their own needs",
+                "Source: World Commission on Environment and Development, Our Common Future , 1987",
+                "Note: The terms ‘sustainability’ and ‘sustainable development’ are used interchangeably in the GRI Standards.",
+                "value chain range of activities carried out by the organization, and by entities upstream and downstream from the organization, to bring the organization’s products or services from their conception to their end use",
+                "V",
+                "Note 1: Entities upstream from the organization (e.g., suppliers) provide products or services that are used in the development of the organization’s own products or services. Entities downstream from the organization (e.g., distributors, customers) receive products or services from the organization.",
+                "Note 2: The value chain includes the supply chain.",
+                "worker person that performs work for the organization",
+                "W",
+                "Examples: employees, agency workers, apprentices, contractors, home workers, interns, self- employed persons, sub-contractors, volunteers, and persons working for organizations other than the reporting organization, such as for suppliers",
+                "Note: In the GRI Standards, in some cases, it is specified whether a particular subset of workers is required to be used.",
+                "PO Box 10039",
+                "1001 EA Amsterdam",
+                "The Netherlands",
+                "www.globalreporting.org"
+              ],
+              "tables": [],
+              "page_start": 8,
+              "page_end": 11
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information: REQUIREMENTS",
+            "a.",
+            "Percentage of the procurement budget used for significant locations of operation that is spent on suppliers local to that operation (such as percentage of products and services purchased locally).",
+            "The organization’s geographical definition of ‘local’. b.",
+            "The definition used for ‘significant locations of operation’. c."
+          ],
+          "tables": [],
+          "page_start": 8,
+          "page_end": 11
+        }
+      ]
+    }
+  ]
+}

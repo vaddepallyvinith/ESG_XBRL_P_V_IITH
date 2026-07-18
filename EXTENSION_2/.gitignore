@@ -1,0 +1,29 @@
+# Bytecode & Caches
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Local runtime output & logs
+logs/
+*.log
+
+# Environments & secrets
+.env
+venv/
+.venv/
+env/
+ENV/
+
+# Large Datasets & Raw files
+data/raw/
+
+# Lock files and pickle caches
+data/processed/ontology/esg_ontology.ttl.lock
+data/processed/embeddings_cache.pkl
+
+# Temporaries
+*.zip
+*.png
+*.html

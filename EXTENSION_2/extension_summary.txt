@@ -1,0 +1,58 @@
+========================================================================
+ONTOLOGY-GUIDED SEMANTIC MAPPING & ROBUST EVALUATION SUMMARY
+========================================================================
+
+------------------------------------------------------------------------
+1. WHAT WE HAVE IMPLEMENTED TILL NOW
+------------------------------------------------------------------------
+- Phase 1: PDF Parsing & Segmentation
+  * PyMuPDF (fitz) parser extracting hierarchical sections and tables.
+  * Minimum 95% confidence threshold for tabular structure extraction.
+
+- Phase 2: BRSR & GRI Ontology Construction
+  * Created RDF/OWL ontologies capturing disclosures and metrics.
+  * Generated Neo4j-compatible CSVs for nodes and relationships.
+
+- Phase 3: Semantic Mapping Engine
+  * Mapped BRSR disclosure requirements to GRI standards using vector similarity and LLM verification.
+
+- Phase 4: Production-Grade Multi-LLM Evaluation Framework
+  * Support for 9 providers: OpenAI, Claude, Gemini, Groq, Cerebras, GitHub Models, Mistral, DeepSeek, OpenRouter.
+  * Custom exceptions for HTTP 429 (Rate Limits), HTTP 402 (Credits Exhausted), HTTP 401/403 (Invalid Key), and timeouts.
+  * Exponential backoff + jitter and Retry-After header parsing for rate limits.
+  * Immediate real-time checkpointing to multi_llm_results.json after every batch.
+  * Automatic resume support from the last completed batch index.
+  * Thread-safe, persistent prompt cache (evaluation_cache.json) to eliminate duplicate API requests.
+  * Config-driven per-provider concurrency limits (ThreadPoolExecutor).
+  * Automated CSV & JSON evaluation reporting (runtimes, costs, success rates).
+
+------------------------------------------------------------------------
+2. CURRENT OUTPUT STATUS
+------------------------------------------------------------------------
+- Mapping Repository:
+  * Located at: data/processed/mapping/mapping_repository.json (100 mappings).
+
+- Checkpoint File:
+  * Located at: data/processed/mapping/multi_llm_results.json
+  * Status: Reset to clean state ({}) ready to evaluate the new 100 mappings.
+
+- Prompt Cache:
+  * Located at: data/processed/mapping/evaluation_cache.json
+  * Status: Active and loaded.
+
+- API Keys & Mappings (.env & settings.yaml):
+  * Mapped keys:
+    - GROQ_API_KEY (Groq)
+    - OPENAI_API_KEY (OpenAI)
+    - GEMINI_API_KEY (Gemini)
+    - OWL_ALPHA_API_KEY (OpenRouter)
+    - DEEP_SEEK_API_KEY (DeepSeek)
+    - MISTRAL_API_KEY (Mistral)
+    - GIT_HUB_TOKEN (GitHub Models)
+    - CRESBRAS_API_KEY (Cerebras)
+  * Settings synchronized: All env variables map to their respective providers.
+
+- Evaluation Reports:
+  * Paths: data/processed/mapping/evaluation_report.json / .csv
+  * Status: Ready to be updated on the next evaluation run.
+========================================================================

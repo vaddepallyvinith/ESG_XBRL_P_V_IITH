@@ -1,0 +1,3083 @@
+[
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q10_-4902536702272193205",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_403_1_Occupational_health_and_safety_ma",
+    "brsr_label": "10. Health and safety management system:",
+    "gri_label": "Disclosure 403-1 Occupational health and safety management system",
+    "relationship": "Broader",
+    "confidence_score": 44.06169382800226,
+    "similarity_score": 0.44061693828002263,
+    "evidence_summary": {
+      "label_similarity": 0.6092391304347825,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6242128610610962,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts address occupational health and safety management systems, with the BRSR concept covering a broader range of aspects including the presence of such a system, its coverage, hazard identification processes, and worker reporting mechanisms, while the GRI concept specifically focuses on the management system itself.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q10_-4902536702272193205",
+    "gri_id": "Disclosure_Disclosure_403_1_Occupational_health_and_safety_ma",
+    "lexical_score": 0.6092391304347825,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.44061693828002263,
+    "overall_confidence": 44.06169382800226,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'S' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts address occupational health and safety management systems, with the BRSR concept covering a broader range of aspects including the presence of such a system, its coverage, hazard identification processes, and worker reporting mechanisms, while the GRI concept specifically focuses on the management system itself."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q10_-4902536702272193205",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_403_8_Workers_covered_by_an_occupationa",
+    "brsr_label": "10. Health and safety management system:",
+    "gri_label": "Disclosure 403-8 Workers covered by an occupational health and safety management system",
+    "relationship": "Broader",
+    "confidence_score": 39.11625497341157,
+    "similarity_score": 0.3911625497341157,
+    "evidence_summary": {
+      "label_similarity": 0.49000000000000005,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.606625497341156,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "The BRSR concept covers the implementation and coverage of an occupational health and safety management system, while the GRI concept focuses on the workers covered by such a system, indicating a relationship between the two concepts in the context of occupational health and safety.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q10_-4902536702272193205",
+    "gri_id": "Disclosure_Disclosure_403_8_Workers_covered_by_an_occupationa",
+    "lexical_score": 0.49000000000000005,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3911625497341157,
+    "overall_confidence": 39.11625497341157,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'S' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "The BRSR concept covers the implementation and coverage of an occupational health and safety management system, while the GRI concept focuses on the workers covered by such a system, indicating a relationship between the two concepts in the context of occupational health and safety."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q5_6360320180423613439",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_301_3_Reclaimed_products_and_their_pack",
+    "brsr_label": "5. Reclaimed products and their packaging materials (as percentage of products sold) for",
+    "gri_label": "Disclosure 301-3 Reclaimed products and their packaging materials",
+    "relationship": "Narrower",
+    "confidence_score": 39.07086634854087,
+    "similarity_score": 0.39070866348540867,
+    "evidence_summary": {
+      "label_similarity": 0.5021650326797386,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.5534265041351318,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts deal with the theme of materials and their reuse or reclamation, with the BRSR concept specifying the percentage of reclaimed products and packaging materials and the GRI concept discussing reclaimed products and their packaging materials in a broader sense.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q5_6360320180423613439",
+    "gri_id": "Disclosure_Disclosure_301_3_Reclaimed_products_and_their_pack",
+    "lexical_score": 0.5021650326797386,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.39070866348540867,
+    "overall_confidence": 39.07086634854087,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts deal with the theme of materials and their reuse or reclamation, with the BRSR concept specifying the percentage of reclaimed products and packaging materials and the GRI concept discussing reclaimed products and their packaging materials in a broader sense."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q6_-5688596556448572703",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_102_6_Scope_2_GHG_emissions",
+    "brsr_label": "6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its",
+    "gri_label": "Disclosure 102-6 Scope 2 GHG emissions",
+    "relationship": "Narrower",
+    "confidence_score": 38.184357401922156,
+    "similarity_score": 0.38184357401922153,
+    "evidence_summary": {
+      "label_similarity": 0.4301948051948052,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.7526565194129944,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "The BRSR concept and the GRI concept both pertain to greenhouse gas emissions, specifically Scope 2 emissions, indicating a direct relationship between the two in the context of climate change and emissions reporting.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q6_-5688596556448572703",
+    "gri_id": "Disclosure_Disclosure_102_6_Scope_2_GHG_emissions",
+    "lexical_score": 0.4301948051948052,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.38184357401922153,
+    "overall_confidence": 38.184357401922156,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "The BRSR concept and the GRI concept both pertain to greenhouse gas emissions, specifically Scope 2 emissions, indicating a direct relationship between the two in the context of climate change and emissions reporting."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q6_-5688596556448572703",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_102_6_Scope_2_GHG_emissions_28",
+    "brsr_label": "6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its",
+    "gri_label": "Disclosure 102-6 Scope 2 GHG emissions 28",
+    "relationship": "Broader",
+    "confidence_score": 37.223435092439836,
+    "similarity_score": 0.3722343509243984,
+    "evidence_summary": {
+      "label_similarity": 0.4214460784313725,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6915591955184937,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "While both concepts relate to greenhouse gas emissions, the BRSR concept covers both Scope 1 and Scope 2 emissions, and the GRI concept is specifically about Scope 2 GHG emissions, indicating some overlap but not an exact match.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q6_-5688596556448572703",
+    "gri_id": "Disclosure_Disclosure_102_6_Scope_2_GHG_emissions_28",
+    "lexical_score": 0.4214460784313725,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3722343509243984,
+    "overall_confidence": 37.223435092439836,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Low",
+      "explanation": "While both concepts relate to greenhouse gas emissions, the BRSR concept covers both Scope 1 and Scope 2 emissions, and the GRI concept is specifically about Scope 2 GHG emissions, indicating some overlap but not an exact match."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q6_-5688596556448572703",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_102_5_Scope_1_GHG_emissions",
+    "brsr_label": "6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its",
+    "gri_label": "Disclosure 102-5 Scope 1 GHG emissions",
+    "relationship": "Narrower",
+    "confidence_score": 35.89368373780024,
+    "similarity_score": 0.35893683737800236,
+    "evidence_summary": {
+      "label_similarity": 0.37261904761904757,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.753892183303833,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept covers both Scope 1 and Scope 2 emissions, whereas the GRI concept is specifically about Scope 1 GHG emissions, indicating a partial but not complete overlap in their focus areas.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q6_-5688596556448572703",
+    "gri_id": "Disclosure_Disclosure_102_5_Scope_1_GHG_emissions",
+    "lexical_score": 0.37261904761904757,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.35893683737800236,
+    "overall_confidence": 35.89368373780024,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "Medium",
+      "explanation": "The BRSR concept covers both Scope 1 and Scope 2 emissions, whereas the GRI concept is specifically about Scope 1 GHG emissions, indicating a partial but not complete overlap in their focus areas."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q6_-5688596556448572703",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_305_1_Direct_Scope_1_GHG_emissions",
+    "brsr_label": "6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its",
+    "gri_label": "Disclosure 305-1 Direct (Scope 1) GHG emissions",
+    "relationship": "Broader",
+    "confidence_score": 35.45170871797302,
+    "similarity_score": 0.3545170871797302,
+    "evidence_summary": {
+      "label_similarity": 0.37910798122065725,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6837389469146729,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "The BRSR concept pertains to both Scope 1 and Scope 2 emissions, and the GRI concept is about Direct (Scope 1) GHG emissions, showing a relationship but with the BRSR concept being broader.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q6_-5688596556448572703",
+    "gri_id": "Disclosure_Disclosure_305_1_Direct_Scope_1_GHG_emissions",
+    "lexical_score": 0.37910798122065725,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3545170871797302,
+    "overall_confidence": 35.45170871797302,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Low",
+      "explanation": "The BRSR concept pertains to both Scope 1 and Scope 2 emissions, and the GRI concept is about Direct (Scope 1) GHG emissions, showing a relationship but with the BRSR concept being broader."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q6_-5688596556448572703",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_102_5_Scope_1_GHG_emissions_25",
+    "brsr_label": "6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its",
+    "gri_label": "Disclosure 102-5 Scope 1 GHG emissions 25",
+    "relationship": "Broader",
+    "confidence_score": 35.159355997284074,
+    "similarity_score": 0.35159355997284075,
+    "evidence_summary": {
+      "label_similarity": 0.369683257918552,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6922025680541992,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Similar to Candidate 6, the BRSR concept encompasses both Scope 1 and Scope 2 emissions, while the GRI concept focuses on Scope 1 GHG emissions, indicating a partial overlap.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q6_-5688596556448572703",
+    "gri_id": "Disclosure_Disclosure_102_5_Scope_1_GHG_emissions_25",
+    "lexical_score": 0.369683257918552,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.35159355997284075,
+    "overall_confidence": 35.159355997284074,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Low",
+      "explanation": "Similar to Candidate 6, the BRSR concept encompasses both Scope 1 and Scope 2 emissions, while the GRI concept focuses on Scope 1 GHG emissions, indicating a partial overlap."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q6_-5688596556448572703",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_305_1_Direct_Scope_1_GHG_emissions_9",
+    "brsr_label": "6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its",
+    "gri_label": "Disclosure 305-1 Direct (Scope 1) GHG emissions 9",
+    "relationship": "Broader",
+    "confidence_score": 35.08208997657156,
+    "similarity_score": 0.3508208997657156,
+    "evidence_summary": {
+      "label_similarity": 0.37045940170940167,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6813713908195496,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "The BRSR concept deals with both Scope 1 and Scope 2 emissions, and the GRI concept is specifically about Direct (Scope 1) GHG emissions, showing a connection but with differing scopes.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q6_-5688596556448572703",
+    "gri_id": "Disclosure_Disclosure_305_1_Direct_Scope_1_GHG_emissions_9",
+    "lexical_score": 0.37045940170940167,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3508208997657156,
+    "overall_confidence": 35.08208997657156,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Low",
+      "explanation": "The BRSR concept deals with both Scope 1 and Scope 2 emissions, and the GRI concept is specifically about Direct (Scope 1) GHG emissions, showing a connection but with differing scopes."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q6_-5688596556448572703",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_305_2_Energy_indirect_Scope_2_GHG_emi",
+    "brsr_label": "6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its",
+    "gri_label": "Disclosure 305-2 Energy indirect (Scope 2) GHG emissions",
+    "relationship": "Broader",
+    "confidence_score": 34.27121931431674,
+    "similarity_score": 0.34271219314316737,
+    "evidence_summary": {
+      "label_similarity": 0.35376974019358126,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6670429706573486,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "The BRSR concept covers Scope 1 and Scope 2 emissions, while the GRI concept pertains to Energy indirect (Scope 2) GHG emissions, indicating a relationship in the context of Scope 2 emissions.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q6_-5688596556448572703",
+    "gri_id": "Disclosure_Disclosure_305_2_Energy_indirect_Scope_2_GHG_emi",
+    "lexical_score": 0.35376974019358126,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.34271219314316737,
+    "overall_confidence": 34.27121931431674,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Low",
+      "explanation": "The BRSR concept covers Scope 1 and Scope 2 emissions, while the GRI concept pertains to Energy indirect (Scope 2) GHG emissions, indicating a relationship in the context of Scope 2 emissions."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q6_-5688596556448572703",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_102_7_Scope_3_GHG_emissions",
+    "brsr_label": "6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its",
+    "gri_label": "Disclosure 102-7 Scope 3 GHG emissions",
+    "relationship": "Narrower",
+    "confidence_score": 33.89421779847407,
+    "similarity_score": 0.3389421779847407,
+    "evidence_summary": {
+      "label_similarity": 0.3239010989010989,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.7488173842430115,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept focuses on Scope 1 and Scope 2 emissions, whereas the GRI concept is about Scope 3 GHG emissions, indicating no direct overlap in their focus areas.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q6_-5688596556448572703",
+    "gri_id": "Disclosure_Disclosure_102_7_Scope_3_GHG_emissions",
+    "lexical_score": 0.3239010989010989,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3389421779847407,
+    "overall_confidence": 33.89421779847407,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "Medium",
+      "explanation": "The BRSR concept focuses on Scope 1 and Scope 2 emissions, whereas the GRI concept is about Scope 3 GHG emissions, indicating no direct overlap in their focus areas."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q5_4738630364456196912",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_305_5_Reduction_of_GHG_emissions",
+    "brsr_label": "5. Please provide details of air emissions (other than GHG emissions) by the entity, in the",
+    "gri_label": "Disclosure 305-5 Reduction of GHG emissions",
+    "relationship": "Broader",
+    "confidence_score": 33.35180708078237,
+    "similarity_score": 0.33351807080782375,
+    "evidence_summary": {
+      "label_similarity": 0.3233653846153846,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6967191696166992,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept is about air emissions other than GHG emissions, while the GRI concept focuses on the reduction of GHG emissions, showing no overlap in their subject matters.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q5_4738630364456196912",
+    "gri_id": "Disclosure_Disclosure_305_5_Reduction_of_GHG_emissions",
+    "lexical_score": 0.3233653846153846,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.33351807080782375,
+    "overall_confidence": 33.35180708078237,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "High",
+      "explanation": "The BRSR concept is about air emissions other than GHG emissions, while the GRI concept focuses on the reduction of GHG emissions, showing no overlap in their subject matters."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q6_-5688596556448572703",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_102_7_Scope_3_GHG_emissions_31",
+    "brsr_label": "6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its",
+    "gri_label": "Disclosure 102-7 Scope 3 GHG emissions 31",
+    "relationship": "Broader",
+    "confidence_score": 33.320966405427754,
+    "similarity_score": 0.33320966405427754,
+    "evidence_summary": {
+      "label_similarity": 0.3253151260504202,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.685836136341095,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept covers Scope 1 and Scope 2 emissions, and the GRI concept pertains to Scope 3 GHG emissions, indicating no direct relationship between the two concepts.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q6_-5688596556448572703",
+    "gri_id": "Disclosure_Disclosure_102_7_Scope_3_GHG_emissions_31",
+    "lexical_score": 0.3253151260504202,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.33320966405427754,
+    "overall_confidence": 33.320966405427754,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "Medium",
+      "explanation": "The BRSR concept covers Scope 1 and Scope 2 emissions, and the GRI concept pertains to Scope 3 GHG emissions, indicating no direct relationship between the two concepts."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q5_4738630364456196912",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_102_5_Scope_1_GHG_emissions",
+    "brsr_label": "5. Please provide details of air emissions (other than GHG emissions) by the entity, in the",
+    "gri_label": "Disclosure 102-5 Scope 1 GHG emissions",
+    "relationship": "Narrower",
+    "confidence_score": 33.03432376022163,
+    "similarity_score": 0.3303432376022163,
+    "evidence_summary": {
+      "label_similarity": 0.31017281105990785,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.7177411317825317,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept deals with air emissions excluding GHG emissions, while the GRI concept focuses on Scope 1 GHG emissions, showing a clear distinction between their subjects.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q5_4738630364456196912",
+    "gri_id": "Disclosure_Disclosure_102_5_Scope_1_GHG_emissions",
+    "lexical_score": 0.31017281105990785,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3303432376022163,
+    "overall_confidence": 33.03432376022163,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "High",
+      "explanation": "The BRSR concept deals with air emissions excluding GHG emissions, while the GRI concept focuses on Scope 1 GHG emissions, showing a clear distinction between their subjects."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q6_-5688596556448572703",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_102_8_GHG_emissions_intensity",
+    "brsr_label": "6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its",
+    "gri_label": "Disclosure 102-8 GHG emissions intensity",
+    "relationship": "Narrower",
+    "confidence_score": 32.77882987420443,
+    "similarity_score": 0.32778829874204435,
+    "evidence_summary": {
+      "label_similarity": 0.3123361823361823,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6835382580757141,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "The BRSR concept covers the details of greenhouse gas emissions including intensity, and the GRI concept specifically addresses GHG emissions intensity, indicating a relationship between the two in the context of emissions reporting.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q6_-5688596556448572703",
+    "gri_id": "Disclosure_Disclosure_102_8_GHG_emissions_intensity",
+    "lexical_score": 0.3123361823361823,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.32778829874204435,
+    "overall_confidence": 32.77882987420443,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "The BRSR concept covers the details of greenhouse gas emissions including intensity, and the GRI concept specifically addresses GHG emissions intensity, indicating a relationship between the two in the context of emissions reporting."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q3_7691261722040331206",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_301_2_Recycled_input_materials_used",
+    "brsr_label": "3. Percentage of recycled or reused input material to total material (by value) used in",
+    "gri_label": "Disclosure 301-2 Recycled input materials used",
+    "relationship": "Broader",
+    "confidence_score": 32.670479621992,
+    "similarity_score": 0.32670479621992005,
+    "evidence_summary": {
+      "label_similarity": 0.331043956043956,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.5978721380233765,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts relate to the use of recycled input materials, sharing a similar focus on material recycling.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q3_7691261722040331206",
+    "gri_id": "Disclosure_Disclosure_301_2_Recycled_input_materials_used",
+    "lexical_score": 0.331043956043956,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.32670479621992005,
+    "overall_confidence": 32.670479621992,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts relate to the use of recycled input materials, sharing a similar focus on material recycling."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q6_-5688596556448572703",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_305_4_GHG_emissions_intensity",
+    "brsr_label": "6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its",
+    "gri_label": "Disclosure 305-4 GHG emissions intensity",
+    "relationship": "Broader",
+    "confidence_score": 32.66497367780093,
+    "similarity_score": 0.3266497367780093,
+    "evidence_summary": {
+      "label_similarity": 0.3123361823361823,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6721526384353638,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts deal with greenhouse gas emissions, specifically Scope 1 and Scope 2 emissions, indicating a strong conceptual overlap.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q6_-5688596556448572703",
+    "gri_id": "Disclosure_Disclosure_305_4_GHG_emissions_intensity",
+    "lexical_score": 0.3123361823361823,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3266497367780093,
+    "overall_confidence": 32.66497367780093,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts deal with greenhouse gas emissions, specifically Scope 1 and Scope 2 emissions, indicating a strong conceptual overlap."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q5_4738630364456196912",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_305_3_Other_indirect_Scope_3_GHG_emis",
+    "brsr_label": "5. Please provide details of air emissions (other than GHG emissions) by the entity, in the",
+    "gri_label": "Disclosure 305-3 Other indirect (Scope 3) GHG emissions",
+    "relationship": "Broader",
+    "confidence_score": 32.600253288135974,
+    "similarity_score": 0.3260025328813598,
+    "evidence_summary": {
+      "label_similarity": 0.31040697674418605,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.673397421836853,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept focuses on air emissions other than GHG, while the GRI concept is specifically about other indirect (Scope 3) GHG emissions, indicating a mismatch in the type of emissions being reported.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q5_4738630364456196912",
+    "gri_id": "Disclosure_Disclosure_305_3_Other_indirect_Scope_3_GHG_emis",
+    "lexical_score": 0.31040697674418605,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3260025328813598,
+    "overall_confidence": 32.600253288135974,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "High",
+      "explanation": "The BRSR concept focuses on air emissions other than GHG, while the GRI concept is specifically about other indirect (Scope 3) GHG emissions, indicating a mismatch in the type of emissions being reported."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q5_4738630364456196912",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_102_5_Scope_1_GHG_emissions_25",
+    "brsr_label": "5. Please provide details of air emissions (other than GHG emissions) by the entity, in the",
+    "gri_label": "Disclosure 102-5 Scope 1 GHG emissions 25",
+    "relationship": "Broader",
+    "confidence_score": 32.52741266202323,
+    "similarity_score": 0.3252741266202323,
+    "evidence_summary": {
+      "label_similarity": 0.30544303797468353,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6859691143035889,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept is about air emissions not related to GHG, whereas the GRI concept is about Scope 1 GHG emissions, showing a clear difference in the scope of emissions addressed.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q5_4738630364456196912",
+    "gri_id": "Disclosure_Disclosure_102_5_Scope_1_GHG_emissions_25",
+    "lexical_score": 0.30544303797468353,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3252741266202323,
+    "overall_confidence": 32.52741266202323,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "High",
+      "explanation": "The BRSR concept is about air emissions not related to GHG, whereas the GRI concept is about Scope 1 GHG emissions, showing a clear difference in the scope of emissions addressed."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q5_4738630364456196912",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_305_5_Reduction_of_GHG_emissions_17",
+    "brsr_label": "5. Please provide details of air emissions (other than GHG emissions) by the entity, in the",
+    "gri_label": "Disclosure 305-5 Reduction of GHG emissions 17",
+    "relationship": "Broader",
+    "confidence_score": 32.4969521602761,
+    "similarity_score": 0.324969521602761,
+    "evidence_summary": {
+      "label_similarity": 0.31742988606485534,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6349756717681885,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept concerns air emissions not related to GHG, while the GRI concept is about the reduction of GHG emissions, indicating distinct areas of focus.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q5_4738630364456196912",
+    "gri_id": "Disclosure_Disclosure_305_5_Reduction_of_GHG_emissions_17",
+    "lexical_score": 0.31742988606485534,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.324969521602761,
+    "overall_confidence": 32.4969521602761,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "High",
+      "explanation": "The BRSR concept concerns air emissions not related to GHG, while the GRI concept is about the reduction of GHG emissions, indicating distinct areas of focus."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q4_-6365141755975586128",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_301_3_Reclaimed_products_and_their_pack",
+    "brsr_label": "4. Of the products and packaging reclaimed at end of life of products, amount (in metric",
+    "gri_label": "Disclosure 301-3 Reclaimed products and their packaging materials",
+    "relationship": "Narrower",
+    "confidence_score": 32.32755319957101,
+    "similarity_score": 0.3232755319957101,
+    "evidence_summary": {
+      "label_similarity": 0.3145173453996984,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6296859383583069,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts relate to the management and reuse of materials, with the BRSR focusing on products and packaging reclaimed at the end of life and the GRI concept on reclaimed products and their packaging materials, showing a conceptual overlap.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q4_-6365141755975586128",
+    "gri_id": "Disclosure_Disclosure_301_3_Reclaimed_products_and_their_pack",
+    "lexical_score": 0.3145173453996984,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3232755319957101,
+    "overall_confidence": 32.32755319957101,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts relate to the management and reuse of materials, with the BRSR focusing on products and packaging reclaimed at the end of life and the GRI concept on reclaimed products and their packaging materials, showing a conceptual overlap."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q18_1786218148450392899",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_8_Workers_who_are_not_employees_18",
+    "brsr_label": "18. Details as at the end of Financial Year: a. Employees and workers (including differently abled):",
+    "gri_label": "Disclosure 2-8 Workers who are not employees 18",
+    "relationship": "Broader",
+    "confidence_score": 32.29459078068636,
+    "similarity_score": 0.3229459078068636,
+    "evidence_summary": {
+      "label_similarity": 0.18612244897959185,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.5849692821502686,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.3285714285714286,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept is about employees and workers, while the GRI concept focuses on workers who are not employees, indicating a clear distinction in the groups being addressed.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q18_1786218148450392899",
+    "gri_id": "Disclosure_Disclosure_2_8_Workers_who_are_not_employees_18",
+    "lexical_score": 0.18612244897959185,
+    "structural_score": 0.3285714285714286,
+    "property_score": 0.5,
+    "reasoning_score": 0.3229459078068636,
+    "overall_confidence": 32.29459078068636,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'S' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "High",
+      "explanation": "The BRSR concept is about employees and workers, while the GRI concept focuses on workers who are not employees, indicating a clear distinction in the groups being addressed."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q6_-5688596556448572703",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_305_5_Reduction_of_GHG_emissions",
+    "brsr_label": "6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its",
+    "gri_label": "Disclosure 305-5 Reduction of GHG emissions",
+    "relationship": "Broader",
+    "confidence_score": 32.282729361793535,
+    "similarity_score": 0.3228272936179354,
+    "evidence_summary": {
+      "label_similarity": 0.30713489409141587,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6547333598136902,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts deal with greenhouse gas emissions, with the BRSR focusing on Scope 1 and Scope 2 emissions and the GRI concept on the reduction of GHG emissions, showing a conceptual relationship.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q6_-5688596556448572703",
+    "gri_id": "Disclosure_Disclosure_305_5_Reduction_of_GHG_emissions",
+    "lexical_score": 0.30713489409141587,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3228272936179354,
+    "overall_confidence": 32.282729361793535,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts deal with greenhouse gas emissions, with the BRSR focusing on Scope 1 and Scope 2 emissions and the GRI concept on the reduction of GHG emissions, showing a conceptual relationship."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q24_7549452836008929946",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_6_Activities_value_chain_and_other_b",
+    "brsr_label": "24. Overview of the entity\u2019s material responsible business conduct issues",
+    "gri_label": "Disclosure 2-6 Activities, value chain and other business relationships",
+    "relationship": "Broader",
+    "confidence_score": 32.273530503503636,
+    "similarity_score": 0.32273530503503634,
+    "evidence_summary": {
+      "label_similarity": 0.19287173202614377,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.5558661222457886,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.3285714285714286,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept is about material responsible business conduct issues, while the GRI concept focuses on activities, value chain, and other business relationships, indicating different areas of focus.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q24_7549452836008929946",
+    "gri_id": "Disclosure_Disclosure_2_6_Activities_value_chain_and_other_b",
+    "lexical_score": 0.19287173202614377,
+    "structural_score": 0.3285714285714286,
+    "property_score": 0.5,
+    "reasoning_score": 0.32273530503503634,
+    "overall_confidence": 32.273530503503636,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Skipped (unknown category for BRSR or GRI concept)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "High",
+      "explanation": "The BRSR concept is about material responsible business conduct issues, while the GRI concept focuses on activities, value chain, and other business relationships, indicating different areas of focus."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q5_4738630364456196912",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_305_4_GHG_emissions_intensity",
+    "brsr_label": "5. Please provide details of air emissions (other than GHG emissions) by the entity, in the",
+    "gri_label": "Disclosure 305-4 GHG emissions intensity",
+    "relationship": "Broader",
+    "confidence_score": 32.270888424809144,
+    "similarity_score": 0.3227088842480914,
+    "evidence_summary": {
+      "label_similarity": 0.2977934485896269,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.690915048122406,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept concerns air emissions not related to GHG, whereas the GRI concept is about GHG emissions intensity, showing a clear difference in the type of emissions addressed.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q5_4738630364456196912",
+    "gri_id": "Disclosure_Disclosure_305_4_GHG_emissions_intensity",
+    "lexical_score": 0.2977934485896269,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3227088842480914,
+    "overall_confidence": 32.270888424809144,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "High",
+      "explanation": "The BRSR concept concerns air emissions not related to GHG, whereas the GRI concept is about GHG emissions intensity, showing a clear difference in the type of emissions addressed."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q5_4738630364456196912",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_102_8_GHG_emissions_intensity",
+    "brsr_label": "5. Please provide details of air emissions (other than GHG emissions) by the entity, in the",
+    "gri_label": "Disclosure 102-8 GHG emissions intensity",
+    "relationship": "Narrower",
+    "confidence_score": 32.11775276749865,
+    "similarity_score": 0.32117752767498653,
+    "evidence_summary": {
+      "label_similarity": 0.2977934485896269,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6756014823913574,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept is about air emissions not related to GHG, while the GRI concept focuses on GHG emissions intensity, indicating distinct areas of focus.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q5_4738630364456196912",
+    "gri_id": "Disclosure_Disclosure_102_8_GHG_emissions_intensity",
+    "lexical_score": 0.2977934485896269,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.32117752767498653,
+    "overall_confidence": 32.11775276749865,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "High",
+      "explanation": "The BRSR concept is about air emissions not related to GHG, while the GRI concept focuses on GHG emissions intensity, indicating distinct areas of focus."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q1_5402110912519703836",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_302_1_Energy_consumption_within_the_org",
+    "brsr_label": "1. Details of total energy consumption (in Joules or multiples) and energy intensity, in the",
+    "gri_label": "Disclosure 302-1 Energy consumption within the organization",
+    "relationship": "Broader",
+    "confidence_score": 32.0439335665166,
+    "similarity_score": 0.32043933566516597,
+    "evidence_summary": {
+      "label_similarity": 0.294908940397351,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6797575950622559,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts relate to energy, with the BRSR focusing on total energy consumption and energy intensity, and the GRI concept on energy consumption within the organization, showing a conceptual overlap.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q1_5402110912519703836",
+    "gri_id": "Disclosure_Disclosure_302_1_Energy_consumption_within_the_org",
+    "lexical_score": 0.294908940397351,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.32043933566516597,
+    "overall_confidence": 32.0439335665166,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts relate to energy, with the BRSR focusing on total energy consumption and energy intensity, and the GRI concept on energy consumption within the organization, showing a conceptual overlap."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q2_1108849182902078442",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_303_2_Management_of_water_discharge_rel",
+    "brsr_label": "2. Provide the following details related to water discharged:",
+    "gri_label": "Disclosure 303-2 Management of water discharge-related impacts",
+    "relationship": "Broader",
+    "confidence_score": 32.02741771287065,
+    "similarity_score": 0.32027417712870654,
+    "evidence_summary": {
+      "label_similarity": 0.2963922764227642,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6721726655960083,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "The BRSR concept is about water discharged, and the GRI concept deals with the management of water discharge-related impacts, indicating a relationship between the two concepts.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q2_1108849182902078442",
+    "gri_id": "Disclosure_Disclosure_303_2_Management_of_water_discharge_rel",
+    "lexical_score": 0.2963922764227642,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.32027417712870654,
+    "overall_confidence": 32.02741771287065,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "The BRSR concept is about water discharged, and the GRI concept deals with the management of water discharge-related impacts, indicating a relationship between the two concepts."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q1_-3785314918126152655",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_414_2_Negative_social_impacts_in_the_su",
+    "brsr_label": "1. Provide details of actions taken to mitigate any negative social impacts identified in the",
+    "gri_label": "Disclosure 414-2 Negative social impacts in the supply chain and actions taken",
+    "relationship": "Narrower",
+    "confidence_score": 31.990322025616962,
+    "similarity_score": 0.31990322025616963,
+    "evidence_summary": {
+      "label_similarity": 0.3317708333333333,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.526948869228363,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts address social impacts, with the BRSR focusing on actions taken to mitigate negative social impacts and the GRI concept on negative social impacts in the supply chain and actions taken, showing a conceptual connection.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q1_-3785314918126152655",
+    "gri_id": "Disclosure_Disclosure_414_2_Negative_social_impacts_in_the_su",
+    "lexical_score": 0.3317708333333333,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.31990322025616963,
+    "overall_confidence": 31.990322025616962,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'S' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts address social impacts, with the BRSR focusing on actions taken to mitigate negative social impacts and the GRI concept on negative social impacts in the supply chain and actions taken, showing a conceptual connection."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q6_-5688596556448572703",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_102_8_GHG_emissions_intensity_34",
+    "brsr_label": "6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its",
+    "gri_label": "Disclosure 102-8 GHG emissions intensity 34",
+    "relationship": "Broader",
+    "confidence_score": 31.987708113405766,
+    "similarity_score": 0.31987708113405766,
+    "evidence_summary": {
+      "label_similarity": 0.3019151138716356,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6461103558540344,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts are related to greenhouse gas emissions intensity, although they might differ in scope or specifics, indicating a conceptual overlap.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q6_-5688596556448572703",
+    "gri_id": "Disclosure_Disclosure_102_8_GHG_emissions_intensity_34",
+    "lexical_score": 0.3019151138716356,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.31987708113405766,
+    "overall_confidence": 31.987708113405766,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts are related to greenhouse gas emissions intensity, although they might differ in scope or specifics, indicating a conceptual overlap."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q3_7691261722040331206",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_301_2_Recycled_input_materials_used_9",
+    "brsr_label": "3. Percentage of recycled or reused input material to total material (by value) used in",
+    "gri_label": "Disclosure 301-2 Recycled input materials used 9",
+    "relationship": "Broader",
+    "confidence_score": 31.96775921854393,
+    "similarity_score": 0.3196775921854393,
+    "evidence_summary": {
+      "label_similarity": 0.32697089947089947,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.5438923239707947,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts relate to the use of recycled input materials, indicating a conceptual overlap in the context of environmental sustainability.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q3_7691261722040331206",
+    "gri_id": "Disclosure_Disclosure_301_2_Recycled_input_materials_used_9",
+    "lexical_score": 0.32697089947089947,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3196775921854393,
+    "overall_confidence": 31.96775921854393,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts relate to the use of recycled input materials, indicating a conceptual overlap in the context of environmental sustainability."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q6_-5688596556448572703",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_305_5_Reduction_of_GHG_emissions_17",
+    "brsr_label": "6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its",
+    "gri_label": "Disclosure 305-5 Reduction of GHG emissions 17",
+    "relationship": "Broader",
+    "confidence_score": 31.91821720114595,
+    "similarity_score": 0.3191821720114595,
+    "evidence_summary": {
+      "label_similarity": 0.31041033434650456,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6051803827285767,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts pertain to greenhouse gas emissions, specifically Scope 1 and Scope 2 emissions, showing a meaningful overlap in the ESG domain.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q6_-5688596556448572703",
+    "gri_id": "Disclosure_Disclosure_305_5_Reduction_of_GHG_emissions_17",
+    "lexical_score": 0.31041033434650456,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3191821720114595,
+    "overall_confidence": 31.91821720114595,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts pertain to greenhouse gas emissions, specifically Scope 1 and Scope 2 emissions, showing a meaningful overlap in the ESG domain."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q6_-5688596556448572703",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_102_4_GHG_emissions_reduction_targets_a",
+    "brsr_label": "6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its",
+    "gri_label": "Disclosure 102-4 GHG emissions reduction targets and progress",
+    "relationship": "Broader",
+    "confidence_score": 31.90538663986402,
+    "similarity_score": 0.3190538663986402,
+    "evidence_summary": {
+      "label_similarity": 0.3130128205128205,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.5934873819351196,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts are associated with greenhouse gas emissions reduction targets and progress, indicating a shared focus on climate change mitigation.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q6_-5688596556448572703",
+    "gri_id": "Disclosure_Disclosure_102_4_GHG_emissions_reduction_targets_a",
+    "lexical_score": 0.3130128205128205,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3190538663986402,
+    "overall_confidence": 31.90538663986402,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts are associated with greenhouse gas emissions reduction targets and progress, indicating a shared focus on climate change mitigation."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q6_-5688596556448572703",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_305_3_Other_indirect_Scope_3_GHG_emis",
+    "brsr_label": "6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its",
+    "gri_label": "Disclosure 305-3 Other indirect (Scope 3) GHG emissions",
+    "relationship": "Broader",
+    "confidence_score": 31.84911867209843,
+    "similarity_score": 0.3184911867209843,
+    "evidence_summary": {
+      "label_similarity": 0.2917857142857143,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6727690100669861,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "While both concepts are related to greenhouse gas emissions, they differ significantly in scope, with the BRSR concept focusing on Scope 1 and Scope 2 emissions and the GRI concept on other indirect (Scope 3) emissions.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q6_-5688596556448572703",
+    "gri_id": "Disclosure_Disclosure_305_3_Other_indirect_Scope_3_GHG_emis",
+    "lexical_score": 0.2917857142857143,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3184911867209843,
+    "overall_confidence": 31.84911867209843,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "Low",
+      "explanation": "While both concepts are related to greenhouse gas emissions, they differ significantly in scope, with the BRSR concept focusing on Scope 1 and Scope 2 emissions and the GRI concept on other indirect (Scope 3) emissions."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q4_-8665709853907658340",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_404_2_Programs_for_upgrading_employee_s",
+    "brsr_label": "4. Does the entity provide transition assistance programs to facilitate continued",
+    "gri_label": "Disclosure 404-2 Programs for upgrading employee skills and transition assistance programs",
+    "relationship": "Broader",
+    "confidence_score": 31.82903140121036,
+    "similarity_score": 0.3182903140121036,
+    "evidence_summary": {
+      "label_similarity": 0.3172222222222222,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.5690142512321472,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts address aspects of employee development and transition assistance programs, showing conceptual overlap in the social aspect of ESG.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q4_-8665709853907658340",
+    "gri_id": "Disclosure_Disclosure_404_2_Programs_for_upgrading_employee_s",
+    "lexical_score": 0.3172222222222222,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3182903140121036,
+    "overall_confidence": 31.82903140121036,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'S' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts address aspects of employee development and transition assistance programs, showing conceptual overlap in the social aspect of ESG."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q5_4738630364456196912",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_102_8_GHG_emissions_intensity_34",
+    "brsr_label": "5. Please provide details of air emissions (other than GHG emissions) by the entity, in the",
+    "gri_label": "Disclosure 102-8 GHG emissions intensity 34",
+    "relationship": "Broader",
+    "confidence_score": 31.813154157002764,
+    "similarity_score": 0.31813154157002765,
+    "evidence_summary": {
+      "label_similarity": 0.2948958333333333,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6567320823669434,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept focuses on air emissions other than GHG, while the GRI concept is about GHG emissions intensity, indicating unrelated ESG topics.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q5_4738630364456196912",
+    "gri_id": "Disclosure_Disclosure_102_8_GHG_emissions_intensity_34",
+    "lexical_score": 0.2948958333333333,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.31813154157002765,
+    "overall_confidence": 31.813154157002764,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "Low",
+      "explanation": "The BRSR concept focuses on air emissions other than GHG, while the GRI concept is about GHG emissions intensity, indicating unrelated ESG topics."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q24_7549452836008929946",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_13_Delegation_of_responsibility_for_m",
+    "brsr_label": "24. Overview of the entity\u2019s material responsible business conduct issues",
+    "gri_label": "Disclosure 2-13 Delegation of responsibility for managing impacts",
+    "relationship": "Broader",
+    "confidence_score": 31.661245914473053,
+    "similarity_score": 0.3166124591447305,
+    "evidence_summary": {
+      "label_similarity": 0.1721014492753623,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.5777187943458557,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.3285714285714286,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts deal with general disclosures and aspects of responsible business conduct, indicating some level of conceptual overlap in the broader ESG context.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q24_7549452836008929946",
+    "gri_id": "Disclosure_Disclosure_2_13_Delegation_of_responsibility_for_m",
+    "lexical_score": 0.1721014492753623,
+    "structural_score": 0.3285714285714286,
+    "property_score": 0.5,
+    "reasoning_score": 0.3166124591447305,
+    "overall_confidence": 31.661245914473053,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Skipped (unknown category for BRSR or GRI concept)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts deal with general disclosures and aspects of responsible business conduct, indicating some level of conceptual overlap in the broader ESG context."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q5_4738630364456196912",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_305_4_GHG_emissions_intensity_16",
+    "brsr_label": "5. Please provide details of air emissions (other than GHG emissions) by the entity, in the",
+    "gri_label": "Disclosure 305-4 GHG emissions intensity 16",
+    "relationship": "Broader",
+    "confidence_score": 31.582267220815023,
+    "similarity_score": 0.31582267220815025,
+    "evidence_summary": {
+      "label_similarity": 0.2948958333333333,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.633643388748169,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept is about air emissions, and the GRI concept is about GHG emissions intensity, showing they represent different ESG topics.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q5_4738630364456196912",
+    "gri_id": "Disclosure_Disclosure_305_4_GHG_emissions_intensity_16",
+    "lexical_score": 0.2948958333333333,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.31582267220815025,
+    "overall_confidence": 31.582267220815023,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "Low",
+      "explanation": "The BRSR concept is about air emissions, and the GRI concept is about GHG emissions intensity, showing they represent different ESG topics."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q5_4738630364456196912",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_102_6_Scope_2_GHG_emissions",
+    "brsr_label": "5. Please provide details of air emissions (other than GHG emissions) by the entity, in the",
+    "gri_label": "Disclosure 102-6 Scope 2 GHG emissions",
+    "relationship": "Narrower",
+    "confidence_score": 31.37393350011559,
+    "similarity_score": 0.3137393350011559,
+    "evidence_summary": {
+      "label_similarity": 0.27172043010752683,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.7055116295814514,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept focuses on air emissions, while the GRI concept is about Scope 2 GHG emissions, indicating they address distinct aspects of environmental impact.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q5_4738630364456196912",
+    "gri_id": "Disclosure_Disclosure_102_6_Scope_2_GHG_emissions",
+    "lexical_score": 0.27172043010752683,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3137393350011559,
+    "overall_confidence": 31.37393350011559,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "Low",
+      "explanation": "The BRSR concept focuses on air emissions, while the GRI concept is about Scope 2 GHG emissions, indicating they address distinct aspects of environmental impact."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q5_4738630364456196912",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_102_7_Scope_3_GHG_emissions",
+    "brsr_label": "5. Please provide details of air emissions (other than GHG emissions) by the entity, in the",
+    "gri_label": "Disclosure 102-7 Scope 3 GHG emissions",
+    "relationship": "Narrower",
+    "confidence_score": 31.372156685654833,
+    "similarity_score": 0.31372156685654834,
+    "evidence_summary": {
+      "label_similarity": 0.27172043010752683,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.705333948135376,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept pertains to air emissions, and the GRI concept is about Scope 3 GHG emissions, showing they cover different environmental topics.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q5_4738630364456196912",
+    "gri_id": "Disclosure_Disclosure_102_7_Scope_3_GHG_emissions",
+    "lexical_score": 0.27172043010752683,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.31372156685654834,
+    "overall_confidence": 31.372156685654833,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "Low",
+      "explanation": "The BRSR concept pertains to air emissions, and the GRI concept is about Scope 3 GHG emissions, showing they cover different environmental topics."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q24_7549452836008929946",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_24_Embedding_policy_commitments",
+    "brsr_label": "24. Overview of the entity\u2019s material responsible business conduct issues",
+    "gri_label": "Disclosure 2-24 Embedding policy commitments",
+    "relationship": "Narrower",
+    "confidence_score": 31.331742231808015,
+    "similarity_score": 0.31331742231808013,
+    "evidence_summary": {
+      "label_similarity": 0.13948412698412696,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6752377152442932,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.3285714285714286,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts relate to embedding policy commitments for responsible business conduct, indicating a shared focus on ESG governance and strategy.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q24_7549452836008929946",
+    "gri_id": "Disclosure_Disclosure_2_24_Embedding_policy_commitments",
+    "lexical_score": 0.13948412698412696,
+    "structural_score": 0.3285714285714286,
+    "property_score": 0.5,
+    "reasoning_score": 0.31331742231808013,
+    "overall_confidence": 31.331742231808015,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Skipped (unknown category for BRSR or GRI concept)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts relate to embedding policy commitments for responsible business conduct, indicating a shared focus on ESG governance and strategy."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q6_-5688596556448572703",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_305_4_GHG_emissions_intensity_16",
+    "brsr_label": "6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its",
+    "gri_label": "Disclosure 305-4 GHG emissions intensity 16",
+    "relationship": "Broader",
+    "confidence_score": 31.150267849008,
+    "similarity_score": 0.31150267849008,
+    "evidence_summary": {
+      "label_similarity": 0.28814699792960663,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.617438793182373,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts are associated with greenhouse gas emissions, specifically intensity, showing a conceptual overlap in the context of climate change.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q6_-5688596556448572703",
+    "gri_id": "Disclosure_Disclosure_305_4_GHG_emissions_intensity_16",
+    "lexical_score": 0.28814699792960663,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.31150267849008,
+    "overall_confidence": 31.150267849008,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts are associated with greenhouse gas emissions, specifically intensity, showing a conceptual overlap in the context of climate change."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q1_5402110912519703836",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_103_4_Energy_intensity",
+    "brsr_label": "1. Details of total energy consumption (in Joules or multiples) and energy intensity, in the",
+    "gri_label": "Disclosure 103-4 Energy intensity",
+    "relationship": "Narrower",
+    "confidence_score": 31.139303728623823,
+    "similarity_score": 0.31139303728623824,
+    "evidence_summary": {
+      "label_similarity": 0.2611636363636363,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.7242758274078369,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts pertain to energy consumption and intensity, indicating a meaningful overlap in the environmental aspect of ESG.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q1_5402110912519703836",
+    "gri_id": "Disclosure_Disclosure_103_4_Energy_intensity",
+    "lexical_score": 0.2611636363636363,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.31139303728623824,
+    "overall_confidence": 31.139303728623823,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts pertain to energy consumption and intensity, indicating a meaningful overlap in the environmental aspect of ESG."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q8_-7661858907240690343",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_102_9_GHG_removals_in_the_value_chain",
+    "brsr_label": "8. Disclose any significant adverse impact to the environment, arising from the value chain of",
+    "gri_label": "Disclosure 102-9 GHG removals in the value chain",
+    "relationship": "Narrower",
+    "confidence_score": 31.12162196215461,
+    "similarity_score": 0.3112162196215461,
+    "evidence_summary": {
+      "label_similarity": 0.268235294117647,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.694221019744873,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept is about environmental impact from the value chain, and the GRI concept focuses on GHG removals, indicating they represent different ESG topics.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q8_-7661858907240690343",
+    "gri_id": "Disclosure_Disclosure_102_9_GHG_removals_in_the_value_chain",
+    "lexical_score": 0.268235294117647,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3112162196215461,
+    "overall_confidence": 31.12162196215461,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "Low",
+      "explanation": "The BRSR concept is about environmental impact from the value chain, and the GRI concept focuses on GHG removals, indicating they represent different ESG topics."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q24_7549452836008929946",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_8_together_with_Disclosure_2_7_give",
+    "brsr_label": "24. Overview of the entity\u2019s material responsible business conduct issues",
+    "gri_label": "Disclosure 2-8, together with Disclosure 2-7, gives insight into the organization\u2019s approach to employment, as well as t",
+    "relationship": "Narrower",
+    "confidence_score": 31.08553245640145,
+    "similarity_score": 0.3108553245640145,
+    "evidence_summary": {
+      "label_similarity": 0.1338646091462041,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6730948090553284,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.3285714285714286,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The concepts differ significantly, with the BRSR concept focusing on material responsible business conduct issues and the GRI concept on workers who are not employees, showing they address distinct social aspects of ESG.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q24_7549452836008929946",
+    "gri_id": "Disclosure_Disclosure_2_8_together_with_Disclosure_2_7_give",
+    "lexical_score": 0.1338646091462041,
+    "structural_score": 0.3285714285714286,
+    "property_score": 0.5,
+    "reasoning_score": 0.3108553245640145,
+    "overall_confidence": 31.08553245640145,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Skipped (unknown category for BRSR or GRI concept)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "Low",
+      "explanation": "The concepts differ significantly, with the BRSR concept focusing on material responsible business conduct issues and the GRI concept on workers who are not employees, showing they address distinct social aspects of ESG."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q24_7549452836008929946",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_2_Entities_included_in_the_organizati",
+    "brsr_label": "24. Overview of the entity\u2019s material responsible business conduct issues",
+    "gri_label": "Disclosure 2-2 Entities included in the organization\u2019s sustainability reporting",
+    "relationship": "Broader",
+    "confidence_score": 31.08541464805603,
+    "similarity_score": 0.3108541464805603,
+    "evidence_summary": {
+      "label_similarity": 0.1671875,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.539791464805603,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.3285714285714286,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept and GRI concept address different aspects of sustainability reporting, with the BRSR concept focusing on material responsible business conduct issues and the GRI concept focusing on entities included in the organization's sustainability reporting.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q24_7549452836008929946",
+    "gri_id": "Disclosure_Disclosure_2_2_Entities_included_in_the_organizati",
+    "lexical_score": 0.1671875,
+    "structural_score": 0.3285714285714286,
+    "property_score": 0.5,
+    "reasoning_score": 0.3108541464805603,
+    "overall_confidence": 31.08541464805603,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Skipped (unknown category for BRSR or GRI concept)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "Low",
+      "explanation": "The BRSR concept and GRI concept address different aspects of sustainability reporting, with the BRSR concept focusing on material responsible business conduct issues and the GRI concept focusing on entities included in the organization's sustainability reporting."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q24_7549452836008929946",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_22_Statement_on_sustainable_developme",
+    "brsr_label": "24. Overview of the entity\u2019s material responsible business conduct issues",
+    "gri_label": "Disclosure 2-22 Statement on sustainable development strategy",
+    "relationship": "Broader",
+    "confidence_score": 31.079886162458966,
+    "similarity_score": 0.31079886162458964,
+    "evidence_summary": {
+      "label_similarity": 0.1417910447761194,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6408244371414185,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.3285714285714286,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept and GRI concept address different aspects of sustainability reporting, with the BRSR concept focusing on material responsible business conduct issues and the GRI concept focusing on statement on sustainable development strategy.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q24_7549452836008929946",
+    "gri_id": "Disclosure_Disclosure_2_22_Statement_on_sustainable_developme",
+    "lexical_score": 0.1417910447761194,
+    "structural_score": 0.3285714285714286,
+    "property_score": 0.5,
+    "reasoning_score": 0.31079886162458964,
+    "overall_confidence": 31.079886162458966,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Skipped (unknown category for BRSR or GRI concept)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "Low",
+      "explanation": "The BRSR concept and GRI concept address different aspects of sustainability reporting, with the BRSR concept focusing on material responsible business conduct issues and the GRI concept focusing on statement on sustainable development strategy."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q18_1786218148450392899",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_7_Employees_15",
+    "brsr_label": "18. Details as at the end of Financial Year: a. Employees and workers (including differently abled):",
+    "gri_label": "Disclosure 2-7 Employees 15",
+    "relationship": "Broader",
+    "confidence_score": 31.063685271147268,
+    "similarity_score": 0.3106368527114727,
+    "evidence_summary": {
+      "label_similarity": 0.1610939257592801,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.5619928240776062,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.3285714285714286,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "The BRSR concept and GRI concept both relate to employee and worker information, with the BRSR concept focusing on details of employees and workers and the GRI concept focusing on employees.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q18_1786218148450392899",
+    "gri_id": "Disclosure_Disclosure_2_7_Employees_15",
+    "lexical_score": 0.1610939257592801,
+    "structural_score": 0.3285714285714286,
+    "property_score": 0.5,
+    "reasoning_score": 0.3106368527114727,
+    "overall_confidence": 31.063685271147268,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'S' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "The BRSR concept and GRI concept both relate to employee and worker information, with the BRSR concept focusing on details of employees and workers and the GRI concept focusing on employees."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q1_-3785314918126152655",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_25_Processes_to_remediate_negative_im",
+    "brsr_label": "1. Provide details of actions taken to mitigate any negative social impacts identified in the",
+    "gri_label": "Disclosure 2-25 Processes to remediate negative impacts",
+    "relationship": "Broader",
+    "confidence_score": 31.052775438411818,
+    "similarity_score": 0.31052775438411817,
+    "evidence_summary": {
+      "label_similarity": 0.2711993243243243,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6754802465438843,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "The BRSR concept and GRI concept both relate to mitigating negative social and environmental impacts, with the BRSR concept focusing on actions taken to mitigate negative social impacts and the GRI concept focusing on processes to remediate negative impacts.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q1_-3785314918126152655",
+    "gri_id": "Disclosure_Disclosure_2_25_Processes_to_remediate_negative_im",
+    "lexical_score": 0.2711993243243243,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.31052775438411817,
+    "overall_confidence": 31.052775438411818,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Skipped (unknown category for BRSR or GRI concept)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "The BRSR concept and GRI concept both relate to mitigating negative social and environmental impacts, with the BRSR concept focusing on actions taken to mitigate negative social impacts and the GRI concept focusing on processes to remediate negative impacts."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q9_-8786632947149269380",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_6_Activities_value_chain_and_other_b",
+    "brsr_label": "9. Percentage of value chain partners (by value of business done with such partners) that",
+    "gri_label": "Disclosure 2-6 Activities, value chain and other business relationships",
+    "relationship": "Broader",
+    "confidence_score": 30.984582614898688,
+    "similarity_score": 0.30984582614898687,
+    "evidence_summary": {
+      "label_similarity": 0.296875,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.5659582614898682,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "The BRSR concept and GRI concept both relate to environmental aspects of the value chain, with the BRSR concept focusing on percentage of value chain partners assessed for environmental impacts and the GRI concept focusing on activities, value chain, and other business relationships.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q9_-8786632947149269380",
+    "gri_id": "Disclosure_Disclosure_2_6_Activities_value_chain_and_other_b",
+    "lexical_score": 0.296875,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.30984582614898687,
+    "overall_confidence": 30.984582614898688,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Skipped (unknown category for BRSR or GRI concept)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "The BRSR concept and GRI concept both relate to environmental aspects of the value chain, with the BRSR concept focusing on percentage of value chain partners assessed for environmental impacts and the GRI concept focusing on activities, value chain, and other business relationships."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q5_4738630364456196912",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_102_6_Scope_2_GHG_emissions_28",
+    "brsr_label": "5. Please provide details of air emissions (other than GHG emissions) by the entity, in the",
+    "gri_label": "Disclosure 102-6 Scope 2 GHG emissions 28",
+    "relationship": "Broader",
+    "confidence_score": 30.90010734509818,
+    "similarity_score": 0.3090010734509818,
+    "evidence_summary": {
+      "label_similarity": 0.2698180379746835,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.665738582611084,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept focuses on air emissions (other than GHG emissions), while the GRI concept focuses on Scope 2 GHG emissions, which are related but distinct environmental metrics.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q5_4738630364456196912",
+    "gri_id": "Disclosure_Disclosure_102_6_Scope_2_GHG_emissions_28",
+    "lexical_score": 0.2698180379746835,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3090010734509818,
+    "overall_confidence": 30.90010734509818,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "Low",
+      "explanation": "The BRSR concept focuses on air emissions (other than GHG emissions), while the GRI concept focuses on Scope 2 GHG emissions, which are related but distinct environmental metrics."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q5_4738630364456196912",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_102_7_Scope_3_GHG_emissions_31",
+    "brsr_label": "5. Please provide details of air emissions (other than GHG emissions) by the entity, in the",
+    "gri_label": "Disclosure 102-7 Scope 3 GHG emissions 31",
+    "relationship": "Broader",
+    "confidence_score": 30.893213471883463,
+    "similarity_score": 0.30893213471883463,
+    "evidence_summary": {
+      "label_similarity": 0.2698180379746835,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6650491952896118,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept focuses on air emissions (other than GHG emissions), while the GRI concept focuses on Scope 3 GHG emissions, which are related but distinct environmental metrics.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q5_4738630364456196912",
+    "gri_id": "Disclosure_Disclosure_102_7_Scope_3_GHG_emissions_31",
+    "lexical_score": 0.2698180379746835,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.30893213471883463,
+    "overall_confidence": 30.893213471883463,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "Low",
+      "explanation": "The BRSR concept focuses on air emissions (other than GHG emissions), while the GRI concept focuses on Scope 3 GHG emissions, which are related but distinct environmental metrics."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q5_4738630364456196912",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_305_1_Direct_Scope_1_GHG_emissions",
+    "brsr_label": "5. Please provide details of air emissions (other than GHG emissions) by the entity, in the",
+    "gri_label": "Disclosure 305-1 Direct (Scope 1) GHG emissions",
+    "relationship": "Broader",
+    "confidence_score": 30.75945507181369,
+    "similarity_score": 0.3075945507181369,
+    "evidence_summary": {
+      "label_similarity": 0.2602845528455284,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6898072957992554,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept focuses on air emissions (other than GHG emissions), while the GRI concept focuses on Direct (Scope 1) GHG emissions, which are related but distinct environmental metrics.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q5_4738630364456196912",
+    "gri_id": "Disclosure_Disclosure_305_1_Direct_Scope_1_GHG_emissions",
+    "lexical_score": 0.2602845528455284,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3075945507181369,
+    "overall_confidence": 30.75945507181369,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "Low",
+      "explanation": "The BRSR concept focuses on air emissions (other than GHG emissions), while the GRI concept focuses on Direct (Scope 1) GHG emissions, which are related but distinct environmental metrics."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q8_-7661858907240690343",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_308_2_Negative_environmental_impacts_in",
+    "brsr_label": "8. Disclose any significant adverse impact to the environment, arising from the value chain of",
+    "gri_label": "Disclosure 308-2 Negative environmental impacts in the supply chain and actions taken",
+    "relationship": "Narrower",
+    "confidence_score": 30.753976135546935,
+    "similarity_score": 0.30753976135546934,
+    "evidence_summary": {
+      "label_similarity": 0.2585195530726257,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6963194012641907,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "The BRSR concept and GRI concept both relate to environmental impacts in the supply chain, with the BRSR concept focusing on significant adverse environmental impacts and the GRI concept focusing on negative environmental impacts in the supply chain and actions taken.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q8_-7661858907240690343",
+    "gri_id": "Disclosure_Disclosure_308_2_Negative_environmental_impacts_in",
+    "lexical_score": 0.2585195530726257,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.30753976135546934,
+    "overall_confidence": 30.753976135546935,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "The BRSR concept and GRI concept both relate to environmental impacts in the supply chain, with the BRSR concept focusing on significant adverse environmental impacts and the GRI concept focusing on negative environmental impacts in the supply chain and actions taken."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q4_8759149838816399254",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_305_4_GHG_emissions_intensity",
+    "brsr_label": "4. Please provide details of total Scope 3 emissions & its intensity, in the following format:",
+    "gri_label": "Disclosure 305-4 GHG emissions intensity",
+    "relationship": "Broader",
+    "confidence_score": 30.737722708218136,
+    "similarity_score": 0.30737722708218135,
+    "evidence_summary": {
+      "label_similarity": 0.2793283582089552,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6114588379859924,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "The BRSR concept and GRI concept both relate to GHG emissions intensity, with the BRSR concept focusing on total Scope 3 emissions and intensity and the GRI concept focusing on GHG emissions intensity.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q4_8759149838816399254",
+    "gri_id": "Disclosure_Disclosure_305_4_GHG_emissions_intensity",
+    "lexical_score": 0.2793283582089552,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.30737722708218135,
+    "overall_confidence": 30.737722708218136,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "The BRSR concept and GRI concept both relate to GHG emissions intensity, with the BRSR concept focusing on total Scope 3 emissions and intensity and the GRI concept focusing on GHG emissions intensity."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q19_-7385032484066083245",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_19_Remuneration_policies",
+    "brsr_label": "19. Participation/Inclusion/Representation of women",
+    "gri_label": "Disclosure 2-19 Remuneration policies",
+    "relationship": "Narrower",
+    "confidence_score": 30.67926155557536,
+    "similarity_score": 0.3067926155557536,
+    "evidence_summary": {
+      "label_similarity": 0.2039141414141414,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.35226958990097046,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.3285714285714286,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept focuses on participation, inclusion, and representation of women, while the GRI concept focuses on remuneration policies, which are distinct social metrics.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q19_-7385032484066083245",
+    "gri_id": "Disclosure_Disclosure_2_19_Remuneration_policies",
+    "lexical_score": 0.2039141414141414,
+    "structural_score": 0.3285714285714286,
+    "property_score": 0.5,
+    "reasoning_score": 0.3067926155557536,
+    "overall_confidence": 30.67926155557536,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Skipped (unknown category for BRSR or GRI concept)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "Low",
+      "explanation": "The BRSR concept focuses on participation, inclusion, and representation of women, while the GRI concept focuses on remuneration policies, which are distinct social metrics."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q5_4738630364456196912",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_305_1_Direct_Scope_1_GHG_emissions_9",
+    "brsr_label": "5. Please provide details of air emissions (other than GHG emissions) by the entity, in the",
+    "gri_label": "Disclosure 305-1 Direct (Scope 1) GHG emissions 9",
+    "relationship": "Broader",
+    "confidence_score": 30.58542646959604,
+    "similarity_score": 0.3058542646959604,
+    "evidence_summary": {
+      "label_similarity": 0.2596762048192771,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6748378276824951,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept focuses on air emissions (other than GHG emissions), while the GRI concept focuses on Direct (Scope 1) GHG emissions, which are related but distinct environmental metrics.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q5_4738630364456196912",
+    "gri_id": "Disclosure_Disclosure_305_1_Direct_Scope_1_GHG_emissions_9",
+    "lexical_score": 0.2596762048192771,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3058542646959604,
+    "overall_confidence": 30.58542646959604,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "Low",
+      "explanation": "The BRSR concept focuses on air emissions (other than GHG emissions), while the GRI concept focuses on Direct (Scope 1) GHG emissions, which are related but distinct environmental metrics."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q10_-4902536702272193205",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_403_5_Worker_training_on_occupational_h",
+    "brsr_label": "10. Health and safety management system:",
+    "gri_label": "Disclosure 403-5 Worker training on occupational health and safety",
+    "relationship": "Broader",
+    "confidence_score": 30.57794652446624,
+    "similarity_score": 0.3057794652446624,
+    "evidence_summary": {
+      "label_similarity": 0.2788709677419355,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.5973107814788818,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "The BRSR concept and GRI concept both relate to occupational health and safety, with the BRSR concept focusing on health and safety management systems and the GRI concept focusing on worker training on occupational health and safety.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q10_-4902536702272193205",
+    "gri_id": "Disclosure_Disclosure_403_5_Worker_training_on_occupational_h",
+    "lexical_score": 0.2788709677419355,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3057794652446624,
+    "overall_confidence": 30.57794652446624,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'S' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "The BRSR concept and GRI concept both relate to occupational health and safety, with the BRSR concept focusing on health and safety management systems and the GRI concept focusing on worker training on occupational health and safety."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q1_5402110912519703836",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_302_3_Energy_intensity",
+    "brsr_label": "1. Details of total energy consumption (in Joules or multiples) and energy intensity, in the",
+    "gri_label": "Disclosure 302-3 Energy intensity",
+    "relationship": "Broader",
+    "confidence_score": 30.525952860398725,
+    "similarity_score": 0.30525952860398725,
+    "evidence_summary": {
+      "label_similarity": 0.2611636363636363,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6629407405853271,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "The BRSR concept and GRI concept both relate to energy consumption and intensity, with the BRSR concept focusing on total energy consumption and energy intensity and the GRI concept focusing on energy intensity.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q1_5402110912519703836",
+    "gri_id": "Disclosure_Disclosure_302_3_Energy_intensity",
+    "lexical_score": 0.2611636363636363,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.30525952860398725,
+    "overall_confidence": 30.525952860398725,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "The BRSR concept and GRI concept both relate to energy consumption and intensity, with the BRSR concept focusing on total energy consumption and energy intensity and the GRI concept focusing on energy intensity."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q18_1786218148450392899",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_8_together_with_Disclosure_2_7_give",
+    "brsr_label": "18. Details as at the end of Financial Year: a. Employees and workers (including differently abled):",
+    "gri_label": "Disclosure 2-8, together with Disclosure 2-7, gives insight into the organization\u2019s approach to employment, as well as t",
+    "relationship": "Narrower",
+    "confidence_score": 30.46885434569735,
+    "similarity_score": 0.3046885434569735,
+    "evidence_summary": {
+      "label_similarity": 0.16660984848484847,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.4804460406303406,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.3285714285714286,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept focuses on employees and workers, while the GRI concept focuses on workers who are not employees, which are distinct social metrics.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q18_1786218148450392899",
+    "gri_id": "Disclosure_Disclosure_2_8_together_with_Disclosure_2_7_give",
+    "lexical_score": 0.16660984848484847,
+    "structural_score": 0.3285714285714286,
+    "property_score": 0.5,
+    "reasoning_score": 0.3046885434569735,
+    "overall_confidence": 30.46885434569735,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Skipped (unknown category for BRSR or GRI concept)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "Low",
+      "explanation": "The BRSR concept focuses on employees and workers, while the GRI concept focuses on workers who are not employees, which are distinct social metrics."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q4_8759149838816399254",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_102_7_Scope_3_GHG_emissions",
+    "brsr_label": "4. Please provide details of total Scope 3 emissions & its intensity, in the following format:",
+    "gri_label": "Disclosure 102-7 Scope 3 GHG emissions",
+    "relationship": "Narrower",
+    "confidence_score": 30.417142422993976,
+    "similarity_score": 0.30417142422993976,
+    "evidence_summary": {
+      "label_similarity": 0.2473958333333333,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.7071309089660645,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts address greenhouse gas emissions, specifically Scope 3 emissions, which indicates a meaningful overlap.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q4_8759149838816399254",
+    "gri_id": "Disclosure_Disclosure_102_7_Scope_3_GHG_emissions",
+    "lexical_score": 0.2473958333333333,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.30417142422993976,
+    "overall_confidence": 30.417142422993976,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts address greenhouse gas emissions, specifically Scope 3 emissions, which indicates a meaningful overlap."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q1_5402110912519703836",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_103_5_Reduction_in_energy_consumption",
+    "brsr_label": "1. Details of total energy consumption (in Joules or multiples) and energy intensity, in the",
+    "gri_label": "Disclosure 103-5 Reduction in energy consumption",
+    "relationship": "Narrower",
+    "confidence_score": 30.38041950180417,
+    "similarity_score": 0.3038041950180417,
+    "evidence_summary": {
+      "label_similarity": 0.2488095238095238,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6978038549423218,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts deal with energy consumption, which suggests a conceptual overlap within the ESG domain.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q1_5402110912519703836",
+    "gri_id": "Disclosure_Disclosure_103_5_Reduction_in_energy_consumption",
+    "lexical_score": 0.2488095238095238,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3038041950180417,
+    "overall_confidence": 30.38041950180417,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts deal with energy consumption, which suggests a conceptual overlap within the ESG domain."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q1_5402110912519703836",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_103_2_Energy_consumption_and_self_gener",
+    "brsr_label": "1. Details of total energy consumption (in Joules or multiples) and energy intensity, in the",
+    "gri_label": "Disclosure 103-2 Energy consumption and self-generation within the organization",
+    "relationship": "Broader",
+    "confidence_score": 30.323804256651133,
+    "similarity_score": 0.3032380425665113,
+    "evidence_summary": {
+      "label_similarity": 0.26888888888888884,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6118248701095581,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts are related to energy, with one focusing on consumption and the other on consumption and self-generation, showing a connection.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q1_5402110912519703836",
+    "gri_id": "Disclosure_Disclosure_103_2_Energy_consumption_and_self_gener",
+    "lexical_score": 0.26888888888888884,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3032380425665113,
+    "overall_confidence": 30.323804256651133,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts are related to energy, with one focusing on consumption and the other on consumption and self-generation, showing a connection."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q19_-7385032484066083245",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_10_Nomination_and_selection_of_the_hi",
+    "brsr_label": "19. Participation/Inclusion/Representation of women",
+    "gri_label": "Disclosure 2-10 Nomination and selection of the highest governance body",
+    "relationship": "Broader",
+    "confidence_score": 30.309998336385508,
+    "similarity_score": 0.3030999833638551,
+    "evidence_summary": {
+      "label_similarity": 0.17131147540983607,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.44575393199920654,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.3285714285714286,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept focuses on participation/inclusion/representation of women, while the GRI concept is about nomination and selection of the highest governance body, indicating unrelated topics.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q19_-7385032484066083245",
+    "gri_id": "Disclosure_Disclosure_2_10_Nomination_and_selection_of_the_hi",
+    "lexical_score": 0.17131147540983607,
+    "structural_score": 0.3285714285714286,
+    "property_score": 0.5,
+    "reasoning_score": 0.3030999833638551,
+    "overall_confidence": 30.309998336385508,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Skipped (unknown category for BRSR or GRI concept)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "High",
+      "explanation": "The BRSR concept focuses on participation/inclusion/representation of women, while the GRI concept is about nomination and selection of the highest governance body, indicating unrelated topics."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q17_-4881588773716442445",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_6_Activities_value_chain_and_other_b",
+    "brsr_label": "17. Markets served by the entity: a. Number of locations",
+    "gri_label": "Disclosure 2-6 Activities, value chain and other business relationships",
+    "relationship": "Broader",
+    "confidence_score": 30.25560662033051,
+    "similarity_score": 0.3025560662033051,
+    "evidence_summary": {
+      "label_similarity": 0.1421259842519685,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.557056725025177,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.3285714285714286,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Although not directly related, both concepts touch upon aspects of business operations (markets served and activities/value chain), suggesting a broad overlap.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q17_-4881588773716442445",
+    "gri_id": "Disclosure_Disclosure_2_6_Activities_value_chain_and_other_b",
+    "lexical_score": 0.1421259842519685,
+    "structural_score": 0.3285714285714286,
+    "property_score": 0.5,
+    "reasoning_score": 0.3025560662033051,
+    "overall_confidence": 30.25560662033051,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Skipped (unknown category for BRSR or GRI concept)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Low",
+      "explanation": "Although not directly related, both concepts touch upon aspects of business operations (markets served and activities/value chain), suggesting a broad overlap."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q24_7549452836008929946",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_25_Processes_to_remediate_negative_im",
+    "brsr_label": "24. Overview of the entity\u2019s material responsible business conduct issues",
+    "gri_label": "Disclosure 2-25 Processes to remediate negative impacts",
+    "relationship": "Broader",
+    "confidence_score": 30.22830176353455,
+    "similarity_score": 0.3022830176353455,
+    "evidence_summary": {
+      "label_similarity": 0.141015625,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.5587676763534546,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.3285714285714286,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts relate to responsible business conduct, with one focusing on material issues and the other on processes to remediate negative impacts, indicating a connection.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q24_7549452836008929946",
+    "gri_id": "Disclosure_Disclosure_2_25_Processes_to_remediate_negative_im",
+    "lexical_score": 0.141015625,
+    "structural_score": 0.3285714285714286,
+    "property_score": 0.5,
+    "reasoning_score": 0.3022830176353455,
+    "overall_confidence": 30.22830176353455,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Skipped (unknown category for BRSR or GRI concept)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Low",
+      "explanation": "Both concepts relate to responsible business conduct, with one focusing on material issues and the other on processes to remediate negative impacts, indicating a connection."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q18_1786218148450392899",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_7_Employees",
+    "brsr_label": "18. Details as at the end of Financial Year: a. Employees and workers (including differently abled):",
+    "gri_label": "Disclosure 2-7 Employees",
+    "relationship": "Narrower",
+    "confidence_score": 30.228046710082975,
+    "similarity_score": 0.30228046710082973,
+    "evidence_summary": {
+      "label_similarity": 0.15911910669975185,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.48632824420928955,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.3285714285714286,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts deal with employees and workers, which is a clear overlap in the ESG domain, specifically concerning labor practices.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q18_1786218148450392899",
+    "gri_id": "Disclosure_Disclosure_2_7_Employees",
+    "lexical_score": 0.15911910669975185,
+    "structural_score": 0.3285714285714286,
+    "property_score": 0.5,
+    "reasoning_score": 0.30228046710082973,
+    "overall_confidence": 30.228046710082975,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'S' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts deal with employees and workers, which is a clear overlap in the ESG domain, specifically concerning labor practices."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q7_-7352008972679216635",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_102_7_Scope_3_GHG_emissions",
+    "brsr_label": "7. Does the entity have any project related to reducing Green House Gas emission? If Yes,",
+    "gri_label": "Disclosure 102-7 Scope 3 GHG emissions",
+    "relationship": "Narrower",
+    "confidence_score": 30.156927719323534,
+    "similarity_score": 0.30156927719323534,
+    "evidence_summary": {
+      "label_similarity": 0.2565217391304348,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.644605815410614,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "The BRSR concept asks about projects related to reducing greenhouse gas emissions, and the GRI concept is about Scope 3 GHG emissions, showing a direct connection.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q7_-7352008972679216635",
+    "gri_id": "Disclosure_Disclosure_102_7_Scope_3_GHG_emissions",
+    "lexical_score": 0.2565217391304348,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.30156927719323534,
+    "overall_confidence": 30.156927719323534,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "The BRSR concept asks about projects related to reducing greenhouse gas emissions, and the GRI concept is about Scope 3 GHG emissions, showing a direct connection."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q17_-4881588773716442445",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_17_Collective_knowledge_of_the_highes",
+    "brsr_label": "17. Markets served by the entity: a. Number of locations",
+    "gri_label": "Disclosure 2-17 Collective knowledge of the highest governance body",
+    "relationship": "Broader",
+    "confidence_score": 30.1520558754454,
+    "similarity_score": 0.301520558754454,
+    "evidence_summary": {
+      "label_similarity": 0.19873358348968106,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.32027125358581543,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.3285714285714286,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept is about markets served by the entity, while the GRI concept focuses on collective knowledge of the highest governance body, indicating no direct relation.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q17_-4881588773716442445",
+    "gri_id": "Disclosure_Disclosure_2_17_Collective_knowledge_of_the_highes",
+    "lexical_score": 0.19873358348968106,
+    "structural_score": 0.3285714285714286,
+    "property_score": 0.5,
+    "reasoning_score": 0.301520558754454,
+    "overall_confidence": 30.1520558754454,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Skipped (unknown category for BRSR or GRI concept)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "High",
+      "explanation": "The BRSR concept is about markets served by the entity, while the GRI concept focuses on collective knowledge of the highest governance body, indicating no direct relation."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q4_8759149838816399254",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_305_4_GHG_emissions_intensity_16",
+    "brsr_label": "4. Please provide details of total Scope 3 emissions & its intensity, in the following format:",
+    "gri_label": "Disclosure 305-4 GHG emissions intensity 16",
+    "relationship": "Broader",
+    "confidence_score": 30.139064494014654,
+    "similarity_score": 0.30139064494014656,
+    "evidence_summary": {
+      "label_similarity": 0.27628877737226276,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.5637513399124146,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts address emissions, with the BRSR concept focusing on total Scope 3 emissions and intensity, and the GRI concept on GHG emissions intensity, showing a meaningful overlap.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q4_8759149838816399254",
+    "gri_id": "Disclosure_Disclosure_305_4_GHG_emissions_intensity_16",
+    "lexical_score": 0.27628877737226276,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.30139064494014656,
+    "overall_confidence": 30.139064494014654,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts address emissions, with the BRSR concept focusing on total Scope 3 emissions and intensity, and the GRI concept on GHG emissions intensity, showing a meaningful overlap."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q1_5402110912519703836",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_302_4_Reduction_of_energy_consumption",
+    "brsr_label": "1. Details of total energy consumption (in Joules or multiples) and energy intensity, in the",
+    "gri_label": "Disclosure 302-4 Reduction of energy consumption",
+    "relationship": "Broader",
+    "confidence_score": 30.135183091390704,
+    "similarity_score": 0.30135183091390705,
+    "evidence_summary": {
+      "label_similarity": 0.2555952380952381,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6461373567581177,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "The BRSR concept is about total energy consumption and energy intensity, while the GRI concept is about reduction of energy consumption, indicating a related focus.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q1_5402110912519703836",
+    "gri_id": "Disclosure_Disclosure_302_4_Reduction_of_energy_consumption",
+    "lexical_score": 0.2555952380952381,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.30135183091390705,
+    "overall_confidence": 30.135183091390704,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "The BRSR concept is about total energy consumption and energy intensity, while the GRI concept is about reduction of energy consumption, indicating a related focus."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q18_1786218148450392899",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_8_Workers_who_are_not_employees",
+    "brsr_label": "18. Details as at the end of Financial Year: a. Employees and workers (including differently abled):",
+    "gri_label": "Disclosure 2-8 Workers who are not employees",
+    "relationship": "Narrower",
+    "confidence_score": 30.13110877672831,
+    "similarity_score": 0.3013110877672831,
+    "evidence_summary": {
+      "label_similarity": 0.15041666666666664,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.5114442110061646,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.3285714285714286,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts deal with workers, with one focusing on employees and the other on workers who are not employees, showing a labor practices connection.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q18_1786218148450392899",
+    "gri_id": "Disclosure_Disclosure_2_8_Workers_who_are_not_employees",
+    "lexical_score": 0.15041666666666664,
+    "structural_score": 0.3285714285714286,
+    "property_score": 0.5,
+    "reasoning_score": 0.3013110877672831,
+    "overall_confidence": 30.13110877672831,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'S' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts deal with workers, with one focusing on employees and the other on workers who are not employees, showing a labor practices connection."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q24_7549452836008929946",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_14_Role_of_the_highest_governance_bod",
+    "brsr_label": "24. Overview of the entity\u2019s material responsible business conduct issues",
+    "gri_label": "Disclosure 2-14 Role of the highest governance body in sustainability reporting",
+    "relationship": "Broader",
+    "confidence_score": 30.12887442111969,
+    "similarity_score": 0.3012887442111969,
+    "evidence_summary": {
+      "label_similarity": 0.15625,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.487887442111969,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.3285714285714286,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "While not directly related, both concepts touch upon governance and sustainability, suggesting a broad connection within the ESG domain.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q24_7549452836008929946",
+    "gri_id": "Disclosure_Disclosure_2_14_Role_of_the_highest_governance_bod",
+    "lexical_score": 0.15625,
+    "structural_score": 0.3285714285714286,
+    "property_score": 0.5,
+    "reasoning_score": 0.3012887442111969,
+    "overall_confidence": 30.12887442111969,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Skipped (unknown category for BRSR or GRI concept)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Low",
+      "explanation": "While not directly related, both concepts touch upon governance and sustainability, suggesting a broad connection within the ESG domain."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q19_-7385032484066083245",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_19_Remuneration_policies_30",
+    "brsr_label": "19. Participation/Inclusion/Representation of women",
+    "gri_label": "Disclosure 2-19 Remuneration policies 30",
+    "relationship": "Broader",
+    "confidence_score": 30.103295162090888,
+    "similarity_score": 0.3010329516209089,
+    "evidence_summary": {
+      "label_similarity": 0.19365384615384615,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.3357141315937042,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.3285714285714286,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept is about participation/inclusion/representation of women, and the GRI concept is about remuneration policies, indicating unrelated topics.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q19_-7385032484066083245",
+    "gri_id": "Disclosure_Disclosure_2_19_Remuneration_policies_30",
+    "lexical_score": 0.19365384615384615,
+    "structural_score": 0.3285714285714286,
+    "property_score": 0.5,
+    "reasoning_score": 0.3010329516209089,
+    "overall_confidence": 30.103295162090888,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Skipped (unknown category for BRSR or GRI concept)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "High",
+      "explanation": "The BRSR concept is about participation/inclusion/representation of women, and the GRI concept is about remuneration policies, indicating unrelated topics."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q4_-7927179649578625621",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_417_1_Requirements_for_product_and_serv",
+    "brsr_label": "4. Does the entity display product information on the product over and above what is",
+    "gri_label": "Disclosure 417-1 Requirements for product and service information and labeling",
+    "relationship": "Broader",
+    "confidence_score": 30.086949281044944,
+    "similarity_score": 0.30086949281044945,
+    "evidence_summary": {
+      "label_similarity": 0.2861728395061728,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.5190035700798035,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts relate to product information and labeling, showing a direct connection within the marketing and labeling aspect of the ESG domain.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q4_-7927179649578625621",
+    "gri_id": "Disclosure_Disclosure_417_1_Requirements_for_product_and_serv",
+    "lexical_score": 0.2861728395061728,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.30086949281044945,
+    "overall_confidence": 30.086949281044944,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'S' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "Medium",
+      "explanation": "Both concepts relate to product information and labeling, showing a direct connection within the marketing and labeling aspect of the ESG domain."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q24_7549452836008929946",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_5_External_assurance",
+    "brsr_label": "24. Overview of the entity\u2019s material responsible business conduct issues",
+    "gri_label": "Disclosure 2-5 External assurance",
+    "relationship": "Narrower",
+    "confidence_score": 30.086183860616867,
+    "similarity_score": 0.30086183860616866,
+    "evidence_summary": {
+      "label_similarity": 0.12547169811320755,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6067315936088562,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.3285714285714286,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept focuses on material responsible business conduct issues, while the GRI concept is about external assurance, indicating unrelated ESG topics.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q24_7549452836008929946",
+    "gri_id": "Disclosure_Disclosure_2_5_External_assurance",
+    "lexical_score": 0.12547169811320755,
+    "structural_score": 0.3285714285714286,
+    "property_score": 0.5,
+    "reasoning_score": 0.30086183860616866,
+    "overall_confidence": 30.086183860616867,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Skipped (unknown category for BRSR or GRI concept)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "Medium",
+      "explanation": "The BRSR concept focuses on material responsible business conduct issues, while the GRI concept is about external assurance, indicating unrelated ESG topics."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q6_-5688596556448572703",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_102_9_GHG_removals_in_the_value_chain",
+    "brsr_label": "6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its",
+    "gri_label": "Disclosure 102-9 GHG removals in the value chain",
+    "relationship": "Narrower",
+    "confidence_score": 30.078820698633614,
+    "similarity_score": 0.3007882069863361,
+    "evidence_summary": {
+      "label_similarity": 0.23761072261072258,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.7124391794204712,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts address greenhouse gas emissions, with the BRSR concept focusing on Scope 1 and Scope 2 emissions and the GRI concept on Scope 1 GHG removals, showing a meaningful conceptual overlap.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q6_-5688596556448572703",
+    "gri_id": "Disclosure_Disclosure_102_9_GHG_removals_in_the_value_chain",
+    "lexical_score": 0.23761072261072258,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.3007882069863361,
+    "overall_confidence": 30.078820698633614,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'E' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "High",
+      "explanation": "Both concepts address greenhouse gas emissions, with the BRSR concept focusing on Scope 1 and Scope 2 emissions and the GRI concept on Scope 1 GHG removals, showing a meaningful conceptual overlap."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q12_-7498799015999508640",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_24_Embedding_policy_commitments",
+    "brsr_label": "12. If answer to question (1) above is \u201cNo\u201d i.e. not all Principles are covered by a policy,",
+    "gri_label": "Disclosure 2-24 Embedding policy commitments",
+    "relationship": "Narrower",
+    "confidence_score": 30.06400373402764,
+    "similarity_score": 0.3006400373402764,
+    "evidence_summary": {
+      "label_similarity": 0.13676470588235293,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.559341549873352,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.3285714285714286,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Disagree",
+    "llm_explanation": "The BRSR concept is about reasons for not covering all Principles by a policy, while the GRI concept is about embedding policy commitments, indicating unrelated ESG topics.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+    "brsr_id": "Disclosure_Q12_-7498799015999508640",
+    "gri_id": "Disclosure_Disclosure_2_24_Embedding_policy_commitments",
+    "lexical_score": 0.13676470588235293,
+    "structural_score": 0.3285714285714286,
+    "property_score": 0.5,
+    "reasoning_score": 0.3006400373402764,
+    "overall_confidence": 30.06400373402764,
+    "skos_relation": "narrowMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Both concepts verified as ESG dimension 'G' (No disjointness violation)."
+    ],
+    "verification": {
+      "verification": "Disagree",
+      "confidence": "Medium",
+      "explanation": "The BRSR concept is about reasons for not covering all Principles by a policy, while the GRI concept is about embedding policy commitments, indicating unrelated ESG topics."
+    }
+  },
+  {
+    "brsr_uri": "http://example.org/ontology/rso#Disclosure_Q1_-8488604756514708917",
+    "gri_uri": "http://example.org/ontology/rso#Disclosure_Disclosure_2_29_Approach_to_stakeholder_engagement",
+    "brsr_label": "1. Describe the processes for identifying key stakeholder groups of the entity.",
+    "gri_label": "Disclosure 2-29 Approach to stakeholder engagement",
+    "relationship": "Broader",
+    "confidence_score": 30.052975213961297,
+    "similarity_score": 0.30052975213961297,
+    "evidence_summary": {
+      "label_similarity": 0.2648330351818724,
+      "definition_similarity": 0.0,
+      "embedding_similarity": 0.6009653806686401,
+      "unit_compatibility": 0.5,
+      "datatype_compatibility": 0.5,
+      "hierarchy_similarity": 0.17,
+      "relationship_similarity": 0.5,
+      "topic_similarity": 0.5,
+      "context_similarity": 0.5
+    },
+    "llm_verification": "Agree",
+    "llm_explanation": "Both concepts relate to stakeholder engagement, with the BRSR concept focusing on identifying key stakeholder groups and the GRI concept on the approach to stakeholder engagement, showing a broad conceptual overlap.",
+    "ontology_path": "http://www.w3.org/2004/02/skos/core#broadMatch",
+    "brsr_id": "Disclosure_Q1_-8488604756514708917",
+    "gri_id": "Disclosure_Disclosure_2_29_Approach_to_stakeholder_engagement",
+    "lexical_score": 0.2648330351818724,
+    "structural_score": 0.17,
+    "property_score": 0.5,
+    "reasoning_score": 0.30052975213961297,
+    "overall_confidence": 30.052975213961297,
+    "skos_relation": "broadMatch",
+    "reasoning": [
+      "Rule 1 (Disjointness Check): Skipped (unknown category for BRSR or GRI concept)."
+    ],
+    "verification": {
+      "verification": "Agree",
+      "confidence": "High",
+      "explanation": "Both concepts relate to stakeholder engagement, with the BRSR concept focusing on identifying key stakeholder groups and the GRI concept on the approach to stakeholder engagement, showing a broad conceptual overlap."
+    }
+  }
+]
