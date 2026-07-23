@@ -1,28 +1,28 @@
-# BRSR-GRI Semantic Mapping Framework: System Architecture & Code Walkthrough
+# BRSR-GRI Semantic Mapping Framework: System Architecture & Technical Specifications
 
-This document maps the 5-stage architecture of the **BRSR-GRI Ontology-Guided Semantic Mapping Engine** directly to the codebase implementation, functions, code snippets, and key technical talking points.
+This document outlines the end-to-end 5-stage architecture of the **BRSR-GRI Ontology-Guided Semantic Mapping Engine**, detailing the system components, module implementations, code structures, and operational commands.
 
 ---
 
-##  System Architecture Flowchart
+## 🏗️ System Architecture Flowchart
 
 ```text
 ┌──────────────────────────┐
 │ 1. ESG Disclosure Input  │  PDF Parsing & Document Tree Structuring
-│    (BRSR / GRI Reports)  │  (PyMuPDF fitz, Heading Detection, NLP)
+│    (BRSR / GRI Reports)  │  (PyMuPDF fitz, Layout Boundary Detection, NLP)
 └─────────────┬────────────┘
               │
               ▼
 ┌──────────────────────────┐
 │ 2. Ontology Construction │  OWL 2 DL Ontology & RDF Turtle Graph Generation
-│  • Concept Extraction    │  (RDFLib, Class Hierarchies, Neo4j CSVs)
+│  • Concept Extraction    │  (RDFLib, Class Hierarchies, Neo4j Graph CSVs)
 │  • ESG Ontology Creation │
 └─────────────┬────────────┘
               │
               ▼
 ┌────────────────────────────────────┐
 │ 3. Ontology-Guided Matching        │  AML-Inspired Deterministic Alignment Engine
-│  • Lexical Similarity              │  (Jaccard, Path Decay, Unit Compatibility,
+│  • Lexical Similarity              │  (Jaccard, Taxonomic Path Decay, Unit Compatibility,
 │  • Structural Similarity           │   SentenceTransformers, Disjointness Rules)
 │  • Property Similarity             │
 │  • Ontology Reasoning              │
@@ -55,14 +55,14 @@ This document maps the 5-stage architecture of the **BRSR-GRI Ontology-Guided Se
 └──────────────────────────┘
 ```
 
-### Codebase Files & Functions
-* **`parser/pdf_parser.py`**: `parse_raw_directory()`, `PDFParser.parse()`
-* **`parser/heading_detector.py`**: `HeadingDetector.detect()`
-* **`parser/section_segmenter.py`**: `SectionSegmenter.segment()`, `GRISegmenter.segment()`
-* **`parser/nlp_extractor.py`**: `EnrichmentEngine.enrich_trees()`
-* **`parser/json_exporter.py`**: `export_batch()`
+### Module Specifications & Code References
+* **PDF Parser**: [`parser/pdf_parser.py`](file:///home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/EXTENSION_2/parser/pdf_parser.py) (`parse_raw_directory()`, `PDFParser.parse()`)
+* **Heading Detector**: [`parser/heading_detector.py`](file:///home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/EXTENSION_2/parser/heading_detector.py) (`HeadingDetector.detect()`)
+* **Section Segmenter**: [`parser/section_segmenter.py`](file:///home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/EXTENSION_2/parser/section_segmenter.py) (`SectionSegmenter.segment()`, `GRISegmenter.segment()`)
+* **NLP Enrichment**: [`parser/nlp_extractor.py`](file:///home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/EXTENSION_2/parser/nlp_extractor.py) (`EnrichmentEngine.enrich_trees()`)
+* **JSON Exporter**: [`parser/json_exporter.py`](file:///home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/EXTENSION_2/parser/json_exporter.py) (`export_batch()`)
 
-### 💻 Code Implementation Snippet (`main.py`)
+### Code Implementation (`main.py`)
 ```python
 # Parse raw PDFs into structured document objects
 documents = parse_raw_directory(raw_dir, company)
@@ -83,14 +83,14 @@ enricher.enrich_trees(trees)
 export_batch(trees, output_dir)
 ```
 
-### 🗣️ Key Talking Points for Mentor / Presentation
-1. **Multi-Source Ingestion**: Ingests raw PDFs for 30 BRSR corporate reports and the complete GRI 300-series Environmental Standards.
+### Technical Highlights
+1. **Multi-Source Ingestion**: Ingests raw PDFs for 30 BRSR company annual reports and the complete GRI 300-series Environmental Standards.
 2. **Hierarchy Preservation**: Uses PyMuPDF (`fitz`) and bounding-box layout analysis to extract hierarchical structures: $\text{Sections} \rightarrow \text{Disclosures} \rightarrow \text{Requirements} \rightarrow \text{Tables} \rightarrow \text{Metrics}$.
 3. **NLP Entity Extraction**: Extracts measurement units ($tCO_2e$, $GJ$, $KL$), numeric datatypes, and reporting applicability.
 
 ---
 
-## 2. Ontology Construction (Concept Extraction & ESG Ontology Creation)
+## 2. Ontology Construction
 
 ```text
 ┌──────────────────────────┐
@@ -100,11 +100,13 @@ export_batch(trees, output_dir)
 └──────────────────────────┘
 ```
 
-###  Codebase Files & Functions
-* **`ontology/schema.py`**: `create_base_graph()` (defines classes `rso:Disclosure`, `rso:Requirement`, `rso:Metric`, `rso:Unit` and properties `rso:belongsToTopic`, `rso:contains`, `rso:hasUnit`)
-* **`ontology/builder.py`**: `OntologyBuilder.build()`, `_parse_brsr()`, `_parse_gri()`, `_add_node()`, `_add_edge()`
+### Module Specifications & Code References
+* **Schema Definition**: [`ontology/schema.py`](file:///home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/EXTENSION_2/ontology/schema.py) (`create_base_graph()`)
+  * Classes: `rso:Disclosure`, `rso:Requirement`, `rso:Metric`, `rso:Unit`
+  * Object Properties: `rso:belongsToTopic`, `rso:contains`, `rso:hasUnit`
+* **Graph Builder**: [`ontology/builder.py`](file:///home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/EXTENSION_2/ontology/builder.py) (`OntologyBuilder.build()`, `_parse_brsr()`, `_parse_gri()`, `_add_node()`, `_add_edge()`)
 
-###  Code Implementation Snippet (`ontology/schema.py` & `ontology/builder.py`)
+### Code Implementation (`ontology/schema.py` & `ontology/builder.py`)
 ```python
 # Define OWL Classes & Properties (schema.py)
 g.add((RSO.Disclosure, RDF.type, OWL.Class))
@@ -120,10 +122,10 @@ self.graph.add((disc_uri, RSO.belongsToTopic, topic_uri))
 graph.serialize(destination="data/processed/ontology/esg_ontology.ttl", format="turtle")
 ```
 
-###  Key Talking Points for Mentor / Presentation
+### Technical Highlights
 1. **Formal Web Ontology (OWL 2 DL)**: Formalizes BRSR and GRI framework structures into two ontologies (**BRSR-EO** and **GRI-EO**) using `RDFLib`.
 2. **RDF Serialization**: Exports nodes and relationships to an RDF Turtle graph (`esg_ontology.ttl`, ~887 triples) under namespace `http://example.org/ontology/rso#`.
-3. **Neo4j Graph Ready**: Simultaneously generates `neo4j_nodes.csv` (1,356 nodes) and `neo4j_relationships.csv` (2,624 edges) for graph database population.
+3. **Neo4j Graph Database Export**: Simultaneously generates `neo4j_nodes.csv` (1,356 nodes) and `neo4j_relationships.csv` (2,624 edges) for graph database population.
 
 ---
 
@@ -139,14 +141,14 @@ graph.serialize(destination="data/processed/ontology/esg_ontology.ttl", format="
 └────────────────────────────────────┘
 ```
 
-###  Codebase Files & Functions
-* **`matcher/lexical_matcher.py`**: `LexicalMatcher.calculate_similarity()`
-* **`matcher/structural_matcher.py`**: `StructuralMatcher.calculate_similarity()`
-* **`matcher/property_matcher.py`**: `PropertyMatcher.calculate_similarity()`
-* **`matcher/ontology_reasoner.py`**: `OntologyReasoner.evaluate_rules()`
-* **`matcher/engine.py`**: `SemanticMappingEngine._generate_and_evaluate_candidates()`
+### Module Specifications & Code References
+* **Lexical Matcher**: [`matcher/lexical_matcher.py`](file:///home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/EXTENSION_2/matcher/lexical_matcher.py) (`LexicalMatcher.calculate_similarity()`)
+* **Structural Matcher**: [`matcher/structural_matcher.py`](file:///home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/EXTENSION_2/matcher/structural_matcher.py) (`StructuralMatcher.calculate_similarity()`)
+* **Property Matcher**: [`matcher/property_matcher.py`](file:///home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/EXTENSION_2/matcher/property_matcher.py) (`PropertyMatcher.calculate_similarity()`)
+* **Ontology Reasoner**: [`matcher/ontology_reasoner.py`](file:///home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/EXTENSION_2/matcher/ontology_reasoner.py) (`OntologyReasoner.evaluate_rules()`)
+* **Semantic Engine**: [`matcher/engine.py`](file:///home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/EXTENSION_2/matcher/engine.py) (`SemanticMappingEngine._generate_and_evaluate_candidates()`)
 
-###  Code Implementation Snippet (`matcher/engine.py`)
+### Code Implementation (`matcher/engine.py`)
 ```python
 # Aggregate multi-evidence similarity signals
 S_ont = (
@@ -161,9 +163,9 @@ penalty_or_boost = reasoner.evaluate_rules(concept_brsr, concept_gri)
 S_final = S_ont * penalty_or_boost
 ```
 
-###  Key Talking Points for Mentor / Presentation
-1. **AgreementMakerLight (AML) Inspired**: Operates deterministically on ontological evidence rather than black-box LLM guessing.
-2. **4 Similarity Signals**:
+### Technical Highlights
+1. **AgreementMakerLight (AML) Inspired**: Operates deterministically on ontological evidence rather than unconstrained LLM prompts.
+2. **Multi-Evidence Similarity Signals**:
    * **Lexical**: Jaccard token overlap on concept labels.
    * **Structural**: Taxonomic path decay $e^{-\lambda \cdot d(c_1, c_2)}$ over parent/child trees.
    * **Property**: Data type and unit compatibility verification ($tCO_2e$ vs $GJ$).
@@ -172,7 +174,7 @@ S_final = S_ont * penalty_or_boost
 
 ---
 
-## 4. Alignment Generation (Confidence Aggregation & SKOS Mapping)
+## 4. Alignment Generation
 
 ```text
 ┌──────────────────────────┐
@@ -186,12 +188,12 @@ S_final = S_ont * penalty_or_boost
 └──────────────────────────┘
 ```
 
-###  Codebase Files & Functions
-* **`matcher/confidence.py`**: `ConfidenceAggregator.aggregate()`
-* **`matcher/skos_mapper.py`**: `SKOSMapper.determine_relation()`
-* **`matcher/engine.py`**: `_export_results()`
+### Module Specifications & Code References
+* **Confidence Aggregator**: [`matcher/confidence.py`](file:///home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/EXTENSION_2/matcher/confidence.py) (`ConfidenceAggregator.aggregate()`)
+* **SKOS Mapper**: [`matcher/skos_mapper.py`](file:///home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/EXTENSION_2/matcher/skos_mapper.py) (`SKOSMapper.determine_relation()`)
+* **Output Serializer**: [`matcher/engine.py`](file:///home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/EXTENSION_2/matcher/engine.py) (`_export_results()`)
 
-###  Code Implementation Snippet (`matcher/skos_mapper.py`)
+### Code Implementation (`matcher/skos_mapper.py`)
 ```python
 def determine_relation(self, score: float, brsr_concept, gri_concept) -> str:
     if score >= 0.90:
@@ -204,14 +206,14 @@ def determine_relation(self, score: float, brsr_concept, gri_concept) -> str:
         return "narrowMatch"
 ```
 
-###  Key Talking Points for Mentor / Presentation
+### Technical Highlights
 1. **W3C SKOS Standard**: Standardizes cross-framework alignments using official SKOS vocabulary (`skos:exactMatch`, `skos:closeMatch`, `skos:broadMatch`, `skos:narrowMatch`).
 2. **High-Confidence Filtering**: Confidence threshold ($t \ge 0.35$) yields **79 high-confidence mappings** (53 `broadMatch`, 26 `narrowMatch`).
 3. **Mapping Repository Output**: Saved to `data/processed/mapping/mapping_repository.json`.
 
 ---
 
-## 5. Validation & Output (LLM Verification, Explanation & Evaluation Reports)
+## 5. Validation & Output
 
 ```text
 ┌──────────────────────────┐
@@ -222,12 +224,12 @@ def determine_relation(self, score: float, brsr_concept, gri_concept) -> str:
 └──────────────────────────┘
 ```
 
-###  Codebase Files & Functions
-* **`verifier/llm_verifier.py`**: `LLMVerifier.verify()`
-* **`evaluation/multi_llm_evaluator.py`**: `MultiLLMEvaluator.evaluate_mappings()`
-* **`evaluation/evaluator.py`**: `MappingEvaluator.calculate_comparative_metrics()`, `generate_cli_report()`
+### Module Specifications & Code References
+* **LLM Verifier**: [`verifier/llm_verifier.py`](file:///home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/EXTENSION_2/verifier/llm_verifier.py) (`LLMVerifier.verify()`)
+* **Multi-LLM Evaluator**: [`evaluation/multi_llm_evaluator.py`](file:///home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/EXTENSION_2/evaluation/multi_llm_evaluator.py) (`MultiLLMEvaluator.evaluate_mappings()`)
+* **Report Manager**: [`evaluation/evaluator.py`](file:///home/vinith/A/INTENSHIPS/IIT-H/Nested_RAG/EXTENSION_2/evaluation/evaluator.py) (`MappingEvaluator.calculate_comparative_metrics()`, `generate_cli_report()`)
 
-### 💻 Code Implementation Snippet (`verifier/llm_verifier.py` & `evaluator.py`)
+### Code Implementation (`verifier/llm_verifier.py` & `evaluator.py`)
 ```python
 # LLM Post-Hoc Verification & Chain-of-Thought (verifier/llm_verifier.py)
 prompt = f"Verify candidate alignment between BRSR: '{brsr_label}' and GRI: '{gri_label}'."
@@ -239,7 +241,7 @@ corr_matrix = df_corr.corr(method='pearson')
 stats = get_stats(groq_ground_truth, model_predictions)
 ```
 
-###  Key Talking Points for Mentor / Presentation
+### Technical Highlights
 1. **LLM as Auditor, Not Creator**: Restricts LLMs strictly to post-hoc auditing and Chain-of-Thought (CoT) explanation, eliminating hallucinations.
 2. **Multi-LLM Benchmarking**: Benchmarks candidate pairs across 9 LLM providers (OpenAI, Groq, Gemini, Mistral, OpenRouter, etc.).
 3. **Ground Truth & Metrics**: Uses **Groq (`llama-3.3-70b-versatile`)** as Ground Truth to calculate **Precision**, **Recall**, **F1-Score**, **Accuracy**, and pairwise **Pearson Correlation Matrices** ($r$).
@@ -247,21 +249,6 @@ stats = get_stats(groq_ground_truth, model_predictions)
 
 ---
 
-##  Commands to Run Each Phase
+## 🚀 Commands to Run Pipeline Phases
 
-```bash
-# Phase 1: Parse PDFs into JSON
-python main.py --phase 1
 
-# Phase 2: Construct RDF Ontology (.ttl) & Graph CSVs
-python main.py --phase 2
-
-# Phase 3: Run Semantic Mapping Engine
-python main.py --phase 3
-
-# Phase 4: Run Multi-LLM Evaluation & CLI Reports
-python main.py --phase 4
-
-# Run all phases sequentially
-python main.py --all
-```
