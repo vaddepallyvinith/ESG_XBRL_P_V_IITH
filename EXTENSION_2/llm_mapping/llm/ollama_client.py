@@ -1,6 +1,10 @@
 """
-Unified LLM REST API Client supporting OpenRouter API (from .env) and Local Ollama instance.
-Provides structured model generation, exact token metrics, response timing, and error handling.
+Unified LLM REST API Client.
+Priority order:
+  1. Groq API  (GROQ_API_KEY from .env) → meta/llama-3.1-8b-instant  [FREE, fast]
+  2. Local Ollama (/api/generate)        → llama3.1:8b                [Fallback]
+
+Provides structured generation, exact token metrics, response timing, and error handling.
 """
 
 from dataclasses import dataclass, field
@@ -9,8 +13,8 @@ import os
 from pathlib import Path
 import time
 from typing import Any, Dict, Optional
-import urllib.request
-import urllib.error
+
+import requests  # faster, bypasses Cloudflare blocks that affect urllib
 
 from llm_mapping.config.settings import LLMConfig
 from llm_mapping.utils.logging_config import setup_logger
@@ -18,22 +22,28 @@ from llm_mapping.utils.logging_config import setup_logger
 logger = setup_logger("ollama_client")
 
 
-def _load_env_keys():
-    """Helper to auto-load API keys from workspace .env file."""
-    env_paths = [
-        Path(__file__).resolve().parent.parent.parent.parent / ".env",
+# ---------------------------------------------------------------------------
+# .env auto-loader
+# ---------------------------------------------------------------------------
+
+def _load_env_keys() -> None:
+    """Auto-load API keys from workspace .env into os.environ."""
+    candidates = [
+        Path(__file__).resolve().parent.parent.parent.parent / ".env",  # Nested_RAG/.env
+        Path(__file__).resolve().parent.parent.parent / ".env",
         Path(__file__).resolve().parent.parent / ".env",
         Path.cwd() / ".env",
     ]
-    for env_path in env_paths:
+    for env_path in candidates:
         if env_path.exists():
             try:
                 with open(env_path, "r", encoding="utf-8") as f:
                     for line in f:
                         line = line.strip()
                         if "=" in line and not line.startswith("#"):
-                            k, v = line.split("=", 1)
-                            os.environ[k.strip()] = v.strip()
+                            k, _, v = line.partition("=")
+                            os.environ.setdefault(k.strip(), v.strip())
+                logger.debug(f"Loaded .env from: {env_path}")
                 break
             except Exception:
                 pass
@@ -41,6 +51,10 @@ def _load_env_keys():
 
 _load_env_keys()
 
+
+# ---------------------------------------------------------------------------
+# Response dataclass
+# ---------------------------------------------------------------------------
 
 @dataclass
 class OllamaResponse:
@@ -66,123 +80,174 @@ class OllamaResponse:
         }
 
 
+# ---------------------------------------------------------------------------
+# Main client
+# ---------------------------------------------------------------------------
+
 class OllamaClient:
-    """Client for performing generation requests against OpenRouter API or Ollama instance."""
+    """LLM client: Groq (Llama 3.1 8B) → local Ollama fallback."""
+
+    GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
     def __init__(self, config: Optional[LLMConfig] = None):
         self.config = config or LLMConfig()
         self.host = self.config.host.rstrip("/")
-        self.model_name = self.config.model_name
+        self.model_name = self.config.model_name          # local Ollama model
         self.timeout = self.config.request_timeout
 
-        # Check for OpenRouter API key in environment / .env
-        self.openrouter_key = (
-            os.getenv("OWL_ALPHA_API_KEY")
-            or os.getenv("OPENROUTER_API_KEY")
-            or ""
-        ).strip()
+        # Groq API key (GROQ_API_KEY from .env)
+        self.groq_key = os.getenv("GROQ_API_KEY", "").strip()
 
-        # Target OpenRouter model: Llama 3.1 8B by default (configurable via env)
-        self.openrouter_model = os.getenv(
-            "OPENROUTER_MODEL",
-            "meta-llama/llama-3.1-8b-instruct"   # fast, cheap, confirmed available
-        )
+        # Groq model for Llama 3.1 8B (fastest free Groq model)
+        self.groq_model = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
+
+        # Groq free tier: 6000 tokens/min limit → cap prompt chars (~4 chars/token)
+        self._max_prompt_chars = 4000  # ~1000 tokens safety headroom
+
+        if self.groq_key:
+            logger.info(
+                f"Groq API key loaded (****{self.groq_key[-6:]}). "
+                f"Primary model: {self.groq_model}"
+            )
+        else:
+            logger.warning(
+                "GROQ_API_KEY not found in .env. Will use local Ollama only."
+            )
+
+    # ------------------------------------------------------------------
+    # Public API
+    # ------------------------------------------------------------------
 
     def is_available(self) -> bool:
-        """Checks if OpenRouter API key is configured or local Ollama endpoint is reachable."""
-        if self.openrouter_key:
+        """Returns True if Groq key is set or local Ollama is reachable."""
+        if self.groq_key:
             return True
-
-        url = f"{self.host}/api/tags"
         try:
-            req = urllib.request.Request(url, method="GET")
-            with urllib.request.urlopen(req, timeout=5) as response:
-                return response.status == 200
+            resp = requests.get(f"{self.host}/api/tags", timeout=5)
+            return resp.status_code == 200
         except Exception:
             return False
 
     def generate(self, prompt: str, system_prompt: Optional[str] = None) -> OllamaResponse:
         """
-        Sends completion request to OpenRouter API (if API key present) or local Ollama /api/generate.
+        Generates text. Uses Groq if API key is set, otherwise falls back to local Ollama.
         """
-        if self.openrouter_key:
-            return self._generate_openrouter(prompt, system_prompt)
+        if self.groq_key:
+            return self._generate_groq(prompt, system_prompt)
         return self._generate_ollama(prompt, system_prompt)
 
-    def _generate_openrouter(self, prompt: str, system_prompt: Optional[str] = None) -> OllamaResponse:
-        """Generates text via OpenRouter REST API with automatic model failover."""
-        url = "https://openrouter.ai/api/v1/chat/completions"
+    # ------------------------------------------------------------------
+    # Groq backend (Llama 3.1 8B — fast, free)
+    # ------------------------------------------------------------------
+
+    def _generate_groq(self, prompt: str, system_prompt: Optional[str] = None) -> OllamaResponse:
+        """Calls Groq REST API for Llama 3.1 8B generation with retry on rate-limit."""
+
+        # Truncate prompt to stay under the free-tier 6000 TPM limit
+        if len(prompt) > self._max_prompt_chars:
+            prompt = prompt[:self._max_prompt_chars] + "\n\n[Prompt truncated for length]"
 
         messages = []
         if system_prompt:
             messages.append({"role": "system", "content": system_prompt})
         messages.append({"role": "user", "content": prompt})
 
-        candidate_models = [
-            self.openrouter_model,                        # meta-llama/llama-3.1-8b-instruct
-            "meta-llama/llama-3.3-70b-instruct",          # heavier fallback
-            "openrouter/free",                            # last resort free-tier auto-route
-        ]
+        payload = {
+            "model": self.groq_model,
+            "messages": messages,
+            "temperature": self.config.temperature,
+            "top_p": self.config.top_p,
+            "max_tokens": min(self.config.max_tokens, 512),  # cap at 512 for free tier
+        }
 
+        headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {self.groq_key}",
+        }
+
+        max_retries = 3
         start_time = time.perf_counter()
 
-        for model in candidate_models:
-            payload = {
-                "model": model,
-                "messages": messages,
-                "temperature": self.config.temperature,
-                "top_p": self.config.top_p,
-                "max_tokens": self.config.max_tokens,
-            }
-
-            data = json.dumps(payload).encode("utf-8")
-            req = urllib.request.Request(
-                url,
-                data=data,
-                headers={
-                    "Content-Type": "application/json",
-                    "Authorization": f"Bearer {self.openrouter_key}",
-                    "HTTP-Referer": "https://github.com/vaddepallyvinith/ESG_XBRL_P_V_IITH",
-                    "X-Title": "ESG Baseline LLM Mapping",
-                },
-                method="POST",
-            )
-
+        for attempt in range(max_retries):
             try:
-                with urllib.request.urlopen(req, timeout=8) as response:
-                    elapsed_sec = time.perf_counter() - start_time
-                    if response.status == 200:
-                        resp_body = json.loads(response.read().decode("utf-8"))
-                        text = resp_body.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+                resp = requests.post(
+                    self.GROQ_URL,
+                    json=payload,
+                    headers=headers,
+                    timeout=30,
+                )
+                elapsed_sec = time.perf_counter() - start_time
 
-                        usage = resp_body.get("usage", {})
-                        prompt_tokens = usage.get("prompt_tokens", 0)
-                        eval_tokens = usage.get("completion_tokens", 0)
-                        total_tokens = usage.get("total_tokens", prompt_tokens + eval_tokens)
+                if resp.status_code == 200:
+                    resp_body = resp.json()
+                    text = (
+                        resp_body.get("choices", [{}])[0]
+                        .get("message", {})
+                        .get("content", "")
+                        .strip()
+                    )
+                    usage = resp_body.get("usage", {})
+                    prompt_tokens = usage.get("prompt_tokens", 0)
+                    eval_tokens = usage.get("completion_tokens", 0)
+                    total_tokens = usage.get("total_tokens", prompt_tokens + eval_tokens)
+                    actual_model = resp_body.get("model", self.groq_model)
 
-                        actual_model = resp_body.get("model", model)
+                    return OllamaResponse(
+                        text=text,
+                        prompt_tokens=prompt_tokens,
+                        eval_tokens=eval_tokens,
+                        total_tokens=total_tokens,
+                        response_time_sec=elapsed_sec,
+                        model_name=actual_model,
+                        status="success",
+                        raw_payload=resp_body,
+                    )
 
-                        return OllamaResponse(
-                            text=text,
-                            prompt_tokens=prompt_tokens,
-                            eval_tokens=eval_tokens,
-                            total_tokens=total_tokens,
-                            response_time_sec=elapsed_sec,
-                            model_name=actual_model,
-                            status="success",
-                            raw_payload=resp_body,
-                        )
+                elif resp.status_code == 429:  # Rate limit — wait and retry
+                    wait_sec = 10 * (attempt + 1)
+                    logger.warning(
+                        f"Groq rate limit (429) on attempt {attempt+1}/{max_retries}. "
+                        f"Waiting {wait_sec}s before retry..."
+                    )
+                    time.sleep(wait_sec)
+                    continue
+
+                elif resp.status_code == 413:  # Request too large — truncate further
+                    self._max_prompt_chars = int(self._max_prompt_chars * 0.7)
+                    prompt = prompt[:self._max_prompt_chars] + "\n\n[Prompt truncated for length]"
+                    messages[-1]["content"] = prompt
+                    payload["messages"] = messages
+                    logger.warning(
+                        f"Groq 413 (too large). Reduced prompt to {self._max_prompt_chars} chars. Retrying..."
+                    )
+                    continue
+
+                else:
+                    logger.warning(
+                        f"Groq API HTTP {resp.status_code}: {resp.text[:200]}. "
+                        "Falling back to local Ollama..."
+                    )
+                    break
+
+            except requests.exceptions.Timeout:
+                logger.warning(f"Groq API timed out (attempt {attempt+1}). Retrying...")
+                time.sleep(5)
             except Exception as e:
-                logger.debug(f"OpenRouter model '{model}' failed or timed out ({e}). Retrying with next model...")
+                logger.warning(f"Groq API error: {e}. Falling back to local Ollama...")
+                break
 
-        logger.warning("All OpenRouter models failed. Falling back to local Ollama...")
+        logger.warning("All Groq retries exhausted. Falling back to local Ollama...")
         return self._generate_ollama(prompt, system_prompt)
 
+    # ------------------------------------------------------------------
+    # Local Ollama fallback
+    # ------------------------------------------------------------------
+
     def _generate_ollama(self, prompt: str, system_prompt: Optional[str] = None) -> OllamaResponse:
-        """Fallback to local Ollama /api/generate REST API."""
+        """Fallback: local Ollama /api/generate REST API."""
         url = f"{self.host}/api/generate"
 
-        payload = {
+        payload: Dict[str, Any] = {
             "model": self.model_name,
             "prompt": prompt,
             "stream": False,
@@ -192,48 +257,44 @@ class OllamaClient:
                 "num_predict": self.config.max_tokens,
             },
         }
-
         if system_prompt:
             payload["system"] = system_prompt
 
-        data = json.dumps(payload).encode("utf-8")
-        req = urllib.request.Request(
-            url,
-            data=data,
-            headers={"Content-Type": "application/json"},
-            method="POST",
-        )
-
         start_time = time.perf_counter()
-
         try:
-            with urllib.request.urlopen(req, timeout=self.timeout) as response:
-                elapsed_sec = time.perf_counter() - start_time
-                if response.status == 200:
-                    resp_body = json.loads(response.read().decode("utf-8"))
-                    text = resp_body.get("response", "").strip()
+            resp = requests.post(
+                url,
+                json=payload,
+                headers={"Content-Type": "application/json"},
+                timeout=self.timeout,
+            )
+            elapsed_sec = time.perf_counter() - start_time
 
-                    prompt_tokens = resp_body.get("prompt_eval_count", 0)
-                    eval_tokens = resp_body.get("eval_count", 0)
-                    total_tokens = prompt_tokens + eval_tokens
+            if resp.status_code == 200:
+                resp_body = resp.json()
+                text = resp_body.get("response", "").strip()
+                prompt_tokens = resp_body.get("prompt_eval_count", 0)
+                eval_tokens = resp_body.get("eval_count", 0)
+                total_tokens = prompt_tokens + eval_tokens
 
-                    return OllamaResponse(
-                        text=text,
-                        prompt_tokens=prompt_tokens,
-                        eval_tokens=eval_tokens,
-                        total_tokens=total_tokens,
-                        response_time_sec=elapsed_sec,
-                        model_name=self.model_name,
-                        status="success",
-                        raw_payload=resp_body,
-                    )
-                else:
-                    return OllamaResponse(
-                        text="",
-                        response_time_sec=elapsed_sec,
-                        model_name=self.model_name,
-                        status=f"http_error_{response.status}",
-                    )
+                return OllamaResponse(
+                    text=text,
+                    prompt_tokens=prompt_tokens,
+                    eval_tokens=eval_tokens,
+                    total_tokens=total_tokens,
+                    response_time_sec=elapsed_sec,
+                    model_name=self.model_name,
+                    status="success",
+                    raw_payload=resp_body,
+                )
+            else:
+                return OllamaResponse(
+                    text="",
+                    response_time_sec=time.perf_counter() - start_time,
+                    model_name=self.model_name,
+                    status=f"http_error_{resp.status_code}",
+                )
+
         except Exception as e:
             elapsed_sec = time.perf_counter() - start_time
             return OllamaResponse(

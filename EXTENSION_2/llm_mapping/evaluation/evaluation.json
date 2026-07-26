@@ -1,138 +1,111 @@
 {
   "total_queries": 74,
-  "top1_accuracy": 0.027,
-  "top3_accuracy": 0.027,
-  "precision": 0.029,
-  "recall": 0.2857,
-  "f1_score": 0.0526,
-  "avg_confidence": 0.6839,
+  "top1_accuracy": 0.0135,
+  "top3_accuracy": 0.0135,
+  "precision": 0.037,
+  "recall": 0.0208,
+  "f1_score": 0.0267,
+  "avg_confidence": 0.3554,
   "runtime_sec": {
-    "total": 540.71,
-    "embedding": 12.356,
-    "retrieval": 52.835,
-    "generation": 475.518
+    "total": 461.858,
+    "embedding": 15.915,
+    "retrieval": 44.594,
+    "generation": 401.349
   },
   "token_usage": {
-    "avg_prompt_tokens": 326.4,
-    "avg_eval_tokens": 98.6,
-    "avg_total_tokens": 425.0
+    "avg_prompt_tokens": 411.7,
+    "avg_eval_tokens": 106.4,
+    "avg_total_tokens": 518.1
   },
   "estimated_cost_usd": 0.0,
   "details": {
-    "top1_hits": 2,
-    "top3_hits": 2,
-    "true_positives": 2,
-    "false_positives": 67,
-    "false_negatives": 5,
-    "incorrect_mappings_count": 67,
-    "low_confidence_count": 4,
-    "hallucinations_count": 1,
+    "top1_hits": 1,
+    "top3_hits": 1,
+    "true_positives": 1,
+    "false_positives": 26,
+    "false_negatives": 47,
+    "incorrect_mappings_count": 26,
+    "low_confidence_count": 47,
+    "hallucinations_count": 0,
     "incorrect_mappings_samples": [
       {
-        "brsr_id": "Q19",
-        "predicted_gri_id": "Disclosure 2-9 Governance structure and composition",
-        "ground_truth_candidates": [
-          "Disclosure_Disclosure_2_19_Remuneration_policies_30",
-          "Disclosure 2 10 Nomination and selection of the hi",
-          "Disclosure_Disclosure_2_19_Remuneration_policies",
-          "Disclosure_Disclosure_2_10_Nomination_and_selection_of_the_hi",
-          "Disclosure 2 19 Remuneration policies 30",
-          "Disclosure 2 19 Remuneration policies"
-        ],
-        "mapping_type": "Narrow Match",
-        "confidence": 0.45,
-        "reasoning": "The BRSR Q19 focuses on 'Participation/Inclusion/Representation of women,' which is a specific aspect of organizational diversity. The candidate GRI Disclosure 2-9 addresses governance structure and composition, which could include board or leadership diversity metrics. However, the GRI disclosure does not explicitly mention gender or women's representation in its requirements. The other candidates (1-4) are all linked to GRI 418 (Customer Privacy), which is unrelated to gender inclusion. While governance structure disclosures may indirectly cover diversity, the BRSR requirement is narrower and more specific than the GRI's broader governance focus. The GRI 2-9 guidance mentions 'competencies relevant to impacts' but does not specify gender-related metrics, making this a partial alignment at best."
-      },
-      {
-        "brsr_id": "Q22",
-        "predicted_gri_id": "Disclosure 401-1 New employee hires and employee t",
+        "brsr_id": "P2_Q3",
+        "predicted_gri_id": "Disclosure 301-2 Recycled input materials used 9",
         "ground_truth_candidates": [],
-        "mapping_type": "Close Match",
-        "confidence": 0.7,
-        "reasoning": "Fallback match based on top RAG vector similarity score."
+        "mapping_type": "Exact Match",
+        "confidence": 1.0,
+        "reasoning": "The GRI disclosure 301-2 directly addresses the percentage of recycled input materials used."
       },
       {
-        "brsr_id": "Q23",
-        "predicted_gri_id": "Disclosure 2-26 Mechanisms for seeking advice and",
+        "brsr_id": "P2_Q4",
+        "predicted_gri_id": "Disclosure 301-3 Reclaimed products and their pack",
         "ground_truth_candidates": [],
-        "mapping_type": "Close Match",
-        "confidence": 0.7,
-        "reasoning": "Extracted reasoning text: {\n  \"brsr_id\": \"Q23\",\n  \"gri_id\": \"2-25\",\n  \"mapping_type\": \"Close Match\",\n  \"confidence\": 0.90,\n  \"reasoning\": \"Step 1: BRSR Q23 requires reporting on complaints/grievances related to the National Guidelines on Responsible Business Conduct principle"
+        "mapping_type": "Exact Match",
+        "confidence": 1.0,
+        "reasoning": "The BRSR requirement and GRI disclosure have identical text and content, indicating a perfect match."
       },
       {
-        "brsr_id": "Q24",
-        "predicted_gri_id": "Disclosure 3-3",
-        "ground_truth_candidates": [
-          "Disclosure 2 24 Embedding policy commitments",
-          "Disclosure 2 8 together with Disclosure 2 7 give",
-          "Disclosure_Disclosure_2_22_Statement_on_sustainable_developme",
-          "Disclosure_Disclosure_2_8_together_with_Disclosure_2_7_give",
-          "Disclosure_Disclosure_2_14_Role_of_the_highest_governance_bod",
-          "Disclosure_Disclosure_2_6_Activities_value_chain_and_other_b",
-          "Disclosure_Disclosure_2_24_Embedding_policy_commitments",
-          "Disclosure 2 6 Activities value chain and other b",
-          "Disclosure_Disclosure_2_13_Delegation_of_responsibility_for_m",
-          "Disclosure 2 5 External assurance",
-          "Disclosure 2 13 Delegation of responsibility for m",
-          "Disclosure 2 25 Processes to remediate negative im",
-          "Disclosure_Disclosure_2_5_External_assurance",
-          "Disclosure_Disclosure_2_2_Entities_included_in_the_organizati",
-          "Disclosure 2 14 Role of the highest governance bod",
-          "Disclosure 2 22 Statement on sustainable developme",
-          "Disclosure_Disclosure_2_25_Processes_to_remediate_negative_im",
-          "Disclosure 2 2 Entities included in the organizati"
-        ],
-        "mapping_type": "Close Match",
-        "confidence": 0.85,
-        "reasoning": "1. The BRSR requirement (Q24) asks for an overview of the entity\u2019s material responsible business conduct issues, which implies reporting on material topics related to responsible business conduct, including their impacts, policies, and management approach.  \n2. GRI Disclosure 3-3 (Management of material topics) requires the organization to describe the actual and potential negative and positive impacts of material topics, the organization\u2019s involvement, the policies or commitments related to the topic, and how impacts are managed (including responsibility, processes, and oversight).  \n3. The core intent of both requirements is the same: to provide a high\u2011level overview of material responsible business conduct issues and how they are managed.  \n4. While GRI 3-3 is more detailed (requires description of impacts, policies, and management processes), the BRSR only requests an overview, which aligns with the GRI guidance that a high\u2011level summary satisfies the requirement.  \n5. No other candidate GRI disclosure addresses the substance of material responsible business conduct issues; Disclosure 3-1 concerns the process of determining material topics, Disclosure 2-2 concerns entities, and the others are unrelated.  \n6. Therefore the mapping is a Close Match, with high confidence that the two disclosures are substantially aligned."
-      },
-      {
-        "brsr_id": "P2_Q1",
-        "predicted_gri_id": "Disclosure 417-1 Requirements for product and serv",
+        "brsr_id": "P2_Q5",
+        "predicted_gri_id": "Disclosure 301-3 Reclaimed products and their pack",
         "ground_truth_candidates": [],
-        "mapping_type": "Close Match",
-        "confidence": 0.7,
-        "reasoning": "Fallback match based on top RAG vector similarity score."
+        "mapping_type": "Exact Match",
+        "confidence": 1.0,
+        "reasoning": "The GRI disclosure 301-3 directly matches the BRSR requirement P2_Q5 in terms of content and structure."
+      },
+      {
+        "brsr_id": "P3_Q10",
+        "predicted_gri_id": "Disclosure 403-8 Workers covered by an occupationa",
+        "ground_truth_candidates": [],
+        "mapping_type": "Exact Match",
+        "confidence": 1.0,
+        "reasoning": "The BRSR requirement directly matches the GRI disclosure ID 403-8, which is about occupational health and safety management system."
+      },
+      {
+        "brsr_id": "P4_Q1",
+        "predicted_gri_id": "Disclosure 2-6 Activities, value chain and other b",
+        "ground_truth_candidates": [],
+        "mapping_type": "Exact Match",
+        "confidence": 1.0,
+        "reasoning": "The GRI 303-1 disclosure directly addresses the process of identifying material topics, which is closely related to identifying key stakeholder groups."
       }
     ],
     "low_confidence_samples": [
       {
-        "brsr_id": "S.",
+        "brsr_id": "Q17",
         "predicted_gri_id": "None",
         "mapping_type": "No Match",
-        "confidence": 0.15,
-        "explanation": "The BRSR 'General Disclosures' requirement is too generic to match any specific GRI topic disclosure, resulting in a No Match with low confidence."
+        "confidence": 0.0,
+        "explanation": "The BRSR requirement Q17 asks for the number of locations served by the entity, which is not directly related to any of the provided GRI candidates."
       },
       {
         "brsr_id": "S.",
         "predicted_gri_id": "None",
         "mapping_type": "No Match",
-        "confidence": 0.1,
-        "explanation": "The generic nature of BRSR 'S.' with no defined requirements or metrics prevents alignment with any GRI disclosure. GRI standards demand specific reporting elements (e.g., privacy policies, non-compliance counts) absent here."
+        "confidence": 0.0,
+        "explanation": "The BRSR requirement 'S' does not match any of the provided GRI disclosure options."
+      },
+      {
+        "brsr_id": "S.",
+        "predicted_gri_id": "None",
+        "mapping_type": "No Match",
+        "confidence": 0.0,
+        "explanation": "The GRI disclosure IDs provided do not match the BRSR requirement 'S'."
       },
       {
         "brsr_id": "Q19",
-        "predicted_gri_id": "Disclosure 2-9 Governance structure and composition",
-        "mapping_type": "Narrow Match",
-        "confidence": 0.45,
-        "explanation": "The BRSR Q19 on women's participation is a specific diversity metric that could fall under the broader governance structure disclosure (GRI 2-9). However, the GRI requirement lacks explicit gender-related content, making this a 'Narrow Match' where the BRSR requirement is a subset of the GRI's governance scope. The low confidence reflects the absence of direct gender-related language in the GRI candidate."
-      },
-      {
-        "brsr_id": "Q12",
         "predicted_gri_id": "None",
         "mapping_type": "No Match",
-        "confidence": 0.15,
-        "explanation": "BRSR Q12 mandates disclosure based on policy coverage gaps, but no GRI candidate addresses this specific condition. The closest candidates discuss mechanisms or governance, which are unrelated to the policy coverage trigger."
+        "confidence": 0.0,
+        "explanation": "The BRSR requirement Q19 does not match any of the provided GRI disclosure IDs."
+      },
+      {
+        "brsr_id": "Q22",
+        "predicted_gri_id": "None",
+        "mapping_type": "No Match",
+        "confidence": 0.0,
+        "explanation": "The GRI disclosure candidates are related to employment and employee turnover, which is not relevant to the BRSR requirement Q22."
       }
     ],
-    "hallucination_samples": [
-      {
-        "brsr_id": "P6_Q3",
-        "hallucinated_gri_id": "Topic 11.22 Public policy",
-        "mapping_type": "Close Match",
-        "explanation": "Alignment derived from top RAG candidate.",
-        "raw_reasoning": "Fallback match based on top RAG vector similarity score."
-      }
-    ]
+    "hallucination_samples": []
   }
 }

@@ -9,6 +9,7 @@ from dataclasses import dataclass, field
 import json
 from pathlib import Path
 import re
+import time
 from typing import Any, Dict, List, Optional
 
 from llm_mapping.data.brsr_loader import BRSRDisclosure
@@ -102,26 +103,23 @@ class LLMMapper:
                 model=self.llm_client.model_name,
             )
 
-        # 1. Format candidate disclosures for prompt
+        # 1. Format candidate disclosures for prompt (ultra-concise for token efficiency)
         candidates_formatted = []
         for idx, gri in enumerate(candidate_gris, 1):
+            req_str = " ".join(str(r) for r in gri.requirements[:1])[:100]
+            desc_str = " ".join(str(c) for c in gri.content[:1])[:100]
             candidates_formatted.append(
-                f"Candidate [{idx}]:\n"
-                f"  GRI Disclosure ID: {gri.id}\n"
-                f"  Title/Label: {gri.label}\n"
-                f"  Standard: {gri.standard_title or gri.standard_id}\n"
-                f"  Requirements: {' '.join(str(r) for r in gri.requirements[:3])}\n"
-                f"  Description: {' '.join(gri.content[:2])}\n"
+                f"[{idx}] {gri.id} | {gri.label} | Summary: {req_str or desc_str or 'N/A'}"
             )
         candidates_text = "\n".join(candidates_formatted)
 
-        # 2. Build prompt
+        # 2. Build prompt (truncate text to keep tokens under Groq 6000 TPM limit)
+        brsr_text_truncated = (brsr.text or "")[:300]
         prompt = BRSR_TO_GRI_MAPPING_PROMPT_TEMPLATE.format(
             brsr_id=brsr.id,
             brsr_label=brsr.label,
-            brsr_section=brsr.section_label or "N/A",
             brsr_principle=brsr.principle_label or "N/A",
-            brsr_text=brsr.text,
+            brsr_text=brsr_text_truncated,
             retrieved_candidates_text=candidates_text,
         )
 
@@ -206,6 +204,28 @@ class LLMMapper:
                     m_type = "No Match" if data.get("gri_id") == "None" else "Close Match"
             data["mapping_type"] = m_type
 
+            # Validate and resolve gri_id against candidates
+            raw_gri = str(data.get("gri_id", "None")).strip()
+            resolved_gri = "None"
+            if raw_gri.lower() != "none" and candidate_gris:
+                # 1. Try exact match
+                for cand in candidate_gris:
+                    if raw_gri.lower() == cand.id.lower():
+                        resolved_gri = cand.id
+                        break
+                # 2. Try substring match (e.g. "418-1" in "Disclosure 418-1 ...")
+                if resolved_gri == "None":
+                    raw_nums = re.findall(r"\d+[\-\.]?\d*", raw_gri)
+                    for cand in candidate_gris:
+                        if any(num in cand.id for num in raw_nums if len(num) >= 3):
+                            resolved_gri = cand.id
+                            break
+                # 3. Fallback to candidate 0 if LLM indicated a match
+                if resolved_gri == "None" and m_type != "No Match":
+                    resolved_gri = candidate_gris[0].id
+
+            data["gri_id"] = resolved_gri
+
             # Validate confidence float range
             conf = float(data.get("confidence", 0.75))
             if conf > 1.0 and conf <= 100.0:
@@ -259,6 +279,10 @@ class LLMMapper:
             # 2. LLM Reasoning & Alignment Decision
             mapping_res = self.map_disclosure(brsr, candidate_objs)
             results.append(mapping_res)
+
+            # Pacing delay for cloud API rate limits (Groq 6000 TPM limit)
+            if self.llm_client.groq_key:
+                time.sleep(3.5)
 
         logger.info(f"Completed Phase 3 LLM batch mapping for {len(results)} items.")
         return results

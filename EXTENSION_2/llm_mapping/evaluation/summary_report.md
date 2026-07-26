@@ -9,12 +9,12 @@
 | Metric | Value |
 | :--- | :--- |
 | **Total Queries Evaluated** | `74` |
-| **Top-1 Accuracy** | `0.0270` (`2.70%`) |
-| **Top-3 Accuracy** | `0.0270` (`2.70%`) |
-| **Precision** | `0.0290` |
-| **Recall** | `0.2857` |
-| **F1 Score** | `0.0526` |
-| **Average Confidence Score** | `0.6839` |
+| **Top-1 Accuracy** | `0.0135` (`1.35%`) |
+| **Top-3 Accuracy** | `0.0135` (`1.35%`) |
+| **Precision** | `0.0370` |
+| **Recall** | `0.0208` |
+| **F1 Score** | `0.0267` |
+| **Average Confidence Score** | `0.3554` |
 
 ---
 
@@ -22,13 +22,13 @@
 
 | Execution Component | Latency / Time |
 | :--- | :--- |
-| **Embedding Generation Time** | `12.356 s` |
-| **Vector Retrieval Time** | `52.835 s` |
-| **LLM Inference Generation Time** | `475.518 s` |
-| **Total Pipeline Execution Time** | `540.710 s` |
-| **Avg Prompt Tokens / Query** | `326.4` |
-| **Avg Generation Tokens / Query** | `98.6` |
-| **Total Avg Tokens / Query** | `425.0` |
+| **Embedding Generation Time** | `15.915 s` |
+| **Vector Retrieval Time** | `44.594 s` |
+| **LLM Inference Generation Time** | `401.349 s` |
+| **Total Pipeline Execution Time** | `461.858 s` |
+| **Avg Prompt Tokens / Query** | `411.7` |
+| **Avg Generation Tokens / Query** | `106.4` |
+| **Total Avg Tokens / Query** | `518.1` |
 | **Estimated API Cost (Local Ollama)** | `$0.00` |
 
 ---
@@ -39,30 +39,31 @@
 - **FAISS K-NN Top Candidate Score Range**: High semantic vector similarity achieved for domain-specific ESG disclosures.
 - **Top-1 Retrieval Hit Ratio**: Evaluated across candidate GRI disclosure vector space.
 
-### **Hallucination Examples** (`1` detected)
+### **Hallucination Examples** (`0` detected)
 
-1. **BRSR Query ID**: `P6_Q3`
-   - **Hallucinated Output**: `Topic 11.22 Public policy`
-   - **Type**: `Close Match`
-   - **Explanation**: Alignment derived from top RAG candidate.
+No structural hallucinations detected in strict JSON model output.
 
-### **Low-Confidence Mappings** (`4` detected with confidence < 0.60)
+### **Low-Confidence Mappings** (`47` detected with confidence < 0.60)
 
-1. **BRSR Query ID**: `S.` -> **GRI**: `None` (`No Match`)
-   - **Confidence**: `0.15`
-   - **Explanation**: The BRSR 'General Disclosures' requirement is too generic to match any specific GRI topic disclosure, resulting in a No Match with low confidence.
+1. **BRSR Query ID**: `Q17` -> **GRI**: `None` (`No Match`)
+   - **Confidence**: `0.00`
+   - **Explanation**: The BRSR requirement Q17 asks for the number of locations served by the entity, which is not directly related to any of the provided GRI candidates.
 
 2. **BRSR Query ID**: `S.` -> **GRI**: `None` (`No Match`)
-   - **Confidence**: `0.10`
-   - **Explanation**: The generic nature of BRSR 'S.' with no defined requirements or metrics prevents alignment with any GRI disclosure. GRI standards demand specific reporting elements (e.g., privacy policies, non-compliance counts) absent here.
+   - **Confidence**: `0.00`
+   - **Explanation**: The BRSR requirement 'S' does not match any of the provided GRI disclosure options.
 
-3. **BRSR Query ID**: `Q19` -> **GRI**: `Disclosure 2-9 Governance structure and composition` (`Narrow Match`)
-   - **Confidence**: `0.45`
-   - **Explanation**: The BRSR Q19 on women's participation is a specific diversity metric that could fall under the broader governance structure disclosure (GRI 2-9). However, the GRI requirement lacks explicit gender-related content, making this a 'Narrow Match' where the BRSR requirement is a subset of the GRI's governance scope. The low confidence reflects the absence of direct gender-related language in the GRI candidate.
+3. **BRSR Query ID**: `S.` -> **GRI**: `None` (`No Match`)
+   - **Confidence**: `0.00`
+   - **Explanation**: The GRI disclosure IDs provided do not match the BRSR requirement 'S'.
 
-4. **BRSR Query ID**: `Q12` -> **GRI**: `None` (`No Match`)
-   - **Confidence**: `0.15`
-   - **Explanation**: BRSR Q12 mandates disclosure based on policy coverage gaps, but no GRI candidate addresses this specific condition. The closest candidates discuss mechanisms or governance, which are unrelated to the policy coverage trigger.
+4. **BRSR Query ID**: `Q19` -> **GRI**: `None` (`No Match`)
+   - **Confidence**: `0.00`
+   - **Explanation**: The BRSR requirement Q19 does not match any of the provided GRI disclosure IDs.
+
+5. **BRSR Query ID**: `Q22` -> **GRI**: `None` (`No Match`)
+   - **Confidence**: `0.00`
+   - **Explanation**: The GRI disclosure candidates are related to employment and employee turnover, which is not relevant to the BRSR requirement Q22.
 
 ---
 
