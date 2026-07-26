@@ -2,71 +2,109 @@
   "total_queries": 74,
   "top1_accuracy": 0.0135,
   "top3_accuracy": 0.0135,
-  "precision": 0.037,
-  "recall": 0.0208,
+  "precision": 0.0169,
+  "recall": 0.0625,
   "f1_score": 0.0267,
-  "avg_confidence": 0.3554,
+  "avg_confidence": 0.6453,
   "runtime_sec": {
-    "total": 461.858,
-    "embedding": 15.915,
-    "retrieval": 44.594,
-    "generation": 401.349
+    "total": 1770.912,
+    "embedding": 11.577,
+    "retrieval": 175.933,
+    "generation": 1583.401
   },
   "token_usage": {
-    "avg_prompt_tokens": 411.7,
-    "avg_eval_tokens": 106.4,
-    "avg_total_tokens": 518.1
+    "avg_prompt_tokens": 891.8,
+    "avg_eval_tokens": 202.9,
+    "avg_total_tokens": 1094.7
   },
   "estimated_cost_usd": 0.0,
   "details": {
     "top1_hits": 1,
     "top3_hits": 1,
     "true_positives": 1,
-    "false_positives": 26,
-    "false_negatives": 47,
-    "incorrect_mappings_count": 26,
-    "low_confidence_count": 47,
+    "false_positives": 58,
+    "false_negatives": 15,
+    "incorrect_mappings_count": 58,
+    "low_confidence_count": 15,
     "hallucinations_count": 0,
     "incorrect_mappings_samples": [
       {
-        "brsr_id": "P2_Q3",
-        "predicted_gri_id": "Disclosure 301-2 Recycled input materials used 9",
+        "brsr_id": "S.",
+        "predicted_gri_id": "Disclosure 417-2 Incidents of non-compliance concerning product and service information and labeling",
         "ground_truth_candidates": [],
-        "mapping_type": "Exact Match",
-        "confidence": 1.0,
-        "reasoning": "The GRI disclosure 301-2 directly addresses the percentage of recycled input materials used."
+        "mapping_type": "Broad Match",
+        "confidence": 0.8,
+        "reasoning": [
+          "The BRSR disclosure ID 'S' falls under SECTION A: GENERAL DISCLOSURES, which suggests a broad scope of general information.",
+          "The GRI Disclosure ID 'Disclosure 417-2 Incidents of non-compliance concerning product and service information and labeling' is a specific disclosure related to marketing and labeling.",
+          "Although the BRSR disclosure does not explicitly mention 'incidents of non-compliance', the scope of SECTION A: GENERAL DISCLOSURES implies a broader coverage of general information, which includes potential non-compliance incidents.",
+          "The GRI Disclosure ID is a specific component of the broader scope of general information covered by SECTION A: GENERAL DISCLOSURES."
+        ]
       },
       {
-        "brsr_id": "P2_Q4",
-        "predicted_gri_id": "Disclosure 301-3 Reclaimed products and their pack",
+        "brsr_id": "S.",
+        "predicted_gri_id": "Disclosure 417-2 Incidents of non-compliance concerning product and service information and labeling",
         "ground_truth_candidates": [],
-        "mapping_type": "Exact Match",
-        "confidence": 1.0,
-        "reasoning": "The BRSR requirement and GRI disclosure have identical text and content, indicating a perfect match."
+        "mapping_type": "Broad Match",
+        "confidence": 0.8,
+        "reasoning": [
+          "The BRSR disclosure ID 'S' falls under SECTION A: GENERAL DISCLOSURES, which suggests a broad scope of general information.",
+          "Candidate [4] from GRI 417: Marketing and Labeling 2016 3 has a disclosure ID 'Disclosure 417-2 Incidents of non-compliance concerning product and service information and labeling' that aligns with the BRSR requirement.",
+          "Although the GRI disclosure is more specific in scope (concerning product and service information and labeling), the BRSR requirement is a general disclosure, making it a Broad Match.",
+          "Other candidates have similar disclosure IDs but lack the specificity of Candidate [4]."
+        ]
       },
       {
-        "brsr_id": "P2_Q5",
-        "predicted_gri_id": "Disclosure 301-3 Reclaimed products and their pack",
+        "brsr_id": "Q23",
+        "predicted_gri_id": "Disclosure 2-16 Communication of critical concerns",
         "ground_truth_candidates": [],
-        "mapping_type": "Exact Match",
-        "confidence": 1.0,
-        "reasoning": "The GRI disclosure 301-3 directly matches the BRSR requirement P2_Q5 in terms of content and structure."
+        "mapping_type": "Close Match",
+        "confidence": 0.8,
+        "reasoning": [
+          "The BRSR disclosure requirement (Q23) focuses on complaints/grievances related to the National Guidelines on Responsible Business Conduct, which involves stakeholder engagement.",
+          "Candidate GRI disclosure (Disclosure 2-16 Communication of critical concerns) deals with the communication of critical concerns, which is closely related to the handling of complaints and grievances.",
+          "While the scope of Disclosure 2-16 is broader, encompassing communication of critical concerns in general, the core topic of handling complaints and grievances is well-aligned with the BRSR requirement.",
+          "The minor difference in scope is justified by the high level of semantic alignment between the two disclosure requirements."
+        ]
       },
       {
-        "brsr_id": "P3_Q10",
-        "predicted_gri_id": "Disclosure 403-8 Workers covered by an occupationa",
-        "ground_truth_candidates": [],
-        "mapping_type": "Exact Match",
-        "confidence": 1.0,
-        "reasoning": "The BRSR requirement directly matches the GRI disclosure ID 403-8, which is about occupational health and safety management system."
+        "brsr_id": "Q24",
+        "predicted_gri_id": "Disclosure 3-3 Management of material topics",
+        "ground_truth_candidates": [
+          "Disclosure 2 5 External assurance",
+          "Disclosure_Disclosure_2_6_Activities_value_chain_and_other_b",
+          "Disclosure 2 22 Statement on sustainable developme",
+          "Disclosure 2 24 Embedding policy commitments",
+          "Disclosure_Disclosure_2_14_Role_of_the_highest_governance_bod",
+          "Disclosure 2 25 Processes to remediate negative im",
+          "Disclosure_Disclosure_2_5_External_assurance",
+          "Disclosure_Disclosure_2_13_Delegation_of_responsibility_for_m",
+          "Disclosure_Disclosure_2_24_Embedding_policy_commitments",
+          "Disclosure_Disclosure_2_8_together_with_Disclosure_2_7_give",
+          "Disclosure_Disclosure_2_25_Processes_to_remediate_negative_im",
+          "Disclosure 2 8 together with Disclosure 2 7 give",
+          "Disclosure 2 13 Delegation of responsibility for m",
+          "Disclosure_Disclosure_2_2_Entities_included_in_the_organizati",
+          "Disclosure 2 6 Activities value chain and other b",
+          "Disclosure 2 2 Entities included in the organizati",
+          "Disclosure_Disclosure_2_22_Statement_on_sustainable_developme",
+          "Disclosure 2 14 Role of the highest governance bod"
+        ],
+        "mapping_type": "Close Match",
+        "confidence": 0.85,
+        "reasoning": "The BRSR disclosure requirement '24. Overview of the entity\u2019s material responsible business conduct issues' closely aligns with the GRI disclosure 'Disclosure 3-3 Management of material topics'. Both require the entity to report on material responsible business conduct issues. However, the BRSR requirement seems to focus more on the overview of material issues, whereas the GRI disclosure covers the management of material topics in general. This minor difference in scope and focus justifies a 'Close Match' classification. The confidence score is 0.85 due to the high semantic alignment between the two disclosures."
       },
       {
-        "brsr_id": "P4_Q1",
-        "predicted_gri_id": "Disclosure 2-6 Activities, value chain and other b",
+        "brsr_id": "P2_Q2",
+        "predicted_gri_id": "Disclosure 3-3 Management of material topics 19",
         "ground_truth_candidates": [],
-        "mapping_type": "Exact Match",
-        "confidence": 1.0,
-        "reasoning": "The GRI 303-1 disclosure directly addresses the process of identifying material topics, which is closely related to identifying key stakeholder groups."
+        "mapping_type": "Close Match",
+        "confidence": 0.8,
+        "reasoning": [
+          "The BRSR disclosure requirement (P2_Q2) asks if the entity has procedures in place for sustainable sourcing. This is closely related to managing material topics, which is the focus of GRI Disclosure 3-3 Management of material topics 19.",
+          "While the BRSR requirement is specific to sustainable sourcing, the GRI disclosure covers a broader scope of material topics, including sustainable sourcing. The GRI disclosure also includes guidance on managing material topics, which aligns with the BRSR requirement.",
+          "The GRI disclosure does not specifically ask about procedures for sustainable sourcing, but it does provide guidance on managing material topics, which includes sustainable sourcing. This suggests a close match between the two disclosures."
+        ]
       }
     ],
     "low_confidence_samples": [
@@ -75,35 +113,35 @@
         "predicted_gri_id": "None",
         "mapping_type": "No Match",
         "confidence": 0.0,
-        "explanation": "The BRSR requirement Q17 asks for the number of locations served by the entity, which is not directly related to any of the provided GRI candidates."
-      },
-      {
-        "brsr_id": "S.",
-        "predicted_gri_id": "None",
-        "mapping_type": "No Match",
-        "confidence": 0.0,
-        "explanation": "The BRSR requirement 'S' does not match any of the provided GRI disclosure options."
-      },
-      {
-        "brsr_id": "S.",
-        "predicted_gri_id": "None",
-        "mapping_type": "No Match",
-        "confidence": 0.0,
-        "explanation": "The GRI disclosure IDs provided do not match the BRSR requirement 'S'."
+        "explanation": "The BRSR requirement (Q17) is not aligned with any of the provided GRI disclosure candidates, indicating a lack of semantic similarity between the two reporting frameworks."
       },
       {
         "brsr_id": "Q19",
         "predicted_gri_id": "None",
         "mapping_type": "No Match",
         "confidence": 0.0,
-        "explanation": "The BRSR requirement Q19 does not match any of the provided GRI disclosure IDs."
+        "explanation": "The BRSR disclosure requirement is not matched by any of the provided GRI disclosure candidates, indicating a lack of semantic alignment between the two reporting frameworks."
       },
       {
         "brsr_id": "Q22",
         "predicted_gri_id": "None",
         "mapping_type": "No Match",
         "confidence": 0.0,
-        "explanation": "The GRI disclosure candidates are related to employment and employee turnover, which is not relevant to the BRSR requirement Q22."
+        "explanation": "The BRSR disclosure requirement Q22 is not aligned with any of the retrieved GRI disclosure candidates, making it a 'No Match'."
+      },
+      {
+        "brsr_id": "Q12",
+        "predicted_gri_id": "None",
+        "mapping_type": "No Match",
+        "confidence": 0.0,
+        "explanation": "The BRSR disclosure Q12 is asking about policy coverage, which is not directly related to any of the provided GRI disclosure candidates. Therefore, no GRI disclosure ID can be selected as the best match."
+      },
+      {
+        "brsr_id": "P2_Q1",
+        "predicted_gri_id": "None",
+        "mapping_type": "No Match",
+        "confidence": 0.0,
+        "explanation": "The BRSR requirement does not align with any of the provided GRI disclosure candidates, indicating a 'No Match' classification."
       }
     ],
     "hallucination_samples": []
