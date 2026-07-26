@@ -1,0 +1,594 @@
+[
+  {
+    "brsr_id": "Q17",
+    "gri_id": "Disclosure 2-6 Activities, value chain and other b",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "The BRSR disclosure requirement Q17 asks for the number of locations served by the entity, which is closely aligned with the GRI disclosure requirement 2-6-b. The GRI disclosure requires the organization to report on its value chain, including the geographic locations where products and services are offered. While the scope and granularity of the reporting requirements differ, the core topic of market served by the entity is well-covered by the GRI disclosure.",
+    "explanation": "The GRI disclosure requirement 2-6-b provides a comprehensive framework for reporting on the organization's value chain, including the markets served. Although the BRSR requirement is more specific in asking for the number of locations, the GRI disclosure requirement covers a broader scope of reporting on the organization's value chain, making it a close match."
+  },
+  {
+    "brsr_id": "Q18",
+    "gri_id": "Disclosure 2-8 Workers who are not employees 18",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "S.",
+    "gri_id": "None",
+    "mapping_type": "No Match",
+    "confidence": 0.15,
+    "reasoning": "The BRSR requirement is labeled 'S.' under Section A: General Disclosures, indicating a generic, high-level disclosure requirement rather than a specific metric or topic. The candidate GRI disclosures are specific topics: GRI 418 (Customer Privacy) and GRI 417 (Marketing and Labeling). None of these candidates address the broad, generic nature of 'General Disclosures'; they are narrowly focused on privacy or labeling compliance. Therefore, there is no semantic alignment between the BRSR requirement and any of the provided GRI disclosures.",
+    "explanation": "The BRSR 'General Disclosures' requirement is too generic to match any specific GRI topic disclosure, resulting in a No Match with low confidence."
+  },
+  {
+    "brsr_id": "S.",
+    "gri_id": "None",
+    "mapping_type": "No Match",
+    "confidence": 0.1,
+    "reasoning": "The BRSR disclosure 'S.' under Section A: General Disclosures lacks specific content, metrics, or context to align with any GRI candidate. GRI 418 (Customer Privacy) requires detailed privacy-related disclosures, while GRI 417-2 focuses on non-compliance incidents. The BRSR text 'S.' provides no actionable data, scope, or definitions to match either standard.",
+    "explanation": "The generic nature of BRSR 'S.' with no defined requirements or metrics prevents alignment with any GRI disclosure. GRI standards demand specific reporting elements (e.g., privacy policies, non-compliance counts) absent here."
+  },
+  {
+    "brsr_id": "Q19",
+    "gri_id": "Disclosure 2-9 Governance structure and composition",
+    "mapping_type": "Narrow Match",
+    "confidence": 0.45,
+    "reasoning": "The BRSR Q19 focuses on 'Participation/Inclusion/Representation of women,' which is a specific aspect of organizational diversity. The candidate GRI Disclosure 2-9 addresses governance structure and composition, which could include board or leadership diversity metrics. However, the GRI disclosure does not explicitly mention gender or women's representation in its requirements. The other candidates (1-4) are all linked to GRI 418 (Customer Privacy), which is unrelated to gender inclusion. While governance structure disclosures may indirectly cover diversity, the BRSR requirement is narrower and more specific than the GRI's broader governance focus. The GRI 2-9 guidance mentions 'competencies relevant to impacts' but does not specify gender-related metrics, making this a partial alignment at best.",
+    "explanation": "The BRSR Q19 on women's participation is a specific diversity metric that could fall under the broader governance structure disclosure (GRI 2-9). However, the GRI requirement lacks explicit gender-related content, making this a 'Narrow Match' where the BRSR requirement is a subset of the GRI's governance scope. The low confidence reflects the absence of direct gender-related language in the GRI candidate."
+  },
+  {
+    "brsr_id": "Q22",
+    "gri_id": "Disclosure 401-1 New employee hires and employee t",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "Q23",
+    "gri_id": "Disclosure 2-26 Mechanisms for seeking advice and",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Extracted reasoning text: {\n  \"brsr_id\": \"Q23\",\n  \"gri_id\": \"2-25\",\n  \"mapping_type\": \"Close Match\",\n  \"confidence\": 0.90,\n  \"reasoning\": \"Step 1: BRSR Q23 requires reporting on complaints/grievances related to the National Guidelines on Responsible Business Conduct principle",
+    "explanation": "LLM alignment summary: {\n  \"brsr_id\": \"Q23\",\n  \"gri_id\": \"2-25\",\n  \"mapping_type\": \"Close Match\",\n  \"confidence\": 0.90,\n  \"reasoning\": \"Step 1: BRSR Q23 requires reporting on complaints/grievances related to the National Gu"
+  },
+  {
+    "brsr_id": "Q24",
+    "gri_id": "Disclosure 3-3",
+    "mapping_type": "Close Match",
+    "confidence": 0.85,
+    "reasoning": "1. The BRSR requirement (Q24) asks for an overview of the entity\u2019s material responsible business conduct issues, which implies reporting on material topics related to responsible business conduct, including their impacts, policies, and management approach.  \n2. GRI Disclosure 3-3 (Management of material topics) requires the organization to describe the actual and potential negative and positive impacts of material topics, the organization\u2019s involvement, the policies or commitments related to the topic, and how impacts are managed (including responsibility, processes, and oversight).  \n3. The core intent of both requirements is the same: to provide a high\u2011level overview of material responsible business conduct issues and how they are managed.  \n4. While GRI 3-3 is more detailed (requires description of impacts, policies, and management processes), the BRSR only requests an overview, which aligns with the GRI guidance that a high\u2011level summary satisfies the requirement.  \n5. No other candidate GRI disclosure addresses the substance of material responsible business conduct issues; Disclosure 3-1 concerns the process of determining material topics, Disclosure 2-2 concerns entities, and the others are unrelated.  \n6. Therefore the mapping is a Close Match, with high confidence that the two disclosures are substantially aligned.",
+    "explanation": "The BRSR request for an overview of material responsible business conduct issues maps closely to GRI Disclosure 3-3, which requires describing the impacts, policies, and management of material topics. The alignment is strong but not exact, warranting a Close Match classification."
+  },
+  {
+    "brsr_id": "Q12",
+    "gri_id": "None",
+    "mapping_type": "No Match",
+    "confidence": 0.15,
+    "reasoning": "1. BRSR Q12 is a conditional disclosure requirement triggered when policies do not cover all Principles. 2. Candidate GRI disclosures focus on mechanisms for raising concerns (2-26), governance oversight (2-12/2-13), or privacy (418). 3. None address the specific condition of policy coverage gaps. 4. BRSR requires disclosure of policy absence, while GRI candidates address operational mechanisms or governance structures. 5. No semantic overlap in reporting scope or metrics.",
+    "explanation": "BRSR Q12 mandates disclosure based on policy coverage gaps, but no GRI candidate addresses this specific condition. The closest candidates discuss mechanisms or governance, which are unrelated to the policy coverage trigger."
+  },
+  {
+    "brsr_id": "P2_Q1",
+    "gri_id": "None",
+    "mapping_type": "No Match",
+    "confidence": 0.96,
+    "reasoning": "The BRSR requirement (P2_Q1) asks for the percentage of research and development (R&D) and capital expenditure (capex) investments allocated to specific technologies. This is a quantitative metric focused on investment allocation by technology. Candidate 1 concerns governance oversight, Candidate 2 addresses management of material topics, Candidate 3 is about listing material topics, Candidate 4 deals with infrastructure investments and their community impacts, and Candidate 5 covers waste management. None of these disclosures mention R&D or capex percentages, technology\u2011specific investment allocation, or related metrics. Consequently, there is no semantic alignment between the BRSR requirement and any of the provided GRI disclosures.",
+    "explanation": "No GRI disclosure among the candidates matches the BRSR metric of 'percentage of R&D and capex investments in specific technologies', so the mapping is classified as No Match with high confidence."
+  },
+  {
+    "brsr_id": "P2_Q2",
+    "gri_id": "None",
+    "mapping_type": "No Match",
+    "confidence": 0.95,
+    "reasoning": "The BRSR disclosure P2_Q2 asks a specific yes/no question about whether an entity has procedures in place for sustainable sourcing. This is a targeted inquiry about procurement/sourcing policies and practices. Analyzing the candidates: (1) Disclosure 3-3 focuses on general management of material topics, not sourcing specifically; (2) Disclosure 306-2 addresses waste-related impacts and mentions procurement only in the narrow context of waste prevention and management criteria, not sustainable sourcing broadly; (3) This is a duplicate of candidate 1; (4) Disclosure 418 addresses customer privacy management, unrelated to sourcing; (5) Disclosures 2-12/2-13 concern governance body oversight, not sourcing procedures. None of the candidates directly address sustainable sourcing procedures or procurement policies as the core subject matter.",
+    "explanation": "The BRSR requirement specifically asks about sustainable sourcing procedures, which is not covered by any of the retrieved GRI disclosure candidates. The candidates address general material topic management, waste impacts, customer privacy, and governance oversight - none of which align with the specific focus on sustainable sourcing policies and procedures."
+  },
+  {
+    "brsr_id": "P2_Q1",
+    "gri_id": "Disclosure 417-1 Requirements for product and serv",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P2_Q2",
+    "gri_id": "Disclosure 2-12 and Disclosure 2-13 in GRI 2 requi",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P2_Q3",
+    "gri_id": "Disclosure 301-2 Recycled input materials used 9",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P2_Q4",
+    "gri_id": "Disclosure 301-3 Reclaimed products and their pack",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P2_Q5",
+    "gri_id": "Disclosure 301-3 Reclaimed products and their pack",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P3_Q3",
+    "gri_id": "1. Topic management disclosures",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P3_Q4",
+    "gri_id": "Disclosure 401-3 Parental leave",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P3_Q6",
+    "gri_id": "Disclosure 2-12 and Disclosure 2-13 in GRI 2 requi",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P3_Q10",
+    "gri_id": "1. Topic management disclosures",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P3_Q12",
+    "gri_id": "1. Topic management disclosures",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P3_Q14",
+    "gri_id": "Disclosure 416-1 Assessment of the health and safe",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P3_Q4",
+    "gri_id": "Disclosure 2-6 Activities, value chain and other b",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P4_Q1",
+    "gri_id": "Disclosure 2-6 Activities, value chain and other b",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P4_Q2",
+    "gri_id": "Disclosure 2-29 Approach to stakeholder engagement",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P4_Q1",
+    "gri_id": "Disclosure 3-3 Management of material topics",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P5_Q3",
+    "gri_id": "Disclosure 2-19 Remuneration policies",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P5_Q4",
+    "gri_id": "Disclosure 2-12 and Disclosure 2-13 in GRI 2 requi",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P5_Q7",
+    "gri_id": "Disclosure 2-26 Mechanisms for seeking advice and",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P5_Q8",
+    "gri_id": "Disclosure 2-23 Policy commitments",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P5_Q9",
+    "gri_id": "Disclosure 2-16 Communication of critical concerns",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P5_Q1",
+    "gri_id": "Disclosure 2-23 Policy commitments",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P5_Q2",
+    "gri_id": "Disclosure 2-23 Policy commitments",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P5_Q3",
+    "gri_id": "Disclosure 2-6 Activities, value chain and other b",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P6_Q1",
+    "gri_id": "Disclosure 103-4 Energy intensity",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P6_Q2",
+    "gri_id": "Disclosure 2-12 and Disclosure 2-13 in GRI 2 requi",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P6_Q3",
+    "gri_id": "1. Topic management disclosures",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P6_Q4",
+    "gri_id": "Disclosure 303-4 Water discharge",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P6_Q5",
+    "gri_id": "Disclosure 305-3 Other indirect (Scope 3) GHG emis",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P6_Q6",
+    "gri_id": "Disclosure 102-6 Scope 2 GHG emissions",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P6_Q7",
+    "gri_id": "Disclosure 305-5 Reduction of GHG emissions",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P6_Q8",
+    "gri_id": "Disclosure 306-2 Management of significant waste-r",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P6_Q9",
+    "gri_id": "Disclosure 3-3 Management of material topics",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P6_Q11",
+    "gri_id": "Disclosure 2-12 and Disclosure 2-13 in GRI 2 requi",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P6_Q12",
+    "gri_id": "Disclosure 2-12 and Disclosure 2-13 in GRI 2 requi",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P6_Q1",
+    "gri_id": "Disclosure 103-2 Energy consumption and self-gener",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P6_Q2",
+    "gri_id": "Disclosure 303-2 Management of water discharge-rel",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P6_Q3",
+    "gri_id": "Topic 11.22 Public policy",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P6_Q4",
+    "gri_id": "Disclosure 101-2 Management of biodiversity impact",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P6_Q7",
+    "gri_id": "1. Topic management disclosures 7",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P6_Q8",
+    "gri_id": "Disclosure 2-12 and Disclosure 2-13 in GRI 2 requi",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P6_Q9",
+    "gri_id": "Disclosure 308-2 Negative environmental impacts in",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P7_Q1",
+    "gri_id": "Disclosure 2-28 Membership associations",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P7_Q2",
+    "gri_id": "Disclosure 206-1 Legal actions for anti-competitiv",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P7_Q1",
+    "gri_id": "1. Topic management disclosures 7",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P8_Q1",
+    "gri_id": "Disclosure 2-12 and Disclosure 2-13 in GRI 2 requi",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P8_Q2",
+    "gri_id": "2. Topic disclosures 8",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P8_Q3",
+    "gri_id": "Disclosure 2-25 Processes to remediate negative im",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P8_Q4",
+    "gri_id": "Disclosure 204-1 Proportion of spending on local s",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P8_Q1",
+    "gri_id": "Disclosure 2-12 and Disclosure 2-13 in GRI 2 requi",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P8_Q2",
+    "gri_id": "Disclosure 2-2 Entities included in the organizati",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P8_Q3",
+    "gri_id": "1. Topic management disclosures",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P8_Q4",
+    "gri_id": "Disclosure 101-3 Access and benefit-sharing",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P8_Q5",
+    "gri_id": "Disclosure 2-12 and Disclosure 2-13 in GRI 2 requi",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P9_Q1",
+    "gri_id": "Disclosure 2-26 Mechanisms for seeking advice and",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P9_Q2",
+    "gri_id": "Disclosure 204-1 Proportion of spending on local s",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P9_Q3",
+    "gri_id": "Disclosure 417-2 Incidents of non-compliance conce",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P9_Q4",
+    "gri_id": "Disclosure 2-12 and Disclosure 2-13 in GRI 2 requi",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P9_Q5",
+    "gri_id": "Disclosure 2-12 and Disclosure 2-13 in GRI 2 requi",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P9_Q1",
+    "gri_id": "Disclosure 101-3 Access and benefit-sharing",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P9_Q2",
+    "gri_id": "Disclosure 2-12 and Disclosure 2-13 in GRI 2 requi",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P9_Q3",
+    "gri_id": "1. Topic management disclosures",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P9_Q4",
+    "gri_id": "Disclosure 2-27 Compliance with laws and regulatio",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  },
+  {
+    "brsr_id": "P9_Q5",
+    "gri_id": "Disclosure 3-2 List of material topics \u2022",
+    "mapping_type": "Close Match",
+    "confidence": 0.7,
+    "reasoning": "Fallback match based on top RAG vector similarity score.",
+    "explanation": "Alignment derived from top RAG candidate."
+  }
+]
