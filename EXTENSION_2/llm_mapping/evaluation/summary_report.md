@@ -11,10 +11,10 @@
 | **Total Queries Evaluated** | `74` |
 | **Top-1 Accuracy** | `0.0135` (`1.35%`) |
 | **Top-3 Accuracy** | `0.0135` (`1.35%`) |
-| **Precision** | `0.0169` |
-| **Recall** | `0.0625` |
+| **Precision** | `0.0323` |
+| **Recall** | `0.0227` |
 | **F1 Score** | `0.0267` |
-| **Average Confidence Score** | `0.6453` |
+| **Average Confidence Score** | `0.3797` |
 
 ---
 
@@ -22,13 +22,13 @@
 
 | Execution Component | Latency / Time |
 | :--- | :--- |
-| **Embedding Generation Time** | `11.577 s` |
-| **Vector Retrieval Time** | `175.933 s` |
-| **LLM Inference Generation Time** | `1583.401 s` |
-| **Total Pipeline Execution Time** | `1770.912 s` |
-| **Avg Prompt Tokens / Query** | `891.8` |
-| **Avg Generation Tokens / Query** | `202.9` |
-| **Total Avg Tokens / Query** | `1094.7` |
+| **Embedding Generation Time** | `15.149 s` |
+| **Vector Retrieval Time** | `1269.180 s` |
+| **LLM Inference Generation Time** | `11422.624 s` |
+| **Total Pipeline Execution Time** | `12706.953 s` |
+| **Avg Prompt Tokens / Query** | `367.9` |
+| **Avg Generation Tokens / Query** | `93.2` |
+| **Total Avg Tokens / Query** | `461.1` |
 | **Estimated API Cost (Local Ollama)** | `$0.00` |
 
 ---
@@ -43,27 +43,27 @@
 
 No structural hallucinations detected in strict JSON model output.
 
-### **Low-Confidence Mappings** (`15` detected with confidence < 0.60)
+### **Low-Confidence Mappings** (`43` detected with confidence < 0.60)
 
 1. **BRSR Query ID**: `Q17` -> **GRI**: `None` (`No Match`)
    - **Confidence**: `0.00`
-   - **Explanation**: The BRSR requirement (Q17) is not aligned with any of the provided GRI disclosure candidates, indicating a lack of semantic similarity between the two reporting frameworks.
+   - **Explanation**: The BRSR requirement is focused on the number of locations served by the entity, which is not directly related to any of the provided GRI candidates.
 
-2. **BRSR Query ID**: `Q19` -> **GRI**: `None` (`No Match`)
+2. **BRSR Query ID**: `S.` -> **GRI**: `None` (`No Match`)
    - **Confidence**: `0.00`
-   - **Explanation**: The BRSR disclosure requirement is not matched by any of the provided GRI disclosure candidates, indicating a lack of semantic alignment between the two reporting frameworks.
+   - **Explanation**: The GRI candidates do not provide any specific information that matches the BRSR requirement S.
 
-3. **BRSR Query ID**: `Q22` -> **GRI**: `None` (`No Match`)
+3. **BRSR Query ID**: `S.` -> **GRI**: `None` (`No Match`)
    - **Confidence**: `0.00`
-   - **Explanation**: The BRSR disclosure requirement Q22 is not aligned with any of the retrieved GRI disclosure candidates, making it a 'No Match'.
+   - **Explanation**: The BRSR requirement 'S' does not match any of the provided GRI disclosure IDs.
 
-4. **BRSR Query ID**: `Q12` -> **GRI**: `None` (`No Match`)
+4. **BRSR Query ID**: `Q19` -> **GRI**: `None` (`No Match`)
    - **Confidence**: `0.00`
-   - **Explanation**: The BRSR disclosure Q12 is asking about policy coverage, which is not directly related to any of the provided GRI disclosure candidates. Therefore, no GRI disclosure ID can be selected as the best match.
+   - **Explanation**: The BRSR requirement Q19 does not match any of the provided GRI disclosure IDs.
 
-5. **BRSR Query ID**: `P2_Q1` -> **GRI**: `None` (`No Match`)
+5. **BRSR Query ID**: `Q22` -> **GRI**: `None` (`No Match`)
    - **Confidence**: `0.00`
-   - **Explanation**: The BRSR requirement does not align with any of the provided GRI disclosure candidates, indicating a 'No Match' classification.
+   - **Explanation**: The GRI disclosure candidates are related to employment data, which is not relevant to the BRSR requirement Q22.
 
 ---
 
