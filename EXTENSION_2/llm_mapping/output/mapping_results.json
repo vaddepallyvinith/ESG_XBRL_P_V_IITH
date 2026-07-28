@@ -5,23 +5,15 @@
     "mapping_type": "No Match",
     "confidence": 0.0,
     "reasoning": "None of the provided GRI candidates match the BRSR requirement.",
-    "explanation": "The BRSR requirement is focused on the number of locations served by the entity, which is not directly related to any of the provided GRI candidates."
+    "explanation": "The BRSR requirement is focused on the number of locations served by the entity, which is not directly related to the provided GRI candidates."
   },
   {
     "brsr_id": "Q18",
     "gri_id": "Disclosure 2-7 Employees",
     "mapping_type": "Exact Match",
     "confidence": 1.0,
-    "reasoning": "The GRI disclosure ID 2-7 Employees matches the BRSR requirement Q18, which asks for details of employees and workers.",
-    "explanation": "The GRI disclosure ID 2-7 Employees is a direct match for the BRSR requirement Q18, as it covers all employees."
-  },
-  {
-    "brsr_id": "S.",
-    "gri_id": "None",
-    "mapping_type": "No Match",
-    "confidence": 0.0,
-    "reasoning": "No clear match found between BRSR requirement S and the provided GRI candidates.",
-    "explanation": "The GRI candidates do not provide any specific information that matches the BRSR requirement S."
+    "reasoning": "The GRI disclosure ID 2-7 directly corresponds to the BRSR requirement Q18, which asks for details about employees and workers.",
+    "explanation": "The GRI disclosure ID 2-7 Employees is a direct match for the BRSR requirement Q18, as it covers all employees who perform work for the reporting organization."
   },
   {
     "brsr_id": "S.",
@@ -29,7 +21,15 @@
     "mapping_type": "No Match",
     "confidence": 0.0,
     "reasoning": "No matching GRI disclosure found",
-    "explanation": "The BRSR requirement 'S' does not match any of the provided GRI disclosure IDs."
+    "explanation": "The BRSR requirement 'S' does not match any of the provided GRI disclosure options."
+  },
+  {
+    "brsr_id": "S.",
+    "gri_id": "None",
+    "mapping_type": "No Match",
+    "confidence": 0.0,
+    "reasoning": "No clear match found between BRSR requirement S and GRI disclosures.",
+    "explanation": "The BRSR requirement S does not match any of the provided GRI disclosure IDs."
   },
   {
     "brsr_id": "Q19",
@@ -45,7 +45,7 @@
     "mapping_type": "No Match",
     "confidence": 0.0,
     "reasoning": "The BRSR requirement Q22 is asking for information about CSR applicability and financial data, which does not match any of the provided GRI disclosure candidates.",
-    "explanation": "The GRI disclosure candidates are related to employment data, which is not relevant to the BRSR requirement Q22."
+    "explanation": "The GRI disclosure candidates are related to employment and employee turnover, which is not relevant to the BRSR requirement Q22."
   },
   {
     "brsr_id": "Q23",
@@ -60,16 +60,16 @@
     "gri_id": "None",
     "mapping_type": "No Match",
     "confidence": 0.0,
-    "reasoning": "None of the provided GRI candidates match the BRSR requirement Q24, which is focused on responsible business conduct issues.",
-    "explanation": "The GRI candidates provided are related to management of material topics, entities included in sustainability reporting, and do not address responsible business conduct issues directly."
+    "reasoning": "None of the provided GRI candidates match the BRSR requirement Q24.",
+    "explanation": "The BRSR requirement Q24 asks for an overview of material responsible business conduct issues, which is not directly addressed by any of the provided GRI candidates."
   },
   {
     "brsr_id": "Q12",
     "gri_id": "None",
     "mapping_type": "No Match",
     "confidence": 0.0,
-    "reasoning": "The BRSR requirement Q12 does not match any of the provided GRI disclosure candidates.",
-    "explanation": "The requirement is about not all Principles being covered by a policy, which is not directly related to any of the provided GRI disclosures."
+    "reasoning": "The BRSR requirement Q12 is asking about the coverage of all Principles by a policy, which is not directly related to any of the provided GRI disclosure candidates.",
+    "explanation": "The GRI disclosure candidates provided do not match the BRSR requirement Q12, which is focused on policy coverage of Principles."
   },
   {
     "brsr_id": "P2_Q1",
@@ -93,30 +93,30 @@
     "mapping_type": "No Match",
     "confidence": 0.0,
     "reasoning": "None of the provided GRI candidates directly match the BRSR requirement.",
-    "explanation": "The BRSR requirement is about conducting Life Cycle Perspective / Assessments (LCA), which is not directly related to the provided GRI candidates."
+    "explanation": "The BRSR requirement is about conducting Life Cycle Perspective / Assessments (LCA), which is not directly related to any of the provided GRI candidates."
   },
   {
     "brsr_id": "P2_Q2",
     "gri_id": "None",
     "mapping_type": "No Match",
     "confidence": 0.0,
-    "reasoning": "None of the provided GRI candidates directly match the BRSR requirement.",
-    "explanation": "The BRSR requirement is about significant social or environmental concerns and/or risks, which is not explicitly covered by the provided GRI candidates."
+    "reasoning": "None of the provided GRI candidates directly address the requirement for significant social or environmental concerns and/or risks arising from the organization's activities.",
+    "explanation": "The requirement seems to be more focused on governance and risk management, which is not explicitly covered by the provided GRI candidates."
   },
   {
     "brsr_id": "P2_Q3",
     "gri_id": "Disclosure 301-2 Recycled input materials used 9",
     "mapping_type": "Exact Match",
     "confidence": 1.0,
-    "reasoning": "The GRI disclosure 301-2 directly addresses the percentage of recycled input materials used.",
-    "explanation": "The BRSR requirement is identical to the GRI disclosure 301-2, making it an exact match."
+    "reasoning": "The GRI disclosure 301-2 directly corresponds to the BRSR requirement P2_Q3, which asks for the percentage of recycled or reused input material to total material (by value) used.",
+    "explanation": "The GRI disclosure 301-2 is a direct match as it specifically asks for the percentage of recycled input materials used, aligning with the BRSR requirement."
   },
   {
     "brsr_id": "P2_Q4",
     "gri_id": "Disclosure 301-3 Reclaimed products and their pack",
     "mapping_type": "Exact Match",
     "confidence": 1.0,
-    "reasoning": "The GRI disclosure 301-3 directly matches the BRSR requirement P2_Q4, which asks for the amount of products and packaging reclaimed at end of life.",
+    "reasoning": "The GRI disclosure 301-3 directly matches the BRSR requirement P2_Q4, which asks for the amount of products and packaging reclaimed at end of life of products.",
     "explanation": "The GRI disclosure 301-3 is the most relevant and accurate match for the BRSR requirement P2_Q4."
   },
   {
@@ -124,16 +124,16 @@
     "gri_id": "Disclosure 301-3 Reclaimed products and their pack",
     "mapping_type": "Exact Match",
     "confidence": 1.0,
-    "reasoning": "The GRI disclosure 301-3 directly matches the BRSR requirement P2_Q5, as it covers the percentage of reclaimed products and their packaging materials.",
-    "explanation": "The GRI disclosure 301-3 is a direct match for the BRSR requirement P2_Q5, with no additional information required."
+    "reasoning": "The GRI disclosure 301-3 directly matches the BRSR requirement P2_Q5 in terms of content and structure.",
+    "explanation": "The GRI disclosure 301-3 is a direct match for the BRSR requirement P2_Q5, as it reports on the percentage of reclaimed products and their packaging materials."
   },
   {
     "brsr_id": "P3_Q3",
     "gri_id": "None",
     "mapping_type": "No Match",
     "confidence": 0.0,
-    "reasoning": "The GRI candidates provided do not match the BRSR requirement.",
-    "explanation": "The BRSR requirement is about accessibility of workplaces, which is not related to the GRI candidates provided."
+    "reasoning": "The provided GRI candidates do not match the BRSR requirement.",
+    "explanation": "The BRSR requirement P3_Q3 is about workplace accessibility, which is not covered by the provided GRI candidates."
   },
   {
     "brsr_id": "P3_Q4",
@@ -149,15 +149,15 @@
     "mapping_type": "No Match",
     "confidence": 0.0,
     "reasoning": "None of the provided GRI candidates directly address the availability of a mechanism to receive and redress grievances.",
-    "explanation": "The BRSR requirement P3_Q6 focuses on the existence of a grievance mechanism, which is not explicitly covered by the given GRI candidates."
+    "explanation": "The BRSR requirement P3_Q6 focuses on the existence of a grievance mechanism, which is not explicitly covered by the provided GRI candidates."
   },
   {
     "brsr_id": "P3_Q10",
     "gri_id": "Disclosure 403-8 Workers covered by an occupationa",
     "mapping_type": "Exact Match",
     "confidence": 1.0,
-    "reasoning": "The BRSR requirement is asking for a health and safety management system, which is directly related to the GRI disclosure 403-8 Workers covered by an occupational health and safety management system.",
-    "explanation": "The GRI disclosure 403-8 is a direct match to the BRSR requirement P3_Q10, as it specifically mentions an occupational health and safety management system."
+    "reasoning": "The BRSR requirement directly matches the GRI disclosure ID 403-8, which is about occupational health and safety management system.",
+    "explanation": "The exact match is due to the identical topic and wording between the BRSR requirement and the GRI disclosure."
   },
   {
     "brsr_id": "P3_Q12",
@@ -165,7 +165,7 @@
     "mapping_type": "No Match",
     "confidence": 0.0,
     "reasoning": "The given GRI candidates do not match the BRSR requirement.",
-    "explanation": "The BRSR requirement is about workplace safety and health, while the GRI candidates are about management disclosures and governance."
+    "explanation": "The BRSR requirement is about workplace safety and health, while the GRI candidates are about management disclosures and governance, which do not match."
   },
   {
     "brsr_id": "P3_Q14",
@@ -181,7 +181,7 @@
     "mapping_type": "No Match",
     "confidence": 0.0,
     "reasoning": "None of the provided GRI candidates directly address transition assistance programs.",
-    "explanation": "The BRSR requirement P3_Q4 is focused on transition assistance programs, which is not explicitly covered by the provided GRI candidates."
+    "explanation": "The BRSR requirement P3_Q4 focuses on transition assistance programs, which is not explicitly covered by the given GRI candidates."
   },
   {
     "brsr_id": "P4_Q1",
@@ -189,7 +189,7 @@
     "mapping_type": "Exact Match",
     "confidence": 1.0,
     "reasoning": "The GRI 303-1 disclosure directly addresses the process of identifying material topics, which is closely related to identifying key stakeholder groups.",
-    "explanation": "The GRI 303-1 disclosure is the most relevant to the BRSR requirement P4_Q1 as it outlines the process for determining material topics, which is a crucial step in identifying key stakeholder groups."
+    "explanation": "While the BRSR requirement is more focused on stakeholder groups, the GRI 303-1 disclosure provides a similar process for determining material topics, making it the best match."
   },
   {
     "brsr_id": "P4_Q2",
@@ -201,43 +201,43 @@
   },
   {
     "brsr_id": "P4_Q1",
-    "gri_id": "Disclosure 3-1 Process to determine material topic",
+    "gri_id": "Disclosure 3-3 Management of material topics",
     "mapping_type": "Exact Match",
     "confidence": 1.0,
-    "reasoning": "The BRSR requirement asks for processes for consultation between stakeholders and the Board, which aligns with the GRI 3-1 disclosure on the process to determine material topics.",
-    "explanation": "The GRI 3-1 disclosure directly addresses the process of determining material topics, which includes consultation with stakeholders and the Board."
+    "reasoning": "The BRSR requirement directly matches the GRI 3-3 disclosure, which is about management of material topics.",
+    "explanation": "The requirement to provide processes for consultation between stakeholders and the Board aligns with the GRI 3-3 disclosure, making it an exact match."
   },
   {
     "brsr_id": "P5_Q3",
     "gri_id": "Disclosure 2-20 Process to determine remuneration",
     "mapping_type": "Exact Match",
     "confidence": 1.0,
-    "reasoning": "The BRSR requirement P5_Q3 specifically asks for details of remuneration/salary/wages, which aligns with the GRI 2-20 disclosure on Process to determine remuneration.",
-    "explanation": "This is a direct match as both the BRSR requirement and the GRI disclosure are focused on remuneration policies and processes."
+    "reasoning": "The BRSR requirement P5_Q3 specifically asks for 'Details of remuneration/salary/wages', which aligns with the GRI 2-20 disclosure 'Process to determine remuneration'.",
+    "explanation": "The GRI 2-20 disclosure directly addresses the remuneration process, making it the best match for the BRSR requirement."
   },
   {
     "brsr_id": "P5_Q4",
     "gri_id": "None",
     "mapping_type": "No Match",
     "confidence": 0.0,
-    "reasoning": "None of the provided GRI candidates directly address the focal point responsible for addressing human rights.",
-    "explanation": "The BRSR requirement P5_Q4 is focused on identifying a focal point for human rights, which is not explicitly covered by the provided GRI candidates."
+    "reasoning": "None of the provided GRI candidates match the BRSR requirement.",
+    "explanation": "The BRSR requirement is about having a focal point for addressing human rights, which is not directly related to any of the provided GRI candidates."
   },
   {
     "brsr_id": "P5_Q7",
     "gri_id": "None",
     "mapping_type": "No Match",
     "confidence": 0.0,
-    "reasoning": "None of the provided GRI disclosures directly address mechanisms to prevent adverse consequences to the complainant in discrimination.",
-    "explanation": "The GRI disclosures provided focus on mechanisms for seeking advice and raising concerns, incidents of discrimination, and management disclosures, but do not specifically address preventing adverse consequences to the complainant in discrimination."
+    "reasoning": "The given GRI candidates do not match the BRSR requirement.",
+    "explanation": "The BRSR requirement is focused on mechanisms to prevent adverse consequences to the complainant in discrimination, which is not directly addressed by the provided GRI candidates."
   },
   {
     "brsr_id": "P5_Q8",
     "gri_id": "None",
     "mapping_type": "No Match",
     "confidence": 0.0,
-    "reasoning": "None of the provided GRI disclosure candidates directly address the requirement of human rights requirements forming part of business agreements and contracts.",
-    "explanation": "The GRI disclosure candidates focus on policy commitments, embedding policy commitments, and governance body oversight, but do not specifically address the inclusion of human rights requirements in business agreements and contracts."
+    "reasoning": "None of the provided GRI candidates directly address the question of human rights requirements in business agreements and contracts.",
+    "explanation": "The GRI candidates focus on policy commitments, embedding policy commitments, and governance, but do not specifically address human rights requirements in business agreements and contracts."
   },
   {
     "brsr_id": "P5_Q9",
@@ -245,15 +245,15 @@
     "mapping_type": "No Match",
     "confidence": 0.0,
     "reasoning": "None of the provided GRI candidates match the BRSR requirement.",
-    "explanation": "The BRSR requirement is about assessments for the year, which is not directly related to any of the provided GRI candidates."
+    "explanation": "The BRSR requirement is about assessments for the year, but none of the provided GRI candidates match this requirement."
   },
   {
     "brsr_id": "P5_Q1",
     "gri_id": "None",
     "mapping_type": "No Match",
     "confidence": 0.0,
-    "reasoning": "None of the provided GRI candidates match the BRSR requirement.",
-    "explanation": "The BRSR requirement is about business process modification/introduction as a result of addressing a principle, which is not directly related to the provided GRI candidates."
+    "reasoning": "None of the provided GRI disclosures match the BRSR requirement.",
+    "explanation": "The BRSR requirement is about business process modification/introduction due to addressing, which is not directly related to any of the provided GRI disclosures."
   },
   {
     "brsr_id": "P5_Q2",
@@ -261,7 +261,7 @@
     "mapping_type": "No Match",
     "confidence": 0.0,
     "reasoning": "None of the provided GRI candidates match the BRSR requirement.",
-    "explanation": "The BRSR requirement is focused on the scope and coverage of human rights due-diligence, which is not directly addressed by the provided GRI candidates."
+    "explanation": "The BRSR requirement is asking for details of human rights due-diligence conducted, which is not directly related to the provided GRI candidates."
   },
   {
     "brsr_id": "P5_Q3",
@@ -275,17 +275,17 @@
     "brsr_id": "P6_Q1",
     "gri_id": "Disclosure 103-2 Energy consumption and self-gener",
     "mapping_type": "Exact Match",
-    "confidence": 1.0,
-    "reasoning": "The BRSR requirement asks for 'total energy consumption' and 'energy intensity', which aligns with the GRI 103-2 disclosure that covers 'Energy consumption and self-generation within the organization'.",
-    "explanation": "The GRI 103-2 disclosure is the most relevant to the BRSR requirement as it directly addresses energy consumption and intensity, which are the key elements of the BRSR requirement."
+    "confidence": 0.9,
+    "reasoning": "The BRSR requirement asks for 'total energy consumption' and 'energy intensity', which closely matches the GRI 103-2 disclosure that deals with 'Energy consumption and self-generation within the organization'.",
+    "explanation": "Although GRI 103-2 does not explicitly mention 'energy intensity', it is implied as a ratio of energy consumption. This makes it the best match among the given GRI candidates."
   },
   {
     "brsr_id": "P6_Q2",
     "gri_id": "None",
     "mapping_type": "No Match",
     "confidence": 0.0,
-    "reasoning": "None of the provided GRI candidates match the BRSR requirement.",
-    "explanation": "The BRSR requirement is about designated consumers (DCs) under Principle 6, which is not directly related to any of the provided GRI candidates."
+    "reasoning": "None of the provided GRI candidates directly address the question of designated consumers (DCs) under Principle 6.",
+    "explanation": "The question is specific to Principle 6 and designated consumers, which is not covered by any of the provided GRI candidates."
   },
   {
     "brsr_id": "P6_Q3",
@@ -293,15 +293,15 @@
     "mapping_type": "Exact Match",
     "confidence": 1.0,
     "reasoning": "The BRSR requirement matches the GRI requirement for water withdrawal, which is a specific disclosure related to water.",
-    "explanation": "The BRSR requirement is looking for details on water withdrawal, which is exactly what GRI 303-3 is about."
+    "explanation": "The BRSR requirement is looking for details of water disclosures, and GRI 303-3 is a specific requirement for water withdrawal, making it an exact match."
   },
   {
     "brsr_id": "P6_Q4",
     "gri_id": "Disclosure 303-4 Water discharge",
     "mapping_type": "Exact Match",
     "confidence": 1.0,
-    "reasoning": "The BRSR requirement directly asks for details on Zero Liquid Discharge, which is closely related to water discharge.",
-    "explanation": "The GRI disclosure 303-4 Water discharge directly matches the BRSR requirement, making it an exact match."
+    "reasoning": "The BRSR requirement directly asks about Zero Liquid Discharge, which is closely related to water discharge.",
+    "explanation": "The GRI disclosure 303-4 directly addresses water discharge, making it the best match for the BRSR requirement."
   },
   {
     "brsr_id": "P6_Q5",
@@ -309,15 +309,15 @@
     "mapping_type": "No Match",
     "confidence": 0.0,
     "reasoning": "None of the provided GRI candidates match the BRSR requirement for air emissions (other than GHG emissions).",
-    "explanation": "The BRSR requirement is focused on air emissions other than GHG, whereas the GRI candidates are related to GHG emissions."
+    "explanation": "The BRSR requirement is focused on air emissions other than GHG, which is not directly addressed by any of the provided GRI candidates."
   },
   {
     "brsr_id": "P6_Q6",
     "gri_id": "Disclosure 305-1 Direct (Scope 1) GHG emissions",
     "mapping_type": "Exact Match",
     "confidence": 1.0,
-    "reasoning": "The BRSR requirement specifically asks for Scope 1 emissions, which matches the GRI disclosure 305-1 Direct (Scope 1) GHG emissions.",
-    "explanation": "The GRI disclosure 305-1 is a direct match for the BRSR requirement P6_Q6 as it specifically asks for Scope 1 emissions."
+    "reasoning": "The BRSR requirement specifically asks for Scope 1 and Scope 2 emissions, which matches the GRI disclosure 305-1 Direct (Scope 1) GHG emissions.",
+    "explanation": "The GRI disclosure 305-1 is the most direct match for the BRSR requirement, as it specifically mentions Scope 1 emissions, which is part of the requirement."
   },
   {
     "brsr_id": "P6_Q7",
@@ -333,15 +333,15 @@
     "mapping_type": "Exact Match",
     "confidence": 1.0,
     "reasoning": "The BRSR requirement directly matches the GRI disclosure ID 306-2, which is about management of significant waste-related impacts.",
-    "explanation": "The requirement is very specific about waste management, and GRI 306-2 is the most relevant disclosure for this topic."
+    "explanation": "The requirement specifically asks for details related to waste management, aligning with the GRI disclosure's focus on significant waste-related impacts."
   },
   {
     "brsr_id": "P6_Q9",
     "gri_id": "None",
     "mapping_type": "No Match",
     "confidence": 0.0,
-    "reasoning": "None of the provided GRI candidates match the BRSR requirement.",
-    "explanation": "The BRSR requirement is focused on waste management practices, which is not directly addressed by any of the provided GRI candidates."
+    "reasoning": "None of the provided GRI candidates directly address waste management practices in establishments.",
+    "explanation": "The BRSR requirement P6_Q9 specifically asks for waste management practices, which is not covered by the provided GRI candidates."
   },
   {
     "brsr_id": "P6_Q11",
@@ -349,15 +349,15 @@
     "mapping_type": "No Match",
     "confidence": 0.0,
     "reasoning": "None of the provided GRI candidates match the BRSR requirement.",
-    "explanation": "The BRSR requirement is asking for details of environmental impact assessments of projects undertaken by the entity, which is not directly related to the provided GRI candidates."
+    "explanation": "The BRSR requirement is about environmental impact assessments of projects, which is not directly related to the provided GRI candidates."
   },
   {
     "brsr_id": "P6_Q12",
     "gri_id": "Disclosure 2-27 Compliance with laws and regulatio",
     "mapping_type": "Exact Match",
     "confidence": 1.0,
-    "reasoning": "Direct match on 'Compliance with laws and regulations' in both BRSR and GRI",
-    "explanation": "BRSR P6_Q12 directly corresponds to GRI 2-27, which requires information on compliance with laws and regulations."
+    "reasoning": "Direct match on 'Compliance with laws and regulations' which is the core requirement of BRSR P6_Q12.",
+    "explanation": "BRSR P6_Q12 specifically asks about environmental law/regulations/guidelines compliance, which is directly addressed by GRI 2-27."
   },
   {
     "brsr_id": "P6_Q1",
@@ -365,31 +365,31 @@
     "mapping_type": "Exact Match",
     "confidence": 0.9,
     "reasoning": "The BRSR requirement asks for a break-up of total energy consumed from renewable sources, which is closely related to energy consumption and self-generation within the organization.",
-    "explanation": "While the BRSR requirement is more specific to renewable energy, the GRI disclosure 103-2 is the closest match as it covers energy consumption and self-generation, which includes renewable energy sources."
+    "explanation": "The GRI Disclosure 103-2 directly addresses energy consumption and self-generation, making it the best match for the BRSR requirement."
   },
   {
     "brsr_id": "P6_Q2",
     "gri_id": "Disclosure 303-4 Water discharge",
     "mapping_type": "Exact Match",
     "confidence": 1.0,
-    "reasoning": "The BRSR requirement asks for details related to water discharged, which matches the GRI disclosure ID 303-4 Water discharge.",
-    "explanation": "This is an exact match as both the BRSR requirement and the GRI disclosure ID 303-4 are related to water discharge."
+    "reasoning": "The BRSR requirement asks for details related to water discharged, which is directly addressed by GRI 303-4 Water discharge.",
+    "explanation": "This is an exact match as both BRSR and GRI are asking for the same information, water discharge."
   },
   {
     "brsr_id": "P6_Q3",
     "gri_id": "Disclosure 303-5 Water consumption",
     "mapping_type": "Exact Match",
     "confidence": 1.0,
-    "reasoning": "Direct match on 'Water consumption' in the GRI disclosure ID",
-    "explanation": "The BRSR requirement directly corresponds to the GRI disclosure on water consumption."
+    "reasoning": "Direct match on water consumption disclosure",
+    "explanation": "The BRSR requirement directly matches the GRI disclosure 303-5 Water consumption."
   },
   {
     "brsr_id": "P6_Q4",
     "gri_id": "None",
     "mapping_type": "No Match",
     "confidence": 0.0,
-    "reasoning": "The given BRSR requirement is related to Scope 3 emissions, which is not directly related to biodiversity or environmental impact.",
-    "explanation": "The provided GRI candidates are all related to biodiversity and environmental impact, which does not match the requirement for Scope 3 emissions."
+    "reasoning": "The BRSR requirement is about Scope 3 emissions, which is not related to biodiversity impact or loss.",
+    "explanation": "The provided GRI candidates are all related to biodiversity, which does not match the BRSR requirement about Scope 3 emissions."
   },
   {
     "brsr_id": "P6_Q7",
@@ -405,7 +405,7 @@
     "mapping_type": "No Match",
     "confidence": 0.0,
     "reasoning": "None of the provided GRI candidates directly address the disclosure of significant adverse environmental impacts from the value chain.",
-    "explanation": "The GRI candidates either discuss governance, biodiversity, or anti-corruption, which do not align with the BRSR requirement for environmental impact disclosure."
+    "explanation": "The GRI candidates either focus on governance, biodiversity, or anti-corruption, which do not align with the BRSR requirement of disclosing significant adverse environmental impacts from the value chain."
   },
   {
     "brsr_id": "P6_Q9",
@@ -413,7 +413,7 @@
     "mapping_type": "Narrow Match",
     "confidence": 0.8,
     "reasoning": "The GRI disclosure 308-2 is about negative environmental impacts in the supply chain, which is closely related to the value chain partners mentioned in the BRSR requirement.",
-    "explanation": "Although the exact wording is not a perfect match, the essence of both disclosures is about the value chain and supply chain, making 308-2 the best available option."
+    "explanation": "Although the BRSR requirement is focused on the percentage of value chain partners, the GRI disclosure 308-2 is the closest match as it deals with the supply chain, which is a broader category that includes value chain partners."
   },
   {
     "brsr_id": "P7_Q1",
@@ -429,7 +429,7 @@
     "mapping_type": "Exact Match",
     "confidence": 1.0,
     "reasoning": "The BRSR requirement directly asks for corrective action on anti-competitive behavior, which is exactly what GRI 206-1 is about.",
-    "explanation": "GRI 206-1 is the most relevant disclosure as it specifically deals with legal actions for anti-competitive behavior, anti-trust, and monopoly practices."
+    "explanation": "GRI 206-1 is the most relevant disclosure as it specifically deals with legal actions for anti-competitive behavior, which is closely related to the corrective action required by the BRSR."
   },
   {
     "brsr_id": "P7_Q1",
@@ -444,8 +444,8 @@
     "gri_id": "None",
     "mapping_type": "No Match",
     "confidence": 0.0,
-    "reasoning": "None of the provided GRI candidates match the BRSR requirement.",
-    "explanation": "The BRSR requirement is about Social Impact Assessments (SIA) of projects, which is not directly related to any of the provided GRI candidates."
+    "reasoning": "None of the provided GRI candidates match the BRSR requirement for Social Impact Assessments.",
+    "explanation": "The BRSR requirement is specific to Social Impact Assessments, which is not directly addressed by any of the provided GRI candidates."
   },
   {
     "brsr_id": "P8_Q2",
@@ -458,50 +458,50 @@
   {
     "brsr_id": "P8_Q3",
     "gri_id": "Disclosure 2-25 Processes to remediate negative im",
-    "mapping_type": "Close Match",
-    "confidence": 0.7,
-    "reasoning": "Fallback match based on top RAG vector similarity score.",
-    "explanation": "Alignment derived from top RAG candidate."
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "The GRI disclosure 2-25 directly addresses the remediation of negative impacts, which aligns with the BRSR requirement of describing mechanisms to receive and redress grievances of the community.",
+    "explanation": "The language used in both the BRSR requirement and GRI disclosure 2-25 is very similar, indicating a direct match."
   },
   {
     "brsr_id": "P8_Q4",
-    "gri_id": "Disclosure 204-1 Proportion of spending on local s",
-    "mapping_type": "Close Match",
-    "confidence": 0.7,
-    "reasoning": "Fallback match based on top RAG vector similarity score.",
-    "explanation": "Alignment derived from top RAG candidate."
+    "gri_id": "None",
+    "mapping_type": "No Match",
+    "confidence": 0.0,
+    "reasoning": "None of the provided GRI candidates match the BRSR requirement.",
+    "explanation": "The BRSR requirement is about sourcing input materials from suppliers, but the provided GRI candidates do not address this specific topic."
   },
   {
     "brsr_id": "P8_Q1",
-    "gri_id": "Disclosure 2-12 and Disclosure 2-13 in GRI 2 requi",
-    "mapping_type": "Close Match",
-    "confidence": 0.7,
-    "reasoning": "Fallback match based on top RAG vector similarity score.",
-    "explanation": "Alignment derived from top RAG candidate."
+    "gri_id": "Disclosure 2-25 Processes to remediate negative im",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "The BRSR requirement directly asks for actions taken to mitigate negative social impacts, which aligns with the GRI 2-25 disclosure on processes to remediate negative impacts.",
+    "explanation": "GRI 2-25 is the most direct match as it specifically addresses the remediation of negative impacts, which is in line with the BRSR requirement."
   },
   {
     "brsr_id": "P8_Q2",
-    "gri_id": "Disclosure 2-2 Entities included in the organizati",
-    "mapping_type": "Close Match",
-    "confidence": 0.7,
-    "reasoning": "Fallback match based on top RAG vector similarity score.",
-    "explanation": "Alignment derived from top RAG candidate."
+    "gri_id": "None",
+    "mapping_type": "No Match",
+    "confidence": 0.0,
+    "reasoning": "None of the provided GRI candidates match the BRSR requirement P8_Q2.",
+    "explanation": "The BRSR requirement P8_Q2 asks for information on CSR projects undertaken by the entity, which is not directly related to any of the provided GRI candidates."
   },
   {
     "brsr_id": "P8_Q3",
-    "gri_id": "1. Topic management disclosures",
-    "mapping_type": "Close Match",
-    "confidence": 0.7,
-    "reasoning": "Fallback match based on top RAG vector similarity score.",
-    "explanation": "Alignment derived from top RAG candidate."
+    "gri_id": "None",
+    "mapping_type": "No Match",
+    "confidence": 0.0,
+    "reasoning": "The BRSR requirement is about preferential procurement policy, which is not directly related to any of the provided GRI candidates.",
+    "explanation": "The GRI candidates do not cover preferential procurement policies, so there is no match."
   },
   {
     "brsr_id": "P8_Q4",
     "gri_id": "Disclosure 101-3 Access and benefit-sharing",
-    "mapping_type": "Close Match",
-    "confidence": 0.7,
-    "reasoning": "Fallback match based on top RAG vector similarity score.",
-    "explanation": "Alignment derived from top RAG candidate."
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "The GRI disclosure 101-3 Access and benefit-sharing directly corresponds to the BRSR requirement P8_Q4, which asks for details of the benefits derived and shared from intellectual properties.",
+    "explanation": "The BRSR requirement is directly related to the sharing of benefits from intellectual properties, which is the core focus of GRI disclosure 101-3."
   },
   {
     "brsr_id": "P8_Q5",
@@ -513,11 +513,11 @@
   },
   {
     "brsr_id": "P9_Q1",
-    "gri_id": "Disclosure 2-26 Mechanisms for seeking advice and",
-    "mapping_type": "Close Match",
-    "confidence": 0.7,
-    "reasoning": "Fallback match based on top RAG vector similarity score.",
-    "explanation": "Alignment derived from top RAG candidate."
+    "gri_id": "None",
+    "mapping_type": "No Match",
+    "confidence": 0.0,
+    "reasoning": "None of the provided GRI candidates directly match the BRSR requirement.",
+    "explanation": "The BRSR requirement is focused on receiving and responding to consumer complaints, which is not explicitly covered by the provided GRI candidates."
   },
   {
     "brsr_id": "P9_Q2",
@@ -525,15 +525,15 @@
     "mapping_type": "No Match",
     "confidence": 0.0,
     "reasoning": "The given BRSR requirement does not match any of the provided GRI disclosure candidates.",
-    "explanation": "The BRSR requirement is about product/service turnover percentage, which is not directly related to any of the provided GRI disclosure candidates."
+    "explanation": "The BRSR requirement is related to product/service turnover, which is not directly addressed by the provided GRI disclosure candidates."
   },
   {
     "brsr_id": "P9_Q3",
-    "gri_id": "None",
-    "mapping_type": "No Match",
-    "confidence": 0.0,
-    "reasoning": "None of the provided GRI disclosures match the BRSR requirement.",
-    "explanation": "The BRSR requirement is about consumer complaints, but the provided GRI disclosures do not match this requirement."
+    "gri_id": "Disclosure 418-1 Substantiated complaints concerni",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "While the exact wording is different, the essence of both BRSR and GRI is to report on complaints. GRI 418-1 is the closest match as it deals with substantiated complaints concerning customer privacy and data loss, which is related to consumer complaints.",
+    "explanation": "Although the BRSR requirement is more general, GRI 418-1 is the most relevant disclosure among the given options."
   },
   {
     "brsr_id": "P9_Q4",
@@ -548,8 +548,8 @@
     "gri_id": "None",
     "mapping_type": "No Match",
     "confidence": 0.0,
-    "reasoning": "None of the provided GRI candidates directly address the requirement for a framework/policy on cyber security and risks related to data.",
-    "explanation": "The GRI candidates either discuss governance, policy commitments, or activities/value chain, but none specifically address cyber security and data risks."
+    "reasoning": "None of the provided GRI candidates match the BRSR requirement.",
+    "explanation": "The BRSR requirement is focused on cyber security and data risks, which is not directly addressed by the provided GRI candidates."
   },
   {
     "brsr_id": "P9_Q1",
@@ -557,15 +557,15 @@
     "mapping_type": "No Match",
     "confidence": 0.0,
     "reasoning": "The given BRSR requirement does not match any of the provided GRI disclosure candidates.",
-    "explanation": "The BRSR requirement is about channels/platforms for product and service information, which is not directly related to any of the GRI disclosure candidates."
+    "explanation": "The BRSR requirement is about channels/platforms for product and service information, which is not related to access and benefit-sharing, activities, value chain, or governance body oversight."
   },
   {
     "brsr_id": "P9_Q2",
-    "gri_id": "Disclosure 2-12 and Disclosure 2-13 in GRI 2 requi",
-    "mapping_type": "Close Match",
-    "confidence": 0.7,
-    "reasoning": "Fallback match based on top RAG vector similarity score.",
-    "explanation": "Alignment derived from top RAG candidate."
+    "gri_id": "None",
+    "mapping_type": "No Match",
+    "confidence": 0.0,
+    "reasoning": "None of the provided GRI candidates match the BRSR requirement.",
+    "explanation": "The BRSR requirement is about informing and educating consumers about safe and responsible usage, which is not directly related to any of the provided GRI candidates."
   },
   {
     "brsr_id": "P9_Q3",
@@ -573,15 +573,15 @@
     "mapping_type": "No Match",
     "confidence": 0.0,
     "reasoning": "None of the provided GRI candidates match the BRSR requirement.",
-    "explanation": "The BRSR requirement is about informing consumers of risks, which is not directly related to the management of material topics or topic management disclosures."
+    "explanation": "The BRSR requirement is about informing consumers of risks, which is not directly related to the provided GRI candidates."
   },
   {
     "brsr_id": "P9_Q4",
     "gri_id": "Disclosure 417-1 Requirements for product and serv",
     "mapping_type": "Exact Match",
     "confidence": 1.0,
-    "reasoning": "The GRI 417-1 disclosure directly addresses the requirement for product and service information and labeling, which aligns with the BRSR requirement for displaying product information.",
-    "explanation": "The BRSR requirement specifically asks about displaying product information, which is a key aspect of GRI 417-1."
+    "reasoning": "The BRSR requirement asks about displaying product information, which aligns with the GRI 417-1 disclosure on requirements for product and service information and labeling.",
+    "explanation": "The GRI 417-1 disclosure directly addresses the need for product information, making it the best match for the BRSR requirement."
   },
   {
     "brsr_id": "P9_Q5",
