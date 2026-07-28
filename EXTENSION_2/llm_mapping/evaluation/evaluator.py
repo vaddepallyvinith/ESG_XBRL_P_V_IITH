@@ -77,10 +77,10 @@ class BaselineEvaluator:
         Args:
             ground_truth_file: Path to CSV file containing ground truth candidate pairs.
         """
-        self.ground_truth_file = Path(
-            ground_truth_file
-            or (settings.paths.data_processed_dir / "mapping" / "all_candidate_pairs.csv")
-        )
+        default_gt = settings.paths.data_processed_dir / "mapping" / "all_positive_candidates_multi_word_gri.csv"
+        if not default_gt.exists():
+            default_gt = settings.paths.data_processed_dir / "mapping" / "all_candidate_pairs.csv"
+        self.ground_truth_file = Path(ground_truth_file or default_gt)
         self.ground_truth_map: Dict[str, Set[str]] = {}
         self._load_ground_truth()
 
@@ -179,6 +179,10 @@ class BaselineEvaluator:
             total_tokens_list.append(res.total_tokens)
 
             gt_candidates = self.ground_truth_map.get(b_id, set())
+            if not gt_candidates and "_" in b_id:
+                q_parts = [p for p in b_id.split("_") if p.startswith("Q")]
+                if q_parts:
+                    gt_candidates = self.ground_truth_map.get(q_parts[0], set())
 
             # Top-1 Check with normalized string comparison
             is_top1_match = False
