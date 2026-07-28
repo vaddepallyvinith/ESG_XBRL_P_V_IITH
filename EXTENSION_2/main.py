@@ -15,6 +15,7 @@ Usage:
   python main.py --phase 2                    # Build ontologies
   python main.py --all                        # Run full pipeline
 """
+
 import os
 import sys
 import time
@@ -23,15 +24,17 @@ import argparse
 import logging
 from pathlib import Path
 
-# Load .env file automatically
+import yaml
+
+# Try to load .env from parent directory
 env_path = Path(__file__).parent.parent / ".env"
 if env_path.exists():
-    with open(env_path, "r", encoding="utf-8") as f:
+    with open(env_path, "r") as f:
         for line in f:
             line = line.strip()
             if line and not line.startswith("#") and "=" in line:
                 key, val = line.split("=", 1)
-                os.environ.setdefault(key.strip(), val.strip().strip("'\""))
+                os.environ[key.strip()] = val.strip().strip("'\"")
 
 # Setup logging
 logging.basicConfig(
