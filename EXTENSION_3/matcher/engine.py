@@ -2,6 +2,7 @@ import os
 import json
 import logging
 import pickle
+from pathlib import Path
 from typing import List, Dict, Tuple, Any
 import numpy as np
 import pandas as pd
@@ -104,7 +105,7 @@ class SemanticMappingEngine:
                 if concept:
                     if concept.framework == "BRSR":
                         self.brsr_concepts.append(concept)
-                    elif concept.framework == "GRI":
+                    elif concept.framework in ("ESRS", "GRI"):
                         self.gri_concepts.append(concept)
 
     def _build_concept(self, uri: URIRef, concept_class: URIRef) -> OntologyConcept:
@@ -115,6 +116,8 @@ class SemanticMappingEngine:
         
         if "BRSR" in source_doc_str or "Annexure" in source_doc_str or "Q" in uri_str.split("_")[-2:]:
             framework = "BRSR"
+        elif "ESRS" in source_doc_str or "ESRS" in uri_str or "Delegated" in source_doc_str:
+            framework = "ESRS"
         elif "GRI" in source_doc_str or "GRI" in uri_str:
             framework = "GRI"
         elif "Q" in uri_str:
@@ -211,88 +214,102 @@ class SemanticMappingEngine:
         candidates = []
         cache_path = os.path.join(output_dir, "embeddings_cache.pkl")
         
-        # 1. Run AML primary matchers on the entire concepts list (highly efficient HashMap/dictionary searches)
+        # 1. Run primary matchers
         lexical_scores = self.lexical_matcher.match(self.brsr_concepts, self.gri_concepts)
         structural_scores = self.structural_matcher.match(self.brsr_concepts, self.gri_concepts)
         property_scores = self.property_matcher.match(self.brsr_concepts, self.gri_concepts)
         
-        # 2. Ontology-Guided Candidate Selection:
-        # Generate candidates based *primarily* on ontology evidence (lexical overlap or taxonomic alignment)
+        # 2. Candidate Selection
         candidate_pairs = []
         for brsr in self.brsr_concepts:
-            for gri in self.gri_concepts:
-                lex_val = lexical_scores.get((brsr.uri, gri.uri), 0.0)
-                struc_val = structural_scores.get((brsr.uri, gri.uri), 0.0)
-                
-                # Rule: Candidate must have some lexical overlap OR significant taxonomic alignment
-                if lex_val >= 0.12 or struc_val >= 0.35:
-                    candidate_pairs.append((brsr, gri))
+            for target in self.gri_concepts:
+                lex_val = lexical_scores.get((brsr.uri, target.uri), 0.0)
+                struc_val = structural_scores.get((brsr.uri, target.uri), 0.0)
+                if lex_val >= 0.08 or struc_val >= 0.20:
+                    candidate_pairs.append((brsr, target))
                     
         logger.info(f"Ontology-guided candidate selection: selected {len(candidate_pairs)} candidate pairs.")
         
-        # 3. Retrieve embeddings for the concepts if available
+        # 3. Retrieve embeddings if available
         cosine_scores = np.zeros((len(self.brsr_concepts), len(self.gri_concepts)))
         if self.embedder and self.brsr_concepts and self.gri_concepts:
             brsr_texts = [c.label + " " + c.definition for c in self.brsr_concepts]
-            gri_texts = [c.label + " " + c.definition for c in self.gri_concepts]
+            target_texts = [c.label + " " + c.definition for c in self.gri_concepts]
             
-            logger.info("Retrieving BRSR embeddings...")
             brsr_emb = self._get_cached_embeddings(brsr_texts, cache_path)
-            logger.info("Retrieving GRI embeddings...")
-            gri_emb = self._get_cached_embeddings(gri_texts, cache_path)
+            target_emb = self._get_cached_embeddings(target_texts, cache_path)
             
             import torch
             brsr_tensor = torch.tensor(brsr_emb)
-            gri_tensor = torch.tensor(gri_emb)
-            cosine_scores = util.cos_sim(brsr_tensor, gri_tensor).cpu().numpy()
+            target_tensor = torch.tensor(target_emb)
+            cosine_scores = util.cos_sim(brsr_tensor, target_tensor).cpu().numpy()
             
-        # Build index mapping for easy lookup
         brsr_to_idx = {c.uri: idx for idx, c in enumerate(self.brsr_concepts)}
-        gri_to_idx = {c.uri: idx for idx, c in enumerate(self.gri_concepts)}
+        target_to_idx = {c.uri: idx for idx, c in enumerate(self.gri_concepts)}
         
-        # 4. Populate embedding scores specifically for the ontology-selected candidate pairs
-        # Embeddings act as supporting evidence only.
         embedding_scores = {}
-        for brsr, gri in candidate_pairs:
+        for brsr, target in candidate_pairs:
             bi = brsr_to_idx[brsr.uri]
-            gi = gri_to_idx[gri.uri]
+            gi = target_to_idx[target.uri]
             emb_val = float(cosine_scores[bi][gi])
-            
-            # If there is zero lexical overlap, heavily penalize the embedding's influence to prevent false positives
-            lex_val = lexical_scores.get((brsr.uri, gri.uri), 0.0)
+            lex_val = lexical_scores.get((brsr.uri, target.uri), 0.0)
             if lex_val < 0.05:
-                embedding_scores[(brsr.uri, gri.uri)] = emb_val * 0.3
+                embedding_scores[(brsr.uri, target.uri)] = emb_val * 0.3
             else:
-                embedding_scores[(brsr.uri, gri.uri)] = emb_val
+                embedding_scores[(brsr.uri, target.uri)] = emb_val
 
-        # 5. Filter all scoring dictionaries to candidate pairs only before aggregation
+        # 4. Filter scoring dictionaries to candidate pairs & extract independent feature vectors [L, S, P, R]
         filtered_lexical = {}
         filtered_structural = {}
         filtered_property = {}
         filtered_embedding = {}
+        reasoning_scores = {}
+        features_list = []
         
-        for brsr, gri in candidate_pairs:
-            key = (brsr.uri, gri.uri)
-            filtered_lexical[key] = lexical_scores.get(key, 0.0)
-            filtered_structural[key] = structural_scores.get(key, 0.0)
-            filtered_property[key] = property_scores.get(key, 0.0)
-            filtered_embedding[key] = embedding_scores.get(key, 0.0)
+        for brsr, target in candidate_pairs:
+            key = (brsr.uri, target.uri)
+            l_val = lexical_scores.get(key, 0.0)
+            s_val = structural_scores.get(key, 0.0)
+            p_val = property_scores.get(key, 0.5)
+            r_val = 0.5 if brsr.concept_type == target.concept_type else 0.2
+            if l_val > 0.3 and s_val > 0.3:
+                r_val += 0.3
+            r_val = min(1.0, r_val)
             
-        # 6. Aggregate matching evidence scores with the ConfidenceAggregator
+            filtered_lexical[key] = l_val
+            filtered_structural[key] = s_val
+            filtered_property[key] = p_val
+            filtered_embedding[key] = embedding_scores.get(key, 0.0)
+            reasoning_scores[key] = r_val
+            
+            features_list.append({
+                "lexical": l_val,
+                "structural": s_val,
+                "property": p_val,
+                "reasoning": r_val
+            })
+
+        # 5. Automatically learn weights via ConfidenceLearner
+        from confidence.learner import ConfidenceLearner
+        learner = ConfidenceLearner()
+        self.learned_weights = learner.learn_weights(features_list)
+        self.confidence_aggregator.set_learned_weights(self.learned_weights)
+        
+        # 6. Aggregate matching evidence using learned weight model
         aggregated_scores = self.confidence_aggregator.aggregate(
             lexical_scores=filtered_lexical,
             structural_scores=filtered_structural,
             property_scores=filtered_property,
+            reasoning_scores=reasoning_scores,
             embedding_scores=filtered_embedding
         )
         
-        # 7. Generate candidates list filtered by thresholds
-        for brsr, gri in candidate_pairs:
-            key = (brsr.uri, gri.uri)
+        # 7. Generate candidate objects
+        for brsr, target in candidate_pairs:
+            key = (brsr.uri, target.uri)
             score = aggregated_scores.get(key, 0.0)
             
-            # Minimum threshold filter
-            if score < self.thresholds["broader_narrower"]:
+            if score < 0.20: # Keep candidate candidates
                 continue
                 
             evidence = MappingEvidence()
@@ -303,36 +320,31 @@ class SemanticMappingEngine:
             prop_val = filtered_property.get(key, 0.5)
             evidence.datatype_compatibility = prop_val
             evidence.unit_compatibility = prop_val
-            
-            evidence.relationship_similarity = 0.5
-            evidence.topic_similarity = 0.5
-            evidence.context_similarity = 0.5
+            evidence.relationship_similarity = reasoning_scores.get(key, 0.5)
+            evidence.topic_similarity = filtered_structural.get(key, 0.0)
+            evidence.context_similarity = filtered_lexical.get(key, 0.0)
             
             candidates.append(MappingCandidate(
                 brsr_concept=brsr,
-                gri_concept=gri,
+                gri_concept=target,
                 evidence=evidence,
                 similarity_score=score
             ))
             
-        # 8. Apply Ontology Reasoner (disjointness, taxonomic propagation, property consistency, and mapping repair)
         candidates = self.ontology_reasoner.check_consistency(candidates)
-        
-        # 6. Sort by resolved similarity score
         candidates.sort(key=lambda x: x.similarity_score, reverse=True)
         return candidates
 
     def _verify_and_score(self, candidates: List[MappingCandidate]) -> List[FinalMapping]:
         final_mappings = []
         
-        logger.info(f"Scoring and mapping {len(candidates)} candidates using ontology evidence...")
+        logger.info(f"Scoring and mapping {len(candidates)} candidates using learned confidence model...")
         for cand in candidates:
             if cand.similarity_score >= self.thresholds["equivalent"]:
                 relationship = "Equivalent"
             elif cand.similarity_score >= self.thresholds["partial"]:
                 relationship = "Partial Equivalent"
             elif cand.similarity_score >= self.thresholds["broader_narrower"]:
-                # Determine broader vs narrower based on concept types
                 b_type = cand.brsr_concept.concept_type
                 g_type = cand.gri_concept.concept_type
                 if b_type == "Disclosure" and g_type == "Requirement":
@@ -349,6 +361,9 @@ class SemanticMappingEngine:
                 
             conf = cand.similarity_score * 100
             
+            b_id = cand.brsr_concept.uri.split("#")[-1]
+            e_id = cand.gri_concept.uri.split("#")[-1]
+            
             final_mappings.append(FinalMapping(
                 brsr_uri=cand.brsr_concept.uri,
                 gri_uri=cand.gri_concept.uri,
@@ -358,67 +373,85 @@ class SemanticMappingEngine:
                 confidence_score=conf,
                 similarity_score=cand.similarity_score,
                 evidence_summary=cand.evidence.model_dump(),
-                llm_verification="Skipped",
-                llm_explanation="LLM verification skipped",
-                ontology_path=""
+                llm_verification="Pending",
+                llm_explanation="Phase 3 SKOS alignment complete (LLM verification pending)",
+                ontology_path="",
+                brsr_id=b_id,
+                gri_id=e_id,
+                lexical_score=cand.evidence.label_similarity,
+                structural_score=cand.evidence.hierarchy_similarity,
+                property_score=cand.evidence.datatype_compatibility,
+                reasoning_score=cand.evidence.relationship_similarity,
+                overall_confidence=conf,
+                skos_relation="",
+                reasoning=[f"Learned model confidence score: {conf:.1f}%"]
             ))
             
-        # Apply SKOS Mapper to convert relationships to standard SKOS properties
+        # Apply SKOS Mapper
         final_mappings = self.skos_mapper.map_to_skos(final_mappings)
-        
-        # Prepare rich verification payload for LLM verifier
-        verification_payload = []
-        for cand, fm in zip(candidates, final_mappings):
-            skos_rel = fm.ontology_path.split("#")[-1] if fm.ontology_path else "relatedMatch"
-            verification_payload.append({
-                "brsr_id": cand.brsr_concept.uri.split("#")[-1],
-                "brsr_label": cand.brsr_concept.label,
-                "brsr_definition": cand.brsr_concept.definition,
-                "brsr_hierarchy": cand.brsr_concept.hierarchy_path,
-                "gri_id": cand.gri_concept.uri.split("#")[-1],
-                "gri_label": cand.gri_concept.label,
-                "gri_definition": cand.gri_concept.definition,
-                "gri_hierarchy": cand.gri_concept.hierarchy_path,
-                "lexical_score": cand.evidence.label_similarity,
-                "structural_score": cand.evidence.hierarchy_similarity,
-                "property_score": cand.evidence.datatype_compatibility,
-                "reasoning_score": cand.similarity_score,
-                "overall_confidence": cand.similarity_score * 100,
-                "skos_relation": skos_rel,
-                "evidence_summary": cand.evidence.model_dump(),
-                "reasoning": cand.reasoning
-            })
-            
-        logger.info(f"Invoking LLM verification batch for {len(verification_payload)} candidate mappings...")
-        verification_results = self.llm_verifier.verify_mappings_rich_batch(verification_payload)
-        
-        # Update mappings with LLM verification decision and fill new requested keys
-        for cand, fm, v_res, v_pay in zip(candidates, final_mappings, verification_results, verification_payload):
-            fm.llm_verification = v_res["verification"]
-            fm.llm_explanation = v_res["explanation"]
-            
-            # Fill new requested fields
-            fm.brsr_id = v_pay["brsr_id"]
-            fm.gri_id = v_pay["gri_id"]
-            fm.lexical_score = v_pay["lexical_score"]
-            fm.structural_score = v_pay["structural_score"]
-            fm.property_score = v_pay["property_score"]
-            fm.reasoning_score = v_pay["reasoning_score"]
-            fm.overall_confidence = v_pay["overall_confidence"]
-            fm.skos_relation = v_pay["skos_relation"]
-            fm.reasoning = cand.reasoning
-            fm.verification = v_res
-            
         return final_mappings
         
     def _export_results(self, mappings: List[FinalMapping], output_dir: str):
-        out_path = os.path.join(output_dir, "mapping_repository.json")
-        with open(out_path, "w") as f:
-            json.dump([m.model_dump() for m in mappings], f, indent=2)
+        out_dir = Path(output_dir)
+        out_dir.mkdir(parents=True, exist_ok=True)
+        
+        # 1. Export mapping.json & mapping_repository.json
+        mapping_data = [m.model_dump() for m in mappings]
+        with open(out_dir / "mapping.json", "w", encoding="utf-8") as f:
+            json.dump(mapping_data, f, indent=2)
+        with open(out_dir / "mapping_repository.json", "w", encoding="utf-8") as f:
+            json.dump(mapping_data, f, indent=2)
             
-        csv_path = os.path.join(output_dir, "mapping_summary.csv")
-        df = pd.DataFrame([m.model_dump() for m in mappings])
+        # 2. Export mapping.csv & mapping_summary.csv
+        df = pd.DataFrame(mapping_data)
         if not df.empty:
-            df.to_csv(csv_path, index=False)
+            df.to_csv(out_dir / "mapping.csv", index=False)
+            df.to_csv(out_dir / "mapping_summary.csv", index=False)
             
-        logger.info(f"Exported {len(mappings)} mappings to {out_path} and {csv_path}")
+        # 3. Export learned_weights.json
+        weights_data = getattr(self, "learned_weights", {"lexical": 0.40, "structural": 0.35, "property": 0.15, "reasoning": 0.10})
+        with open(out_dir / "learned_weights.json", "w", encoding="utf-8") as f:
+            json.dump(weights_data, f, indent=4)
+        with open(Path(__file__).parent.parent / "confidence" / "learned_weights.json", "w", encoding="utf-8") as f:
+            json.dump(weights_data, f, indent=4)
+
+        # 4. Export confidence_report.json
+        conf_values = [m.similarity_score for m in mappings]
+        high_conf = sum(1 for c in conf_values if c >= 0.85)
+        med_conf = sum(1 for c in conf_values if 0.70 <= c < 0.85)
+        low_conf = sum(1 for c in conf_values if 0.55 <= c < 0.70)
+        
+        conf_report = {
+            "learned_weights": weights_data,
+            "total_candidates_evaluated": len(mappings),
+            "confidence_distribution": {
+                "high_confidence_0.85_1.0": high_conf,
+                "medium_confidence_0.70_0.85": med_conf,
+                "low_confidence_0.55_0.70": low_conf,
+                "average_confidence_score": float(np.mean(conf_values)) if conf_values else 0.0
+            },
+            "skos_relation_counts": {
+                "exactMatch": sum(1 for m in mappings if "exactMatch" in str(m.ontology_path)),
+                "closeMatch": sum(1 for m in mappings if "closeMatch" in str(m.ontology_path)),
+                "broadMatch": sum(1 for m in mappings if "broadMatch" in str(m.ontology_path)),
+                "narrowMatch": sum(1 for m in mappings if "narrowMatch" in str(m.ontology_path)),
+                "relatedMatch": sum(1 for m in mappings if "relatedMatch" in str(m.ontology_path)),
+            }
+        }
+        with open(out_dir / "confidence_report.json", "w", encoding="utf-8") as f:
+            json.dump(conf_report, f, indent=2)
+
+        # 5. Export mapping.ttl (SKOS RDF Graph)
+        skos_g = Graph()
+        SKOS = Namespace("http://www.w3.org/2004/02/skos/core#")
+        skos_g.bind("skos", SKOS)
+        
+        for m in mappings:
+            b_uri = URIRef(m.brsr_uri)
+            e_uri = URIRef(m.gri_uri)
+            rel_uri = URIRef(m.ontology_path) if m.ontology_path else SKOS.relatedMatch
+            skos_g.add((b_uri, rel_uri, e_uri))
+            
+        skos_g.serialize(destination=str(out_dir / "mapping.ttl"), format="turtle")
+            
+        logger.info(f"✅ Successfully exported all mapping artifacts & reports to {out_dir}")

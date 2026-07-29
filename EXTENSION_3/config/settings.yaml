@@ -38,7 +38,7 @@ ontology:
 
 # Mapping settings
 mapping:
-  embedding_model: "all-mpnet-base-v2"
+  embedding_model: "all-MiniLM-L6-v2"
   candidate_top_k: 10
   thresholds:
     equivalent: 0.70

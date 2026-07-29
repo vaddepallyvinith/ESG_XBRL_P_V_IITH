@@ -1,0 +1,123 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/ontology/rso#Disclosure_Q11_1366600324960417183> skos:relatedMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change> .
+
+<http://example.org/ontology/rso#Disclosure_Q1_-2941116562953374489> skos:relatedMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E1_5_Energy_consumption_and_mix> .
+
+<http://example.org/ontology/rso#Disclosure_Q1_-7024612116224278638> skos:relatedMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with> .
+
+<http://example.org/ontology/rso#Disclosure_Q1_-7605476517899833912> skos:narrowMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E1_5_Energy_consumption_and_mix> .
+
+<http://example.org/ontology/rso#Disclosure_Q1_6088715793221866031> skos:relatedMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_IRO_1_Description_of_the_processes_to_identify_and_assess> .
+
+<http://example.org/ontology/rso#Disclosure_Q1_991886090062196846> skos:relatedMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_IRO_1_Description_of_the_processes_to_identify_and_assess>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_processes_to_identify_and_assess_mater>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess>,
+        <http://example.org/ontology/rso#Disclosure_IRO_1_Description_of_the_processes_to_identify_and_assess_material_resource_use_and_circular_econo> .
+
+<http://example.org/ontology/rso#Disclosure_Q23_-6115681057730055166> skos:relatedMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_GOV_1_The_role_of_the_administrative_management_and_supervisory_bodies>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_IRO_1_Description_of_the_processes_to_identify_and_assess>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess> .
+
+<http://example.org/ontology/rso#Disclosure_Q24_2434095512212408412> skos:narrowMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_processes_to_identify_and_assess_mater>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess> ;
+    skos:relatedMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E4_1_Transition_plan_and_consideration_of_biodiversity_and_ecosystems_in_st>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E4_6_Anticipated_financial_effects_from_material_biodiversity_and_ecosystem>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E5_1_Policies_related_to_resource_use_and_circular_economy>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E5_2_Actions_and_resources_related_to_resource_use_and_circular_economy>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E5_3_Targets_related_to_resource_use_and_circular_economy>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_GOV_1_The_role_of_the_administrative_management_and_supervisory_bodies>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_GOV_5_Risk_management_and_internal_controls_over_sustainability_reporting>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_SBM_1_Strategy_business_model_and_value_chain_AR_12_To_provide_the_informat>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_SBM_1_Strategy_business_model_and_value_chain_Disclosure_Requirement_SBM_2>,
+        <http://example.org/ontology/rso#Disclosure_IRO_1_Description_of_the_processes_to_identify_and_assess_material_resource_use_and_circular_econo> .
+
+<http://example.org/ontology/rso#Disclosure_Q2_1620615386017990737> skos:relatedMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_SBM_1_Strategy_business_model_and_value_chain_AR_12_To_provide_the_informat> .
+
+<http://example.org/ontology/rso#Disclosure_Q2_294300574630310733> skos:narrowMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E3_2_Actions_and_resources_related_to_water_and_marine_resources_policies_M>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources> ;
+    skos:relatedMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change> .
+
+<http://example.org/ontology/rso#Disclosure_Q2_993553119648207625> skos:relatedMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_BP_2_Disclosures_in_relation_to_specific_circumstances>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E1_3_Actions_and_resources_in_relation_to_climate_change_policies> .
+
+<http://example.org/ontology/rso#Disclosure_Q3_-4999668360558070019> skos:narrowMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E3_2_Actions_and_resources_related_to_water_and_marine_resources_policies_M>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources> ;
+    skos:relatedMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_BP_2_Disclosures_in_relation_to_specific_circumstances>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E1_3_Actions_and_resources_in_relation_to_climate_change_policies>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E4_3_Actions_and_resources_related_to_biodiversity_and_ecosystems>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E4_4_Targets_related_to_biodiversity_and_ecosystems>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E5_3_Targets_related_to_resource_use_and_circular_economy>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_related_to_ESRS_2_SBM_3_Material_impacts_risks_and_opportunities_and_their> .
+
+<http://example.org/ontology/rso#Disclosure_Q3_937559134512949447> skos:relatedMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E3_2_Actions_and_resources_related_to_water_and_marine_resources_policies_M>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources> .
+
+<http://example.org/ontology/rso#Disclosure_Q4_-6382315562112869290> skos:narrowMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E4_3_Actions_and_resources_related_to_biodiversity_and_ecosystems>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E4_4_Targets_related_to_biodiversity_and_ecosystems> ;
+    skos:relatedMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E1_3_Actions_and_resources_in_relation_to_climate_change_policies>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E2_2_Actions_and_resources_related_to_pollution>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E4_2_Policies_related_to_biodiversity_and_ecosystems>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E4_3_Actions_and_resources_related_to_biodiversity_and_ecosystems_Metrics_a>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change> .
+
+<http://example.org/ontology/rso#Disclosure_Q5_7184145804725927416> skos:relatedMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change> .
+
+<http://example.org/ontology/rso#Disclosure_Q5_8637121145400939773> skos:relatedMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E1_7_GHG_removals_and_GHG_mitigation_projects_financed_through_carbon_credi> .
+
+<http://example.org/ontology/rso#Disclosure_Q6_-5874270398555975595> skos:relatedMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E1_1_Transition_plan_for_climate_change_mitigation>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E1_3_Actions_and_resources_in_relation_to_climate_change_policies>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E1_7_GHG_removals_and_GHG_mitigation_projects_financed_through_carbon_credi>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E2_2_Actions_and_resources_related_to_pollution>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_processes_to_identify_and_assess_mater>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess> .
+
+<http://example.org/ontology/rso#Disclosure_Q7_-7154105830269047396> skos:relatedMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E1_7_GHG_removals_and_GHG_mitigation_projects_financed_through_carbon_credi>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E2_2_Actions_and_resources_related_to_pollution>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E5_2_Actions_and_resources_related_to_resource_use_and_circular_economy>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E5_3_Targets_related_to_resource_use_and_circular_economy>,
+        <http://example.org/ontology/rso#Disclosure_IRO_1_Description_of_the_processes_to_identify_and_assess_material_pollution_related_impacts_risk> .
+
+<http://example.org/ontology/rso#Disclosure_Q8_-8405331482717645114> skos:relatedMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_SBM_1_Strategy_business_model_and_value_chain_AR_12_To_provide_the_informat>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m> .
+
+<http://example.org/ontology/rso#Disclosure_Q8_1419484420242406593> skos:relatedMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E5_1_Policies_related_to_resource_use_and_circular_economy>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E5_2_Actions_and_resources_related_to_resource_use_and_circular_economy>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E5_3_Targets_related_to_resource_use_and_circular_economy>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_GOV_5_Risk_management_and_internal_controls_over_sustainability_reporting>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_processes_to_identify_and_assess_mater>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess> .
+
+<http://example.org/ontology/rso#Disclosure_Q9_-1180754342078183070> skos:relatedMatch <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_E5_1_Policies_related_to_resource_use_and_circular_economy>,
+        <http://example.org/ontology/rso#Disclosure_Disclosure_Requirement_GOV_5_Risk_management_and_internal_controls_over_sustainability_reporting> .
+
