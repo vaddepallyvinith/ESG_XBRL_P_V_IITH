@@ -1,0 +1,53 @@
+{
+  "documents": [
+    {
+      "framework": "ESRS",
+      "source_file": "ESRS_201_20Delegated-act-2023-5303-annex-1_en.pdf",
+      "output_file": "ESRS_ESRS_201_20Delegated-act-2023-5303-annex-1_en.json",
+      "total_pages": 36,
+      "standards": 3
+    },
+    {
+      "framework": "ESRS",
+      "source_file": "ESRS_202_20Delegated-act-2023-5303-annex-1_en.pdf",
+      "output_file": "ESRS_ESRS_202_20Delegated-act-2023-5303-annex-1_en.json",
+      "total_pages": 32,
+      "standards": 2
+    },
+    {
+      "framework": "ESRS",
+      "source_file": "ESRS_20E1_20Delegated-act-2023-5303-annex-1_en.pdf",
+      "output_file": "ESRS_ESRS_20E1_20Delegated-act-2023-5303-annex-1_en.json",
+      "total_pages": 40,
+      "standards": 2
+    },
+    {
+      "framework": "ESRS",
+      "source_file": "ESRS_20E2_20Delegated-act-2023-5303-annex-1_en.pdf",
+      "output_file": "ESRS_ESRS_20E2_20Delegated-act-2023-5303-annex-1_en.json",
+      "total_pages": 11,
+      "standards": 4
+    },
+    {
+      "framework": "ESRS",
+      "source_file": "ESRS_20E3_20Delegated-act-2023-5303-annex-1_en.pdf",
+      "output_file": "ESRS_ESRS_20E3_20Delegated-act-2023-5303-annex-1_en.json",
+      "total_pages": 11,
+      "standards": 4
+    },
+    {
+      "framework": "ESRS",
+      "source_file": "ESRS_20E4_20Delegated-act-2023-5303-annex-1_en.pdf",
+      "output_file": "ESRS_ESRS_20E4_20Delegated-act-2023-5303-annex-1_en.json",
+      "total_pages": 21,
+      "standards": 4
+    },
+    {
+      "framework": "ESRS",
+      "source_file": "ESRS_20E5_20Delegated-act-2023-5303-annex-1_en.pdf",
+      "output_file": "ESRS_ESRS_20E5_20Delegated-act-2023-5303-annex-1_en.json",
+      "total_pages": 12,
+      "standards": 4
+    }
+  ]
+}
