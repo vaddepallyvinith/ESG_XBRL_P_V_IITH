@@ -1,0 +1,13 @@
+{
+  "total_brsr_disclosures": 74,
+  "total_esrs_disclosures": 70,
+  "candidate_pairs_evaluated": 4155,
+  "final_mappings_generated": 100,
+  "skos_relation_breakdown": {
+    "exactMatch": 0,
+    "closeMatch": 0,
+    "broadMatch": 0,
+    "narrowMatch": 12,
+    "relatedMatch": 88
+  }
+}

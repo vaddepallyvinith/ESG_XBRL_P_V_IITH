@@ -187,20 +187,20 @@ def run_phase4(config: dict):
     output_dir = Path(config["data"]["output_dir"])
     mapping_dir = output_dir / "mapping"
     
-    if not (mapping_dir / "mapping_repository.json").exists():
+    if not (mapping_dir / "mapping.json").exists() and not (mapping_dir / "mapping_repository.json").exists():
         logger.error("Mapping repository not found. Run Phase 3 first.")
         return
         
     from evaluation.evaluator import MappingEvaluator
     evaluator = MappingEvaluator(config)
     
-    logger.info("Running Multi-LLM Evaluation...")
-    evaluator.run_multi_llm_evaluation(str(mapping_dir))
+    logger.info("Running Phase 4 LLM Verification Audit & Reports...")
+    evaluator.run_phase4_verification_and_reports(str(mapping_dir))
     
-    logger.info("Generating CLI Report...")
+    logger.info("Generating CLI Summary Report...")
     evaluator.generate_cli_report(str(mapping_dir))
     
-    logger.info("Phase 4 complete. CLI and JSON reports generated in data/processed/mapping/")
+    logger.info("Phase 4 complete. Reports and plots exported to data/processed/mapping/")
 
 
 def run_phase5(config: dict):
