@@ -79,10 +79,10 @@ evaluation:
       temperature: 0.0
       timeout: 30
       max_tokens: 2000
-      batch_size: 10
+      batch_size: 5
       retries: 5
-      delay: 0.5
-      concurrency: 4
+      delay: 2.5
+      concurrency: 1
     - name: "Claude"
       provider: "anthropic"
       model: "claude-3-5-sonnet-20241022"
@@ -175,15 +175,15 @@ evaluation:
       delay: 1.0
       concurrency: 2
     - name: "OpenRouter"
-      provider: "openrouter"
-      model: "meta-llama/llama-3.3-70b-instruct"
-      env_var: "OWL_ALPHA_API_KEY"
-      base_url: "https://openrouter.ai/api/v1/chat/completions"
-      cost_per_1k_tokens: 0.00040
+      provider: "openai"
+      model: "gpt-4o-mini"
+      env_var: "OPENAI_API_KEY"
+      base_url: "https://api.openai.com/v1/chat/completions"
+      cost_per_1k_tokens: 0.00015
       temperature: 0.0
       timeout: 30
       max_tokens: 2000
-      batch_size: 10
+      batch_size: 5
       retries: 5
-      delay: 3.0
+      delay: 2.5
       concurrency: 1

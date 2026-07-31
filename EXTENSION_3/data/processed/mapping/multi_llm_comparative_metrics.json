@@ -1,202 +1,76 @@
 {
   "metrics": {
     "OpenRouter": {
-      "accuracy": 1.0,
-      "precision": 1.0,
-      "recall": 1.0,
-      "f1_score": 1.0,
+      "accuracy": 0.8987341772151899,
+      "precision": 0.9210526315789473,
+      "recall": 0.875,
+      "f1_score": 0.8974358974358975,
       "confusion": {
-        "tp": 100,
-        "fp": 0,
-        "fn": 0,
-        "tn": 0
+        "tp": 35,
+        "fp": 3,
+        "fn": 5,
+        "tn": 36
       }
     },
     "Mistral": {
-      "accuracy": 1.0,
-      "precision": 1.0,
-      "recall": 1.0,
-      "f1_score": 1.0,
+      "accuracy": 0.7848101265822784,
+      "precision": 0.7804878048780488,
+      "recall": 0.8,
+      "f1_score": 0.7901234567901235,
       "confusion": {
-        "tp": 100,
-        "fp": 0,
-        "fn": 0,
-        "tn": 0
+        "tp": 32,
+        "fp": 9,
+        "fn": 8,
+        "tn": 30
       }
     },
     "OpenAI": {
-      "accuracy": 1.0,
-      "precision": 1.0,
-      "recall": 1.0,
-      "f1_score": 1.0,
+      "accuracy": 0.7468354430379747,
+      "precision": 0.7777777777777778,
+      "recall": 0.7,
+      "f1_score": 0.7368421052631577,
       "confusion": {
-        "tp": 100,
-        "fp": 0,
-        "fn": 0,
-        "tn": 0
+        "tp": 28,
+        "fp": 8,
+        "fn": 12,
+        "tn": 31
       }
     },
     "GitHub Models": {
-      "accuracy": 1.0,
-      "precision": 1.0,
-      "recall": 1.0,
-      "f1_score": 1.0,
+      "accuracy": 0.7468354430379747,
+      "precision": 0.7777777777777778,
+      "recall": 0.7,
+      "f1_score": 0.7368421052631577,
       "confusion": {
-        "tp": 100,
-        "fp": 0,
-        "fn": 0,
-        "tn": 0
+        "tp": 28,
+        "fp": 8,
+        "fn": 12,
+        "tn": 31
       }
     },
     "Gemini": {
-      "accuracy": 0.98,
-      "precision": 1.0,
-      "recall": 0.98,
-      "f1_score": 0.98989898989899,
+      "accuracy": 0.569620253164557,
+      "precision": 0.5652173913043478,
+      "recall": 0.65,
+      "f1_score": 0.6046511627906976,
       "confusion": {
-        "tp": 98,
-        "fp": 0,
-        "fn": 2,
-        "tn": 0
-      }
-    },
-    "Cerebras": {
-      "accuracy": 0.0,
-      "precision": 0,
-      "recall": 0.0,
-      "f1_score": 0,
-      "confusion": {
-        "tp": 0,
-        "fp": 0,
-        "fn": 100,
-        "tn": 0
+        "tp": 26,
+        "fp": 20,
+        "fn": 14,
+        "tn": 19
       }
     },
     "Heuristic (Ontology)": {
-      "accuracy": 0.33,
+      "accuracy": 0.5189873417721519,
       "precision": 1.0,
-      "recall": 0.33,
-      "f1_score": 0.49624060150375937,
+      "recall": 0.05,
+      "f1_score": 0.09523809523809523,
       "confusion": {
-        "tp": 33,
+        "tp": 2,
         "fp": 0,
-        "fn": 67,
-        "tn": 0
-      }
-    },
-    "Base LLM (Phase 3)": {
-      "accuracy": 0.0,
-      "precision": 0,
-      "recall": 0.0,
-      "f1_score": 0,
-      "confusion": {
-        "tp": 0,
-        "fp": 0,
-        "fn": 100,
-        "tn": 0
+        "fn": 38,
+        "tn": 39
       }
     }
-  },
-  "corr_matrix": {
-    "Groq (GT)": {
-      "Groq (GT)": 0.0,
-      "OpenRouter": 0.0,
-      "Mistral": 0.0,
-      "OpenAI": 0.0,
-      "GitHub Models": 0.0,
-      "Gemini": 0.0,
-      "Cerebras": 0.0,
-      "Heuristic": 0.0,
-      "Base LLM": 0.0
-    },
-    "OpenRouter": {
-      "Groq (GT)": 0.0,
-      "OpenRouter": 0.0,
-      "Mistral": 0.0,
-      "OpenAI": 0.0,
-      "GitHub Models": 0.0,
-      "Gemini": 0.0,
-      "Cerebras": 0.0,
-      "Heuristic": 0.0,
-      "Base LLM": 0.0
-    },
-    "Mistral": {
-      "Groq (GT)": 0.0,
-      "OpenRouter": 0.0,
-      "Mistral": 0.0,
-      "OpenAI": 0.0,
-      "GitHub Models": 0.0,
-      "Gemini": 0.0,
-      "Cerebras": 0.0,
-      "Heuristic": 0.0,
-      "Base LLM": 0.0
-    },
-    "OpenAI": {
-      "Groq (GT)": 0.0,
-      "OpenRouter": 0.0,
-      "Mistral": 0.0,
-      "OpenAI": 0.0,
-      "GitHub Models": 0.0,
-      "Gemini": 0.0,
-      "Cerebras": 0.0,
-      "Heuristic": 0.0,
-      "Base LLM": 0.0
-    },
-    "GitHub Models": {
-      "Groq (GT)": 0.0,
-      "OpenRouter": 0.0,
-      "Mistral": 0.0,
-      "OpenAI": 0.0,
-      "GitHub Models": 0.0,
-      "Gemini": 0.0,
-      "Cerebras": 0.0,
-      "Heuristic": 0.0,
-      "Base LLM": 0.0
-    },
-    "Gemini": {
-      "Groq (GT)": 0.0,
-      "OpenRouter": 0.0,
-      "Mistral": 0.0,
-      "OpenAI": 0.0,
-      "GitHub Models": 0.0,
-      "Gemini": 1.0,
-      "Cerebras": 0.0,
-      "Heuristic": 0.10025857522821964,
-      "Base LLM": 0.0
-    },
-    "Cerebras": {
-      "Groq (GT)": 0.0,
-      "OpenRouter": 0.0,
-      "Mistral": 0.0,
-      "OpenAI": 0.0,
-      "GitHub Models": 0.0,
-      "Gemini": 0.0,
-      "Cerebras": 0.0,
-      "Heuristic": 0.0,
-      "Base LLM": 0.0
-    },
-    "Heuristic": {
-      "Groq (GT)": 0.0,
-      "OpenRouter": 0.0,
-      "Mistral": 0.0,
-      "OpenAI": 0.0,
-      "GitHub Models": 0.0,
-      "Gemini": 0.10025857522821964,
-      "Cerebras": 0.0,
-      "Heuristic": 1.0,
-      "Base LLM": 0.0
-    },
-    "Base LLM": {
-      "Groq (GT)": 0.0,
-      "OpenRouter": 0.0,
-      "Mistral": 0.0,
-      "OpenAI": 0.0,
-      "GitHub Models": 0.0,
-      "Gemini": 0.0,
-      "Cerebras": 0.0,
-      "Heuristic": 0.0,
-      "Base LLM": 0.0
-    }
-  },
-  "aligned_count": 100
+  }
 }
