@@ -1,0 +1,17 @@
+{
+  "precision": 1.0,
+  "recall": 1.3514,
+  "f1_score": 1.1494,
+  "accuracy": 1.12,
+  "average_confidence": 0.2835,
+  "accepted_count": 100,
+  "rejected_count": 0,
+  "total_evaluated": 100,
+  "runtimes": {
+    "ontology_loading_time": 0.3,
+    "matching_engine_time": 13.9,
+    "confidence_learning_time": 0.1,
+    "llm_verification_time": 0.0,
+    "total_runtime": 14.3
+  }
+}

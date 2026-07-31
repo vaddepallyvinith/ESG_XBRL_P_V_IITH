@@ -1,0 +1,2 @@
+precision,recall,f1_score,accuracy,average_confidence,accepted_count,rejected_count,total_evaluated,runtimes
+1.0,1.3514,1.1494,1.12,0.2835,100,0,100,"{'ontology_loading_time': 0.3, 'matching_engine_time': 13.9, 'confidence_learning_time': 0.1, 'llm_verification_time': 0.0, 'total_runtime': 14.3}"
