@@ -8,16 +8,6 @@ A portable, self-contained evaluation framework for benchmarking **BRSR–GRI Se
 
 This package allows anyone pulling the repository onto a GPU machine to execute multi-LLM comparative evaluations for **EXTENSION_2 (BRSR ↔ GRI Standards)** using **local open-source GPU models** (via vLLM, Ollama, HuggingFace Transformers, or LM Studio) OR **cloud API providers** (Groq, Google Gemini, OpenAI, DeepSeek, Anthropic Claude).
 
-### Specified Feature Weight Vector
-Disclosure similarity feature vectors $[S_{\text{lexical}}, S_{\text{structural}}, S_{\text{property}}, S_{\text{embedding}}]$ are aggregated using your specified weights:
-
-$$\text{Confidence Score} = \left(0.35 \cdot S_{\text{lexical}} + 0.20 \cdot S_{\text{structural}} + 0.15 \cdot S_{\text{property}} + 0.30 \cdot S_{\text{embedding}}\right) \times 100\%$$
-
-- **$w_{\text{lex}}$ (Lexical Overlap):** `0.35`
-- **$w_{\text{str}}$ (Structural Hierarchy Path):** `0.20`
-- **$w_{\text{prop}}$ (Property & Unit Compatibility):** `0.15`
-- **$w_{\text{emb}}$ (Embedding Vector Cosine):** `0.30`
-
 ---
 
 ## 📁 Repository Structure
