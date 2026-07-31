@@ -1,0 +1,1078 @@
+{
+  "framework": "GRI",
+  "source_file": "GRI 303_ Water and Effluents 2018.pdf",
+  "total_pages": 29,
+  "content": [],
+  "tables": [],
+  "standards": [
+    {
+      "standard_id": "GRI 303: Water and Effluents 2018",
+      "title": "GRI 303: Water and Effluents 2018",
+      "page_start": 1,
+      "page_end": 1,
+      "content": [
+        "EFFECTIVE DATE: 1 JANUARY 2021 TOPIC STANDARD 303"
+      ],
+      "tables": [],
+      "disclosures": []
+    },
+    {
+      "standard_id": "GRI 303: Water and Effluents 2018",
+      "title": "GRI 303: Water and Effluents 2018",
+      "page_start": 2,
+      "page_end": 2,
+      "content": [
+        "Topic Standard",
+        "Effective Date This Standard is effective for reports or other materials published on or after 1 January 2021",
+        "Responsibility This Standard is issued by the Global Sustainability Standards Board (GSSB) . Any feedback on the GRI Standards can be submitted to gssbsecretariat@globalreporting.org for the consideration of the GSSB.",
+        "Due Process This Standard was developed in the public interest and in accordance with the requirements of the GSSB Due Process Protocol. It has been developed using multi-stakeholder expertise, and with regard to authoritative intergovernmental instruments and widely held expectations of organizations relating to social, environmental, and economic responsibilities.",
+        "Legal Liability This document, designed to promote sustainability reporting, has been developed by the Global Sustainability Standards Board (GSSB) through a unique multi-stakeholder consultative process involving representatives from organizations and report information users from around the world. While the GRI Supervisory Board, Management Board, and GSSB encourage the use of the GRI Sustainability Reporting Standards (GRI Standards) and related Interpretations by all organizations, the preparation and publication of reports based fully or partially on the GRI Standards and related Interpretations are the full responsibility of those producing them. Neither the GRI Supervisory Board, Management Board, GSSB, nor Stichting Global Reporting Initiative (GRI) can assume responsibility for any consequences or damages resulting directly or indirectly from the use of the GRI Standards and related Interpretations in the preparation of reports, or the use of reports based on the GRI Standards and related Interpretations.",
+        "Copyright and trademark notice This document is copyright-protected by Stichting Global Reporting Initiative (GRI). The reproduction and distribution of this document for information and/or use in preparing a sustainability report is permitted without prior permission from GRI. However, neither this document nor any extract from it may be reproduced, stored, translated, or transferred in any form or by any means (electronic, mechanical, photocopied, recorded, or otherwise) for any other purpose without prior written permission from GRI.",
+        "Global Reporting Initiative, GRI and logo, GSSB and logo, and GRI Sustainability Reporting Standards (GRI Standards) and logo are trademarks of Stichting Global Reporting Initiative.",
+        "© 2025 GRI. All rights reserved.",
+        "ISBN 978-90-8866-092-4"
+      ],
+      "tables": [],
+      "disclosures": []
+    },
+    {
+      "standard_id": "GRI 303: Water and Effluents 2018 3",
+      "title": "GRI 303: Water and Effluents 2018 3",
+      "page_start": 3,
+      "page_end": 29,
+      "content": [],
+      "tables": [],
+      "disclosures": [
+        {
+          "id": "1. Topic management disclosures 7",
+          "label": "1. Topic management disclosures 7",
+          "text": "1. Topic management disclosures 7",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 303-1 Interactions with water as a shar",
+          "label": "Disclosure 303-1 Interactions with water as a shared resource 8",
+          "text": "Disclosure 303-1 Interactions with water as a shared resource 8",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 303-2 Management of water discharge-rel",
+          "label": "Disclosure 303-2 Management of water discharge-related impacts 10",
+          "text": "Disclosure 303-2 Management of water discharge-related impacts 10",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "2. Topic disclosures 11",
+          "label": "2. Topic disclosures 11",
+          "text": "2. Topic disclosures 11",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 303-3 Water withdrawal 11",
+          "label": "Disclosure 303-3 Water withdrawal 11",
+          "text": "Disclosure 303-3 Water withdrawal 11",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 303-4 Water discharge 13",
+          "label": "Disclosure 303-4 Water discharge 13",
+          "text": "Disclosure 303-4 Water discharge 13",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 303-5 Water consumption 16",
+          "label": "Disclosure 303-5 Water consumption 16",
+          "text": "Disclosure 303-5 Water consumption 16",
+          "requirements": [],
+          "content": [
+            "GRI 303: Water and Effluents 2018 4",
+            "Introduction",
+            "GRI 303: Water and Effluents 2018 contains disclosures for organizations to report information about their water- related impacts, and how they manage these impacts.",
+            "The Standard is structured as follows:",
+            "Section 1 contains two disclosures, which provide information about how the organization manages its water- related impacts. •",
+            "Section 2 contains three disclosures, which provide information about the organization’s water-related impacts. • The Glossary contains defined terms with a specific meaning when used in the GRI Standards. The terms are underlined in the text of the GRI Standards and linked to the definitions. •",
+            "The Bibliography lists authoritative intergovernmental instruments and additional references used in developing this Standard. •",
+            "The rest of the Introduction section provides a background on the topic, an overview of the system of GRI Standards and further information on using this Standard.",
+            "Background on the topic This Standard addresses the topic of water and effluents.",
+            "Access to fresh water is essential for human life and wellbeing, and is recognized by the United Nations (UN) as a human right. The Sustainable Development Goals, adopted by the UN as part of the 2030 Agenda for Sustainable Development, include key targets related to sustainable water management under Goal 6: ‘Ensure availability and sustainable management of water and sanitation for all’. These targets aim, for example, to achieve universal access to safe and affordable drinking water, improve water quality, and address water scarcity.",
+            "The amount of water withdrawn and consumed by an organization and the quality of its discharges, can impact the functioning of the ecosystem in numerous ways. Direct impacts on a catchment can have wider impacts on the quality of life in an area, including social and economic consequences for local communities and indigenous peoples.",
+            "Since water is a shared resource, and water-related impacts are localized, organizations are increasingly being encouraged to:",
+            "prioritize action in areas with water stress; • understand and respond to local contexts, including local social and environmental impacts; • aim to benefit and respect the needs and priorities of all water users in an area; • align their approaches and collective actions with other water users and with effective public policy. •",
+            "Through a comprehensive understanding of its water use, an organization can assess the impacts it has on water resources that benefit the ecosystem, other water users, and the organization itself. An organization, particularly a water-intensive one, can use this information for effective water management.",
+            "System of GRI Standards This Standard is part of the GRI Sustainability Reporting Standards (GRI Standards). The GRI Standards enable an organization to report information about its most significant impacts on the economy, environment, and people, including impacts on their human rights, and how it manages these impacts.",
+            "The GRI Standards are structured as a system of interrelated standards that are organized into three series: GRI Universal Standards, GRI Sector Standards, and GRI Topic Standards (see Figure 1 in this Standard).",
+            "Universal Standards: GRI 1, GRI 2 and GRI 3 GRI 1: Foundation 2021 specifies the requirements that the organization must comply with to report in accordance with the GRI Standards. The organization begins using the GRI Standards by consulting GRI 1 .",
+            "GRI 2: General Disclosures 2021 contains disclosures that the organization uses to provide information about its reporting practices and other organizational details, such as its activities, governance, and policies.",
+            "GRI 3: Material Topics 2021 provides guidance on how to determine material topics. It also contains disclosures that the organization uses to report information about its process of determining material topics, its list of material topics, and how it manages each topic.",
+            "GRI 303: Water and Effluents 2018 5",
+            "Sector Standards The Sector Standards provide information for organizations about their likely material topics. The organization uses the Sector Standards that apply to its sectors when determining its material topics and when determining what to report for each material topic.",
+            "Topic Standards The Topic Standards contain disclosures that the organization uses to report information about its impacts in relation to particular topics. The organization uses the Topic Standards according to the list of material topics it has determined using GRI 3 .",
+            "Figure 1. GRI Standards: Universal, Sector and Topic Standards",
+            "GRI Standards",
+            "Sector Standards Universal Standards Topic Standards",
+            "Requirements and principles for using the GRI Standards",
+            "Disclosures about the reporting organization",
+            "Disclosures and guidance about the organization's material topics",
+            "Apply all three Universal Standards to your reporting",
+            "Use the Sector Standards that",
+            "Select Topic Standards to report",
+            "apply to your sectors",
+            "specific information on your",
+            "material topics",
+            "Using this Standard This Standard can be used by any organization – regardless of size, type, sector, geographic location, or reporting experience – to report information about its water-related impacts.",
+            "An organization reporting in accordance with the GRI Standards is required to report the following disclosures if it has determined water and effluents to be a material topic:"
+          ],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 5
+        },
+        {
+          "id": "Disclosure 3-3 in GRI 3: Material Topics 2021 (see",
+          "label": "Disclosure 3-3 in GRI 3: Material Topics 2021 (see clause 1.1 in this Standard); • Any disclosures from this Topic Stand",
+          "text": "Disclosure 3-3 in GRI 3: Material Topics 2021 (see clause 1.1 in this Standard); • Any disclosures from this Topic Standard that are relevant to the organization’s water-related impacts (Disclosure 303-1 through Disclosure 303-5). •",
+          "requirements": [],
+          "content": [
+            "See Requirements 4 and 5 in GRI 1: Foundation 2021 .",
+            "Reasons for omission are permitted for these disclosures.",
+            "If the organization cannot comply with a disclosure or with a requirement in a disclosure (e.g., because the required information is confidential or subject to legal prohibitions), the organization is required to specify the disclosure or the requirement it cannot comply with, and provide a reason for omission together with an explanation in the GRI content index. See Requirement 6 in GRI 1: Foundation 2021 for more information on reasons for omission.",
+            "If the organization cannot report the required information about an item specified in a disclosure because the item (e.g., committee, policy, practice, process) does not exist, it can comply with the requirement by reporting this to be the",
+            "GRI 303: Water and Effluents 2018 6",
+            "case. The organization can explain the reasons for not having this item, or describe any plans to develop it. The disclosure does not require the organization to implement the item (e.g., developing a policy), but to report that the item does not exist.",
+            "If the organization intends to publish a standalone sustainability report, it does not need to repeat information that it has already reported publicly elsewhere, such as on web pages or in its annual report. In such a case, the organization can report a required disclosure by providing a reference in the GRI content index as to where this information can be found (e.g., by providing a link to the web page or citing the page in the annual report where the information has been published).",
+            "Further guidance for reporting the disclosures in this Standard Due to the strong relationship between water withdrawal, consumption, and discharge, the reporting organization is expected to report on all three topic disclosures of GRI 303 .",
+            "Since water-related impacts are often localized, the organization is encouraged, as much as possible, to support any quantitative aggregate-level information with narrative descriptions of any contextual factors that were considered when compiling the information. This will provide a more comprehensive overview of the organization’s water use.",
+            "Requirements, guidance and defined terms The following apply throughout this Standard:",
+            "Requirements are presented in bold font and indicated by the word 'shall'. An organization must comply with requirements to report in accordance with the GRI Standards.",
+            "Requirements may be accompanied by guidance.",
+            "Guidance includes background information, explanations, and examples to help the organization better understand the requirements. The organization is not required to comply with guidance.",
+            "The Standards may also include recommendations. These are cases where a particular course of action is encouraged but not required.",
+            "The word ‘should’ indicates a recommendation, and the word ‘can’ indicates a possibility or option.",
+            "Defined terms are underlined in the text of the GRI Standards and linked to their definitions in the Glossary . The organization is required to apply the definitions in the Glossary.",
+            "GRI 303: Water and Effluents 2018 7"
+          ],
+          "tables": [],
+          "page_start": 5,
+          "page_end": 7
+        },
+        {
+          "id": "1. Topic management disclosures",
+          "label": "1. Topic management disclosures",
+          "text": "1. Topic management disclosures",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS The reporting organization shall report how it manages water and effluents using Disclosure 3-3 in GRI 3: Material Topics 2021 . 1.1",
+              "content": [
+                "Background The disclosures in this section request essential information to help understand how an organization manages water-related impacts. The reporting organization can report any additional information about its water stewardship efforts and practices."
+              ],
+              "tables": [],
+              "page_start": 7,
+              "page_end": 7
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "An effective approach to managing water and effluents accounts for the local context of water use, and acknowledges the importance of stewarding water as a shared resource. An organization can reduce its water withdrawal, consumption, discharge, and associated impacts through efficiency measures, such as water recycling and reuse, and process redesign, as well as through collective actions that extend beyond its operations within the catchment. It can improve water quality through better treatment of water discharge.",
+                "GRI 303: Water and Effluents 2018 8"
+              ],
+              "tables": [],
+              "page_start": 7,
+              "page_end": 8
+            }
+          ],
+          "content": [
+            "An organization reporting in accordance with the GRI Standards is required to report how it manages each of its material topics.",
+            "An organization that has determined water and effluents to be a material topic is required to report how it manages the topic using Disclosure 3-3 in GRI 3: Material Topics 2021 (see clause 1.1 in this section). The organization is also required to report any disclosures from this section (Disclosure 303-1 through Disclosure 303-2) that are relevant to its water-related impacts.",
+            "This section is therefore designed to supplement – and not replace – Disclosure 3-3 in GRI 3 ."
+          ],
+          "tables": [],
+          "page_start": 7,
+          "page_end": 8
+        },
+        {
+          "id": "Disclosure 303-1 Interactions with water as a shar",
+          "label": "Disclosure 303-1 Interactions with water as a shared resource",
+          "text": "Disclosure 303-1 Interactions with water as a shared resource",
+          "requirements": [
+            {
+              "type": "RECOMMENDATIONS",
+              "text": "RECOMMENDATIONS The reporting organization should report the following additional information: 1.2",
+              "content": [
+                "An overview of water use across the organization’s value chain; 1.2.1",
+                "A list of specific catchments where the organization causes significant water- related impacts. 1.2.2",
+                "Guidance for Disclosure 303-1 Through its value chain, an organization can affect both the quality as well as the availability of water. If the reporting organization has identified significant water-related impacts in the value chain, which includes activities carried out by the organization, and by entities upstream and downstream from the organization, it is required to report information about these impacts. See Guidance to 3-3-b in GRI 3: Material Topics 2021 for more information about reporting an organization’s involvement with negative impacts."
+              ],
+              "tables": [],
+              "page_start": 8,
+              "page_end": 8
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "The description of how the organization interacts with water can include information on specific catchments where water is withdrawn, consumed, and discharged, and information on what the water is used for in activities carried out by the organization and by entities upstream and downstream from the organization (e.g., for cooling, storage, incorporating in products, growing crops).",
+                "In the context of this Standard, suppliers with significant water-related impacts may include suppliers of water-intensive commodities or services, suppliers located in areas with water stress, and/or suppliers with significant impacts on the local water environment and the related local communities.",
+                "If applicable, the organization can describe its environmental impacts caused by runoff, and how they are addressed. For example, runoff can carry high-nutrient and pollution loads due to the organization’s activities, leading to eutrophication and other negative impacts on local waterbodies.",
+                "Guidance for Disclosure 303-1-b When assessing impacts, it is important that the organization consider its future impacts on water quality and availability, as these factors can change over time.",
+                "Tools and methodologies for identifying impacts can include life cycle assessments, environmental impact assessments, water footprint assessments, scenario analysis, and stakeholder engagement. If information is estimated or modeled, rather than sourced from direct measurements, the organization can explain its estimation or modeling methods.",
+                "Guidance for Disclosure 303-1-c Working with stakeholders is critical for an organization to steward water as a shared resource and account for the needs of other water users of the catchment. An organization’s stakeholders can include:",
+                "suppliers with significant water-related impacts; •",
+                "GRI 303: Water and Effluents 2018 9",
+                "users of its products and services; • local communities and action groups; • employees and other workers; • other water users in its sector or industry; • governments, regulators, and civil society organizations; • global initiatives, trade associations, and partnerships. •",
+                "The organization can describe how it participates in discussions with stakeholders, the frequency of this engagement, and its role in these discussions. Outcomes of working with stakeholders can include, for example, collective target-setting for water use, increased investment in infrastructure, policy advocacy, and capacity building and awareness raising.",
+                "When reporting on its engagement with suppliers, the organization can describe:",
+                "how the organization engages with its suppliers to help them improve their water management practices; •",
+                "the number of suppliers engaged; • the outcomes of this engagement; • the amount of procurement that the proportion of engaged suppliers represents; • why information is not requested from suppliers with significant water-related impacts; • future plans and goals for working with suppliers to reduce water-related impacts. •",
+                "Water impacts related to products and services might be addressed by, for example, improving product design, providing information and advice on the responsible use of products and services, and holding regular consultations with users.",
+                "Guidance for Disclosure 303-1-d Meaningful targets for managing water-related impacts:",
+                "account for the local context where water is withdrawn and discharged; • are scientifically informed by sustainable thresholds and the social context of a given catchment; •",
+                "•",
+                "align with public sector efforts, such as the water- related targets of the UN Sustainable Development Goals, in particular Goal 6, or targets set by national and local government institutions;",
+                "are informed by the advocacy of other stakeholders, such as civil society organizations, trade associations, and action groups. •",
+                "See references [2] and [4] in the Bibliography .",
+                "The organization can report its progress toward the goals and targets using 3-3-e-iii in GRI 3: Ma terial Topics 2021 .",
+                "Guidance for clause 1.2.1 The organization can present the overview of water use across its value chain as a breakdown, in graphic or written form, showing, for example, parts of the value chain where water consumption is significant and the commodities to which it is related, or the percentage of commodity sourcing that comes from catchments located in areas with water stress. The organization is encouraged to include information about upstream as well as downstream water use (e.g., use of water for consumer products, such as soaps, shampoos, and cleaning solutions).",
+                "Guidance for clause 1.2.2 To identify catchments where it causes water-related impacts, the organization can use global catchment data sets. These include the CEO Water Mandate ' Interactive Database of the World's River Basins ' , and the WWF ' HydroSHEDS ' .",
+                "1 2",
+                "1 CEO Water Mandate, Interactive Database of the World’s River Basins , riverbasins.wateractionhub.org/ , accessed on 1 June 2018. 2 WWF, HydroSHEDS , http://www.hydrosheds.org/ , accessed on 1 June 2018.",
+                "GRI 303: Water and Effluents 2018 10"
+              ],
+              "tables": [],
+              "page_start": 8,
+              "page_end": 10
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information: REQUIREMENTS",
+            "a.",
+            "A description of how the organization interacts with water, including how and where water is withdrawn, consumed, and discharged, and the water-related impacts the organization has caused or contributed to, or that are directly linked to its operations, products, or services by its business relationships (e.g., impacts caused by runoff).",
+            "A description of the approach used to identify water-related impacts, including the scope of assessments, their timeframe, and any tools or methodologies used. b.",
+            "c.",
+            "A description of how water-related impacts are addressed, including how the organization works with stakeholders to steward water as a shared resource, and how it engages with suppliers or customers with significant water-related impacts.",
+            "d.",
+            "An explanation of the process for setting any water-related goals and targets that are part of the organization’s approach to managing water and effluents, and how they relate to public policy and the local context of each area with water stress."
+          ],
+          "tables": [],
+          "page_start": 8,
+          "page_end": 10
+        },
+        {
+          "id": "Disclosure 303-2 Management of water discharge-rel",
+          "label": "Disclosure 303-2 Management of water discharge-related impacts",
+          "text": "Disclosure 303-2 Management of water discharge-related impacts",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Water quality refers to the physical, chemical, biological, and taste-related characteristics of water. It is a measure of water suitability for a given purpose or function, including its use as a human right. Water quality standards help uphold water quality in order to protect ecosystems, wildlife, and human health and welfare, and can be based on water properties, such as temperature or pH value.",
+                "The specific choice of water quality standards and parameters can vary depending on an organization’s procucts, services, and facility locations, and can depend on national and/or regional regulations, as well as the profile of the receiving waterbody.",
+                "GRI 303: Water and Effluents 2018 11"
+              ],
+              "tables": [],
+              "page_start": 10,
+              "page_end": 11
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information: REQUIREMENTS",
+            "a.",
+            "A description of any minimum standards set for the quality of effluent discharge, and how these minimum standards were determined, including:",
+            "how standards for facilities operating in locations with no local discharge requirements were determined; i.",
+            "any internally developed water quality standards or guidelines; ii.",
+            "any sector-specific standards considered; iii.",
+            "whether the profile of the receiving waterbody was considered. iv.",
+            "Guidance for Disclosure 303-2 Minimum standards are those that go beyond regulatory requirements in controlling the quality of effluent discharge."
+          ],
+          "tables": [],
+          "page_start": 10,
+          "page_end": 11
+        },
+        {
+          "id": "2. Topic disclosures",
+          "label": "2. Topic disclosures",
+          "text": "2. Topic disclosures",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 11,
+          "page_end": 11
+        },
+        {
+          "id": "Disclosure 303-3 Water withdrawal",
+          "label": "Disclosure 303-3 Water withdrawal",
+          "text": "Disclosure 303-3 Water withdrawal",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "a.",
+                "Total water withdrawal from all areas in megaliters, and a breakdown of this total by the following sources, if applicable:",
+                "Surface water; i.",
+                "Groundwater; ii.",
+                "Seawater; iii.",
+                "Produced water; iv.",
+                "Third-party water. v.",
+                "b.",
+                "Total water withdrawal from all areas with water stress in megaliters, and a breakdown of this total by the following sources, if applicable:",
+                "Surface water; i.",
+                "Groundwater; ii.",
+                "Seawater; iii.",
+                "Produced water; iv.",
+                "Third-party water, and a breakdown of this total by the withdrawal sources listed in i-iv. v.",
+                "c.",
+                "A breakdown of total water withdrawal from each of the sources listed in Disclosures 303-3-a and 303-3-b in megaliters by the following categories:",
+                "Freshwater (≤1,000 mg/L Total Dissolved Solids); i.",
+                "Other water (>1,000 mg/L Total Dissolved Solids). ii.",
+                "Any contextual information necessary to understand how the data have been compiled, such as any standards, methodologies, and assumptions used. d.",
+                "Compilation requirements",
+                "2.1",
+                "When compiling the information specified in Disclosure 303-3, the reporting organization shall use publicly available and credible tools and methodologies for assessing water stress in an area."
+              ],
+              "tables": [],
+              "page_start": 11,
+              "page_end": 11
+            },
+            {
+              "type": "RECOMMENDATIONS",
+              "text": "RECOMMENDATIONS The reporting organization should report the following additional information: 2.2",
+              "content": [
+                "A breakdown of total water withdrawal in megaliters by withdrawal source categories listed in Disclosure 303-3, at each facility in areas with water stress; 2.2.1",
+                "Total water withdrawal in megaliters by suppliers with significant water-related impacts in areas with water stress. 2.2.2",
+                "Background The volume of water withdrawal from areas with water stress can indicate an organization’s impacts in sensitive locations."
+              ],
+              "tables": [],
+              "page_start": 11,
+              "page_end": 11
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "To learn more about locations where water-related impacts might be significant, and where actions to address them are most needed, the reporting organization can also report the information requested in Disclosure 303-3 for each facility in areas with water stress. This can give stakeholders more confidence in the organization’s water stewardship efforts and practices.",
+                "Guidance for Disclosure 303-3 For an example of how to present information on requirements in Disclosure 303-3, see Table 1 .",
+                "Surface water includes collected or harvested rainwater. Third-party water includes water supplied by municipal water networks or other organizations.",
+                "GRI 303: Water and Effluents 2018 12",
+                "Guidance for Disclosure 303-3-b Water stress refers to the ability, or lack thereof, to meet the human and ecological demand for water. Water stress can refer to the availability, quality, or accessibility of water.",
+                "Publicly available and credible tools for assessing areas with water stress include the World Resources Institute ‘ Aqueduct Water Risk Atlas ,' and the WWF 'Water Risk Filter' .",
+                "Based on these tools, water stress in an area may be assessed using either of the following indicators and their thresholds:",
+                "The ratio of total annual water withdrawal to total available annual renewable water supply (i.e., baseline water stress) is high (40-80%) or extremely high (>80%) ; 3 •",
+                "•",
+                "The ratio of water consumption-to-availability (i.e., water depletion) is moderate (dry-year depletion, where for at least 10% of the time, the monthly depletion ratio is >75%), high (seasonal depletion, where for one month of the year on average, the depletion ratio is >75%), or very high (ongoing depletion, where the depletion ratio on average is >75%) . 4",
+                "The organization may use these indicators even though they account only for quantity and not the quality or accessibility of water as per the inclusive approach to the definition of water stress.",
+                "The organization can complement the results from these tools with their own assessments, to provide more granular local-level data. Water stress in an area may be measured at catchment level at a minimum.",
+                "Guidance for Disclosure 303-3-b-v If water is supplied by a third party, the organization is required to request information about its withdrawal sources, listed in Disclosures 303-3-b-i to 303-3-b-iv, from the third-party water supplier. The organization can report any additional information about third-party water, such as who the third-party water suppliers are and the volume of water supplied by them.",
+                "Guidance for Disclosure 303-3-c The organization is required to provide a breakdown of the water withdrawn from each of the sources listed in Disclosures 303-3-a and 303-3-b (surface water, groundwater, seawater, produced water, third-party water) by the categories freshwater and other water. The organization is only required to provide this breakdown for the sources it has withdrawn water from. If all water withdrawn from a source belongs only to one category (i.e., to freshwater or to other water), the organization can report the volume for the remaining category as zero. For example, if all the withdrawn seawater belongs to the other water category, the organization can report the volume of freshwater under this source as zero.",
+                "Other water constitutes any water that has a concentration of total dissolved solids higher than 1,000 mg/L. Other water is therefore all water that does not fall into the freshwater category.",
+                "The organization is, at a minimum, required to report a figure for other water withdrawal for each of the sources listed in Disclosures 303-3-a and 303-3-b.",
+                "The organization can additionally report any further breakdowns for other water withdrawal based on its water management and reporting practices, as long as it explains the approach used to define water quality using Disclosure 303-3-d. The organization can report additional information on how water quality has been determined, including consideration of the potential value of water to its users, as well as any absolute physical and/or chemical criteria used.",
+                "Guidance for clause 2.2.1 To compile this information, the organization can use the following approach: (a) determine which facilities are located in areas with water stress, (b) for each of these facilities, report a breakdown of the total water withdrawal by surface water, groundwater, seawater, produced water, and third-party water. For an example of how to present this information, see Table 2 .",
+                "Guidance for clause 2.2.2 To compile this information, the organization can use the following approach: (a) determine which suppliers are located in areas with water stress, (b) determine which of these suppliers cause significant water-related impacts, (c) add up the total water withdrawal of each of these suppliers, (d) report the sum. For an example of how to present this information, see Table 3 .",
+                "3 Indicator used in the World Resources Institute, Aqueduct Water Risk Atlas , www.wri.org/our-work/project/aqueduct/ , accessed on 1 June 2018. 4 Indicator used in WWF, Water Risk Filter , waterriskfilter.panda.org , accessed on 1 June 2018.",
+                "GRI 303: Water and Effluents 2018 13"
+              ],
+              "tables": [],
+              "page_start": 11,
+              "page_end": 13
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information:"
+          ],
+          "tables": [],
+          "page_start": 11,
+          "page_end": 13
+        },
+        {
+          "id": "Disclosure 303-4 Water discharge",
+          "label": "Disclosure 303-4 Water discharge",
+          "text": "Disclosure 303-4 Water discharge",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "a.",
+                "Total water discharge to all areas in megaliters, and a breakdown of this total by the following types of destination, if applicable:",
+                "Surface water; i.",
+                "Groundwater; ii.",
+                "Seawater; iii.",
+                "Third-party water, and the volume of this total sent for use to other organizations, if applicable. iv.",
+                "b.",
+                "A breakdown of total water discharge to all areas in megaliters by the following categories:",
+                "Freshwater (≤1,000 mg/L Total Dissolved Solids); i.",
+                "Other water (>1,000 mg/L Total Dissolved Solids). ii.",
+                "c.",
+                "Total water discharge to all areas with water stress in megaliters, and a breakdown of this total by the following categories:",
+                "Freshwater (≤1,000 mg/L Total Dissolved Solids); i.",
+                "Other water (>1,000 mg/L Total Dissolved Solids). ii.",
+                "d.",
+                "Priority substances of concern for which discharges are treated, including:",
+                "how priority substances of concern were defined, and any international standard, authoritative list, or criteria used; i.",
+                "the approach for setting discharge limits for priority substances of concern; ii.",
+                "number of incidents of non-compliance with discharge limits. iii.",
+                "Any contextual information necessary to understand how the data have been compiled, such as any standards, methodologies, and assumptions used. e.",
+                "Compilation requirements",
+                "2.3",
+                "When compiling the information specified in Disclosure 303-4, the reporting organization shall use publicly available and credible tools and methodologies for assessing water stress in an area."
+              ],
+              "tables": [],
+              "page_start": 13,
+              "page_end": 13
+            },
+            {
+              "type": "RECOMMENDATIONS",
+              "text": "RECOMMENDATIONS The reporting organization should report the following additional information: 2.4",
+              "content": [
+                "The number of occasions on which discharge limits were exceeded; 2.4.1",
+                "A breakdown of total water discharge to all areas in megaliters by level of treatment, and how the treatment levels were determined; 2.4.2",
+                "2.4.3",
+                "Percentage of suppliers with significant water-related impacts from water discharge that have set minimum standards for the quality of their effluent discharge.",
+                "Background Quantifying the volume of water discharge can help an organization understand its negative impacts on the receiving waterbody."
+              ],
+              "tables": [],
+              "page_start": 13,
+              "page_end": 13
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "The relationship between water discharge and negative impacts is not linear. An increase in the total volume of water discharge does not necessarily correspond to greater negative impacts, since these impacts depend on the quality of the water discharge and the sensitivity of the receiving waterbody. An organization with a high volume of water discharge, but also a high level of treatment and strict quality standards, can have positive impacts on the receiving waterbody.",
+                "To learn more about locations where water-related impacts might be significant, and where actions to address them are most needed, the reporting organization can also report the information requested in Disclosure 303-4 for each facility in areas with water stress.",
+                "GRI 303: Water and Effluents 2018 14",
+                "Guidance for Disclosure 303-4 For an example of how to present information on requirements in Disclosure 303-4, see Table 1 .",
+                "See Guidance for Disclosure 303-3-b for how to assess areas with water stress.",
+                "Guidance for Disclosure 303-4-a-iv An example of third-party water discharge is when an organization sends water and effluents to other organizations for use. In these instances, the organization is required to report the volume of this water discharge separately.",
+                "Guidance for Disclosures 303-4-b and 303-4-c The organization is required to provide a breakdown of the water discharged to all areas and to all areas with water stress by the categories freshwater and other water. Other water constitutes any water that has a concentration of total dissolved solids higher than 1,000 mg/L. Other water is therefore all water that does not fall into the freshwater category.",
+                "The organization is, at a minimum, required to report a figure for other water discharged. The organization can additionally report any further breakdowns for other water discharge based on its water management and reporting practices, as long as it explains the approach used to define water quality using Disclosure 303-4-e. The organization can report additional information on how water quality has been determined, including consideration of the potential value of water to its users, as well as any absolute physical and/or chemical criteria used.",
+                "Guidance for Disclosure 303-4-d In the context of this Standard, substances of concern are those that cause irreversible damage to the waterbody, ecosystem, or human health.",
+                "Discharge limits for substances of concern can be based on regulation and/or other factors determined by an organization. In countries where no regulations for discharge limits are available, the organization can develop its own discharge limits.",
+                "‘Discharge consent’ is the permission granted to an organization, allowing it to discharge a set amount of a substance. The organization can report any unauthorized discharges that exceed these limits using Disclosure 303-4-d. The organization can also describe any plans to reduce unauthorized discharges in the future.",
+                "Guidance for clause 2.4.2 Reporting water discharge by level of treatment can provide insight into the effort an organization is making to improve the quality of its water discharge. When reporting how the treatment levels were determined, the organization is expected to include the reasons why a certain level of treatment was set.",
+                "The level of treatment can be reported for any water or effluents at the point of discharge, whether treated by the organization onsite or sent to a third party for treatment.",
+                "Water treatment involves physical, chemical or biological processes that improve water quality by removing solids, pollutants, and organic matter from water and effluents. Minimum requirements for treatment might be specified in national, state, or local legislation; however, the organization is expected to consider its overall water discharge impacts and the needs of other water users in setting treatment levels.",
+                "The organization can break down its water discharge by the following treatment levels:",
+                "Primary treatment, which aims to remove solid substances that settle or float on the water surface; •",
+                "Secondary treatment, which aims to remove substances and materials that have remained in the water, or are dissolved or suspended in it; •",
+                "•",
+                "Tertiary treatment, which aims to upgrade water to a higher level of quality before it is discharged. It includes processes that remove, for example, heavy metals, nitrogen, and phosphorus.",
+                "An organization might withdraw and discharge water of good quality that does not require",
+                "GRI 303: Water and Effluents 2018 15",
+                "treatment. If so, the organization can explain this in its reported information.",
+                "Guidance for clause 2.4.3 Minimum standards are those that go beyond regulatory requirements in controlling the quality of effluent discharge. For more information on water quality standards, see Disclosure 303-2 in the Topic management disclosures section.",
+                "To compile this information, the organization can use the following approach: (a) determine the number of suppliers with significant water-related impacts from water discharge, (b) determine how many of these suppliers have set minimum standards for the quality of their effluent discharge, (c) calculate the percentage using the following formula:",
+                "Percentage of suppliers with significant water-related impacts from water discharge that have set minimum standards for the quality of their effluent",
+                "discharge",
+                "= Number of suppliers that have set minimum standards for the quality of their",
+                "effluent discharge ________________________________________________________________",
+                "x 100",
+                "Number of suppliers with significant water-related impacts from water discharge",
+                "For an example of how to present this information, see Table 3 .",
+                "GRI 303: Water and Effluents 2018 16"
+              ],
+              "tables": [],
+              "page_start": 13,
+              "page_end": 16
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information:"
+          ],
+          "tables": [],
+          "page_start": 13,
+          "page_end": 16
+        },
+        {
+          "id": "Disclosure 303-5 Water consumption",
+          "label": "Disclosure 303-5 Water consumption",
+          "text": "Disclosure 303-5 Water consumption",
+          "requirements": [
+            {
+              "type": "RECOMMENDATIONS",
+              "text": "RECOMMENDATIONS The reporting organization should report the following additional information: 2.5",
+              "content": [
+                "Total water consumption in megaliters at each facility in areas with water stress; 2.5.1",
+                "Total water consumption in megaliters by suppliers with significant water-related impacts in areas with water stress. 2.5.2",
+                "Background Water consumption measures water used by an organization such that it is no longer available for use by the ecosystem or local community in the reporting period. Reporting the volume of water consumption can help the organization understand the overall scale of its impact due to water withdrawal on downstream water availability."
+              ],
+              "tables": [],
+              "page_start": 16,
+              "page_end": 16
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Guidance for Disclosure 303-5 For an example how to present information on requirements in Disclosure 303-5, see Table 1 .",
+                "See Guidance for Disclosure 303-3-b for how to assess areas with water stress.",
+                "If the reporting organization cannot directly measure water consumption, it may calculate this using the following formula:",
+                "Water consumption",
+                "=",
+                "Total water withdrawal",
+                "-",
+                "Total water discharge",
+                "Guidance for Disclosure 303-5-c If the water in storage has been identified as having a significant water-related impact, the organization is required to report change in water storage. The organization may calculate change in water storage using the following formula:",
+                "Change in water storage",
+                "=",
+                "Total water storage at the end of the reporting period",
+                "-",
+                "Total water storage at the beginning of the reporting period",
+                "GRI 303: Water and Effluents 2018 17",
+                "Guidance for clause 2.5.1 To compile this information, the organization can use the following approach: (a) determine which facilities are located in areas with water stress, (b) for each of these facilities, report the total water consumption. For an example of how to present this information, see Table 2 .",
+                "Guidance for clause 2.5.2 To compile this information, the organization can use the following approach: (a) determine which suppliers are located in areas with water stress, (b) determine which of these suppliers cause significant water-related impacts, (c) add up the total water consumption of each of these suppliers, (d) report the sum. For an example of how to present this information, see Table 3 .",
+                "GRI 303: Water and Effluents 2018 18",
+                "Table 1. Example templates for presenting information for Disclosures 303-3, 303-4, and 303-5 Table 1 offers examples of how to present information for Disclosures 303-3, 303-4, and 303-5. The reporting organization can amend the table according to its practices, for example by reporting additional information.",
+                "GRI 303: Water and Effluents 2018 19",
+                "GRI 303: Water and Effluents 2018 20",
+                "Table 2. Example template for presenting facility-level information",
+                "Table 2 offers an example of how to present information on facilities located in areas with water stress as per the recommendations specified in Disclosures 303-3 (clause 2.2.1) and 303-5 (clause 2.5.1). The reporting organization can amend the table according to its practices, for example by reporting water discharge information.",
+                "GRI 303: Water and Effluents 2018 21",
+                "Table 3. Example template for presenting supply chain information",
+                "Table 3 offers an example of how to present information on the organization’s suppliers as per the recommendations specified in Disclosures 303-3 (clause 2.2.2), 303-4 (clause 2.4.3), and 303-5 (clause 2.5.2). The reporting organization can amend the table according to its practices, for example by reporting the location of suppliers.",
+                "GRI 303: Water and Effluents 2018 22",
+                "Glossary",
+                "This glossary provides definitions for terms used in this Standard. The organization is required to apply these definitions when using the GRI Standards.",
+                "The definitions included in this glossary may contain terms that are further defined in the complete GRI Standards Glossary . All defined terms are underlined. If a term is not defined in this glossary or in the complete GRI Standards Glossary , definitions that are commonly used and understood apply.",
+                "business partner entity with which the organization has some form of direct and formal engagement for the purpose of meeting its business objectives",
+                "B",
+                "Source: Shift and Mazars LLP, UN Guiding Principles Reporting Framework , 2015; modified",
+                "Examples: affiliates, business-to-business customers, clients, first-tier suppliers, franchisees, joint venture partners, investee companies in which the organization has a shareholding position",
+                "Note: Business partners do not include subsidiaries and affiliates that the organization controls.",
+                "business relationships relationships that the organization has with business partners, with entities in its value chain including those beyond the first tier, and with any other entities directly linked to its operations, products, or services",
+                "Source: United Nations (UN), Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework , 2011; modified",
+                "Note: Examples of other entities directly linked to the organization’s operations, products, or services are a non-governmental organization with which the organization delivers support to a local community or state security forces that protect the organization’s facilities.",
+                "catchment area of land from which all surface runoff and subsurface water flows through a sequence of streams, rivers, aquifers, and lakes into the sea or another outlet at a single river mouth, estuary, or delta",
+                "C",
+                "Source: Alliance for Water Stewardship (AWS), AWS International Water Stewardship Standard, Version 1.0 , 2014; modified",
+                "Note: Catchments include associated groundwater areas and might include portions of waterbodies (such  as lakes or rivers). In different parts of the world, catchments are also referred to as ‘watersheds’ or ‘basins’ (or sub-basins).",
+                "child person under the age of 15 years, or under the age of completion of compulsory schooling, whichever is higher",
+                "Note 1: Exceptions can occur in certain countries where economies and educational facilities are insufficiently developed, and a minimum age of 14 years applies. These countries of exception are specified by the International Labour Organization (ILO) in response to a special application by the country concerned and in consultation with representative organizations of employers and workers.",
+                "Note 2: The ILO Minimum Age Convention, 1973, (No. 138), refers to both child labor and young workers.",
+                "effluent treated or untreated wastewater that is discharged",
+                "E",
+                "GRI 303: Water and Effluents 2018 23",
+                "Source: Alliance for Water Stewardship (AWS), AWS International Water Stewardship Standard, Version 1.0 , 2014",
+                "employee individual who is in an employment relationship with the organization according to national law or practice",
+                "freshwater water with concentration of total dissolved solids equal to or below 1,000 mg/L",
+                "F",
+                "Source: Environmental management — Water footprint — Principles, requirements and guidelines. Geneva: ISO, 2014; modified United States Geological Survey (USGS), Water Science Glossary of Terms, water.usgs.gov/edu/dictionary.html , accessed on 1 June 2018; modified World Health Organization (WHO), Guidelines for Drinking-water Quality , 2017; modified",
+                "groundwater water that is being held in, and that can be recovered from, an underground formation",
+                "G",
+                "Source: International Organization for Standardization. ISO 14046:2014. Environmental management — Water footprint — Principles, requirements and guidelines . Geneva: ISO, 2014; modified",
+                "human rights rights inherent to all human beings, which include, at a minimum, the rights set out in the United Nations (UN) International Bill of Human Rights and the principles concerning fundamental rights set out in the International Labour Organization (ILO) Declaration on Fundamental Principles and Rights at Work",
+                "H",
+                "Source: United Nations (UN), Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework , 2011; modified",
+                "Note: See Guidance to 2-23-b-i in GRI 2: General Disclosures 2021 for more information on ‘human rights’.",
+                "impact effect the organization has or could have on the economy, environment, and people, including on their human rights, which in turn can indicate its contribution (negative or positive) to sustainable development",
+                "I",
+                "Note 1: Impacts can be actual or potential, negative or positive, short-term or long-term, intended or unintended, and reversible or irreversible.",
+                "Note 2: See section 2.1 in GRI 1: Foundation 2021 for more information on ‘impact’.",
+                "Indigenous Peoples Indigenous Peoples are generally identified as:",
+                "•",
+                "tribal peoples in independent countries whose social, cultural and economic conditions distinguish them from other sections of the national community, and whose status is regulated wholly or partially by their own customs or traditions or by special laws or regulations;",
+                "•",
+                "peoples in independent countries who are regarded as indigenous on account of their descent from the populations which inhabited the country, or a geographical region to which the country belongs, at the time of conquest or colonization or the establishment of present state boundaries and who, irrespective of their legal status, retain some or all of their own social, economic, cultural and political institutions.",
+                "Source: International Labour Organization (ILO), Indigenous and Tribal Peoples Convention , 1989 (No. 169)",
+                "infrastructure facilities built primarily to provide a public service or good rather than a commercial purpose, and from which the organization does not seek to gain direct economic benefit",
+                "GRI 303: Water and Effluents 2018 24",
+                "Examples: hospitals, roads, schools, water supply facilities",
+                "local community individuals or groups of individuals living or working in areas that are affected or that could be affected by the organization’s activities",
+                "L",
+                "Note: The local community can range from those living adjacent to the organization’s operations to those living at a distance.",
+                "material topics topics that represent the organization’s most significant impacts on the economy, environment, and people, including impacts on their human rights",
+                "M",
+                "Note: See section 2.2 in GRI 1: Foundation 2021 and section 1 in GRI 3: Material Topics 2021 for more information on ‘material topics’.",
+                "produced water water that enters the organization’s boundary as a result of extraction (e.g., crude oil), processing (e.g., sugar cane crushing), or use of any raw material, and has to consequently be managed by the organization",
+                "P",
+                "Source: CDP, CDP Water Security Reporting Guidance , 2018; modified",
+                "reporting period specific time period covered by the reported information",
+                "R",
+                "Examples: fiscal year, calendar year",
+                "runoff part of precipitation that flows towards a river on the ground surface (i.e., surface runoff) or within the soil (i.e., subsurface flow)",
+                "Source: United Nations Educational, Scientific and Cultural Organization (UNESCO), UNESCO International Glossary of Hydrology , 2012; modified",
+                "seawater water in a sea or in an ocean",
+                "S",
+                "Source: International Organization for Standardization. ISO 14046:2014. Environmental management — Water footprint — Principles, requirements and guidelines . Geneva: ISO, 2014; modified",
+                "severity (of an impact) The severity of an actual or potential negative impact is determined by its scale (i.e., how grave the impact is), scope (i.e., how widespread the impact is), and irremediable character (how hard it is to counteract or make good the resulting harm).",
+                "Source: Organisation for Economic Co-operation and Development (OECD), OECD Due Diligence Guidance for Responsible Business Conduct , 2018; modified United Nations (UN), The Corporate Responsibility to Respect Human Rights: An Interpretive Guide , 2012; modified",
+                "Note: See section 1 in GRI 3: Material Topics 2021 for more information on ‘severity’.",
+                "stakeholder individual or group that has an interest that is affected or could be affected by the organization’s activities",
+                "Source: Organisation for Economic Co-operation and Development (OECD), OECD Due Diligence Guidance for Responsible Business Conduct , 2018; modified",
+                "Examples: business partners, civil society organizations, consumers, customers, employees and other workers, governments, local communities, non-governmental organizations, shareholders and other investors, suppliers, trade unions, vulnerable groups",
+                "GRI 303: Water and Effluents 2018 25",
+                "Note: See section 2.4 in GRI 1: Foundation 2021 for more information on ‘stakeholder’.",
+                "supplier entity upstream from the organization (i.e., in the organization’s supply chain), which provides a product or service that is used in the development of the organization’s own products or services",
+                "Examples: brokers, consultants, contractors, distributors, franchisees, home workers, independent contractors, licensees, manufacturers, primary producers, sub- contractors, wholesalers",
+                "Note: A supplier can have a direct business relationship with the organization (often referred to as a first-tier supplier) or an indirect business relationship.",
+                "supply chain range of activities carried out by entities upstream from the organization, which provide products or services that are used in the development of the organization’s own products or services",
+                "surface water water that occurs naturally on the Earth’s surface in ice sheets, ice caps, glaciers, icebergs, bogs, ponds, lakes, rivers, and streams",
+                "Source: CDP, CDP Water Security Reporting Guidance , 2018; modified",
+                "sustainable development / sustainability development that meets the needs of the present without compromising the ability of future generations to meet their own needs",
+                "Source: World Commission on Environment and Development, Our Common Future , 1987",
+                "Note: The terms ‘sustainability’ and ‘sustainable development’ are used interchangeably in the GRI Standards.",
+                "third-party water municipal water suppliers and municipal wastewater treatment plants, public or private utilities, and other organizations involved in the provision, transport, treatment, disposal, or use of water and effluent",
+                "T",
+                "value chain range of activities carried out by the organization, and by entities upstream and downstream from the organization, to bring the organization’s products or services from their conception to their end use",
+                "V",
+                "Note 1: Entities upstream from the organization (e.g., suppliers) provide products or services that are used in the development of the organization’s own products or services. Entities downstream from the organization (e.g., distributors, customers) receive products or services from the organization.",
+                "Note 2: The value chain includes the supply chain.",
+                "vulnerable group group of individuals with a specific condition or characteristic (e.g., economic, physical, political, social) that could experience negative impacts as a result of the organization’s activities more severely than the general population",
+                "Examples: children and youth; elderly persons; ex-combatants; HIV/AIDS-affected households; human rights defenders; Indigenous Peoples; internally displaced persons; migrant workers and their families; national or ethnic, religious and linguistic minorities; persons who might be discriminated against based on their sexual orientation, gender identity, gender expression, or sex characteristics (e.g., lesbian, gay, bisexual, transgender, intersex); persons with disabilities; refugees or returning refugees; women",
+                "Note: Vulnerabilities and impacts can differ by gender.",
+                "GRI 303: Water and Effluents 2018 26",
+                "water consumption sum of all water that has been withdrawn and incorporated into products, used in the production of crops or generated as waste, has evaporated, transpired, or been consumed by humans or livestock, or is polluted to the point of being unusable by other users, and is therefore not released back to surface water, groundwater, seawater, or a third party over the course of the reporting period",
+                "W",
+                "Source: CDP, CDP Water Security Reporting Guidance , 2018; modified",
+                "Note: Water consumption includes water that has been stored during the reporting period for use or discharge in a subsequent reporting period.",
+                "water discharge sum of effluents, used water, and unused water released to surface water, groundwater, seawater, or a third party, for which the organization has no further use, over the course of the reporting period",
+                "Note 1: Water can be released into the receiving waterbody either at a defined discharge point (point-source discharge) or dispersed over land in an undefined manner (non-point-source discharge).",
+                "Note 2: Water discharge can be authorized (in accordance with discharge consent) or unauthorized (if discharge consent is exceeded).",
+                "water stewardship use of water that is socially equitable, environmentally sustainable, and economically beneficial, achieved through a stakeholder-inclusive process that involves facility- and catchment-based actions",
+                "Source: Alliance for Water Stewardship (AWS), AWS International Water  Stewardship Standard, Version 1.0 , 2014; modified",
+                "Note: Good water stewards understand their own water use; catchment context; and shared risk in terms of water governance, water balance, and water quality; and engage in meaningful individual  and collective actions that benefit people and nature. Further:",
+                "Socially equitable water use recognizes and implements the human right to water and sanitation and helps ensure human wellbeing and equity; •",
+                "Environmentally sustainable water use maintains or improves biodiversity and ecological and hydrological processes at the catchment level; •",
+                "•",
+                "Economically beneficial water use contributes to long-term efficiency, and development and poverty alleviation for water users, local communities, and society at large.",
+                "water storage water held in water storage facilities or reservoirs",
+                "water stress ability, or lack thereof, to meet the human and ecological demand for water",
+                "Source: CEO Water Mandate, Corporate Water Disclosure Guidelines , 2014",
+                "Note 1: Water stress can refer to the availability, quality, or accessibility of water.",
+                "Note 2: Water stress is based on subjective elements and is assessed differently depending on societal values, such as the suitability of water for drinking or the requirements to be afforded to ecosystems.",
+                "Note 3: Water stress in an area may be measured at catchment level at a minimum.",
+                "water withdrawal sum of all water drawn from surface water, groundwater, seawater, or a third party for any use over the course of the reporting period",
+                "worker",
+                "GRI 303: Water and Effluents 2018 27",
+                "person that performs work for the organization",
+                "Examples: employees, agency workers, apprentices, contractors, home workers, interns, self- employed persons, sub-contractors, volunteers, and persons working for organizations other than the reporting organization, such as for suppliers",
+                "Note: In the GRI Standards, in some cases, it is specified whether a particular subset of workers is required to be used. Bibliography",
+                "GRI 303: Water and Effluents 2018 28",
+                "Bibliography",
+                "This section lists authoritative intergovernmental instruments and additional references used in developing this Standard.",
+                "Authoritative instruments:",
+                "United Nations (UN) Resolution A/RES/64/292, ‘The human right to water and sanitation’, 2010. 1.",
+                "United Nations (UN), ‘Transforming our world: the 2030 Agenda for Sustainable Development’, 2015. 2.",
+                "Additional references:",
+                "Alliance for Water Stewardship (AWS), AWS International Water Stewardship Standard, Version 1.0 , 2014. 3.",
+                "CDP, The CEO Water Mandate, The Nature Conservancy, Pacific Institute, World Resources Institute (WRI), and WWF International, Exploring the Case for Corporate Context-based Water Targets , 2017. 4.",
+                "Minerals Council of Australia (MCA), Water Accounting Framework for the Minerals Industry, User Guide, v1.3 , 2014. 5.",
+                "The CEO Water Mandate, Corporate Water Disclosure Guidelines, Toward a Common Approach to Reporting Water Issues , 2014. 6.",
+                "World Resources Institute, Aqueduct Water Risk Atlas , www.wri.org/our-work/project/aqueduct/ , accessed on 1 June 2018. 7.",
+                "WWF, Water Risk Filter , waterriskfilter.panda.org , accessed on 1 June 2018. 8.",
+                "PO Box 10039",
+                "1001 EA Amsterdam",
+                "The Netherlands",
+                "www.globalreporting.org"
+              ],
+              "tables": [
+                {
+                  "headers": [
+                    "Water withdrawal [Disclosure 303-3]",
+                    "ALL AREAS",
+                    "AREAS WITH WATER STRESS"
+                  ],
+                  "rows": [
+                    [
+                      "Water withdrawal by source",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Surface water (total)",
+                      "ML (303-3-a-i)",
+                      "ML (303-3-b-i)"
+                    ],
+                    [
+                      "Freshwater (≤1,000 mg/L Total Dissolved Solids)",
+                      "ML (303-3-c-i)",
+                      "ML (303-3-c-i)"
+                    ],
+                    [
+                      "Other water (>1,000 mg/L Total Dissolved Solids)",
+                      "ML (303-3-c-ii)",
+                      "ML (303-3-c-ii)"
+                    ],
+                    [
+                      "Groundwater (total)",
+                      "ML (303-3-a-ii)",
+                      "ML (303-3-b-ii)"
+                    ],
+                    [
+                      "Freshwater (≤1,000 mg/L Total Dissolved Solids)",
+                      "ML (303-3-c-i)",
+                      "ML (303-3-c-i)"
+                    ],
+                    [
+                      "Other water (>1,000 mg/L Total Dissolved Solids)",
+                      "ML (303-3-c-ii)",
+                      "ML (303-3-c-ii)"
+                    ],
+                    [
+                      "Seawater (total)",
+                      "ML (303-3-a-iii)",
+                      "ML (303-3-b-iii)"
+                    ],
+                    [
+                      "Freshwater (≤1,000 mg/L Total Dissolved Solids)",
+                      "ML (303-3-c-i)",
+                      "ML (303-3-c-i)"
+                    ],
+                    [
+                      "Other water (>1,000 mg/L Total Dissolved Solids)",
+                      "ML (303-3-c-ii)",
+                      "ML (303-3-c-ii)"
+                    ],
+                    [
+                      "Produced water (total)",
+                      "ML (303-3-a-iv)",
+                      "ML (303-3-b-iv)"
+                    ],
+                    [
+                      "Freshwater (≤1,000 mg/L Total Dissolved Solids)",
+                      "ML (303-3-c-i)",
+                      "ML (303-3-c-i)"
+                    ],
+                    [
+                      "Other water (>1,000 mg/L Total Dissolved Solids)",
+                      "ML (303-3-c-ii)",
+                      "ML (303-3-c-ii)"
+                    ],
+                    [
+                      "Third-party water (total)",
+                      "ML (303-3-a-v)",
+                      "ML (303-3-b-v)"
+                    ],
+                    [
+                      "Freshwater (≤1,000 mg/L Total Dissolved Solids)",
+                      "ML (303-3-c-i)",
+                      "ML (303-3-c-i)"
+                    ],
+                    [
+                      "Other water (>1,000 mg/L Total Dissolved Solids)",
+                      "ML (303-3-c-ii)",
+                      "ML (303-3-c-ii)"
+                    ],
+                    [
+                      "Total third-party water withdrawal by withdrawal source",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Surface water",
+                      "X",
+                      "ML (303-3-b-v)"
+                    ],
+                    [
+                      "Groundwater",
+                      "X",
+                      "ML (303-3-b-v)"
+                    ],
+                    [
+                      "Seawater",
+                      "X",
+                      "ML (303-3-b-v)"
+                    ],
+                    [
+                      "Produced water",
+                      "X",
+                      "ML (303-3-b-v)"
+                    ],
+                    [
+                      "Total water withdrawal",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Surface water (total) + groundwater (total) + seawater (total) + produced water (total) + third-party water (total)",
+                      "ML (303-3-a)",
+                      "ML (303-3-b)"
+                    ]
+                  ],
+                  "row_count": 23,
+                  "col_count": 3,
+                  "page_num": 18,
+                  "bbox": [
+                    57.36734693877551,
+                    125.32142857142857,
+                    536.6326530612245,
+                    563.4285714285714
+                  ]
+                },
+                {
+                  "headers": [
+                    "Water discharge [Disclosure 303-4]",
+                    "ALL AREAS",
+                    "AREAS WITH WATER STRESS"
+                  ],
+                  "rows": [
+                    [
+                      "Water discharge by destination",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Surface water",
+                      "ML (303-4-a-i)",
+                      "X"
+                    ],
+                    [
+                      "Groundwater",
+                      "ML (303-4-a-ii)",
+                      "X"
+                    ],
+                    [
+                      "Seawater",
+                      "ML (303-4-a-iii)",
+                      "X"
+                    ],
+                    [
+                      "Third-party water (total)",
+                      "ML (303-4-a-iv)",
+                      "X"
+                    ],
+                    [
+                      "Third-party water sent for use to other organizations",
+                      "ML (303-4-a-iv)",
+                      "X"
+                    ],
+                    [
+                      "Total water discharge",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Surface water + groundwater + seawater + third-party water (total)",
+                      "ML (303-4-a)",
+                      "ML (303-4-c)"
+                    ],
+                    [
+                      "Water discharge by freshwater and other water",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Freshwater (≤1,000 mg/L Total Dissolved Solids)",
+                      "ML (303-4-b-i)",
+                      "ML (303-4-c-i)"
+                    ],
+                    [
+                      "Other water (>1,000 mg/L Total Dissolved Solids)",
+                      "ML (303-4-b-ii)",
+                      "ML (303-4-c-ii)"
+                    ],
+                    [
+                      "Water discharge by level of treatment Note that this is recommended, but not required",
+                      "",
+                      ""
+                    ],
+                    [
+                      "No treatment",
+                      "ML (clause 2.4.2)",
+                      "X"
+                    ],
+                    [
+                      "Treatment level [Provide the title for treatment level]",
+                      "ML (clause 2.4.2)",
+                      "X"
+                    ],
+                    [
+                      "Treatment level [Provide the title for treatment level]",
+                      "ML (clause 2.4.2)",
+                      "X"
+                    ],
+                    [
+                      "Treatment level [Provide the title for treatment level]",
+                      "ML (clause 2.4.2)",
+                      "X"
+                    ]
+                  ],
+                  "row_count": 16,
+                  "col_count": 3,
+                  "page_num": 19,
+                  "bbox": [
+                    57.36585365853659,
+                    71.375,
+                    537.3841463414634,
+                    378.125
+                  ]
+                },
+                {
+                  "headers": [
+                    "Water consumption [Disclosure 303-5]",
+                    "ALL AREAS",
+                    "AREAS WITH WATER STRESS"
+                  ],
+                  "rows": [
+                    [
+                      "Total water consumption",
+                      "ML (303-5-a)",
+                      "ML (303-5-b)"
+                    ],
+                    [
+                      "Change in water storage, if water storage has been identified as having a significant water-related impact",
+                      "ML (303-5-c)",
+                      "X"
+                    ]
+                  ],
+                  "row_count": 2,
+                  "col_count": 3,
+                  "page_num": 19,
+                  "bbox": [
+                    57.36585365853659,
+                    399.82142857142856,
+                    537.3841463414634,
+                    473.42857142857144
+                  ]
+                },
+                {
+                  "headers": [
+                    "FACILITIES IN AREAS WITH WATER STRESS",
+                    "FACILITY A",
+                    "FACILITY B",
+                    "[FACILITY X]"
+                  ],
+                  "rows": [
+                    [
+                      "Water withdrawal (clause 2.2.1)",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Surface water",
+                      "ML",
+                      "ML",
+                      "ML"
+                    ],
+                    [
+                      "Groundwater",
+                      "ML",
+                      "ML",
+                      "ML"
+                    ],
+                    [
+                      "Seawater",
+                      "ML",
+                      "ML",
+                      "ML"
+                    ],
+                    [
+                      "Produced water",
+                      "ML",
+                      "ML",
+                      "ML"
+                    ],
+                    [
+                      "Third-party water",
+                      "ML",
+                      "ML",
+                      "ML"
+                    ],
+                    [
+                      "Water consumption (clause 2.5.1)",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Total water consumption",
+                      "ML",
+                      "ML",
+                      "ML"
+                    ]
+                  ],
+                  "row_count": 8,
+                  "col_count": 4,
+                  "page_num": 20,
+                  "bbox": [
+                    57.375,
+                    131.375,
+                    537.375,
+                    295.625
+                  ]
+                },
+                {
+                  "headers": [
+                    "Water withdrawal (clause 2.2.2)",
+                    ""
+                  ],
+                  "rows": [
+                    [
+                      "Total water withdrawal in megaliters by suppliers with significant water-related impacts in areas with water stress",
+                      "ML"
+                    ],
+                    [
+                      "Water discharge (clause 2.4.3)",
+                      ""
+                    ],
+                    [
+                      "Percentage of suppliers with significant water-related impacts from water discharge that have set minimum standards for the quality of their effluent discharge",
+                      "%"
+                    ],
+                    [
+                      "Water consumption (clause 2.5.2)",
+                      ""
+                    ],
+                    [
+                      "Total water consumption in megaliters by suppliers with significant water-related impacts in areas with water stress",
+                      "ML"
+                    ]
+                  ],
+                  "row_count": 5,
+                  "col_count": 2,
+                  "page_num": 21,
+                  "bbox": [
+                    57.375,
+                    131.375,
+                    537.375,
+                    261.875
+                  ]
+                }
+              ],
+              "page_start": 16,
+              "page_end": 29
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information: REQUIREMENTS",
+            "Total water consumption from all areas in megaliters. a.",
+            "Total water consumption from all areas with water stress in megaliters. b.",
+            "Change in water storage in megaliters, if water storage has been identified as having a significant water-related impact. c.",
+            "d.",
+            "Any contextual information necessary to understand how the data have been compiled, such as any standards, methodologies, and assumptions used, including whether the information is calculated, estimated, modeled, or sourced from direct measurements, and the approach taken for this, such as the use of any sector-specific factors."
+          ],
+          "tables": [],
+          "page_start": 16,
+          "page_end": 29
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "documents": [
+    {
+      "framework": "BRSR",
+      "company": "raw",
+      "fiscal_year": "Business responsibility and sustainability reporting by listed entitiesAnnexure1_p",
+      "source_file": "Business responsibility and sustainability reporting by listed entitiesAnnexure1_p.pdf",
+      "output_file": "raw_Business responsibility and sustainability reporting by listed entitiesAnnexure1_p.json",
+      "total_pages": 35,
+      "sections": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 101_ Biodiversity 2024 - English.pdf",
+      "output_file": "GRI_GRI 101_ Biodiversity 2024 - English.json",
+      "total_pages": 49,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 102_ Climate Change 2025.pdf",
+      "output_file": "GRI_GRI 102_ Climate Change 2025.json",
+      "total_pages": 60,
+      "standards": 2
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 103_ Energy 2025.pdf",
+      "output_file": "GRI_GRI 103_ Energy 2025.json",
+      "total_pages": 29,
+      "standards": 2
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 11_ Oil and Gas Sector 2021 V1.1.pdf",
+      "output_file": "GRI_GRI 11_ Oil and Gas Sector 2021 V1.1.json",
+      "total_pages": 89,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 12_ Coal Sector 2022 V1.1.pdf",
+      "output_file": "GRI_GRI 12_ Coal Sector 2022 V1.1.json",
+      "total_pages": 85,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 13_ Agriculture Aquaculture and Fishing Sectors 2022 V1.1.pdf",
+      "output_file": "GRI_GRI 13_ Agriculture Aquaculture and Fishing Sectors 2022 V1.1.json",
+      "total_pages": 96,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 14_ Mining Sector 2024 V1.1.pdf",
+      "output_file": "GRI_GRI 14_ Mining Sector 2024 V1.1.json",
+      "total_pages": 100,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 1_ Foundation 2021.pdf",
+      "output_file": "GRI_GRI 1_ Foundation 2021.json",
+      "total_pages": 38,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 201_  Economic Performance 2016.pdf",
+      "output_file": "GRI_GRI 201_  Economic Performance 2016.json",
+      "total_pages": 19,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 202_ Market Presence 2016.pdf",
+      "output_file": "GRI_GRI 202_ Market Presence 2016.json",
+      "total_pages": 15,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 203_ Indirect Economic Impacts 2016.pdf",
+      "output_file": "GRI_GRI 203_ Indirect Economic Impacts 2016.json",
+      "total_pages": 11,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 204_ Procurement Practices 2016.pdf",
+      "output_file": "GRI_GRI 204_ Procurement Practices 2016.json",
+      "total_pages": 11,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 205_ Anti-corruption 2016.pdf",
+      "output_file": "GRI_GRI 205_ Anti-corruption 2016.json",
+      "total_pages": 16,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 206_ Anti-competitive Behavior 2016.pdf",
+      "output_file": "GRI_GRI 206_ Anti-competitive Behavior 2016.json",
+      "total_pages": 13,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 207_ Tax 2019.pdf",
+      "output_file": "GRI_GRI 207_ Tax 2019.json",
+      "total_pages": 21,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 2_ General Disclosures 2021.pdf",
+      "output_file": "GRI_GRI 2_ General Disclosures 2021.json",
+      "total_pages": 58,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 301_ Materials 2016.pdf",
+      "output_file": "GRI_GRI 301_ Materials 2016.json",
+      "total_pages": 13,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 302_ Energy 2016.pdf",
+      "output_file": "GRI_GRI 302_ Energy 2016.json",
+      "total_pages": 19,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 303_ Water and Effluents 2018.pdf",
+      "output_file": "GRI_GRI 303_ Water and Effluents 2018.json",
+      "total_pages": 29,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 305_ Emissions 2016.pdf",
+      "output_file": "GRI_GRI 305_ Emissions 2016.json",
+      "total_pages": 26,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 306_ Effluents and Waste 2016.pdf",
+      "output_file": "GRI_GRI 306_ Effluents and Waste 2016.json",
+      "total_pages": 13,
+      "standards": 4
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 306_ Waste 2020.pdf",
+      "output_file": "GRI_GRI 306_ Waste 2020.json",
+      "total_pages": 30,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 308_ Supplier Environmental Assessment 2016.pdf",
+      "output_file": "GRI_GRI 308_ Supplier Environmental Assessment 2016.json",
+      "total_pages": 14,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 3_ Material Topics 2021.pdf",
+      "output_file": "GRI_GRI 3_ Material Topics 2021.json",
+      "total_pages": 30,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 401_ Employment 2016.pdf",
+      "output_file": "GRI_GRI 401_ Employment 2016.json",
+      "total_pages": 16,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 402_ Labor and Management Relations 2016.pdf",
+      "output_file": "GRI_GRI 402_ Labor and Management Relations 2016.json",
+      "total_pages": 13,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 403_ Occupational Health and Safety 2018.pdf",
+      "output_file": "GRI_GRI 403_ Occupational Health and Safety 2018.json",
+      "total_pages": 35,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 404_ Training and Education 2016.pdf",
+      "output_file": "GRI_GRI 404_ Training and Education 2016.json",
+      "total_pages": 15,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 405_ Diversity and Equal Opportunity 2016.pdf",
+      "output_file": "GRI_GRI 405_ Diversity and Equal Opportunity 2016.json",
+      "total_pages": 15,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 406_ Non-discrimination 2016.pdf",
+      "output_file": "GRI_GRI 406_ Non-discrimination 2016.json",
+      "total_pages": 12,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 407_ Freedom of Association and Collective Bargaining 2016.pdf",
+      "output_file": "GRI_GRI 407_ Freedom of Association and Collective Bargaining 2016.json",
+      "total_pages": 13,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 408_ Child Labor 2016.pdf",
+      "output_file": "GRI_GRI 408_ Child Labor 2016.json",
+      "total_pages": 14,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 409_ Forced or Compulsory Labor 2016.pdf",
+      "output_file": "GRI_GRI 409_ Forced or Compulsory Labor 2016.json",
+      "total_pages": 13,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 410_ Security Practices 2016.pdf",
+      "output_file": "GRI_GRI 410_ Security Practices 2016.json",
+      "total_pages": 11,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 411_ Rights of Indigenous Peoples 2016.pdf",
+      "output_file": "GRI_GRI 411_ Rights of Indigenous Peoples 2016.json",
+      "total_pages": 14,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 413_ Local Communities 2016.pdf",
+      "output_file": "GRI_GRI 413_ Local Communities 2016.json",
+      "total_pages": 16,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 414_ Supplier Social Assessment 2016.pdf",
+      "output_file": "GRI_GRI 414_ Supplier Social Assessment 2016.json",
+      "total_pages": 14,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 415_ Public Policy 2016.pdf",
+      "output_file": "GRI_GRI 415_ Public Policy 2016.json",
+      "total_pages": 12,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 416_ Customer Health and Safety 2016.pdf",
+      "output_file": "GRI_GRI 416_ Customer Health and Safety 2016.json",
+      "total_pages": 12,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 417_ Marketing and Labeling 2016.pdf",
+      "output_file": "GRI_GRI 417_ Marketing and Labeling 2016.json",
+      "total_pages": 14,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI 418_ Customer Privacy 2016.pdf",
+      "output_file": "GRI_GRI 418_ Customer Privacy 2016.json",
+      "total_pages": 12,
+      "standards": 3
+    },
+    {
+      "framework": "GRI",
+      "source_file": "GRI Standards Glossary 2025.pdf",
+      "output_file": "GRI_GRI Standards Glossary 2025.json",
+      "total_pages": 26,
+      "standards": 0
+    }
+  ]
+}

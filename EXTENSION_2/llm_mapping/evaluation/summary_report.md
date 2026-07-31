@@ -14,7 +14,7 @@
 | **Precision** | `0.9048` |
 | **Recall** | `0.8382` |
 | **F1 Score** | `0.8702` |
-| **Average Confidence Score** | `0.7514` |
+| **Average Confidence Score** | `0.7541` |
 
 ---
 
@@ -22,13 +22,13 @@
 
 | Execution Component | Latency / Time |
 | :--- | :--- |
-| **Embedding Generation Time** | `0.000 s` |
-| **Vector Retrieval Time** | `0.000 s` |
-| **LLM Inference Generation Time** | `0.000 s` |
-| **Total Pipeline Execution Time** | `0.000 s` |
-| **Avg Prompt Tokens / Query** | `0.0` |
-| **Avg Generation Tokens / Query** | `0.0` |
-| **Total Avg Tokens / Query** | `0.0` |
+| **Embedding Generation Time** | `19.033 s` |
+| **Vector Retrieval Time** | `48.016 s` |
+| **LLM Inference Generation Time** | `432.145 s` |
+| **Total Pipeline Execution Time** | `499.194 s` |
+| **Avg Prompt Tokens / Query** | `587.0` |
+| **Avg Generation Tokens / Query** | `129.6` |
+| **Total Avg Tokens / Query** | `716.5` |
 | **Estimated API Cost (Local Ollama)** | `$0.00` |
 
 ---
@@ -47,19 +47,19 @@ No structural hallucinations detected in strict JSON model output.
 
 1. **BRSR Query ID**: `S.` -> **GRI**: `None` (`No Match`)
    - **Confidence**: `0.00`
-   - **Explanation**: The BRSR S does not have a clear thematic, domain, or metric overlap with the provided GRI disclosure IDs.
+   - **Explanation**: The BRSR S does not provide enough information to map it to a specific GRI disclosure ID.
 
 2. **BRSR Query ID**: `S.` -> **GRI**: `None` (`No Match`)
    - **Confidence**: `0.00`
-   - **Explanation**: The BRSR S requirement does not have a clear thematic, domain, or metric overlap with the provided GRI disclosure candidates.
+   - **Explanation**: The BRSR requirement S does not align with any of the provided GRI disclosure topics or summaries.
 
 3. **BRSR Query ID**: `Q22` -> **GRI**: `None` (`No Match`)
    - **Confidence**: `0.00`
-   - **Explanation**: The BRSR requirement is unrelated to employment, compensation, or policy commitments, making none of the provided GRI disclosures a suitable match.
+   - **Explanation**: The BRSR requirement is focused on CSR applicability and financial metrics, whereas the provided GRI disclosures are related to employment, compensation, and policy commitments.
 
 4. **BRSR Query ID**: `P2_Q1` -> **GRI**: `None` (`No Match`)
    - **Confidence**: `0.00`
-   - **Explanation**: The BRSR requirement P2_Q1 specifically asks about conducting LCA, which is not directly addressed by any of the top candidate GRI disclosures.
+   - **Explanation**: The BRSR requirement P2_Q1 specifically asks about conducting LCA, which is not directly addressed by any of the provided GRI disclosures.
 
 5. **BRSR Query ID**: `P3_Q14` -> **GRI**: `None` (`No Match`)
    - **Confidence**: `0.00`

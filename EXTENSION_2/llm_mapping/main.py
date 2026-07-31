@@ -119,7 +119,7 @@ def run_full_baseline_pipeline():
     # 6. Step 4: Execute LLM Batch Mapping
     logger.info("\n--- Step 4: Executing Batch LLM Semantic Mapping ---")
     ret_start = time.time()
-    results = mapper.map_batch(brsr_disclosures, retriever=retriever, top_k=3)
+    results = mapper.map_batch(brsr_disclosures, retriever=retriever, top_k=5)
     retrieval_generation_time = time.time() - ret_start
 
     retrieval_time = retrieval_generation_time * 0.10
