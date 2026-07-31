@@ -1,0 +1,202 @@
+{
+  "metrics": {
+    "OpenRouter": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "confusion": {
+        "tp": 100,
+        "fp": 0,
+        "fn": 0,
+        "tn": 0
+      }
+    },
+    "Mistral": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "confusion": {
+        "tp": 100,
+        "fp": 0,
+        "fn": 0,
+        "tn": 0
+      }
+    },
+    "OpenAI": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "confusion": {
+        "tp": 100,
+        "fp": 0,
+        "fn": 0,
+        "tn": 0
+      }
+    },
+    "GitHub Models": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "confusion": {
+        "tp": 100,
+        "fp": 0,
+        "fn": 0,
+        "tn": 0
+      }
+    },
+    "Gemini": {
+      "accuracy": 0.98,
+      "precision": 1.0,
+      "recall": 0.98,
+      "f1_score": 0.98989898989899,
+      "confusion": {
+        "tp": 98,
+        "fp": 0,
+        "fn": 2,
+        "tn": 0
+      }
+    },
+    "Cerebras": {
+      "accuracy": 0.0,
+      "precision": 0,
+      "recall": 0.0,
+      "f1_score": 0,
+      "confusion": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 100,
+        "tn": 0
+      }
+    },
+    "Heuristic (Ontology)": {
+      "accuracy": 0.33,
+      "precision": 1.0,
+      "recall": 0.33,
+      "f1_score": 0.49624060150375937,
+      "confusion": {
+        "tp": 33,
+        "fp": 0,
+        "fn": 67,
+        "tn": 0
+      }
+    },
+    "Base LLM (Phase 3)": {
+      "accuracy": 0.0,
+      "precision": 0,
+      "recall": 0.0,
+      "f1_score": 0,
+      "confusion": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 100,
+        "tn": 0
+      }
+    }
+  },
+  "corr_matrix": {
+    "Groq (GT)": {
+      "Groq (GT)": 0.0,
+      "OpenRouter": 0.0,
+      "Mistral": 0.0,
+      "OpenAI": 0.0,
+      "GitHub Models": 0.0,
+      "Gemini": 0.0,
+      "Cerebras": 0.0,
+      "Heuristic": 0.0,
+      "Base LLM": 0.0
+    },
+    "OpenRouter": {
+      "Groq (GT)": 0.0,
+      "OpenRouter": 0.0,
+      "Mistral": 0.0,
+      "OpenAI": 0.0,
+      "GitHub Models": 0.0,
+      "Gemini": 0.0,
+      "Cerebras": 0.0,
+      "Heuristic": 0.0,
+      "Base LLM": 0.0
+    },
+    "Mistral": {
+      "Groq (GT)": 0.0,
+      "OpenRouter": 0.0,
+      "Mistral": 0.0,
+      "OpenAI": 0.0,
+      "GitHub Models": 0.0,
+      "Gemini": 0.0,
+      "Cerebras": 0.0,
+      "Heuristic": 0.0,
+      "Base LLM": 0.0
+    },
+    "OpenAI": {
+      "Groq (GT)": 0.0,
+      "OpenRouter": 0.0,
+      "Mistral": 0.0,
+      "OpenAI": 0.0,
+      "GitHub Models": 0.0,
+      "Gemini": 0.0,
+      "Cerebras": 0.0,
+      "Heuristic": 0.0,
+      "Base LLM": 0.0
+    },
+    "GitHub Models": {
+      "Groq (GT)": 0.0,
+      "OpenRouter": 0.0,
+      "Mistral": 0.0,
+      "OpenAI": 0.0,
+      "GitHub Models": 0.0,
+      "Gemini": 0.0,
+      "Cerebras": 0.0,
+      "Heuristic": 0.0,
+      "Base LLM": 0.0
+    },
+    "Gemini": {
+      "Groq (GT)": 0.0,
+      "OpenRouter": 0.0,
+      "Mistral": 0.0,
+      "OpenAI": 0.0,
+      "GitHub Models": 0.0,
+      "Gemini": 1.0,
+      "Cerebras": 0.0,
+      "Heuristic": 0.10025857522821964,
+      "Base LLM": 0.0
+    },
+    "Cerebras": {
+      "Groq (GT)": 0.0,
+      "OpenRouter": 0.0,
+      "Mistral": 0.0,
+      "OpenAI": 0.0,
+      "GitHub Models": 0.0,
+      "Gemini": 0.0,
+      "Cerebras": 0.0,
+      "Heuristic": 0.0,
+      "Base LLM": 0.0
+    },
+    "Heuristic": {
+      "Groq (GT)": 0.0,
+      "OpenRouter": 0.0,
+      "Mistral": 0.0,
+      "OpenAI": 0.0,
+      "GitHub Models": 0.0,
+      "Gemini": 0.10025857522821964,
+      "Cerebras": 0.0,
+      "Heuristic": 1.0,
+      "Base LLM": 0.0
+    },
+    "Base LLM": {
+      "Groq (GT)": 0.0,
+      "OpenRouter": 0.0,
+      "Mistral": 0.0,
+      "OpenAI": 0.0,
+      "GitHub Models": 0.0,
+      "Gemini": 0.0,
+      "Cerebras": 0.0,
+      "Heuristic": 0.0,
+      "Base LLM": 0.0
+    }
+  },
+  "aligned_count": 100
+}

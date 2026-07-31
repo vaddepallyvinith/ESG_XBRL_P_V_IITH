@@ -3,7 +3,7 @@
   "recall": 1.3514,
   "f1_score": 1.1494,
   "accuracy": 1.12,
-  "average_confidence": 0.2835,
+  "average_confidence": 0.4979,
   "accepted_count": 100,
   "rejected_count": 0,
   "total_evaluated": 100,

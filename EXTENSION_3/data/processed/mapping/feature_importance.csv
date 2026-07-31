@@ -1,0 +1,5 @@
+Rank,Feature,Learned Weight,Raw Coefficient
+1,Embedding,0.4108,4.155166579600066
+2,Property,0.4076,4.122735963213062
+3,Lexical,0.0969,0.9804056859283378
+4,Structural,0.0847,0.8566862289555668

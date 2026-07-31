@@ -289,10 +289,10 @@ class SemanticMappingEngine:
                 "reasoning": r_val
             })
 
-        # 5. Automatically learn weights via ConfidenceLearner
+        # 5. Automatically load learned weights via ConfidenceLearner
         from confidence.learner import ConfidenceLearner
         learner = ConfidenceLearner()
-        self.learned_weights = learner.learn_weights(features_list)
+        self.learned_weights = learner.load_weights()
         self.confidence_aggregator.set_learned_weights(self.learned_weights)
         
         # 6. Aggregate matching evidence using learned weight model

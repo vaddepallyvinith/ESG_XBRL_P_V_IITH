@@ -1,0 +1,6 @@
+Metric,Predetermined Baseline,Automatically Learned,Delta
+Accuracy,1.0,1.0,0.0
+Precision,1.0,1.0,0.0
+Recall,1.0,1.0,0.0
+F1-Score,1.0,1.0,0.0
+ROC-AUC,1.0,1.0,0.0

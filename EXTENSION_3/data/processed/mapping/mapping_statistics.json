@@ -5,9 +5,9 @@
   "final_mappings_generated": 100,
   "skos_relation_breakdown": {
     "exactMatch": 0,
-    "closeMatch": 0,
-    "broadMatch": 0,
-    "narrowMatch": 12,
-    "relatedMatch": 88
+    "closeMatch": 33,
+    "broadMatch": 4,
+    "narrowMatch": 63,
+    "relatedMatch": 0
   }
 }

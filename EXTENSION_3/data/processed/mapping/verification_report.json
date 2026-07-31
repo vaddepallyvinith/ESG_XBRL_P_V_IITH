@@ -1,1187 +1,1106 @@
 [
   {
-    "brsr_id": "Disclosure_Q3_-4999668360558070019",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources",
-    "mapping": "narrowMatch",
-    "confidence": 0.3511,
+    "brsr_id": "Disclosure_Q4_-6382315562112869290",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E4_3_Actions_and_resources_related_to_biodiversity_and_ecosystems",
+    "mapping": "closeMatch",
+    "confidence": 0.5417,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 35.1%",
-    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement E3-3 \u2013 Targets related to water and marine resources' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "reasoning": "Learned model confidence score: 54.2%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E4-3 \u2013 Actions and resources related to biodiversity and ecosystems' based on learned feature weights. SKOS Relation: closeMatch.",
     "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q4_-6382315562112869290",
+    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
+    "mapping": "closeMatch",
+    "confidence": 0.5406,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 54.1%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 \u2013 Description of the processes to identify and assess material pollution-' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
   },
   {
     "brsr_id": "Disclosure_Q1_-7605476517899833912",
     "esrs_id": "Disclosure_Disclosure_Requirement_E1_5_Energy_consumption_and_mix",
-    "mapping": "narrowMatch",
-    "confidence": 0.3319,
+    "mapping": "closeMatch",
+    "confidence": 0.5406,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 33.2%",
-    "explanation": "Verified alignment between BRSR '1. Details of total energy consumption (in Joules or multiples) and energy intensity, in the' and ESRS 'Disclosure Requirement E1-5 \u2013 Energy consumption and mix' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "reasoning": "Learned model confidence score: 54.1%",
+    "explanation": "Verified alignment between BRSR '1. Details of total energy consumption (in Joules or multiples) and energy intensity, in the' and ESRS 'Disclosure Requirement E1-5 \u2013 Energy consumption and mix' based on learned feature weights. SKOS Relation: closeMatch.",
     "issues": []
   },
   {
-    "brsr_id": "Disclosure_Q2_294300574630310733",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources",
-    "mapping": "narrowMatch",
-    "confidence": 0.3202,
+    "brsr_id": "Disclosure_Q4_-6382315562112869290",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change",
+    "mapping": "closeMatch",
+    "confidence": 0.5391,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 32.0%",
-    "explanation": "Verified alignment between BRSR '2. Provide the following details related to water discharged:' and ESRS 'Disclosure Requirement E3-3 \u2013 Targets related to water and marine resources' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "reasoning": "Learned model confidence score: 53.9%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E4-5 \u2013 Impact metrics related to biodiversity and ecosystems change' based on learned feature weights. SKOS Relation: closeMatch.",
     "issues": []
   },
   {
-    "brsr_id": "Disclosure_Q24_2434095512212408412",
-    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
-    "mapping": "narrowMatch",
-    "confidence": 0.3149,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 31.5%",
-    "explanation": "Verified alignment between BRSR '24. Overview of the entity\u2019s material responsible business conduct issues' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 \u2013 Description of the processes to identify and assess material pollution-' based on learned feature weights. SKOS Relation: narrowMatch.",
-    "issues": []
-  },
-  {
-    "brsr_id": "Disclosure_Q24_2434095512212408412",
-    "esrs_id": "Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with",
-    "mapping": "narrowMatch",
-    "confidence": 0.3109,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 31.1%",
-    "explanation": "Verified alignment between BRSR '24. Overview of the entity\u2019s material responsible business conduct issues' and ESRS 'Disclosure Requirement SBM 3 \u2013 Material impacts, risks and opportunities and their interaction with strategy and busines' based on learned feature weights. SKOS Relation: narrowMatch.",
-    "issues": []
-  },
-  {
-    "brsr_id": "Disclosure_Q3_-4999668360558070019",
+    "brsr_id": "Disclosure_Q4_-6382315562112869290",
     "esrs_id": "Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution",
-    "mapping": "narrowMatch",
-    "confidence": 0.3091,
+    "mapping": "closeMatch",
+    "confidence": 0.5351,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 30.9%",
-    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement E2-3 \u2013 Targets related to pollution' based on learned feature weights. SKOS Relation: narrowMatch.",
-    "issues": []
-  },
-  {
-    "brsr_id": "Disclosure_Q24_2434095512212408412",
-    "esrs_id": "Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
-    "mapping": "narrowMatch",
-    "confidence": 0.3042,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 30.4%",
-    "explanation": "Verified alignment between BRSR '24. Overview of the entity\u2019s material responsible business conduct issues' and ESRS 'Disclosure requirement related to ESRS 2 IRO-1 \u2013 Description of the processes to identify and assess material resource u' based on learned feature weights. SKOS Relation: narrowMatch.",
-    "issues": []
-  },
-  {
-    "brsr_id": "Disclosure_Q3_-4999668360558070019",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E3_2_Actions_and_resources_related_to_water_and_marine_resources_policies_M",
-    "mapping": "narrowMatch",
-    "confidence": 0.3042,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 30.4%",
-    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement E3-2 \u2013 Actions and resources related to water and marine resources policies Metrics and targets o' based on learned feature weights. SKOS Relation: narrowMatch.",
-    "issues": []
+    "reasoning": "Learned model confidence score: 53.5%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E2-3 \u2013 Targets related to pollution' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
   },
   {
     "brsr_id": "Disclosure_Q4_-6382315562112869290",
     "esrs_id": "Disclosure_Disclosure_Requirement_E4_4_Targets_related_to_biodiversity_and_ecosystems",
-    "mapping": "narrowMatch",
-    "confidence": 0.3039,
+    "mapping": "closeMatch",
+    "confidence": 0.5349,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 30.4%",
-    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E4-4 \u2013 Targets related to biodiversity and ecosystems' based on learned feature weights. SKOS Relation: narrowMatch.",
-    "issues": []
-  },
-  {
-    "brsr_id": "Disclosure_Q2_294300574630310733",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E3_2_Actions_and_resources_related_to_water_and_marine_resources_policies_M",
-    "mapping": "narrowMatch",
-    "confidence": 0.301,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 30.1%",
-    "explanation": "Verified alignment between BRSR '2. Provide the following details related to water discharged:' and ESRS 'Disclosure Requirement E3-2 \u2013 Actions and resources related to water and marine resources policies Metrics and targets o' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "reasoning": "Learned model confidence score: 53.5%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E4-4 \u2013 Targets related to biodiversity and ecosystems' based on learned feature weights. SKOS Relation: closeMatch.",
     "issues": []
   },
   {
     "brsr_id": "Disclosure_Q4_-6382315562112869290",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E4_3_Actions_and_resources_related_to_biodiversity_and_ecosystems",
-    "mapping": "narrowMatch",
-    "confidence": 0.3008,
+    "esrs_id": "Disclosure_Disclosure_Requirement_E2_2_Actions_and_resources_related_to_pollution",
+    "mapping": "closeMatch",
+    "confidence": 0.5282,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 30.1%",
-    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E4-3 \u2013 Actions and resources related to biodiversity and ecosystems' based on learned feature weights. SKOS Relation: narrowMatch.",
-    "issues": []
-  },
-  {
-    "brsr_id": "Disclosure_Q24_2434095512212408412",
-    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_processes_to_identify_and_assess_mater",
-    "mapping": "narrowMatch",
-    "confidence": 0.3003,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 30.0%",
-    "explanation": "Verified alignment between BRSR '24. Overview of the entity\u2019s material responsible business conduct issues' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 Description of processes to identify and assess material biodiversity and' based on learned feature weights. SKOS Relation: narrowMatch.",
-    "issues": []
-  },
-  {
-    "brsr_id": "Disclosure_Q8_-8405331482717645114",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change",
-    "mapping": "relatedMatch",
-    "confidence": 0.2957,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 29.6%",
-    "explanation": "Verified alignment between BRSR '8. Disclose any significant adverse impact to the environment, arising from the value chain of' and ESRS 'Disclosure Requirement E4-5 \u2013 Impact metrics related to biodiversity and ecosystems change' based on learned feature weights. SKOS Relation: relatedMatch.",
+    "reasoning": "Learned model confidence score: 52.8%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E2-2 \u2013 Actions and resources related to pollution' based on learned feature weights. SKOS Relation: closeMatch.",
     "issues": [
-      "Low overall similarity evidence score"
+      "Low direct lexical overlap"
     ]
   },
   {
     "brsr_id": "Disclosure_Q4_-6382315562112869290",
     "esrs_id": "Disclosure_Disclosure_Requirement_E1_3_Actions_and_resources_in_relation_to_climate_change_policies",
-    "mapping": "relatedMatch",
-    "confidence": 0.2944,
+    "mapping": "closeMatch",
+    "confidence": 0.5246,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 29.4%",
-    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E1-3 \u2013 Actions and resources in relation to climate change policies' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q8_-8405331482717645114",
-    "esrs_id": "Disclosure_Disclosure_Requirement_SBM_1_Strategy_business_model_and_value_chain_AR_12_To_provide_the_informat",
-    "mapping": "relatedMatch",
-    "confidence": 0.293,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 29.3%",
-    "explanation": "Verified alignment between BRSR '8. Disclose any significant adverse impact to the environment, arising from the value chain of' and ESRS 'Disclosure Requirement SBM\u20131 Strategy, business model and value chain AR 12. To provide the information on sectors requi' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q1_991886090062196846",
-    "esrs_id": "Disclosure_Disclosure_Requirement_IRO_1_Description_of_the_processes_to_identify_and_assess",
-    "mapping": "relatedMatch",
-    "confidence": 0.2927,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 29.3%",
-    "explanation": "Verified alignment between BRSR '1. Describe the processes for identifying key stakeholder groups of the entity.' and ESRS 'Disclosure Requirement IRO-1 - Description of the processes to identify and assess' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q8_1419484420242406593",
-    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
-    "mapping": "relatedMatch",
-    "confidence": 0.2926,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 29.3%",
-    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 \u2013 Description of the processes to identify and assess material pollution-' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q8_1419484420242406593",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation",
-    "mapping": "relatedMatch",
-    "confidence": 0.2917,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 29.2%",
-    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement E1-4 \u2013 Targets related to climate change mitigation and adaptation' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q11_1366600324960417183",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change",
-    "mapping": "relatedMatch",
-    "confidence": 0.2916,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 29.2%",
-    "explanation": "Verified alignment between BRSR '11. Details of environmental impact assessments of projects undertaken by the entity based' and ESRS 'Disclosure Requirement E4-5 \u2013 Impact metrics related to biodiversity and ecosystems change' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q4_-6382315562112869290",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change",
-    "mapping": "relatedMatch",
-    "confidence": 0.2907,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 29.1%",
-    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E4-5 \u2013 Impact metrics related to biodiversity and ecosystems change' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
+    "reasoning": "Learned model confidence score: 52.5%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E1-3 \u2013 Actions and resources in relation to climate change policies' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": []
   },
   {
     "brsr_id": "Disclosure_Q4_-6382315562112869290",
     "esrs_id": "Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation",
-    "mapping": "relatedMatch",
-    "confidence": 0.2896,
+    "mapping": "closeMatch",
+    "confidence": 0.5242,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 29.0%",
-    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E1-4 \u2013 Targets related to climate change mitigation and adaptation' based on learned feature weights. SKOS Relation: relatedMatch.",
+    "reasoning": "Learned model confidence score: 52.4%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E1-4 \u2013 Targets related to climate change mitigation and adaptation' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q3_-4999668360558070019",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources",
+    "mapping": "closeMatch",
+    "confidence": 0.5238,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 52.4%",
+    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement E3-3 \u2013 Targets related to water and marine resources' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q4_-6382315562112869290",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E4_2_Policies_related_to_biodiversity_and_ecosystems",
+    "mapping": "closeMatch",
+    "confidence": 0.5233,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 52.3%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E4-2 \u2013 Policies related to biodiversity and ecosystems' based on learned feature weights. SKOS Relation: closeMatch.",
     "issues": [
-      "Low overall similarity evidence score"
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q2_993553119648207625",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E5_1_Policies_related_to_resource_use_and_circular_economy",
+    "mapping": "closeMatch",
+    "confidence": 0.5213,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 52.1%",
+    "explanation": "Verified alignment between BRSR '2. a. Does the entity have procedures in place for sustainable sourcing? (Yes/No)' and ESRS 'Disclosure Requirement E5-1 \u2013 Policies related to resource use and circular economy' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q4_-6382315562112869290",
+    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m",
+    "mapping": "closeMatch",
+    "confidence": 0.5153,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 51.5%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 Description of the processes to identify and assess material climate-rela' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q3_-4999668360558070019",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E3_2_Actions_and_resources_related_to_water_and_marine_resources_policies_M",
+    "mapping": "closeMatch",
+    "confidence": 0.5145,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 51.5%",
+    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement E3-2 \u2013 Actions and resources related to water and marine resources policies Metrics and targets o' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q6_-5874270398555975595",
+    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m",
+    "mapping": "closeMatch",
+    "confidence": 0.5141,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 51.4%",
+    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 Description of the processes to identify and assess material climate-rela' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q4_-6382315562112869290",
+    "esrs_id": "Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
+    "mapping": "closeMatch",
+    "confidence": 0.5138,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 51.4%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure requirement related to ESRS 2 IRO-1 \u2013 Description of the processes to identify and assess material resource u' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": [
+      "Low direct lexical overlap"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_-8405331482717645114",
     "esrs_id": "Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with",
-    "mapping": "relatedMatch",
-    "confidence": 0.2889,
+    "mapping": "closeMatch",
+    "confidence": 0.5133,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.9%",
-    "explanation": "Verified alignment between BRSR '8. Disclose any significant adverse impact to the environment, arising from the value chain of' and ESRS 'Disclosure Requirement SBM 3 \u2013 Material impacts, risks and opportunities and their interaction with strategy and busines' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q3_937559134512949447",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources",
-    "mapping": "relatedMatch",
-    "confidence": 0.2877,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.8%",
-    "explanation": "Verified alignment between BRSR '3. Water withdrawal, consumption and discharge in areas of water stress (in kilolitres):' and ESRS 'Disclosure Requirement E3-3 \u2013 Targets related to water and marine resources' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q24_2434095512212408412",
-    "esrs_id": "Disclosure_IRO_1_Description_of_the_processes_to_identify_and_assess_material_resource_use_and_circular_econo",
-    "mapping": "relatedMatch",
-    "confidence": 0.2869,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.7%",
-    "explanation": "Verified alignment between BRSR '24. Overview of the entity\u2019s material responsible business conduct issues' and ESRS 'IRO-1 \u2013 Description of the processes to identify and assess material resource use and circular economy-related impacts, ' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q24_2434095512212408412",
-    "esrs_id": "Disclosure_Disclosure_Requirement_SBM_1_Strategy_business_model_and_value_chain_Disclosure_Requirement_SBM_2",
-    "mapping": "relatedMatch",
-    "confidence": 0.2869,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.7%",
-    "explanation": "Verified alignment between BRSR '24. Overview of the entity\u2019s material responsible business conduct issues' and ESRS 'Disclosure Requirement SBM-1 \u2013 Strategy, business model and value chain Disclosure Requirement SBM-2 \u2013 Interests and vie' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q6_-5874270398555975595",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E2_2_Actions_and_resources_related_to_pollution",
-    "mapping": "relatedMatch",
-    "confidence": 0.2866,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.7%",
-    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'Disclosure Requirement E2-2 \u2013 Actions and resources related to pollution' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q7_-7154105830269047396",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E2_2_Actions_and_resources_related_to_pollution",
-    "mapping": "relatedMatch",
-    "confidence": 0.2865,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.7%",
-    "explanation": "Verified alignment between BRSR '7. Does the entity have any project related to reducing Green House Gas emission? If Yes,' and ESRS 'Disclosure Requirement E2-2 \u2013 Actions and resources related to pollution' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q6_-5874270398555975595",
-    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m",
-    "mapping": "relatedMatch",
-    "confidence": 0.2862,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.6%",
-    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 Description of the processes to identify and assess material climate-rela' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q24_2434095512212408412",
-    "esrs_id": "Disclosure_Disclosure_Requirement_SBM_1_Strategy_business_model_and_value_chain_AR_12_To_provide_the_informat",
-    "mapping": "relatedMatch",
-    "confidence": 0.285,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.5%",
-    "explanation": "Verified alignment between BRSR '24. Overview of the entity\u2019s material responsible business conduct issues' and ESRS 'Disclosure Requirement SBM\u20131 Strategy, business model and value chain AR 12. To provide the information on sectors requi' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
+    "reasoning": "Learned model confidence score: 51.3%",
+    "explanation": "Verified alignment between BRSR '8. Disclose any significant adverse impact to the environment, arising from the value chain of' and ESRS 'Disclosure Requirement SBM 3 \u2013 Material impacts, risks and opportunities and their interaction with strategy and busines' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": []
   },
   {
     "brsr_id": "Disclosure_Q6_-5874270398555975595",
     "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
-    "mapping": "relatedMatch",
-    "confidence": 0.2844,
+    "mapping": "closeMatch",
+    "confidence": 0.5128,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.4%",
-    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 \u2013 Description of the processes to identify and assess material pollution-' based on learned feature weights. SKOS Relation: relatedMatch.",
+    "reasoning": "Learned model confidence score: 51.3%",
+    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 \u2013 Description of the processes to identify and assess material pollution-' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q8_-8405331482717645114",
+    "esrs_id": "Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence",
+    "mapping": "closeMatch",
+    "confidence": 0.5128,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 51.3%",
+    "explanation": "Verified alignment between BRSR '8. Disclose any significant adverse impact to the environment, arising from the value chain of' and ESRS 'Disclosure Requirement GOV-4 \u2013 Statement on due diligence' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q6_-5874270398555975595",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation",
+    "mapping": "closeMatch",
+    "confidence": 0.5107,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 51.1%",
+    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'Disclosure Requirement E1-4 \u2013 Targets related to climate change mitigation and adaptation' based on learned feature weights. SKOS Relation: closeMatch.",
     "issues": [
-      "Low overall similarity evidence score"
+      "Low direct lexical overlap"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_1419484420242406593",
-    "esrs_id": "Disclosure_Disclosure_Requirement_GOV_5_Risk_management_and_internal_controls_over_sustainability_reporting",
-    "mapping": "relatedMatch",
-    "confidence": 0.2842,
+    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
+    "mapping": "closeMatch",
+    "confidence": 0.51,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.4%",
-    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement GOV\u20135 - Risk management and internal controls over sustainability reporting' based on learned feature weights. SKOS Relation: relatedMatch.",
+    "reasoning": "Learned model confidence score: 51.0%",
+    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 \u2013 Description of the processes to identify and assess material pollution-' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q4_-6382315562112869290",
+    "esrs_id": "Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with",
+    "mapping": "closeMatch",
+    "confidence": 0.5095,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 50.9%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement SBM 3 \u2013 Material impacts, risks and opportunities and their interaction with strategy and busines' based on learned feature weights. SKOS Relation: closeMatch.",
     "issues": [
-      "Low overall similarity evidence score"
+      "Low direct lexical overlap"
     ]
   },
   {
-    "brsr_id": "Disclosure_Q24_2434095512212408412",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E4_1_Transition_plan_and_consideration_of_biodiversity_and_ecosystems_in_st",
-    "mapping": "relatedMatch",
-    "confidence": 0.2841,
+    "brsr_id": "Disclosure_Q4_-6382315562112869290",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E5_3_Targets_related_to_resource_use_and_circular_economy",
+    "mapping": "closeMatch",
+    "confidence": 0.5093,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.4%",
-    "explanation": "Verified alignment between BRSR '24. Overview of the entity\u2019s material responsible business conduct issues' and ESRS 'Disclosure Requirement E4-1 \u2013 Transition plan and consideration of biodiversity and ecosystems in strategy and business ' based on learned feature weights. SKOS Relation: relatedMatch.",
+    "reasoning": "Learned model confidence score: 50.9%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E5-3 - Targets related to resource use and circular economy' based on learned feature weights. SKOS Relation: closeMatch.",
     "issues": [
-      "Low overall similarity evidence score"
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q4_-6382315562112869290",
+    "esrs_id": "Disclosure_IRO_1_Description_of_the_processes_to_identify_and_assess_material_pollution_related_impacts_risk",
+    "mapping": "closeMatch",
+    "confidence": 0.5085,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 50.9%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'IRO-1 \u2013 Description of the processes to identify and assess material pollution-related impacts, risks and opportunities ' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q4_-6382315562112869290",
+    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_processes_to_identify_and_assess_mater",
+    "mapping": "closeMatch",
+    "confidence": 0.5074,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 50.7%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 Description of processes to identify and assess material biodiversity and' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q9_-1180754342078183070",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E5_1_Policies_related_to_resource_use_and_circular_economy",
+    "mapping": "closeMatch",
+    "confidence": 0.5066,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 50.7%",
+    "explanation": "Verified alignment between BRSR '9. Briefly describe the waste management practices adopted in your establishments. Describe' and ESRS 'Disclosure Requirement E5-1 \u2013 Policies related to resource use and circular economy' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q24_2434095512212408412",
+    "esrs_id": "Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with",
+    "mapping": "closeMatch",
+    "confidence": 0.506,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 50.6%",
+    "explanation": "Verified alignment between BRSR '24. Overview of the entity\u2019s material responsible business conduct issues' and ESRS 'Disclosure Requirement SBM 3 \u2013 Material impacts, risks and opportunities and their interaction with strategy and busines' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q3_-4999668360558070019",
+    "esrs_id": "Disclosure_Disclosure_Requirement_IRO_2_Disclosure_Requirements_in_ESRS_covered_by_the_undertaking_s_sustaina",
+    "mapping": "closeMatch",
+    "confidence": 0.5058,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 50.6%",
+    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement IRO-2 \u2013 Disclosure Requirements in ESRS covered by the undertaking\u2019s sustainability statement' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q8_-8405331482717645114",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change",
+    "mapping": "closeMatch",
+    "confidence": 0.5048,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 50.5%",
+    "explanation": "Verified alignment between BRSR '8. Disclose any significant adverse impact to the environment, arising from the value chain of' and ESRS 'Disclosure Requirement E4-5 \u2013 Impact metrics related to biodiversity and ecosystems change' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q3_-4999668360558070019",
+    "esrs_id": "Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence",
+    "mapping": "closeMatch",
+    "confidence": 0.5039,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 50.4%",
+    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement GOV-4 \u2013 Statement on due diligence' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q6_-5874270398555975595",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E1_3_Actions_and_resources_in_relation_to_climate_change_policies",
+    "mapping": "closeMatch",
+    "confidence": 0.5021,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 50.2%",
+    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'Disclosure Requirement E1-3 \u2013 Actions and resources in relation to climate change policies' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q4_-6382315562112869290",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E4_3_Actions_and_resources_related_to_biodiversity_and_ecosystems_Metrics_a",
+    "mapping": "closeMatch",
+    "confidence": 0.5004,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 50.0%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E4-3 \u2013 Actions and resources related to biodiversity and ecosystems Metrics and targets o Disclos' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q3_-4999668360558070019",
+    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
+    "mapping": "closeMatch",
+    "confidence": 0.5,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 50.0%",
+    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 \u2013 Description of the processes to identify and assess material pollution-' based on learned feature weights. SKOS Relation: closeMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q8_-8405331482717645114",
+    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
+    "mapping": "narrowMatch",
+    "confidence": 0.5,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 50.0%",
+    "explanation": "Verified alignment between BRSR '8. Disclose any significant adverse impact to the environment, arising from the value chain of' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 \u2013 Description of the processes to identify and assess material pollution-' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q4_-6382315562112869290",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E5_2_Actions_and_resources_related_to_resource_use_and_circular_economy",
+    "mapping": "narrowMatch",
+    "confidence": 0.4996,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 50.0%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E5-2 \u2013 Actions and resources related to resource use and circular economy' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": [
+      "Low direct lexical overlap"
     ]
   },
   {
     "brsr_id": "Disclosure_Q1_-2941116562953374489",
     "esrs_id": "Disclosure_Disclosure_Requirement_E1_5_Energy_consumption_and_mix",
-    "mapping": "relatedMatch",
-    "confidence": 0.2839,
+    "mapping": "narrowMatch",
+    "confidence": 0.4992,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.4%",
-    "explanation": "Verified alignment between BRSR '1. Provide break-up of the total energy consumed (in Joules or multiples) from renewable' and ESRS 'Disclosure Requirement E1-5 \u2013 Energy consumption and mix' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q24_2434095512212408412",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E4_6_Anticipated_financial_effects_from_material_biodiversity_and_ecosystem",
-    "mapping": "relatedMatch",
-    "confidence": 0.2832,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.3%",
-    "explanation": "Verified alignment between BRSR '24. Overview of the entity\u2019s material responsible business conduct issues' and ESRS 'Disclosure Requirement E4-6 \u2013 Anticipated financial effects from material biodiversity and ecosystem-related  risks and ' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
+    "reasoning": "Learned model confidence score: 49.9%",
+    "explanation": "Verified alignment between BRSR '1. Provide break-up of the total energy consumed (in Joules or multiples) from renewable' and ESRS 'Disclosure Requirement E1-5 \u2013 Energy consumption and mix' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
   },
   {
     "brsr_id": "Disclosure_Q8_1419484420242406593",
-    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m",
-    "mapping": "relatedMatch",
-    "confidence": 0.2826,
+    "esrs_id": "Disclosure_Disclosure_Requirement_IRO_2_Disclosure_Requirements_in_ESRS_covered_by_the_undertaking_s_sustaina",
+    "mapping": "narrowMatch",
+    "confidence": 0.4987,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.3%",
-    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 Description of the processes to identify and assess material climate-rela' based on learned feature weights. SKOS Relation: relatedMatch.",
+    "reasoning": "Learned model confidence score: 49.9%",
+    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement IRO-2 \u2013 Disclosure Requirements in ESRS covered by the undertaking\u2019s sustainability statement' based on learned feature weights. SKOS Relation: narrowMatch.",
     "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q3_-4999668360558070019",
-    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
-    "mapping": "relatedMatch",
-    "confidence": 0.2825,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.2%",
-    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 \u2013 Description of the processes to identify and assess material pollution-' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q3_-4999668360558070019",
-    "esrs_id": "Disclosure_Disclosure_Requirement_BP_2_Disclosures_in_relation_to_specific_circumstances",
-    "mapping": "relatedMatch",
-    "confidence": 0.2824,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.2%",
-    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement BP-2 \u2013 Disclosures in relation to specific circumstances' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q7_-7154105830269047396",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E1_7_GHG_removals_and_GHG_mitigation_projects_financed_through_carbon_credi",
-    "mapping": "relatedMatch",
-    "confidence": 0.2821,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.2%",
-    "explanation": "Verified alignment between BRSR '7. Does the entity have any project related to reducing Green House Gas emission? If Yes,' and ESRS 'Disclosure Requirement E1-7 \u2013 GHG removals and GHG mitigation projects financed through carbon credits GHG removals and ' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q8_-8405331482717645114",
-    "esrs_id": "Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence",
-    "mapping": "relatedMatch",
-    "confidence": 0.282,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.2%",
-    "explanation": "Verified alignment between BRSR '8. Disclose any significant adverse impact to the environment, arising from the value chain of' and ESRS 'Disclosure Requirement GOV-4 \u2013 Statement on due diligence' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q24_2434095512212408412",
-    "esrs_id": "Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence",
-    "mapping": "relatedMatch",
-    "confidence": 0.2816,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.2%",
-    "explanation": "Verified alignment between BRSR '24. Overview of the entity\u2019s material responsible business conduct issues' and ESRS 'Disclosure Requirement GOV-4 \u2013 Statement on due diligence' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score",
       "Low direct lexical overlap"
     ]
   },
   {
-    "brsr_id": "Disclosure_Q3_-4999668360558070019",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation",
-    "mapping": "relatedMatch",
-    "confidence": 0.2814,
+    "brsr_id": "Disclosure_Q6_-5874270398555975595",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution",
+    "mapping": "narrowMatch",
+    "confidence": 0.4985,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.1%",
-    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement E1-4 \u2013 Targets related to climate change mitigation and adaptation' based on learned feature weights. SKOS Relation: relatedMatch.",
+    "reasoning": "Learned model confidence score: 49.9%",
+    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'Disclosure Requirement E2-3 \u2013 Targets related to pollution' based on learned feature weights. SKOS Relation: narrowMatch.",
     "issues": [
-      "Low overall similarity evidence score"
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q6_-5874270398555975595",
+    "esrs_id": "Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
+    "mapping": "narrowMatch",
+    "confidence": 0.4984,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 49.8%",
+    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'Disclosure requirement related to ESRS 2 IRO-1 \u2013 Description of the processes to identify and assess material resource u' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q6_-5874270398555975595",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E2_2_Actions_and_resources_related_to_pollution",
+    "mapping": "narrowMatch",
+    "confidence": 0.4983,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 49.8%",
+    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'Disclosure Requirement E2-2 \u2013 Actions and resources related to pollution' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q8_1419484420242406593",
+    "esrs_id": "Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence",
+    "mapping": "narrowMatch",
+    "confidence": 0.4971,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 49.7%",
+    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement GOV-4 \u2013 Statement on due diligence' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q3_-4999668360558070019",
+    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m",
+    "mapping": "narrowMatch",
+    "confidence": 0.4964,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 49.6%",
+    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 Description of the processes to identify and assess material climate-rela' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q11_1366600324960417183",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change",
+    "mapping": "narrowMatch",
+    "confidence": 0.4962,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 49.6%",
+    "explanation": "Verified alignment between BRSR '11. Details of environmental impact assessments of projects undertaken by the entity based' and ESRS 'Disclosure Requirement E4-5 \u2013 Impact metrics related to biodiversity and ecosystems change' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q8_-8405331482717645114",
+    "esrs_id": "Disclosure_Disclosure_Requirement_BP_1_General_basis_for_preparation_of_sustainability_statements",
+    "mapping": "narrowMatch",
+    "confidence": 0.496,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 49.6%",
+    "explanation": "Verified alignment between BRSR '8. Disclose any significant adverse impact to the environment, arising from the value chain of' and ESRS 'Disclosure Requirement BP-1 \u2013 General basis for preparation of sustainability statements' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": [
+      "Low direct lexical overlap"
     ]
   },
   {
     "brsr_id": "Disclosure_Q4_-6382315562112869290",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution",
-    "mapping": "relatedMatch",
-    "confidence": 0.2811,
+    "esrs_id": "Disclosure_Disclosure_Requirement_of_an_ESRS_including_a_specific_datapoint_prescribed_by_a_Disclosure_Require",
+    "mapping": "narrowMatch",
+    "confidence": 0.4957,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.1%",
-    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E2-3 \u2013 Targets related to pollution' based on learned feature weights. SKOS Relation: relatedMatch.",
+    "reasoning": "Learned model confidence score: 49.6%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement of an ESRS  including a specific datapoint prescribed by a Disclosure Requirement  may be incorpo' based on learned feature weights. SKOS Relation: narrowMatch.",
     "issues": [
-      "Low overall similarity evidence score",
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q4_-6382315562112869290",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E2_4_Pollution_of_air_water_and_soil",
+    "mapping": "narrowMatch",
+    "confidence": 0.4956,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 49.6%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E2-4 \u2013 Pollution of air, water and soil' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q8_-8405331482717645114",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E4_4_Targets_related_to_biodiversity_and_ecosystems",
+    "mapping": "narrowMatch",
+    "confidence": 0.4949,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 49.5%",
+    "explanation": "Verified alignment between BRSR '8. Disclose any significant adverse impact to the environment, arising from the value chain of' and ESRS 'Disclosure Requirement E4-4 \u2013 Targets related to biodiversity and ecosystems' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q4_-6382315562112869290",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E4_6_Anticipated_financial_effects_from_material_biodiversity_and_ecosystem",
+    "mapping": "narrowMatch",
+    "confidence": 0.4949,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 49.5%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E4-6 \u2013 Anticipated financial effects from material biodiversity and ecosystem-related  risks and ' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q9_-1180754342078183070",
+    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
+    "mapping": "narrowMatch",
+    "confidence": 0.4949,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 49.5%",
+    "explanation": "Verified alignment between BRSR '9. Briefly describe the waste management practices adopted in your establishments. Describe' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 \u2013 Description of the processes to identify and assess material pollution-' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q8_-8405331482717645114",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation",
+    "mapping": "narrowMatch",
+    "confidence": 0.4937,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 49.4%",
+    "explanation": "Verified alignment between BRSR '8. Disclose any significant adverse impact to the environment, arising from the value chain of' and ESRS 'Disclosure Requirement E1-4 \u2013 Targets related to climate change mitigation and adaptation' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q9_-1180754342078183070",
+    "esrs_id": "Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with",
+    "mapping": "narrowMatch",
+    "confidence": 0.4934,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 49.3%",
+    "explanation": "Verified alignment between BRSR '9. Briefly describe the waste management practices adopted in your establishments. Describe' and ESRS 'Disclosure Requirement SBM 3 \u2013 Material impacts, risks and opportunities and their interaction with strategy and busines' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q2_993553119648207625",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E5_5_Resource_outflows",
+    "mapping": "narrowMatch",
+    "confidence": 0.4924,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 49.2%",
+    "explanation": "Verified alignment between BRSR '2. a. Does the entity have procedures in place for sustainable sourcing? (Yes/No)' and ESRS 'Disclosure Requirement E5-5 \u2013 Resource outflows' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q8_1419484420242406593",
+    "esrs_id": "Disclosure_Disclosure_Requirement_of_an_ESRS_including_a_specific_datapoint_prescribed_by_a_Disclosure_Require",
+    "mapping": "narrowMatch",
+    "confidence": 0.4921,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 49.2%",
+    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement of an ESRS  including a specific datapoint prescribed by a Disclosure Requirement  may be incorpo' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q4_-6382315562112869290",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E1_5_Energy_consumption_and_mix",
+    "mapping": "narrowMatch",
+    "confidence": 0.4918,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 49.2%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E1-5 \u2013 Energy consumption and mix' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q24_2434095512212408412",
+    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
+    "mapping": "narrowMatch",
+    "confidence": 0.4914,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 49.1%",
+    "explanation": "Verified alignment between BRSR '24. Overview of the entity\u2019s material responsible business conduct issues' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 \u2013 Description of the processes to identify and assess material pollution-' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q4_-6382315562112869290",
+    "esrs_id": "Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence",
+    "mapping": "broadMatch",
+    "confidence": 0.4912,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 49.1%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement GOV-4 \u2013 Statement on due diligence' based on learned feature weights. SKOS Relation: broadMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q11_1366600324960417183",
+    "esrs_id": "Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence",
+    "mapping": "narrowMatch",
+    "confidence": 0.4908,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 49.1%",
+    "explanation": "Verified alignment between BRSR '11. Details of environmental impact assessments of projects undertaken by the entity based' and ESRS 'Disclosure Requirement GOV-4 \u2013 Statement on due diligence' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q2_993553119648207625",
+    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
+    "mapping": "narrowMatch",
+    "confidence": 0.4908,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 49.1%",
+    "explanation": "Verified alignment between BRSR '2. a. Does the entity have procedures in place for sustainable sourcing? (Yes/No)' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 \u2013 Description of the processes to identify and assess material pollution-' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": [
       "Low direct lexical overlap"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_1419484420242406593",
     "esrs_id": "Disclosure_Disclosure_Requirement_E5_1_Policies_related_to_resource_use_and_circular_economy",
-    "mapping": "relatedMatch",
-    "confidence": 0.2808,
+    "mapping": "narrowMatch",
+    "confidence": 0.4905,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.1%",
-    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement E5-1 \u2013 Policies related to resource use and circular economy' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
+    "reasoning": "Learned model confidence score: 49.0%",
+    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement E5-1 \u2013 Policies related to resource use and circular economy' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
   },
   {
-    "brsr_id": "Disclosure_Q7_-7154105830269047396",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E5_3_Targets_related_to_resource_use_and_circular_economy",
-    "mapping": "relatedMatch",
-    "confidence": 0.2807,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.1%",
-    "explanation": "Verified alignment between BRSR '7. Does the entity have any project related to reducing Green House Gas emission? If Yes,' and ESRS 'Disclosure Requirement E5-3 - Targets related to resource use and circular economy' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q9_-1180754342078183070",
-    "esrs_id": "Disclosure_Disclosure_Requirement_GOV_5_Risk_management_and_internal_controls_over_sustainability_reporting",
-    "mapping": "relatedMatch",
-    "confidence": 0.2805,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.1%",
-    "explanation": "Verified alignment between BRSR '9. Briefly describe the waste management practices adopted in your establishments. Describe' and ESRS 'Disclosure Requirement GOV\u20135 - Risk management and internal controls over sustainability reporting' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q3_-4999668360558070019",
+    "brsr_id": "Disclosure_Q8_-8405331482717645114",
     "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m",
-    "mapping": "relatedMatch",
-    "confidence": 0.2802,
+    "mapping": "narrowMatch",
+    "confidence": 0.4898,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.0%",
-    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 Description of the processes to identify and assess material climate-rela' based on learned feature weights. SKOS Relation: relatedMatch.",
+    "reasoning": "Learned model confidence score: 49.0%",
+    "explanation": "Verified alignment between BRSR '8. Disclose any significant adverse impact to the environment, arising from the value chain of' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 Description of the processes to identify and assess material climate-rela' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q4_-6382315562112869290",
+    "esrs_id": "Requirement_-3598530741048160119",
+    "mapping": "broadMatch",
+    "confidence": 0.4893,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.9%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Interactions with other ESRS' based on learned feature weights. SKOS Relation: broadMatch.",
     "issues": [
-      "Low overall similarity evidence score"
+      "Low direct lexical overlap"
     ]
   },
   {
-    "brsr_id": "Disclosure_Q24_2434095512212408412",
-    "esrs_id": "Disclosure_Disclosure_Requirement_GOV_5_Risk_management_and_internal_controls_over_sustainability_reporting",
-    "mapping": "relatedMatch",
-    "confidence": 0.2801,
+    "brsr_id": "Disclosure_Q4_-6382315562112869290",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources",
+    "mapping": "narrowMatch",
+    "confidence": 0.4892,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.0%",
-    "explanation": "Verified alignment between BRSR '24. Overview of the entity\u2019s material responsible business conduct issues' and ESRS 'Disclosure Requirement GOV\u20135 - Risk management and internal controls over sustainability reporting' based on learned feature weights. SKOS Relation: relatedMatch.",
+    "reasoning": "Learned model confidence score: 48.9%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E3-3 \u2013 Targets related to water and marine resources' based on learned feature weights. SKOS Relation: narrowMatch.",
     "issues": [
-      "Low overall similarity evidence score",
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q4_-6382315562112869290",
+    "esrs_id": "Requirement_-3703243172037028012",
+    "mapping": "broadMatch",
+    "confidence": 0.4891,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.9%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Interaction with other ESRS' based on learned feature weights. SKOS Relation: broadMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q6_-5874270398555975595",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E1_5_Energy_consumption_and_mix",
+    "mapping": "narrowMatch",
+    "confidence": 0.4888,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.9%",
+    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'Disclosure Requirement E1-5 \u2013 Energy consumption and mix' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": [
       "Low direct lexical overlap"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_1419484420242406593",
-    "esrs_id": "Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
-    "mapping": "relatedMatch",
-    "confidence": 0.2799,
+    "esrs_id": "Disclosure_Disclosure_Requirement_BP_1_General_basis_for_preparation_of_sustainability_statements",
+    "mapping": "narrowMatch",
+    "confidence": 0.4883,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.0%",
-    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure requirement related to ESRS 2 IRO-1 \u2013 Description of the processes to identify and assess material resource u' based on learned feature weights. SKOS Relation: relatedMatch.",
+    "reasoning": "Learned model confidence score: 48.8%",
+    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement BP-1 \u2013 General basis for preparation of sustainability statements' based on learned feature weights. SKOS Relation: narrowMatch.",
     "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q7_-7154105830269047396",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E5_2_Actions_and_resources_related_to_resource_use_and_circular_economy",
-    "mapping": "relatedMatch",
-    "confidence": 0.2799,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.0%",
-    "explanation": "Verified alignment between BRSR '7. Does the entity have any project related to reducing Green House Gas emission? If Yes,' and ESRS 'Disclosure Requirement E5-2 \u2013 Actions and resources related to resource use and circular economy' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q4_-6382315562112869290",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E2_2_Actions_and_resources_related_to_pollution",
-    "mapping": "relatedMatch",
-    "confidence": 0.2798,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 28.0%",
-    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E2-2 \u2013 Actions and resources related to pollution' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score",
       "Low direct lexical overlap"
     ]
   },
   {
     "brsr_id": "Disclosure_Q3_-4999668360558070019",
     "esrs_id": "Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with",
-    "mapping": "relatedMatch",
-    "confidence": 0.2794,
+    "mapping": "narrowMatch",
+    "confidence": 0.4882,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.9%",
-    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement SBM 3 \u2013 Material impacts, risks and opportunities and their interaction with strategy and busines' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q24_2434095512212408412",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E5_3_Targets_related_to_resource_use_and_circular_economy",
-    "mapping": "relatedMatch",
-    "confidence": 0.2794,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.9%",
-    "explanation": "Verified alignment between BRSR '24. Overview of the entity\u2019s material responsible business conduct issues' and ESRS 'Disclosure Requirement E5-3 - Targets related to resource use and circular economy' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q9_-1180754342078183070",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E5_1_Policies_related_to_resource_use_and_circular_economy",
-    "mapping": "relatedMatch",
-    "confidence": 0.2791,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.9%",
-    "explanation": "Verified alignment between BRSR '9. Briefly describe the waste management practices adopted in your establishments. Describe' and ESRS 'Disclosure Requirement E5-1 \u2013 Policies related to resource use and circular economy' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q8_1419484420242406593",
-    "esrs_id": "Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence",
-    "mapping": "relatedMatch",
-    "confidence": 0.2787,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.9%",
-    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement GOV-4 \u2013 Statement on due diligence' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q6_-5874270398555975595",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E1_7_GHG_removals_and_GHG_mitigation_projects_financed_through_carbon_credi",
-    "mapping": "relatedMatch",
-    "confidence": 0.2787,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.9%",
-    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'Disclosure Requirement E1-7 \u2013 GHG removals and GHG mitigation projects financed through carbon credits GHG removals and ' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q6_-5874270398555975595",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E1_1_Transition_plan_for_climate_change_mitigation",
-    "mapping": "relatedMatch",
-    "confidence": 0.2785,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.9%",
-    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'Disclosure Requirement E1-1 \u2013 Transition plan for climate change mitigation' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
+    "reasoning": "Learned model confidence score: 48.8%",
+    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement SBM 3 \u2013 Material impacts, risks and opportunities and their interaction with strategy and busines' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
   },
   {
     "brsr_id": "Disclosure_Q3_-4999668360558070019",
-    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_SBM_3_Material_impacts_risks_and_opportunities_and_their",
-    "mapping": "relatedMatch",
-    "confidence": 0.2784,
+    "esrs_id": "Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution",
+    "mapping": "narrowMatch",
+    "confidence": 0.4874,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.8%",
-    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement related to ESRS 2 SBM-3 - Material impacts, risks and opportunities and their interaction with st' based on learned feature weights. SKOS Relation: relatedMatch.",
+    "reasoning": "Learned model confidence score: 48.7%",
+    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement E2-3 \u2013 Targets related to pollution' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q8_1419484420242406593",
+    "esrs_id": "Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with",
+    "mapping": "narrowMatch",
+    "confidence": 0.4872,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.7%",
+    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement SBM 3 \u2013 Material impacts, risks and opportunities and their interaction with strategy and busines' based on learned feature weights. SKOS Relation: narrowMatch.",
     "issues": [
-      "Low overall similarity evidence score"
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q6_-5874270398555975595",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E5_3_Targets_related_to_resource_use_and_circular_economy",
+    "mapping": "narrowMatch",
+    "confidence": 0.487,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.7%",
+    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'Disclosure Requirement E5-3 - Targets related to resource use and circular economy' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q2_993553119648207625",
+    "esrs_id": "Disclosure_Disclosure_Requirement_BP_1_General_basis_for_preparation_of_sustainability_statements",
+    "mapping": "narrowMatch",
+    "confidence": 0.4862,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.6%",
+    "explanation": "Verified alignment between BRSR '2. a. Does the entity have procedures in place for sustainable sourcing? (Yes/No)' and ESRS 'Disclosure Requirement BP-1 \u2013 General basis for preparation of sustainability statements' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q6_-5874270398555975595",
+    "esrs_id": "Disclosure_IRO_1_Description_of_the_processes_to_identify_and_assess_material_pollution_related_impacts_risk",
+    "mapping": "narrowMatch",
+    "confidence": 0.486,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.6%",
+    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'IRO-1 \u2013 Description of the processes to identify and assess material pollution-related impacts, risks and opportunities ' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q8_-8405331482717645114",
+    "esrs_id": "Disclosure_Disclosure_Requirement_SBM_1_Strategy_business_model_and_value_chain_AR_12_To_provide_the_informat",
+    "mapping": "narrowMatch",
+    "confidence": 0.4857,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.6%",
+    "explanation": "Verified alignment between BRSR '8. Disclose any significant adverse impact to the environment, arising from the value chain of' and ESRS 'Disclosure Requirement SBM\u20131 Strategy, business model and value chain AR 12. To provide the information on sectors requi' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q2_993553119648207625",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E5_2_Actions_and_resources_related_to_resource_use_and_circular_economy",
+    "mapping": "narrowMatch",
+    "confidence": 0.4856,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.6%",
+    "explanation": "Verified alignment between BRSR '2. a. Does the entity have procedures in place for sustainable sourcing? (Yes/No)' and ESRS 'Disclosure Requirement E5-2 \u2013 Actions and resources related to resource use and circular economy' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": [
+      "Low direct lexical overlap"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_1419484420242406593",
     "esrs_id": "Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution",
-    "mapping": "relatedMatch",
-    "confidence": 0.2782,
+    "mapping": "narrowMatch",
+    "confidence": 0.4856,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.8%",
-    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement E2-3 \u2013 Targets related to pollution' based on learned feature weights. SKOS Relation: relatedMatch.",
+    "reasoning": "Learned model confidence score: 48.6%",
+    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement E2-3 \u2013 Targets related to pollution' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q5_8637121145400939773",
+    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m",
+    "mapping": "narrowMatch",
+    "confidence": 0.4854,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.5%",
+    "explanation": "Verified alignment between BRSR '5. Please provide details of air emissions (other than GHG emissions) by the entity, in the' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 Description of the processes to identify and assess material climate-rela' based on learned feature weights. SKOS Relation: narrowMatch.",
     "issues": [
-      "Low overall similarity evidence score"
+      "Low direct lexical overlap"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_1419484420242406593",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources",
-    "mapping": "relatedMatch",
-    "confidence": 0.278,
+    "esrs_id": "Disclosure_Disclosure_Requirement_SBM_1_Strategy_business_model_and_value_chain_AR_12_To_provide_the_informat",
+    "mapping": "narrowMatch",
+    "confidence": 0.4853,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.8%",
-    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement E3-3 \u2013 Targets related to water and marine resources' based on learned feature weights. SKOS Relation: relatedMatch.",
+    "reasoning": "Learned model confidence score: 48.5%",
+    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement SBM\u20131 Strategy, business model and value chain AR 12. To provide the information on sectors requi' based on learned feature weights. SKOS Relation: narrowMatch.",
     "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q1_991886090062196846",
-    "esrs_id": "Disclosure_IRO_1_Description_of_the_processes_to_identify_and_assess_material_resource_use_and_circular_econo",
-    "mapping": "relatedMatch",
-    "confidence": 0.2777,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.8%",
-    "explanation": "Verified alignment between BRSR '1. Describe the processes for identifying key stakeholder groups of the entity.' and ESRS 'IRO-1 \u2013 Description of the processes to identify and assess material resource use and circular economy-related impacts, ' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
+      "Low direct lexical overlap"
     ]
   },
   {
     "brsr_id": "Disclosure_Q2_993553119648207625",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E1_3_Actions_and_resources_in_relation_to_climate_change_policies",
-    "mapping": "relatedMatch",
-    "confidence": 0.2776,
+    "esrs_id": "Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
+    "mapping": "narrowMatch",
+    "confidence": 0.4849,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.8%",
-    "explanation": "Verified alignment between BRSR '2. a. Does the entity have procedures in place for sustainable sourcing? (Yes/No)' and ESRS 'Disclosure Requirement E1-3 \u2013 Actions and resources in relation to climate change policies' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
+    "reasoning": "Learned model confidence score: 48.5%",
+    "explanation": "Verified alignment between BRSR '2. a. Does the entity have procedures in place for sustainable sourcing? (Yes/No)' and ESRS 'Disclosure requirement related to ESRS 2 IRO-1 \u2013 Description of the processes to identify and assess material resource u' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
   },
   {
-    "brsr_id": "Disclosure_Q7_-7154105830269047396",
-    "esrs_id": "Disclosure_IRO_1_Description_of_the_processes_to_identify_and_assess_material_pollution_related_impacts_risk",
-    "mapping": "relatedMatch",
-    "confidence": 0.2775,
+    "brsr_id": "Disclosure_Q24_2434095512212408412",
+    "esrs_id": "Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence",
+    "mapping": "narrowMatch",
+    "confidence": 0.4848,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.7%",
-    "explanation": "Verified alignment between BRSR '7. Does the entity have any project related to reducing Green House Gas emission? If Yes,' and ESRS 'IRO-1 \u2013 Description of the processes to identify and assess material pollution-related impacts, risks and opportunities ' based on learned feature weights. SKOS Relation: relatedMatch.",
+    "reasoning": "Learned model confidence score: 48.5%",
+    "explanation": "Verified alignment between BRSR '24. Overview of the entity\u2019s material responsible business conduct issues' and ESRS 'Disclosure Requirement GOV-4 \u2013 Statement on due diligence' based on learned feature weights. SKOS Relation: narrowMatch.",
     "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q2_1620615386017990737",
-    "esrs_id": "Disclosure_Disclosure_Requirement_SBM_1_Strategy_business_model_and_value_chain_AR_12_To_provide_the_informat",
-    "mapping": "relatedMatch",
-    "confidence": 0.2774,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.7%",
-    "explanation": "Verified alignment between BRSR '2. Provide the following information on CSR projects undertaken by your entity in' and ESRS 'Disclosure Requirement SBM\u20131 Strategy, business model and value chain AR 12. To provide the information on sectors requi' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
+      "Low direct lexical overlap"
     ]
   },
   {
     "brsr_id": "Disclosure_Q4_-6382315562112869290",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E4_3_Actions_and_resources_related_to_biodiversity_and_ecosystems_Metrics_a",
-    "mapping": "relatedMatch",
-    "confidence": 0.2773,
+    "esrs_id": "Disclosure_Disclosure_Requirement_GOV_1_The_role_of_the_administrative_management_and_supervisory_bodies",
+    "mapping": "narrowMatch",
+    "confidence": 0.4848,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.7%",
-    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E4-3 \u2013 Actions and resources related to biodiversity and ecosystems Metrics and targets o Disclos' based on learned feature weights. SKOS Relation: relatedMatch.",
+    "reasoning": "Learned model confidence score: 48.5%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement GOV-1 \u2013 The role of the administrative, management and supervisory bodies' based on learned feature weights. SKOS Relation: narrowMatch.",
     "issues": [
-      "Low overall similarity evidence score"
+      "Low direct lexical overlap"
     ]
   },
   {
-    "brsr_id": "Disclosure_Q2_294300574630310733",
+    "brsr_id": "Disclosure_Q6_-5874270398555975595",
     "esrs_id": "Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change",
-    "mapping": "relatedMatch",
-    "confidence": 0.2771,
+    "mapping": "narrowMatch",
+    "confidence": 0.4847,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.7%",
-    "explanation": "Verified alignment between BRSR '2. Provide the following details related to water discharged:' and ESRS 'Disclosure Requirement E4-5 \u2013 Impact metrics related to biodiversity and ecosystems change' based on learned feature weights. SKOS Relation: relatedMatch.",
+    "reasoning": "Learned model confidence score: 48.5%",
+    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'Disclosure Requirement E4-5 \u2013 Impact metrics related to biodiversity and ecosystems change' based on learned feature weights. SKOS Relation: narrowMatch.",
     "issues": [
-      "Low overall similarity evidence score"
+      "Low direct lexical overlap"
     ]
   },
   {
-    "brsr_id": "Disclosure_Q1_991886090062196846",
+    "brsr_id": "Disclosure_Q8_-8405331482717645114",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution",
+    "mapping": "narrowMatch",
+    "confidence": 0.4844,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.4%",
+    "explanation": "Verified alignment between BRSR '8. Disclose any significant adverse impact to the environment, arising from the value chain of' and ESRS 'Disclosure Requirement E2-3 \u2013 Targets related to pollution' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q8_1419484420242406593",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E5_2_Actions_and_resources_related_to_resource_use_and_circular_economy",
+    "mapping": "narrowMatch",
+    "confidence": 0.484,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.4%",
+    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement E5-2 \u2013 Actions and resources related to resource use and circular economy' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q9_-1180754342078183070",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution",
+    "mapping": "narrowMatch",
+    "confidence": 0.4838,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.4%",
+    "explanation": "Verified alignment between BRSR '9. Briefly describe the waste management practices adopted in your establishments. Describe' and ESRS 'Disclosure Requirement E2-3 \u2013 Targets related to pollution' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q1_-2941116562953374489",
     "esrs_id": "Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
-    "mapping": "relatedMatch",
-    "confidence": 0.277,
+    "mapping": "narrowMatch",
+    "confidence": 0.4838,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.7%",
-    "explanation": "Verified alignment between BRSR '1. Describe the processes for identifying key stakeholder groups of the entity.' and ESRS 'Disclosure requirement related to ESRS 2 IRO-1 \u2013 Description of the processes to identify and assess material resource u' based on learned feature weights. SKOS Relation: relatedMatch.",
+    "reasoning": "Learned model confidence score: 48.4%",
+    "explanation": "Verified alignment between BRSR '1. Provide break-up of the total energy consumed (in Joules or multiples) from renewable' and ESRS 'Disclosure requirement related to ESRS 2 IRO-1 \u2013 Description of the processes to identify and assess material resource u' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q6_-5874270398555975595",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E4_4_Targets_related_to_biodiversity_and_ecosystems",
+    "mapping": "narrowMatch",
+    "confidence": 0.4831,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.3%",
+    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'Disclosure Requirement E4-4 \u2013 Targets related to biodiversity and ecosystems' based on learned feature weights. SKOS Relation: narrowMatch.",
     "issues": [
-      "Low overall similarity evidence score"
+      "Low direct lexical overlap"
     ]
   },
   {
     "brsr_id": "Disclosure_Q3_-4999668360558070019",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E5_3_Targets_related_to_resource_use_and_circular_economy",
-    "mapping": "relatedMatch",
-    "confidence": 0.2766,
+    "esrs_id": "Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change",
+    "mapping": "narrowMatch",
+    "confidence": 0.4826,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.7%",
-    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement E5-3 - Targets related to resource use and circular economy' based on learned feature weights. SKOS Relation: relatedMatch.",
+    "reasoning": "Learned model confidence score: 48.3%",
+    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement E4-5 \u2013 Impact metrics related to biodiversity and ecosystems change' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q2_993553119648207625",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E2_2_Actions_and_resources_related_to_pollution",
+    "mapping": "narrowMatch",
+    "confidence": 0.4823,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.2%",
+    "explanation": "Verified alignment between BRSR '2. a. Does the entity have procedures in place for sustainable sourcing? (Yes/No)' and ESRS 'Disclosure Requirement E2-2 \u2013 Actions and resources related to pollution' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q12_1371309414590748650",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution",
+    "mapping": "narrowMatch",
+    "confidence": 0.4817,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.2%",
+    "explanation": "Verified alignment between BRSR '12. Is the entity compliant with the applicable environmental law/ regulations/ guidelines in' and ESRS 'Disclosure Requirement E2-3 \u2013 Targets related to pollution' based on learned feature weights. SKOS Relation: narrowMatch.",
     "issues": [
-      "Low overall similarity evidence score"
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q8_1419484420242406593",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E5_5_Resource_outflows",
+    "mapping": "narrowMatch",
+    "confidence": 0.4815,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.1%",
+    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement E5-5 \u2013 Resource outflows' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q4_-6382315562112869290",
+    "esrs_id": "Requirement_8200059544884301634",
+    "mapping": "broadMatch",
+    "confidence": 0.4814,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.1%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Interactions with other ESRS' based on learned feature weights. SKOS Relation: broadMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q8_1419484420242406593",
+    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m",
+    "mapping": "narrowMatch",
+    "confidence": 0.4814,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.1%",
+    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 Description of the processes to identify and assess material climate-rela' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q3_-4999668360558070019",
+    "esrs_id": "Disclosure_Disclosure_Requirement_GOV_5_Risk_management_and_internal_controls_over_sustainability_reporting",
+    "mapping": "narrowMatch",
+    "confidence": 0.4813,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.1%",
+    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement GOV\u20135 - Risk management and internal controls over sustainability reporting' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": [
+      "Low direct lexical overlap"
+    ]
+  },
+  {
+    "brsr_id": "Disclosure_Q8_1419484420242406593",
+    "esrs_id": "Disclosure_Disclosure_Requirement_GOV_5_Risk_management_and_internal_controls_over_sustainability_reporting",
+    "mapping": "narrowMatch",
+    "confidence": 0.481,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.1%",
+    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement GOV\u20135 - Risk management and internal controls over sustainability reporting' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q8_-8405331482717645114",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E4_6_Anticipated_financial_effects_from_material_biodiversity_and_ecosystem",
+    "mapping": "narrowMatch",
+    "confidence": 0.481,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.1%",
+    "explanation": "Verified alignment between BRSR '8. Disclose any significant adverse impact to the environment, arising from the value chain of' and ESRS 'Disclosure Requirement E4-6 \u2013 Anticipated financial effects from material biodiversity and ecosystem-related  risks and ' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
+  },
+  {
+    "brsr_id": "Disclosure_Q6_-5874270398555975595",
+    "esrs_id": "Disclosure_Disclosure_Requirement_GOV_5_Risk_management_and_internal_controls_over_sustainability_reporting",
+    "mapping": "narrowMatch",
+    "confidence": 0.4809,
+    "verification": "Accepted",
+    "reasoning": "Learned model confidence score: 48.1%",
+    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'Disclosure Requirement GOV\u20135 - Risk management and internal controls over sustainability reporting' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": [
+      "Low direct lexical overlap"
     ]
   },
   {
     "brsr_id": "Disclosure_Q3_-4999668360558070019",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E1_3_Actions_and_resources_in_relation_to_climate_change_policies",
-    "mapping": "relatedMatch",
-    "confidence": 0.2765,
+    "esrs_id": "Disclosure_Disclosure_Requirement_of_an_ESRS_including_a_specific_datapoint_prescribed_by_a_Disclosure_Require",
+    "mapping": "narrowMatch",
+    "confidence": 0.4808,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.6%",
-    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement E1-3 \u2013 Actions and resources in relation to climate change policies' based on learned feature weights. SKOS Relation: relatedMatch.",
+    "reasoning": "Learned model confidence score: 48.1%",
+    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement of an ESRS  including a specific datapoint prescribed by a Disclosure Requirement  may be incorpo' based on learned feature weights. SKOS Relation: narrowMatch.",
     "issues": [
-      "Low overall similarity evidence score"
+      "Low direct lexical overlap"
     ]
   },
   {
     "brsr_id": "Disclosure_Q5_8637121145400939773",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E1_7_GHG_removals_and_GHG_mitigation_projects_financed_through_carbon_credi",
-    "mapping": "relatedMatch",
-    "confidence": 0.2764,
+    "esrs_id": "Disclosure_Disclosure_Requirement_E2_2_Actions_and_resources_related_to_pollution",
+    "mapping": "narrowMatch",
+    "confidence": 0.4807,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.6%",
-    "explanation": "Verified alignment between BRSR '5. Please provide details of air emissions (other than GHG emissions) by the entity, in the' and ESRS 'Disclosure Requirement E1-7 \u2013 GHG removals and GHG mitigation projects financed through carbon credits GHG removals and ' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
+    "reasoning": "Learned model confidence score: 48.1%",
+    "explanation": "Verified alignment between BRSR '5. Please provide details of air emissions (other than GHG emissions) by the entity, in the' and ESRS 'Disclosure Requirement E2-2 \u2013 Actions and resources related to pollution' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
   },
   {
-    "brsr_id": "Disclosure_Q23_-6115681057730055166",
-    "esrs_id": "Disclosure_Disclosure_Requirement_IRO_1_Description_of_the_processes_to_identify_and_assess",
-    "mapping": "relatedMatch",
-    "confidence": 0.2761,
+    "brsr_id": "Disclosure_Q6_-5874270398555975595",
+    "esrs_id": "Disclosure_Disclosure_Requirement_E1_1_Transition_plan_for_climate_change_mitigation",
+    "mapping": "narrowMatch",
+    "confidence": 0.4805,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.6%",
-    "explanation": "Verified alignment between BRSR '23. Complaints/Grievances on any of the principles (Principles 1 to 9) under the National Guidelines on Responsible Busi' and ESRS 'Disclosure Requirement IRO-1 - Description of the processes to identify and assess' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q24_2434095512212408412",
-    "esrs_id": "Disclosure_Disclosure_Requirement_GOV_1_The_role_of_the_administrative_management_and_supervisory_bodies",
-    "mapping": "relatedMatch",
-    "confidence": 0.2761,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.6%",
-    "explanation": "Verified alignment between BRSR '24. Overview of the entity\u2019s material responsible business conduct issues' and ESRS 'Disclosure Requirement GOV-1 \u2013 The role of the administrative, management and supervisory bodies' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score",
-      "Low direct lexical overlap"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q8_-8405331482717645114",
-    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
-    "mapping": "relatedMatch",
-    "confidence": 0.2761,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.6%",
-    "explanation": "Verified alignment between BRSR '8. Disclose any significant adverse impact to the environment, arising from the value chain of' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 \u2013 Description of the processes to identify and assess material pollution-' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q3_-4999668360558070019",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change",
-    "mapping": "relatedMatch",
-    "confidence": 0.2756,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.6%",
-    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement E4-5 \u2013 Impact metrics related to biodiversity and ecosystems change' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q3_-4999668360558070019",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E4_3_Actions_and_resources_related_to_biodiversity_and_ecosystems",
-    "mapping": "relatedMatch",
-    "confidence": 0.2755,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.5%",
-    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement E4-3 \u2013 Actions and resources related to biodiversity and ecosystems' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
+    "reasoning": "Learned model confidence score: 48.1%",
+    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'Disclosure Requirement E1-1 \u2013 Transition plan for climate change mitigation' based on learned feature weights. SKOS Relation: narrowMatch.",
+    "issues": []
   },
   {
     "brsr_id": "Disclosure_Q4_-6382315562112869290",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E4_2_Policies_related_to_biodiversity_and_ecosystems",
-    "mapping": "relatedMatch",
-    "confidence": 0.2754,
+    "esrs_id": "Disclosure_Disclosure_Requirement_GOV_5_Risk_management_and_internal_controls_over_sustainability_reporting",
+    "mapping": "narrowMatch",
+    "confidence": 0.48,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.5%",
-    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement E4-2 \u2013 Policies related to biodiversity and ecosystems' based on learned feature weights. SKOS Relation: relatedMatch.",
+    "reasoning": "Learned model confidence score: 48.0%",
+    "explanation": "Verified alignment between BRSR '4. Please provide details of total Scope 3 emissions & its intensity, in the following format:' and ESRS 'Disclosure Requirement GOV\u20135 - Risk management and internal controls over sustainability reporting' based on learned feature weights. SKOS Relation: narrowMatch.",
     "issues": [
-      "Low overall similarity evidence score",
       "Low direct lexical overlap"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q8_1419484420242406593",
-    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_processes_to_identify_and_assess_mater",
-    "mapping": "relatedMatch",
-    "confidence": 0.2753,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.5%",
-    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 Description of processes to identify and assess material biodiversity and' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q23_-6115681057730055166",
-    "esrs_id": "Disclosure_Disclosure_Requirement_GOV_1_The_role_of_the_administrative_management_and_supervisory_bodies",
-    "mapping": "relatedMatch",
-    "confidence": 0.2751,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.5%",
-    "explanation": "Verified alignment between BRSR '23. Complaints/Grievances on any of the principles (Principles 1 to 9) under the National Guidelines on Responsible Busi' and ESRS 'Disclosure Requirement GOV-1 \u2013 The role of the administrative, management and supervisory bodies' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q24_2434095512212408412",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources",
-    "mapping": "relatedMatch",
-    "confidence": 0.2746,
+    "esrs_id": "Disclosure_Disclosure_Requirement_BP_1_General_basis_for_preparation_of_sustainability_statements",
+    "mapping": "narrowMatch",
+    "confidence": 0.48,
     "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.5%",
-    "explanation": "Verified alignment between BRSR '24. Overview of the entity\u2019s material responsible business conduct issues' and ESRS 'Disclosure Requirement E3-3 \u2013 Targets related to water and marine resources' based on learned feature weights. SKOS Relation: relatedMatch.",
+    "reasoning": "Learned model confidence score: 48.0%",
+    "explanation": "Verified alignment between BRSR '24. Overview of the entity\u2019s material responsible business conduct issues' and ESRS 'Disclosure Requirement BP-1 \u2013 General basis for preparation of sustainability statements' based on learned feature weights. SKOS Relation: narrowMatch.",
     "issues": [
-      "Low overall similarity evidence score",
       "Low direct lexical overlap"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q6_-5874270398555975595",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E1_3_Actions_and_resources_in_relation_to_climate_change_policies",
-    "mapping": "relatedMatch",
-    "confidence": 0.2743,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.4%",
-    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'Disclosure Requirement E1-3 \u2013 Actions and resources in relation to climate change policies' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q1_6088715793221866031",
-    "esrs_id": "Disclosure_Disclosure_Requirement_IRO_1_Description_of_the_processes_to_identify_and_assess",
-    "mapping": "relatedMatch",
-    "confidence": 0.274,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.4%",
-    "explanation": "Verified alignment between BRSR '1. Details of a business process being modified / introduced as a result of addressing' and ESRS 'Disclosure Requirement IRO-1 - Description of the processes to identify and assess' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q3_-4999668360558070019",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E4_4_Targets_related_to_biodiversity_and_ecosystems",
-    "mapping": "relatedMatch",
-    "confidence": 0.2739,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.4%",
-    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement E4-4 \u2013 Targets related to biodiversity and ecosystems' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q6_-5874270398555975595",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation",
-    "mapping": "relatedMatch",
-    "confidence": 0.2737,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.4%",
-    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'Disclosure Requirement E1-4 \u2013 Targets related to climate change mitigation and adaptation' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score",
-      "Low direct lexical overlap"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q3_-4999668360558070019",
-    "esrs_id": "Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence",
-    "mapping": "relatedMatch",
-    "confidence": 0.2737,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.4%",
-    "explanation": "Verified alignment between BRSR '3. Provide details of the following disclosures related to water, in the following format:' and ESRS 'Disclosure Requirement GOV-4 \u2013 Statement on due diligence' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q2_294300574630310733",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution",
-    "mapping": "relatedMatch",
-    "confidence": 0.2736,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.4%",
-    "explanation": "Verified alignment between BRSR '2. Provide the following details related to water discharged:' and ESRS 'Disclosure Requirement E2-3 \u2013 Targets related to pollution' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q24_2434095512212408412",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E5_1_Policies_related_to_resource_use_and_circular_economy",
-    "mapping": "relatedMatch",
-    "confidence": 0.2735,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.4%",
-    "explanation": "Verified alignment between BRSR '24. Overview of the entity\u2019s material responsible business conduct issues' and ESRS 'Disclosure Requirement E5-1 \u2013 Policies related to resource use and circular economy' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q3_937559134512949447",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E3_2_Actions_and_resources_related_to_water_and_marine_resources_policies_M",
-    "mapping": "relatedMatch",
-    "confidence": 0.2735,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.3%",
-    "explanation": "Verified alignment between BRSR '3. Water withdrawal, consumption and discharge in areas of water stress (in kilolitres):' and ESRS 'Disclosure Requirement E3-2 \u2013 Actions and resources related to water and marine resources policies Metrics and targets o' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q24_2434095512212408412",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E5_2_Actions_and_resources_related_to_resource_use_and_circular_economy",
-    "mapping": "relatedMatch",
-    "confidence": 0.2727,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.3%",
-    "explanation": "Verified alignment between BRSR '24. Overview of the entity\u2019s material responsible business conduct issues' and ESRS 'Disclosure Requirement E5-2 \u2013 Actions and resources related to resource use and circular economy' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score",
-      "Low direct lexical overlap"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q5_7184145804725927416",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change",
-    "mapping": "relatedMatch",
-    "confidence": 0.2726,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.3%",
-    "explanation": "Verified alignment between BRSR '5. Does the entity have a framework/ policy on cyber security and risks related to data' and ESRS 'Disclosure Requirement E4-5 \u2013 Impact metrics related to biodiversity and ecosystems change' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q9_-1180754342078183070",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change",
-    "mapping": "relatedMatch",
-    "confidence": 0.2724,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.2%",
-    "explanation": "Verified alignment between BRSR '9. Briefly describe the waste management practices adopted in your establishments. Describe' and ESRS 'Disclosure Requirement E4-5 \u2013 Impact metrics related to biodiversity and ecosystems change' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q1_991886090062196846",
-    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_processes_to_identify_and_assess_mater",
-    "mapping": "relatedMatch",
-    "confidence": 0.2721,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.2%",
-    "explanation": "Verified alignment between BRSR '1. Describe the processes for identifying key stakeholder groups of the entity.' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 Description of processes to identify and assess material biodiversity and' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q6_-5874270398555975595",
-    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_processes_to_identify_and_assess_mater",
-    "mapping": "relatedMatch",
-    "confidence": 0.2721,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.2%",
-    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 Description of processes to identify and assess material biodiversity and' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q1_-7024612116224278638",
-    "esrs_id": "Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with",
-    "mapping": "relatedMatch",
-    "confidence": 0.272,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.2%",
-    "explanation": "Verified alignment between BRSR '1. Provide details of actions taken to mitigate any negative social impacts identified in the' and ESRS 'Disclosure Requirement SBM 3 \u2013 Material impacts, risks and opportunities and their interaction with strategy and busines' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q6_-5874270398555975595",
-    "esrs_id": "Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
-    "mapping": "relatedMatch",
-    "confidence": 0.2719,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.2%",
-    "explanation": "Verified alignment between BRSR '6. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its' and ESRS 'Disclosure requirement related to ESRS 2 IRO-1 \u2013 Description of the processes to identify and assess material resource u' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q8_1419484420242406593",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E5_3_Targets_related_to_resource_use_and_circular_economy",
-    "mapping": "relatedMatch",
-    "confidence": 0.2718,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.2%",
-    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement E5-3 - Targets related to resource use and circular economy' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q8_1419484420242406593",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change",
-    "mapping": "relatedMatch",
-    "confidence": 0.2716,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.2%",
-    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement E4-5 \u2013 Impact metrics related to biodiversity and ecosystems change' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q2_993553119648207625",
-    "esrs_id": "Disclosure_Disclosure_Requirement_BP_2_Disclosures_in_relation_to_specific_circumstances",
-    "mapping": "relatedMatch",
-    "confidence": 0.2716,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.2%",
-    "explanation": "Verified alignment between BRSR '2. a. Does the entity have procedures in place for sustainable sourcing? (Yes/No)' and ESRS 'Disclosure Requirement BP-2 \u2013 Disclosures in relation to specific circumstances' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q8_1419484420242406593",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E5_2_Actions_and_resources_related_to_resource_use_and_circular_economy",
-    "mapping": "relatedMatch",
-    "confidence": 0.2716,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.2%",
-    "explanation": "Verified alignment between BRSR '8. Provide details related to waste management by the entity, in the following format:' and ESRS 'Disclosure Requirement E5-2 \u2013 Actions and resources related to resource use and circular economy' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q23_-6115681057730055166",
-    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
-    "mapping": "relatedMatch",
-    "confidence": 0.2715,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.2%",
-    "explanation": "Verified alignment between BRSR '23. Complaints/Grievances on any of the principles (Principles 1 to 9) under the National Guidelines on Responsible Busi' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 \u2013 Description of the processes to identify and assess material pollution-' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q2_294300574630310733",
-    "esrs_id": "Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation",
-    "mapping": "relatedMatch",
-    "confidence": 0.2712,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.1%",
-    "explanation": "Verified alignment between BRSR '2. Provide the following details related to water discharged:' and ESRS 'Disclosure Requirement E1-4 \u2013 Targets related to climate change mitigation and adaptation' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
-    ]
-  },
-  {
-    "brsr_id": "Disclosure_Q8_-8405331482717645114",
-    "esrs_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m",
-    "mapping": "relatedMatch",
-    "confidence": 0.2712,
-    "verification": "Accepted",
-    "reasoning": "Learned model confidence score: 27.1%",
-    "explanation": "Verified alignment between BRSR '8. Disclose any significant adverse impact to the environment, arising from the value chain of' and ESRS 'Disclosure Requirement related to ESRS 2 IRO-1 Description of the processes to identify and assess material climate-rela' based on learned feature weights. SKOS Relation: relatedMatch.",
-    "issues": [
-      "Low overall similarity evidence score"
     ]
   }
 ]

@@ -1,0 +1,68 @@
+{
+  "experiment": "EXTENSION_3 Automatic Confidence Weight Learning",
+  "weights_summary": {
+    "initial_weights": {
+      "lexical": 1.0,
+      "structural": 1.0,
+      "property": 1.0,
+      "embedding": 1.0
+    },
+    "learned_weights": {
+      "lexical": 0.0969,
+      "structural": 0.0847,
+      "property": 0.4076,
+      "embedding": 0.4108
+    },
+    "learned_coefficients": {
+      "lexical": 0.9804056859283378,
+      "structural": 0.8566862289555668,
+      "property": 4.122735963213062,
+      "embedding": 4.155166579600066
+    },
+    "method": "logistic_regression",
+    "training_samples": 140,
+    "validation_samples": 30,
+    "test_samples": 30,
+    "random_seed": 42
+  },
+  "baseline_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0
+  },
+  "learned_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0
+  },
+  "feature_importance": [
+    {
+      "Rank": 1,
+      "Feature": "Embedding",
+      "Learned Weight": 0.4108,
+      "Raw Coefficient": 4.155166579600066
+    },
+    {
+      "Rank": 2,
+      "Feature": "Property",
+      "Learned Weight": 0.4076,
+      "Raw Coefficient": 4.122735963213062
+    },
+    {
+      "Rank": 3,
+      "Feature": "Lexical",
+      "Learned Weight": 0.0969,
+      "Raw Coefficient": 0.9804056859283378
+    },
+    {
+      "Rank": 4,
+      "Feature": "Structural",
+      "Learned Weight": 0.0847,
+      "Raw Coefficient": 0.8566862289555668
+    }
+  ]
+}

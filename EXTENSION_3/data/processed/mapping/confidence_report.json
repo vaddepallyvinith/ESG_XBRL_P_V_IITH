@@ -1,22 +1,22 @@
 {
   "learned_weights": {
-    "lexical": 0.6538,
-    "structural": 0.2944,
-    "property": 0.0003,
-    "reasoning": 0.0515
+    "lexical": 0.0969,
+    "structural": 0.0847,
+    "property": 0.4076,
+    "embedding": 0.4108
   },
   "total_candidates_evaluated": 100,
   "confidence_distribution": {
     "high_confidence_0.85_1.0": 0,
     "medium_confidence_0.70_0.85": 0,
     "low_confidence_0.55_0.70": 0,
-    "average_confidence_score": 0.2835285822540592
+    "average_confidence_score": 0.4979088452200571
   },
   "skos_relation_counts": {
     "exactMatch": 0,
-    "closeMatch": 0,
-    "broadMatch": 0,
-    "narrowMatch": 12,
-    "relatedMatch": 88
+    "closeMatch": 33,
+    "broadMatch": 4,
+    "narrowMatch": 63,
+    "relatedMatch": 0
   }
 }
