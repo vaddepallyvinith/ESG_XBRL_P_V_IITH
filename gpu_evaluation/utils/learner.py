@@ -1,5 +1,5 @@
 """
-learner.py - Automatic Confidence Weight Learning Module for BRSR-ESRS Alignment.
+learner.py - Automatic Confidence Weight Learning Module for BRSR-GRI Alignment.
 Automatically learns optimal feature weights for [Lexical, Structural, Property, Reasoning]
 using Grid Search optimization / Logistic Regression to maximize Precision, Recall, and F1.
 """
