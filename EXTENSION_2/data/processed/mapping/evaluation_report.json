@@ -1,18 +1,18 @@
 {
     "Evaluation Summary": {
-        "generated_at": "2026-07-23 09:31:59"
+        "generated_at": "2026-07-31 11:29:26"
     },
     "Provider Status": [
         {
             "provider": "OpenAI",
-            "status": "Completed",
-            "reason": "Loaded from checkpoint",
-            "api_calls": 0,
+            "status": "Rate Limited",
+            "reason": "HTTP 429 Rate Limit exceeded after 5 retries for model OpenAI",
+            "api_calls": 3,
             "cached_calls": 0,
-            "execution_time_sec": 0.0,
+            "execution_time_sec": 173.1,
             "cost_estimate_usd": 0.0,
-            "failed_requests": 0,
-            "success_rate_percent": 100.0
+            "failed_requests": 4,
+            "success_rate_percent": -33.33
         },
         {
             "provider": "Claude",
@@ -28,29 +28,29 @@
         {
             "provider": "Gemini",
             "status": "Completed",
-            "reason": "Loaded from checkpoint",
-            "api_calls": 0,
+            "reason": "Successfully evaluated all mappings",
+            "api_calls": 3,
             "cached_calls": 0,
-            "execution_time_sec": 0.0,
-            "cost_estimate_usd": 0.0,
+            "execution_time_sec": 10.96,
+            "cost_estimate_usd": 0.00223,
             "failed_requests": 0,
             "success_rate_percent": 100.0
         },
         {
             "provider": "Groq",
             "status": "Completed",
-            "reason": "Loaded from checkpoint",
-            "api_calls": 0,
+            "reason": "Successfully evaluated all mappings",
+            "api_calls": 3,
             "cached_calls": 0,
-            "execution_time_sec": 0.0,
-            "cost_estimate_usd": 0.0,
+            "execution_time_sec": 2.13,
+            "cost_estimate_usd": 0.00166,
             "failed_requests": 0,
             "success_rate_percent": 100.0
         },
         {
             "provider": "Cerebras",
-            "status": "Completed",
-            "reason": "Loaded from checkpoint",
+            "status": "Skipped",
+            "reason": "Missing API Key in env: CRESBRAS_API_KEY",
             "api_calls": 0,
             "cached_calls": 0,
             "execution_time_sec": 0.0,
@@ -60,8 +60,8 @@
         },
         {
             "provider": "GitHub Models",
-            "status": "Completed",
-            "reason": "Loaded from checkpoint",
+            "status": "Skipped",
+            "reason": "Missing API Key in env: GIT_HUB_TOKEN",
             "api_calls": 0,
             "cached_calls": 0,
             "execution_time_sec": 0.0,
@@ -71,8 +71,8 @@
         },
         {
             "provider": "Mistral",
-            "status": "Completed",
-            "reason": "Loaded from checkpoint",
+            "status": "Skipped",
+            "reason": "Missing API Key in env: MISTRAL_API_KEY",
             "api_calls": 0,
             "cached_calls": 0,
             "execution_time_sec": 0.0,
@@ -82,25 +82,25 @@
         },
         {
             "provider": "DeepSeek",
-            "status": "No Credits",
-            "reason": "Insufficient Balance (HTTP 402)",
-            "api_calls": 2,
-            "cached_calls": 0,
-            "execution_time_sec": 11.19,
-            "cost_estimate_usd": 0.0,
-            "failed_requests": 4,
-            "success_rate_percent": -100.0
-        },
-        {
-            "provider": "OpenRouter",
-            "status": "Completed",
-            "reason": "Loaded from checkpoint",
+            "status": "Skipped",
+            "reason": "Missing API Key in env: DEEP_SEEK_API_KEY",
             "api_calls": 0,
             "cached_calls": 0,
             "execution_time_sec": 0.0,
             "cost_estimate_usd": 0.0,
             "failed_requests": 0,
             "success_rate_percent": 100.0
+        },
+        {
+            "provider": "OpenRouter",
+            "status": "No Credits",
+            "reason": "Insufficient Balance (HTTP 402)",
+            "api_calls": 1,
+            "cached_calls": 0,
+            "execution_time_sec": 3.72,
+            "cost_estimate_usd": 0.0,
+            "failed_requests": 2,
+            "success_rate_percent": -100.0
         }
     ]
 }
