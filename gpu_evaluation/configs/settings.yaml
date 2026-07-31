@@ -31,7 +31,7 @@ llm_providers:
 weights:
   use_learned_weights: false
   given_weights:
-    lexical: 0.40
-    structural: 0.35
+    lexical: 0.35
+    structural: 0.20
     property: 0.15
-    reasoning: 0.10
+    embedding: 0.30

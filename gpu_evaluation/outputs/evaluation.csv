@@ -1,2 +1,2 @@
 weight_type,weights,precision,recall,f1_score,accuracy,average_confidence,accepted_count,rejected_count,total_evaluated,runtimes
-given_weights,"{'lexical': 0.4, 'structural': 0.35, 'property': 0.15, 'reasoning': 0.1}",0.91,1.2297,1.046,1.03,0.2708,91,9,100,"{'ontology_loading_time': 0.3, 'matching_engine_time': 13.9, 'confidence_aggregation_time': 0.1, 'llm_verification_time': 0.0, 'total_runtime': 14.3}"
+given_weights,"{'lexical': 0.35, 'structural': 0.2, 'property': 0.15, 'embedding': 0.3}",1.0,1.3514,1.1494,1.12,0.3317,100,0,100,"{'ontology_loading_time': 0.3, 'matching_engine_time': 13.9, 'confidence_aggregation_time': 0.1, 'llm_verification_time': 0.0, 'total_runtime': 14.3}"

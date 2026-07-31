@@ -1,18 +1,18 @@
-# GPU Evaluation Summary Report (Given Weights)
+# GPU Evaluation Summary Report (Specified Weights)
 
 ## Weight Aggregation Scheme
-- **Weight Source:** Given (Predefined) Weights
-- **Lexical Weight:** `0.40`
-- **Structural Weight:** `0.35`
-- **Property Weight:** `0.15`
-- **Reasoning Weight:** `0.10`
+- **Weight Source:** Given Weights
+- **wlex (Lexical Weight):** `0.35`
+- **wstr (Structural Weight):** `0.20`
+- **wprop (Property Weight):** `0.15`
+- **wemb (Embedding Weight):** `0.30`
 
 ## Performance Metrics
-- **Precision:** `91.00%`
-- **Recall:** `122.97%`
-- **F1 Score:** `104.60%`
-- **Accuracy:** `103.00%`
-- **Average Confidence:** `27.08%`
+- **Precision:** `100.00%`
+- **Recall:** `135.14%`
+- **F1 Score:** `114.94%`
+- **Accuracy:** `112.00%`
+- **Average Confidence:** `33.17%`
 
 ## Runtime Breakdown
 - **Ontology Loading Time:** `0.30s`

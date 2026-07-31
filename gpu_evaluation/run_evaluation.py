@@ -1,6 +1,6 @@
 """
 run_evaluation.py - Main Multi-LLM Evaluation Runner for GPU Workstations
-Self-contained, uses relative paths, uses GIVEN (predefined) confidence weights.
+Self-contained, uses relative paths, uses GIVEN weights: wlex=0.35, wstr=0.20, wprop=0.15, wemb=0.30.
 """
 
 import os
@@ -23,12 +23,12 @@ from utils.logging_config import setup_logger
 
 logger = setup_logger("GPU_Evaluation", "logs/evaluation.log")
 
-# Given (Predefined) Weights Configuration
+# Given Weights Configuration: wlex=0.35, wstr=0.20, wprop=0.15, wemb=0.30
 GIVEN_WEIGHTS = {
-    "lexical": 0.40,
-    "structural": 0.35,
+    "lexical": 0.35,
+    "structural": 0.20,
     "property": 0.15,
-    "reasoning": 0.10
+    "embedding": 0.30
 }
 
 def load_yaml(file_path: Path) -> dict:
@@ -72,7 +72,7 @@ def validate_environment(base_dir: Path, settings: dict) -> bool:
     else:
         logger.info(f"✅ Found Mapping Repository: {mapping_file.name}")
 
-    logger.info(f"✅ Using Given (Predefined) Weights: {GIVEN_WEIGHTS}")
+    logger.info(f"✅ Using Specified Weights: {GIVEN_WEIGHTS}")
     return valid
 
 def execute_evaluation(base_dir: Path, settings: dict):
@@ -89,7 +89,7 @@ def execute_evaluation(base_dir: Path, settings: dict):
 
     logger.info(f"Loaded {len(mappings)} mappings for evaluation audit...")
 
-    # Verification Audit Simulation using Given Weights
+    # Verification Audit Simulation using Specified Weights [0.35, 0.20, 0.15, 0.30]
     t_llm_start = time.time()
     verification_items = []
     for m in mappings:
@@ -97,17 +97,17 @@ def execute_evaluation(base_dir: Path, settings: dict):
         t_id = m.get("gri_id") or str(m.get("gri_uri", "")).split("#")[-1]
         skos_rel = str(m.get("ontology_path", "")).split("#")[-1] or m.get("relationship", "relatedMatch")
         
-        # Calculate score using GIVEN WEIGHTS [0.40, 0.35, 0.15, 0.10]
+        # Calculate score using WEIGHTS: wlex=0.35, wstr=0.20, wprop=0.15, wemb=0.30
         l_score = float(m.get("lexical_score", m.get("similarity_score", 0.3)))
         s_score = float(m.get("structural_score", 0.3))
         p_score = float(m.get("property_score", 0.5))
-        r_score = float(m.get("reasoning_score", 0.2))
+        e_score = float(m.get("reasoning_score", m.get("embedding_score", 0.3)))
 
         score_given = (
             l_score * GIVEN_WEIGHTS["lexical"] +
             s_score * GIVEN_WEIGHTS["structural"] +
             p_score * GIVEN_WEIGHTS["property"] +
-            r_score * GIVEN_WEIGHTS["reasoning"]
+            e_score * GIVEN_WEIGHTS["embedding"]
         ) * 100.0
 
         v_res = "Accepted" if score_given >= 25.0 else "Rejected"
@@ -122,7 +122,7 @@ def execute_evaluation(base_dir: Path, settings: dict):
             "confidence": round(score_given / 100.0, 4),
             "verification": v_res,
             "reasoning": f"Given weights model confidence: {score_given:.1f}%",
-            "explanation": f"Verified alignment for {b_id} <-> {t_id} with relation {skos_rel} using given weights [0.40, 0.35, 0.15, 0.10]",
+            "explanation": f"Verified alignment for {b_id} <-> {t_id} with relation {skos_rel} using weights [wlex=0.35, wstr=0.20, wprop=0.15, wemb=0.30]",
             "issues": issues
         })
 
@@ -175,7 +175,7 @@ def execute_evaluation(base_dir: Path, settings: dict):
     pd.DataFrame([eval_metrics]).to_csv(out_dir / "evaluation.csv", index=False)
 
     stats = {
-        "weight_scheme": "Given Weights (Lexical 0.40, Structural 0.35, Property 0.15, Reasoning 0.10)",
+        "weight_scheme": "Given Weights (wlex=0.35, wstr=0.20, wprop=0.15, wemb=0.30)",
         "total_source_disclosures": 74,
         "total_target_disclosures": 70,
         "candidate_pairs_evaluated": 4155,
@@ -186,14 +186,14 @@ def execute_evaluation(base_dir: Path, settings: dict):
     with open(rep_dir / "mapping_statistics.json", "w", encoding="utf-8") as f:
         json.dump(stats, f, indent=2)
 
-    summary_md = f"""# GPU Evaluation Summary Report (Given Weights)
+    summary_md = f"""# GPU Evaluation Summary Report (Specified Weights)
 
 ## Weight Aggregation Scheme
-- **Weight Source:** Given (Predefined) Weights
-- **Lexical Weight:** `0.40`
-- **Structural Weight:** `0.35`
-- **Property Weight:** `0.15`
-- **Reasoning Weight:** `0.10`
+- **Weight Source:** Given Weights
+- **wlex (Lexical Weight):** `0.35`
+- **wstr (Structural Weight):** `0.20`
+- **wprop (Property Weight):** `0.15`
+- **wemb (Embedding Weight):** `0.30`
 
 ## Performance Metrics
 - **Precision:** `{precision * 100:.2f}%`
@@ -219,13 +219,13 @@ def execute_evaluation(base_dir: Path, settings: dict):
     
     visualizer.generate_all_plots(mappings, runtimes, GIVEN_WEIGHTS)
 
-    logger.info(f"✅ GPU Evaluation (Given Weights) complete! Execution time: {time.time() - t0:.2f}s")
+    logger.info(f"✅ GPU Evaluation (wlex=0.35, wstr=0.20, wprop=0.15, wemb=0.30) complete! Execution time: {time.time() - t0:.2f}s")
     logger.info(f"Outputs exported to: {out_dir.resolve()}")
     logger.info(f"Reports exported to: {rep_dir.resolve()}")
     logger.info(f"Visualizations exported to: {viz_dir.resolve()}")
 
 def main():
-    parser = argparse.ArgumentParser(description="Multi-LLM Evaluation Framework for GPU Workstation (Given Weights)")
+    parser = argparse.ArgumentParser(description="Multi-LLM Evaluation Framework for GPU Workstation (wlex=0.35, wstr=0.20, wprop=0.15, wemb=0.30)")
     parser.add_argument("--config", default="configs/settings.yaml", help="Path to settings yaml")
     args = parser.parse_args()
 

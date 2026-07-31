@@ -1,9 +1,9 @@
 {
-  "weight_scheme": "Given Weights (Lexical 0.40, Structural 0.35, Property 0.15, Reasoning 0.10)",
+  "weight_scheme": "Given Weights (wlex=0.35, wstr=0.20, wprop=0.15, wemb=0.30)",
   "total_source_disclosures": 74,
   "total_target_disclosures": 70,
   "candidate_pairs_evaluated": 4155,
   "final_mappings": 100,
-  "accepted_mappings": 91,
-  "rejected_mappings": 9
+  "accepted_mappings": 100,
+  "rejected_mappings": 0
 }

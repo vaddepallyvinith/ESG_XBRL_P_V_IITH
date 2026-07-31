@@ -1,18 +1,18 @@
 {
   "weight_type": "given_weights",
   "weights": {
-    "lexical": 0.4,
-    "structural": 0.35,
+    "lexical": 0.35,
+    "structural": 0.2,
     "property": 0.15,
-    "reasoning": 0.1
+    "embedding": 0.3
   },
-  "precision": 0.91,
-  "recall": 1.2297,
-  "f1_score": 1.046,
-  "accuracy": 1.03,
-  "average_confidence": 0.2708,
-  "accepted_count": 91,
-  "rejected_count": 9,
+  "precision": 1.0,
+  "recall": 1.3514,
+  "f1_score": 1.1494,
+  "accuracy": 1.12,
+  "average_confidence": 0.3317,
+  "accepted_count": 100,
+  "rejected_count": 0,
   "total_evaluated": 100,
   "runtimes": {
     "ontology_loading_time": 0.3,
