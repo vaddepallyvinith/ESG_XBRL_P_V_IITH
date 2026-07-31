@@ -1,8 +1,6 @@
 import os
 import json
-import time
 import logging
-from pathlib import Path
 from collections import Counter
 import pandas as pd
 
@@ -127,165 +125,6 @@ class MappingEvaluator:
             "aligned_count": n
         }
         
-    def run_phase4_verification_and_reports(self, input_dir: str):
-        t0 = time.time()
-        out_dir = Path(input_dir)
-        repo_path = out_dir / "mapping.json"
-        if not repo_path.exists():
-            repo_path = out_dir / "mapping_repository.json"
-            
-        if not repo_path.exists():
-            logger.error(f"Mapping repository not found at {repo_path}")
-            return
-            
-        with open(repo_path, "r", encoding="utf-8") as f:
-            mappings = json.load(f)
-            
-        logger.info(f"Loaded {len(mappings)} mappings for Phase 4 LLM Verification Audit...")
-        
-        # 1. Run LLM Verification Audit Layer
-        from verifier.llm_verifier import LLMVerifier
-        verifier = LLMVerifier()
-        
-        t_llm_start = time.time()
-        verification_items = []
-        for i, m in enumerate(mappings[:100]):
-            b_id = m.get("brsr_id") or str(m.get("brsr_uri", "")).split("#")[-1]
-            e_id = m.get("gri_id") or str(m.get("gri_uri", "")).split("#")[-1]
-            skos_rel = str(m.get("ontology_path", "")).split("#")[-1] or m.get("relationship", "relatedMatch")
-            conf = float(m.get("overall_confidence", m.get("confidence_score", 0.0)))
-            
-            # Formulate strict verification payload
-            v_res = "Accepted" if conf >= 25.0 else "Rejected"
-            issues = []
-            if conf < 30.0:
-                issues.append("Low overall similarity evidence score")
-            if m.get("lexical_score", 0.0) < 0.15:
-                issues.append("Low direct lexical overlap")
-                
-            explanation = (
-                f"Verified alignment between BRSR '{m.get('brsr_label', b_id)}' "
-                f"and ESRS '{m.get('gri_label', e_id)}' based on learned feature weights. "
-                f"SKOS Relation: {skos_rel}."
-            )
-            
-            verification_items.append({
-                "brsr_id": b_id,
-                "esrs_id": e_id,
-                "mapping": skos_rel,
-                "confidence": round(conf / 100.0, 4),
-                "verification": v_res,
-                "reasoning": f"Learned model confidence score: {conf:.1f}%",
-                "explanation": explanation,
-                "issues": issues
-            })
-            
-        t_llm_end = time.time()
-        llm_verification_time = t_llm_end - t_llm_start
-        
-        # 2. Compute Performance Evaluation Metrics
-        total_eval = len(verification_items)
-        accepted_count = sum(1 for item in verification_items if item["verification"] == "Accepted")
-        rejected_count = sum(1 for item in verification_items if item["verification"] == "Rejected")
-        
-        precision = accepted_count / max(1, total_eval)
-        recall = accepted_count / max(1, 74) # relative to 74 BRSR disclosures
-        f1_score = (2 * precision * recall) / max(1e-6, precision + recall)
-        accuracy = (accepted_count + 12) / max(1, total_eval)
-        avg_conf = sum(item["confidence"] for item in verification_items) / max(1, total_eval)
-        
-        runtimes = {
-            "ontology_construction_time": 0.30,
-            "matching_time": 13.90,
-            "confidence_learning_time": 0.10,
-            "llm_verification_time": round(llm_verification_time, 2),
-            "total_runtime": round(14.30 + llm_verification_time, 2)
-        }
-        
-        eval_metrics = {
-            "precision": round(precision, 4),
-            "recall": round(recall, 4),
-            "f1_score": round(f1_score, 4),
-            "accuracy": round(accuracy, 4),
-            "average_confidence": round(avg_conf, 4),
-            "accepted_count": accepted_count,
-            "rejected_count": rejected_count,
-            "total_evaluated": total_eval,
-            "runtimes": runtimes
-        }
-        
-        # 3. Export Required Report Files
-        # File 1: verification_report.json
-        with open(out_dir / "verification_report.json", "w", encoding="utf-8") as f:
-            json.dump(verification_items, f, indent=2)
-            
-        # File 2: evaluation.json
-        with open(out_dir / "evaluation.json", "w", encoding="utf-8") as f:
-            json.dump(eval_metrics, f, indent=2)
-            
-        # File 3: evaluation.csv
-        df_eval = pd.DataFrame([eval_metrics])
-        df_eval.to_csv(out_dir / "evaluation.csv", index=False)
-        
-        # File 4: mapping_statistics.json
-        stats = {
-            "total_brsr_disclosures": 74,
-            "total_esrs_disclosures": 70,
-            "candidate_pairs_evaluated": 4155,
-            "final_mappings_generated": len(mappings),
-            "skos_relation_breakdown": {
-                "exactMatch": sum(1 for m in mappings if "exactMatch" in str(m.get("ontology_path", ""))),
-                "closeMatch": sum(1 for m in mappings if "closeMatch" in str(m.get("ontology_path", ""))),
-                "broadMatch": sum(1 for m in mappings if "broadMatch" in str(m.get("ontology_path", ""))),
-                "narrowMatch": sum(1 for m in mappings if "narrowMatch" in str(m.get("ontology_path", ""))),
-                "relatedMatch": sum(1 for m in mappings if "relatedMatch" in str(m.get("ontology_path", ""))),
-            }
-        }
-        with open(out_dir / "mapping_statistics.json", "w", encoding="utf-8") as f:
-            json.dump(stats, f, indent=2)
-
-        # File 5: summary_report.md
-        summary_md = f"""# Phase 4 Evaluation Summary Report: BRSR–ESRS Semantic Alignment
-
-## Executive Summary
-The **BRSR–ESRS Ontology-Guided Semantic Mapping Pipeline** (`EXTENSION_3`) was evaluated using automatically learned confidence feature weights and an independent LLM verification audit layer.
-
-## Key Performance Metrics
-- **Precision:** `{precision * 100:.2f}%`
-- **Recall:** `{recall * 100:.2f}%`
-- **F1 Score:** `{f1_score * 100:.2f}%`
-- **Accuracy:** `{accuracy * 100:.2f}%`
-- **Average Confidence:** `{avg_conf * 100:.2f}%`
-
-## Runtime Breakdown
-- **Ontology Construction Time:** `0.30s`
-- **Matching Execution Time:** `13.90s`
-- **Confidence Weight Learning Time:** `0.10s`
-- **LLM Verification Audit Time:** `{llm_verification_time:.2f}s`
-- **Total Pipeline Execution Time:** `{14.30 + llm_verification_time:.2f}s`
-
-## Verification Audit Results
-- **Accepted Mappings:** `{accepted_count}`
-- **Rejected Mappings:** `{rejected_count}`
-- **Total Mappings Audited:** `{total_eval}`
-"""
-        with open(out_dir / "summary_report.md", "w", encoding="utf-8") as f:
-            f.write(summary_md)
-
-        # 4. Generate Visualization Plots
-        from evaluation.visualizer import Phase4Visualizer
-        viz_dir = out_dir / "visualizations"
-        visualizer = Phase4Visualizer(str(viz_dir))
-        
-        learned_w = {}
-        if (out_dir / "learned_weights.json").exists():
-            with open(out_dir / "learned_weights.json", "r") as f:
-                learned_w = json.load(f)
-                
-        visualizer.generate_all_plots(mappings, runtimes, learned_w)
-        
-        logger.info(f"✅ Phase 4 evaluation complete! All 5 reports and 6 visualization plots saved to {out_dir}")
-
     def generate_cli_report(self, input_dir: str):
         repo_path = os.path.join(input_dir, "mapping_repository.json")
         if not os.path.exists(repo_path):
@@ -312,4 +151,46 @@ The **BRSR–ESRS Ontology-Guided Semantic Mapping Pipeline** (`EXTENSION_3`) wa
             print("\nLLM Verification Audit (Base Model):")
             print(df['llm_verification'].value_counts().to_string())
             
+        # Multi-LLM results
+        multi_out_path = os.path.join(input_dir, "multi_llm_results.json")
+        if os.path.exists(multi_out_path):
+            with open(multi_out_path, "r") as f:
+                multi_res = json.load(f)
+                
+            print("\n🤖 --- Multi-LLM Comparative Evaluation ---")
+            print(f"{'Model Name':<20} | {'Agreement %':<15} | {'Avg Time (s)':<15} | {'Cost/100 ($)':<15}")
+            print("-" * 75)
+            
+            for model_name, metrics in multi_res.items():
+                decisions = metrics.get("decisions", [])
+                agrees = sum(1 for d in decisions if d == "Agree")
+                agreement_rate = (agrees / len(decisions) * 100) if decisions else 0.0
+                
+                avg_time = metrics.get("avg_response_time", 0.0)
+                cost_100 = metrics.get("cost_per_100_mappings", 0.0)
+                
+                print(f"{model_name:<20} | {agreement_rate:<14.2f}% | {avg_time:<15.2f} | ${cost_100:<14.4f}")
+            
+            # Print Comparative Stats (Groq as Ground Truth)
+            comp_metrics = self.calculate_comparative_metrics(mappings, multi_res)
+            if comp_metrics:
+                print("\n🎯 --- Comparative Performance Metrics (Ground Truth = Groq) ---")
+                print(f"{'Model/Source':<25} | {'Accuracy':<10} | {'Precision':<10} | {'Recall':<10} | {'F1-Score':<10}")
+                print("-" * 75)
+                for model_name, m in comp_metrics["metrics"].items():
+                    print(f"{model_name:<25} | {m['accuracy']:<10.4f} | {m['precision']:<10.4f} | {m['recall']:<10.4f} | {m['f1_score']:<10.4f}")
+                
+                print("\n📈 --- Pearson Correlation Matrix (Agree=1, Disagree=0) ---")
+                corr = comp_metrics["corr_matrix"]
+                models = list(corr.keys())
+                print(f"{'':<20}", end="")
+                for m in models:
+                    print(f"| {m[:12]:<12}", end="")
+                print("\n" + "-" * 85)
+                for m1 in models:
+                    print(f"{m1:<20}", end="")
+                    for m2 in models:
+                        print(f"| {corr[m1][m2]:<12.4f}", end="")
+                    print()
+                
         print("--------------------------------\n")

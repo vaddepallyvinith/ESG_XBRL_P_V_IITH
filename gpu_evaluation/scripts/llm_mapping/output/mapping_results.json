@@ -1,0 +1,594 @@
+[
+  {
+    "brsr_id": "Q17",
+    "gri_id": "Disclosure 2-6 Activities, value chain and other b",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Disclosure 2-6 Activities, value chain and other business relationships is closely related to the BRSR requirement Q17, as it involves describing the entity's activities and value chain, which indirectly relates to the markets served by the entity.",
+    "explanation": "Although Disclosure 2-6 does not directly ask for the number of locations, it is a broader disclosure that encompasses the entity's activities and value chain, making it a close match for Q17."
+  },
+  {
+    "brsr_id": "Q18",
+    "gri_id": "Disclosure 2-7 Employees",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "Disclosure 2-7 Employees has an exact match with the BRSR requirement, covering all employees who perform work for the organization.",
+    "explanation": "The BRSR requirement specifically asks for details about employees and workers, including differently abled, which is exactly what Disclosure 2-7 Employees covers."
+  },
+  {
+    "brsr_id": "S.",
+    "gri_id": "None",
+    "mapping_type": "No Match",
+    "confidence": 0.0,
+    "reasoning": "BRSR S does not match any of the provided GRI disclosure IDs.",
+    "explanation": "The BRSR S does not provide enough information to map it to a specific GRI disclosure ID."
+  },
+  {
+    "brsr_id": "S.",
+    "gri_id": "None",
+    "mapping_type": "No Match",
+    "confidence": 0.0,
+    "reasoning": "None of the provided GRI disclosures match the BRSR requirement S.",
+    "explanation": "The BRSR requirement S does not align with any of the provided GRI disclosure topics or summaries."
+  },
+  {
+    "brsr_id": "Q19",
+    "gri_id": "2. Topic disclosures 8",
+    "mapping_type": "Narrow Match",
+    "confidence": 0.8,
+    "reasoning": "Both BRSR Q19 and GRI 2. Topic disclosures 8 focus on governance structure and composition, but GRI 2.8 specifically addresses gender diversity and representation.",
+    "explanation": "Although GRI 2.8 is not exclusively focused on women's participation, it is the closest match among the candidates due to its emphasis on gender diversity and representation within the governance structure."
+  },
+  {
+    "brsr_id": "Q22",
+    "gri_id": "None",
+    "mapping_type": "No Match",
+    "confidence": 0.0,
+    "reasoning": "None of the provided GRI disclosures match the BRSR requirement, which is focused on CSR applicability and financial metrics.",
+    "explanation": "The BRSR requirement is focused on CSR applicability and financial metrics, whereas the provided GRI disclosures are related to employment, compensation, and policy commitments."
+  },
+  {
+    "brsr_id": "Q23",
+    "gri_id": "Disclosure 2-16 Communication of critical concerns",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Disclosure 2-16 focuses on communication of critical concerns, which aligns with the BRSR requirement of complaints/grievances on responsible business conduct principles.",
+    "explanation": "While not an exact match, Disclosure 2-16 is the closest match as it deals with communication of concerns, which is related to handling complaints and grievances."
+  },
+  {
+    "brsr_id": "Q24",
+    "gri_id": "Disclosure 3-1 Process to determine material topic",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Both BRSR Q24 and GRI 3-1 involve the process of determining material topics, but BRSR Q24 focuses on responsible business conduct issues, which is a subset of material topics.",
+    "explanation": "GRI 3-1 Process to determine material topics is the closest match as it involves identifying and prioritizing material topics, which is similar to the concept of material responsible business conduct issues in BRSR Q24."
+  },
+  {
+    "brsr_id": "Q12",
+    "gri_id": "Disclosure 2-12 and Disclosure 2-13 in GRI 2 requi",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Both BRSR Q12 and GRI 2-12 relate to governance and oversight, but BRSR Q12 specifically asks about policy coverage, whereas GRI 2-12 is more general about the role of the highest governance body.",
+    "explanation": "Although not an exact match, GRI 2-12 is the closest match as it deals with governance and oversight, which is the core theme of BRSR Q12."
+  },
+  {
+    "brsr_id": "P2_Q1",
+    "gri_id": "Disclosure 203-1 Infrastructure investments and se",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "While not an exact match, Disclosure 203-1 Infrastructure investments and services supported is the closest match as it deals with investments in specific areas, albeit not specifically R&D and capex.",
+    "explanation": "Disclosure 203-1 is a close match because it requires reporting on infrastructure investments and services supported, which shares a thematic overlap with the BRSR requirement of reporting R&D and capex investments in specific technologies."
+  },
+  {
+    "brsr_id": "P2_Q2",
+    "gri_id": "Disclosure 306-2 Management of significant waste-r",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "While Disclosure 306-2 is primarily focused on waste management, it also touches on the management of significant impacts, which aligns with the concept of sustainable sourcing. The guidance provided in the disclosure also emphasizes the importance of managing actual impacts, which is relevant to the BRSR requirement.",
+    "explanation": "Although Disclosure 306-2 is not an exact match, it is the closest match among the provided candidates due to its focus on managing significant impacts, which is a key aspect of sustainable sourcing."
+  },
+  {
+    "brsr_id": "P2_Q1",
+    "gri_id": "None",
+    "mapping_type": "No Match",
+    "confidence": 0.0,
+    "reasoning": "None of the provided GRI disclosures directly relate to conducting Life Cycle Perspective / Assessments (LCA).",
+    "explanation": "The BRSR requirement P2_Q1 specifically asks about conducting LCA, which is not directly addressed by any of the provided GRI disclosures."
+  },
+  {
+    "brsr_id": "P2_Q2",
+    "gri_id": "Disclosure 201-2 Financial implications and other",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Both BRSR P2_Q2 and GRI 201-2 focus on identifying and managing risks and opportunities, although GRI 201-2 specifically addresses climate change.",
+    "explanation": "While GRI 201-2 is more specific to climate change, the core theme of identifying and managing risks and opportunities aligns closely with BRSR P2_Q2's focus on significant social or environmental concerns and/or risks."
+  },
+  {
+    "brsr_id": "P2_Q3",
+    "gri_id": "Disclosure 301-2 Recycled input materials used 9",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "Both BRSR and GRI 301-2 focus on the percentage of recycled input materials used.",
+    "explanation": "The GRI 301-2 disclosure directly addresses the percentage of recycled input materials used, which aligns with the BRSR requirement P2_Q3."
+  },
+  {
+    "brsr_id": "P2_Q4",
+    "gri_id": "Disclosure 301-3 Reclaimed products and their pack",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "All three candidates 301-3 have the same disclosure content, focusing on reclaimed products and packaging materials.",
+    "explanation": "The BRSR requirement P2_Q4 directly aligns with GRI 301-3, which measures the percentage of reclaimed products and packaging materials."
+  },
+  {
+    "brsr_id": "P2_Q5",
+    "gri_id": "Disclosure 301-3 Reclaimed products and their pack",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "All three candidates have the same disclosure ID and description, indicating a strong thematic overlap.",
+    "explanation": "The BRSR requirement P2_Q5 is directly related to the GRI disclosure 301-3, which measures the percentage of reclaimed products and their packaging materials."
+  },
+  {
+    "brsr_id": "P3_Q3",
+    "gri_id": "Disclosure 405-1 Diversity of governance bodies an",
+    "mapping_type": "Narrow Match",
+    "confidence": 0.8,
+    "reasoning": "Although the BRSR requirement is about workplace accessibility, the closest related GRI disclosure is about diversity of governance bodies and employees, which indirectly relates to accessibility and inclusivity.",
+    "explanation": "While the BRSR requirement is focused on physical accessibility of workplaces, the GRI disclosure on diversity of governance bodies and employees is more about inclusivity and representation, which is a related but distinct concept."
+  },
+  {
+    "brsr_id": "P3_Q4",
+    "gri_id": "Disclosure 401-2 Benefits provided to full-time em",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Both BRSR P3_Q4 and GRI 401-2 relate to employee benefits, but BRSR P3_Q4 specifically asks about equal opportunity policy, which is not explicitly mentioned in GRI 401-2. However, GRI 401-2 covers benefits provided to full-time employees, which might include equal opportunity policies.",
+    "explanation": "While GRI 401-2 does not directly address equal opportunity policy, it is the closest match among the provided candidates, as it deals with employee benefits, which might encompass equal opportunity policies."
+  },
+  {
+    "brsr_id": "P3_Q6",
+    "gri_id": "Disclosure 2-26 Mechanisms for seeking advice and",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "Directly addresses mechanisms for seeking advice and raising concerns, which is closely related to receiving and redressing grievances.",
+    "explanation": "GRI 2-26 Mechanisms for seeking advice and raising concerns is a direct match to the BRSR requirement P3_Q6, as it involves mechanisms for individuals to raise concerns, which is a key aspect of grievance redressal."
+  },
+  {
+    "brsr_id": "P3_Q10",
+    "gri_id": "Disclosure 403-8 Workers covered by an occupationa",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "Disclosure 403-8 directly addresses the reporting organization's occupational health and safety management system, which aligns with the BRSR requirement on health and safety management system.",
+    "explanation": "The GRI disclosure 403-8 Workers covered by an occupational health and safety management system is a direct match to the BRSR requirement P3_Q10, as it specifically addresses the management system for occupational health and safety."
+  },
+  {
+    "brsr_id": "P3_Q12",
+    "gri_id": "Disclosure 403-6 Promotion of worker health",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "Directly addresses workplace health and safety measures",
+    "explanation": "GRI 403-6 Promotion of worker health is a specific disclosure that requires reporting on measures taken to ensure a safe and healthy work place, aligning closely with the BRSR requirement P3_Q12."
+  },
+  {
+    "brsr_id": "P3_Q14",
+    "gri_id": "None",
+    "mapping_type": "No Match",
+    "confidence": 0.0,
+    "reasoning": "None of the provided GRI disclosure candidates match the BRSR requirement for Principle 3, Question 14.",
+    "explanation": "The BRSR requirement asks for assessments for the year, which is not directly related to any of the provided GRI disclosure candidates."
+  },
+  {
+    "brsr_id": "P3_Q4",
+    "gri_id": "Disclosure 2-26 Mechanisms for seeking advice and",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "While Disclosure 2-26 is primarily about mechanisms for seeking advice and raising concerns, it indirectly relates to transition assistance programs as both involve support systems for employees or stakeholders.",
+    "explanation": "Disclosure 2-26 is the closest match as it involves mechanisms for support and assistance, although it's not a direct match for transition assistance programs. The confidence score is 0.8 due to the indirect thematic overlap."
+  },
+  {
+    "brsr_id": "P4_Q1",
+    "gri_id": "Disclosure 3-1 Process to determine material topic",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "Both BRSR P4_Q1 and GRI 3-1 are focused on identifying key stakeholder groups and determining material topics, respectively. The language and intent are identical.",
+    "explanation": "GRI 3-1 Process to determine material topics is the best match as it directly addresses the process of identifying key stakeholder groups, which is the core requirement of BRSR P4_Q1."
+  },
+  {
+    "brsr_id": "P4_Q2",
+    "gri_id": "Disclosure 207-3 Stakeholder engagement and manage",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Both BRSR P4_Q2 and GRI 207-3 focus on stakeholder engagement, but GRI 207-3 also covers management of concerns related to tax, which is not explicitly mentioned in BRSR P4_Q2.",
+    "explanation": "GRI 207-3 is the closest match as it covers stakeholder engagement, which aligns with the BRSR requirement of listing key stakeholder groups and their frequency. Although GRI 207-3 also includes tax-related concerns, the core theme of stakeholder engagement makes it a strong candidate for mapping."
+  },
+  {
+    "brsr_id": "P4_Q1",
+    "gri_id": "Disclosure 3-3 Management of material topics",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "All candidates reference Disclosure 3-3 Management of material topics, but GRI-3-3 is the most direct match.",
+    "explanation": "GRI-3-3 directly addresses the management of material topics, which is closely related to the consultation processes between stakeholders and the Board."
+  },
+  {
+    "brsr_id": "P5_Q3",
+    "gri_id": "Disclosure 2-20 Process to determine remuneration",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "Both BRSR P5_Q3 and GRI 2-20 are directly related to the process of determining remuneration, with GRI 2-20 being a specific disclosure on this topic.",
+    "explanation": "GRI 2-20 Process to determine remuneration is the most relevant disclosure as it directly addresses the process of determining remuneration, which is the focus of BRSR P5_Q3."
+  },
+  {
+    "brsr_id": "P5_Q4",
+    "gri_id": "Disclosure 2-26 Mechanisms for seeking advice and",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Both BRSR P5_Q4 and GRI 2-26 focus on mechanisms for addressing human impacts, but GRI 2-26 is more specific to seeking advice and raising concerns.",
+    "explanation": "GRI 2-26 is the closest match as it deals with mechanisms for addressing human impacts, although it's more focused on seeking advice and raising concerns. This is a close match due to the thematic overlap with BRSR P5_Q4."
+  },
+  {
+    "brsr_id": "P5_Q7",
+    "gri_id": "Disclosure 406-1 Incidents of discrimination and c",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "While Disclosure 406-1 focuses on incidents of discrimination and corrective actions, it indirectly relates to mechanisms for preventing adverse consequences to the complainant. This is a close match as it addresses a similar theme of addressing discrimination.",
+    "explanation": "Disclosure 406-1 is the best candidate as it deals with the consequences of discrimination, which is closely related to the BRSR requirement of preventing adverse consequences to the complainant."
+  },
+  {
+    "brsr_id": "P5_Q8",
+    "gri_id": "Disclosure 2-12 and Disclosure 2-13 in GRI 2 requi",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Both BRSR P5_Q8 and GRI 2-12 focus on the role of the highest governance body in overseeing human rights. While BRSR P5_Q8 specifically asks about human rights requirements in business agreements and contracts, GRI 2-12 provides broader guidance on human rights governance.",
+    "explanation": "Although GRI 2-12 does not directly address business agreements and contracts, its focus on governance and oversight aligns closely with the spirit of BRSR P5_Q8. This makes GRI 2-12 a strong candidate for a close match."
+  },
+  {
+    "brsr_id": "P5_Q9",
+    "gri_id": "Disclosure 2-16 Communication of critical concerns",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "All candidates point to Disclosure 2-16, which is about Communication of critical concerns.",
+    "explanation": "Given the identical reference to Disclosure 2-16 across all candidates, it's clear that this is the best match for BRSR P5_Q9."
+  },
+  {
+    "brsr_id": "P5_Q1",
+    "gri_id": "Disclosure 2-25 Processes to remediate negative im",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "The BRSR requirement P5_Q1 focuses on business processes modified or introduced as a result of addressing, which aligns closely with GRI 2-25's focus on remediation of negative impacts.",
+    "explanation": "While GRI 2-25 is more focused on remediation, the core idea of addressing and modifying business processes is closely related, making it the best candidate for a close match."
+  },
+  {
+    "brsr_id": "P5_Q2",
+    "gri_id": "Disclosure 2-12 and Disclosure 2-13 in GRI 2 requi",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Both BRSR P5_Q2 and GRI 2-12 require information on the role of the highest governance body in overseeing human rights due diligence. While GRI 2-12 is broader, covering both the role of the highest governance body and the management of actual impacts, it closely aligns with the scope and coverage of human rights due diligence in BRSR P5_Q2.",
+    "explanation": "GRI 2-12 is the best match because it directly addresses the role of the highest governance body in overseeing human rights due diligence, which is a key aspect of BRSR P5_Q2. Although GRI 2-12 is broader, its focus on governance and oversight makes it a close match for the BRSR requirement."
+  },
+  {
+    "brsr_id": "P5_Q3",
+    "gri_id": "None",
+    "mapping_type": "No Match",
+    "confidence": 0.0,
+    "reasoning": "None of the top candidate GRI disclosures directly address accessibility for differently abled visitors.",
+    "explanation": "The BRSR requirement P5_Q3 focuses on physical accessibility for differently abled visitors, which is not explicitly covered by the provided GRI disclosure options."
+  },
+  {
+    "brsr_id": "P6_Q1",
+    "gri_id": "Disclosure 302-3 Energy intensity",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "Both BRSR P6_Q1 and GRI 302-3 specifically ask for energy intensity ratio, making them an exact match.",
+    "explanation": "GRI 302-3 is a requirement that asks for the energy intensity ratio for the organization, which aligns perfectly with the BRSR requirement P6_Q1."
+  },
+  {
+    "brsr_id": "P6_Q2",
+    "gri_id": "Disclosure 2-6 Activities, value chain and other b",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Disclosure 2-6 Activities, value chain and other business relationships is closely related to the BRSR requirement as it involves identifying and managing business relationships, which may include designated consumers (DCs).",
+    "explanation": "While Disclosure 2-6 does not directly ask about designated consumers, it is the closest match among the candidates as it deals with business relationships, which may include DCs. The other candidates are less relevant to the specific topic of designated consumers."
+  },
+  {
+    "brsr_id": "P6_Q3",
+    "gri_id": "Disclosure 303-5 Water consumption",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "Both BRSR P6_Q3 and GRI 303-5 have the same topic and disclosure requirement, focusing on water consumption.",
+    "explanation": "The BRSR requirement is identical to the GRI recommendation for disclosure 303-5, making it an exact match."
+  },
+  {
+    "brsr_id": "P6_Q4",
+    "gri_id": "Disclosure 303-4 Water discharge",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "Directly related to water discharge, which is the core topic of BRSR P6_Q4.",
+    "explanation": "BRSR P6_Q4 specifically asks about Zero Liquid Discharge, which is a subset of water discharge management. GRI 303-4 directly addresses water discharge, making it an exact match."
+  },
+  {
+    "brsr_id": "P6_Q5",
+    "gri_id": "None",
+    "mapping_type": "No Match",
+    "confidence": 0.0,
+    "reasoning": "None of the top candidate GRI disclosures match the BRSR requirement for air emissions (other than GHG emissions).",
+    "explanation": "The BRSR requirement is focused on air emissions other than GHG emissions, which is not directly addressed by any of the top candidate GRI disclosures."
+  },
+  {
+    "brsr_id": "P6_Q6",
+    "gri_id": "Disclosure 305-2 Energy indirect (Scope 2) GHG emi",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "Direct match on Scope 2 GHG emissions, matching the BRSR requirement.",
+    "explanation": "The GRI disclosure 305-2 directly corresponds to the BRSR requirement of providing details on greenhouse gas emissions (Scope 1 and Scope 2 emissions)."
+  },
+  {
+    "brsr_id": "P6_Q7",
+    "gri_id": "Disclosure 305-5 Reduction of GHG emissions",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "Directly addresses the reduction of GHG emissions, matching the BRSR requirement's focus on projects related to reducing GHG emissions.",
+    "explanation": "The GRI disclosure 305-5 directly asks for the reduction of GHG emissions, aligning perfectly with the BRSR requirement's focus on projects related to reducing GHG emissions."
+  },
+  {
+    "brsr_id": "P6_Q8",
+    "gri_id": "Disclosure 306-2 Management of significant waste-r",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "The GRI disclosure 306-2 directly addresses the management of significant waste-related impacts, which is the primary focus of BRSR requirement P6_Q8.",
+    "explanation": "The requirement specifically asks for details related to waste management, and GRI 306-2 is the most relevant disclosure that covers this topic."
+  },
+  {
+    "brsr_id": "P6_Q9",
+    "gri_id": "Disclosure 3-3 Management of material topics",
+    "mapping_type": "Broad Match",
+    "confidence": 0.8,
+    "reasoning": "While not a direct match, Disclosure 3-3 Management of material topics is the closest match as it involves managing topics, which can include waste management practices.",
+    "explanation": "Disclosure 3-3 is a broad match because it encompasses the management of material topics, which can include waste management practices. Although it's not a direct match, it's the closest among the candidates."
+  },
+  {
+    "brsr_id": "P6_Q11",
+    "gri_id": "Disclosure 2-12 and Disclosure 2-13 in GRI 2 requi",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Both BRSR P6_Q11 and GRI 2-12 require information on environmental impact assessments, but GRI 2-12 is more specific to the role of the highest governance body in overseeing these assessments.",
+    "explanation": "GRI 2-12 is the closest match as it deals with environmental impact assessments, but it's more focused on governance oversight. This makes it a close match rather than an exact match."
+  },
+  {
+    "brsr_id": "P6_Q12",
+    "gri_id": "Disclosure 2-27 Compliance with laws and regulatio",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "Directly addresses compliance with laws and regulations, matching the BRSR requirement's focus on environmental law/regulations.",
+    "explanation": "The GRI 2-27 disclosure specifically requires information on compliance with laws and regulations, aligning closely with the BRSR requirement's emphasis on environmental law/regulations."
+  },
+  {
+    "brsr_id": "P6_Q1",
+    "gri_id": "Disclosure 103-3 Upstream and downstream energy co",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "While Disclosure 103-3 focuses on upstream and downstream energy consumption, it also mentions non-renewable energy sources, which is closely related to the BRSR requirement for renewable energy consumption.",
+    "explanation": "Disclosure 103-3 is the best match because it deals with energy consumption, which is the core of the BRSR requirement. Although it doesn't specifically mention renewable energy, its focus on non-renewable energy sources makes it a close match."
+  },
+  {
+    "brsr_id": "P6_Q2",
+    "gri_id": "Disclosure 303-4 Water discharge",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "Both BRSR P6_Q2 and GRI 303-4 are related to water discharge, with GRI 303-4 being a requirement for total water discharge to all areas.",
+    "explanation": "GRI 303-4 is the most relevant disclosure as it directly addresses the requirement for water discharge details, making it an exact match."
+  },
+  {
+    "brsr_id": "P6_Q3",
+    "gri_id": "Disclosure 303-5 Water consumption",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "Directly matches the BRSR requirement of reporting water consumption in areas of water stress.",
+    "explanation": "GRI 303-5 Water consumption is the most relevant disclosure as it directly addresses the reporting of water consumption, which is the core requirement of P6_Q3."
+  },
+  {
+    "brsr_id": "P6_Q4",
+    "gri_id": "None",
+    "mapping_type": "No Match",
+    "confidence": 0.0,
+    "reasoning": "None of the provided GRI disclosures match the BRSR requirement for Scope 3 emissions and intensity.",
+    "explanation": "The BRSR requirement is focused on Scope 3 emissions and intensity, which is not related to the biodiversity-related GRI disclosures provided."
+  },
+  {
+    "brsr_id": "P6_Q7",
+    "gri_id": "None",
+    "mapping_type": "No Match",
+    "confidence": 0.0,
+    "reasoning": "None of the provided GRI disclosures directly address business continuity and disaster management plans.",
+    "explanation": "The GRI disclosures provided focus on general management and governance, but do not specifically mention business continuity and disaster management plans."
+  },
+  {
+    "brsr_id": "P6_Q8",
+    "gri_id": "Disclosure 308-2 Negative environmental impacts in",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Both BRSR P6_Q8 and GRI 308-2 focus on environmental impacts in the supply chain, but GRI 308-2 is more specific about actions taken.",
+    "explanation": "GRI 308-2 is the closest match as it directly addresses negative environmental impacts in the supply chain, aligning with the BRSR requirement's focus on significant adverse environmental impacts in the value chain."
+  },
+  {
+    "brsr_id": "P6_Q9",
+    "gri_id": "Disclosure 2-6 Activities, value chain and other b",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Disclosure 2-6 Activities, value chain and other business relationships is the closest match as it covers the value chain aspect, although it does not specifically mention percentage of value chain partners.",
+    "explanation": "Disclosure 2-6 is a close match because it deals with the value chain and business relationships, which is relevant to the BRSR requirement. However, it does not specifically ask for the percentage of value chain partners, making it a close rather than an exact match."
+  },
+  {
+    "brsr_id": "P7_Q1",
+    "gri_id": "Disclosure 2-28 Membership associations",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "Direct alignment with the BRSR requirement, as both refer to 'Membership associations'.",
+    "explanation": "The GRI 2:2-28 disclosure directly corresponds to the BRSR requirement of reporting the number of affiliations with trade and industry chambers/associations."
+  },
+  {
+    "brsr_id": "P7_Q2",
+    "gri_id": "Disclosure 206-1 Legal actions for anti-competitiv",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "Directly related to anti-competitive behavior, anti-trust, and monopoly practices.",
+    "explanation": "The BRSR requirement P7_Q2 is directly asking for corrective actions related to anti-competitive issues, which is exactly what GRI 206-1 is about."
+  },
+  {
+    "brsr_id": "P7_Q1",
+    "gri_id": "Disclosure 2-23 Policy commitments",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Both BRSR P7_Q1 and GRI Disclosure 2-23 Policy commitments relate to public policy positions, but GRI Disclosure 2-23 is more focused on policy commitments rather than advocacy.",
+    "explanation": "Although not an exact match, GRI Disclosure 2-23 Policy commitments is the closest match among the candidates, as it deals with policy-related information, which is also the case for BRSR P7_Q1."
+  },
+  {
+    "brsr_id": "P8_Q1",
+    "gri_id": "Disclosure 2-12 and Disclosure 2-13 in GRI 2 requi",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Disclosure 2-12 and Disclosure 2-13 in GRI 2 require information on the role of the highest governance body in overseeing social impacts, which aligns with the BRSR requirement for Social Impact Assessments (SIA) of projects.",
+    "explanation": "Although the exact wording is not identical, the essence of managing social impacts and overseeing governance aligns closely with the BRSR requirement."
+  },
+  {
+    "brsr_id": "P8_Q2",
+    "gri_id": "None",
+    "mapping_type": "No Match",
+    "confidence": 0.0,
+    "reasoning": "None of the provided GRI disclosure IDs match the Rehabilitation and Resettlement Principle.",
+    "explanation": "The provided GRI disclosure IDs do not contain any information related to Rehabilitation and Resettlement Principle."
+  },
+  {
+    "brsr_id": "P8_Q3",
+    "gri_id": "Disclosure 2-25 Processes to remediate negative im",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "Direct thematic overlap with 'Processes to remediate negative impacts' which aligns with grievance redress mechanisms.",
+    "explanation": "GRI 2-25 directly addresses the remediation of negative impacts, which is closely related to the mechanisms for receiving and redressing grievances of the community."
+  },
+  {
+    "brsr_id": "P8_Q4",
+    "gri_id": "Disclosure 204-1 Proportion of spending on local s",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "While Disclosure 204-1 is about spending on local suppliers, it's close to the BRSR requirement which focuses on sourcing from suppliers in general, not necessarily local.",
+    "explanation": "The BRSR requirement is about the percentage of input material sourced from suppliers, which is similar to the concept of spending on local suppliers in Disclosure 204-1. Although the wording is not identical, the underlying theme is closely related."
+  },
+  {
+    "brsr_id": "P8_Q1",
+    "gri_id": "Disclosure 2-25 Processes to remediate negative im",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "Directly addresses remediation of negative social impacts, aligning with the BRSR requirement.",
+    "explanation": "GRI 2-25 Processes to remediate negative impacts is a direct match to the BRSR requirement, as it specifically deals with actions taken to mitigate negative social impacts."
+  },
+  {
+    "brsr_id": "P8_Q2",
+    "gri_id": "Disclosure 2-6 Activities, value chain and other b",
+    "mapping_type": "Broad Match",
+    "confidence": 0.8,
+    "reasoning": "Disclosure 2-6 Activities, value chain and other business relationships is a broad match because it covers CSR projects undertaken by the entity in its value chain and business relationships, which is related to CSR projects.",
+    "explanation": "Although Disclosure 2-6 is not a direct match, it is the closest match among the candidates as it covers CSR projects in the value chain and business relationships, which is related to CSR projects undertaken by the entity."
+  },
+  {
+    "brsr_id": "P8_Q3",
+    "gri_id": "Disclosure 204-1 Proportion of spending on local s",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Both BRSR P8_Q3 and GRI Disclosure 204-1 relate to procurement practices, but BRSR specifically asks about preferential procurement policies, whereas GRI 204-1 focuses on spending with local suppliers.",
+    "explanation": "Although not an exact match, GRI 204-1 is the closest candidate as it deals with procurement practices, which is the core theme of BRSR P8_Q3. The difference lies in the specific focus on local suppliers in GRI 204-1, whereas BRSR P8_Q3 is more general in its requirement for a preferential procurement policy."
+  },
+  {
+    "brsr_id": "P8_Q4",
+    "gri_id": "Disclosure 101-3 Access and benefit-sharing",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "The GRI disclosure 101-3 Access and benefit-sharing directly corresponds to the BRSR requirement P8_Q4, which asks for details of benefits derived and shared from intellectual properties.",
+    "explanation": "The GRI disclosure 101-3 is a direct match as it deals with access and benefit-sharing, which is closely related to the benefits derived and shared from intellectual properties."
+  },
+  {
+    "brsr_id": "P8_Q5",
+    "gri_id": "Disclosure 205-1 Operations assessed for risks rel",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Both BRSR P8_Q5 and GRI 205-1 relate to risk management, but GRI 205-1 specifically focuses on corruption risks, whereas BRSR P8_Q5 is more general. However, the core idea of assessing risks is present in both.",
+    "explanation": "Although GRI 205-1 is not an exact match, it is the closest match among the candidates due to its focus on risk management, which is also present in BRSR P8_Q5."
+  },
+  {
+    "brsr_id": "P9_Q1",
+    "gri_id": "Disclosure 2-25 Processes to remediate negative im",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Both BRSR P9_Q1 and GRI Disclosure 2-25 focus on addressing negative impacts, but BRSR specifically asks for mechanisms to receive and respond to consumer complaints, which is closely related to remediation processes.",
+    "explanation": "Although Disclosure 2-25 is more focused on remediation of negative impacts, it is the closest match among the candidates, given the overlap in addressing consumer concerns and impacts."
+  },
+  {
+    "brsr_id": "P9_Q2",
+    "gri_id": "None",
+    "mapping_type": "No Match",
+    "confidence": 0.0,
+    "reasoning": "None of the provided GRI disclosures directly relate to the turnover of products and services as a percentage of total turnover.",
+    "explanation": "The BRSR requirement P9_Q2 is focused on product/service turnover, which is not directly addressed by any of the top candidate GRI disclosures."
+  },
+  {
+    "brsr_id": "P9_Q3",
+    "gri_id": "Disclosure 418-1 Substantiated complaints concerni",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Both BRSR P9_Q3 and GRI 418-1 deal with complaints, but BRSR is more focused on consumer complaints, whereas GRI 418-1 is specifically about customer privacy and data breaches.",
+    "explanation": "Although the GRI disclosure is more specific to customer privacy and data breaches, the core concept of complaints is present in both, making it a close match."
+  },
+  {
+    "brsr_id": "P9_Q4",
+    "gri_id": "Disclosure 417-2 Incidents of non-compliance conce",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Both BRSR P9_Q4 and GRI 417-2 deal with incidents of non-compliance, but GRI 417-2 specifically focuses on product and service information and labeling, whereas BRSR P9_Q4 is more general about product recalls due to safety issues.",
+    "explanation": "Although not an exact match, GRI 417-2 is the closest match as it deals with incidents of non-compliance, which can include product recalls. The confidence score is 0.8 due to the slight difference in scope."
+  },
+  {
+    "brsr_id": "P9_Q5",
+    "gri_id": "Disclosure 2-23 Policy commitments",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Both BRSR P9_Q5 and GRI Disclosure 2-23 focus on the organization's policy commitments, but GRI 2-23 is broader in scope. However, it's the closest match among the candidates.",
+    "explanation": "GRI Disclosure 2-23 Policy commitments is the best match because it deals with the organization's policy commitments, which is closely related to having a framework/policy on cyber security and risks related to data."
+  },
+  {
+    "brsr_id": "P9_Q1",
+    "gri_id": "Disclosure 2-6 Activities, value chain and other b",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Disclosure 2-6 Activities, value chain and other business relationships is closely related to the BRSR requirement as it involves reporting on the channels/platforms where information on products and services can be found, which is a part of the organization's activities and value chain.",
+    "explanation": "While Disclosure 2-6 is not an exact match, it is the closest match among the candidates as it deals with the organization's activities and value chain, which is relevant to the BRSR requirement."
+  },
+  {
+    "brsr_id": "P9_Q2",
+    "gri_id": "Disclosure 417-1 Requirements for product and serv",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "Both BRSR P9_Q2 and GRI 417-1 relate to consumer information and labeling, but GRI 417-1 is more specific to product and service information.",
+    "explanation": "GRI 417-1 is the closest match as it deals with product and service information and labeling, which is relevant to informing and educating consumers about safe and responsible usage."
+  },
+  {
+    "brsr_id": "P9_Q3",
+    "gri_id": "Disclosure 3-3 Management of material topics",
+    "mapping_type": "Close Match",
+    "confidence": 0.8,
+    "reasoning": "While the GRI 3-3 disclosure focuses on management of material topics, it indirectly addresses the mechanisms in place to inform consumers of potential disruptions. The BRSR requirement is more specific to consumer notification, but the GRI disclosure provides a broader framework for managing material topics.",
+    "explanation": "The GRI 3-3 disclosure is the closest match among the candidates, as it deals with the management of material topics, which may include risks of disruption or discontinuation. However, it does not explicitly address consumer notification, making it a close rather than an exact match."
+  },
+  {
+    "brsr_id": "P9_Q4",
+    "gri_id": "Disclosure 417-1 Requirements for product and serv",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "The BRSR requirement P9_Q4 directly asks about displaying product information, which aligns perfectly with GRI 417-1's focus on product and service information and labeling.",
+    "explanation": "GRI 417-1 is the most relevant disclosure as it deals with the exact topic of product information, making it an exact match."
+  },
+  {
+    "brsr_id": "P9_Q5",
+    "gri_id": "Disclosure 418-1 Substantiated complaints concerni",
+    "mapping_type": "Exact Match",
+    "confidence": 1.0,
+    "reasoning": "Disclosure 418-1 directly addresses substantiated complaints concerning breaches of customer privacy and losses of customer data, which is the exact topic of BRSR requirement P9_Q5.",
+    "explanation": "The language and content of Disclosure 418-1 align perfectly with the requirement to provide information relating to data breaches."
+  }
+]

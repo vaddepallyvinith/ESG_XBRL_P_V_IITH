@@ -1,15 +1,15 @@
-# ESG Ontology Multi-LLM Evaluation Engine (GPU Package)
+# ESG Ontology Multi-LLM Evaluation Engine (EXTENSION_2: BRSR ↔ GRI)
 
-A portable, self-contained evaluation framework for benchmarking **BRSR–GRI / BRSR–ESRS Semantic Disclosure Alignments** on physical GPU workstations, remote server nodes, and HPC clusters.
+A portable, self-contained evaluation framework for benchmarking **BRSR–GRI Semantic Disclosure Alignments** on physical GPU workstations, remote server nodes, and HPC clusters.
 
 ---
 
 ## 🎯 Overview & Key Features
 
-This package allows anyone pulling the repository onto a GPU machine to execute multi-LLM comparative evaluations using **local open-source GPU models** (via vLLM, Ollama, HuggingFace Transformers, or LM Studio) OR **cloud API providers** (Groq, Google Gemini, OpenAI, DeepSeek, Anthropic Claude).
+This package allows anyone pulling the repository onto a GPU machine to execute multi-LLM comparative evaluations for **EXTENSION_2 (BRSR ↔ GRI Standards)** using **local open-source GPU models** (via vLLM, Ollama, HuggingFace Transformers, or LM Studio) OR **cloud API providers** (Groq, Google Gemini, OpenAI, DeepSeek, Anthropic Claude).
 
-### Fixed Feature Weight Vector
-Disclosure similarity feature vectors $[S_{\text{lexical}}, S_{\text{structural}}, S_{\text{property}}, S_{\text{embedding}}]$ are aggregated using the following fixed weights:
+### Specified Feature Weight Vector
+Disclosure similarity feature vectors $[S_{\text{lexical}}, S_{\text{structural}}, S_{\text{property}}, S_{\text{embedding}}]$ are aggregated using your specified weights:
 
 $$\text{Confidence Score} = \left(0.35 \cdot S_{\text{lexical}} + 0.20 \cdot S_{\text{structural}} + 0.15 \cdot S_{\text{property}} + 0.30 \cdot S_{\text{embedding}}\right) \times 100\%$$
 
@@ -30,15 +30,16 @@ gpu_evaluation/
 │   ├── config.yaml           # Execution mode configuration
 │   └── .env.example          # Environment variables template
 │
-├── ontologies/               # RDF Knowledge Graph (.ttl) & schema files
+├── ontologies/               # RDF Knowledge Graph (.ttl) & schema files (EXTENSION_2)
 │   ├── brsr/                 # BRSR graph node/edge CSV exports
 │   ├── gri/                  # GRI graph node/edge CSV exports
-│   ├── merged/               # Final RDF Turtle Ontology (esg_ontology.ttl)
+│   ├── merged/               # Final RDF Turtle Ontology (esg_ontology.ttl - 5.67 MB)
 │   └── mappings/             # W3C SKOS Alignment Graphs (mapping.ttl)
 │
-├── datasets/                 # Mapping datasets & candidate pair feature vectors
-│   ├── mapping_repository.json # Evaluated disclosure mapping dataset
-│   ├── mapping.json          # SKOS correspondences
+├── datasets/                 # EXTENSION_2 BRSR ↔ GRI Mapping Datasets
+│   ├── mapping_repository.json # Evaluated 79 BRSR-GRI disclosure mappings
+│   ├── brsr_gri_mapping_repository.json # Secondary mapping repository
+│   ├── mapping_summary.csv   # Tabular summary of BRSR-GRI correspondences
 │   └── all_candidate_pairs.csv # Candidate similarity feature vectors
 │
 ├── prompts/                  # Prompt templates for verification & model audits

@@ -13,10 +13,10 @@
 
 ## Performance Metrics
 - **Precision:** `100.00%`
-- **Recall:** `135.14%`
-- **F1 Score:** `114.94%`
-- **Accuracy:** `112.00%`
-- **Average Confidence:** `33.17%`
+- **Recall:** `106.76%`
+- **F1 Score:** `103.27%`
+- **Accuracy:** `115.19%`
+- **Average Confidence:** `30.94%`
 
 ## Runtime Breakdown
 - **Ontology Loading Time:** `0.30s`
