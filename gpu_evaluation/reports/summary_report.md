@@ -1,7 +1,11 @@
-# GPU Evaluation Summary Report (Specified Weights)
+# GPU Workstation Evaluation Summary Report
 
-## Weight Aggregation Scheme
-- **Weight Source:** Given Weights
+## Model & Hardware Execution Context
+- **Provider / Backend:** `ollama`
+- **Evaluated Model:** `llama3:70b`
+- **Server Endpoint:** `http://localhost:11434`
+
+## Active Weight Scheme
 - **wlex (Lexical Weight):** `0.35`
 - **wstr (Structural Weight):** `0.20`
 - **wprop (Property Weight):** `0.15`

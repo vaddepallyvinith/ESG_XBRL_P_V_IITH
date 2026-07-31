@@ -1,168 +1,170 @@
 # ESG Ontology Multi-LLM Evaluation Engine (GPU Package)
 
-A fully self-contained, portable benchmark evaluation package for the **BRSR–GRI / BRSR–ESRS Semantic Alignment Pipeline** designed to execute seamlessly on physical GPU workstations and cloud compute instances.
+A portable, self-contained evaluation framework for benchmarking **BRSR–GRI / BRSR–ESRS Semantic Disclosure Alignments** on physical GPU workstations, remote server nodes, and HPC clusters.
 
 ---
 
-## 📋 Project Overview
+## 🎯 Overview & Key Features
 
-This framework evaluates semantic disclosure mappings generated between ESG regulatory standards (SEBI BRSR, GRI Standards, and European ESRS) using an **ESG Resource Ontology (RSO)** knowledge graph and **Automatically Learned Confidence Weights**. 
+This package allows anyone pulling the repository onto a GPU machine to execute multi-LLM comparative evaluations using **local open-source GPU models** (via vLLM, Ollama, HuggingFace Transformers, or LM Studio) OR **cloud API providers** (Groq, Google Gemini, OpenAI, DeepSeek, Anthropic Claude).
 
-The pipeline performs multi-LLM comparative audits across multiple providers (Groq, Google Gemini, OpenAI GPT-4o, Ollama, DeepSeek, Claude, OpenRouter, Cerebras) to benchmark alignment accuracy, inter-model agreement, reasoning validity, token usage, and cost efficiency.
+### Fixed Feature Weight Vector
+Disclosure similarity feature vectors $[S_{\text{lexical}}, S_{\text{structural}}, S_{\text{property}}, S_{\text{embedding}}]$ are aggregated using the following fixed weights:
+
+$$\text{Confidence Score} = \left(0.35 \cdot S_{\text{lexical}} + 0.20 \cdot S_{\text{structural}} + 0.15 \cdot S_{\text{property}} + 0.30 \cdot S_{\text{embedding}}\right) \times 100\%$$
+
+- **$w_{\text{lex}}$ (Lexical Overlap):** `0.35`
+- **$w_{\text{str}}$ (Structural Hierarchy Path):** `0.20`
+- **$w_{\text{prop}}$ (Property & Unit Compatibility):** `0.15`
+- **$w_{\text{emb}}$ (Embedding Vector Cosine):** `0.30`
 
 ---
 
-## 📁 Directory Structure
+## 📁 Repository Structure
 
 ```text
 gpu_evaluation/
-├── configs/                  # Pipeline, provider, and API key configurations
-│   ├── settings.yaml         # Master dataset, path, and execution parameters
-│   ├── providers.yaml        # LLM provider settings (Groq, Gemini, OpenAI, Ollama, etc.)
-│   ├── config.yaml           # Pipeline execution mode settings
-│   └── .env.example          # Environment variables template for API keys
+├── configs/                  # Pipeline, open-source model & API key configs
+│   ├── settings.yaml         # Master path & dataset parameters
+│   ├── providers.yaml        # Local open-source GPU & cloud model endpoints
+│   ├── config.yaml           # Execution mode configuration
+│   └── .env.example          # Environment variables template
 │
-├── ontologies/               # RDF Knowledge Graph (.ttl) and ontology schemas
-│   ├── brsr/                 # BRSR node and relationship CSV graph exports
-│   ├── gri/                  # GRI node and relationship CSV graph exports
-│   ├── merged/               # Final merged RDF Turtle Ontology (esg_ontology.ttl)
-│   └── mappings/             # Standard W3C SKOS alignment turtle graphs (mapping.ttl)
+├── ontologies/               # RDF Knowledge Graph (.ttl) & schema files
+│   ├── brsr/                 # BRSR graph node/edge CSV exports
+│   ├── gri/                  # GRI graph node/edge CSV exports
+│   ├── merged/               # Final RDF Turtle Ontology (esg_ontology.ttl)
+│   └── mappings/             # W3C SKOS Alignment Graphs (mapping.ttl)
 │
-├── datasets/                 # Mapping datasets and learned feature weights
-│   ├── mapping_repository.json # Complete dataset of evaluated disclosure mappings
-│   ├── mapping.json          # SKOS candidate pair correspondences
-│   ├── learned_weights.json  # Learned feature weight vector [L, S, P, R]
-│   └── candidate_pairs.csv   # Raw candidate pair feature vectors
+├── datasets/                 # Mapping datasets & candidate pair feature vectors
+│   ├── mapping_repository.json # Evaluated disclosure mapping dataset
+│   ├── mapping.json          # SKOS correspondences
+│   └── all_candidate_pairs.csv # Candidate similarity feature vectors
 │
-├── prompts/                  # Prompt templates for verification & multi-LLM evaluation
+├── prompts/                  # Prompt templates for verification & model audits
 │   ├── verification_prompt.txt # Strict audit prompt for LLM verification layer
-│   └── multi_llm_eval_prompt.txt # Benchmark agreement prompt across models
+│   └── multi_llm_eval_prompt.txt # Inter-model agreement evaluation prompt
 │
-├── scripts/                  # Python source modules
-│   ├── matcher/              # Lexical, structural, property & reasoning matchers
+├── scripts/                  # Core Python modules
+│   ├── matcher/              # Matcher engines (lexical, structural, property, reasoning)
 │   ├── verifier/             # LLM verification audit engine
-│   └── evaluation/           # Evaluation metrics calculator & visualization generator
+│   └── evaluation/           # Metrics calculator & visualizer generator
 │
-├── utils/                    # Utility scripts, logging & confidence weight learner
-│   ├── learner.py            # Logistic regression & grid search weight optimization
-│   └── logging_config.py     # Centralized logger utility
+├── utils/                    # Utility scripts & logging framework
+│   ├── learner.py            # Feature weight optimization utilities
+│   └── logging_config.py     # Logging setup
 │
-├── cache/                    # Local embeddings and response cache
-├── checkpoints/              # Multi-provider benchmark evaluation checkpoints
-├── outputs/                  # JSON & CSV output evaluation reports
-│   ├── verification_report.json
-│   ├── evaluation.json
-│   └── evaluation.csv
-│
-├── reports/                  # Markdown & summary statistic reports
-│   ├── summary_report.md
-│   └── mapping_statistics.json
-│
-├── visualizations/           # 6 Publication-quality evaluation plots (.png)
-│   ├── similarity_distribution.png
-│   ├── confidence_distribution.png
-│   ├── mapping_type_distribution.png
-│   ├── ontology_coverage.png
-│   ├── runtime_breakdown.png
-│   └── confusion_matrix.png
-│
+├── outputs/                  # Exported verification reports & metrics JSON/CSV
+├── reports/                  # Markdown summary reports & statistics
+├── visualizations/           # 6 Publication-quality plot PNGs
 ├── logs/                     # Detailed execution logs (evaluation.log)
-├── run_evaluation.py         # Main CLI evaluation runner script
+├── run_evaluation.py         # Main CLI execution runner
 ├── run.sh                    # One-click execution bash script
-├── requirements.txt          # Python pip dependencies
+├── requirements.txt          # Pip dependencies
 ├── environment.yml           # Conda environment definition
 └── README.md                 # Project documentation
 ```
 
 ---
 
-## 💻 Hardware & System Requirements
+## 💻 System & GPU Hardware Requirements
 
 ### Python & CUDA Specification
 - **Python Version:** `3.10`, `3.11`, or `3.12`
-- **CUDA Driver Version:** `CUDA 11.8` or `CUDA 12.1+`
+- **CUDA Version:** `CUDA 11.8` or `CUDA 12.1+`
 
-### System Hardware
-- **GPU Requirements:** NVIDIA GPU with $\ge 8\text{ GB}$ VRAM (e.g., RTX 3080/4080/4090, A4000/A5000/A100/H100) if running local LLMs via Ollama (`llama3:70b` / `mistral`).
-- **Cloud API Execution:** If using API providers (Groq, Gemini, OpenAI), CPU execution is supported.
-- **RAM Requirements:** Minimum `16 GB` System RAM.
-- **Disk Space:** Minimum `5 GB` free space.
+### Hardware Requirements
+- **Local GPU Server:** NVIDIA GPU with $\ge 8\text{ GB}$ VRAM (e.g. RTX 3080/4080/4090, A4000/A5000/A100/H100) for hosting open-source models via Ollama or vLLM.
+- **Cloud API Execution:** Any CPU machine with internet access for cloud API models.
+- **System Memory:** Minimum `16 GB` RAM.
 
 ---
 
-## 🛠️ Installation & Setup
+## 🛠️ Quick Start on a GPU Workstation
 
-### Option 1: Conda Environment Setup (Recommended)
+### 1. Clone & Checkout the Branch
 
 ```bash
-# Clone the repository and switch to the gpu-evaluation branch
 git checkout gpu-evaluation
-
-# Navigate to the evaluation folder
 cd gpu_evaluation
+```
 
-# Create and activate conda environment
+### 2. Set Up Virtual Environment
+
+#### Option A: Using Conda
+```bash
 conda env create -f environment.yml
 conda activate esg-gpu-eval
 ```
 
-### Option 2: Pip Virtual Environment Setup
-
+#### Option B: Using Pip Virtualenv
 ```bash
-# Create Python virtual environment
 python3 -m venv venv
 source venv/bin/activate
-
-# Install requirements
-pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
 ---
 
-## ⚙️ Configuration & API Keys
+## 🚀 Running Evaluation with Open-Source GPU Models
 
-1. Copy the environment variables template:
-   ```bash
-   cp configs/.env.example configs/.env
-   ```
+You can run the evaluation using any open-source model running on your GPU server.
 
-2. Edit `configs/.env` to include your provider API keys (optional if running locally via Ollama):
-   ```env
-   GROQ_API_KEY=gsk_your_groq_key_here
-   GEMINI_API_KEY=AIzaSy_your_gemini_key_here
-   OPENAI_API_KEY=sk-proj-your_openai_key_here
-   DEEPSEEK_API_KEY=sk-your_deepseek_key_here
-   ANTHROPIC_API_KEY=sk-ant-your_anthropic_key_here
-   OLLAMA_HOST=http://localhost:11434
-   ```
-
----
-
-## 🚀 Execution Instructions
-
-Run the one-click execution script:
+### Example 1: Local Ollama GPU Server (`http://localhost:11434`)
 
 ```bash
-bash run.sh
+# Run with Llama-3-70B
+bash run.sh --provider ollama --model llama3:70b
+
+# Run with Qwen-2.5-72B
+bash run.sh --provider ollama --model qwen2.5:72b
+
+# Run with DeepSeek-R1 (14B)
+bash run.sh --provider ollama --model deepseek-r1:14b
 ```
 
-Or run directly using Python:
+### Example 2: High-Throughput vLLM Server (`http://localhost:8000/v1`)
 
 ```bash
-python3 run_evaluation.py --config configs/settings.yaml
+bash run.sh --provider vllm --model meta-llama/Meta-Llama-3-70B-Instruct --endpoint http://localhost:8000/v1
+```
+
+### Example 3: LM Studio Local Endpoint (`http://localhost:1234/v1`)
+
+```bash
+bash run.sh --provider lmstudio --model local-model --endpoint http://localhost:1234/v1
 ```
 
 ---
 
-## 📊 Expected Outputs
+## ☁️ Running Evaluation with Cloud API Providers
 
-Upon completion, all evaluation results will be automatically exported to relative paths:
+If API keys are configured in `configs/.env`:
 
-| Directory | Generated Artifacts | Description |
+```bash
+# Groq Llama-3.3-70B
+bash run.sh --provider groq --model llama-3.3-70b-versatile
+
+# Google Gemini 2.0 Flash
+bash run.sh --provider gemini --model gemini-2.0-flash-exp
+
+# OpenAI GPT-4o-mini
+bash run.sh --provider openai --model gpt-4o-mini
+
+# DeepSeek Chat V3
+bash run.sh --provider deepseek --model deepseek-chat
+```
+
+---
+
+## 📊 Expected Output Artifacts
+
+Upon pipeline execution, output artifacts are saved into relative directories:
+
+| Directory | Output Artifact | Content Description |
 |:---|:---|:---|
-| **`outputs/`** | `verification_report.json` | Detailed per-mapping audit decisions, explanations & issues |
-| | `evaluation.json` | Global Precision, Recall, F1, Accuracy & Runtime Breakdown |
+| **`outputs/`** | `verification_report.json` | Detailed audit decision ("Accepted"/"Rejected"), explanation, and issues per mapping |
+| | `evaluation.json` | Precision, Recall, F1-Score, Accuracy, Avg Confidence, Runtime breakdown |
 | | `evaluation.csv` | Tabular metrics export |
 | **`reports/`** | `summary_report.md` | Human-readable markdown evaluation report |
 | | `mapping_statistics.json` | Candidate counts, SKOS relation distribution statistics |
@@ -171,16 +173,16 @@ Upon completion, all evaluation results will be automatically exported to relati
 | | `mapping_type_distribution.png` | SKOS relation category breakdown |
 | | `ontology_coverage.png` | Target disclosure coverage pie chart |
 | | `runtime_breakdown.png` | Execution time breakdown per pipeline stage |
-| | `confusion_matrix.png` | Prediction vs LLM Verification Confusion Matrix |
-| **`logs/`** | `evaluation.log` | Timestamped execution logs |
+| | `confusion_matrix.png` | Matcher prediction vs LLM audit confusion matrix |
+| **`logs/`** | `evaluation.log` | Complete timestamped execution log |
 
 ---
 
 ## 🔧 Troubleshooting Guide
 
-| Issue | Cause | Solution |
+| Issue | Root Cause | Resolution |
 |:---|:---|:---|
-| `ModuleNotFoundError: No module named 'rdflib'` | Missing Python package | Run `pip install -r requirements.txt` inside your virtual environment. |
-| `APIKeyError` or `AuthenticationFailed` | Invalid or missing API key | Ensure your API key is correctly specified in `configs/.env`. |
-| `Ollama Connection Refused` | Local Ollama service is down | Start local Ollama service: `ollama serve` or switch default provider to `groq` in `configs/settings.yaml`. |
-| `CUDA Out of Memory` | Batch size too large for GPU VRAM | Reduce `batch_size` in `configs/settings.yaml` (e.g. set `batch_size: 4`). |
+| `Ollama Connection Refused` | Ollama service is not running | Start Ollama on GPU server: `ollama serve` or `systemctl start ollama`. |
+| `vLLM Connection Error` | vLLM server port inactive | Ensure vLLM is launched: `python3 -m vllm.entrypoints.openai.api_server --model meta-llama/Meta-Llama-3-70B-Instruct --port 8000`. |
+| `CUDA Out of Memory` | Model context or batch size exceeds VRAM | Reduce `batch_size` in `configs/settings.yaml` (e.g., set `batch_size: 4`). |
+| `API Key Missing` | Environment variable not loaded | Copy `configs/.env.example` to `configs/.env` and insert your API keys. |

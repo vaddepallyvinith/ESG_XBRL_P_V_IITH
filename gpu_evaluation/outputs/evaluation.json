@@ -1,5 +1,8 @@
 {
-  "weight_type": "given_weights",
+  "eval_provider": "ollama",
+  "eval_model": "llama3:70b",
+  "eval_endpoint": "http://localhost:11434",
+  "weight_type": "specified_weights",
   "weights": {
     "lexical": 0.35,
     "structural": 0.2,

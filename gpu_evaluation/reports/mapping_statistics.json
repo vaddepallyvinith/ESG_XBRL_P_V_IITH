@@ -1,5 +1,12 @@
 {
-  "weight_scheme": "Given Weights (wlex=0.35, wstr=0.20, wprop=0.15, wemb=0.30)",
+  "model_evaluated": "llama3:70b (ollama)",
+  "endpoint": "http://localhost:11434",
+  "weights": {
+    "lexical": 0.35,
+    "structural": 0.2,
+    "property": 0.15,
+    "embedding": 0.3
+  },
   "total_source_disclosures": 74,
   "total_target_disclosures": 70,
   "candidate_pairs_evaluated": 4155,

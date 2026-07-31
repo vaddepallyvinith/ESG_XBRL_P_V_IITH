@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ==============================================================================
 # GPU Workstation Multi-LLM Evaluation Execution Script
-# Fully self-contained, automated file validation, evaluation, and report export.
+# Supports Local Open-Source GPU Models (vLLM, Ollama, LM Studio) & Cloud APIs
 # ==============================================================================
 
 set -e
@@ -16,10 +16,40 @@ elif command -v python &> /dev/null; then
     PYTHON_BIN=$(which python)
 fi
 
+PROVIDER="ollama"
+MODEL="llama3:70b"
+ENDPOINT="http://localhost:11434"
+
+# Parse CLI parameters
+while [[ $# -gt 0 ]]; do
+  case $1 in
+    --provider)
+      PROVIDER="$2"
+      shift 2
+      ;;
+    --model)
+      MODEL="$2"
+      shift 2
+      ;;
+    --endpoint)
+      ENDPOINT="$2"
+      shift 2
+      ;;
+    *)
+      shift
+      ;;
+  esac
+done
+
 echo "======================================================================"
 echo "    ESG Ontology Multi-LLM Evaluation Framework (GPU Workstation)    "
 echo "======================================================================"
-echo "Using Python: $PYTHON_BIN"
+echo "Using Python:   $PYTHON_BIN"
+echo "Provider:       $PROVIDER"
+echo "Model:          $MODEL"
+echo "Endpoint:       $ENDPOINT"
+echo "Active Weights: wlex=0.35, wstr=0.20, wprop=0.15, wemb=0.30"
+echo "======================================================================"
 
 # 1. Create Required Output & Log Directories
 echo "📁 Step 1: Validating Directory Structure..."
@@ -57,12 +87,13 @@ if [ ! -f "configs/.env" ]; then
 fi
 
 # 4. Execute Multi-LLM Evaluation Pipeline
-echo "🚀 Step 4: Starting Multi-LLM Evaluation Pipeline..."
-"$PYTHON_BIN" run_evaluation.py --config configs/settings.yaml
+echo "🚀 Step 4: Starting Evaluation Pipeline for model '$MODEL'..."
+"$PYTHON_BIN" run_evaluation.py --config configs/settings.yaml --provider "$PROVIDER" --model "$MODEL" --endpoint "$ENDPOINT"
 
 # 5. Display Summary Report
 echo "======================================================================"
 echo "✅ Evaluation Execution Complete!"
+echo "Model Evaluated:        $MODEL ($PROVIDER)"
 echo "Outputs directory:      $SCRIPT_DIR/outputs/"
 echo "Reports directory:      $SCRIPT_DIR/reports/"
 echo "Visualizations:         $SCRIPT_DIR/visualizations/"
