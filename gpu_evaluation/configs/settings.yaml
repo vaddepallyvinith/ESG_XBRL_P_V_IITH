@@ -29,9 +29,9 @@ llm_providers:
     - "ollama"
 
 weights:
-  learned_weights_file: "datasets/learned_weights.json"
-  default_weights:
-    lexical: 0.6538
-    structural: 0.2944
-    property: 0.0003
-    reasoning: 0.0515
+  use_learned_weights: false
+  given_weights:
+    lexical: 0.40
+    structural: 0.35
+    property: 0.15
+    reasoning: 0.10

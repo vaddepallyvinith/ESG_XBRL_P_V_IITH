@@ -3,1176 +3,1176 @@
     "brsr_id": "Disclosure_Q3_-4999668360558070019",
     "target_id": "Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources",
     "mapping": "narrowMatch",
-    "confidence": 0.3511,
+    "confidence": 0.3035,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 35.1%",
-    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources with relation narrowMatch",
+    "reasoning": "Given weights model confidence: 30.4%",
+    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources with relation narrowMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": []
   },
   {
     "brsr_id": "Disclosure_Q1_-7605476517899833912",
     "target_id": "Disclosure_Disclosure_Requirement_E1_5_Energy_consumption_and_mix",
     "mapping": "narrowMatch",
-    "confidence": 0.3319,
+    "confidence": 0.2805,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 33.2%",
-    "explanation": "Verified alignment for Disclosure_Q1_-7605476517899833912 <-> Disclosure_Disclosure_Requirement_E1_5_Energy_consumption_and_mix with relation narrowMatch",
-    "issues": []
+    "reasoning": "Given weights model confidence: 28.0%",
+    "explanation": "Verified alignment for Disclosure_Q1_-7605476517899833912 <-> Disclosure_Disclosure_Requirement_E1_5_Energy_consumption_and_mix with relation narrowMatch using given weights [0.40, 0.35, 0.15, 0.10]",
+    "issues": [
+      "Low given similarity confidence score"
+    ]
   },
   {
     "brsr_id": "Disclosure_Q2_294300574630310733",
     "target_id": "Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources",
     "mapping": "narrowMatch",
-    "confidence": 0.3202,
+    "confidence": 0.2983,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 32.0%",
-    "explanation": "Verified alignment for Disclosure_Q2_294300574630310733 <-> Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources with relation narrowMatch",
-    "issues": []
+    "reasoning": "Given weights model confidence: 29.8%",
+    "explanation": "Verified alignment for Disclosure_Q2_294300574630310733 <-> Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources with relation narrowMatch using given weights [0.40, 0.35, 0.15, 0.10]",
+    "issues": [
+      "Low given similarity confidence score"
+    ]
   },
   {
     "brsr_id": "Disclosure_Q24_2434095512212408412",
     "target_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
     "mapping": "narrowMatch",
-    "confidence": 0.3149,
+    "confidence": 0.3136,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 31.5%",
-    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess with relation narrowMatch",
+    "reasoning": "Given weights model confidence: 31.4%",
+    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess with relation narrowMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": []
   },
   {
     "brsr_id": "Disclosure_Q24_2434095512212408412",
     "target_id": "Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with",
     "mapping": "narrowMatch",
-    "confidence": 0.3109,
+    "confidence": 0.3043,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 31.1%",
-    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with with relation narrowMatch",
+    "reasoning": "Given weights model confidence: 30.4%",
+    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with with relation narrowMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": []
   },
   {
     "brsr_id": "Disclosure_Q3_-4999668360558070019",
     "target_id": "Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution",
     "mapping": "narrowMatch",
-    "confidence": 0.3091,
+    "confidence": 0.2831,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 30.9%",
-    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution with relation narrowMatch",
-    "issues": []
+    "reasoning": "Given weights model confidence: 28.3%",
+    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution with relation narrowMatch using given weights [0.40, 0.35, 0.15, 0.10]",
+    "issues": [
+      "Low given similarity confidence score"
+    ]
   },
   {
     "brsr_id": "Disclosure_Q24_2434095512212408412",
     "target_id": "Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
     "mapping": "narrowMatch",
-    "confidence": 0.3042,
+    "confidence": 0.3172,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 30.4%",
-    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess with relation narrowMatch",
+    "reasoning": "Given weights model confidence: 31.7%",
+    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess with relation narrowMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": []
   },
   {
     "brsr_id": "Disclosure_Q3_-4999668360558070019",
     "target_id": "Disclosure_Disclosure_Requirement_E3_2_Actions_and_resources_related_to_water_and_marine_resources_policies_M",
     "mapping": "narrowMatch",
-    "confidence": 0.3042,
+    "confidence": 0.2678,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 30.4%",
-    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_E3_2_Actions_and_resources_related_to_water_and_marine_resources_policies_M with relation narrowMatch",
-    "issues": []
+    "reasoning": "Given weights model confidence: 26.8%",
+    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_E3_2_Actions_and_resources_related_to_water_and_marine_resources_policies_M with relation narrowMatch using given weights [0.40, 0.35, 0.15, 0.10]",
+    "issues": [
+      "Low given similarity confidence score"
+    ]
   },
   {
     "brsr_id": "Disclosure_Q4_-6382315562112869290",
     "target_id": "Disclosure_Disclosure_Requirement_E4_4_Targets_related_to_biodiversity_and_ecosystems",
     "mapping": "narrowMatch",
-    "confidence": 0.3039,
+    "confidence": 0.2593,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 30.4%",
-    "explanation": "Verified alignment for Disclosure_Q4_-6382315562112869290 <-> Disclosure_Disclosure_Requirement_E4_4_Targets_related_to_biodiversity_and_ecosystems with relation narrowMatch",
-    "issues": []
+    "reasoning": "Given weights model confidence: 25.9%",
+    "explanation": "Verified alignment for Disclosure_Q4_-6382315562112869290 <-> Disclosure_Disclosure_Requirement_E4_4_Targets_related_to_biodiversity_and_ecosystems with relation narrowMatch using given weights [0.40, 0.35, 0.15, 0.10]",
+    "issues": [
+      "Low given similarity confidence score"
+    ]
   },
   {
     "brsr_id": "Disclosure_Q2_294300574630310733",
     "target_id": "Disclosure_Disclosure_Requirement_E3_2_Actions_and_resources_related_to_water_and_marine_resources_policies_M",
     "mapping": "narrowMatch",
-    "confidence": 0.301,
+    "confidence": 0.2894,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 30.1%",
-    "explanation": "Verified alignment for Disclosure_Q2_294300574630310733 <-> Disclosure_Disclosure_Requirement_E3_2_Actions_and_resources_related_to_water_and_marine_resources_policies_M with relation narrowMatch",
-    "issues": []
+    "reasoning": "Given weights model confidence: 28.9%",
+    "explanation": "Verified alignment for Disclosure_Q2_294300574630310733 <-> Disclosure_Disclosure_Requirement_E3_2_Actions_and_resources_related_to_water_and_marine_resources_policies_M with relation narrowMatch using given weights [0.40, 0.35, 0.15, 0.10]",
+    "issues": [
+      "Low given similarity confidence score"
+    ]
   },
   {
     "brsr_id": "Disclosure_Q4_-6382315562112869290",
     "target_id": "Disclosure_Disclosure_Requirement_E4_3_Actions_and_resources_related_to_biodiversity_and_ecosystems",
     "mapping": "narrowMatch",
-    "confidence": 0.3008,
+    "confidence": 0.2539,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 30.1%",
-    "explanation": "Verified alignment for Disclosure_Q4_-6382315562112869290 <-> Disclosure_Disclosure_Requirement_E4_3_Actions_and_resources_related_to_biodiversity_and_ecosystems with relation narrowMatch",
-    "issues": []
+    "reasoning": "Given weights model confidence: 25.4%",
+    "explanation": "Verified alignment for Disclosure_Q4_-6382315562112869290 <-> Disclosure_Disclosure_Requirement_E4_3_Actions_and_resources_related_to_biodiversity_and_ecosystems with relation narrowMatch using given weights [0.40, 0.35, 0.15, 0.10]",
+    "issues": [
+      "Low given similarity confidence score"
+    ]
   },
   {
     "brsr_id": "Disclosure_Q24_2434095512212408412",
     "target_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_processes_to_identify_and_assess_mater",
     "mapping": "narrowMatch",
-    "confidence": 0.3003,
+    "confidence": 0.3117,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 30.0%",
-    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_processes_to_identify_and_assess_mater with relation narrowMatch",
+    "reasoning": "Given weights model confidence: 31.2%",
+    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_processes_to_identify_and_assess_mater with relation narrowMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": []
   },
   {
     "brsr_id": "Disclosure_Q8_-8405331482717645114",
     "target_id": "Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change",
     "mapping": "relatedMatch",
-    "confidence": 0.2957,
+    "confidence": 0.2647,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 29.6%",
-    "explanation": "Verified alignment for Disclosure_Q8_-8405331482717645114 <-> Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 26.5%",
+    "explanation": "Verified alignment for Disclosure_Q8_-8405331482717645114 <-> Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q4_-6382315562112869290",
     "target_id": "Disclosure_Disclosure_Requirement_E1_3_Actions_and_resources_in_relation_to_climate_change_policies",
     "mapping": "relatedMatch",
-    "confidence": 0.2944,
+    "confidence": 0.2555,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 29.4%",
-    "explanation": "Verified alignment for Disclosure_Q4_-6382315562112869290 <-> Disclosure_Disclosure_Requirement_E1_3_Actions_and_resources_in_relation_to_climate_change_policies with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.6%",
+    "explanation": "Verified alignment for Disclosure_Q4_-6382315562112869290 <-> Disclosure_Disclosure_Requirement_E1_3_Actions_and_resources_in_relation_to_climate_change_policies with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_-8405331482717645114",
     "target_id": "Disclosure_Disclosure_Requirement_SBM_1_Strategy_business_model_and_value_chain_AR_12_To_provide_the_informat",
     "mapping": "relatedMatch",
-    "confidence": 0.293,
+    "confidence": 0.2703,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 29.3%",
-    "explanation": "Verified alignment for Disclosure_Q8_-8405331482717645114 <-> Disclosure_Disclosure_Requirement_SBM_1_Strategy_business_model_and_value_chain_AR_12_To_provide_the_informat with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 27.0%",
+    "explanation": "Verified alignment for Disclosure_Q8_-8405331482717645114 <-> Disclosure_Disclosure_Requirement_SBM_1_Strategy_business_model_and_value_chain_AR_12_To_provide_the_informat with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q1_991886090062196846",
     "target_id": "Disclosure_Disclosure_Requirement_IRO_1_Description_of_the_processes_to_identify_and_assess",
     "mapping": "relatedMatch",
-    "confidence": 0.2927,
+    "confidence": 0.3013,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 29.3%",
-    "explanation": "Verified alignment for Disclosure_Q1_991886090062196846 <-> Disclosure_Disclosure_Requirement_IRO_1_Description_of_the_processes_to_identify_and_assess with relation relatedMatch",
-    "issues": [
-      "Low similarity confidence score"
-    ]
+    "reasoning": "Given weights model confidence: 30.1%",
+    "explanation": "Verified alignment for Disclosure_Q1_991886090062196846 <-> Disclosure_Disclosure_Requirement_IRO_1_Description_of_the_processes_to_identify_and_assess with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
+    "issues": []
   },
   {
     "brsr_id": "Disclosure_Q8_1419484420242406593",
     "target_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
     "mapping": "relatedMatch",
-    "confidence": 0.2926,
+    "confidence": 0.26,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 29.3%",
-    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 26.0%",
+    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_1419484420242406593",
     "target_id": "Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation",
     "mapping": "relatedMatch",
-    "confidence": 0.2917,
+    "confidence": 0.2732,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 29.2%",
-    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 27.3%",
+    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q11_1366600324960417183",
     "target_id": "Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change",
     "mapping": "relatedMatch",
-    "confidence": 0.2916,
+    "confidence": 0.2647,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 29.2%",
-    "explanation": "Verified alignment for Disclosure_Q11_1366600324960417183 <-> Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 26.5%",
+    "explanation": "Verified alignment for Disclosure_Q11_1366600324960417183 <-> Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q4_-6382315562112869290",
     "target_id": "Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change",
     "mapping": "relatedMatch",
-    "confidence": 0.2907,
-    "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 29.1%",
-    "explanation": "Verified alignment for Disclosure_Q4_-6382315562112869290 <-> Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change with relation relatedMatch",
+    "confidence": 0.2465,
+    "verification": "Rejected",
+    "reasoning": "Given weights model confidence: 24.6%",
+    "explanation": "Verified alignment for Disclosure_Q4_-6382315562112869290 <-> Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q4_-6382315562112869290",
     "target_id": "Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation",
     "mapping": "relatedMatch",
-    "confidence": 0.2896,
+    "confidence": 0.2517,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 29.0%",
-    "explanation": "Verified alignment for Disclosure_Q4_-6382315562112869290 <-> Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.2%",
+    "explanation": "Verified alignment for Disclosure_Q4_-6382315562112869290 <-> Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_-8405331482717645114",
     "target_id": "Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with",
     "mapping": "relatedMatch",
-    "confidence": 0.2889,
+    "confidence": 0.2555,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.9%",
-    "explanation": "Verified alignment for Disclosure_Q8_-8405331482717645114 <-> Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.6%",
+    "explanation": "Verified alignment for Disclosure_Q8_-8405331482717645114 <-> Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q3_937559134512949447",
     "target_id": "Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources",
     "mapping": "relatedMatch",
-    "confidence": 0.2877,
+    "confidence": 0.2728,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.8%",
-    "explanation": "Verified alignment for Disclosure_Q3_937559134512949447 <-> Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 27.3%",
+    "explanation": "Verified alignment for Disclosure_Q3_937559134512949447 <-> Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q24_2434095512212408412",
     "target_id": "Disclosure_IRO_1_Description_of_the_processes_to_identify_and_assess_material_resource_use_and_circular_econo",
     "mapping": "relatedMatch",
-    "confidence": 0.2869,
+    "confidence": 0.295,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.7%",
-    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_IRO_1_Description_of_the_processes_to_identify_and_assess_material_resource_use_and_circular_econo with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 29.5%",
+    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_IRO_1_Description_of_the_processes_to_identify_and_assess_material_resource_use_and_circular_econo with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q24_2434095512212408412",
     "target_id": "Disclosure_Disclosure_Requirement_SBM_1_Strategy_business_model_and_value_chain_Disclosure_Requirement_SBM_2",
     "mapping": "relatedMatch",
-    "confidence": 0.2869,
+    "confidence": 0.3023,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.7%",
-    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_SBM_1_Strategy_business_model_and_value_chain_Disclosure_Requirement_SBM_2 with relation relatedMatch",
-    "issues": [
-      "Low similarity confidence score"
-    ]
+    "reasoning": "Given weights model confidence: 30.2%",
+    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_SBM_1_Strategy_business_model_and_value_chain_Disclosure_Requirement_SBM_2 with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
+    "issues": []
   },
   {
     "brsr_id": "Disclosure_Q6_-5874270398555975595",
     "target_id": "Disclosure_Disclosure_Requirement_E2_2_Actions_and_resources_related_to_pollution",
     "mapping": "relatedMatch",
-    "confidence": 0.2866,
+    "confidence": 0.2597,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.7%",
-    "explanation": "Verified alignment for Disclosure_Q6_-5874270398555975595 <-> Disclosure_Disclosure_Requirement_E2_2_Actions_and_resources_related_to_pollution with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 26.0%",
+    "explanation": "Verified alignment for Disclosure_Q6_-5874270398555975595 <-> Disclosure_Disclosure_Requirement_E2_2_Actions_and_resources_related_to_pollution with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q7_-7154105830269047396",
     "target_id": "Disclosure_Disclosure_Requirement_E2_2_Actions_and_resources_related_to_pollution",
     "mapping": "relatedMatch",
-    "confidence": 0.2865,
+    "confidence": 0.2691,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.7%",
-    "explanation": "Verified alignment for Disclosure_Q7_-7154105830269047396 <-> Disclosure_Disclosure_Requirement_E2_2_Actions_and_resources_related_to_pollution with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 26.9%",
+    "explanation": "Verified alignment for Disclosure_Q7_-7154105830269047396 <-> Disclosure_Disclosure_Requirement_E2_2_Actions_and_resources_related_to_pollution with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q6_-5874270398555975595",
     "target_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m",
     "mapping": "relatedMatch",
-    "confidence": 0.2862,
+    "confidence": 0.2529,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.6%",
-    "explanation": "Verified alignment for Disclosure_Q6_-5874270398555975595 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.3%",
+    "explanation": "Verified alignment for Disclosure_Q6_-5874270398555975595 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q24_2434095512212408412",
     "target_id": "Disclosure_Disclosure_Requirement_SBM_1_Strategy_business_model_and_value_chain_AR_12_To_provide_the_informat",
     "mapping": "relatedMatch",
-    "confidence": 0.285,
+    "confidence": 0.2971,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.5%",
-    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_SBM_1_Strategy_business_model_and_value_chain_AR_12_To_provide_the_informat with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 29.7%",
+    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_SBM_1_Strategy_business_model_and_value_chain_AR_12_To_provide_the_informat with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q6_-5874270398555975595",
     "target_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
     "mapping": "relatedMatch",
-    "confidence": 0.2844,
+    "confidence": 0.2519,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.4%",
-    "explanation": "Verified alignment for Disclosure_Q6_-5874270398555975595 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.2%",
+    "explanation": "Verified alignment for Disclosure_Q6_-5874270398555975595 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_1419484420242406593",
     "target_id": "Disclosure_Disclosure_Requirement_GOV_5_Risk_management_and_internal_controls_over_sustainability_reporting",
     "mapping": "relatedMatch",
-    "confidence": 0.2842,
+    "confidence": 0.2647,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.4%",
-    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_GOV_5_Risk_management_and_internal_controls_over_sustainability_reporting with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 26.5%",
+    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_GOV_5_Risk_management_and_internal_controls_over_sustainability_reporting with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q24_2434095512212408412",
     "target_id": "Disclosure_Disclosure_Requirement_E4_1_Transition_plan_and_consideration_of_biodiversity_and_ecosystems_in_st",
     "mapping": "relatedMatch",
-    "confidence": 0.2841,
+    "confidence": 0.3048,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.4%",
-    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_E4_1_Transition_plan_and_consideration_of_biodiversity_and_ecosystems_in_st with relation relatedMatch",
-    "issues": [
-      "Low similarity confidence score"
-    ]
+    "reasoning": "Given weights model confidence: 30.5%",
+    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_E4_1_Transition_plan_and_consideration_of_biodiversity_and_ecosystems_in_st with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
+    "issues": []
   },
   {
     "brsr_id": "Disclosure_Q1_-2941116562953374489",
     "target_id": "Disclosure_Disclosure_Requirement_E1_5_Energy_consumption_and_mix",
     "mapping": "relatedMatch",
-    "confidence": 0.2839,
+    "confidence": 0.2571,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.4%",
-    "explanation": "Verified alignment for Disclosure_Q1_-2941116562953374489 <-> Disclosure_Disclosure_Requirement_E1_5_Energy_consumption_and_mix with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.7%",
+    "explanation": "Verified alignment for Disclosure_Q1_-2941116562953374489 <-> Disclosure_Disclosure_Requirement_E1_5_Energy_consumption_and_mix with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q24_2434095512212408412",
     "target_id": "Disclosure_Disclosure_Requirement_E4_6_Anticipated_financial_effects_from_material_biodiversity_and_ecosystem",
     "mapping": "relatedMatch",
-    "confidence": 0.2832,
+    "confidence": 0.2983,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.3%",
-    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_E4_6_Anticipated_financial_effects_from_material_biodiversity_and_ecosystem with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 29.8%",
+    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_E4_6_Anticipated_financial_effects_from_material_biodiversity_and_ecosystem with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_1419484420242406593",
     "target_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m",
     "mapping": "relatedMatch",
-    "confidence": 0.2826,
+    "confidence": 0.2632,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.3%",
-    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 26.3%",
+    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q3_-4999668360558070019",
     "target_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
     "mapping": "relatedMatch",
-    "confidence": 0.2825,
+    "confidence": 0.2555,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.2%",
-    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.6%",
+    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q3_-4999668360558070019",
     "target_id": "Disclosure_Disclosure_Requirement_BP_2_Disclosures_in_relation_to_specific_circumstances",
     "mapping": "relatedMatch",
-    "confidence": 0.2824,
+    "confidence": 0.2646,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.2%",
-    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_BP_2_Disclosures_in_relation_to_specific_circumstances with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 26.5%",
+    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_BP_2_Disclosures_in_relation_to_specific_circumstances with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q7_-7154105830269047396",
     "target_id": "Disclosure_Disclosure_Requirement_E1_7_GHG_removals_and_GHG_mitigation_projects_financed_through_carbon_credi",
     "mapping": "relatedMatch",
-    "confidence": 0.2821,
+    "confidence": 0.2738,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.2%",
-    "explanation": "Verified alignment for Disclosure_Q7_-7154105830269047396 <-> Disclosure_Disclosure_Requirement_E1_7_GHG_removals_and_GHG_mitigation_projects_financed_through_carbon_credi with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 27.4%",
+    "explanation": "Verified alignment for Disclosure_Q7_-7154105830269047396 <-> Disclosure_Disclosure_Requirement_E1_7_GHG_removals_and_GHG_mitigation_projects_financed_through_carbon_credi with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_-8405331482717645114",
     "target_id": "Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence",
     "mapping": "relatedMatch",
-    "confidence": 0.282,
-    "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.2%",
-    "explanation": "Verified alignment for Disclosure_Q8_-8405331482717645114 <-> Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence with relation relatedMatch",
+    "confidence": 0.2499,
+    "verification": "Rejected",
+    "reasoning": "Given weights model confidence: 25.0%",
+    "explanation": "Verified alignment for Disclosure_Q8_-8405331482717645114 <-> Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q24_2434095512212408412",
     "target_id": "Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence",
     "mapping": "relatedMatch",
-    "confidence": 0.2816,
+    "confidence": 0.2883,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.2%",
-    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 28.8%",
+    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q3_-4999668360558070019",
     "target_id": "Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation",
     "mapping": "relatedMatch",
-    "confidence": 0.2814,
+    "confidence": 0.2636,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.1%",
-    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 26.4%",
+    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q4_-6382315562112869290",
     "target_id": "Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution",
     "mapping": "relatedMatch",
-    "confidence": 0.2811,
-    "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.1%",
-    "explanation": "Verified alignment for Disclosure_Q4_-6382315562112869290 <-> Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution with relation relatedMatch",
+    "confidence": 0.2401,
+    "verification": "Rejected",
+    "reasoning": "Given weights model confidence: 24.0%",
+    "explanation": "Verified alignment for Disclosure_Q4_-6382315562112869290 <-> Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_1419484420242406593",
     "target_id": "Disclosure_Disclosure_Requirement_E5_1_Policies_related_to_resource_use_and_circular_economy",
     "mapping": "relatedMatch",
-    "confidence": 0.2808,
+    "confidence": 0.258,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.1%",
-    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_E5_1_Policies_related_to_resource_use_and_circular_economy with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.8%",
+    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_E5_1_Policies_related_to_resource_use_and_circular_economy with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q7_-7154105830269047396",
     "target_id": "Disclosure_Disclosure_Requirement_E5_3_Targets_related_to_resource_use_and_circular_economy",
     "mapping": "relatedMatch",
-    "confidence": 0.2807,
+    "confidence": 0.2705,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.1%",
-    "explanation": "Verified alignment for Disclosure_Q7_-7154105830269047396 <-> Disclosure_Disclosure_Requirement_E5_3_Targets_related_to_resource_use_and_circular_economy with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 27.1%",
+    "explanation": "Verified alignment for Disclosure_Q7_-7154105830269047396 <-> Disclosure_Disclosure_Requirement_E5_3_Targets_related_to_resource_use_and_circular_economy with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q9_-1180754342078183070",
     "target_id": "Disclosure_Disclosure_Requirement_GOV_5_Risk_management_and_internal_controls_over_sustainability_reporting",
     "mapping": "relatedMatch",
-    "confidence": 0.2805,
+    "confidence": 0.2709,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.1%",
-    "explanation": "Verified alignment for Disclosure_Q9_-1180754342078183070 <-> Disclosure_Disclosure_Requirement_GOV_5_Risk_management_and_internal_controls_over_sustainability_reporting with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 27.1%",
+    "explanation": "Verified alignment for Disclosure_Q9_-1180754342078183070 <-> Disclosure_Disclosure_Requirement_GOV_5_Risk_management_and_internal_controls_over_sustainability_reporting with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q3_-4999668360558070019",
     "target_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m",
     "mapping": "relatedMatch",
-    "confidence": 0.2802,
+    "confidence": 0.2551,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.0%",
-    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.5%",
+    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q24_2434095512212408412",
     "target_id": "Disclosure_Disclosure_Requirement_GOV_5_Risk_management_and_internal_controls_over_sustainability_reporting",
     "mapping": "relatedMatch",
-    "confidence": 0.2801,
+    "confidence": 0.2912,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.0%",
-    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_GOV_5_Risk_management_and_internal_controls_over_sustainability_reporting with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 29.1%",
+    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_GOV_5_Risk_management_and_internal_controls_over_sustainability_reporting with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_1419484420242406593",
     "target_id": "Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
     "mapping": "relatedMatch",
-    "confidence": 0.2799,
+    "confidence": 0.2632,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.0%",
-    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 26.3%",
+    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q7_-7154105830269047396",
     "target_id": "Disclosure_Disclosure_Requirement_E5_2_Actions_and_resources_related_to_resource_use_and_circular_economy",
     "mapping": "relatedMatch",
-    "confidence": 0.2799,
+    "confidence": 0.2787,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.0%",
-    "explanation": "Verified alignment for Disclosure_Q7_-7154105830269047396 <-> Disclosure_Disclosure_Requirement_E5_2_Actions_and_resources_related_to_resource_use_and_circular_economy with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 27.9%",
+    "explanation": "Verified alignment for Disclosure_Q7_-7154105830269047396 <-> Disclosure_Disclosure_Requirement_E5_2_Actions_and_resources_related_to_resource_use_and_circular_economy with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q4_-6382315562112869290",
     "target_id": "Disclosure_Disclosure_Requirement_E2_2_Actions_and_resources_related_to_pollution",
     "mapping": "relatedMatch",
-    "confidence": 0.2798,
-    "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 28.0%",
-    "explanation": "Verified alignment for Disclosure_Q4_-6382315562112869290 <-> Disclosure_Disclosure_Requirement_E2_2_Actions_and_resources_related_to_pollution with relation relatedMatch",
+    "confidence": 0.2417,
+    "verification": "Rejected",
+    "reasoning": "Given weights model confidence: 24.2%",
+    "explanation": "Verified alignment for Disclosure_Q4_-6382315562112869290 <-> Disclosure_Disclosure_Requirement_E2_2_Actions_and_resources_related_to_pollution with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q3_-4999668360558070019",
     "target_id": "Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with",
     "mapping": "relatedMatch",
-    "confidence": 0.2794,
+    "confidence": 0.2578,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.9%",
-    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.8%",
+    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q24_2434095512212408412",
     "target_id": "Disclosure_Disclosure_Requirement_E5_3_Targets_related_to_resource_use_and_circular_economy",
     "mapping": "relatedMatch",
-    "confidence": 0.2794,
+    "confidence": 0.2994,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.9%",
-    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_E5_3_Targets_related_to_resource_use_and_circular_economy with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 29.9%",
+    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_E5_3_Targets_related_to_resource_use_and_circular_economy with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q9_-1180754342078183070",
     "target_id": "Disclosure_Disclosure_Requirement_E5_1_Policies_related_to_resource_use_and_circular_economy",
     "mapping": "relatedMatch",
-    "confidence": 0.2791,
+    "confidence": 0.25,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.9%",
-    "explanation": "Verified alignment for Disclosure_Q9_-1180754342078183070 <-> Disclosure_Disclosure_Requirement_E5_1_Policies_related_to_resource_use_and_circular_economy with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.0%",
+    "explanation": "Verified alignment for Disclosure_Q9_-1180754342078183070 <-> Disclosure_Disclosure_Requirement_E5_1_Policies_related_to_resource_use_and_circular_economy with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_1419484420242406593",
     "target_id": "Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence",
     "mapping": "relatedMatch",
-    "confidence": 0.2787,
+    "confidence": 0.2536,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.9%",
-    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.4%",
+    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q6_-5874270398555975595",
     "target_id": "Disclosure_Disclosure_Requirement_E1_7_GHG_removals_and_GHG_mitigation_projects_financed_through_carbon_credi",
     "mapping": "relatedMatch",
-    "confidence": 0.2787,
+    "confidence": 0.2662,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.9%",
-    "explanation": "Verified alignment for Disclosure_Q6_-5874270398555975595 <-> Disclosure_Disclosure_Requirement_E1_7_GHG_removals_and_GHG_mitigation_projects_financed_through_carbon_credi with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 26.6%",
+    "explanation": "Verified alignment for Disclosure_Q6_-5874270398555975595 <-> Disclosure_Disclosure_Requirement_E1_7_GHG_removals_and_GHG_mitigation_projects_financed_through_carbon_credi with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q6_-5874270398555975595",
     "target_id": "Disclosure_Disclosure_Requirement_E1_1_Transition_plan_for_climate_change_mitigation",
     "mapping": "relatedMatch",
-    "confidence": 0.2785,
+    "confidence": 0.2602,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.9%",
-    "explanation": "Verified alignment for Disclosure_Q6_-5874270398555975595 <-> Disclosure_Disclosure_Requirement_E1_1_Transition_plan_for_climate_change_mitigation with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 26.0%",
+    "explanation": "Verified alignment for Disclosure_Q6_-5874270398555975595 <-> Disclosure_Disclosure_Requirement_E1_1_Transition_plan_for_climate_change_mitigation with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q3_-4999668360558070019",
     "target_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_SBM_3_Material_impacts_risks_and_opportunities_and_their",
     "mapping": "relatedMatch",
-    "confidence": 0.2784,
+    "confidence": 0.2741,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.8%",
-    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_SBM_3_Material_impacts_risks_and_opportunities_and_their with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 27.4%",
+    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_SBM_3_Material_impacts_risks_and_opportunities_and_their with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_1419484420242406593",
     "target_id": "Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution",
     "mapping": "relatedMatch",
-    "confidence": 0.2782,
+    "confidence": 0.2579,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.8%",
-    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.8%",
+    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_1419484420242406593",
     "target_id": "Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources",
     "mapping": "relatedMatch",
-    "confidence": 0.278,
+    "confidence": 0.2665,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.8%",
-    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 26.6%",
+    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q1_991886090062196846",
     "target_id": "Disclosure_IRO_1_Description_of_the_processes_to_identify_and_assess_material_resource_use_and_circular_econo",
     "mapping": "relatedMatch",
-    "confidence": 0.2777,
+    "confidence": 0.3019,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.8%",
-    "explanation": "Verified alignment for Disclosure_Q1_991886090062196846 <-> Disclosure_IRO_1_Description_of_the_processes_to_identify_and_assess_material_resource_use_and_circular_econo with relation relatedMatch",
-    "issues": [
-      "Low similarity confidence score"
-    ]
+    "reasoning": "Given weights model confidence: 30.2%",
+    "explanation": "Verified alignment for Disclosure_Q1_991886090062196846 <-> Disclosure_IRO_1_Description_of_the_processes_to_identify_and_assess_material_resource_use_and_circular_econo with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
+    "issues": []
   },
   {
     "brsr_id": "Disclosure_Q2_993553119648207625",
     "target_id": "Disclosure_Disclosure_Requirement_E1_3_Actions_and_resources_in_relation_to_climate_change_policies",
     "mapping": "relatedMatch",
-    "confidence": 0.2776,
+    "confidence": 0.2623,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.8%",
-    "explanation": "Verified alignment for Disclosure_Q2_993553119648207625 <-> Disclosure_Disclosure_Requirement_E1_3_Actions_and_resources_in_relation_to_climate_change_policies with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 26.2%",
+    "explanation": "Verified alignment for Disclosure_Q2_993553119648207625 <-> Disclosure_Disclosure_Requirement_E1_3_Actions_and_resources_in_relation_to_climate_change_policies with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q7_-7154105830269047396",
     "target_id": "Disclosure_IRO_1_Description_of_the_processes_to_identify_and_assess_material_pollution_related_impacts_risk",
     "mapping": "relatedMatch",
-    "confidence": 0.2775,
+    "confidence": 0.2648,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.7%",
-    "explanation": "Verified alignment for Disclosure_Q7_-7154105830269047396 <-> Disclosure_IRO_1_Description_of_the_processes_to_identify_and_assess_material_pollution_related_impacts_risk with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 26.5%",
+    "explanation": "Verified alignment for Disclosure_Q7_-7154105830269047396 <-> Disclosure_IRO_1_Description_of_the_processes_to_identify_and_assess_material_pollution_related_impacts_risk with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q2_1620615386017990737",
     "target_id": "Disclosure_Disclosure_Requirement_SBM_1_Strategy_business_model_and_value_chain_AR_12_To_provide_the_informat",
     "mapping": "relatedMatch",
-    "confidence": 0.2774,
+    "confidence": 0.2698,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.7%",
-    "explanation": "Verified alignment for Disclosure_Q2_1620615386017990737 <-> Disclosure_Disclosure_Requirement_SBM_1_Strategy_business_model_and_value_chain_AR_12_To_provide_the_informat with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 27.0%",
+    "explanation": "Verified alignment for Disclosure_Q2_1620615386017990737 <-> Disclosure_Disclosure_Requirement_SBM_1_Strategy_business_model_and_value_chain_AR_12_To_provide_the_informat with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q4_-6382315562112869290",
     "target_id": "Disclosure_Disclosure_Requirement_E4_3_Actions_and_resources_related_to_biodiversity_and_ecosystems_Metrics_a",
     "mapping": "relatedMatch",
-    "confidence": 0.2773,
+    "confidence": 0.251,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.7%",
-    "explanation": "Verified alignment for Disclosure_Q4_-6382315562112869290 <-> Disclosure_Disclosure_Requirement_E4_3_Actions_and_resources_related_to_biodiversity_and_ecosystems_Metrics_a with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.1%",
+    "explanation": "Verified alignment for Disclosure_Q4_-6382315562112869290 <-> Disclosure_Disclosure_Requirement_E4_3_Actions_and_resources_related_to_biodiversity_and_ecosystems_Metrics_a with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q2_294300574630310733",
     "target_id": "Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change",
     "mapping": "relatedMatch",
-    "confidence": 0.2771,
+    "confidence": 0.2744,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.7%",
-    "explanation": "Verified alignment for Disclosure_Q2_294300574630310733 <-> Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 27.4%",
+    "explanation": "Verified alignment for Disclosure_Q2_294300574630310733 <-> Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q1_991886090062196846",
     "target_id": "Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
     "mapping": "relatedMatch",
-    "confidence": 0.277,
+    "confidence": 0.2913,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.7%",
-    "explanation": "Verified alignment for Disclosure_Q1_991886090062196846 <-> Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 29.1%",
+    "explanation": "Verified alignment for Disclosure_Q1_991886090062196846 <-> Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q3_-4999668360558070019",
     "target_id": "Disclosure_Disclosure_Requirement_E5_3_Targets_related_to_resource_use_and_circular_economy",
     "mapping": "relatedMatch",
-    "confidence": 0.2766,
+    "confidence": 0.2723,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.7%",
-    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_E5_3_Targets_related_to_resource_use_and_circular_economy with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 27.2%",
+    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_E5_3_Targets_related_to_resource_use_and_circular_economy with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q3_-4999668360558070019",
     "target_id": "Disclosure_Disclosure_Requirement_E1_3_Actions_and_resources_in_relation_to_climate_change_policies",
     "mapping": "relatedMatch",
-    "confidence": 0.2765,
+    "confidence": 0.259,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.6%",
-    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_E1_3_Actions_and_resources_in_relation_to_climate_change_policies with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.9%",
+    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_E1_3_Actions_and_resources_in_relation_to_climate_change_policies with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q5_8637121145400939773",
     "target_id": "Disclosure_Disclosure_Requirement_E1_7_GHG_removals_and_GHG_mitigation_projects_financed_through_carbon_credi",
     "mapping": "relatedMatch",
-    "confidence": 0.2764,
+    "confidence": 0.2601,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.6%",
-    "explanation": "Verified alignment for Disclosure_Q5_8637121145400939773 <-> Disclosure_Disclosure_Requirement_E1_7_GHG_removals_and_GHG_mitigation_projects_financed_through_carbon_credi with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 26.0%",
+    "explanation": "Verified alignment for Disclosure_Q5_8637121145400939773 <-> Disclosure_Disclosure_Requirement_E1_7_GHG_removals_and_GHG_mitigation_projects_financed_through_carbon_credi with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q23_-6115681057730055166",
     "target_id": "Disclosure_Disclosure_Requirement_IRO_1_Description_of_the_processes_to_identify_and_assess",
     "mapping": "relatedMatch",
-    "confidence": 0.2761,
+    "confidence": 0.3134,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.6%",
-    "explanation": "Verified alignment for Disclosure_Q23_-6115681057730055166 <-> Disclosure_Disclosure_Requirement_IRO_1_Description_of_the_processes_to_identify_and_assess with relation relatedMatch",
-    "issues": [
-      "Low similarity confidence score"
-    ]
+    "reasoning": "Given weights model confidence: 31.3%",
+    "explanation": "Verified alignment for Disclosure_Q23_-6115681057730055166 <-> Disclosure_Disclosure_Requirement_IRO_1_Description_of_the_processes_to_identify_and_assess with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
+    "issues": []
   },
   {
     "brsr_id": "Disclosure_Q24_2434095512212408412",
     "target_id": "Disclosure_Disclosure_Requirement_GOV_1_The_role_of_the_administrative_management_and_supervisory_bodies",
     "mapping": "relatedMatch",
-    "confidence": 0.2761,
+    "confidence": 0.2874,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.6%",
-    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_GOV_1_The_role_of_the_administrative_management_and_supervisory_bodies with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 28.7%",
+    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_GOV_1_The_role_of_the_administrative_management_and_supervisory_bodies with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_-8405331482717645114",
     "target_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
     "mapping": "relatedMatch",
-    "confidence": 0.2761,
+    "confidence": 0.2502,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.6%",
-    "explanation": "Verified alignment for Disclosure_Q8_-8405331482717645114 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.0%",
+    "explanation": "Verified alignment for Disclosure_Q8_-8405331482717645114 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q3_-4999668360558070019",
     "target_id": "Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change",
     "mapping": "relatedMatch",
-    "confidence": 0.2756,
+    "confidence": 0.2569,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.6%",
-    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.7%",
+    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q3_-4999668360558070019",
     "target_id": "Disclosure_Disclosure_Requirement_E4_3_Actions_and_resources_related_to_biodiversity_and_ecosystems",
     "mapping": "relatedMatch",
-    "confidence": 0.2755,
+    "confidence": 0.2647,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.5%",
-    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_E4_3_Actions_and_resources_related_to_biodiversity_and_ecosystems with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 26.5%",
+    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_E4_3_Actions_and_resources_related_to_biodiversity_and_ecosystems with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q4_-6382315562112869290",
     "target_id": "Disclosure_Disclosure_Requirement_E4_2_Policies_related_to_biodiversity_and_ecosystems",
     "mapping": "relatedMatch",
-    "confidence": 0.2754,
-    "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.5%",
-    "explanation": "Verified alignment for Disclosure_Q4_-6382315562112869290 <-> Disclosure_Disclosure_Requirement_E4_2_Policies_related_to_biodiversity_and_ecosystems with relation relatedMatch",
+    "confidence": 0.2401,
+    "verification": "Rejected",
+    "reasoning": "Given weights model confidence: 24.0%",
+    "explanation": "Verified alignment for Disclosure_Q4_-6382315562112869290 <-> Disclosure_Disclosure_Requirement_E4_2_Policies_related_to_biodiversity_and_ecosystems with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_1419484420242406593",
     "target_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_processes_to_identify_and_assess_mater",
     "mapping": "relatedMatch",
-    "confidence": 0.2753,
+    "confidence": 0.2618,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.5%",
-    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_processes_to_identify_and_assess_mater with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 26.2%",
+    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_processes_to_identify_and_assess_mater with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q23_-6115681057730055166",
     "target_id": "Disclosure_Disclosure_Requirement_GOV_1_The_role_of_the_administrative_management_and_supervisory_bodies",
     "mapping": "relatedMatch",
-    "confidence": 0.2751,
+    "confidence": 0.3015,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.5%",
-    "explanation": "Verified alignment for Disclosure_Q23_-6115681057730055166 <-> Disclosure_Disclosure_Requirement_GOV_1_The_role_of_the_administrative_management_and_supervisory_bodies with relation relatedMatch",
-    "issues": [
-      "Low similarity confidence score"
-    ]
+    "reasoning": "Given weights model confidence: 30.1%",
+    "explanation": "Verified alignment for Disclosure_Q23_-6115681057730055166 <-> Disclosure_Disclosure_Requirement_GOV_1_The_role_of_the_administrative_management_and_supervisory_bodies with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
+    "issues": []
   },
   {
     "brsr_id": "Disclosure_Q24_2434095512212408412",
     "target_id": "Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources",
     "mapping": "relatedMatch",
-    "confidence": 0.2746,
+    "confidence": 0.2922,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.5%",
-    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 29.2%",
+    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_E3_3_Targets_related_to_water_and_marine_resources with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q6_-5874270398555975595",
     "target_id": "Disclosure_Disclosure_Requirement_E1_3_Actions_and_resources_in_relation_to_climate_change_policies",
     "mapping": "relatedMatch",
-    "confidence": 0.2743,
-    "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.4%",
-    "explanation": "Verified alignment for Disclosure_Q6_-5874270398555975595 <-> Disclosure_Disclosure_Requirement_E1_3_Actions_and_resources_in_relation_to_climate_change_policies with relation relatedMatch",
+    "confidence": 0.2478,
+    "verification": "Rejected",
+    "reasoning": "Given weights model confidence: 24.8%",
+    "explanation": "Verified alignment for Disclosure_Q6_-5874270398555975595 <-> Disclosure_Disclosure_Requirement_E1_3_Actions_and_resources_in_relation_to_climate_change_policies with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q1_6088715793221866031",
     "target_id": "Disclosure_Disclosure_Requirement_IRO_1_Description_of_the_processes_to_identify_and_assess",
     "mapping": "relatedMatch",
-    "confidence": 0.274,
+    "confidence": 0.2726,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.4%",
-    "explanation": "Verified alignment for Disclosure_Q1_6088715793221866031 <-> Disclosure_Disclosure_Requirement_IRO_1_Description_of_the_processes_to_identify_and_assess with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 27.3%",
+    "explanation": "Verified alignment for Disclosure_Q1_6088715793221866031 <-> Disclosure_Disclosure_Requirement_IRO_1_Description_of_the_processes_to_identify_and_assess with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q3_-4999668360558070019",
     "target_id": "Disclosure_Disclosure_Requirement_E4_4_Targets_related_to_biodiversity_and_ecosystems",
     "mapping": "relatedMatch",
-    "confidence": 0.2739,
+    "confidence": 0.2567,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.4%",
-    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_E4_4_Targets_related_to_biodiversity_and_ecosystems with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.7%",
+    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_E4_4_Targets_related_to_biodiversity_and_ecosystems with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q6_-5874270398555975595",
     "target_id": "Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation",
     "mapping": "relatedMatch",
-    "confidence": 0.2737,
-    "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.4%",
-    "explanation": "Verified alignment for Disclosure_Q6_-5874270398555975595 <-> Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation with relation relatedMatch",
+    "confidence": 0.2438,
+    "verification": "Rejected",
+    "reasoning": "Given weights model confidence: 24.4%",
+    "explanation": "Verified alignment for Disclosure_Q6_-5874270398555975595 <-> Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q3_-4999668360558070019",
     "target_id": "Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence",
     "mapping": "relatedMatch",
-    "confidence": 0.2737,
-    "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.4%",
-    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence with relation relatedMatch",
+    "confidence": 0.2465,
+    "verification": "Rejected",
+    "reasoning": "Given weights model confidence: 24.7%",
+    "explanation": "Verified alignment for Disclosure_Q3_-4999668360558070019 <-> Disclosure_Disclosure_Requirement_GOV_4_Statement_on_due_diligence with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q2_294300574630310733",
     "target_id": "Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution",
     "mapping": "relatedMatch",
-    "confidence": 0.2736,
+    "confidence": 0.2726,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.4%",
-    "explanation": "Verified alignment for Disclosure_Q2_294300574630310733 <-> Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 27.3%",
+    "explanation": "Verified alignment for Disclosure_Q2_294300574630310733 <-> Disclosure_Disclosure_Requirement_E2_3_Targets_related_to_pollution with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q24_2434095512212408412",
     "target_id": "Disclosure_Disclosure_Requirement_E5_1_Policies_related_to_resource_use_and_circular_economy",
     "mapping": "relatedMatch",
-    "confidence": 0.2735,
+    "confidence": 0.299,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.4%",
-    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_E5_1_Policies_related_to_resource_use_and_circular_economy with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 29.9%",
+    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_E5_1_Policies_related_to_resource_use_and_circular_economy with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q3_937559134512949447",
     "target_id": "Disclosure_Disclosure_Requirement_E3_2_Actions_and_resources_related_to_water_and_marine_resources_policies_M",
     "mapping": "relatedMatch",
-    "confidence": 0.2735,
+    "confidence": 0.2652,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.3%",
-    "explanation": "Verified alignment for Disclosure_Q3_937559134512949447 <-> Disclosure_Disclosure_Requirement_E3_2_Actions_and_resources_related_to_water_and_marine_resources_policies_M with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 26.5%",
+    "explanation": "Verified alignment for Disclosure_Q3_937559134512949447 <-> Disclosure_Disclosure_Requirement_E3_2_Actions_and_resources_related_to_water_and_marine_resources_policies_M with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q24_2434095512212408412",
     "target_id": "Disclosure_Disclosure_Requirement_E5_2_Actions_and_resources_related_to_resource_use_and_circular_economy",
     "mapping": "relatedMatch",
-    "confidence": 0.2727,
+    "confidence": 0.2941,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.3%",
-    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_E5_2_Actions_and_resources_related_to_resource_use_and_circular_economy with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 29.4%",
+    "explanation": "Verified alignment for Disclosure_Q24_2434095512212408412 <-> Disclosure_Disclosure_Requirement_E5_2_Actions_and_resources_related_to_resource_use_and_circular_economy with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q5_7184145804725927416",
     "target_id": "Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change",
     "mapping": "relatedMatch",
-    "confidence": 0.2726,
+    "confidence": 0.2732,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.3%",
-    "explanation": "Verified alignment for Disclosure_Q5_7184145804725927416 <-> Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 27.3%",
+    "explanation": "Verified alignment for Disclosure_Q5_7184145804725927416 <-> Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q9_-1180754342078183070",
     "target_id": "Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change",
     "mapping": "relatedMatch",
-    "confidence": 0.2724,
+    "confidence": 0.2559,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.2%",
-    "explanation": "Verified alignment for Disclosure_Q9_-1180754342078183070 <-> Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.6%",
+    "explanation": "Verified alignment for Disclosure_Q9_-1180754342078183070 <-> Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q1_991886090062196846",
     "target_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_processes_to_identify_and_assess_mater",
     "mapping": "relatedMatch",
-    "confidence": 0.2721,
+    "confidence": 0.2866,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.2%",
-    "explanation": "Verified alignment for Disclosure_Q1_991886090062196846 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_processes_to_identify_and_assess_mater with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 28.7%",
+    "explanation": "Verified alignment for Disclosure_Q1_991886090062196846 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_processes_to_identify_and_assess_mater with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q6_-5874270398555975595",
     "target_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_processes_to_identify_and_assess_mater",
     "mapping": "relatedMatch",
-    "confidence": 0.2721,
+    "confidence": 0.2557,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.2%",
-    "explanation": "Verified alignment for Disclosure_Q6_-5874270398555975595 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_processes_to_identify_and_assess_mater with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.6%",
+    "explanation": "Verified alignment for Disclosure_Q6_-5874270398555975595 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_processes_to_identify_and_assess_mater with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q1_-7024612116224278638",
     "target_id": "Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with",
     "mapping": "relatedMatch",
-    "confidence": 0.272,
+    "confidence": 0.2556,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.2%",
-    "explanation": "Verified alignment for Disclosure_Q1_-7024612116224278638 <-> Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.6%",
+    "explanation": "Verified alignment for Disclosure_Q1_-7024612116224278638 <-> Disclosure_Disclosure_Requirement_SBM_3_Material_impacts_risks_and_opportunities_and_their_interaction_with with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q6_-5874270398555975595",
     "target_id": "Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
     "mapping": "relatedMatch",
-    "confidence": 0.2719,
-    "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.2%",
-    "explanation": "Verified alignment for Disclosure_Q6_-5874270398555975595 <-> Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess with relation relatedMatch",
+    "confidence": 0.2473,
+    "verification": "Rejected",
+    "reasoning": "Given weights model confidence: 24.7%",
+    "explanation": "Verified alignment for Disclosure_Q6_-5874270398555975595 <-> Disclosure_Disclosure_requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_1419484420242406593",
     "target_id": "Disclosure_Disclosure_Requirement_E5_3_Targets_related_to_resource_use_and_circular_economy",
     "mapping": "relatedMatch",
-    "confidence": 0.2718,
+    "confidence": 0.2584,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.2%",
-    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_E5_3_Targets_related_to_resource_use_and_circular_economy with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.8%",
+    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_E5_3_Targets_related_to_resource_use_and_circular_economy with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_1419484420242406593",
     "target_id": "Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change",
     "mapping": "relatedMatch",
-    "confidence": 0.2716,
+    "confidence": 0.2555,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.2%",
-    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.6%",
+    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_E4_5_Impact_metrics_related_to_biodiversity_and_ecosystems_change with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q2_993553119648207625",
     "target_id": "Disclosure_Disclosure_Requirement_BP_2_Disclosures_in_relation_to_specific_circumstances",
     "mapping": "relatedMatch",
-    "confidence": 0.2716,
+    "confidence": 0.2717,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.2%",
-    "explanation": "Verified alignment for Disclosure_Q2_993553119648207625 <-> Disclosure_Disclosure_Requirement_BP_2_Disclosures_in_relation_to_specific_circumstances with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 27.2%",
+    "explanation": "Verified alignment for Disclosure_Q2_993553119648207625 <-> Disclosure_Disclosure_Requirement_BP_2_Disclosures_in_relation_to_specific_circumstances with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_1419484420242406593",
     "target_id": "Disclosure_Disclosure_Requirement_E5_2_Actions_and_resources_related_to_resource_use_and_circular_economy",
     "mapping": "relatedMatch",
-    "confidence": 0.2716,
+    "confidence": 0.253,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.2%",
-    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_E5_2_Actions_and_resources_related_to_resource_use_and_circular_economy with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.3%",
+    "explanation": "Verified alignment for Disclosure_Q8_1419484420242406593 <-> Disclosure_Disclosure_Requirement_E5_2_Actions_and_resources_related_to_resource_use_and_circular_economy with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q23_-6115681057730055166",
     "target_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess",
     "mapping": "relatedMatch",
-    "confidence": 0.2715,
+    "confidence": 0.3054,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.2%",
-    "explanation": "Verified alignment for Disclosure_Q23_-6115681057730055166 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess with relation relatedMatch",
-    "issues": [
-      "Low similarity confidence score"
-    ]
+    "reasoning": "Given weights model confidence: 30.5%",
+    "explanation": "Verified alignment for Disclosure_Q23_-6115681057730055166 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
+    "issues": []
   },
   {
     "brsr_id": "Disclosure_Q2_294300574630310733",
     "target_id": "Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation",
     "mapping": "relatedMatch",
-    "confidence": 0.2712,
+    "confidence": 0.2749,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.1%",
-    "explanation": "Verified alignment for Disclosure_Q2_294300574630310733 <-> Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 27.5%",
+    "explanation": "Verified alignment for Disclosure_Q2_294300574630310733 <-> Disclosure_Disclosure_Requirement_E1_4_Targets_related_to_climate_change_mitigation_and_adaptation with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   },
   {
     "brsr_id": "Disclosure_Q8_-8405331482717645114",
     "target_id": "Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m",
     "mapping": "relatedMatch",
-    "confidence": 0.2712,
+    "confidence": 0.2502,
     "verification": "Accepted",
-    "reasoning": "Learned weight model confidence: 27.1%",
-    "explanation": "Verified alignment for Disclosure_Q8_-8405331482717645114 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m with relation relatedMatch",
+    "reasoning": "Given weights model confidence: 25.0%",
+    "explanation": "Verified alignment for Disclosure_Q8_-8405331482717645114 <-> Disclosure_Disclosure_Requirement_related_to_ESRS_2_IRO_1_Description_of_the_processes_to_identify_and_assess_m with relation relatedMatch using given weights [0.40, 0.35, 0.15, 0.10]",
     "issues": [
-      "Low similarity confidence score"
+      "Low given similarity confidence score"
     ]
   }
 ]
