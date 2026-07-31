@@ -1,0 +1,63 @@
+# Multi-LLM Providers & Open-Source GPU Models Configuration
+
+# Local Open-Source GPU Inference Endpoints (vLLM, Ollama, LM Studio, HuggingFace)
+local_gpu_models:
+  ollama_llama3_70b:
+    name: "Ollama Llama-3-70B (Local GPU)"
+    provider: "ollama"
+    model: "llama3:70b"
+    base_url: "http://localhost:11434"
+
+  ollama_qwen2_5_72b:
+    name: "Ollama Qwen-2.5-72B (Local GPU)"
+    provider: "ollama"
+    model: "qwen2.5:72b"
+    base_url: "http://localhost:11434"
+
+  ollama_deepseek_r1:
+    name: "Ollama DeepSeek-R1 (Local GPU)"
+    provider: "ollama"
+    model: "deepseek-r1:14b"
+    base_url: "http://localhost:11434"
+
+  vllm_local:
+    name: "vLLM High-Throughput Server (Local GPU)"
+    provider: "vllm"
+    model: "meta-llama/Meta-Llama-3-70B-Instruct"
+    base_url: "http://localhost:8000/v1"
+
+  lmstudio_local:
+    name: "LM Studio Local Endpoint"
+    provider: "openai_compatible"
+    model: "local-model"
+    base_url: "http://localhost:1234/v1"
+
+# Cloud API Providers
+cloud_providers:
+  groq:
+    name: "Groq Llama-3.3-70B"
+    model: "llama-3.3-70b-versatile"
+    api_key_env: "GROQ_API_KEY"
+    base_url: "https://api.groq.com/openai/v1"
+
+  gemini:
+    name: "Google Gemini 2.0 Flash"
+    model: "gemini-2.0-flash-exp"
+    api_key_env: "GEMINI_API_KEY"
+
+  openai:
+    name: "OpenAI GPT-4o-mini"
+    model: "gpt-4o-mini"
+    api_key_env: "OPENAI_API_KEY"
+    base_url: "https://api.openai.com/v1"
+
+  deepseek:
+    name: "DeepSeek V3 API"
+    model: "deepseek-chat"
+    api_key_env: "DEEPSEEK_API_KEY"
+    base_url: "https://api.deepseek.com"
+
+  claude:
+    name: "Anthropic Claude 3.5 Sonnet"
+    model: "claude-3-5-sonnet-20241022"
+    api_key_env: "ANTHROPIC_API_KEY"

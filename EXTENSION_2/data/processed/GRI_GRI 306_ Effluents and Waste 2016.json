@@ -1,0 +1,1168 @@
+{
+  "framework": "GRI",
+  "source_file": "GRI 306_ Effluents and Waste 2016.pdf",
+  "total_pages": 13,
+  "content": [],
+  "tables": [],
+  "standards": [
+    {
+      "standard_id": "GRI 306: Effluents and Waste 2016",
+      "title": "GRI 306: Effluents and Waste 2016",
+      "page_start": 1,
+      "page_end": 1,
+      "content": [
+        "Please note: Disclosures 306-1, 306-2, 306-4 and 306-5 in GRI 306: Effluents and Waste 2016 are no longer in effect; they have been revised and superseded by GRI 303: Water and Effluents 2018 and GRI 306: Waste 2020."
+      ],
+      "tables": [],
+      "disclosures": [
+        {
+          "id": "Disclosure 306-3 in GRI 306: Effluents and Waste 2",
+          "label": "Disclosure 306-3 in GRI 306: Effluents and Waste 2016 remains in effect and will be revised as part of the GRI Topic Sta",
+          "text": "Disclosure 306-3 in GRI 306: Effluents and Waste 2016 remains in effect and will be revised as part of the GRI Topic Standard Project for Pollution.",
+          "requirements": [],
+          "content": [
+            "Effective date: 1 July 2018",
+            "EFFECTIVE DATE: 1 JULY 2018 TOPIC STANDARD 306"
+          ],
+          "tables": [],
+          "page_start": 1,
+          "page_end": 1
+        }
+      ]
+    },
+    {
+      "standard_id": "GRI 306: Effluents and Waste 2016",
+      "title": "GRI 306: Effluents and Waste 2016",
+      "page_start": 2,
+      "page_end": 3,
+      "content": [
+        "Topic Standard",
+        "Disclosures 306-1, 306-2, 306-4, and 306-5 in GRI 306: Effluents and Waste 2016 are no longer in effect and have been blacked out in this Standard. These disclosures have been revised and superseded by GRI 303: Water and Effluents 2018 and GRI 306: Waste 2020 ."
+      ],
+      "tables": [],
+      "disclosures": [
+        {
+          "id": "Disclosure 306-3 in GRI 306: Effluents and Waste 2",
+          "label": "Disclosure 306-3 in GRI 306: Effluents and Waste 2016 remains in effect and will be revised as part of the GRI Topic Sta",
+          "text": "Disclosure 306-3 in GRI 306: Effluents and Waste 2016 remains in effect and will be revised as part of the GRI Topic Standard Project for Pollution.",
+          "requirements": [],
+          "content": [
+            "Effective date This Standard is effective for reports or other materials published on or after 1 July 2018",
+            "Responsibility This Standard is issued by the Global Sustainability Standards Board (GSSB) . Any feedback on the GRI Standards can be submitted to gssbsecretariat@globalreporting.org for the consideration of the GSSB.",
+            "Due Process This Standard was developed in the public interest and in accordance with the requirements of the GSSB Due Process Protocol. It has been developed using multi-stakeholder expertise, and with regard to authoritative intergovernmental instruments and widely held expectations of organizations relating to social, environmental, and economic responsibilities.",
+            "Legal liability This document, designed to promote sustainability reporting, has been developed by the Global Sustainability Standards Board (GSSB) through a unique multi-stakeholder consultative process involving representatives from organizations and report information users from around the world. While the GRI Supervisory Board, Management Board, and GSSB encourage the use of the GRI Sustainability Reporting Standards (GRI Standards) and related Interpretations by all organizations, the preparation and publication of reports based fully or partially on the GRI Standards and related Interpretations are the full responsibility of those producing them. Neither the GRI Supervisory Board, Management Board, GSSB, nor Stichting Global Reporting Initiative (GRI) can assume responsibility for any consequences or damages resulting directly or indirectly from the use of the GRI Standards and related Interpretations in the preparation of reports, or the use of reports based on the GRI Standards and related Interpretations.",
+            "Copyright and trademark notice This document is copyright-protected by Stichting Global Reporting Initiative (GRI). The reproduction and distribution of this document for information and/or use in preparing a sustainability report is permitted without prior permission from GRI. However, neither this document nor any extract from it may be reproduced, stored, translated, or transferred in any form or by any means (electronic, mechanical, photocopied, recorded, or otherwise) for any other purpose without prior written permission from GRI.",
+            "Global Reporting Initiative, GRI and logo, GSSB and logo, and GRI Sustainability Reporting Standards (GRI Standards) and logo are trademarks of Stichting Global Reporting Initiative.",
+            "ISBN 978-90-8866-109-9",
+            "Note: Disclosures 306-1, 306-2, 306-4 and 306-5 have been revised and superseded by GRI 303 (2018) and GRI 306 (2020)"
+          ],
+          "tables": [],
+          "page_start": 2,
+          "page_end": 3
+        }
+      ]
+    },
+    {
+      "standard_id": "GRI 306: Effluents and Waste 2016",
+      "title": "GRI 306: Effluents and Waste 2016",
+      "page_start": 3,
+      "page_end": 3,
+      "content": [
+        "3"
+      ],
+      "tables": [],
+      "disclosures": []
+    },
+    {
+      "standard_id": "GRI 306: Effluents and Waste 5",
+      "title": "GRI 306: Effluents and Waste 5",
+      "page_start": 3,
+      "page_end": 13,
+      "content": [],
+      "tables": [],
+      "disclosures": [
+        {
+          "id": "2. Topic disclosures 6",
+          "label": "2. Topic disclosures 6",
+          "text": "2. Topic disclosures 6",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 306-1 Water discharge by quality and de",
+          "label": "Disclosure 306-1 Water discharge by quality and destination 6",
+          "text": "Disclosure 306-1 Water discharge by quality and destination 6",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 306-2 Waste by type and disposal method",
+          "label": "Disclosure 306-2 Waste by type and disposal method 7",
+          "text": "Disclosure 306-2 Waste by type and disposal method 7",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 306-3 Significant spills 8",
+          "label": "Disclosure 306-3 Significant spills 8",
+          "text": "Disclosure 306-3 Significant spills 8",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 306-4 Transport of hazardous waste 9",
+          "label": "Disclosure 306-4 Transport of hazardous waste 9",
+          "text": "Disclosure 306-4 Transport of hazardous waste 9",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 306-5 Water bodies affected by water di",
+          "label": "Disclosure 306-5 Water bodies affected by water discharges and/or runoff 10",
+          "text": "Disclosure 306-5 Water bodies affected by water discharges and/or runoff 10",
+          "requirements": [],
+          "content": [
+            "Note: Disclosures 306-1, 306-2, 306-4 and 306-5 have been revised and superseded by GRI 303 (2018) and GRI 306 (2020)",
+            "GRI 306: Effluents and Waste 2016",
+            "4",
+            "Introduction",
+            "A. Overview",
+            "This Standard is part of the set of GRI Sustainability Reporting Standards (GRI Standards). These Standards are designed to be used by organizations to report about their impacts on the economy, the environment, and society.",
+            "The GRI Standards are structured as a set of interrelated, modular standards. The full set can be downloaded at www.globalreporting.org/standards/.",
+            "There are three universal Standards that apply to every organization preparing a sustainability report: GRI 101: Foundation GRI 102: General Disclosures GRI 103: Management Approach",
+            "Each topic Standard includes disclosures specific to that topic, and is designed to be used together with GRI 103: Management Approach, which is used to report the management approach for the topic.",
+            "GRI 306: Effluents and Waste is a topic-specific GRI Standard in the 300 series (Environmental topics).",
+            "B. Using the GRI Standards and making claims",
+            "There are two basic approaches for using the GRI Standards. For each way of using the Standards there is a corresponding claim, or statement of use, which an organization is required to include in any published materials.",
+            "1. The GRI Standards can be used as a set to prepare a sustainability report that is in accordance with the Standards. There are two options for preparing a report in accordance (Core or Comprehensive), depending on the extent of disclosures included in the report.",
+            "An organization preparing a report in accordance with the GRI Standards uses this Standard, GRI 306: Effluents and Waste, if this is one of its material topics.",
+            "2. Selected GRI Standards, or parts of their content, can also be used to report specific information, without preparing a report in accordance with the Standards. Any published materials that use the GRI Standards in this way are to include a ‘GRI-referenced’ claim.",
+            "C. Requirements, recommendations and guidance",
+            "The GRI Standards include:",
+            "Requirements . These are mandatory instructions. In the text, requirements are presented in bold font and indicated with the word ‘shall’. Requirements are to be read in the context of recommendations and guidance; however, an organization is not required to comply with recommendations or guidance in order to claim that a report has been prepared in accordance with the Standards.",
+            "Guidance . These sections include background information, explanations and examples to help organizations better understand the requirements.",
+            "An organization is required to comply with all applicable requirements in order to claim that its report has been prepared in accordance with the GRI Standards. See GRI 101: Foundation for more information.",
+            "Note: Disclosures 306-1, 306-2, 306-4 and 306-5 have been revised and superseded by GRI 303 (2018) and GRI 306 (2020)",
+            "GRI 306: Effluents and Waste 2016",
+            "5",
+            "D. Background context",
+            "In the context of the GRI Standards, the environmental dimension of sustainability concerns an organization’s impacts on living and non-living natural systems, including land, air, water, and ecosystems.",
+            "The generation, treatment and disposal of waste – including its improper transportation – can also pose harm to human health and the environment. This is of particular concern if waste is transported to countries lacking the infrastructure and regulations to handle it.",
+            "Spills of chemicals, oils, and fuels, among other substances, can potentially affect soil, water, air, biodiversity, and human health.",
+            "The disclosures in this Standard can provide information about an organization’s impacts related to effluents and waste, and how it manages these impacts. GRI 306: Effluents and Waste",
+            "This Standard includes disclosures on the management approach and topic-specific disclosures. These are set out in the Standard as follows:",
+            "• Management approach disclosures (this section references GRI 103) • Disclosure 306-1 Water discharge by quality and destination • Disclosure 306-2 Waste by type and disposal method • Disclosure 306-3 Significant spills • Disclosure 306-4 Transport of hazardous waste • Disclosure 306-5 Water bodies affected by water discharges and/or runoff",
+            "1. Management approach disclosures",
+            "When reporting its management approach for effluents and waste, the reporting organization can also disclose expenditures on: GUIDANCE",
+            "treatment and disposal of waste; • clean-up costs, including costs for remediation of spills as specified in Disclosure 306-3. •"
+          ],
+          "tables": [
+            {
+              "headers": [
+                "GRI 101: Foundation is the starting point for using the GRI Standards. It has essential information on how to use and",
+                ""
+              ],
+              "rows": [
+                [
+                  "reference the Standards.",
+                  ""
+                ]
+              ],
+              "row_count": 1,
+              "col_count": 2,
+              "page_num": 4,
+              "bbox": [
+                57.0,
+                256.25,
+                532.276457134046,
+                278.75
+              ]
+            },
+            {
+              "headers": [
+                "An organization then selects from the set of topic-specific GRI Standards for reporting on its material topics. Thes",
+                "e"
+              ],
+              "rows": [
+                [
+                  "Standards are organized into three series: 200 (Economic topics), 300 (Environmental topics) and 400 (Social topics",
+                  ""
+                ]
+              ],
+              "row_count": 1,
+              "col_count": 2,
+              "page_num": 4,
+              "bbox": [
+                57.0,
+                289.25,
+                532.276457134046,
+                311.75
+              ]
+            },
+            {
+              "headers": [
+                "See Section 3 of GRI 101: Foundation for more information on how to use the GRI Standards, and the specific claims",
+                ""
+              ],
+              "rows": [
+                [
+                  "that organizations are required to include in any published materials.",
+                  ""
+                ]
+              ],
+              "row_count": 1,
+              "col_count": 2,
+              "page_num": 4,
+              "bbox": [
+                57.0,
+                556.25,
+                532.276457134046,
+                578.75
+              ]
+            },
+            {
+              "headers": [
+                "Recommendations. These are cases where a particular course of action is encouraged, but not required. In the text,",
+                ""
+              ],
+              "rows": [
+                [
+                  "the word ‘should’ indicates a recommendation.",
+                  ""
+                ]
+              ],
+              "row_count": 1,
+              "col_count": 2,
+              "page_num": 4,
+              "bbox": [
+                57.0,
+                688.25,
+                532.276457134046,
+                710.75
+              ]
+            },
+            {
+              "headers": [
+                "GRI 306 addresses the topic of effluents and waste. This includes water discharges; the generation, treatment and",
+                ""
+              ],
+              "rows": [
+                [
+                  "disposal of waste; and spills of chemicals, oils, fuels, and other substances.",
+                  ""
+                ]
+              ],
+              "row_count": 1,
+              "col_count": 2,
+              "page_num": 5,
+              "bbox": [
+                57.0,
+                131.25,
+                525.75,
+                153.75
+              ]
+            },
+            {
+              "headers": [
+                "The impacts of water discharges vary depending on the quantity, quality, and destination of the discharge. The",
+                "",
+                ""
+              ],
+              "rows": [
+                [
+                  "unmanaged discharge of effluents with a high chemical or nutrient load (principally nitrogen, phosphorous, or",
+                  "",
+                  ""
+                ],
+                [
+                  "potassium) can affect aquatic habitats, the quality of an available water supply, and an organization’s relationship wit",
+                  "",
+                  ""
+                ],
+                [
+                  "communities and other water users.",
+                  "",
+                  ""
+                ]
+              ],
+              "row_count": 3,
+              "col_count": 3,
+              "page_num": 5,
+              "bbox": [
+                57.0,
+                164.25,
+                534.4232835036057,
+                210.75
+              ]
+            },
+            {
+              "headers": [
+                "These concepts are covered by the Basel and Ramsar Conventions, and in key instruments of the Internationa",
+                ""
+              ],
+              "rows": [
+                [
+                  "Maritime Organization: see References.",
+                  ""
+                ]
+              ],
+              "row_count": 1,
+              "col_count": 2,
+              "page_num": 5,
+              "bbox": [
+                57.0,
+                299.25,
+                506.85,
+                321.75
+              ]
+            },
+            {
+              "headers": [
+                "The disclosures in this Standard can provide information about an organization’s impacts related to effluents and",
+                ""
+              ],
+              "rows": [
+                [
+                  "waste, and how it manages these impacts.",
+                  ""
+                ]
+              ],
+              "row_count": 1,
+              "col_count": 2,
+              "page_num": 5,
+              "bbox": [
+                57.0,
+                332.25,
+                517.125,
+                354.75
+              ]
+            },
+            {
+              "headers": [
+                "• Disclosure 306-4 Transport of hazardous waste",
+                ""
+              ],
+              "rows": [
+                [
+                  "• Disclosure 306-5 Water bodies affected by water discharges and/or runoff",
+                  ""
+                ]
+              ],
+              "row_count": 1,
+              "col_count": 2,
+              "page_num": 5,
+              "bbox": [
+                57.0,
+                477.0,
+                363.75,
+                499.5
+              ]
+            },
+            {
+              "headers": [
+                "Management approach disclosures are a narrative explanation of how an organization manages a material topic, the",
+                ""
+              ],
+              "rows": [
+                [
+                  "associated impacts, and stakeholders’ reasonable expectations and interests. Any organization that claims its report",
+                  ""
+                ],
+                [
+                  "has been prepared in accordance with the GRI Standards is required to report on its management approach for every",
+                  ""
+                ],
+                [
+                  "material topic, as well as reporting topic-specific disclosures for those topics.",
+                  ""
+                ]
+              ],
+              "row_count": 3,
+              "col_count": 2,
+              "page_num": 5,
+              "bbox": [
+                57.0,
+                531.0,
+                534.4232835036057,
+                577.5
+              ]
+            },
+            {
+              "headers": [
+                "Therefore, this topic-specific Standard is designed to be used together with GRI 103: Management Approach in order",
+                ""
+              ],
+              "rows": [
+                [
+                  "to provide full disclosure of the organization’s impacts. GRI 103 specifies how to report on the management approac",
+                  ""
+                ],
+                [
+                  "and what information to provide.",
+                  ""
+                ]
+              ],
+              "row_count": 2,
+              "col_count": 2,
+              "page_num": 5,
+              "bbox": [
+                57.0,
+                588.0,
+                534.4232835036057,
+                622.5
+              ]
+            },
+            {
+              "headers": [
+                "1.1 The reporting organization shall report its management approach for effluents and waste",
+                ""
+              ],
+              "rows": [
+                [
+                  "using GRI 103: Management Approach.",
+                  ""
+                ]
+              ],
+              "row_count": 1,
+              "col_count": 2,
+              "page_num": 5,
+              "bbox": [
+                144.75,
+                632.8125,
+                522.0,
+                654.0
+              ]
+            }
+          ],
+          "page_start": 3,
+          "page_end": 5
+        },
+        {
+          "id": "2. Topic disclosures",
+          "label": "2. Topic disclosures",
+          "text": "2. Topic disclosures",
+          "requirements": [],
+          "content": [
+            "Note: Disclosures 306-1, 306-2, 306-4 and 306-5 have been revised and superseded by GRI 303 (2018) and GRI 306 (2020)",
+            "GRI 306: Effluents and Waste 2016",
+            "6"
+          ],
+          "tables": [],
+          "page_start": 5,
+          "page_end": 6
+        },
+        {
+          "id": "2. Topic disclosures",
+          "label": "2. Topic disclosures",
+          "text": "2. Topic disclosures",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 6,
+          "page_end": 6
+        },
+        {
+          "id": "Disclosure 306-1 Water discharge by quality and de",
+          "label": "Disclosure 306-1 Water discharge by quality and destination",
+          "text": "Disclosure 306-1 Water discharge by quality and destination",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "a.",
+                "Total volume of planned and unplanned water discharges by:",
+                "destination; i.",
+                "quality of the water, including treatment method; ii.",
+                "whether the water was reused by another organization. iii.",
+                "Standards, methodologies, and assumptions used. b.",
+                "Compilation requirements 2.1 When compiling the information specified in Disclosure 306-1, the reporting organization shall:",
+                "2.1.1 exclude collected rainwater and domestic sewage from the volume of planned and unplanned water discharges; 2.1.2 if it does not have a meter to measure water discharges, estimate the volume of planned and unplanned water discharges by subtracting the approximate volume consumed on-site from the volume withdrawn as specified in Disclosure 303-1 of GRI 303: Water .",
+                "When compiling the information specified in Disclosure 306-1, the reporting organization should:"
+              ],
+              "tables": [],
+              "page_start": 6,
+              "page_end": 6
+            },
+            {
+              "type": "RECOMMENDATIONS",
+              "text": "RECOMMENDATIONS",
+              "content": [
+                "2.2.2 select parameters that are consistent with those used in the organization’s sector."
+              ],
+              "tables": [
+                {
+                  "headers": [
+                    "2.2.1 if it discharges effluents or process water, report water quality in terms of total volumes of",
+                    ""
+                  ],
+                  "rows": [
+                    [
+                      "effluent using standard effluent parameters, such as Biological Oxygen Demand (BOD) or Total",
+                      ""
+                    ],
+                    [
+                      "Suspended Solids (TSS);",
+                      ""
+                    ]
+                  ],
+                  "row_count": 2,
+                  "col_count": 2,
+                  "page_num": 6,
+                  "bbox": [
+                    144.75,
+                    400.25,
+                    533.7710571289062,
+                    434.75
+                  ]
+                },
+                {
+                  "headers": [
+                    "Guidance for Disclosure 306-1",
+                    ""
+                  ],
+                  "rows": [
+                    [
+                      "In the context of this Standard, ‘water discharge’ includes water effluents discharged over the",
+                      ""
+                    ],
+                    [
+                      "course of the reporting period. These effluents can be discharged to subsurface waters, surface",
+                      ""
+                    ],
+                    [
+                      "waters, sewers that lead to rivers, oceans, lakes, wetlands, treatment facilities, and ground",
+                      ""
+                    ],
+                    [
+                      "water, either:",
+                      ""
+                    ],
+                    [
+                      "• • •",
+                      "through a defined discharge point (point source discharge);"
+                    ],
+                    [
+                      "",
+                      "over land in a dispersed or undefined manner (non-point source discharge);"
+                    ],
+                    [
+                      "",
+                      "as wastewater removed from the organization via truck."
+                    ]
+                  ],
+                  "row_count": 7,
+                  "col_count": 2,
+                  "page_num": 6,
+                  "bbox": [
+                    144.75,
+                    467.0,
+                    533.7710571289062,
+                    562.25
+                  ]
+                }
+              ],
+              "page_start": 6,
+              "page_end": 6
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Discharge of collected rainwater and domestic sewage is not considered to be water discharge.",
+                "Water quality metrics can vary depending on national or regional regulations.",
+                "Note: Disclosures 306-1, 306-2, 306-4 and 306-5 have been revised and superseded by GRI 303 (2018) and GRI 306 (2020)",
+                "GRI 306: Effluents and Waste 2016",
+                "7"
+              ],
+              "tables": [
+                {
+                  "headers": [
+                    "Guidance for clause 2.2",
+                    "",
+                    ""
+                  ],
+                  "rows": [
+                    [
+                      "The specific choice of water quality parameters can vary depending on the organization’s",
+                      "",
+                      ""
+                    ],
+                    [
+                      "products, services, and operations.",
+                      "",
+                      ""
+                    ]
+                  ],
+                  "row_count": 2,
+                  "col_count": 3,
+                  "page_num": 6,
+                  "bbox": [
+                    144.75,
+                    593.75,
+                    506.4375,
+                    628.25
+                  ]
+                }
+              ],
+              "page_start": 6,
+              "page_end": 7
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information:"
+          ],
+          "tables": [],
+          "page_start": 6,
+          "page_end": 7
+        },
+        {
+          "id": "Disclosure 306-2 Waste by type and disposal method",
+          "label": "Disclosure 306-2 Waste by type and disposal method",
+          "text": "Disclosure 306-2 Waste by type and disposal method",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "Compilation requirements",
+                "2.3 When compiling the information specified in Disclosure 306-2, the reporting organization shall:",
+                "2.3.1 identify hazardous waste as defined by national legislation at the point of generation; 2.3.2 exclude non-hazardous wastewater from the calculation of non-hazardous waste; 2.3.3 if no weight data are available, estimate the weight using available information on waste density and volume collected, mass balances, or similar information.",
+                "Background Information about waste disposal methods reveals the extent to which an organization has managed the balance between disposal options and uneven environmental impacts. For example, land filling and recycling create very different types of environmental impacts and residual effects. Most waste minimization strategies emphasize prioritizing options for reuse, recycling, and then recovery over other disposal options to minimize ecological impacts."
+              ],
+              "tables": [
+                {
+                  "headers": [
+                    "a. Total weight of hazardous waste, with a breakdown by the following disposal methods",
+                    ""
+                  ],
+                  "rows": [
+                    [
+                      "where applicable:",
+                      ""
+                    ],
+                    [
+                      "",
+                      "i. Reuse"
+                    ],
+                    [
+                      "",
+                      "ii. Recycling"
+                    ],
+                    [
+                      "",
+                      "iii. Composting"
+                    ],
+                    [
+                      "",
+                      "iv. Recovery, including energy recovery"
+                    ],
+                    [
+                      "",
+                      "v. Incineration (mass burn)"
+                    ],
+                    [
+                      "",
+                      "vi. Deep well injection"
+                    ],
+                    [
+                      "",
+                      "vii. Landfill"
+                    ],
+                    [
+                      "",
+                      "viii. On-site storage"
+                    ],
+                    [
+                      "",
+                      "ix. Other (to be specified by the organization)"
+                    ]
+                  ],
+                  "row_count": 10,
+                  "col_count": 2,
+                  "page_num": 7,
+                  "bbox": [
+                    144.75,
+                    128.75,
+                    507.75,
+                    259.25
+                  ]
+                },
+                {
+                  "headers": [
+                    "b. Total weight of non-hazardous waste, with a breakdown by the following disposal methods",
+                    ""
+                  ],
+                  "rows": [
+                    [
+                      "where applicable:",
+                      ""
+                    ],
+                    [
+                      "",
+                      "i. Reuse"
+                    ],
+                    [
+                      "",
+                      "ii. Recycling"
+                    ],
+                    [
+                      "",
+                      "iii. Composting"
+                    ],
+                    [
+                      "",
+                      "iv. Recovery, including energy recovery"
+                    ],
+                    [
+                      "",
+                      "v. Incineration (mass burn)"
+                    ],
+                    [
+                      "",
+                      "vi. Deep well injection"
+                    ],
+                    [
+                      "",
+                      "vii. Landfill"
+                    ],
+                    [
+                      "",
+                      "viii. On-site storage"
+                    ],
+                    [
+                      "",
+                      "ix. Other (to be specified by the organization)"
+                    ]
+                  ],
+                  "row_count": 10,
+                  "col_count": 2,
+                  "page_num": 7,
+                  "bbox": [
+                    144.75,
+                    269.75,
+                    527.5456986860795,
+                    400.25
+                  ]
+                },
+                {
+                  "headers": [
+                    "c. How the waste disposal method has been determined:",
+                    "",
+                    ""
+                  ],
+                  "rows": [
+                    [
+                      "",
+                      "i. Disposed of directly by the organization, or otherwise directly confirmed",
+                      ""
+                    ],
+                    [
+                      "",
+                      "ii. Information provided by the waste disposal contractor",
+                      ""
+                    ],
+                    [
+                      "",
+                      "iii. Organizational defaults of the waste disposal contractor",
+                      ""
+                    ]
+                  ],
+                  "row_count": 3,
+                  "col_count": 3,
+                  "page_num": 7,
+                  "bbox": [
+                    144.75,
+                    410.75,
+                    471.0,
+                    457.25
+                  ]
+                }
+              ],
+              "page_start": 7,
+              "page_end": 7
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Note: Disclosures 306-1, 306-2, 306-4 and 306-5 have been revised and superseded by GRI 303 (2018) and GRI 306 (2020)",
+                "GRI 306: Effluents and Waste 2016",
+                "8"
+              ],
+              "tables": [],
+              "page_start": 7,
+              "page_end": 8
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information:"
+          ],
+          "tables": [],
+          "page_start": 7,
+          "page_end": 8
+        },
+        {
+          "id": "Disclosure 306-3 Significant spills",
+          "label": "Disclosure 306-3 Significant spills",
+          "text": "Disclosure 306-3 Significant spills",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "a. Total number and total volume of recorded significant spills. b. The following additional information for each spill that was reported in the organization’s financial statements:",
+                "i. Location of spill; ii. Volume of spill; iii. Material of spill, categorized by: oil spills (soil or water surfaces), fuel spills (soil or water surfaces), spills of wastes (soil or water surfaces), spills of chemicals (mostly soil or water surfaces), and other (to be specified by the organization). c. Impacts of significant spills.",
+                "Note: Disclosures 306-1, 306-2, 306-4 and 306-5 have been revised and superseded by GRI 303 (2018) and GRI 306 (2020)",
+                "GRI 306: Effluents and Waste 2016",
+                "9"
+              ],
+              "tables": [],
+              "page_start": 8,
+              "page_end": 9
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information:"
+          ],
+          "tables": [],
+          "page_start": 8,
+          "page_end": 9
+        },
+        {
+          "id": "Disclosure 306-4 Transport of hazardous waste",
+          "label": "Disclosure 306-4 Transport of hazardous waste",
+          "text": "Disclosure 306-4 Transport of hazardous waste",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "i. Hazardous waste transported ii. Hazardous waste imported iii. Hazardous waste exported iv. Hazardous waste treated b. Percentage of hazardous waste shipped internationally. c. Standards, methodologies, and assumptions used.",
+                "Compilation requirements",
+                "2.4 When compiling the information specified in Disclosure 306-4, the reporting organization shall:",
+                "2.4.1 convert volumes to an estimate of weight; 2.4.2 in response to Disclosure 306-4-c, provide a brief explanation of the methodology used for making these conversions.",
+                "Guidance for Disclosure 306-4 This disclosure covers waste deemed hazardous under the terms of the Basel Convention Annex I, II, III, and VIII (see reference 1 in the References section). It covers hazardous waste transported by or on behalf of the reporting organization within the reporting period by destination, including transport across operational boundaries and within operations. The organization can calculate the total weight of transported hazardous waste using the following equation:"
+              ],
+              "tables": [
+                {
+                  "headers": [
+                    "a. Total weight for each of the following:",
+                    ""
+                  ],
+                  "rows": [
+                    [
+                      "",
+                      "i. Hazardous waste transported"
+                    ],
+                    [
+                      "",
+                      "ii. Hazardous waste imported"
+                    ],
+                    [
+                      "",
+                      "iii. Hazardous waste exported"
+                    ],
+                    [
+                      "",
+                      "iv. Hazardous waste treated"
+                    ]
+                  ],
+                  "row_count": 4,
+                  "col_count": 2,
+                  "page_num": 9,
+                  "bbox": [
+                    174.75,
+                    119.25,
+                    334.3125,
+                    178.25
+                  ]
+                },
+                {
+                  "headers": [
+                    "b. Percentage of hazardous waste shipped internationally.",
+                    ""
+                  ],
+                  "rows": [
+                    [
+                      "c. Standards, methodologies, and assumptions used.",
+                      ""
+                    ]
+                  ],
+                  "row_count": 1,
+                  "col_count": 2,
+                  "page_num": 9,
+                  "bbox": [
+                    174.75,
+                    178.25,
+                    411.75,
+                    201.5
+                  ]
+                }
+              ],
+              "page_start": 9,
+              "page_end": 9
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Imported hazardous waste can be calculated as the total weight of hazardous waste transported across international borders and which enters the boundaries of the organization, by destination, excluding waste transported between different locations of the organization.",
+                "Exported hazardous waste can be calculated as the proportion of the total amount of transported hazardous waste by destination that is transported from the organization to locations abroad, including all waste that leaves the boundaries of the organization to cross international borders and excluding transportation between different locations of the organization.",
+                "For treated waste, the organization can identify: • the portion of the total amount of transported and exported waste that the organization has treated, by destination; • the portion of the total amount of waste, by destination, that is treated by external sources/suppliers, that has been transported, exported, or imported by the organization.",
+                "Note: Disclosures 306-1, 306-2, 306-4 and 306-5 have been revised and superseded by GRI 303 (2018) and GRI 306 (2020)",
+                "GRI 306: Effluents and Waste 2016",
+                "10"
+              ],
+              "tables": [
+                {
+                  "headers": [
+                    "Total weight of hazardous waste",
+                    ""
+                  ],
+                  "rows": [
+                    [
+                      "transported by destination",
+                      ""
+                    ],
+                    [
+                      "=",
+                      ""
+                    ],
+                    [
+                      "Weight of hazardous waste transported to the organization by destination from external",
+                      ""
+                    ],
+                    [
+                      "sources/suppliers not owned by the organization",
+                      ""
+                    ],
+                    [
+                      "+",
+                      ""
+                    ],
+                    [
+                      "Weight of hazardous waste transported from the organization by destination to external",
+                      ""
+                    ],
+                    [
+                      "sources/suppliers not owned by the organization",
+                      ""
+                    ],
+                    [
+                      "+",
+                      ""
+                    ],
+                    [
+                      "Weight of hazardous waste transported nationally and internationally by destination between",
+                      ""
+                    ],
+                    [
+                      "locations owned, leased, or managed by the organization",
+                      ""
+                    ]
+                  ],
+                  "row_count": 10,
+                  "col_count": 2,
+                  "page_num": 9,
+                  "bbox": [
+                    144.75,
+                    405.5,
+                    520.875,
+                    536.0
+                  ]
+                }
+              ],
+              "page_start": 9,
+              "page_end": 10
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information:"
+          ],
+          "tables": [],
+          "page_start": 9,
+          "page_end": 10
+        },
+        {
+          "id": "Disclosure 306-5 Water bodies affected by water di",
+          "label": "Disclosure 306-5 Water bodies affected by water discharges and/or runoff",
+          "text": "Disclosure 306-5 Water bodies affected by water discharges and/or runoff",
+          "requirements": [
+            {
+              "type": "REQUIREMENTS",
+              "text": "REQUIREMENTS",
+              "content": [
+                "a. Water bodies and related habitats that are significantly affected by water discharges and/or runoff, including information on:",
+                "i. the size of the water body and related habitat; ii. whether the water body and related habitat is designated as a nationally or internationally protected area; iii. the biodiversity value, such as total number of protected species."
+              ],
+              "tables": [
+                {
+                  "headers": [
+                    "Compilation requirements",
+                    "",
+                    ""
+                  ],
+                  "rows": [
+                    [
+                      "2.5 When compiling the information in Disclosure 306-5, the reporting organization shall repor",
+                      "",
+                      ""
+                    ],
+                    [
+                      "water bodies and related habitats significantly affected by water discharges and/or runoff that meet one or more of the following criteria: 2.5.1 Discharges account for an average of five percent or more of the annual average volume of the water body; 2.5.2 Discharges that, on the advice of appropriate professionals, such as municipal authorities, are known to have or are highly likely to have significant impacts on the wat body and associated habitats; 2.5.3 Discharges to water bodies that are recognized by professionals to be particularly sensitive due to their relative size, function, or status as a rare, threatened, or endangered system, or that support a particular endangered species of plant or animal; 2.5.4 Any discharge to a wetland listed in the Ramsar Convention or any other nationall or internationally proclaimed conservation area regardless of the rate of discharge; 2.5.5 The water body has been identified as having a high biodiversity value, such as species diversity and endemism, or total number of protected species; 2.5.6 The water body has been identified as having a high value or importance to local communities.",
+                      "",
+                      ""
+                    ],
+                    [
+                      "meet one or more of the following criteria:",
+                      "",
+                      ""
+                    ],
+                    [
+                      "",
+                      "communities.",
+                      ""
+                    ]
+                  ],
+                  "row_count": 4,
+                  "col_count": 3,
+                  "page_num": 10,
+                  "bbox": [
+                    144.75,
+                    229.25,
+                    528.3473714192709,
+                    467.75
+                  ]
+                },
+                {
+                  "headers": [
+                    "authorities, are known to have or are highly likely to have significant impacts on the wat",
+                    ""
+                  ],
+                  "rows": [
+                    [
+                      "body and associated habitats;",
+                      ""
+                    ],
+                    [
+                      "2.5.3 Discharges to water bodies that are recognized by professionals to be particularly",
+                      ""
+                    ],
+                    [
+                      "sensitive due to their relative size, function, or status as a rare, threatened, or",
+                      ""
+                    ],
+                    [
+                      "endangered system,",
+                      ""
+                    ],
+                    [
+                      "or that support a particular endangered species of plant or animal;",
+                      ""
+                    ],
+                    [
+                      "2.5.4 Any discharge to a wetland listed in the Ramsar Convention or any other nationall",
+                      ""
+                    ],
+                    [
+                      "or internationally proclaimed conservation area regardless of the rate of discharge;",
+                      ""
+                    ]
+                  ],
+                  "row_count": 7,
+                  "col_count": 2,
+                  "page_num": 10,
+                  "bbox": [
+                    174.75,
+                    324.5,
+                    528.3473714192709,
+                    420.5
+                  ]
+                }
+              ],
+              "page_start": 10,
+              "page_end": 10
+            },
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "See references 4 and 5 in the References section.",
+                "Note: Disclosures 306-1, 306-2, 306-4 and 306-5 have been revised and superseded by GRI 303 (2018) and GRI 306 (2020)",
+                "GRI 306: Effluents and Waste 2016",
+                "11",
+                "Glossary",
+                "This glossary provides definitions for terms used in this Standard. The organization is required to apply these definitions when using the GRI Standards.",
+                "The definitions included in this glossary may contain terms that are further defined in the complete GRI Standards Glossary . All defined terms are underlined. If a term is not defined in this glossary or in the complete GRI Standards Glossary , definitions that are commonly used and understood apply.",
+                "significant spill spill that is included in the organization’s financial statements, for example due to resulting liabilities, or is recorded as a spill by the organization",
+                "S",
+                "spill accidental release of a hazardous substance that can affect human health, land, vegetation, waterbodies, and groundwater",
+                "Bibliography",
+                "Note: Disclosures 306-1, 306-2, 306-4 and 306-5 have been revised and superseded by GRI 303 (2018) and GRI 306 (2020)",
+                "GRI 306: Effluents and Waste 2016",
+                "12",
+                "Bibliography",
+                "Authoritative instruments: 1. Basel Convention, ‘Ban Amendment to the Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and their Disposal’, 1995.",
+                "2. International Maritime Organization (IMO) Convention, ‘Convention on the Prevention of Marine Pollution by Dumping of Wastes and Other Matter’ (London Convention), 1972.",
+                "3. International Maritime Organization (IMO) Convention, ‘International Convention for the Prevention of Pollution from Ships (Marpol)’, 1973, as modified by the Protocol of 1978.",
+                "4. Ramsar Convention, ‘The Convention on Wetlands of International Importance especially as Waterfowl Habitat’, 1994.",
+                "Other relevant references: 5. International Union for Conservation of Nature (IUCN), Red List of Threatened Species, http://www.iucnredlist.org/, accessed on 1 September 2016.",
+                "PO Box 10039",
+                "1001 EA Amsterdam",
+                "The Netherlands",
+                "www.globalreporting.org"
+              ],
+              "tables": [
+                {
+                  "headers": [
+                    "and helps to describe the impact of these discharges. Discharges and runoff affecting aquatic",
+                    ""
+                  ],
+                  "rows": [
+                    [
+                      "habitats can have a significant impact on the availability of water resources.",
+                      ""
+                    ]
+                  ],
+                  "row_count": 1,
+                  "col_count": 2,
+                  "page_num": 10,
+                  "bbox": [
+                    144.75,
+                    500.0,
+                    528.3473714192709,
+                    523.25
+                  ]
+                }
+              ],
+              "page_start": 10,
+              "page_end": 13
+            }
+          ],
+          "content": [
+            "The reporting organization shall report the following information:"
+          ],
+          "tables": [],
+          "page_start": 10,
+          "page_end": 13
+        }
+      ]
+    }
+  ]
+}

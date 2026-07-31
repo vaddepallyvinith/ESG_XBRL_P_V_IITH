@@ -1,0 +1,16 @@
+{
+  "model_evaluated": "llama3:70b (ollama)",
+  "endpoint": "http://localhost:11434",
+  "weights": {
+    "lexical": 0.35,
+    "structural": 0.2,
+    "property": 0.15,
+    "embedding": 0.3
+  },
+  "total_source_disclosures": 74,
+  "total_target_disclosures": 70,
+  "candidate_pairs_evaluated": 4155,
+  "final_mappings": 79,
+  "accepted_mappings": 79,
+  "rejected_mappings": 0
+}

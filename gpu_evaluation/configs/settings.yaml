@@ -1,0 +1,37 @@
+# GPU Evaluation Settings Configuration
+project:
+  name: "ESG Ontology Multi-LLM Evaluation Engine"
+  version: "3.0.0-gpu"
+
+data:
+  ontologies_dir: "ontologies/merged"
+  mappings_dir: "datasets"
+  output_dir: "outputs"
+  reports_dir: "reports"
+  visualizations_dir: "visualizations"
+  checkpoints_dir: "checkpoints"
+  cache_dir: "cache"
+  logs_dir: "logs"
+
+evaluation:
+  batch_size: 10
+  max_retry_attempts: 3
+  timeout_seconds: 60
+  checkpoint_interval: 10
+  confidence_threshold: 0.25
+
+llm_providers:
+  config_file: "configs/providers.yaml"
+  default_provider: "groq"
+  fallback_providers:
+    - "gemini"
+    - "openai"
+    - "ollama"
+
+weights:
+  use_learned_weights: false
+  given_weights:
+    lexical: 0.35
+    structural: 0.20
+    property: 0.15
+    embedding: 0.30

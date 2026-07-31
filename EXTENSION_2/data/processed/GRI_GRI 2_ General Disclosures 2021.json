@@ -1,0 +1,1878 @@
+{
+  "framework": "GRI",
+  "source_file": "GRI 2_ General Disclosures 2021.pdf",
+  "total_pages": 58,
+  "content": [],
+  "tables": [],
+  "standards": [
+    {
+      "standard_id": "GRI 2: General Disclosures 2021",
+      "title": "GRI 2: General Disclosures 2021",
+      "page_start": 1,
+      "page_end": 1,
+      "content": [
+        "EFFECTIVE DATE: 1 JANUARY 2023 UNIVERSAL STANDARD 2"
+      ],
+      "tables": [],
+      "disclosures": []
+    },
+    {
+      "standard_id": "GRI 2: General Disclosures 2021",
+      "title": "GRI 2: General Disclosures 2021",
+      "page_start": 2,
+      "page_end": 2,
+      "content": [
+        "Universal Standard",
+        "Effective Date This Standard is effective for reports or other materials published on or after 1 January 2023",
+        "Responsibility This Standard is issued by the Global Sustainability Standards Board (GSSB) . Any feedback on the GRI Standards can be submitted to gssbsecretariat@globalreporting.org for the consideration of the GSSB.",
+        "Due Process This Standard was developed in the public interest and in accordance with the requirements of the GSSB Due Process Protocol. It has been developed using multi-stakeholder expertise, and with regard to authoritative intergovernmental instruments and widely held expectations of organizations relating to social, environmental, and economic responsibilities.",
+        "Legal Liability This document, designed to promote sustainability reporting, has been developed by the Global Sustainability Standards Board (GSSB) through a unique multi-stakeholder consultative process involving representatives from organizations and report information users from around the world. While the GRI Supervisory Board, Management Board, and GSSB encourage the use of the GRI Sustainability Reporting Standards (GRI Standards) and related Interpretations by all organizations, the preparation and publication of reports based fully or partially on the GRI Standards and related Interpretations are the full responsibility of those producing them. Neither the GRI Supervisory Board, Management Board, GSSB, nor Stichting Global Reporting Initiative (GRI) can assume responsibility for any consequences or damages resulting directly or indirectly from the use of the GRI Standards and related Interpretations in the preparation of reports, or the use of reports based on the GRI Standards and related Interpretations.",
+        "Copyright and trademark notice This document is copyright-protected by Stichting Global Reporting Initiative (GRI). The reproduction and distribution of this document for information and/or use in preparing a sustainability report is permitted without prior permission from GRI. However, neither this document nor any extract from it may be reproduced, stored, translated, or transferred in any form or by any means (electronic, mechanical, photocopied, recorded, or otherwise) for any other purpose without prior written permission from GRI.",
+        "Global Reporting Initiative, GRI and logo, GSSB and logo, and GRI Sustainability Reporting Standards (GRI Standards) and logo are trademarks of Stichting Global Reporting Initiative.",
+        "© 2025 GRI. All rights reserved.",
+        "ISBN 978-90-8866-134-1"
+      ],
+      "tables": [],
+      "disclosures": []
+    },
+    {
+      "standard_id": "GRI 2: General Disclosures 2021 3",
+      "title": "GRI 2: General Disclosures 2021 3",
+      "page_start": 3,
+      "page_end": 58,
+      "content": [],
+      "tables": [],
+      "disclosures": [
+        {
+          "id": "Disclosure 2-1 Organizational details 8",
+          "label": "Disclosure 2-1 Organizational details 8",
+          "text": "Disclosure 2-1 Organizational details 8",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-2 Entities included in the organizati",
+          "label": "Disclosure 2-2 Entities included in the organization’s sustainability reporting 9",
+          "text": "Disclosure 2-2 Entities included in the organization’s sustainability reporting 9",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-3 Reporting period, frequency and con",
+          "label": "Disclosure 2-3 Reporting period, frequency and contact point 10",
+          "text": "Disclosure 2-3 Reporting period, frequency and contact point 10",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-4 Restatements of information 11",
+          "label": "Disclosure 2-4 Restatements of information 11",
+          "text": "Disclosure 2-4 Restatements of information 11",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-5 External assurance 12",
+          "label": "Disclosure 2-5 External assurance 12",
+          "text": "Disclosure 2-5 External assurance 12",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-6 Activities, value chain and other b",
+          "label": "Disclosure 2-6 Activities, value chain and other business relationships 13",
+          "text": "Disclosure 2-6 Activities, value chain and other business relationships 13",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-7 Employees 15",
+          "label": "Disclosure 2-7 Employees 15",
+          "text": "Disclosure 2-7 Employees 15",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-8 Workers who are not employees 18",
+          "label": "Disclosure 2-8 Workers who are not employees 18",
+          "text": "Disclosure 2-8 Workers who are not employees 18",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-9 Governance structure and compositio",
+          "label": "Disclosure 2-9 Governance structure and composition 20",
+          "text": "Disclosure 2-9 Governance structure and composition 20",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-10 Nomination and selection of the hi",
+          "label": "Disclosure 2-10 Nomination and selection of the highest governance body 21",
+          "text": "Disclosure 2-10 Nomination and selection of the highest governance body 21",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-11 Chair of the highest governance bo",
+          "label": "Disclosure 2-11 Chair of the highest governance body 22",
+          "text": "Disclosure 2-11 Chair of the highest governance body 22",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-12 Role of the highest governance bod",
+          "label": "Disclosure 2-12 Role of the highest governance body in overseeing the management of impacts 23",
+          "text": "Disclosure 2-12 Role of the highest governance body in overseeing the management of impacts 23",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-13 Delegation of responsibility for m",
+          "label": "Disclosure 2-13 Delegation of responsibility for managing impacts 24",
+          "text": "Disclosure 2-13 Delegation of responsibility for managing impacts 24",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-14 Role of the highest governance bod",
+          "label": "Disclosure 2-14 Role of the highest governance body in sustainability reporting 25",
+          "text": "Disclosure 2-14 Role of the highest governance body in sustainability reporting 25",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-15 Conflicts of interest 26",
+          "label": "Disclosure 2-15 Conflicts of interest 26",
+          "text": "Disclosure 2-15 Conflicts of interest 26",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-16 Communication of critical concerns",
+          "label": "Disclosure 2-16 Communication of critical concerns 27",
+          "text": "Disclosure 2-16 Communication of critical concerns 27",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-17 Collective knowledge of the highes",
+          "label": "Disclosure 2-17 Collective knowledge of the highest governance body 28",
+          "text": "Disclosure 2-17 Collective knowledge of the highest governance body 28",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-18 Evaluation of the performance of t",
+          "label": "Disclosure 2-18 Evaluation of the performance of the highest governance body 29",
+          "text": "Disclosure 2-18 Evaluation of the performance of the highest governance body 29",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-19 Remuneration policies 30",
+          "label": "Disclosure 2-19 Remuneration policies 30",
+          "text": "Disclosure 2-19 Remuneration policies 30",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-20 Process to determine remuneration",
+          "label": "Disclosure 2-20 Process to determine remuneration 31",
+          "text": "Disclosure 2-20 Process to determine remuneration 31",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-21 Annual total compensation ratio 32",
+          "label": "Disclosure 2-21 Annual total compensation ratio 32",
+          "text": "Disclosure 2-21 Annual total compensation ratio 32",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-22 Statement on sustainable developme",
+          "label": "Disclosure 2-22 Statement on sustainable development strategy 34",
+          "text": "Disclosure 2-22 Statement on sustainable development strategy 34",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-23 Policy commitments 35",
+          "label": "Disclosure 2-23 Policy commitments 35",
+          "text": "Disclosure 2-23 Policy commitments 35",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-24 Embedding policy commitments 38",
+          "label": "Disclosure 2-24 Embedding policy commitments 38",
+          "text": "Disclosure 2-24 Embedding policy commitments 38",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-25 Processes to remediate negative im",
+          "label": "Disclosure 2-25 Processes to remediate negative impacts 40",
+          "text": "Disclosure 2-25 Processes to remediate negative impacts 40",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 3
+        },
+        {
+          "id": "Disclosure 2-26 Mechanisms for seeking advice and",
+          "label": "Disclosure 2-26 Mechanisms for seeking advice and raising concerns 43",
+          "text": "Disclosure 2-26 Mechanisms for seeking advice and raising concerns 43",
+          "requirements": [],
+          "content": [
+            "GRI 2: General Disclosures 2021 4"
+          ],
+          "tables": [],
+          "page_start": 3,
+          "page_end": 4
+        },
+        {
+          "id": "Disclosure 2-27 Compliance with laws and regulatio",
+          "label": "Disclosure 2-27 Compliance with laws and regulations 44",
+          "text": "Disclosure 2-27 Compliance with laws and regulations 44",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 4,
+          "page_end": 4
+        },
+        {
+          "id": "Disclosure 2-28 Membership associations 46",
+          "label": "Disclosure 2-28 Membership associations 46",
+          "text": "Disclosure 2-28 Membership associations 46",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 4,
+          "page_end": 4
+        },
+        {
+          "id": "Disclosure 2-29 Approach to stakeholder engagement",
+          "label": "Disclosure 2-29 Approach to stakeholder engagement 47",
+          "text": "Disclosure 2-29 Approach to stakeholder engagement 47",
+          "requirements": [],
+          "content": [],
+          "tables": [],
+          "page_start": 4,
+          "page_end": 4
+        },
+        {
+          "id": "Disclosure 2-30 Collective bargaining agreements 4",
+          "label": "Disclosure 2-30 Collective bargaining agreements 49",
+          "text": "Disclosure 2-30 Collective bargaining agreements 49",
+          "requirements": [],
+          "content": [
+            "GRI 2: General Disclosures 2021 5",
+            "Introduction",
+            "GRI 2: General Disclosures 2021 contains disclosures for organizations to provide information about their reporting practices; activities and workers; governance; strategy, policies, and practices; and stakeholder engagement. This information gives insight into the profile and scale of organizations and provides a context for understanding their impacts.",
+            "The Standard is structured as follows:",
+            "Section 1 contains five disclosures, which provide information about the organization, its sustainability reporting practices, and the entities included in its sustainability reporting. •",
+            "Section 2 contains three disclosures, which provide information about the organization’s activities, employees, and other workers. •",
+            "Section 3 contains thirteen disclosures, which provide information about the organization’s governance structure, composition, roles, and remuneration. •",
+            "Section 4 contains seven disclosures, which provide information about the organization’s sustainable development strategy and its policies and practices for responsible business conduct. •",
+            "Section 5 contains two disclosures, which provide information about the organization’s stakeholder engagement practices and how it engages in collective bargaining with employees. •",
+            "The Glossary contains defined terms with a specific meaning when used in the GRI Standards. The terms are underlined in the text of the GRI Standards and linked to the definitions. •",
+            "The Bibliography lists authoritative intergovernmental instruments and additional references used in developing this Standard, as well as resources that the organization can consult. •",
+            "The rest of the Introduction section provides an overview of the system of GRI Standards and further information on using this Standard.",
+            "System of GRI Standards This Standard is part of the GRI Sustainability Reporting Standards (GRI Standards). The GRI Standards enable an organization to report information about its most significant impacts on the economy, environment, and people, including impacts on their human rights, and how it manages these impacts.",
+            "The GRI Standards are structured as a system of interrelated standards that are organized into three series: GRI Universal Standards, GRI Sector Standards, and GRI Topic Standards (see Figure 1 in this Standard).",
+            "Universal Standards: GRI 1, GRI 2 and GRI 3 GRI 1: Foundation 2021 specifies the requirements that the organization must comply with to report in accordance with the GRI Standards. The organization begins using the GRI Standards by consulting GRI 1 .",
+            "GRI 2: General Disclosures 2021 contains disclosures that the organization uses to provide information about its reporting practices and other organizational details, such as its activities, governance, and policies.",
+            "GRI 3: Material Topics 2021 provides guidance on how to determine material topics. It also contains disclosures that the organization uses to report information about its process of determining material topics, its list of material topics, and how it manages each topic.",
+            "Sector Standards The Sector Standards provide information for organizations about their likely material topics. The organization uses the Sector Standards that apply to its sectors when determining its material topics and when determining what to report for each material topic.",
+            "Topic Standards The Topic Standards contain disclosures that the organization uses to report information about its impacts in relation to particular topics. The organization uses the Topic Standards according to the list of material topics it has determined using GRI 3 .",
+            "GRI 2: General Disclosures 2021 6",
+            "Figure 1. GRI Standards: Universal, Sector and Topic Standards",
+            "GRI Standards",
+            "Sector Standards Topic Standards Universal Standards",
+            "Requirements and principles for using the GRI Standards",
+            "Disclosures about the reporting organization",
+            "Disclosures and guidance about the organization's material topics",
+            "Select Topic Standards to report",
+            "apply to your sectors Apply all three Universal Standards to your reporting",
+            "Use the Sector Standards that",
+            "specific information on your",
+            "material topics",
+            "Using this Standard An organization reporting in accordance with the GRI Standards is required to report all disclosures in this Standard. Disclosure 2-2 in this Standard requires the organization to list its entities included in its sustainability reporting. These entities define the scope for reporting all other disclosures in this Standard.",
+            "Reasons for omission are permitted for all disclosures in this Standard except for:"
+          ],
+          "tables": [],
+          "page_start": 4,
+          "page_end": 6
+        },
+        {
+          "id": "Disclosure 2-1 Organizational details • Disclosure",
+          "label": "Disclosure 2-1 Organizational details • Disclosure 2-2 Entities included in the organization’s sustainability reporting ",
+          "text": "Disclosure 2-1 Organizational details • Disclosure 2-2 Entities included in the organization’s sustainability reporting • Disclosure 2-3 Reporting period, frequency and contact point • Disclosure 2-4 Restatements of information • Disclosure 2-5 External assurance •",
+          "requirements": [],
+          "content": [
+            "If the organization cannot comply with a disclosure or with a requirement in a disclosure for which reasons for omission are permitted (e.g., because the required information is confidential or subject to legal prohibitions), the organization is required to specify the disclosure or the requirement it cannot comply with, and provide a reason for omission together with an explanation in the GRI content index. See Requirement 6 in GRI 1: Foundation 2021 for more information on reasons for omission.",
+            "If the organization cannot report the required information about an item specified in a disclosure because the item (e.g., committee, policy, practice, process) does not exist, it can comply with the requirement by reporting this to be the case. The organization can explain the reasons for not having this item, or describe any plans to develop it. The disclosure does not require the organization to implement the item (e.g., developing a policy), but to report that the item does not exist.",
+            "If the organization intends to publish a standalone sustainability report, it does not need to repeat information that it has already reported publicly elsewhere, such as on web pages or in its annual report. In such a case, the organization can report a required disclosure by providing a reference in the GRI content index as to where this information can be found (e.g., by providing a link to the web page or citing the page in the annual report where the information has been published).",
+            "GRI 2: General Disclosures 2021 7",
+            "Requirements, guidance and defined terms The following apply throughout the GRI Standards:",
+            "Requirements are presented in bold font and indicated by the word 'shall'. An organization must comply with requirements to report in accordance with the GRI Standards.",
+            "Requirements may be accompanied by guidance.",
+            "Guidance includes background information, explanations, and examples to help the organization better understand the requirements. The organization is not required to comply with guidance.",
+            "The Standards may also include recommendations. These are cases where a particular course of action is encouraged but not required.",
+            "The word ‘should’ indicates a recommendation, and the word ‘can’ indicates a possibility or option.",
+            "Defined terms are underlined in the text of the GRI Standards and linked to their definitions in the Glossary . The organization is required to apply the definitions in the Glossary.",
+            "GRI 2: General Disclosures 2021 8",
+            "1. The organization and its reporting practices",
+            "The disclosures in this section provide an overview of the organization, its sustainability reporting practices, and the entities included in its sustainability reporting."
+          ],
+          "tables": [],
+          "page_start": 6,
+          "page_end": 8
+        },
+        {
+          "id": "Disclosure 2-1 Organizational details",
+          "label": "Disclosure 2-1 Organizational details",
+          "text": "Disclosure 2-1 Organizational details",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Guidance to 2-1-b The nature of ownership and the legal form of the organization refers to whether it is publicly or privately owned, and whether it is an incorporated entity, a partnership, a sole proprietorship, or another type of entity such as a nonprofit, an association, or a charity.",
+                "Guidance to 2-1-c Headquarters are an organization’s global administrative center, the place from which it is controlled or directed.",
+                "Guidance to 2-1-d If the organization has reported its countries of operation elsewhere, such as in its audited consolidated financial statements or financial information filed on public record, the organization can provide a link or reference to this information. The organization can also report the regions or specific locations within countries (e.g., states, cities) where it has operations, if this provides contextual information for understanding the organization’s impacts.",
+                "GRI 2: General Disclosures 2021 9"
+              ],
+              "tables": [],
+              "page_start": 8,
+              "page_end": 9
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "report its legal name; a.",
+            "report its nature of ownership and legal form; b.",
+            "report the location of its headquarters; c.",
+            "report its countries of operation. d.",
+            "Guidance to 2-1-a If the organization uses a commonly known trading name or business name that is different from its legal name, it should report this in addition to its legal name."
+          ],
+          "tables": [],
+          "page_start": 8,
+          "page_end": 9
+        },
+        {
+          "id": "Disclosure 2-2 Entities included in the organizati",
+          "label": "Disclosure 2-2 Entities included in the organization’s sustainability reporting",
+          "text": "Disclosure 2-2 Entities included in the organization’s sustainability reporting",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Requirement 2-2-a includes those entities that the organization controls or has an interest in and are included in its sustainability reporting, such as subsidiaries, joint ventures, and affiliates, including minority interests. The organization should report information for the same group of entities as covered in its financial reporting.",
+                "When determining its material topics, the organization should consider the impacts of additional entities with which it has business relationships that are not included in the list reported under 2-2-a. See section 1 in GRI 3: Material Topics 2021 for more information.",
+                "Guidance to 2-2-a and 2-2-b If all the entities in the organization’s financial reporting are also included in its sustainability reporting, a brief statement of this fact, including a link or reference to the list of entities included in its audited consolidated financial statements or financial information filed on public record, is sufficient to comply with 2-2-a and 2-2-b.",
+                "The organization should separately specify any additional entities included in the sustainability reporting that are not included in its financial reporting.",
+                "Guidance to 2-2-c A minority interest is an ownership interest in an entity that is not controlled by the parent entity.",
+                "GRI 2: General Disclosures 2021 10"
+              ],
+              "tables": [],
+              "page_start": 9,
+              "page_end": 10
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "list all its entities included in its sustainability reporting; a.",
+            "b.",
+            "if the organization has audited consolidated financial statements or financial information filed on public record, specify the differences between the list of entities included in its financial reporting and the list included in its sustainability reporting;",
+            "c.",
+            "if the organization consists of multiple entities, explain the approach used for consolidating the information, including:",
+            "whether the approach involves adjustments to information for minority interests; i.",
+            "how the approach takes into account mergers, acquisitions, and disposal of entities or parts of entities; ii.",
+            "whether and how the approach differs across the disclosures in this Standard and across material topics. iii.",
+            "Guidance to 2-2-a The entities reported under 2-2-a form the basis for reporting the disclosures in this Standard and for determining the organization’s material topics."
+          ],
+          "tables": [],
+          "page_start": 9,
+          "page_end": 10
+        },
+        {
+          "id": "Disclosure 2-3 Reporting period, frequency and con",
+          "label": "Disclosure 2-3 Reporting period, frequency and contact point",
+          "text": "Disclosure 2-3 Reporting period, frequency and contact point",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Guidance to 2-3-a and 2-3-b The reporting period refers to the time period covered by the reported information and should include the start and end dates (e.g., 1 January 2022 to 31 December 2022, 1 July 2022 through 30 June 2023).",
+                "The organization should report the information for the same reporting period as covered in its financial reporting. The organization should also publish the information at the same time as its financial reporting, where this is possible.",
+                "GRI 2: General Disclosures 2021 11"
+              ],
+              "tables": [],
+              "page_start": 10,
+              "page_end": 11
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "specify the reporting period for, and the frequency of, its sustainability reporting; a.",
+            "specify the reporting period for its financial reporting and, if it does not align with the period for its sustainability reporting, explain the reason for this; b.",
+            "report the publication date of the report or reported information; c.",
+            "specify the contact point for questions about the report or reported information. d.",
+            "Guidance to 2-3-a The organization can specify the frequency of sustainability reporting as ‘annual’. See the Timeliness principle in GRI 1: Foundation 2021 for more information."
+          ],
+          "tables": [],
+          "page_start": 10,
+          "page_end": 11
+        },
+        {
+          "id": "Disclosure 2-4 Restatements of information",
+          "label": "Disclosure 2-4 Restatements of information",
+          "text": "Disclosure 2-4 Restatements of information",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "The organization should report the criteria used to determine when a change or error in previously reported information is considered significant enough to provide a restatement. A change or error could be significant when it influences information users’ decision-making (e.g., it influences the analysis of the changes in the organization’s impacts over time).",
+                "For example, if an organization adopts a new, more accurate method for measuring greenhouse gas (GHG) emissions, it may subsequently experience a reduction in its previously reported GHG emissions that meets the organization’s restatement criteria. The organization then restates its previously reported GHG emissions. In such a case, the organization is required to explain that it has restated its previously reported GHG emissions due to the new measurement methodology and that this has resulted in lower GHG emissions than previously reported. The organization should also report the quantitative change observed (e.g., GHG emissions are 10% lower than the emissions previously reported).",
+                "If the organization has not made any restatement in the reporting period, a brief statement of this fact is sufficient to comply with the requirement.",
+                "Guidance to 2-4-a-i Examples of reasons for restatements of information include:",
+                "change of base period or length of the reporting period; • change in the nature of the business; • change in the measurement methodologies or in the definitions used; • disposals, mergers, or acquisitions; • error made in previous reporting periods. •",
+                "Guidance to 2-4-a-ii The effect of the restatement refers to the consequences of the change or correction made to previously reported information. If the restatement relates to quantitative information, the organization should specify the quantitative change in the restated information (e.g., GHG emissions are 10% lower compared to the level of emissions previously reported).",
+                "GRI 2: General Disclosures 2021 12"
+              ],
+              "tables": [],
+              "page_start": 11,
+              "page_end": 12
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "a.",
+            "report restatements of information made from previous reporting periods and explain:",
+            "the reasons for the restatements; i.",
+            "the effect of the restatements. ii.",
+            "The organization should provide a restatement of information when it has learned that the previously reported information needs to be revised. Restatements of information from previous reporting periods can correct an error, or account for changes in measurement methodology or to the nature of the business. Restatements of information ensure consistency and enable comparability of information between reporting periods. See the Comparability principle in GRI 1: Foundation 2021 for more information."
+          ],
+          "tables": [],
+          "page_start": 11,
+          "page_end": 12
+        },
+        {
+          "id": "Disclosure 2-5 External assurance",
+          "label": "Disclosure 2-5 External assurance",
+          "text": "Disclosure 2-5 External assurance",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Guidance to 2-5-b-ii If this information is covered in the external assurance reports or statements that the organization has provided a link or a reference to under 2-5-b-i, then a brief statement of this fact is sufficient to comply with the requirement.",
+                "The organization can also describe, in accessible language:",
+                "the scope of information and processes covered; • the responsibilities of the organization relative to the assurance provider; • the opinion or conclusions formally signed off by the assurance provider; • a summary of the work performed; • information on the experience and qualifications of the assurance provider, e.g., profile and level of subject matter expertise of the individuals involved. •",
+                "Guidance to 2-5-b-iii An assurance provider conducting external assurance needs to demonstrate independence from the organization to reach and publish objective and impartial conclusions about the organization’s sustainability reporting.",
+                "GRI 2: General Disclosures 2021 13",
+                "2. Activities and workers",
+                "The disclosures in this section provide an overview of the organization’s activities, employees, and other workers."
+              ],
+              "tables": [],
+              "page_start": 12,
+              "page_end": 13
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "describe its policy and practice for seeking external assurance, including whether and how the highest governance body and senior executives are involved; a.",
+            "b.",
+            "if the organization’s sustainability reporting has been externally assured:",
+            "provide a link or reference to the external assurance report(s) or assurance statement(s); i.",
+            "ii.",
+            "describe what has been assured and on what basis, including the assurance standards used, the level of assurance obtained, and any limitations of the assurance process;",
+            "describe the relationship between the organization and the assurance provider. iii.",
+            "See section 5.2 in GRI 1: Foundation 2021 for information on external assurance."
+          ],
+          "tables": [],
+          "page_start": 12,
+          "page_end": 13
+        },
+        {
+          "id": "Disclosure 2-6 Activities, value chain and other b",
+          "label": "Disclosure 2-6 Activities, value chain and other business relationships",
+          "text": "Disclosure 2-6 Activities, value chain and other business relationships",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Depending on the organization’s activities, sectors can be identified using the GRI Sector Standards or classification systems such as the Global Industry Classification Standard (GICS®), the Industry Classification Benchmark (ICB), the International Standard Industrial Classification of All Economic Activities (ISIC), and the Sustainable Industry Classification System (SICS®).",
+                "Guidance to 2-6-b The organization’s value chain includes the range of activities carried out by the organization, and by entities upstream and downstream from the organization, to bring the organization’s products or services from their conception to their end use. Entities upstream from the organization provide products or services used in the development of the organization’s own products or services. Entities downstream from the organization are those that receive products or services from the organization. Entities in the value chain include entities beyond the first tier, both upstream and downstream.",
+                "The information reported under 2-6-b provides a context for understanding the organization’s impacts across its value chain, including through the use of its products and services. Describing the markets served provides further information on the groups of customers targeted by the organization’s products and services.",
+                "The organization is not required to provide a detailed description of each activity in its value chain. Instead, it can provide a high-level overview of its value chain.",
+                "Guidance to 2-6-b-i When describing its activities, the organization should report its total number of operations and explain how it defines ‘operation’.",
+                "When describing its products and services, the organization should report:",
+                "the quantity of products or services provided during the reporting period (e.g., number of products or services provided, net sales of products or services provided); •",
+                "•",
+                "whether it sells products or services that are banned in certain markets or are the subject of stakeholder concerns or public debate, including the reason for the ban or concerns and how the organization has responded to these concerns.",
+                "GRI 2: General Disclosures 2021 14",
+                "When describing the markets served, the organization can report:",
+                "the geographic locations where products and services are offered; • the demographic or other characteristics of the markets; • information on the size and relative importance of the markets (e.g., net sales, net revenues). •",
+                "Guidance to 2-6-b-ii The organization can describe:",
+                "the types of suppliers (e.g., brokers, contractors, wholesalers); • the estimated number of suppliers throughout its supply chain and in each tier (e.g., first tier, second tier); •",
+                "the types of activities related to the organization’s products and services carried out by its suppliers (e.g., manufacturing, providing consulting services); •",
+                "the nature of its business relationships with its suppliers (e.g., long-term or short-term, contractual or non-contractual, project-based or event-based); •",
+                "the sector-specific characteristics of its supply chain (e.g., labor-intensive); • the estimated monetary value of payments made to its suppliers; • the geographic location of its suppliers. •",
+                "Guidance to 2-6-b-iii The organization can describe:",
+                "the types of downstream entities (e.g., customers, beneficiaries); • the estimated number of downstream entities; • the types of activities related to the organization’s products and services carried out by the downstream entities (e.g., manufacturing, wholesale, retail); •",
+                "the nature of its business relationships with the downstream entities (e.g., long-term or short-term, contractual or non-contractual, project-based or event-based); •",
+                "the geographic location of the downstream entities. •",
+                "Guidance to 2-6-c Other relevant business relationships include relationships that the organization has with entities that are not described as part of its value chain under 2-6-b. These may include business partners (e.g., joint ventures) and other entities directly linked to the organization’s operations, products, or services (for examples, see the note in the definition of ‘business relationships’).",
+                "The organization can report the types of entities, their activities, and their geographic location.",
+                "Guidance to 2-6-d Requirement 2-6-d entails describing significant changes in the organization’s sectors, value chain, and other business relationships compared to the previous reporting period. This information can help explain changes to the organization’s impacts. Examples of significant changes that can be reported under this disclosure are changes in activities such as the opening, closing, or expansion of facilities; changes in the structure of the organization’s supply chain or in its relationships with suppliers, including selection and termination; or changes in the location of its suppliers.",
+                "GRI 2: General Disclosures 2021 15"
+              ],
+              "tables": [],
+              "page_start": 13,
+              "page_end": 15
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "report the sector(s) in which it is active; a.",
+            "b.",
+            "describe its value chain, including:",
+            "the organization’s activities, products, services, and markets served; i.",
+            "the organization’s supply chain; ii.",
+            "the entities downstream from the organization and their activities; iii.",
+            "report other relevant business relationships; c.",
+            "describe significant changes in 2-6-a, 2-6-b, and 2-6-c compared to the previous reporting period. d.",
+            "Guidance to 2-6-a Sectors can be identified according to categories, such as the public or private sector; or industry-specific categories, such as the education sector or the financial sector."
+          ],
+          "tables": [],
+          "page_start": 13,
+          "page_end": 15
+        },
+        {
+          "id": "Disclosure 2-7 Employees",
+          "label": "Disclosure 2-7 Employees",
+          "text": "Disclosure 2-7 Employees",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "This disclosure covers all employees who perform work for any of the organization’s entities included in its sustainability reporting as reported under Disclosure 2-2 in this Standard.",
+                "See references [7], [19], [22], [23], [24], [26] and [30] in the Bibliography .",
+                "Guidance to 2-7-a An employee is an individual who is in an employment relationship with the organization according to national law or practice.",
+                "Providing a breakdown of employees by gender gives insight into gender representation across the organization. Providing a breakdown of employees by region gives insight into regional variations. A region can refer to a country or other geographic locations, such as a city or a world region.",
+                "See Table 1 and Table 2 of this Standard for examples of how to present this information.",
+                "Guidance to 2-7-b The definitions of permanent, temporary, non-guaranteed hours, full-time, and part-time employees differ between countries. If the organization has employees in more than one country, it should use the definitions as per the national laws of the countries where the employees are based to calculate country-level data. The country-level data should then be added up to calculate total numbers, disregarding differences in national legal definitions.",
+                "Non-guaranteed hours employees are employed by the organization without a guarantee of a minimum or fixed number of working hours. The employee may need to make themselves available for work as required, but the organization is not contractually obligated to offer the employee a minimum or fixed number of working hours per day, week, or month. Casual employees, employees with zero-hour contracts, and on-call employees are examples that fall under this category.",
+                "GRI 2: General Disclosures 2021 16",
+                "If the organization is unable to report exact figures, it can report estimates of the number of employees to the nearest ten or, where the number of employees is greater than 1,000, to the nearest 100, and explain this under 2-7-c.",
+                "See Table 1 and Table 2 of this Standard for examples of how to present this information.",
+                "Guidance to 2-7-c The organization can report the total number of employees and the number of permanent, temporary, non-guaranteed hours, full-time, and part-time employees in headcount or full-time equivalent (FTE). Reporting these numbers in headcount gives insight into the number of individual employees, whether full-time or part-time employed. Reporting these numbers in FTE gives insight into the hours worked.",
+                "The organization can use another methodology for reporting these numbers.",
+                "Reporting the number of employees at the end of the reporting period provides information for that point in time, without capturing fluctuations during the reporting period. Reporting these numbers in averages across the reporting period takes into account fluctuations during the reporting period.",
+                "Guidance to 2-7-d Quantitative data, such as the number of temporary or part-time employees, is unlikely to be sufficient on its own. For example, a high proportion of temporary or part-time employees could indicate lack of employment security for employees, but it could equally signal workplace flexibility when offered as a voluntary choice. For this reason, the organization is required to report contextual information to help information users interpret the data.",
+                "The organization can explain the reasons for temporary employment. An example of such a reason is the recruitment of employees to undertake work on a temporary or seasonal project or event. Another example is the standard practice to offer a temporary contract (e.g., six months) to new employees before an offer of permanent employment is made. The organization can also explain the reasons for non-guaranteed hours employment.",
+                "The organization can explain how it defines full-time employment. If the organization has employees in more than one country, it can report the definitions of full-time employment it uses for the regions that cover these countries. The organization can also explain the reasons for part-time employment. Examples of such reasons are to accommodate employees’ requests to work reduced hours, or because the organization is unable to provide full-time employment to all employees.",
+                "If there are differences in permanent, temporary, non-guaranteed hours, full-time, and part-time employment between genders or between regions, the organization can explain the reasons for these differences.",
+                "Guidance to 2-7-e Requirement 2-7-e enables the organization to explain how the numbers of employees vary during the reporting period compared to the previous reporting periods (i.e., whether the numbers have increased or decreased). It can also include the reasons for the fluctuations. For example, an increase in the number of employees during the reporting period could be due to a seasonal event. Conversely, a decrease in the number of employees compared to the previous reporting period could be due to the completion of a temporary project.",
+                "It is up to the organization to determine which fluctuations in the number of employees it considers significant to report under 2-7-e. The organization should report its threshold for determining significant fluctuations.",
+                "If there are no significant fluctuations in the number of employees during the reporting period or between reporting periods, a brief statement of this fact is sufficient to comply with the requirement.",
+                "GRI 2: General Disclosures 2021 17",
+                "Table 1. Example template for presenting information on employees by gender",
+                "* Gender as specified by the employees themselves.",
+                "Table 2. Example template for presenting information on employees by region",
+                "GRI 2: General Disclosures 2021 18"
+              ],
+              "tables": [
+                {
+                  "headers": [
+                    "[Reporting period]",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "rows": [
+                    [
+                      "FEMALE",
+                      "MALE",
+                      "OTHER*",
+                      "NOT DISCLOSED",
+                      "TOTAL"
+                    ],
+                    [
+                      "Number of employees (headcount / FTE)",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Number of permanent employees (headcount / FTE)",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Number of temporary employees (headcount / FTE)",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Number of non-guaranteed hours employees (headcount / FTE)",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Number of full-time employees (headcount / FTE)",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Number of part-time employees (headcount / FTE)",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  ],
+                  "row_count": 7,
+                  "col_count": 5,
+                  "page_num": 17,
+                  "bbox": [
+                    145.1,
+                    82.5,
+                    537.4,
+                    324.15909090909093
+                  ]
+                },
+                {
+                  "headers": [
+                    "[Reporting period]",
+                    "",
+                    ""
+                  ],
+                  "rows": [
+                    [
+                      "REGION A",
+                      "REGION B",
+                      "TOTAL"
+                    ],
+                    [
+                      "Number of employees (headcount / FTE)",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Number of permanent employees (headcount / FTE)",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Number of temporary employees (headcount / FTE)",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Number of non-guaranteed hours employees (headcount / FTE)",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Number of full-time employees (headcount / FTE)",
+                      "",
+                      ""
+                    ],
+                    [
+                      "Number of part-time employees (headcount / FTE)",
+                      "",
+                      ""
+                    ]
+                  ],
+                  "row_count": 7,
+                  "col_count": 3,
+                  "page_num": 17,
+                  "bbox": [
+                    145.1,
+                    387.75,
+                    537.4,
+                    629.4285714285714
+                  ]
+                }
+              ],
+              "page_start": 15,
+              "page_end": 18
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "report the total number of employees, and a breakdown of this total by gender and by region; a.",
+            "b.",
+            "report the total number of:",
+            "permanent employees, and a breakdown by gender and by region; i.",
+            "temporary employees, and a breakdown by gender and by region; ii.",
+            "non-guaranteed hours employees, and a breakdown by gender and by region; iii.",
+            "full-time employees, and a breakdown by gender and by region; iv.",
+            "part-time employees, and a breakdown by gender and by region; v.",
+            "c.",
+            "describe the methodologies and assumptions used to compile the data, including whether the numbers are reported:",
+            "in head count, full-time equivalent (FTE), or using another methodology; i.",
+            "at the end of the reporting period, as an average across the reporting period, or using another methodology; ii.",
+            "report contextual information necessary to understand the data reported under 2-7-a and 2-7-b; d.",
+            "describe significant fluctuations in the number of employees during the reporting period and between reporting periods. e.",
+            "Together with Disclosure 2-8 , this disclosure gives insight into the organization’s approach to employment, including the scope and nature of impacts arising from its employment practices. It also provides contextual information that aids an understanding of the information reported in other disclosures, and serves as the basis for calculation in other disclosures, such as Disclosure 2-21 Annual total compensation ratio and Disclosure 2-30 Collective bargaining agreements in this Standard."
+          ],
+          "tables": [],
+          "page_start": 15,
+          "page_end": 18
+        },
+        {
+          "id": "Disclosure 2-8 Workers who are not employees",
+          "label": "Disclosure 2-8 Workers who are not employees",
+          "text": "Disclosure 2-8 Workers who are not employees",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [],
+              "tables": [],
+              "page_start": 18,
+              "page_end": 18
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "a.",
+            "report the total number of workers who are not employees and whose work is controlled by the organization and describe:",
+            "the most common types of worker and their contractual relationship with the organization; i.",
+            "the type of work they perform; ii.",
+            "b.",
+            "describe the methodologies and assumptions used to compile the data, including whether the number of workers who are not employees is reported:",
+            "in head count, full-time equivalent (FTE), or using another methodology; i.",
+            "at the end of the reporting period, as an average across the reporting period, or using another methodology; ii.",
+            "describe significant fluctuations in the number of workers who are not employees during the reporting period and between reporting periods. c.",
+            "This disclosure provides an understanding of how much the organization relies on workers who are not employees to perform its work, in comparison to employees. This information is important for understanding how many workers in total perform work for the organization, because workers who are not employees are not represented in employment figures reported under Disclosure 2-7 ."
+          ],
+          "tables": [],
+          "page_start": 18,
+          "page_end": 18
+        },
+        {
+          "id": "Disclosure 2-8, together with Disclosure 2-7, give",
+          "label": "Disclosure 2-8, together with Disclosure 2-7, gives insight into the organization’s approach to employment, as well as t",
+          "text": "Disclosure 2-8, together with Disclosure 2-7, gives insight into the organization’s approach to employment, as well as the scope and nature of impacts arising from its employment practices. It also provides contextual information that aids an understanding of the information reported in other disclosures.",
+          "requirements": [],
+          "content": [
+            "This disclosure covers all workers who are not employees and whose work is controlled by any of the organization’s entities included in its sustainability reporting as reported under Disclosure 2-2 in this Standard.",
+            "If all the workers performing work for the organization are employees and the organization does not have any workers who are not employees, a brief statement of this fact is sufficient to comply with the requirements under this disclosure.",
+            "See references [7], [19], [22], [23], [24], [26], and [30] in the Bibliography .",
+            "Guidance to 2-8-a Workers who are not employees are those who perform work for the organization but are not in an employment relationship with the organization.",
+            "This disclosure requires the organization to report the number of workers who are not employees and whose work is controlled by the organization. Control of work implies that the organization directs the work performed or has control over the means or methods for performing the work.",
+            "The organization might have sole control of the work or share control with one or more organizations (e.g., suppliers, customers, or other business partners, such as in joint ventures). Types of workers who are not employees and whose work is controlled by the organization include agency workers, apprentices, contractors, home workers, interns, self-employed persons, sub-contractors, and volunteers. The organization should report how it has determined when it has control of the work for workers who are not employees.",
+            "The following are examples of workers who are not employees and whose work is controlled by the organization. The following workers are included under this disclosure:",
+            "Contractors hired by the organization to perform work at the organization’s workplace, in a public area (e.g., on a road), or directly at the workplace of the organization’s client. •",
+            "Workers of one of the organization’s suppliers, where the organization instructs the supplier to use particular materials or work methods to manufacture the products or deliver the •",
+            "GRI 2: General Disclosures 2021 19",
+            "services. Volunteers or interns performing work for the organization. •",
+            "The following are examples of workers who are not employees and whose work is not controlled by the organization. The following workers are not included under this disclosure:",
+            "•",
+            "Workers of an equipment supplier to the organization who perform regular maintenance on the supplier’s equipment (e.g., photocopy machines at the organization’s workplace) as stipulated in the contract between the equipment supplier and the organization.",
+            "•",
+            "Workers of one of the organization’s suppliers, if the organization sources standard products manufactured using the supplier’s production methods (e.g., purchasing stationery that is a standard product of the supplier).",
+            "If the organization cannot report exact figures, it can report estimates of the number of workers who are not employees to the nearest ten or, where the number of workers who are not employees is greater than 1,000, to the nearest 100, and explain this under 2-8-b.",
+            "Guidance to 2-8-a-i and 2-8-a-ii When reporting its contractual relationship with the most common types of workers, the organization should report whether it engages them directly or indirectly through a third party, and in the latter case, who this third party is (e.g., employment agency, contractor).",
+            "It is sufficient that the organization provides a general description. The organization is not required to report the type of worker, contractual relationship, and work performed for every worker who is not an employee.",
+            "Guidance to 2-8-b The organization can report the number of workers who are not employees in head count or full- time equivalent (FTE). The head count gives insight into the number of individual workers, whether on a full-time or part-time basis. The FTE gives insight into the hours worked. The organization can use another methodology for reporting this number.",
+            "Reporting the number of workers who are not employees at the end of the reporting period provides information for that point in time without capturing fluctuations during the reporting period. Reporting this number as an average across the reporting period takes into account fluctuations during the reporting period.",
+            "Guidance to 2-8-c Requirement 2-8-c enables the organization to explain how the number of workers who are not employees varies during the reporting period or compared to previous reporting periods (i.e., whether the numbers have increased or decreased). It can also include the reasons for the fluctuations. For example, an increase in the number of workers who are not employees during the reporting period could be due to a seasonal event. Conversely, a decrease in the number of workers who are not employees compared to the previous reporting period could be due to the completion of a temporary project.",
+            "It is up to the organization to determine which fluctuations in the number of workers it considers significant to report under 2-8-c. The organization should report its threshold for determining significant fluctuations.",
+            "If there are no significant fluctuations in the number of workers who are not employees during the reporting period or between reporting periods, a brief statement of this fact is sufficient to comply with the requirement.",
+            "GRI 2: General Disclosures 2021 20",
+            "3. Governance",
+            "The disclosures in this section provide information about the organization’s governance structure, composition, knowledge, roles, and remuneration.",
+            "The information reported under these disclosures is important for understanding how the management of the organization’s impacts on the economy, environment, and people, including impacts on their human rights, is integrated into the organization’s strategy and operations. It addresses how the governance bodies are set up and how well equipped they are to oversee the management of the organization’s impacts. It also facilitates an understanding of the role and the responsibilities of governance bodies with respect to these impacts.",
+            "If the organization intends to publish a standalone sustainability report, it does not need to repeat information that it has already reported publicly elsewhere, such as on web pages or in its annual report. In such a case, the organization can report a required disclosure by providing a reference in the GRI content index as to where this information can be found (e.g., by providing a link to the web page or citing the page in the annual report where the information has been published)."
+          ],
+          "tables": [],
+          "page_start": 18,
+          "page_end": 20
+        },
+        {
+          "id": "Disclosure 2-9 Governance structure and compositio",
+          "label": "Disclosure 2-9 Governance structure and composition",
+          "text": "Disclosure 2-9 Governance structure and composition",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Guidance to 2-9-c-ii ‘Independence’ refers to conditions that enable the members of the highest governance body to exercise independent judgment free from any external influence or conflicts of interest. See reference [20] in the Bibliography for more information on independence criteria for governance bodies.",
+                "Guidance to 2-9-c-iv A position or commitment held by a highest governance body member is significant when the time and attention it demands compromises the member’s ability to perform its duties in the organization. Significant positions can include cross-board memberships.",
+                "Guidance to 2-9-c-vii Competencies relevant to the impacts of the organization include competencies relevant to impacts commonly associated with the organization’s sectors, products, and geographic locations.",
+                "GRI 2: General Disclosures 2021 21"
+              ],
+              "tables": [],
+              "page_start": 20,
+              "page_end": 21
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "describe its governance structure, including committees of the highest governance body; a.",
+            "b.",
+            "list the committees of the highest governance body that are responsible for decision- making on and overseeing the management of the organization’s impacts on the economy, environment, and people;",
+            "c.",
+            "describe the composition of the highest governance body and its committees by:",
+            "executive and non-executive members; i.",
+            "independence; ii.",
+            "tenure of members on the governance body; iii.",
+            "number of other significant positions and commitments held by each member, and the nature of the commitments; iv.",
+            "gender; v.",
+            "under-represented social groups; vi.",
+            "competencies relevant to the impacts of the organization; vii.",
+            "stakeholder representation. viii.",
+            "Guidance to 2-9-c The organization can describe the composition of the highest governance body and its committees by additional indicators of diversity, such as age, ancestry and ethnic origin, citizenship, creed, disability, or any other indicators of diversity that are relevant for reporting."
+          ],
+          "tables": [],
+          "page_start": 20,
+          "page_end": 21
+        },
+        {
+          "id": "Disclosure 2-10 Nomination and selection of the hi",
+          "label": "Disclosure 2-10 Nomination and selection of the highest governance body",
+          "text": "Disclosure 2-10 Nomination and selection of the highest governance body",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Guidance to 2-10-b-iv Competencies relevant to the impacts of the organization include competencies relevant to impacts commonly associated with the organization’s sectors, products, and geographic locations.",
+                "GRI 2: General Disclosures 2021 22"
+              ],
+              "tables": [],
+              "page_start": 21,
+              "page_end": 22
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "describe the nomination and selection processes for the highest governance body and its committees; a.",
+            "b.",
+            "describe the criteria used for nominating and selecting highest governance body members, including whether and how the following are taken into consideration:",
+            "views of stakeholders (including shareholders); i.",
+            "diversity; ii.",
+            "independence; iii.",
+            "competencies relevant to the impacts of the organization. iv.",
+            "Guidance to 2-10-b-iii ‘Independence’ refers to conditions that enable the members of the highest governance body to exercise independent judgment free from any external influence or conflicts of interest. See reference [20] in the Bibliography for more information on independence criteria for governance bodies."
+          ],
+          "tables": [],
+          "page_start": 21,
+          "page_end": 22
+        },
+        {
+          "id": "Disclosure 2-11 Chair of the highest governance bo",
+          "label": "Disclosure 2-11 Chair of the highest governance body",
+          "text": "Disclosure 2-11 Chair of the highest governance body",
+          "requirements": [],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "report whether the chair of the highest governance body is also a senior executive in the organization; a.",
+            "b.",
+            "if the chair is also a senior executive, explain their function within the organization’s management, the reasons for this arrangement, and how conflicts of interest are prevented and mitigated.",
+            "GRI 2: General Disclosures 2021 23"
+          ],
+          "tables": [],
+          "page_start": 22,
+          "page_end": 23
+        },
+        {
+          "id": "Disclosure 2-12 Role of the highest governance bod",
+          "label": "Disclosure 2-12 Role of the highest governance body in overseeing the management of impacts",
+          "text": "Disclosure 2-12 Role of the highest governance body in overseeing the management of impacts",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Guidance to 2-12-b-i Requirement 2-12-b-i covers the role of the highest governance body in stakeholder engagement. The organization is also required to report information about stakeholder engagement under other disclosures, such as under the disclosures in section 5 of this Standard.",
+                "The organization can describe the frequency of engagement between the highest governance body and stakeholders as well as the means of engagement. If stakeholder engagement is delegated, the organization can report to whom it is delegated and how the feedback received is provided to the highest governance body.",
+                "GRI 2: General Disclosures 2021 24"
+              ],
+              "tables": [],
+              "page_start": 23,
+              "page_end": 24
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "a.",
+            "describe the role of the highest governance body and of senior executives in developing, approving, and updating the organization’s purpose, value or mission statements, strategies, policies, and goals related to sustainable development;",
+            "b.",
+            "describe the role of the highest governance body in overseeing the organization’s due diligence and other processes to identify and manage the organization’s impacts on the economy, environment, and people, including:",
+            "whether and how the highest governance body engages with stakeholders to support these processes; i.",
+            "how the highest governance body considers the outcomes of these processes; ii.",
+            "c.",
+            "describe the role of the highest governance body in reviewing the effectiveness of the organization’s processes as described in 2-12-b, and report the frequency of this review.",
+            "For more information about the role of the highest governance body in overseeing the management of the organization’s impacts, see reference [20] in the Bibliography ."
+          ],
+          "tables": [],
+          "page_start": 23,
+          "page_end": 24
+        },
+        {
+          "id": "Disclosure 2-13 Delegation of responsibility for m",
+          "label": "Disclosure 2-13 Delegation of responsibility for managing impacts",
+          "text": "Disclosure 2-13 Delegation of responsibility for managing impacts",
+          "requirements": [],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "a.",
+            "describe how the highest governance body delegates responsibility for managing the organization’s impacts on the economy, environment, and people, including:",
+            "whether it has appointed any senior executives with responsibility for the management of impacts; i.",
+            "whether it has delegated responsibility for the management of impacts to other employees; ii.",
+            "b.",
+            "describe the process and frequency for senior executives or other employees to report back to the highest governance body on the management of the organization’s impacts on the economy, environment, and people.",
+            "GRI 2: General Disclosures 2021 25"
+          ],
+          "tables": [],
+          "page_start": 24,
+          "page_end": 25
+        },
+        {
+          "id": "Disclosure 2-14 Role of the highest governance bod",
+          "label": "Disclosure 2-14 Role of the highest governance body in sustainability reporting",
+          "text": "Disclosure 2-14 Role of the highest governance body in sustainability reporting",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "GRI 2: General Disclosures 2021 26"
+              ],
+              "tables": [],
+              "page_start": 25,
+              "page_end": 26
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "a.",
+            "report whether the highest governance body is responsible for reviewing and approving the reported information, including the organization’s material topics, and if so, describe the process for reviewing and approving the information;",
+            "b.",
+            "if the highest governance body is not responsible for reviewing and approving the reported information, including the organization’s material topics, explain the reason for this.",
+            "The organization can report whether the highest governance body has established a sustainability reporting committee to support the highest governance body’s review and approval process. The organization can also report whether the highest governance body reviews the adequacy of the organization’s internal controls to strengthen the integrity and credibility of the organization’s sustainability reporting (see section 5.2 in GRI 1: Foundation 2021 for more information). The involvement of the highest governance body and senior executives in developing the organization’s policy and practice for seeking external assurance is reported under Disclosure 2-5 in this Standard."
+          ],
+          "tables": [],
+          "page_start": 25,
+          "page_end": 26
+        },
+        {
+          "id": "Disclosure 2-15 Conflicts of interest",
+          "label": "Disclosure 2-15 Conflicts of interest",
+          "text": "Disclosure 2-15 Conflicts of interest",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Guidance to 2-15-b-iii The organization should use the definition of controlling shareholder applied in the organization’s consolidated financial statements or equivalent documents.",
+                "GRI 2: General Disclosures 2021 27"
+              ],
+              "tables": [],
+              "page_start": 26,
+              "page_end": 27
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "describe the processes for the highest governance body to ensure that conflicts of interest are prevented and mitigated; a.",
+            "b.",
+            "report whether conflicts of interest are disclosed to stakeholders, including, at a minimum, conflicts of interest relating to:",
+            "cross-board membership; i.",
+            "cross-shareholding with suppliers and other stakeholders; ii.",
+            "existence of controlling shareholders; iii.",
+            "related parties, their relationships, transactions, and outstanding balances. iv.",
+            "See reference [20] in the Bibliography ."
+          ],
+          "tables": [],
+          "page_start": 26,
+          "page_end": 27
+        },
+        {
+          "id": "Disclosure 2-16 Communication of critical concerns",
+          "label": "Disclosure 2-16 Communication of critical concerns",
+          "text": "Disclosure 2-16 Communication of critical concerns",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "GRI 2: General Disclosures 2021 28"
+              ],
+              "tables": [],
+              "page_start": 27,
+              "page_end": 28
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "describe whether and how critical concerns are communicated to the highest governance body; a.",
+            "report the total number and the nature of critical concerns that were communicated to the highest governance body during the reporting period. b.",
+            "Critical concerns include concerns about the organization’s potential and actual negative impacts on stakeholders raised through grievance mechanisms and other processes. They also include concerns identified through other mechanisms about the organization’s business conduct in its operations and its business relationships. See guidance to Disclosure 2-25 and Disclosure 2-26 in this Standard for more information."
+          ],
+          "tables": [],
+          "page_start": 27,
+          "page_end": 28
+        },
+        {
+          "id": "Disclosure 2-17 Collective knowledge of the highes",
+          "label": "Disclosure 2-17 Collective knowledge of the highest governance body",
+          "text": "Disclosure 2-17 Collective knowledge of the highest governance body",
+          "requirements": [],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "report measures taken to advance the collective knowledge, skills, and experience of the highest governance body on sustainable development. a.",
+            "GRI 2: General Disclosures 2021 29"
+          ],
+          "tables": [],
+          "page_start": 28,
+          "page_end": 29
+        },
+        {
+          "id": "Disclosure 2-18 Evaluation of the performance of t",
+          "label": "Disclosure 2-18 Evaluation of the performance of the highest governance body",
+          "text": "Disclosure 2-18 Evaluation of the performance of the highest governance body",
+          "requirements": [],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "a.",
+            "describe the processes for evaluating the performance of the highest governance body in overseeing the management of the organization’s impacts on the economy, environment, and people;",
+            "report whether the evaluations are independent or not, and the frequency of the evaluations; b.",
+            "describe actions taken in response to the evaluations, including changes to the composition of the highest governance body and organizational practices. c.",
+            "GRI 2: General Disclosures 2021 30"
+          ],
+          "tables": [],
+          "page_start": 29,
+          "page_end": 30
+        },
+        {
+          "id": "Disclosure 2-19 Remuneration policies",
+          "label": "Disclosure 2-19 Remuneration policies",
+          "text": "Disclosure 2-19 Remuneration policies",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "If the organization uses performance-based pay, it should describe how remuneration for senior executives is designed to reward long-term performance.",
+                "Guidance to 2-19-a-iii Termination payments are all payments and benefits given to a departing member of the highest governance body or senior executive whose appointment is terminated. Termination payments extend beyond monetary payments, from transferring property to automatic or accelerated vesting of incentives.",
+                "If the organization provides termination payments, it should explain whether:",
+                "notice periods for highest governance body members and senior executives are different from those for other employees; •",
+                "termination payments for highest governance body members and senior executives are different from those for other employees; •",
+                "departing highest governance body members and senior executives receive payments other than those related to the notice period; •",
+                "any mitigation clauses are included in the termination arrangements. •",
+                "Guidance to 2-19-a-iv Clawbacks are repayments of previously received compensation that a highest governance body member or senior executive is required to make to their employer if certain conditions of employment or goals are not met.",
+                "Guidance to 2-19-a-v The organization should report the differences between the retirement benefit schemes and the contribution rates for the highest governance body members, senior executives, and all other employees.",
+                "GRI 2: General Disclosures 2021 31"
+              ],
+              "tables": [],
+              "page_start": 30,
+              "page_end": 31
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "a.",
+            "describe the remuneration policies for members of the highest governance body and senior executives, including:",
+            "fixed pay and variable pay; i.",
+            "sign-on bonuses or recruitment incentive payments; ii.",
+            "termination payments; iii.",
+            "clawbacks; iv.",
+            "retirement benefits; v.",
+            "b.",
+            "describe how the remuneration policies for members of the highest governance body and senior executives relate to their objectives and performance in relation to the management of the organization’s impacts on the economy, environment, and people.",
+            "Guidance to 2-19-a-i Fixed pay and variable pay can include performance-based pay, equity-based pay, bonuses, and deferred and vested shares."
+          ],
+          "tables": [],
+          "page_start": 30,
+          "page_end": 31
+        },
+        {
+          "id": "Disclosure 2-20 Process to determine remuneration",
+          "label": "Disclosure 2-20 Process to determine remuneration",
+          "text": "Disclosure 2-20 Process to determine remuneration",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "GRI 2: General Disclosures 2021 32"
+              ],
+              "tables": [],
+              "page_start": 31,
+              "page_end": 32
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "a.",
+            "describe the process for designing its remuneration policies and for determining remuneration, including:",
+            "whether independent highest governance body members or an independent remuneration committee oversees the process for determining remuneration; i.",
+            "how the views of stakeholders (including shareholders) regarding remuneration are sought and taken into consideration; ii.",
+            "iii.",
+            "whether remuneration consultants are involved in determining remuneration and, if so, whether they are independent of the organization, its highest governance body and senior executives;",
+            "report the results of votes of stakeholders (including shareholders) on remuneration policies and proposals, if applicable. b.",
+            "Remuneration policies are established to ensure that the remuneration arrangements help recruit, motivate, and retain the highest governance body members, senior executives, and other employees. Remuneration policies further support the organization’s strategy and contribution to sustainable development and align with stakeholders' interests."
+          ],
+          "tables": [],
+          "page_start": 31,
+          "page_end": 32
+        },
+        {
+          "id": "Disclosure 2-21 Annual total compensation ratio",
+          "label": "Disclosure 2-21 Annual total compensation ratio",
+          "text": "Disclosure 2-21 Annual total compensation ratio",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Annual total compensation includes salary, bonus, stock awards, option awards, non-equity incentive plan compensation, change in pension value, and nonqualified deferred compensation earnings provided over the course of a year. When calculating the ratio, the organization should, depending on the organization’s remuneration policies and availability of data, consider all of the following:",
+                "Base salary, which is the sum of guaranteed, short-term, and non-variable cash compensation. •",
+                "Total cash compensation, which is the sum of the base salary and cash allowances, bonuses, commissions, cash profit-sharing, and other forms of variable cash payments. •",
+                "•",
+                "Direct compensation, which is the sum of total cash compensation and total fair value of all annual long-term incentives (e.g., stock option awards, restricted stock shares or units, performance stock shares or units, phantom stock shares, stock appreciation rights, and long-term cash awards).",
+                "The annual total compensation ratio can be calculated using the following formula:",
+                "Annual total compensation for the organization's highest paid-individual _____________________________________________________________",
+                "Median annual total compensation for all of the organization's employees excluding the",
+                "highest-paid individual",
+                "The change in the annual total compensation ratio can be calculated using the following formula:",
+                "Percentage increase in annual total compensation for the organization's highest-paid",
+                "individual _____________________________________________________________",
+                "Median percentage increase in annual total compensation for all of the organization's",
+                "employees excluding the highest-paid individual",
+                "Guidance to 2-21-c Quantitative data, such as the annual total compensation ratio, may not be sufficient on its own to understand pay disparity and its drivers. For example, pay ratios can be influenced by the size of the organization (e.g., revenue, number of employees), its sector, its employment strategy (e.g., reliance on outsourced workers or part-time employees, a high degree of automation), or currency volatility.",
+                "GRI 2: General Disclosures 2021 33",
+                "The difference in pay disparity reported over the years may be the result of a change in the organization’s compensation policy or the level of compensation for its highest-paid individual or employees, a change in calculation methodology (e.g., selection of the median annual total compensation, inclusions or exclusions) or an improvement in data collection processes. For this reason, the organization is required to report contextual information to help information users interpret the data and understand how it has been compiled.",
+                "The organization should provide the following contextual information:",
+                "Whether any employees reported under Disclosure 2-7 in this Standard have been excluded. • Whether full-time equivalent (FTE) pay rates are used for each part-time employee. • A list of the types of compensation included. • The title of the highest-paid individual. •",
+                "GRI 2: General Disclosures 2021 34",
+                "4. Strategy, policies and practices",
+                "The disclosures in this section provide information about the organization’s sustainable development strategy and its policies and practices for responsible business conduct. The disclosures are based on expectations for businesses contained in authoritative intergovernmental instruments.",
+                "1",
+                "Expectations for responsible business conduct include complying with laws and regulations, respecting all internationally recognized human rights, including workers' rights, and protecting the environment and public health and safety. The expectations also cover combating bribery, bribe solicitation, extortion, and other forms of corruption; adhering to good tax practices; and conducting due diligence to identify, prevent, mitigate, and account for how the organization addresses its negative impacts on the economy, environment, and people, including impacts on their human rights.",
+                "In the disclosures in this section, the organization is required to report information about its overall policies and practices for responsible business conduct, rather than information for specific material topics. Disclosure 3-3 in GRI 3: Material Topics 2021 requires information about how the organization manages each material topic. If the organization has described its policies and practices for a material topic under the disclosures in this section, it can provide a reference to this information under Disclosure 3-3 in GRI 3 and does not need to repeat the information."
+              ],
+              "tables": [],
+              "page_start": 32,
+              "page_end": 34
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "a.",
+            "report the ratio of the annual total compensation for the organization’s highest-paid individual to the median annual total compensation for all employees(excluding the highest-paid individual);",
+            "b.",
+            "report the ratio of the percentage increase in annual total compensation for the organization’s highest-paid individual to the median percentage increase in annual total compensation for all employees (excluding the highest-paid individual);",
+            "report contextual information necessary to understand the data and how the data has been compiled. c.",
+            "Guidance to 2-21-a and 2-21-b This disclosure covers all employees as reported under Disclosure 2-7 in this Standard."
+          ],
+          "tables": [],
+          "page_start": 32,
+          "page_end": 34
+        },
+        {
+          "id": "Disclosure 2-22 Statement on sustainable developme",
+          "label": "Disclosure 2-22 Statement on sustainable development strategy",
+          "text": "Disclosure 2-22 Statement on sustainable development strategy",
+          "requirements": [],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "a.",
+            "report a statement from the highest governance body or most senior executive of the organization about the relevance of sustainable development to the organization and its strategy for contributing to sustainable development.",
+            "The organization should describe: GUIDANCE",
+            "•",
+            "its short, medium, and long-term vision and strategy to manage its impacts on the economy, environment, and people, including impacts on their human rights, across the organization’s activities and business relationships;",
+            "how its purpose, business strategy, and business model aim to prevent negative impacts and achieve positive impacts on the economy, environment, and people; •",
+            "its short and medium-term strategic priorities for contributing to sustainable development, including how the priorities are aligned with authoritative intergovernmental instruments; •",
+            "the broader trends (e.g., macroeconomic, social, political) affecting the organization and its strategy for contributing to sustainable development; •",
+            "the key events, achievements, and failures associated with the organization’s contribution to sustainable development during the reporting period; •",
+            "a view of performance against goals and targets related to the organization’s material topics during the reporting period; •",
+            "the organization’s main challenges, goals, and targets regarding its contribution to sustainable development for the next year and the coming three to five years. •",
+            "1 These instruments include the International Labour Organization (ILO) Tripartite Declaration of Principles concerning Multinational Enterprises and Social",
+            "Policy [9]; the Organisation for Economic Co-operation and Development (OECD) Guidelines for Multinational Enterprises [12] ; the OECD Due Diligence Guidance for Responsible Business Conduct [11]; and the United Nations (UN) Guiding Principles on Business and Human Rights [14]. These instruments are in turn based on international legal instruments, such as the United Nations (UN) International Bill of Human Rights [15] and the ILO conventions .",
+            "GRI 2: General Disclosures 2021 35"
+          ],
+          "tables": [],
+          "page_start": 34,
+          "page_end": 35
+        },
+        {
+          "id": "Disclosure 2-23 Policy commitments",
+          "label": "Disclosure 2-23 Policy commitments",
+          "text": "Disclosure 2-23 Policy commitments",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "The Organisation for Economic Co-operation and Development (OECD) Guidelines for Multinational Enterprises [12] , the OECD Due Diligence Guidance for Responsible Business Conduct [11], and the United Nations (UN) Guiding Principles on Business and Human Rights [14] set out expectations for organizations in relation to these policy commitments.",
+                "Guidance to 2-23-a The organization should report the expectations, values, principles, and norms of behavior set out in the policy commitments.",
+                "The organization can also report how the policy commitments were developed, including the internal and external expertise that informed the policy commitments.",
+                "Guidance to 2-23-a-i See the Bibliography for a list of authoritative intergovernmental instruments for responsible business conduct.",
+                "The organization can also make a reference to other standards or initiatives that it participates in.",
+                "Guidance to 2-23-a-iii The precautionary principle is set out in Principle 15 of the UN Rio Declaration on Environment and Development [18]. It states: ‘Where there are threats of serious or irreversible damage, lack of full scientific certainty shall not be used as a reason for postponing cost-effective measures to prevent environmental degradation.’",
+                "The precautionary principle means taking early action to prevent and mitigate potential negative impacts in situations where conclusive scientific understanding or evidence is lacking, but there is sufficient reason to expect serious or irreversible damage.",
+                "While the precautionary principle is most often associated with the protection of the environment, it can be applied to other areas, such as health and safety. The organization can",
+                "GRI 2: General Disclosures 2021 36",
+                "describe the areas where it applies the precautionary principle.",
+                "The application of the precautionary principle can be reported under 3-3-d-i in GRI 3: Material Topics 2021 , as part of the organization’s actions to prevent or mitigate potential negative impacts for each material topic.",
+                "Guidance to 2-23-b-i Human rights are rights inherent to all human beings and are all interrelated, interdependent, and indivisible.",
+                "The internationally recognized human rights include, at a minimum, the rights set out in the UN International Bill of Human Rights [15] and the principles concerning fundamental rights set out in the International Labour Organization (ILO) Declaration on Fundamental Principles and Rights at Work [5] . The UN International Bill of Human Rights consists of the Universal Declaration of Human Rights , the International Covenant on Economic, Social and Cultural Rights , and the International Covenant on Civil and Political Rights and its two Optional Protocols.",
+                "Other UN instruments elaborate further on the rights of indigenous peoples; women; national or ethnic, religious and linguistic minorities; children; persons with disabilities; and migrant workers and their families. There are also standards of international humanitarian law that apply in situations of armed conflict, such as the International Committee of the Red Cross (ICRC)",
+                "Geneva Conventions of 1949 [1]. 2",
+                "At the regional level, binding treaties as well as non-binding instruments provide region-specific",
+                "frameworks for human rights. 3",
+                "If the policy commitment covers all internationally recognized human rights, a brief statement of this fact is sufficient to comply with the requirement. The organization can also state if the policy commitment references certain rights that require particular attention. For example, an organization can state that its policy commitment covers all internationally recognized human rights, and also references the rights to privacy and freedom of expression in particular because the organization has identified that its activities have an impact on these rights.",
+                "If the policy commitment covers only some internationally recognized human rights, the organization is required to state the rights that are covered. It can explain why the policy commitment is limited to these rights.",
+                "Guidance to 2-23-b-ii Categories of stakeholders that the organization gives particular attention to can include consumers, customers, employees and other workers, and local communities . They can also include individuals belonging to groups or populations that are considered to be at risk or vulnerable groups, such as children; human rights defenders; indigenous peoples; migrant workers and their families; national or ethnic, religious and linguistic minorities; persons who might be discriminated against based on their sexual orientation, gender identity, gender expression, or sex characteristics; persons with disabilities; or women.",
+                "For example, a bank may give particular attention in its policy commitment to avoid discriminating against specific categories of customers, or a mining organization may give particular attention to avoid infringing on the rights of indigenous peoples.",
+                "Guidance to 2-23-d The most senior level may differ between organizations. For example, the most senior level in an organization could be the highest governance body (e.g., the board) or the most senior executive (e.g., chief executive officer).",
+                "The organization can also report the dates of approval and adoption of the policy commitments, and how frequently the commitments are reviewed.",
+                "2 See the Office of the United Nations High Commissioner for Human Rights’ non-exhaustive list of universal human rights instruments,",
+                "https://www.ohchr.org/EN/ProfessionalInterest/Pages/UniversalHumanRightsInstruments.aspx , accessed on 7 May 2021. 3 See the Office of the United Nations High Commissioner for Human Rights' list of regional human rights treaties,",
+                "https://www.ohchr.org/en/issues/escr/pages/regionalhrtreaties.aspx , accessed on 7 May 2021.",
+                "GRI 2: General Disclosures 2021 37",
+                "Guidance to 2-23-e If the policy commitments apply to all of the organization’s activities and business relationships equally, a brief statement of this fact is sufficient to comply with the requirement.",
+                "If the policy commitments apply to only some of the organization’s activities (e.g., they apply only to entities located in certain countries or to certain subsidiaries), the organization should report which activities the commitments apply to. It can also explain why the commitments are limited to these activities.",
+                "If the policy commitments apply to only some of the organization’s business relationships, the organization should specify the types of business relationships the commitments apply to (e.g., distributors, franchisees, joint ventures, suppliers). It can also explain why the commitments are limited to these business relationships. The organization should also explain whether the business relationships are obligated to abide by the policy commitments or are encouraged (but not obligated) to do so.",
+                "Guidance to 2-23-f The organization can report:",
+                "whether the policy commitments need to be read, agreed to, and regularly signed by all workers, business partners, and other relevant parties, such as governance body members; •",
+                "the means through which it communicates the policy commitments (e.g., newsletters, formal or informal meetings, dedicated websites, contractual agreements); •",
+                "•",
+                "how it identifies and removes potential barriers to the communication or dissemination of the policy commitments (e.g., by making them accessible and available in relevant languages).",
+                "GRI 2: General Disclosures 2021 38"
+              ],
+              "tables": [],
+              "page_start": 35,
+              "page_end": 38
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "a.",
+            "describe its policy commitments for responsible business conduct, including:",
+            "the authoritative intergovernmental instruments that the commitments reference; i.",
+            "whether the commitments stipulate conducting due diligence; ii.",
+            "whether the commitments stipulate applying the precautionary principle; iii.",
+            "whether the commitments stipulate respecting human rights; iv.",
+            "b.",
+            "describe its specific policy commitment to respect human rights, including:",
+            "the internationally recognized human rights that the commitment covers; i.",
+            "the categories of stakeholders, including at-risk or vulnerable groups, that the organization gives particular attention to in the commitment; ii.",
+            "provide links to the policy commitments if publicly available, or, if the policy commitments are not publicly available, explain the reason for this; c.",
+            "report the level at which each of the policy commitments was approved within the organization, including whether this is the most senior level; d.",
+            "report the extent to which the policy commitments apply to the organization’s activities and to its business relationships; e.",
+            "describe how the policy commitments are communicated to workers, business partners, and other relevant parties. f.",
+            "This disclosure covers the organization’s policy commitments for responsible business conduct, including the commitment to respect human rights. These commitments can be set out in a stand-alone policy document or be included within one or more other policy documents, such as codes of conduct."
+          ],
+          "tables": [],
+          "page_start": 35,
+          "page_end": 38
+        },
+        {
+          "id": "Disclosure 2-24 Embedding policy commitments",
+          "label": "Disclosure 2-24 Embedding policy commitments",
+          "text": "Disclosure 2-24 Embedding policy commitments",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Guidance to 2-24-a-i Examples of different levels within an organization include the highest governance body, senior executives, and operational levels.",
+                "The organization can report:",
+                "the most senior level with oversight of, or accountability for, the implementation of the policy commitments; •",
+                "•",
+                "the functions in the organization with day-to-day responsibility for implementing each of the policy commitments (e.g., human resources with the responsibility for implementing the commitment to respect the rights of workers), including:",
+                "their reporting lines to senior decision-making levels; -",
+                "the reason for allocating the responsibility to them; -",
+                "whether responsible business conduct is formally discussed at meetings of the highest governance body or senior executives and, if so, which topics are discussed; •",
+                "•",
+                "whether there are other formal or systematic means for discussions about responsible business conduct between different levels or functions in the organization (e.g., a cross- functional working group).",
+                "Guidance to 2-24-a-ii The organization can describe:",
+                "•",
+                "how it aligns the policy commitments with its:",
+                "broader risk management systems and management policies; -",
+                "economic, environmental, social, and human rights impact assessments, and other due diligence processes; -",
+                "policies and procedures that set financial and other performance incentives for management or workers; -",
+                "how it applies the policy commitments when making decisions, such as about its sourcing and operating locations; •",
+                "•",
+                "the systems (e.g., internal audit) it uses to monitor compliance with the policy commitments throughout its activities (across functions and geographic locations) and throughout its business relationships.",
+                "Guidance to 2-24-a-iii The organization can describe:",
+                "•",
+                "its procurement or investment policies and practices, and its engagement with those with which it has business relationships, including:",
+                "-",
+                "whether and how it applies pre-qualification processes, bidding criteria, or screening criteria consistent with the expectations stipulated in the policy commitments for responsible business conduct;",
+                "whether and how it considers the policy commitments in contracting or investment agreements, or in specific policies or codes of conduct for suppliers; -",
+                "whether and how it considers the policy commitments in the process of determining whether to initiate, continue, or terminate a business relationship; •",
+                "GRI 2: General Disclosures 2021 39",
+                "processes through which it enables or supports business partners and other parties to implement the policy commitments (e.g., capacity building, peer sharing); •",
+                "incentives that it offers to business partners and other parties to implement the policy commitments (e.g., price premiums, increased orders, long-term contracts). •",
+                "Guidance to 2-24-a-iv The organization can report:",
+                "the content of the training; • to whom the training is provided, and whether it is mandatory; • the form (e.g., in-person, online) and frequency of the training; • examples of how the organization has determined that the training is effective. •",
+                "The organization can report whether the training covers how to implement the policy commitments in general or in specific situations (e.g., ensuring the commitment to privacy when handling customers’ personal data, ensuring the policy commitments are considered in procurement practices).",
+                "The organization can specify if training is provided to those with day-to-day responsibility for and those with oversight of or accountability for implementing the policy commitments. The organization can also specify if training is provided to those with which it has business relationships (e.g., distributors, franchisees, joint ventures, suppliers). The organization can report the number or percentage of workers, business partners, and other parties that have been trained during the reporting period.",
+                "GRI 2: General Disclosures 2021 40"
+              ],
+              "tables": [],
+              "page_start": 38,
+              "page_end": 40
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "a.",
+            "describe how it embeds each of its policy commitments for responsible business conduct throughout its activities and business relationships, including:",
+            "how it allocates responsibility to implement the commitments across different levels within the organization; i.",
+            "how it integrates the commitments into organizational strategies, operational policies, and operational procedures; ii.",
+            "how it implements its commitments with and through its business relationships; iii.",
+            "training that the organization provides on implementing the commitments. iv.",
+            "This disclosure gives insight into how the organization embeds its policy commitments for responsible business conduct, including the commitment to respect human rights, throughout its activities and business relationships. This ensures that people at all levels act responsibly and with awareness of and respect for human rights."
+          ],
+          "tables": [],
+          "page_start": 38,
+          "page_end": 40
+        },
+        {
+          "id": "Disclosure 2-25 Processes to remediate negative im",
+          "label": "Disclosure 2-25 Processes to remediate negative impacts",
+          "text": "Disclosure 2-25 Processes to remediate negative impacts",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "The United Nations (UN) Guiding Principles on Business and Human Rights [ 14 ] and the Organisation for Economic Co-operation and Development (OECD) Guidelines for Multinational Enterprises [ 12 ] set out expectations for organizations to provide for or cooperate in the remediation, through legitimate processes, of negative impacts that they identify they have caused or contributed to. The organization is not responsible for the remediation of negative impacts directly linked to its operations, products, or services by its business relationships, where the organization has not contributed to the impacts. It can, however, play a role in the remediation. See Box 3 in GRI 3: Material Topics 2021 for more information on causing, contributing, or being directly linked to negative impacts.",
+                "These instruments also set out expectations for organizations to establish or participate in effective operational-level grievance mechanisms.",
+                "Grievance mechanisms are distinct from whistleblowing mechanisms. Whistleblowing mechanisms enable individuals to raise concerns about wrongdoing or breaches of the law in the organization’s operations or business relationships, regardless of whether the individuals themselves are harmed or not. Whistleblowing mechanisms are reported under Disclosure 2- 26 in this Standard.",
+                "This disclosure covers the operation of grievance mechanisms and other remediation processes. The actions taken to provide for or cooperate in the remediation of actual negative impacts for material topics are reported under 3-3-d-ii in GRI 3 .",
+                "The disclosure is only relevant to environmental remediation processes (e.g., processes to remove contaminants from soil) when these are connected to impacts on stakeholders or grievances raised by stakeholders. However, the remedy provided to stakeholders through the mechanisms and processes covered by this disclosure may involve environmental remediation. The use of environmental remediation processes can be reported under 3-3-d-ii in GRI 3 .",
+                "Guidance to 2-25-b Grievance mechanisms refer to any routinized, state-based or non-state-based, judicial or non- judicial processes through which stakeholders can raise grievances and seek remedy.",
+                "Examples of state-based judicial and non-judicial grievance mechanisms include courts (for both criminal and civil actions), labor tribunals, national human rights institutions, National Contact Points under the OECD Guidelines for Multinational Enterprises , ombudsperson offices,",
+                "GRI 2: General Disclosures 2021 41",
+                "consumer protection agencies, regulatory oversight bodies, and government-run complaints offices.",
+                "Non-state-based grievance mechanisms include those administered by the organization, either alone or together with stakeholders, such as operational-level grievance mechanisms and collective bargaining, including the mechanisms established by collective bargaining. They also include mechanisms administered by industry associations, international organizations, civil society organizations, or multi-stakeholder groups.",
+                "Operational-level grievance mechanisms are administered by the organization either alone or in collaboration with other parties and are directly accessible by the organization’s stakeholders. They allow for grievances to be identified and addressed early and directly, thereby preventing both harm and grievances from escalating. They also provide important feedback on the effectiveness of the organization’s due diligence from those who are directly affected.",
+                "The organization can describe:",
+                "•",
+                "the intended purpose and users of the mechanisms (i.e., whether they are intended for a particular stakeholder category, topic, or region) and whether they enable users to raise human rights-related concerns. For example, the organization can explain that it has established a mechanism for community members to raise complaints about resettlement, as well as a separate hotline for workers to raise concerns about issues affecting their rights, such as health and safety conditions;",
+                "how the mechanisms operate and who administers them (the organization or another party); • whether operational-level grievance mechanisms are administered at the organizational level or whether they are administered at a lower level (at the site or project level) and, in such a case, how information from these mechanisms is centralized;",
+                "•",
+                "•",
+                "how the mechanisms have been designed and on which principles and guidelines they are based, including whether they are designed to meet the effectiveness criteria set out in UN Guiding Principle 31 [ 14 ];",
+                "the process through which grievances are investigated; • whether grievances are communicated to the highest governance body; • whether grievances are treated confidentially; • whether the mechanisms can be used by stakeholders anonymously through representation by a third party; •",
+                "whether the organization requires or provides incentives for the creation or improvement of operational-level grievance mechanisms in workplaces of suppliers; •",
+                "•",
+                "whether the organization provides a back-up process for workplaces of suppliers that do not have operational-level grievance mechanisms or where the existing grievance mechanisms in those workplaces result in unresolved issues.",
+                "Guidance to 2-25-c Requirement 2-25-c covers remediation processes other than grievance mechanisms. Such processes lead to the remediation of an impact without mechanisms for filing a formal complaint.",
+                "Examples include instances where the organization takes action to remediate an actual impact evidenced in an impact assessment or a report published by a civil society organization.",
+                "Guidance to 2-25-d The organization can describe, for example, how it engages with stakeholders who are the intended users of the grievance mechanisms, to understand how they want to access the mechanisms to raise concerns, and their expectations about how the mechanisms will operate.",
+                "Guidance to 2-25-e According to UN Guiding Principle 31 [ 14 ], effective grievance mechanisms are legitimate, accessible, predictable, equitable, transparent, rights-compatible, and a source of continuous learning. In addition to these criteria, effective operational-level grievance mechanisms are also based on engagement and dialogue. It can be more difficult for the organization to assess the effectiveness of grievance mechanisms that it participates in compared to those it has established itself.",
+                "The organization can report:",
+                "GRI 2: General Disclosures 2021 42",
+                "whether and how the intended users are informed about the grievance mechanisms and remediation processes; •",
+                "whether and how the intended users are trained to use the grievance mechanisms and remediation processes; •",
+                "•",
+                "the accessibility of the grievance mechanisms and remediation processes, such as the number of hours per day or days per week they are accessible, and their availability in different languages;",
+                "how the organization seeks to ensure it respects users’ human rights and protects them against reprisals (i.e., non-retaliation for raising complaints or concerns); •",
+                "how satisfied users are with the grievance mechanisms and remediation processes, and with the resulting outcomes, as well as how the organization assesses user satisfaction; •",
+                "•",
+                "the number and types of grievances filed during the reporting period, and the percentage of grievances that were addressed and resolved, including the percentage that were resolved through remediation;",
+                "the number of grievances filed during the reporting period that are repeated or recurring; • changes made to the grievance mechanisms and remediation processes in response to lessons learned about their effectiveness. •",
+                "Quantitative data, such as the number of grievances, is unlikely to be sufficient on its own. For example, a low number of grievances could indicate that few incidents have occurred, but it could also signal that their intended users do not trust the mechanisms. For this reason, contextual information should be provided to help information users interpret the data.",
+                "GRI 2: General Disclosures 2021 43"
+              ],
+              "tables": [],
+              "page_start": 40,
+              "page_end": 43
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "describe its commitments to provide for or cooperate in the remediation of negative impacts that the organization identifies it has caused or contributed to; a.",
+            "describe its approach to identify and address grievances, including the grievance mechanisms that the organization has established or participates in; b.",
+            "describe other processes by which the organization provides for or cooperates in the remediation of negative impacts that it identifies it has caused or contributed to; c.",
+            "d.",
+            "describe how the stakeholders who are the intended users of the grievance mechanisms are involved in the design, review, operation, and improvement of these mechanisms;",
+            "e.",
+            "describe how the organization tracks the effectiveness of the grievance mechanisms and other remediation processes, and report examples of their effectiveness, including stakeholder feedback.",
+            "This disclosure covers grievance mechanisms that the organization has established or participates in. Grievance mechanisms enable stakeholders to raise concerns about, and seek remedy for, the organization’s potential and actual negative impacts on them. This includes impacts on their human rights. This disclosure also covers other processes by which the organization provides for or cooperates in the remediation of negative impacts that it identifies it has caused or contributed to."
+          ],
+          "tables": [],
+          "page_start": 40,
+          "page_end": 43
+        },
+        {
+          "id": "Disclosure 2-26 Mechanisms for seeking advice and",
+          "label": "Disclosure 2-26 Mechanisms for seeking advice and raising concerns",
+          "text": "Disclosure 2-26 Mechanisms for seeking advice and raising concerns",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "These mechanisms enable individuals to raise concerns about wrongdoing or breaches of the law in the organization’s operations or business relationships, regardless of whether the individuals themselves are harmed or not. They are distinct from grievance mechanisms, which enable stakeholders to raise concerns about, and seek remedy / remediation for, the organization’s potential and actual negative impacts on them. Grievance mechanisms are reported under Disclosure 2-25 in this Standard.",
+                "If the organization’s grievance mechanisms and its mechanisms for seeking advice and raising concerns about responsible business conduct operate in a similar way, the organization can provide a single description of how these mechanisms operate and explain which mechanisms the description covers.",
+                "The organization can report:",
+                "who the intended users of the mechanisms are; • how the mechanisms operate and which level or function in the organization is assigned responsibility for them; •",
+                "whether the mechanisms are operated independently of the organization (e.g., by a third party); •",
+                "the process through which concerns are investigated; • whether requests for advice and concerns raised are treated confidentially; • whether the mechanisms can be used anonymously. •",
+                "Additionally, the organization can report information about the effectiveness of the mechanisms, including:",
+                "whether and how the intended users are informed about the mechanisms and trained on how to use them; •",
+                "the accessibility of the mechanisms, such as the number of hours per day or days per week they are available, and their availability in different languages; •",
+                "how the organization seeks to ensure it respects users’ human rights and protects them against reprisals (i.e., non-retaliation for raising concerns); •",
+                "how satisfied users are with the mechanisms and with the resulting outcomes; • the number and types of requests for advice received during the reporting period, and the percentage of requests that were answered; •",
+                "the number and types of concerns raised during the reporting period, and the percentage of concerns that were addressed and resolved or found to be unsubstantiated. •",
+                "GRI 2: General Disclosures 2021 44"
+              ],
+              "tables": [],
+              "page_start": 43,
+              "page_end": 44
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "a.",
+            "describe the mechanisms for individuals to:",
+            "seek advice on implementing the organization’s policies and practices for responsible business conduct; i.",
+            "raise concerns about the organization’s business conduct. ii.",
+            "This disclosure covers the organization’s mechanisms for individuals to seek advice and raise concerns about responsible business conduct in the organization's operations and business relationships. Examples of these mechanisms include confidential interviews during site visits, escalation processes (to raise issues through management levels), hotlines, mechanisms to report non-compliance with laws and regulations, and whistleblowing mechanisms."
+          ],
+          "tables": [],
+          "page_start": 43,
+          "page_end": 44
+        },
+        {
+          "id": "Disclosure 2-27 Compliance with laws and regulatio",
+          "label": "Disclosure 2-27 Compliance with laws and regulations",
+          "text": "Disclosure 2-27 Compliance with laws and regulations",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Non-compliance with laws and regulations can give insight into the ability of management to ensure that the organization conforms to certain performance parameters.",
+                "Laws and regulations can be issued by various bodies, including local, regional, and national governments; regulatory authorities; and public agencies.",
+                "Laws and regulations include:",
+                "international declarations, conventions, and treaties; • national, subnational, regional, and local regulations; • binding voluntary agreements made with regulatory authorities and developed as a substitute for implementing a new regulation; •",
+                "•",
+                "voluntary agreements (or covenants), if the organization directly joins the agreement, or if public agencies make the agreement applicable to organizations in their territory through legislation or regulation.",
+                "This disclosure includes significant instances of non-compliance that resulted in administrative or judicial sanctions and fines that are being appealed during the reporting period.",
+                "Non-monetary sanctions can include restrictions imposed by governments, regulatory authorities, or public agencies on the organization’s activities or operations, such as withdrawal of trading licenses or licenses to operate in highly regulated industries. They can also include directives to cease or remediate an unlawful activity.",
+                "The organization can use information about fines that have been reported in its audited consolidated financial statements or in the financial information filed on public record, including fines that are being appealed and which may appear as balance sheet reserves in the financial statements.",
+                "If there were no significant instances of non-compliance with laws and regulations or no fines were paid during the reporting period, a brief statement of this fact is sufficient to comply with the disclosure.",
+                "Guidance to 2-27-c The description of significant instances of non-compliance can include the geographic location where the instance occurred, and the matter to which the instance relates, such as a tax fraud or a spill. The organization is required to report sufficient information for information users to understand the type and the context of significant instances of non-compliance.",
+                "The organization can also explain whether the significant instances are repeated or recurring.",
+                "GRI 2: General Disclosures 2021 45",
+                "Guidance to 2-27-d When determining the significant instances of non-compliance, the organization can assess:",
+                "the severity of the impact resulting from the instance; • external benchmarks used in its sector to determine significant instances of non- compliance. •",
+                "GRI 2: General Disclosures 2021 46"
+              ],
+              "tables": [],
+              "page_start": 44,
+              "page_end": 46
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "a.",
+            "report the total number of significant instances of non-compliance with laws and regulations during the reporting period, and a breakdown of this total by:",
+            "instances for which fines were incurred; i.",
+            "instances for which non-monetary sanctions were incurred; ii.",
+            "b.",
+            "report the total number and the monetary value of fines for instances of non- compliance with laws and regulations that were paid during the reporting period, and a breakdown of this total by:",
+            "fines for instances of non-compliance with laws and regulations that occurred in the current reporting period; i.",
+            "fines for instances of non-compliance with laws and regulations that occurred in previous reporting periods; ii.",
+            "describe the significant instances of non-compliance; c.",
+            "describe how it has determined significant instances of non-compliance. d.",
+            "This disclosure addresses non-compliance, or failure to comply with, laws and regulations that apply to the organization."
+          ],
+          "tables": [],
+          "page_start": 44,
+          "page_end": 46
+        },
+        {
+          "id": "Disclosure 2-28 Membership associations",
+          "label": "Disclosure 2-28 Membership associations",
+          "text": "Disclosure 2-28 Membership associations",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "GRI 2: General Disclosures 2021 47",
+                "5. Stakeholder engagement",
+                "The disclosures in this section provide information about the organization’s stakeholder engagement practices, including how it engages in collective bargaining with employees."
+              ],
+              "tables": [],
+              "page_start": 46,
+              "page_end": 47
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "report industry associations, other membership associations, and national or international advocacy organizations in which it participates in a significant role. a.",
+            "The organization may have a significant role in an association or advocacy organization when it holds a position in the governance body, participates in projects or committees, or provides substantive funding beyond routine membership dues. The role may also be significant when the organization views its membership as strategic to influencing the mission or objective of the association that is critical to the organization’s own activities."
+          ],
+          "tables": [],
+          "page_start": 46,
+          "page_end": 47
+        },
+        {
+          "id": "Disclosure 2-29 Approach to stakeholder engagement",
+          "label": "Disclosure 2-29 Approach to stakeholder engagement",
+          "text": "Disclosure 2-29 Approach to stakeholder engagement",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "This disclosure covers stakeholder engagement undertaken by the organization as part of its ongoing activities, rather than specifically for the purpose of sustainability reporting.",
+                "Guidance to 2-29-a-i Common categories of stakeholders for organizations are business partners, civil society organizations, consumers, customers, employees and other workers, governments, local communities, non-governmental organizations, shareholders and other investors, suppliers, trade unions, and vulnerable groups.",
+                "The organization can explain how it determines which categories of stakeholders to engage with and which categories not to engage with.",
+                "Guidance to 2-29-a-ii The purpose of stakeholder engagement can be, for example, to identify actual and potential impacts or to determine prevention and mitigation responses to potential negative impacts. In some cases, stakeholder engagement is a right in and of itself, such as the right of workers to form or join trade unions or their right to bargain collectively.",
+                "The organization can also report:",
+                "the type of stakeholder engagement (e.g., participation, consultation, information) and its frequency (e.g., ongoing, quarterly, annually); •",
+                "•",
+                "when it engages directly with stakeholders and when it engages with credible stakeholder representatives or proxy organizations, or other credible independent expert resources, and why;",
+                "•",
+                "whether stakeholder engagement activities take place at the organizational level or at a lower level, such as at the site or project level, and in the latter case, how information from stakeholder engagement activities is centralized;",
+                "the resources (e.g., financial or human resources) allocated to stakeholder engagement. •",
+                "Further information on stakeholder engagement undertaken for specific activities is reported under other disclosures. For example, the organization must report on stakeholder engagement undertaken to determine and manage material topics under 3-1-b and 3-3-f in GRI 3: Material Topics 2021 .",
+                "Guidance to 2-29-a-iii Meaningful stakeholder engagement is characterized by two-way communication and depends on the good faith of participants on both sides. It is also responsive and ongoing and includes in many cases engaging with relevant stakeholders before decisions are made. [ 11 ]",
+                "The organization can report:",
+                "how it takes into account potential barriers to stakeholder engagement (e.g., language and cultural differences, gender and power imbalances, divisions within a community or group); •",
+                "GRI 2: General Disclosures 2021 48",
+                "how it engages with at-risk or vulnerable groups (e.g., whether it takes specific approaches and gives special attention to potential barriers); •",
+                "how it provides stakeholders with information that is understandable and accessible through appropriate communication channels; •",
+                "how stakeholder feedback is recorded and integrated into decision-making, and how stakeholders are informed about the way in which their feedback has influenced decisions; •",
+                "how it seeks to respect the human rights of all stakeholders engaged, for example, their rights to privacy, freedom of expression, and peaceful assembly and protest; •",
+                "•",
+                "how it works with business partners to engage with stakeholders in a meaningful way, including the expectations it places on business partners to respect the human rights of stakeholders during engagement.",
+                "GRI 2: General Disclosures 2021 49"
+              ],
+              "tables": [],
+              "page_start": 47,
+              "page_end": 49
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "a.",
+            "describe its approach to engaging with stakeholders, including:",
+            "the categories of stakeholders it engages with, and how they are identified; i.",
+            "the purpose of the stakeholder engagement; ii.",
+            "how the organization seeks to ensure meaningful engagement with stakeholders. iii.",
+            "Stakeholders are individuals or groups that have interests that are affected or could be affected by the organization’s activities [ 11 ]. For more information on stakeholders, see section 2.4 in GRI 1: Foundation 2021 ."
+          ],
+          "tables": [],
+          "page_start": 47,
+          "page_end": 49
+        },
+        {
+          "id": "Disclosure 2-30 Collective bargaining agreements",
+          "label": "Disclosure 2-30 Collective bargaining agreements",
+          "text": "Disclosure 2-30 Collective bargaining agreements",
+          "requirements": [
+            {
+              "type": "GUIDANCE",
+              "text": "GUIDANCE",
+              "content": [
+                "Collective bargaining refers to negotiations that take place between one or more employers or employers' organizations and one or more workers' organizations (e.g., trade unions). The objective of these negotiations is to reach a collective agreement on working conditions and terms of employment (e.g., wages, working time) and to regulate relations between employers and workers. [ 3 ] These negotiations are an important means through which employers’ organizations and workers’ organizations can improve working conditions and labor relations.",
+                "Collective agreements can be made at the level of the organization, at the level of a particular site, at the industry level, and at the national level in countries where this is the practice. Collective agreements can cover specific groups of workers, for example, those performing a specific activity or working at a specific location.",
+                "If the organization has a statement or policy commitment on freedom of association and collective bargaining, this is reported under 2-23-b-i in this Standard or 3-3-c in GRI 3: Material Topics 2021 .",
+                "See references [2], [3], [4], [5], [6], [8], [10], [21], [25], and [26] in the Bibliography .",
+                "Guidance to 2-30-a The organization is required to report the percentage of its employees whose working conditions and terms of employment are regulated by one or more collective bargaining agreements.",
+                "The percentage of employees covered by collective bargaining agreements is calculated using the following formula:",
+                "Number of employees covered by collective bargaining agreements",
+                "___________________________________________________",
+                "x 100",
+                "Total number of employees reported under 2-7-a",
+                "The employees covered by collective bargaining agreements are those employees to whom the organization is obligated to apply the agreement. This means that if none of the employees are covered by a collective bargaining agreement, the percentage reported is zero. An employee covered by more than one collective bargaining agreement only needs to be counted once.",
+                "This requirement does not ask for the percentage of employees represented by a works council or belonging to trade unions, which can be different. The percentage of employees covered by collective bargaining agreements can be higher than the percentage of unionized employees when the collective bargaining agreements apply to both union and non-union members. Alternatively, the percentage of employees covered by collective bargaining agreements can be lower than the percentage of unionized employees. This may be the case when there are no collective bargaining agreements available or when the collective bargaining agreements do not cover all unionized employees.",
+                "GRI 2: General Disclosures 2021 50",
+                "The organization can also provide a breakdown of the percentage of employees covered by collective bargaining agreements by region, or provide comparisons with industry benchmarks.",
+                "Guidance to 2-30-b There may be instances where collective bargaining agreements cover some or none of the organization’s employees. However, the working conditions and terms of employment of these employees may be influenced or determined by the organization based on other collective bargaining agreements, such as agreements that cover other employees or agreements from other organizations. If this is the case, the organization is required to report it under 2-30-b. If this is not the case, and the working conditions and terms of employment of these employees are not influenced or determined based on other collective bargaining agreements, a brief statement of this fact is sufficient to comply with this requirement.",
+                "GRI 2: General Disclosures 2021 51",
+                "Glossary",
+                "This glossary provides definitions for terms used in this Standard. The organization is required to apply these definitions when using the GRI Standards.",
+                "The definitions included in this glossary may contain terms that are further defined in the complete GRI Standards Glossary . All defined terms are underlined. If a term is not defined in this glossary or in the complete GRI Standards Glossary , definitions that are commonly used and understood apply.",
+                "business partner entity with which the organization has some form of direct and formal engagement for the purpose of meeting its business objectives",
+                "B",
+                "Source: Shift and Mazars LLP, UN Guiding Principles Reporting Framework , 2015; modified",
+                "Examples: affiliates, business-to-business customers, clients, first-tier suppliers, franchisees, joint venture partners, investee companies in which the organization has a shareholding position",
+                "Note: Business partners do not include subsidiaries and affiliates that the organization controls.",
+                "business relationships relationships that the organization has with business partners, with entities in its value chain including those beyond the first tier, and with any other entities directly linked to its operations, products, or services",
+                "Source: United Nations (UN), Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework , 2011; modified",
+                "Note: Examples of other entities directly linked to the organization’s operations, products, or services are a non-governmental organization with which the organization delivers support to a local community or state security forces that protect the organization’s facilities.",
+                "collective bargaining all negotiations that take place between one or more employers or employers' organizations, on the one hand, and one or more workers' organizations (e.g., trade unions), on the other, for determining working conditions and terms of employment or for regulating relations between employers and workers",
+                "C",
+                "Source: International Labour Organization (ILO), Collective Bargaining Convention , 1981 (No. 154); modified",
+                "conflict of interest situation where an individual is confronted with choosing between the requirements of their function in the organization and their other personal or professional interests or responsibilities",
+                "child person under the age of 15 years, or under the age of completion of compulsory schooling, whichever is higher",
+                "Note 1: Exceptions can occur in certain countries where economies and educational facilities are insufficiently developed, and a minimum age of 14 years applies. These countries of exception are specified by the International Labour Organization (ILO) in response to a special application by the country concerned and in consultation with representative organizations of employers and workers.",
+                "Note 2: The ILO Minimum Age Convention, 1973, (No. 138), refers to both child labor and young workers.",
+                "GRI 2: General Disclosures 2021 52",
+                "due diligence process to identify, prevent, mitigate, and account for how the organization addresses its actual and potential negative impacts",
+                "D",
+                "Source: Organisation for Economic Co-operation and Development (OECD), OECD Guidelines for Multinational Enterprises , 2011; modified United Nations (UN), Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework , 2011; modified",
+                "Note: See section 2.3 in GRI 1: Foundation 2021 for more information on ‘due diligence’.",
+                "employee individual who is in an employment relationship with the organization according to national law or practice",
+                "E",
+                "full-time employee employee whose working hours per week, month, or year are defined according to national law or practice regarding working time",
+                "F",
+                "governance body formalized group of individuals responsible for the strategic guidance of the organization, the effective monitoring of management, and the accountability of management to the broader organization and its stakeholders",
+                "G",
+                "grievance perceived injustice evoking an individual’s or a group’s sense of entitlement, which may be based on law, contract, explicit or implicit promises, customary practice, or general notions of fairness of aggrieved communities",
+                "Source: United Nations (UN), Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework , 2011",
+                "grievance mechanism routinized process through which grievances can be raised and remedy can be sought",
+                "Source: United Nations (UN), Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework , 2011; modified",
+                "Note: See Guidance to Disclosure 2-25 in GRI 2: General Disclosures 2021 for more information on ‘grievance mechanism’.",
+                "highest governance body governance body with the highest authority in the organization",
+                "H",
+                "Note: In some jurisdictions, governance systems consist of two tiers, where supervision and management are separated or where local law provides for a supervisory board drawn from non-executives to oversee an executive management board. In such cases, both tiers are included under the definition of highest governance body.",
+                "human rights rights inherent to all human beings, which include, at a minimum, the rights set out in the United Nations (UN) International Bill of Human Rights and the principles concerning fundamental rights set out in the International Labour Organization (ILO) Declaration on Fundamental Principles and Rights at Work",
+                "Source: United Nations (UN), Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework , 2011; modified",
+                "Note: See Guidance to 2-23-b-i in GRI 2: General Disclosures 2021 for more information on ‘human rights’.",
+                "GRI 2: General Disclosures 2021 53",
+                "impact effect the organization has or could have on the economy, environment, and people, including on their human rights, which in turn can indicate its contribution (negative or positive) to sustainable development",
+                "I",
+                "Note 1: Impacts can be actual or potential, negative or positive, short-term or long-term, intended or unintended, and reversible or irreversible.",
+                "Note 2: See section 2.1 in GRI 1: Foundation 2021 for more information on ‘impact’.",
+                "Indigenous Peoples Indigenous Peoples are generally identified as:",
+                "•",
+                "tribal peoples in independent countries whose social, cultural and economic conditions distinguish them from other sections of the national community, and whose status is regulated wholly or partially by their own customs or traditions or by special laws or regulations;",
+                "•",
+                "peoples in independent countries who are regarded as indigenous on account of their descent from the populations which inhabited the country, or a geographical region to which the country belongs, at the time of conquest or colonization or the establishment of present state boundaries and who, irrespective of their legal status, retain some or all of their own social, economic, cultural and political institutions.",
+                "Source: International Labour Organization (ILO), Indigenous and Tribal Peoples Convention , 1989 (No. 169)",
+                "local community individuals or groups of individuals living or working in areas that are affected or that could be affected by the organization’s activities",
+                "L",
+                "Note: The local community can range from those living adjacent to the organization’s operations to those living at a distance.",
+                "material topics topics that represent the organization’s most significant impacts on the economy, environment, and people, including impacts on their human rights",
+                "M",
+                "Note: See section 2.2 in GRI 1: Foundation 2021 and section 1 in GRI 3: Material Topics 2021 for more information on ‘material topics’.",
+                "mitigation action(s) taken to reduce the extent of a negative impact",
+                "Source: United Nations (UN), The Corporate Responsibility to Respect Human Rights: An Interpretive Guide , 2012; modified",
+                "Note: The mitigation of an actual negative impact refers to actions taken to reduce the severity of the negative impact that has occurred, with any residual impact needing remediation. The mitigation of a potential negative impact refers to actions taken to reduce the likelihood of the negative impact occurring.",
+                "non-guaranteed hours employee employee who is not guaranteed a minimum or fixed number of working hours per day, week, or month, but who may need to make themselves available for work as required",
+                "N",
+                "Source: ShareAction, Workforce Disclosure Initiative Survey Guidance Document , 2020; modified",
+                "Examples: casual employees, employees with zero-hour contracts, on-call employees",
+                "part-time employee employee whose working hours per week, month, or year are less than the number of working hours for full-time employees",
+                "P",
+                "permanent employee employee with a contract for an indeterminate period (i.e., indefinite contract) for full-time or part-",
+                "GRI 2: General Disclosures 2021 54",
+                "time work",
+                "remedy / remediation means to counteract or make good a negative impact or provision of remedy",
+                "R",
+                "Source: United Nations (UN), The Corporate Responsibility to Respect Human Rights: An Interpretive Guide , 2012; modified",
+                "Examples: apologies, financial or non-financial compensation, prevention of harm through injunctions or guarantees of non-repetition, punitive sanctions (whether criminal or administrative, such as fines), restitution, restoration, rehabilitation",
+                "reporting period specific time period covered by the reported information",
+                "Examples: fiscal year, calendar year",
+                "senior executive high-ranking member of the management of the organization, such as the Chief Executive Officer (CEO) or an individual reporting directly to the CEO or the highest governance body",
+                "S",
+                "severity (of an impact) The severity of an actual or potential negative impact is determined by its scale (i.e., how grave the impact is), scope (i.e., how widespread the impact is), and irremediable character (how hard it is to counteract or make good the resulting harm).",
+                "Source: Organisation for Economic Co-operation and Development (OECD), OECD Due Diligence Guidance for Responsible Business Conduct , 2018; modified United Nations (UN), The Corporate Responsibility to Respect Human Rights: An Interpretive Guide , 2012; modified",
+                "Note: See section 1 in GRI 3: Material Topics 2021 for more information on ‘severity’.",
+                "stakeholder individual or group that has an interest that is affected or could be affected by the organization’s activities",
+                "Source: Organisation for Economic Co-operation and Development (OECD), OECD Due Diligence Guidance for Responsible Business Conduct , 2018; modified",
+                "Examples: business partners, civil society organizations, consumers, customers, employees and other workers, governments, local communities, non-governmental organizations, shareholders and other investors, suppliers, trade unions, vulnerable groups",
+                "Note: See section 2.4 in GRI 1: Foundation 2021 for more information on ‘stakeholder’.",
+                "supplier",
+                "supplier entity upstream from the organization (i.e., in the organization’s supply chain), which provides a product or service that is used in the development of the organization’s own products or services",
+                "Examples: brokers, consultants, contractors, distributors, franchisees, homeworkers, independent contractors, licensees, manufacturers, primary producers, subcontractors, wholesalers",
+                "Note: A supplier can have a direct business relationship with the organization (often referred to as a first-tier supplier) or an indirect business relationship.",
+                "supply chain range of activities carried out by entities upstream from the organization, which provide products or services that are used in the development of the organization’s own products or services",
+                "sustainable development / sustainability development that meets the needs of the present without compromising the ability of future generations to meet their own needs",
+                "GRI 2: General Disclosures 2021 55",
+                "Source: World Commission on Environment and Development, Our Common Future , 1987",
+                "Note: The terms ‘sustainability’ and ‘sustainable development’ are used interchangeably in the GRI Standards.",
+                "temporary employee employee with a contract for a limited period (i.e., fixed term contract) that ends when the specific time period expires, or when the specific task or event that has an attached time estimate is completed (e.g., the end of a project or return of replaced employees)",
+                "T",
+                "under-represented social group group of individuals who are less represented within a subset (e.g., a body or committee, employees of an organization) relative to their numbers in the general population, and who therefore have less opportunity to express their economic, social, or political needs and views",
+                "U",
+                "Note 1: Under-represented social groups may include minority groups.",
+                "Note 2: The groups included under this definition depend on the organization’s operating context and are not uniform for every organization.",
+                "vulnerable group group of individuals with a specific condition or characteristic (e.g., economic, physical, political, social) that could experience negative impacts as a result of the organization’s activities more severely than the general population",
+                "V",
+                "Examples: children and youth; elderly persons; ex-combatants; HIV/AIDS-affected households; human rights defenders; Indigenous Peoples; internally displaced persons; migrant workers and their families; national or ethnic, religious and linguistic minorities; persons who might be discriminated against based on their sexual orientation, gender identity, gender expression, or sex characteristics (e.g., lesbian, gay, bisexual, transgender, intersex); persons with disabilities; refugees or returning refugees; women",
+                "Note: Vulnerabilities and impacts can differ by gender.",
+                "value chain range of activities carried out by the organization, and by entities upstream and downstream from the organization, to bring the organization’s products or services from their conception to their end use",
+                "Note 1: Entities upstream from the organization (e.g., suppliers) provide products or services that are used in the development of the organization’s own products or services. Entities downstream from the organization (e.g., distributors, customers) receive products or services from the organization.",
+                "Note 2: The value chain includes the supply chain.",
+                "worker person that performs work for the organization",
+                "W",
+                "Examples: employees, agency workers, apprentices, contractors, homeworkers, interns, self- employed persons, subcontractors, volunteers, and persons working for organizations other than the reporting organization, such as for suppliers",
+                "Note: In the GRI Standards, in some cases, it is specified whether a particular subset of workers is required to be used.",
+                "Bibliography",
+                "GRI 2: General Disclosures 2021 56",
+                "Bibliography",
+                "This section lists authoritative intergovernmental instruments and additional references used in developing this Standard, as well as resources that can be consulted by the organization.",
+                "Authoritative instruments:",
+                "International Committee of the Red Cross (ICRC), the Geneva Conventions of 1949 and their Additional Protocols, 1949. 1.",
+                "International Labour Organization (ILO), Collective Agreements Recommendation , 1951 (No. 91). 2.",
+                "International Labour Organization (ILO), Collective Bargaining Convention , 1981 (No. 154). 3.",
+                "International Labour Organization (ILO), Collective Bargaining Recommendation , 1981 (No. 163). 4.",
+                "International Labour Organization (ILO), Declaration on Fundamental Principles and Rights at Work , 1998. 5.",
+                "International Labour Organization (ILO), Freedom of Association and Protection of the Right to Organise Convention , 1948 (No. 87). 6.",
+                "International Labour Organization (ILO), Resolution concerning the International Classification of Status in Employment (ICSE) , 1993. 7.",
+                "International Labour Organization (ILO), Right to Organise and Collective Bargaining Convention , 1949 (No. 98). 8.",
+                "International Labour Organization (ILO), Tripartite Declaration of Principles concerning Multinational Enterprises and Social Policy , 2017. 9.",
+                "International Labour Organization (ILO), Workers’ Representatives Convention , 1971 (No. 135). 10.",
+                "Organisation for Economic Co-operation and Development (OECD), OECD Due Diligence Guidance for Responsible Business Conduct , 2018. 11.",
+                "Organisation for Economic Co-operation and Development (OECD), OECD Guidelines for Multinational Enterprises , 2011. 12.",
+                "Organisation for Economic Co-operation and Development (OECD), OECD Principles of Corporate Governance , 2004. 13.",
+                "United Nations (UN), Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework , 2011. 14.",
+                "United Nations (UN), International Bill of Human Rights :",
+                "15.",
+                "United Nations (UN), Universal Declaration of Human Rights, 1948. 15.1",
+                "United Nations (UN), International Covenant of Civil and Political Rights , 1966. 15.2",
+                "United Nations (UN), International Covenant on Economic, Social, and Cultural Rights , 1966. 15.3",
+                "United Nations (UN), Optional Protocol to the International Covenant on Civil and Political Rights , 1966. 15.4",
+                "United Nations (UN), Second Optional Protocol to the International Covenant on Civil and Political Rights, aiming at the abolition of the death penalty , 1989. 15.5",
+                "United Nations (UN), Protect, Respect and Remedy: a Framework for Business and Human Rights , 2008. 16.",
+                "United Nations (UN), Report of the Special Representative of the Secretary-General on the Issue of Human Rights and Transnational Corporations and Other Business Enterprises, John Ruggie , 2011. 17.",
+                "United Nations (UN), Rio Declaration on Environment and Development , 1992. 18.",
+                "Additional references:",
+                "Committee on Workers’ Capital (CWC), Guidelines for the Evaluation of Workers’ Human Rights and Labour Standards , 2017. 19.",
+                "International Corporate Governance Network (ICGN), ICGN Global Governance Principles , 2021. 20.",
+                "21.",
+                "International Labour Organization (ILO), 8. Freedom of Association and Collective Bargaining, https://www.ilo.org/global/topics/dw4sd/themes/freedom-of-association/lang--en/index.htm , accessed on 7 May 2021.",
+                "International Labour Organization (ILO), ILOSTAT, https://ilostat.ilo.org/ , accessed on 7 May 2021. 22.",
+                "International Labour Organization (ILO), Key Indicators of the Labour Market (KILM), 9th ed., 2016. 23.",
+                "International Labour Organization (ILO), Non-standard employment around the world: Understanding challenges, shaping prospects , 2016. 24.",
+                "25.",
+                "Visser, S. Hayter, and R. Gammarano, ‘Trends in collective bargaining coverage: stability, erosion or decline?’, Issue Brief no. 1 – Labour Relations and Collective Bargaining , February 2017, https://www.ilo.org/wcmsp5/groups/public/---ed_protect/---protrav/---",
+                "GRI 2: General Disclosures 2021 57",
+                "travail/documents/publication/wcms_409422.pdf , accessed on 7 May 2021. ShareAction, The Workforce Disclosure Initiative 2020 Survey Guidance Document , 2020. 26.",
+                "Resources:",
+                "27.",
+                "Castan Centre for Human Rights Law, Office of the United Nations High Commissioner for Human Rights (OHCHR), and United Nations (UN) Global Compact, Human Rights Translated 2.0: A Business Reference Guide , 2017.",
+                "Shift and Mazars LLP, UN Guiding Principles Reporting Framework , 2015. 28.",
+                "Shift, Oxfam, and Global Compact Network Netherlands, Doing Business with Respect for Human Rights: A Guidance Tool for Companies , 2016. 29.",
+                "United Nations (UN), Methodology. Standard country or area codes for statistical use (M49), http://unstats.un.org/unsd/methods/m49/m49regin.htm , accessed on 7 May 2021. 30.",
+                "United Nations (UN), The Corporate Responsibility to Respect Human Rights: An Interpretive Guide , 2012. 31.",
+                "World Benchmarking Alliance (WBA), Corporate Human Rights Benchmark methodology, updated periodically. 32.",
+                "PO Box 10039",
+                "1001 EA Amsterdam",
+                "The Netherlands",
+                "www.globalreporting.org"
+              ],
+              "tables": [],
+              "page_start": 49,
+              "page_end": 58
+            }
+          ],
+          "content": [
+            "The organization shall: REQUIREMENTS",
+            "report the percentage of total employees covered by collective bargaining agreements; a.",
+            "b.",
+            "for employees not covered by collective bargaining agreements, report whether the organization determines their working conditions and terms of employment based on collective bargaining agreements that cover its other employees or based on collective bargaining agreements from other organizations.",
+            "This disclosure provides insights into how the organization engages in collective bargaining with its employees. Collective bargaining is a fundamental right at work covered in the International Labour Organization (ILO) Right to Organise and Collective Bargaining Convention [ 8 ]."
+          ],
+          "tables": [],
+          "page_start": 49,
+          "page_end": 58
+        }
+      ]
+    }
+  ]
+}

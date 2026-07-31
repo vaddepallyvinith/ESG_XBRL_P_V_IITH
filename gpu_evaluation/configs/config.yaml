@@ -1,0 +1,12 @@
+# Evaluation Pipeline Master Config
+settings: "configs/settings.yaml"
+providers: "configs/providers.yaml"
+
+execution:
+  mode: "gpu_batch"
+  parallel_workers: 4
+  save_visualizations: true
+  export_formats:
+    - "json"
+    - "csv"
+    - "md"
