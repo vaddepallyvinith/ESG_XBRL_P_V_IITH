@@ -1,0 +1,202 @@
+{
+  "metrics": {
+    "OpenAI": {
+      "accuracy": 0.7468354430379747,
+      "precision": 0.7777777777777778,
+      "recall": 0.7,
+      "f1_score": 0.7368421052631577,
+      "confusion": {
+        "tp": 28,
+        "fp": 8,
+        "fn": 12,
+        "tn": 31
+      }
+    },
+    "Gemini": {
+      "accuracy": 0.569620253164557,
+      "precision": 0.5652173913043478,
+      "recall": 0.65,
+      "f1_score": 0.6046511627906976,
+      "confusion": {
+        "tp": 26,
+        "fp": 20,
+        "fn": 14,
+        "tn": 19
+      }
+    },
+    "Cerebras": {
+      "accuracy": 0.4936708860759494,
+      "precision": 0,
+      "recall": 0.0,
+      "f1_score": 0,
+      "confusion": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 40,
+        "tn": 39
+      }
+    },
+    "GitHub Models": {
+      "accuracy": 0.7468354430379747,
+      "precision": 0.7777777777777778,
+      "recall": 0.7,
+      "f1_score": 0.7368421052631577,
+      "confusion": {
+        "tp": 28,
+        "fp": 8,
+        "fn": 12,
+        "tn": 31
+      }
+    },
+    "Mistral": {
+      "accuracy": 0.7848101265822784,
+      "precision": 0.7804878048780488,
+      "recall": 0.8,
+      "f1_score": 0.7901234567901235,
+      "confusion": {
+        "tp": 32,
+        "fp": 9,
+        "fn": 8,
+        "tn": 30
+      }
+    },
+    "OpenRouter": {
+      "accuracy": 0.8987341772151899,
+      "precision": 0.9210526315789473,
+      "recall": 0.875,
+      "f1_score": 0.8974358974358975,
+      "confusion": {
+        "tp": 35,
+        "fp": 3,
+        "fn": 5,
+        "tn": 36
+      }
+    },
+    "Heuristic (Ontology)": {
+      "accuracy": 0.5189873417721519,
+      "precision": 1.0,
+      "recall": 0.05,
+      "f1_score": 0.09523809523809523,
+      "confusion": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 38,
+        "tn": 39
+      }
+    },
+    "Base LLM (Phase 3)": {
+      "accuracy": 0.5569620253164557,
+      "precision": 0.5510204081632653,
+      "recall": 0.675,
+      "f1_score": 0.6067415730337078,
+      "confusion": {
+        "tp": 27,
+        "fp": 22,
+        "fn": 13,
+        "tn": 17
+      }
+    }
+  },
+  "corr_matrix": {
+    "Groq (GT)": {
+      "Groq (GT)": 1.0,
+      "OpenAI": 0.49678619967937643,
+      "Gemini": 0.13906427897450782,
+      "Cerebras": 0.0,
+      "GitHub Models": 0.49678619967937643,
+      "Mistral": 0.569596011982005,
+      "OpenRouter": 0.7985890032855812,
+      "Heuristic": 0.1591372845208668,
+      "Base LLM": 0.11424182612733867
+    },
+    "OpenAI": {
+      "Groq (GT)": 0.49678619967937643,
+      "OpenAI": 1.0,
+      "Gemini": 0.10502785890957791,
+      "Cerebras": 0.0,
+      "GitHub Models": 1.0,
+      "Mistral": 0.7791411920637744,
+      "OpenRouter": 0.5943366283263336,
+      "Heuristic": 0.17613781826890842,
+      "Base LLM": 0.08750437871838211
+    },
+    "Gemini": {
+      "Groq (GT)": 0.13906427897450782,
+      "OpenAI": 0.10502785890957791,
+      "Gemini": 1.0,
+      "Cerebras": 0.0,
+      "GitHub Models": 0.10502785890957791,
+      "Mistral": 0.3147210193372075,
+      "OpenRouter": 0.09623700591303026,
+      "Heuristic": 0.13650472655798712,
+      "Base LLM": 0.2891939436594168
+    },
+    "Cerebras": {
+      "Groq (GT)": 0.0,
+      "OpenAI": 0.0,
+      "Gemini": 0.0,
+      "Cerebras": 0.0,
+      "GitHub Models": 0.0,
+      "Mistral": 0.0,
+      "OpenRouter": 0.0,
+      "Heuristic": 0.0,
+      "Base LLM": 0.0
+    },
+    "GitHub Models": {
+      "Groq (GT)": 0.49678619967937643,
+      "OpenAI": 1.0,
+      "Gemini": 0.10502785890957791,
+      "Cerebras": 0.0,
+      "GitHub Models": 1.0,
+      "Mistral": 0.7791411920637744,
+      "OpenRouter": 0.5943366283263336,
+      "Heuristic": 0.17613781826890842,
+      "Base LLM": 0.08750437871838211
+    },
+    "Mistral": {
+      "Groq (GT)": 0.569596011982005,
+      "OpenAI": 0.7791411920637744,
+      "Gemini": 0.3147210193372075,
+      "Cerebras": 0.0,
+      "GitHub Models": 0.7791411920637744,
+      "Mistral": 1.0,
+      "OpenRouter": 0.6225930680359433,
+      "Heuristic": 0.15515633241386456,
+      "Base LLM": 0.13413856125569057
+    },
+    "OpenRouter": {
+      "Groq (GT)": 0.7985890032855812,
+      "OpenAI": 0.5943366283263336,
+      "Gemini": 0.09623700591303026,
+      "Cerebras": 0.0,
+      "GitHub Models": 0.5943366283263336,
+      "Mistral": 0.6225930680359433,
+      "OpenRouter": 1.0,
+      "Heuristic": 0.16740551655180108,
+      "Base LLM": 0.02246655705760332
+    },
+    "Heuristic": {
+      "Groq (GT)": 0.1591372845208668,
+      "OpenAI": 0.17613781826890842,
+      "Gemini": 0.13650472655798712,
+      "Cerebras": 0.0,
+      "GitHub Models": 0.17613781826890842,
+      "Mistral": 0.15515633241386456,
+      "OpenRouter": 0.16740551655180108,
+      "Heuristic": 1.0,
+      "Base LLM": 0.12610497564353562
+    },
+    "Base LLM": {
+      "Groq (GT)": 0.11424182612733867,
+      "OpenAI": 0.08750437871838211,
+      "Gemini": 0.2891939436594168,
+      "Cerebras": 0.0,
+      "GitHub Models": 0.08750437871838211,
+      "Mistral": 0.13413856125569057,
+      "OpenRouter": 0.02246655705760332,
+      "Heuristic": 0.12610497564353562,
+      "Base LLM": 1.0
+    }
+  },
+  "aligned_count": 79
+}
