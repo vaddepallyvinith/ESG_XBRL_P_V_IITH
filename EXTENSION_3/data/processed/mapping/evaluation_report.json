@@ -1,0 +1,106 @@
+{
+    "Evaluation Summary": {
+        "generated_at": "2026-07-31 11:42:34"
+    },
+    "Provider Status": [
+        {
+            "provider": "OpenAI",
+            "status": "Completed",
+            "reason": "Loaded from checkpoint",
+            "api_calls": 0,
+            "cached_calls": 0,
+            "execution_time_sec": 0.0,
+            "cost_estimate_usd": 0.0,
+            "failed_requests": 0,
+            "success_rate_percent": 100.0
+        },
+        {
+            "provider": "Claude",
+            "status": "Skipped",
+            "reason": "Missing API Key in env: ANTHROPIC_API_KEY",
+            "api_calls": 0,
+            "cached_calls": 0,
+            "execution_time_sec": 0.0,
+            "cost_estimate_usd": 0.0,
+            "failed_requests": 0,
+            "success_rate_percent": 100.0
+        },
+        {
+            "provider": "Gemini",
+            "status": "Completed",
+            "reason": "Loaded from checkpoint",
+            "api_calls": 0,
+            "cached_calls": 0,
+            "execution_time_sec": 0.0,
+            "cost_estimate_usd": 0.0,
+            "failed_requests": 0,
+            "success_rate_percent": 100.0
+        },
+        {
+            "provider": "Groq",
+            "status": "Completed",
+            "reason": "Loaded from checkpoint",
+            "api_calls": 0,
+            "cached_calls": 0,
+            "execution_time_sec": 0.0,
+            "cost_estimate_usd": 0.0,
+            "failed_requests": 0,
+            "success_rate_percent": 100.0
+        },
+        {
+            "provider": "Cerebras",
+            "status": "Skipped",
+            "reason": "Missing API Key in env: CRESBRAS_API_KEY",
+            "api_calls": 0,
+            "cached_calls": 0,
+            "execution_time_sec": 0.0,
+            "cost_estimate_usd": 0.0,
+            "failed_requests": 0,
+            "success_rate_percent": 100.0
+        },
+        {
+            "provider": "GitHub Models",
+            "status": "Skipped",
+            "reason": "Missing API Key in env: GIT_HUB_TOKEN",
+            "api_calls": 0,
+            "cached_calls": 0,
+            "execution_time_sec": 0.0,
+            "cost_estimate_usd": 0.0,
+            "failed_requests": 0,
+            "success_rate_percent": 100.0
+        },
+        {
+            "provider": "Mistral",
+            "status": "Skipped",
+            "reason": "Missing API Key in env: MISTRAL_API_KEY",
+            "api_calls": 0,
+            "cached_calls": 0,
+            "execution_time_sec": 0.0,
+            "cost_estimate_usd": 0.0,
+            "failed_requests": 0,
+            "success_rate_percent": 100.0
+        },
+        {
+            "provider": "DeepSeek",
+            "status": "Skipped",
+            "reason": "Missing API Key in env: DEEP_SEEK_API_KEY",
+            "api_calls": 0,
+            "cached_calls": 0,
+            "execution_time_sec": 0.0,
+            "cost_estimate_usd": 0.0,
+            "failed_requests": 0,
+            "success_rate_percent": 100.0
+        },
+        {
+            "provider": "OpenRouter",
+            "status": "Completed",
+            "reason": "Loaded from checkpoint",
+            "api_calls": 0,
+            "cached_calls": 0,
+            "execution_time_sec": 0.0,
+            "cost_estimate_usd": 0.0,
+            "failed_requests": 0,
+            "success_rate_percent": 100.0
+        }
+    ]
+}

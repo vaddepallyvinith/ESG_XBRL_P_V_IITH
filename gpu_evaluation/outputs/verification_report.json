@@ -1,9 +1,9 @@
 {
   "metadata": {
     "total_mappings": 79,
-    "evaluation_provider": "groq",
-    "evaluation_model": "llama-3.3-70b-versatile",
-    "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+    "evaluation_provider": "vllm",
+    "evaluation_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+    "endpoint": "http://localhost:8000/v1",
     "learned_weights": {
       "lexical": 0.4297,
       "structural": 0.1935,
@@ -19,9 +19,9 @@
       "mapping": "broadMatch",
       "confidence": 0.4607,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 46.1%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 46.1%",
       "explanation": "Verified alignment for Disclosure_Q10_-4902536702272193205 <-> Disclosure_Disclosure_403_1_Occupational_health_and_safety_ma with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": []
     },
@@ -31,9 +31,9 @@
       "mapping": "broadMatch",
       "confidence": 0.3908,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 39.1%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 39.1%",
       "explanation": "Verified alignment for Disclosure_Q10_-4902536702272193205 <-> Disclosure_Disclosure_403_8_Workers_covered_by_an_occupationa with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": []
     },
@@ -43,9 +43,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.3959,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 39.6%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 39.6%",
       "explanation": "Verified alignment for Disclosure_Q5_6360320180423613439 <-> Disclosure_Disclosure_301_3_Reclaimed_products_and_their_pack with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": []
     },
@@ -55,9 +55,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.3616,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 36.2%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 36.2%",
       "explanation": "Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_102_6_Scope_2_GHG_emissions with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": []
     },
@@ -67,9 +67,9 @@
       "mapping": "broadMatch",
       "confidence": 0.3542,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 35.4%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 35.4%",
       "explanation": "Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_102_6_Scope_2_GHG_emissions_28 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": []
     },
@@ -79,9 +79,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.3283,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 32.8%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 32.8%",
       "explanation": "Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_102_5_Scope_1_GHG_emissions with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": []
     },
@@ -91,9 +91,9 @@
       "mapping": "broadMatch",
       "confidence": 0.3294,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 32.9%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 32.9%",
       "explanation": "Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_305_1_Direct_Scope_1_GHG_emissions with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": []
     },
@@ -103,9 +103,9 @@
       "mapping": "broadMatch",
       "confidence": 0.3242,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 32.4%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 32.4%",
       "explanation": "Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_102_5_Scope_1_GHG_emissions_25 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": []
     },
@@ -115,9 +115,9 @@
       "mapping": "broadMatch",
       "confidence": 0.3243,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 32.4%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 32.4%",
       "explanation": "Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_305_1_Direct_Scope_1_GHG_emissions_9 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": []
     },
@@ -127,9 +127,9 @@
       "mapping": "broadMatch",
       "confidence": 0.314,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 31.4%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 31.4%",
       "explanation": "Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_305_2_Energy_indirect_Scope_2_GHG_emi with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": []
     },
@@ -139,9 +139,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.2998,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 30.0%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 30.0%",
       "explanation": "Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_102_7_Scope_3_GHG_emissions with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -153,9 +153,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2975,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 29.8%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 29.8%",
       "explanation": "Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_305_5_Reduction_of_GHG_emissions with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -167,9 +167,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2982,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 29.8%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 29.8%",
       "explanation": "Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_102_7_Scope_3_GHG_emissions_31 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -181,9 +181,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.2906,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 29.1%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 29.1%",
       "explanation": "Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_102_5_Scope_1_GHG_emissions with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -195,9 +195,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.2906,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 29.1%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 29.1%",
       "explanation": "Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_102_8_GHG_emissions_intensity with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -209,9 +209,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2982,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 29.8%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 29.8%",
       "explanation": "Verified alignment for Disclosure_Q3_7691261722040331206 <-> Disclosure_Disclosure_301_2_Recycled_input_materials_used with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -223,9 +223,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2902,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 29.0%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 29.0%",
       "explanation": "Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_305_4_GHG_emissions_intensity with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -237,9 +237,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2891,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 28.9%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 28.9%",
       "explanation": "Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_305_3_Other_indirect_Scope_3_GHG_emis with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -251,9 +251,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2867,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 28.7%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 28.7%",
       "explanation": "Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_102_5_Scope_1_GHG_emissions_25 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -265,9 +265,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2917,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 29.2%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 29.2%",
       "explanation": "Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_305_5_Reduction_of_GHG_emissions_17 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -279,9 +279,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.2899,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 29.0%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 29.0%",
       "explanation": "Verified alignment for Disclosure_Q4_-6365141755975586128 <-> Disclosure_Disclosure_301_3_Reclaimed_products_and_their_pack with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -293,9 +293,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2652,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 26.5%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 26.5%",
       "explanation": "Verified alignment for Disclosure_Q18_1786218148450392899 <-> Disclosure_Disclosure_2_8_Workers_who_are_not_employees_18 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -307,9 +307,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2865,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 28.7%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 28.7%",
       "explanation": "Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_305_5_Reduction_of_GHG_emissions with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -321,9 +321,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2681,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 26.8%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 26.8%",
       "explanation": "Verified alignment for Disclosure_Q24_7549452836008929946 <-> Disclosure_Disclosure_2_6_Activities_value_chain_and_other_b with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -335,9 +335,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2825,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 28.2%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 28.2%",
       "explanation": "Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_305_4_GHG_emissions_intensity with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -349,9 +349,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.2819,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 28.2%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 28.2%",
       "explanation": "Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_102_8_GHG_emissions_intensity with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -363,9 +363,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2804,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 28.0%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 28.0%",
       "explanation": "Verified alignment for Disclosure_Q1_5402110912519703836 <-> Disclosure_Disclosure_302_1_Energy_consumption_within_the_org with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -377,9 +377,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2809,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 28.1%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 28.1%",
       "explanation": "Verified alignment for Disclosure_Q2_1108849182902078442 <-> Disclosure_Disclosure_303_2_Management_of_water_discharge_rel with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -391,9 +391,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.296,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 29.6%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 29.6%",
       "explanation": "Verified alignment for Disclosure_Q1_-3785314918126152655 <-> Disclosure_Disclosure_414_2_Negative_social_impacts_in_the_su with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -405,9 +405,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2832,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 28.3%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 28.3%",
       "explanation": "Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_102_8_GHG_emissions_intensity_34 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -419,9 +419,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2938,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 29.4%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 29.4%",
       "explanation": "Verified alignment for Disclosure_Q3_7691261722040331206 <-> Disclosure_Disclosure_301_2_Recycled_input_materials_used_9 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -433,9 +433,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2865,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 28.7%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 28.7%",
       "explanation": "Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_305_5_Reduction_of_GHG_emissions_17 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -447,9 +447,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2876,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 28.8%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 28.8%",
       "explanation": "Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_102_4_GHG_emissions_reduction_targets_a with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -461,9 +461,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2783,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 27.8%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 27.8%",
       "explanation": "Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_305_3_Other_indirect_Scope_3_GHG_emis with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -475,9 +475,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2891,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 28.9%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 28.9%",
       "explanation": "Verified alignment for Disclosure_Q4_-8665709853907658340 <-> Disclosure_Disclosure_404_2_Programs_for_upgrading_employee_s with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -489,9 +489,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2795,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 27.9%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 27.9%",
       "explanation": "Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_102_8_GHG_emissions_intensity_34 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -503,9 +503,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2568,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 25.7%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 25.7%",
       "explanation": "Verified alignment for Disclosure_Q24_7549452836008929946 <-> Disclosure_Disclosure_2_13_Delegation_of_responsibility_for_m with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -517,9 +517,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2786,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 27.9%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 27.9%",
       "explanation": "Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_305_4_GHG_emissions_intensity_16 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -531,9 +531,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.2679,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 26.8%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 26.8%",
       "explanation": "Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_102_6_Scope_2_GHG_emissions with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -545,9 +545,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.2679,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 26.8%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 26.8%",
       "explanation": "Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_102_7_Scope_3_GHG_emissions with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -559,9 +559,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.2416,
       "verification": "Rejected",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 24.2%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 24.2%",
       "explanation": "Verified alignment for Disclosure_Q24_7549452836008929946 <-> Disclosure_Disclosure_2_24_Embedding_policy_commitments with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -573,9 +573,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2741,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 27.4%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 27.4%",
       "explanation": "Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_305_4_GHG_emissions_intensity_16 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -587,9 +587,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.2624,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 26.2%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 26.2%",
       "explanation": "Verified alignment for Disclosure_Q1_5402110912519703836 <-> Disclosure_Disclosure_103_4_Energy_intensity with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -601,9 +601,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.2654,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 26.5%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 26.5%",
       "explanation": "Verified alignment for Disclosure_Q8_-7661858907240690343 <-> Disclosure_Disclosure_102_9_GHG_removals_in_the_value_chain with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -615,9 +615,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.2382,
       "verification": "Rejected",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 23.8%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 23.8%",
       "explanation": "Verified alignment for Disclosure_Q24_7549452836008929946 <-> Disclosure_Disclosure_2_8_together_with_Disclosure_2_7_give with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -629,9 +629,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2525,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 25.3%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 25.3%",
       "explanation": "Verified alignment for Disclosure_Q24_7549452836008929946 <-> Disclosure_Disclosure_2_2_Entities_included_in_the_organizati with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -643,9 +643,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2416,
       "verification": "Rejected",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 24.2%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 24.2%",
       "explanation": "Verified alignment for Disclosure_Q24_7549452836008929946 <-> Disclosure_Disclosure_2_22_Statement_on_sustainable_developme with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -657,9 +657,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2498,
       "verification": "Rejected",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 25.0%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 25.0%",
       "explanation": "Verified alignment for Disclosure_Q18_1786218148450392899 <-> Disclosure_Disclosure_2_7_Employees_15 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -671,9 +671,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2664,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 26.6%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 26.6%",
       "explanation": "Verified alignment for Disclosure_Q1_-3785314918126152655 <-> Disclosure_Disclosure_2_25_Processes_to_remediate_negative_im with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -685,9 +685,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2772,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 27.7%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 27.7%",
       "explanation": "Verified alignment for Disclosure_Q9_-8786632947149269380 <-> Disclosure_Disclosure_2_6_Activities_value_chain_and_other_b with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -699,9 +699,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2653,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 26.5%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 26.5%",
       "explanation": "Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_102_6_Scope_2_GHG_emissions_28 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -713,9 +713,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2652,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 26.5%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 26.5%",
       "explanation": "Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_102_7_Scope_3_GHG_emissions_31 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -727,9 +727,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2606,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 26.1%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 26.1%",
       "explanation": "Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_305_1_Direct_Scope_1_GHG_emissions with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -741,9 +741,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.2599,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 26.0%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 26.0%",
       "explanation": "Verified alignment for Disclosure_Q8_-7661858907240690343 <-> Disclosure_Disclosure_308_2_Negative_environmental_impacts_in with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -755,9 +755,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2687,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 26.9%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 26.9%",
       "explanation": "Verified alignment for Disclosure_Q4_8759149838816399254 <-> Disclosure_Disclosure_305_4_GHG_emissions_intensity with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -769,9 +769,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.2668,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 26.7%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 26.7%",
       "explanation": "Verified alignment for Disclosure_Q19_-7385032484066083245 <-> Disclosure_Disclosure_2_19_Remuneration_policies with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -783,9 +783,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2597,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 26.0%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 26.0%",
       "explanation": "Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_305_1_Direct_Scope_1_GHG_emissions_9 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -797,9 +797,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2679,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 26.8%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 26.8%",
       "explanation": "Verified alignment for Disclosure_Q10_-4902536702272193205 <-> Disclosure_Disclosure_403_5_Worker_training_on_occupational_h with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -811,9 +811,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2601,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 26.0%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 26.0%",
       "explanation": "Verified alignment for Disclosure_Q1_5402110912519703836 <-> Disclosure_Disclosure_302_3_Energy_intensity with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -825,9 +825,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.25,
       "verification": "Rejected",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 25.0%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 25.0%",
       "explanation": "Verified alignment for Disclosure_Q18_1786218148450392899 <-> Disclosure_Disclosure_2_8_together_with_Disclosure_2_7_give with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -839,9 +839,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.2538,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 25.4%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 25.4%",
       "explanation": "Verified alignment for Disclosure_Q4_8759149838816399254 <-> Disclosure_Disclosure_102_7_Scope_3_GHG_emissions with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -853,9 +853,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.2543,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 25.4%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 25.4%",
       "explanation": "Verified alignment for Disclosure_Q1_5402110912519703836 <-> Disclosure_Disclosure_103_5_Reduction_in_energy_consumption with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -867,9 +867,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2627,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 26.3%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 26.3%",
       "explanation": "Verified alignment for Disclosure_Q1_5402110912519703836 <-> Disclosure_Disclosure_103_2_Energy_consumption_and_self_gener with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -881,9 +881,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2514,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 25.1%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 25.1%",
       "explanation": "Verified alignment for Disclosure_Q19_-7385032484066083245 <-> Disclosure_Disclosure_2_10_Nomination_and_selection_of_the_hi with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -895,9 +895,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2387,
       "verification": "Rejected",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 23.9%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 23.9%",
       "explanation": "Verified alignment for Disclosure_Q17_-4881588773716442445 <-> Disclosure_Disclosure_2_6_Activities_value_chain_and_other_b with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -909,9 +909,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2381,
       "verification": "Rejected",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 23.8%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 23.8%",
       "explanation": "Verified alignment for Disclosure_Q24_7549452836008929946 <-> Disclosure_Disclosure_2_25_Processes_to_remediate_negative_im with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -923,9 +923,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.2459,
       "verification": "Rejected",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 24.6%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 24.6%",
       "explanation": "Verified alignment for Disclosure_Q18_1786218148450392899 <-> Disclosure_Disclosure_2_7_Employees with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -937,9 +937,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.2568,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 25.7%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 25.7%",
       "explanation": "Verified alignment for Disclosure_Q7_-7352008972679216635 <-> Disclosure_Disclosure_102_7_Scope_3_GHG_emissions with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -951,9 +951,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2626,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 26.3%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 26.3%",
       "explanation": "Verified alignment for Disclosure_Q17_-4881588773716442445 <-> Disclosure_Disclosure_2_17_Collective_knowledge_of_the_highes with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -965,9 +965,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2652,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 26.5%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 26.5%",
       "explanation": "Verified alignment for Disclosure_Q4_8759149838816399254 <-> Disclosure_Disclosure_305_4_GHG_emissions_intensity_16 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -979,9 +979,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2563,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 25.6%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 25.6%",
       "explanation": "Verified alignment for Disclosure_Q1_5402110912519703836 <-> Disclosure_Disclosure_302_4_Reduction_of_energy_consumption with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -993,9 +993,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.2417,
       "verification": "Rejected",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 24.2%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 24.2%",
       "explanation": "Verified alignment for Disclosure_Q18_1786218148450392899 <-> Disclosure_Disclosure_2_8_Workers_who_are_not_employees with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -1007,9 +1007,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2442,
       "verification": "Rejected",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 24.4%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 24.4%",
       "explanation": "Verified alignment for Disclosure_Q24_7549452836008929946 <-> Disclosure_Disclosure_2_14_Role_of_the_highest_governance_bod with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -1021,9 +1021,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2602,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 26.0%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 26.0%",
       "explanation": "Verified alignment for Disclosure_Q19_-7385032484066083245 <-> Disclosure_Disclosure_2_19_Remuneration_policies_30 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -1035,9 +1035,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2692,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 26.9%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 26.9%",
       "explanation": "Verified alignment for Disclosure_Q4_-7927179649578625621 <-> Disclosure_Disclosure_417_1_Requirements_for_product_and_serv with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -1049,9 +1049,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.2309,
       "verification": "Rejected",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 23.1%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 23.1%",
       "explanation": "Verified alignment for Disclosure_Q24_7549452836008929946 <-> Disclosure_Disclosure_2_5_External_assurance with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -1063,9 +1063,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.2483,
       "verification": "Rejected",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 24.8%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 24.8%",
       "explanation": "Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_102_9_GHG_removals_in_the_value_chain with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -1077,9 +1077,9 @@
       "mapping": "narrowMatch",
       "confidence": 0.2356,
       "verification": "Rejected",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 23.6%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 23.6%",
       "explanation": "Verified alignment for Disclosure_Q12_-7498799015999508640 <-> Disclosure_Disclosure_2_24_Embedding_policy_commitments with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"
@@ -1091,9 +1091,9 @@
       "mapping": "broadMatch",
       "confidence": 0.2599,
       "verification": "Accepted",
-      "eval_provider": "groq",
-      "eval_model": "llama-3.3-70b-versatile",
-      "reasoning": "Evaluated with model 'llama-3.3-70b-versatile' (groq) using learned weights at confidence 26.0%",
+      "eval_provider": "vllm",
+      "eval_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "reasoning": "Evaluated with model 'meta-llama/Meta-Llama-3-70B-Instruct' (vllm) using learned weights at confidence 26.0%",
       "explanation": "Verified alignment for Disclosure_Q1_-8488604756514708917 <-> Disclosure_Disclosure_2_29_Approach_to_stakeholder_engagement with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}",
       "issues": [
         "Low learned confidence score"

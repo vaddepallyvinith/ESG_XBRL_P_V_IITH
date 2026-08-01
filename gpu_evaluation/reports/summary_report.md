@@ -1,10 +1,10 @@
 # GPU Evaluation Verification Report (`EXTENSION_2` Reference)
 
 ## Hardware & Model Runtime Metadata
-- **Provider:** `groq`
-- **Model:** `llama-3.3-70b-versatile`
-- **Endpoint:** `https://api.groq.com/openai/v1/chat/completions`
-- **Execution Time:** `0.02s` (LLM Inference: `0.00s`)
+- **Provider:** `vllm`
+- **Model:** `meta-llama/Meta-Llama-3-70B-Instruct`
+- **Endpoint:** `http://localhost:8000/v1`
+- **Execution Time:** `0.01s` (LLM Inference: `0.00s`)
 
 ## Feature Weighting Configuration (Automatically Learned)
 - **Lexical Weight ($w_{	ext{lex}}$):** `0.4297` (42.97%)
@@ -28,4 +28,4 @@
 | 4 | Property | `0.0000` | **0.00%** |
 
 ---
-*Report generated automatically by `gpu_evaluation/run_evaluation.py` on 2026-08-01 23:06:25*
+*Report generated automatically by `gpu_evaluation/run_evaluation.py` on 2026-08-01 23:08:03*
