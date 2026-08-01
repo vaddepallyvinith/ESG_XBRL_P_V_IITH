@@ -29,9 +29,15 @@ llm_providers:
     - "ollama"
 
 weights:
-  use_learned_weights: false
-  given_weights:
-    lexical: 0.35
-    structural: 0.20
+  use_learned_weights: true
+  learned_weights:
+    lexical: 0.4297
+    structural: 0.1935
+    property: 0.0000
+    embedding: 0.3768
+  weights_file: "datasets/learned_weights.json"
+  predetermined_baseline_weights:
+    lexical: 0.40
+    structural: 0.35
     property: 0.15
-    embedding: 0.30
+    embedding: 0.10

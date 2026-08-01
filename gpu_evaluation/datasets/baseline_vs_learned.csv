@@ -1,0 +1,6 @@
+Metric,Predetermined Baseline,Automatically Learned,Delta
+Accuracy,0.3545,0.4273,0.0728
+Precision,1.0,1.0,0.0
+Recall,0.0274,0.137,0.1096
+F1-Score,0.0533,0.241,0.1877
+ROC-AUC,0.9456,0.9633,0.0177

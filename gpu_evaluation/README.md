@@ -1,6 +1,6 @@
 # ESG Ontology Multi-LLM Evaluation Engine (EXTENSION_2: BRSR ↔ GRI)
 
-A portable, self-contained evaluation framework for benchmarking **BRSR–GRI Semantic Disclosure Alignments** on physical GPU workstations, remote server nodes, and HPC clusters.
+A portable, self-contained evaluation framework for benchmarking **BRSR–GRI Semantic Disclosure Alignments** on physical GPU workstations, remote server nodes, and HPC clusters using **Automatically Learned Feature Weights**.
 
 ---
 
@@ -8,15 +8,15 @@ A portable, self-contained evaluation framework for benchmarking **BRSR–GRI Se
 
 This package allows anyone pulling the repository onto a GPU machine to execute multi-LLM comparative evaluations for **EXTENSION_2 (BRSR ↔ GRI Standards)** using **local open-source GPU models** (via vLLM, Ollama, HuggingFace Transformers, or LM Studio) OR **cloud API providers** (Groq, Google Gemini, OpenAI, DeepSeek, Anthropic Claude).
 
-### Specified Feature Weight Vector
-Disclosure similarity feature vectors $[S_{\text{lexical}}, S_{\text{structural}}, S_{\text{property}}, S_{\text{embedding}}]$ are aggregated using your specified weights:
+### Automatically Learned Feature Weight Vector (`EXTENSION_2`)
+Disclosure similarity feature vectors $[S_{\text{lexical}}, S_{\text{structural}}, S_{\text{property}}, S_{\text{embedding}}]$ are aggregated using the feature weights automatically learned via **Logistic Regression** trained over ground-truth alignment data (initialized equally at $[1.0, 1.0, 1.0, 1.0]$ with a 70/15/15 train/val/test split to prevent data leakage):
 
-$$\text{Confidence Score} = \left(0.35 \cdot S_{\text{lexical}} + 0.20 \cdot S_{\text{structural}} + 0.15 \cdot S_{\text{property}} + 0.30 \cdot S_{\text{embedding}}\right) \times 100\%$$
+$$\text{Confidence Score} = \left(0.4297 \cdot S_{\text{lexical}} + 0.1935 \cdot S_{\text{structural}} + 0.0000 \cdot S_{\text{property}} + 0.3768 \cdot S_{\text{embedding}}\right) \times 100\%$$
 
-- **$w_{\text{lex}}$ (Lexical Overlap):** `0.35`
-- **$w_{\text{str}}$ (Structural Hierarchy Path):** `0.20`
-- **$w_{\text{prop}}$ (Property & Unit Compatibility):** `0.15`
-- **$w_{\text{emb}}$ (Embedding Vector Cosine):** `0.30`
+- **$w_{\text{lex}}$ (Lexical Similarity):** `0.4297` ($42.97\%$)
+- **$w_{\text{str}}$ (Structural Hierarchy Path):** `0.1935` ($19.35\%$)
+- **$w_{\text{prop}}$ (Property & Unit Compatibility):** `0.0000` ($0.00\%$)
+- **$w_{\text{emb}}$ (Embedding Vector Cosine):** `0.3768` ($37.68\%$)
 
 ---
 
@@ -25,8 +25,9 @@ $$\text{Confidence Score} = \left(0.35 \cdot S_{\text{lexical}} + 0.20 \cdot S_{
 ```text
 gpu_evaluation/
 ├── configs/                  # Pipeline, open-source model & API key configs
-│   ├── settings.yaml         # Master path & dataset parameters
+│   ├── settings.yaml         # Master path & learned weights parameters
 │   ├── providers.yaml        # Local open-source GPU & cloud model endpoints
+│   ├── learned_weights.json  # Learned weights JSON artifact
 │   ├── config.yaml           # Execution mode configuration
 │   └── .env.example          # Environment variables template
 │
@@ -36,7 +37,12 @@ gpu_evaluation/
 │   ├── merged/               # Final RDF Turtle Ontology (esg_ontology.ttl - 5.67 MB)
 │   └── mappings/             # W3C SKOS Alignment Graphs (mapping.ttl)
 │
-├── datasets/                 # EXTENSION_2 BRSR ↔ GRI Mapping Datasets
+├── datasets/                 # EXTENSION_2 BRSR ↔ GRI Mapping Datasets & Training Reports
+│   ├── learned_weights.json  # Learned feature weight vector configuration
+│   ├── confidence_training_report.json # Weight training metrics report
+│   ├── confidence_training_report.md   # Markdown weight training report
+│   ├── feature_importance.csv          # Feature importance ranking table
+│   ├── baseline_vs_learned.csv         # Baseline vs learned performance gains table
 │   ├── mapping_repository.json # Evaluated 79 BRSR-GRI disclosure mappings
 │   ├── brsr_gri_mapping_repository.json # Secondary mapping repository
 │   ├── mapping_summary.csv   # Tabular summary of BRSR-GRI correspondences
@@ -98,7 +104,7 @@ conda env create -f environment.yml
 conda activate esg-gpu-eval
 ```
 
-#### Option B: Using Pip Virtualenv
+#### Option B: Using Pip & Virtualenv
 ```bash
 python3 -m venv venv
 source venv/bin/activate
@@ -107,83 +113,62 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Running Evaluation with Open-Source GPU Models
+## 🚀 Running Evaluation on Open-Source GPU Models
 
-You can run the evaluation using any open-source model running on your GPU server.
-
-### Example 1: Local Ollama GPU Server (`http://localhost:11434`)
+### 1. Ollama (Local Open-Source GPU Inference)
+If your GPU server has [Ollama](https://ollama.ai) installed:
 
 ```bash
-# Run with Llama-3-70B
+# Pull model
+ollama pull llama3:70b
+
+# Run evaluation using learned weights
 bash run.sh --provider ollama --model llama3:70b
-
-# Run with Qwen-2.5-72B
-bash run.sh --provider ollama --model qwen2.5:72b
-
-# Run with DeepSeek-R1 (14B)
-bash run.sh --provider ollama --model deepseek-r1:14b
 ```
 
-### Example 2: High-Throughput vLLM Server (`http://localhost:8000/v1`)
+### 2. vLLM Server (High-Throughput Open-Source GPU Serving)
+If running a [vLLM](https://github.com/vllm-project/vllm) OpenAI-compatible server:
 
 ```bash
+# Launch vLLM server on GPU
+vllm serve meta-llama/Meta-Llama-3-70B-Instruct --port 8000
+
+# Execute evaluation script
 bash run.sh --provider vllm --model meta-llama/Meta-Llama-3-70B-Instruct --endpoint http://localhost:8000/v1
 ```
 
-### Example 3: LM Studio Local Endpoint (`http://localhost:1234/v1`)
-
+### 3. LM Studio / LocalAI Endpoint
 ```bash
 bash run.sh --provider lmstudio --model local-model --endpoint http://localhost:1234/v1
 ```
 
----
-
-## ☁️ Running Evaluation with Cloud API Providers
-
-If API keys are configured in `configs/.env`:
-
+### 4. Cloud API Providers (Groq, Gemini, OpenAI, DeepSeek)
 ```bash
-# Groq Llama-3.3-70B
+# Set your API keys in environment or .env
+export GROQ_API_KEY="your-groq-key"
+
+# Run Groq Llama-3.3-70B evaluation
 bash run.sh --provider groq --model llama-3.3-70b-versatile
-
-# Google Gemini 2.0 Flash
-bash run.sh --provider gemini --model gemini-2.0-flash-exp
-
-# OpenAI GPT-4o-mini
-bash run.sh --provider openai --model gpt-4o-mini
-
-# DeepSeek Chat V3
-bash run.sh --provider deepseek --model deepseek-chat
 ```
 
 ---
 
-## 📊 Expected Output Artifacts
+## 📊 Baseline vs Automatically Learned Performance Gain (`EXTENSION_2`)
 
-Upon pipeline execution, output artifacts are saved into relative directories:
-
-| Directory | Output Artifact | Content Description |
-|:---|:---|:---|
-| **`outputs/`** | `verification_report.json` | Detailed audit decision ("Accepted"/"Rejected"), explanation, and issues per mapping |
-| | `evaluation.json` | Precision, Recall, F1-Score, Accuracy, Avg Confidence, Runtime breakdown |
-| | `evaluation.csv` | Tabular metrics export |
-| **`reports/`** | `summary_report.md` | Human-readable markdown evaluation report |
-| | `mapping_statistics.json` | Candidate counts, SKOS relation distribution statistics |
-| **`visualizations/`** | `similarity_distribution.png` | Feature vector similarity distributions ($[L, S, P, R]$) |
-| | `confidence_distribution.png` | Model confidence score histogram |
-| | `mapping_type_distribution.png` | SKOS relation category breakdown |
-| | `ontology_coverage.png` | Target disclosure coverage pie chart |
-| | `runtime_breakdown.png` | Execution time breakdown per pipeline stage |
-| | `confusion_matrix.png` | Matcher prediction vs LLM audit confusion matrix |
-| **`logs/`** | `evaluation.log` | Complete timestamped execution log |
+| Performance Metric | Predetermined Baseline (`[0.40, 0.35, 0.15, 0.10]`) | Automatically Learned (`[0.43, 0.19, 0.00, 0.38]`) | Delta Improvement |
+|:---|:---:|:---:|:---:|
+| **Accuracy** | `35.45%` | **`42.73%`** | **`+7.28%`** |
+| **Precision** | `100.00%` | **`100.00%`** | **`+0.00%`** |
+| **Recall** | `2.74%` | **`13.70%`** | **`+10.96%`** |
+| **F1-Score** | `5.33%` | **`24.10%`** | **`+18.77%`** |
+| **ROC-AUC** | `94.56%` | **`96.33%`** | **`+1.77%`** |
 
 ---
 
-## 🔧 Troubleshooting Guide
+## 📄 Output Artifacts & Reports
 
-| Issue | Root Cause | Resolution |
-|:---|:---|:---|
-| `Ollama Connection Refused` | Ollama service is not running | Start Ollama on GPU server: `ollama serve` or `systemctl start ollama`. |
-| `vLLM Connection Error` | vLLM server port inactive | Ensure vLLM is launched: `python3 -m vllm.entrypoints.openai.api_server --model meta-llama/Meta-Llama-3-70B-Instruct --port 8000`. |
-| `CUDA Out of Memory` | Model context or batch size exceeds VRAM | Reduce `batch_size` in `configs/settings.yaml` (e.g., set `batch_size: 4`). |
-| `API Key Missing` | Environment variable not loaded | Copy `configs/.env.example` to `configs/.env` and insert your API keys. |
+After running the evaluation, outputs are generated in:
+- `outputs/verification_report.json` — Detailed per-disclosure LLM verification audit results
+- `outputs/verification_report.csv` — Tabular CSV verification audit format
+- `reports/summary_report.md` — Complete markdown summary with execution timing and feature weights
+- `logs/evaluation.log` — Execution log file

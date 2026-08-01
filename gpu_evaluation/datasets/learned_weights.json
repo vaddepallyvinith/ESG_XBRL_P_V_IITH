@@ -1,0 +1,25 @@
+{
+  "initial_weights": {
+    "lexical": 1.0,
+    "structural": 1.0,
+    "property": 1.0,
+    "embedding": 1.0
+  },
+  "learned_weights": {
+    "lexical": 0.4297,
+    "structural": 0.1935,
+    "property": 0.0,
+    "embedding": 0.3768
+  },
+  "learned_coefficients": {
+    "lexical": 3.883246149344635,
+    "structural": 1.7487326407264907,
+    "property": 0.0,
+    "embedding": 3.4045072342817972
+  },
+  "method": "logistic_regression",
+  "training_samples": 511,
+  "validation_samples": 109,
+  "test_samples": 110,
+  "random_seed": 42
+}
