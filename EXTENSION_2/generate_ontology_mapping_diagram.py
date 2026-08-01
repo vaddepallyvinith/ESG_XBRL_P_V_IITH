@@ -1,6 +1,6 @@
 """
-generate_ontology_mapping_diagram.py - Renders high-resolution diagram of the ESG Ontology Graph
-and BRSR <-> GRI Mappings in EXTENSION_2.
+generate_ontology_mapping_diagram.py - Renders high-resolution, crystal-clear SVG & PNG diagrams
+of the ESG Ontology Graph and BRSR <-> GRI Mappings in EXTENSION_2 using automatically learned weights.
 """
 
 import os
@@ -9,6 +9,7 @@ from pathlib import Path
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
 import networkx as nx
 import numpy as np
 
@@ -17,128 +18,131 @@ def generate_diagram():
     output_dir.mkdir(parents=True, exist_ok=True)
 
     mapping_file = output_dir / "mapping_repository.json"
+    if not mapping_file.exists():
+        mapping_file = Path("EXTENSION_2/data/processed/mapping/mapping_repository.json")
+
     with open(mapping_file, "r", encoding="utf-8") as f:
         mappings = json.load(f)
 
-    # Sort by score
+    # Sort mappings by learned similarity score
     mappings.sort(key=lambda x: x.get("similarity_score", 0.0), reverse=True)
 
-    # Select representative mappings across key ESG topics
-    selected_mappings = []
-    seen_topics = set()
-    for m in mappings:
-        b_label = m.get("brsr_label", "")
-        g_label = m.get("gri_label", "")
-        # Pick top unique domain disclosures
-        if len(selected_mappings) < 12:
-            selected_mappings.append(m)
+    # Top 10 representative BRSR <-> GRI mappings for diagram
+    selected_mappings = mappings[:10]
 
-    # Build NetworkX Graph
-    G = nx.DiGraph()
+    # Create figure with high DPI and crystal-clear layout
+    fig, ax = plt.subplots(figsize=(24, 15), dpi=300)
+    ax.set_facecolor("#F8FAFC")
+    fig.patch.set_facecolor("#F8FAFC")
 
-    # Root Framework Nodes
-    G.add_node("BRSR Framework", type="Framework", color="#1f77b4", size=3200, label="BRSR Framework\n(SEBI Guideline)")
-    G.add_node("GRI Framework", type="Framework", color="#2ca02c", size=3200, label="GRI Standards\n(GRI Global)")
+    # Define Column X Positions
+    x_brsr_framework = -1.2
+    x_brsr_topic     = -0.8
+    x_brsr_disc      = -0.35
+    x_gri_disc       =  0.35
+    x_gri_topic      =  0.8
+    x_gri_framework  =  1.2
 
-    # Topic Nodes
-    topics = {
-        "Topic_BRSR_P6": ("P6: Environment", "BRSR Framework", "#aec7e8"),
-        "Topic_BRSR_P3": ("P3: Employee Wellbeing", "BRSR Framework", "#aec7e8"),
-        "Topic_BRSR_P2": ("P2: Sustainable Sourcing", "BRSR Framework", "#aec7e8"),
-        "Topic_GRI_305": ("GRI 305: Emissions", "GRI Framework", "#a1d99b"),
-        "Topic_GRI_301": ("GRI 301: Materials", "GRI Framework", "#a1d99b"),
-        "Topic_GRI_403": ("GRI 403: Health & Safety", "GRI Framework", "#a1d99b"),
-        "Topic_GRI_302": ("GRI 302: Energy", "GRI Framework", "#a1d99b")
-    }
+    # Draw Title & Legend Banner
+    ax.text(0, 1.15, "BRSR ↔ GRI Standards Ontology Mapping Graph (EXTENSION_2)", 
+            fontsize=20, fontweight="bold", ha="center", va="center", color="#0F172A", family="sans-serif")
+    ax.text(0, 1.09, "Automatically Learned Confidence Weights Model: w_lex=0.4297, w_str=0.1935, w_prop=0.0000, w_emb=0.3768", 
+            fontsize=12, fontstyle="italic", ha="center", va="center", color="#475569", family="sans-serif")
 
-    for t_id, (t_name, parent, color) in topics.items():
-        G.add_node(t_id, type="Topic", color=color, size=2200, label=t_name)
-        G.add_edge(parent, t_id, relation="contains", color="#999999", style="dashed", width=1.5)
+    # Framework Header Boxes
+    bbox_brsr_hdr = dict(boxstyle="round,pad=0.6", facecolor="#1E3A8A", edgecolor="#1E40AF", lw=2)
+    bbox_gri_hdr  = dict(boxstyle="round,pad=0.6", facecolor="#065F46", edgecolor="#047857", lw=2)
 
-    # Key Disclosures and SKOS Mappings
-    disclosure_pairs = [
-        ("BRSR Scope 1 & 2 Emissions", "Topic_BRSR_P6", "GRI 305-1 Scope 1 Direct Emissions", "Topic_GRI_305", "skos:broadMatch", "35.5%"),
-        ("BRSR Scope 2 Energy Indirect", "Topic_BRSR_P6", "GRI 305-2 Scope 2 Energy Emissions", "Topic_GRI_305", "skos:broadMatch", "34.3%"),
-        ("BRSR Scope 3 Emissions & Intensity", "Topic_BRSR_P6", "GRI 102-7 Scope 3 GHG Emissions", "Topic_GRI_305", "skos:narrowMatch", "33.9%"),
-        ("BRSR Energy Consumption", "Topic_BRSR_P6", "GRI 302-1 Energy Consumption in Org", "Topic_GRI_302", "skos:broadMatch", "32.8%"),
-        ("BRSR Reclaimed Products & Packaging", "Topic_BRSR_P2", "GRI 301-3 Reclaimed Packaging", "Topic_GRI_301", "skos:narrowMatch", "39.1%"),
-        ("BRSR Health & Safety Mgmt System", "Topic_BRSR_P3", "GRI 403-1 OHS Management System", "Topic_GRI_403", "skos:broadMatch", "44.1%"),
-        ("BRSR Worker Coverage in OHS", "Topic_BRSR_P3", "GRI 403-8 Worker OHS Coverage", "Topic_GRI_403", "skos:broadMatch", "39.1%"),
-        ("BRSR Air Emissions (non-GHG)", "Topic_BRSR_P6", "GRI 305-5 Reduction of GHG Emissions", "Topic_GRI_305", "skos:broadMatch", "33.4%")
+    ax.text(x_brsr_framework, 0.98, "BRSR FRAMEWORK\n(SEBI Principles P1–P9)", fontsize=13, fontweight="bold", 
+            ha="center", va="center", color="white", bbox=bbox_brsr_hdr)
+    ax.text(x_gri_framework, 0.98, "GRI STANDARDS\n(GRI 100–400 Series)", fontsize=13, fontweight="bold", 
+            ha="center", va="center", color="white", bbox=bbox_gri_hdr)
+
+    # Define Topic Categories
+    brsr_topics = [
+        ("P6: Environment & Energy", -0.85, 0.65, "#2563EB"),
+        ("P3: Employee Wellbeing & OHS", -0.85, 0.0, "#2563EB"),
+        ("P2: Sustainable Sourcing", -0.85, -0.60, "#2563EB")
     ]
 
-    mapping_edges = []
-    for b_disc, b_topic, g_disc, g_topic, skos_rel, score in disclosure_pairs:
-        G.add_node(b_disc, type="BRSR_Disc", color="#d62728", size=1500, label=b_disc)
-        G.add_node(g_disc, type="GRI_Disc", color="#9467bd", size=1500, label=g_disc)
+    gri_topics = [
+        ("GRI 305: Emissions & Climate", 0.85, 0.70, "#059669"),
+        ("GRI 302: Energy Use", 0.85, 0.35, "#059669"),
+        ("GRI 403: Health & Safety", 0.85, 0.0, "#059669"),
+        ("GRI 301: Materials & Waste", 0.85, -0.55, "#059669")
+    ]
 
-        G.add_edge(b_topic, b_disc, relation="rso:contains", color="#bcbd22", style="dotted", width=1.2)
-        G.add_edge(g_topic, g_disc, relation="rso:contains", color="#bcbd22", style="dotted", width=1.2)
+    for label, x, y, color in brsr_topics:
+        ax.text(x, y, label, fontsize=10, fontweight="bold", ha="center", va="center", color="white",
+                bbox=dict(boxstyle="round,pad=0.4", facecolor=color, edgecolor="#1D4ED8", lw=1.5))
+        # Edge from framework
+        ax.annotate("", xy=(x + 0.12, y), xytext=(x_brsr_framework + 0.15, 0.94),
+                    arrowprops=dict(arrowstyle="->", color="#94A3B8", lw=1.5, linestyle="--"))
 
-        # Mapping edge
-        G.add_edge(b_disc, g_disc, relation=f"{skos_rel}\n({score})", color="#ff7f0e", style="solid", width=2.5)
-        mapping_edges.append((b_disc, g_disc, f"{skos_rel}\n({score})"))
+    for label, x, y, color in gri_topics:
+        ax.text(x, y, label, fontsize=10, fontweight="bold", ha="center", va="center", color="white",
+                bbox=dict(boxstyle="round,pad=0.4", facecolor=color, edgecolor="#047857", lw=1.5))
+        ax.annotate("", xy=(x - 0.12, y), xytext=(x_gri_framework - 0.15, 0.94),
+                    arrowprops=dict(arrowstyle="->", color="#94A3B8", lw=1.5, linestyle="--"))
 
-    # Plot Layout
-    fig, ax = plt.subplots(figsize=(16, 12))
-    
-    pos = nx.spring_layout(G, k=0.85, seed=42)
+    # Mapping Rows Configuration
+    y_positions = np.linspace(0.80, -0.80, len(selected_mappings))
 
-    # Custom hierarchical coordinates for structured display
-    pos["BRSR Framework"] = np.array([-0.8, 0.9])
-    pos["GRI Framework"] = np.array([0.8, 0.9])
+    for i, m in enumerate(selected_mappings):
+        y = y_positions[i]
+        b_label = m.get("brsr_label", "BRSR Disclosure")
+        if len(b_label) > 42:
+            b_label = b_label[:40] + "..."
 
-    pos["Topic_BRSR_P6"] = np.array([-0.8, 0.4])
-    pos["Topic_BRSR_P3"] = np.array([-0.8, 0.0])
-    pos["Topic_BRSR_P2"] = np.array([-0.8, -0.4])
+        g_label = m.get("gri_label", "GRI Disclosure")
+        if len(g_label) > 42:
+            g_label = g_label[:40] + "..."
 
-    pos["Topic_GRI_305"] = np.array([0.8, 0.5])
-    pos["Topic_GRI_302"] = np.array([0.8, 0.2])
-    pos["Topic_GRI_301"] = np.array([0.8, -0.2])
-    pos["Topic_GRI_403"] = np.array([0.8, -0.5])
+        score = m.get("similarity_score", 0.0) * 100.0
+        skos_rel = str(m.get("ontology_path", "")).split("#")[-1] or m.get("relationship", "closeMatch")
 
-    # Position disclosures in between
-    pos["BRSR Scope 1 & 2 Emissions"] = np.array([-0.35, 0.55])
-    pos["BRSR Scope 2 Energy Indirect"] = np.array([-0.35, 0.40])
-    pos["BRSR Scope 3 Emissions & Intensity"] = np.array([-0.35, 0.25])
-    pos["BRSR Energy Consumption"] = np.array([-0.35, 0.10])
-    pos["BRSR Reclaimed Products & Packaging"] = np.array([-0.35, -0.35])
-    pos["BRSR Health & Safety Mgmt System"] = np.array([-0.35, -0.10])
-    pos["BRSR Worker Coverage in OHS"] = np.array([-0.35, -0.22])
-    pos["BRSR Air Emissions (non-GHG)"] = np.array([-0.35, -0.50])
+        # Choose color by SKOS relation
+        if "exact" in skos_rel.lower() or "close" in skos_rel.lower():
+            edge_color = "#059669" # Emerald green
+            rel_badge = f"skos:{skos_rel}\n({score:.1f}%)"
+            badge_bg = "#D1FAE5"
+            badge_fg = "#065F46"
+        else:
+            edge_color = "#D97706" # Amber
+            rel_badge = f"skos:{skos_rel}\n({score:.1f}%)"
+            badge_bg = "#FEF3C7"
+            badge_fg = "#92400E"
 
-    pos["GRI 305-1 Scope 1 Direct Emissions"] = np.array([0.35, 0.55])
-    pos["GRI 305-2 Scope 2 Energy Emissions"] = np.array([0.35, 0.40])
-    pos["GRI 102-7 Scope 3 GHG Emissions"] = np.array([0.35, 0.25])
-    pos["GRI 302-1 Energy Consumption in Org"] = np.array([0.35, 0.10])
-    pos["GRI 301-3 Reclaimed Packaging"] = np.array([0.35, -0.35])
-    pos["GRI 403-1 OHS Management System"] = np.array([0.35, -0.10])
-    pos["GRI 403-8 Worker OHS Coverage"] = np.array([0.35, -0.22])
-    pos["GRI 305-5 Reduction of GHG Emissions"] = np.array([0.35, -0.50])
+        # BRSR Disclosure Card
+        ax.text(x_brsr_disc, y, b_label, fontsize=8.5, fontweight="bold", ha="right", va="center", color="#0F172A",
+                bbox=dict(boxstyle="round,pad=0.35", facecolor="#E0F2FE", edgecolor="#0284C7", lw=1.2))
 
-    # Draw Nodes by color
-    colors = [nx.get_node_attributes(G, "color")[n] for n in G.nodes()]
-    sizes = [nx.get_node_attributes(G, "size")[n] for n in G.nodes()]
+        # GRI Disclosure Card
+        ax.text(x_gri_disc, y, g_label, fontsize=8.5, fontweight="bold", ha="left", va="center", color="#0F172A",
+                bbox=dict(boxstyle="round,pad=0.35", facecolor="#F3E8FF", edgecolor="#7C3AED", lw=1.2))
 
-    nx.draw_networkx_nodes(G, pos, node_color=colors, node_size=sizes, edgecolors="black", linewidths=1.5, ax=ax)
+        # SKOS Semantic Alignment Arrow
+        ax.annotate("", xy=(x_gri_disc - 0.08, y), xytext=(x_brsr_disc + 0.08, y),
+                    arrowprops=dict(arrowstyle="-|>", color=edge_color, lw=2.2, mutation_scale=15))
 
-    # Draw Node Labels
-    labels = nx.get_node_attributes(G, "label")
-    nx.draw_networkx_labels(G, pos, labels=labels, font_size=8, font_weight="bold", font_family="sans-serif", ax=ax)
+        # SKOS Relation & Score Badge
+        ax.text(0, y, rel_badge, fontsize=8, fontweight="bold", ha="center", va="center", color=badge_fg,
+                bbox=dict(boxstyle="round,pad=0.25", facecolor=badge_bg, edgecolor=edge_color, lw=1))
 
-    # Draw Hierarchy Edges
-    hierarchy_edges = [(u, v) for u, v, d in G.edges(data=True) if d.get("relation") in ["contains", "rso:contains"]]
-    nx.draw_networkx_edges(G, pos, edgelist=hierarchy_edges, edge_color="#7f7f7f", style="dashed", width=1.2, arrows=True, arrowsize=12, ax=ax)
+    # Add Legend Box at Bottom
+    legend_elements = [
+        mpatches.Patch(facecolor="#1E3A8A", label="Framework Domain Node"),
+        mpatches.Patch(facecolor="#2563EB", label="BRSR Principle Topic Node"),
+        mpatches.Patch(facecolor="#059669", label="GRI Standard Topic Node"),
+        mpatches.Patch(facecolor="#E0F2FE", edgecolor="#0284C7", label="BRSR Disclosure Requirement"),
+        mpatches.Patch(facecolor="#F3E8FF", edgecolor="#7C3AED", label="GRI Target Disclosure"),
+        mpatches.Patch(facecolor="#D1FAE5", edgecolor="#059669", label="skos:closeMatch (High Confidence)"),
+        mpatches.Patch(facecolor="#FEF3C7", edgecolor="#D97706", label="skos:broadMatch / narrowMatch")
+    ]
+    ax.legend(handles=legend_elements, loc="lower center", bbox_to_anchor=(0.5, -0.09), ncol=4, fontsize=9.5, frameon=True, facecolor="white", edgecolor="#CBD5E1")
 
-    # Draw Mapping Edges
-    map_edges = [(u, v) for u, v, d in G.edges(data=True) if d.get("relation") not in ["contains", "rso:contains"]]
-    nx.draw_networkx_edges(G, pos, edgelist=map_edges, edge_color="#d62728", style="solid", width=2.2, arrows=True, arrowsize=16, ax=ax)
-
-    # Draw Edge Labels for Mappings
-    edge_labels = {(u, v): d["relation"] for u, v, d in G.edges(data=True) if d.get("relation") not in ["contains", "rso:contains"]}
-    nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=7, font_color="#8c564b", font_weight="bold", ax=ax)
-
-    ax.set_title("ESG RSO Ontology Graph & Final BRSR <-> GRI Semantic Mappings (EXTENSION_2)", fontsize=14, fontweight="bold", pad=25)
+    ax.set_xlim(-1.45, 1.45)
+    ax.set_ylim(-0.95, 1.22)
     ax.axis("off")
 
     png_path = output_dir / "brsr_gri_ontology_mapping_graph.png"
@@ -149,8 +153,8 @@ def generate_diagram():
     plt.savefig(svg_path, format="svg", bbox_inches="tight")
     plt.close()
 
-    print(f"✅ Generated Ontology Graph Diagram PNG: {png_path}")
-    print(f"✅ Generated Ontology Graph Diagram SVG: {svg_path}")
+    print(f"✅ Successfully generated high-resolution PNG Diagram: {png_path} ({png_path.stat().st_size:,} bytes)")
+    print(f"✅ Successfully generated crystal-clear SVG Diagram: {svg_path} ({svg_path.stat().st_size:,} bytes)")
 
 if __name__ == "__main__":
     generate_diagram()
