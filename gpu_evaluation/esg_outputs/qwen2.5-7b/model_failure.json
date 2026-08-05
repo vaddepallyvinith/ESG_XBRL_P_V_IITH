@@ -1,0 +1,8 @@
+{
+  "status": "failed",
+  "provider": "huggingface",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "error_type": "ImportError",
+  "error": "Using `bitsandbytes` 4-bit quantization requires bitsandbytes: `pip install -U bitsandbytes>=0.46.1`",
+  "timestamp": "2026-08-04 19:53:43"
+}

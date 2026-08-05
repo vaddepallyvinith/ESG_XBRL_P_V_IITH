@@ -1,0 +1,27 @@
+{
+  "eval_provider": "ollama",
+  "eval_model": "llama3:70b",
+  "eval_endpoint": "http://localhost:11434",
+  "weight_type": "specified_weights",
+  "weights": {
+    "lexical": 0.35,
+    "structural": 0.2,
+    "property": 0.15,
+    "embedding": 0.3
+  },
+  "precision": 1.0,
+  "recall": 1.0676,
+  "f1_score": 1.0327,
+  "accuracy": 1.1519,
+  "average_confidence": 0.3094,
+  "accepted_count": 79,
+  "rejected_count": 0,
+  "total_evaluated": 79,
+  "runtimes": {
+    "ontology_loading_time": 0.3,
+    "matching_engine_time": 13.9,
+    "confidence_aggregation_time": 0.1,
+    "llm_verification_time": 0.0,
+    "total_runtime": 14.3
+  }
+}

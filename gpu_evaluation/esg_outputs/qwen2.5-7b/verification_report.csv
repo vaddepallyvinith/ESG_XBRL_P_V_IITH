@@ -1,0 +1,475 @@
+brsr_id,target_id,mapping,confidence,verification,llm_decision,llm_confidence,llm_relationship,llm_reason,llm_raw_response,lexical_score,structural_score,property_score,embedding_score,eval_provider,eval_model,reasoning,explanation,issues
+Disclosure_Q10_-4902536702272193205,Disclosure_Disclosure_403_1_Occupational_health_and_safety_ma,broadMatch,0.4607,Accepted,Disagree,0.8,relatedMatch,"Both concepts relate to occupational health and safety management systems, but they are not strictly equivalent. The BRSR concept focuses on the management system for health and safety, while the GRI concept specifically mentions occupational health and safety. This suggests a related but not exact match.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""relatedMatch"",
+  ""reason"": ""Both concepts relate to occupational health and safety management systems, but they are not strictly equivalent. The BRSR concept focuses on the management system for health and safety, while the GRI concept specifically mentions occupational health and safety. This suggests a related but not exact match.""
+}",0.6092,0.17,0.5,0.4406,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 46.1%.,"Verified alignment for Disclosure_Q10_-4902536702272193205 <-> Disclosure_Disclosure_403_1_Occupational_health_and_safety_ma with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",[]
+Disclosure_Q10_-4902536702272193205,Disclosure_Disclosure_403_8_Workers_covered_by_an_occupationa,broadMatch,0.3908,Accepted,Disagree,0.8,relatedMatch,"The BRSR concept focuses on the overall health and safety management system, while the GRI concept specifically refers to workers covered by such a system. They are related but not strictly equivalent.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""relatedMatch"",
+  ""reason"": ""The BRSR concept focuses on the overall health and safety management system, while the GRI concept specifically refers to workers covered by such a system. They are related but not strictly equivalent.""
+}",0.49,0.17,0.5,0.3912,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 39.1%.,"Verified alignment for Disclosure_Q10_-4902536702272193205 <-> Disclosure_Disclosure_403_8_Workers_covered_by_an_occupationa with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",[]
+Disclosure_Q5_6360320180423613439,Disclosure_Disclosure_301_3_Reclaimed_products_and_their_pack,narrowMatch,0.3959,Accepted,Disagree,0.8,closeMatch,"The BRSR and GRI concepts are closely related, focusing on reclaimed products and their packaging materials. However, there are slight differences in the scope and detail of the concepts that prevent them from being exact matches.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""closeMatch"",
+  ""reason"": ""The BRSR and GRI concepts are closely related, focusing on reclaimed products and their packaging materials. However, there are slight differences in the scope and detail of the concepts that prevent them from being exact matches.""
+}",0.5022,0.17,0.5,0.3907,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 39.6%.,"Verified alignment for Disclosure_Q5_6360320180423613439 <-> Disclosure_Disclosure_301_3_Reclaimed_products_and_their_pack with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",[]
+Disclosure_Q6_-5688596556448572703,Disclosure_Disclosure_102_6_Scope_2_GHG_emissions,narrowMatch,0.3616,Accepted,Disagree,0.8,narrowerMatch,"The BRSR concept covers both Scope 1 and Scope 2 emissions, while the GRI concept specifically refers to Scope 2 emissions only. Therefore, the GRI concept is a narrower match within the broader context of greenhouse gas emissions.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""narrowerMatch"",
+  ""reason"": ""The BRSR concept covers both Scope 1 and Scope 2 emissions, while the GRI concept specifically refers to Scope 2 emissions only. Therefore, the GRI concept is a narrower match within the broader context of greenhouse gas emissions.""
+}",0.4302,0.17,0.5,0.3818,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 36.2%.,"Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_102_6_Scope_2_GHG_emissions with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",[]
+Disclosure_Q6_-5688596556448572703,Disclosure_Disclosure_102_6_Scope_2_GHG_emissions_28,broadMatch,0.3542,Accepted,Disagree,0.8,relatedMatch,"The BRSR concept covers both Scope 1 and Scope 2 emissions, while the GRI concept specifically focuses on Scope 2 emissions. This indicates a related but not exact match in terms of scope and subject matter.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""relatedMatch"",
+  ""reason"": ""The BRSR concept covers both Scope 1 and Scope 2 emissions, while the GRI concept specifically focuses on Scope 2 emissions. This indicates a related but not exact match in terms of scope and subject matter.""
+}",0.4214,0.17,0.5,0.3722,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 35.4%.,"Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_102_6_Scope_2_GHG_emissions_28 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",[]
+Disclosure_Q6_-5688596556448572703,Disclosure_Disclosure_102_5_Scope_1_GHG_emissions,narrowMatch,0.3283,Accepted,Disagree,0.8,narrowerMatch,"The BRSR concept covers both Scope 1 and Scope 2 emissions, while the GRI concept specifically refers to Scope 1 emissions only. Therefore, the GRI concept is a narrower match within the broader context of greenhouse gas emissions.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""narrowerMatch"",
+  ""reason"": ""The BRSR concept covers both Scope 1 and Scope 2 emissions, while the GRI concept specifically refers to Scope 1 emissions only. Therefore, the GRI concept is a narrower match within the broader context of greenhouse gas emissions.""
+}",0.3726,0.17,0.5,0.3589,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 32.8%.,"Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_102_5_Scope_1_GHG_emissions with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",[]
+Disclosure_Q6_-5688596556448572703,Disclosure_Disclosure_305_1_Direct_Scope_1_GHG_emissions,broadMatch,0.3294,Accepted,Disagree,0.8,relatedMatch,"The BRSR concept covers both Scope 1 and Scope 2 emissions, while the GRI concept specifically focuses on Scope 1 emissions. Although they are related, the scope of the BRSR concept is broader, making a 'relatedMatch' more appropriate than a 'broadMatch'.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""relatedMatch"",
+  ""reason"": ""The BRSR concept covers both Scope 1 and Scope 2 emissions, while the GRI concept specifically focuses on Scope 1 emissions. Although they are related, the scope of the BRSR concept is broader, making a 'relatedMatch' more appropriate than a 'broadMatch'.""
+}",0.3791,0.17,0.5,0.3545,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 32.9%.,"Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_305_1_Direct_Scope_1_GHG_emissions with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",[]
+Disclosure_Q6_-5688596556448572703,Disclosure_Disclosure_102_5_Scope_1_GHG_emissions_25,broadMatch,0.3242,Accepted,Disagree,0.8,relatedMatch,"The BRSR concept covers both Scope 1 and Scope 2 emissions, while the GRI concept specifically mentions only Scope 1 emissions. This indicates a related but not exact match in terms of scope and subject matter.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""relatedMatch"",
+  ""reason"": ""The BRSR concept covers both Scope 1 and Scope 2 emissions, while the GRI concept specifically mentions only Scope 1 emissions. This indicates a related but not exact match in terms of scope and subject matter.""
+}",0.3697,0.17,0.5,0.3516,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 32.4%.,"Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_102_5_Scope_1_GHG_emissions_25 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",[]
+Disclosure_Q6_-5688596556448572703,Disclosure_Disclosure_305_1_Direct_Scope_1_GHG_emissions_9,broadMatch,0.3243,Accepted,Disagree,0.8,narrowerMatch,"The BRSR concept focuses on both Scope 1 and Scope 2 emissions, while the GRI concept specifically targets Direct (Scope 1) GHG emissions. The GRI concept is narrower in scope compared to the BRSR concept.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""narrowerMatch"",
+  ""reason"": ""The BRSR concept focuses on both Scope 1 and Scope 2 emissions, while the GRI concept specifically targets Direct (Scope 1) GHG emissions. The GRI concept is narrower in scope compared to the BRSR concept.""
+}",0.3705,0.17,0.5,0.3508,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 32.4%.,"Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_305_1_Direct_Scope_1_GHG_emissions_9 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",[]
+Disclosure_Q6_-5688596556448572703,Disclosure_Disclosure_305_2_Energy_indirect_Scope_2_GHG_emi,broadMatch,0.314,Accepted,Disagree,0.8,narrowerMatch,"The BRSR concept covers both Scope 1 and Scope 2 emissions, while the GRI concept specifically focuses on Scope 2 emissions for energy indirect GHG emissions. Therefore, the GRI concept is a narrower match within the broader context of Scope 1 and Scope 2 emissions.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""narrowerMatch"",
+  ""reason"": ""The BRSR concept covers both Scope 1 and Scope 2 emissions, while the GRI concept specifically focuses on Scope 2 emissions for energy indirect GHG emissions. Therefore, the GRI concept is a narrower match within the broader context of Scope 1 and Scope 2 emissions.""
+}",0.3538,0.17,0.5,0.3427,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 31.4%.,"Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_305_2_Energy_indirect_Scope_2_GHG_emi with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",[]
+Disclosure_Q6_-5688596556448572703,Disclosure_Disclosure_102_7_Scope_3_GHG_emissions,narrowMatch,0.2998,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on Scope 1 and Scope 2 emissions, while the GRI concept pertains to Scope 3 emissions. These scopes are distinct and cover different types of emissions, making the concepts not semantically aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on Scope 1 and Scope 2 emissions, while the GRI concept pertains to Scope 3 emissions. These scopes are distinct and cover different types of emissions, making the concepts not semantically aligned.""
+}",0.3239,0.17,0.5,0.3389,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 30.0%.,"Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_102_7_Scope_3_GHG_emissions with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q5_4738630364456196912,Disclosure_Disclosure_305_5_Reduction_of_GHG_emissions,broadMatch,0.2975,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses the reduction of GHG emissions. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses the reduction of GHG emissions. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.3234,0.17,0.5,0.3335,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 29.8%.,"Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_305_5_Reduction_of_GHG_emissions with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q6_-5688596556448572703,Disclosure_Disclosure_102_7_Scope_3_GHG_emissions_31,broadMatch,0.2982,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on Scope 1 and Scope 2 emissions, while the GRI concept specifically addresses Scope 3 emissions. These are distinct scopes within greenhouse gas emissions reporting, and thus the concepts do not align semantically.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on Scope 1 and Scope 2 emissions, while the GRI concept specifically addresses Scope 3 emissions. These are distinct scopes within greenhouse gas emissions reporting, and thus the concepts do not align semantically.""
+}",0.3253,0.17,0.5,0.3332,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 29.8%.,"Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_102_7_Scope_3_GHG_emissions_31 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q5_4738630364456196912,Disclosure_Disclosure_102_5_Scope_1_GHG_emissions,narrowMatch,0.2906,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses Scope 1 GHG emissions. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses Scope 1 GHG emissions. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.3102,0.17,0.5,0.3303,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 29.1%.,"Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_102_5_Scope_1_GHG_emissions with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q6_-5688596556448572703,Disclosure_Disclosure_102_8_GHG_emissions_intensity,narrowMatch,0.2906,Accepted,Disagree,0.8,narrowerMatch,"The BRSR concept focuses on providing details of greenhouse gas emissions (Scope 1 and Scope 2), while the GRI concept specifically addresses GHG emissions intensity. The GRI concept is more specific in terms of the metric being measured, making it a narrower match.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""narrowerMatch"",
+  ""reason"": ""The BRSR concept focuses on providing details of greenhouse gas emissions (Scope 1 and Scope 2), while the GRI concept specifically addresses GHG emissions intensity. The GRI concept is more specific in terms of the metric being measured, making it a narrower match.""
+}",0.3123,0.17,0.5,0.3278,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 29.1%.,"Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_102_8_GHG_emissions_intensity with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q3_7691261722040331206,Disclosure_Disclosure_301_2_Recycled_input_materials_used,broadMatch,0.2982,Accepted,Disagree,0.8,relatedMatch,"The BRSR concept focuses on the percentage of recycled or reused material by value, while the GRI concept measures the amount of recycled input materials used. Although they are related, they measure different aspects of material usage and recycling.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""relatedMatch"",
+  ""reason"": ""The BRSR concept focuses on the percentage of recycled or reused material by value, while the GRI concept measures the amount of recycled input materials used. Although they are related, they measure different aspects of material usage and recycling.""
+}",0.331,0.17,0.5,0.3267,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 29.8%.,"Verified alignment for Disclosure_Q3_7691261722040331206 <-> Disclosure_Disclosure_301_2_Recycled_input_materials_used with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q6_-5688596556448572703,Disclosure_Disclosure_305_4_GHG_emissions_intensity,broadMatch,0.2902,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on providing details of greenhouse gas emissions (Scope 1 and Scope 2), while the GRI concept specifically addresses GHG emissions intensity. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on providing details of greenhouse gas emissions (Scope 1 and Scope 2), while the GRI concept specifically addresses GHG emissions intensity. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.3123,0.17,0.5,0.3266,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 29.0%.,"Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_305_4_GHG_emissions_intensity with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q5_4738630364456196912,Disclosure_Disclosure_305_3_Other_indirect_Scope_3_GHG_emis,broadMatch,0.2891,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses other indirect (Scope 3) GHG emissions. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses other indirect (Scope 3) GHG emissions. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.3104,0.17,0.5,0.326,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 28.9%.,"Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_305_3_Other_indirect_Scope_3_GHG_emis with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q5_4738630364456196912,Disclosure_Disclosure_102_5_Scope_1_GHG_emissions_25,broadMatch,0.2867,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses Scope 1 GHG emissions. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses Scope 1 GHG emissions. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.3054,0.17,0.5,0.3253,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 28.7%.,"Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_102_5_Scope_1_GHG_emissions_25 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q5_4738630364456196912,Disclosure_Disclosure_305_5_Reduction_of_GHG_emissions_17,broadMatch,0.2917,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses the reduction of GHG emissions. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses the reduction of GHG emissions. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.3174,0.17,0.5,0.325,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 29.2%.,"Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_305_5_Reduction_of_GHG_emissions_17 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q4_-6365141755975586128,Disclosure_Disclosure_301_3_Reclaimed_products_and_their_pack,narrowMatch,0.2899,Accepted,Disagree,0.8,relatedMatch,"The BRSR and GRI concepts are related but not strictly equivalent. Both concern reclaimed products and packaging, but the BRSR focuses on the amount of reclaimed products and packaging, while the GRI concept is more general and includes both products and packaging under a broader category of reclaimed materials.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""relatedMatch"",
+  ""reason"": ""The BRSR and GRI concepts are related but not strictly equivalent. Both concern reclaimed products and packaging, but the BRSR focuses on the amount of reclaimed products and packaging, while the GRI concept is more general and includes both products and packaging under a broader category of reclaimed materials.""
+}",0.3145,0.17,0.5,0.3233,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 29.0%.,"Verified alignment for Disclosure_Q4_-6365141755975586128 <-> Disclosure_Disclosure_301_3_Reclaimed_products_and_their_pack with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q18_1786218148450392899,Disclosure_Disclosure_2_8_Workers_who_are_not_employees_18,broadMatch,0.2652,Accepted,Disagree,0.7,noMatch,"The BRSR concept focuses on employees and workers including those with disabilities, while the GRI concept pertains to workers who are not employees. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.7,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on employees and workers including those with disabilities, while the GRI concept pertains to workers who are not employees. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.1861,0.3286,0.5,0.3229,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 26.5%.,"Verified alignment for Disclosure_Q18_1786218148450392899 <-> Disclosure_Disclosure_2_8_Workers_who_are_not_employees_18 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q6_-5688596556448572703,Disclosure_Disclosure_305_5_Reduction_of_GHG_emissions,broadMatch,0.2865,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on providing details of greenhouse gas emissions (Scope 1 and Scope 2), while the GRI concept emphasizes the reduction of GHG emissions. These concepts have different scopes and meanings, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on providing details of greenhouse gas emissions (Scope 1 and Scope 2), while the GRI concept emphasizes the reduction of GHG emissions. These concepts have different scopes and meanings, making them not sufficiently aligned.""
+}",0.3071,0.17,0.5,0.3228,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 28.7%.,"Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_305_5_Reduction_of_GHG_emissions with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q24_7549452836008929946,Disclosure_Disclosure_2_6_Activities_value_chain_and_other_b,broadMatch,0.2681,Accepted,Disagree,0.7,noMatch,"The BRSR concept focuses on the entity's material responsible business conduct issues, while the GRI concept pertains to activities, value chain, and other business relationships. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.7,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on the entity's material responsible business conduct issues, while the GRI concept pertains to activities, value chain, and other business relationships. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.1929,0.3286,0.5,0.3227,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 26.8%.,"Verified alignment for Disclosure_Q24_7549452836008929946 <-> Disclosure_Disclosure_2_6_Activities_value_chain_and_other_b with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q5_4738630364456196912,Disclosure_Disclosure_305_4_GHG_emissions_intensity,broadMatch,0.2825,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses GHG emissions intensity. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses GHG emissions intensity. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.2978,0.17,0.5,0.3227,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 28.2%.,"Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_305_4_GHG_emissions_intensity with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q5_4738630364456196912,Disclosure_Disclosure_102_8_GHG_emissions_intensity,narrowMatch,0.2819,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses GHG emissions intensity. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses GHG emissions intensity. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.2978,0.17,0.5,0.3212,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 28.2%.,"Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_102_8_GHG_emissions_intensity with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q1_5402110912519703836,Disclosure_Disclosure_302_1_Energy_consumption_within_the_org,broadMatch,0.2804,Accepted,Disagree,0.8,relatedMatch,"The BRSR concept focuses on total energy consumption and energy intensity, while the GRI concept specifically addresses energy consumption within the organization. While related, they do not have the same scope or meaning.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""relatedMatch"",
+  ""reason"": ""The BRSR concept focuses on total energy consumption and energy intensity, while the GRI concept specifically addresses energy consumption within the organization. While related, they do not have the same scope or meaning.""
+}",0.2949,0.17,0.5,0.3204,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 28.0%.,"Verified alignment for Disclosure_Q1_5402110912519703836 <-> Disclosure_Disclosure_302_1_Energy_consumption_within_the_org with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q2_1108849182902078442,Disclosure_Disclosure_303_2_Management_of_water_discharge_rel,broadMatch,0.2809,Accepted,Disagree,0.8,relatedMatch,"The BRSR concept focuses on providing details about water discharged, while the GRI concept covers the management of water discharge-related impacts. Although related, they do not have the same scope or meaning.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""relatedMatch"",
+  ""reason"": ""The BRSR concept focuses on providing details about water discharged, while the GRI concept covers the management of water discharge-related impacts. Although related, they do not have the same scope or meaning.""
+}",0.2964,0.17,0.5,0.3203,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 28.1%.,"Verified alignment for Disclosure_Q2_1108849182902078442 <-> Disclosure_Disclosure_303_2_Management_of_water_discharge_rel with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q1_-3785314918126152655,Disclosure_Disclosure_414_2_Negative_social_impacts_in_the_su,narrowMatch,0.296,Accepted,Disagree,0.8,closeMatch,"Both concepts relate to actions taken to address negative social impacts, but the BRSR concept focuses on general social impacts, while the GRI concept specifically mentions supply chain impacts. This indicates a high level of similarity but not exact equivalence.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""closeMatch"",
+  ""reason"": ""Both concepts relate to actions taken to address negative social impacts, but the BRSR concept focuses on general social impacts, while the GRI concept specifically mentions supply chain impacts. This indicates a high level of similarity but not exact equivalence.""
+}",0.3318,0.17,0.5,0.3199,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 29.6%.,"Verified alignment for Disclosure_Q1_-3785314918126152655 <-> Disclosure_Disclosure_414_2_Negative_social_impacts_in_the_su with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q6_-5688596556448572703,Disclosure_Disclosure_102_8_GHG_emissions_intensity_34,broadMatch,0.2832,Accepted,Disagree,0.7,relatedMatch,"The BRSR concept focuses on providing details of greenhouse gas emissions (Scope 1 and Scope 2), while the GRI concept specifically addresses GHG emissions intensity. While related, they do not have the same scope or meaning.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.7,
+  ""relationship"": ""relatedMatch"",
+  ""reason"": ""The BRSR concept focuses on providing details of greenhouse gas emissions (Scope 1 and Scope 2), while the GRI concept specifically addresses GHG emissions intensity. While related, they do not have the same scope or meaning.""
+}",0.3019,0.17,0.5,0.3199,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 28.3%.,"Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_102_8_GHG_emissions_intensity_34 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q3_7691261722040331206,Disclosure_Disclosure_301_2_Recycled_input_materials_used_9,broadMatch,0.2938,Accepted,Disagree,0.8,relatedMatch,"The BRSR concept focuses on the percentage of recycled or reused material by value, while the GRI concept measures the amount of recycled input materials used. Although they are related, they measure different aspects of material usage and recycling.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""relatedMatch"",
+  ""reason"": ""The BRSR concept focuses on the percentage of recycled or reused material by value, while the GRI concept measures the amount of recycled input materials used. Although they are related, they measure different aspects of material usage and recycling.""
+}",0.327,0.17,0.5,0.3197,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 29.4%.,"Verified alignment for Disclosure_Q3_7691261722040331206 <-> Disclosure_Disclosure_301_2_Recycled_input_materials_used_9 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q6_-5688596556448572703,Disclosure_Disclosure_305_5_Reduction_of_GHG_emissions_17,broadMatch,0.2865,Accepted,Disagree,0.8,relatedMatch,"The BRSR concept focuses on providing details of greenhouse gas emissions (Scope 1 and Scope 2), while the GRI concept emphasizes the reduction of GHG emissions. Although related, they do not have the same scope or meaning.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""relatedMatch"",
+  ""reason"": ""The BRSR concept focuses on providing details of greenhouse gas emissions (Scope 1 and Scope 2), while the GRI concept emphasizes the reduction of GHG emissions. Although related, they do not have the same scope or meaning.""
+}",0.3104,0.17,0.5,0.3192,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 28.7%.,"Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_305_5_Reduction_of_GHG_emissions_17 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q6_-5688596556448572703,Disclosure_Disclosure_102_4_GHG_emissions_reduction_targets_a,broadMatch,0.2876,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on providing details of greenhouse gas emissions (Scope 1 and Scope 2), while the GRI concept pertains to GHG emissions reduction targets and progress. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on providing details of greenhouse gas emissions (Scope 1 and Scope 2), while the GRI concept pertains to GHG emissions reduction targets and progress. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.313,0.17,0.5,0.3191,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 28.8%.,"Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_102_4_GHG_emissions_reduction_targets_a with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q6_-5688596556448572703,Disclosure_Disclosure_305_3_Other_indirect_Scope_3_GHG_emis,broadMatch,0.2783,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on Scope 1 and Scope 2 emissions, while the GRI concept pertains to Scope 3 emissions. These scopes are distinct and cover different types of emissions, making the concepts semantically unrelated.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on Scope 1 and Scope 2 emissions, while the GRI concept pertains to Scope 3 emissions. These scopes are distinct and cover different types of emissions, making the concepts semantically unrelated.""
+}",0.2918,0.17,0.5,0.3185,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 27.8%.,"Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_305_3_Other_indirect_Scope_3_GHG_emis with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q4_-8665709853907658340,Disclosure_Disclosure_404_2_Programs_for_upgrading_employee_s,broadMatch,0.2891,Accepted,Disagree,0.8,relatedMatch,"The BRSR concept focuses on transition assistance programs for continued facilitation, while the GRI concept includes both upgrading employee skills and transition assistance programs. The concepts are related but not strictly equivalent.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""relatedMatch"",
+  ""reason"": ""The BRSR concept focuses on transition assistance programs for continued facilitation, while the GRI concept includes both upgrading employee skills and transition assistance programs. The concepts are related but not strictly equivalent.""
+}",0.3172,0.17,0.5,0.3183,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 28.9%.,"Verified alignment for Disclosure_Q4_-8665709853907658340 <-> Disclosure_Disclosure_404_2_Programs_for_upgrading_employee_s with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q5_4738630364456196912,Disclosure_Disclosure_102_8_GHG_emissions_intensity_34,broadMatch,0.2795,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses GHG emissions intensity. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses GHG emissions intensity. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.2949,0.17,0.5,0.3181,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 27.9%.,"Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_102_8_GHG_emissions_intensity_34 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q24_7549452836008929946,Disclosure_Disclosure_2_13_Delegation_of_responsibility_for_m,broadMatch,0.2568,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on material responsible business conduct issues, while the GRI concept pertains to the delegation of responsibility for managing impacts. These concepts have different scopes and subject matters, and there is no clear hierarchical relationship that would justify a broader or narrower match.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on material responsible business conduct issues, while the GRI concept pertains to the delegation of responsibility for managing impacts. These concepts have different scopes and subject matters, and there is no clear hierarchical relationship that would justify a broader or narrower match.""
+}",0.1721,0.3286,0.5,0.3166,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 25.7%.,"Verified alignment for Disclosure_Q24_7549452836008929946 <-> Disclosure_Disclosure_2_13_Delegation_of_responsibility_for_m with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q5_4738630364456196912,Disclosure_Disclosure_305_4_GHG_emissions_intensity_16,broadMatch,0.2786,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses GHG emissions intensity. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses GHG emissions intensity. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.2949,0.17,0.5,0.3158,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 27.9%.,"Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_305_4_GHG_emissions_intensity_16 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q5_4738630364456196912,Disclosure_Disclosure_102_6_Scope_2_GHG_emissions,narrowMatch,0.2679,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses Scope 2 GHG emissions. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses Scope 2 GHG emissions. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.2717,0.17,0.5,0.3137,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 26.8%.,"Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_102_6_Scope_2_GHG_emissions with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q5_4738630364456196912,Disclosure_Disclosure_102_7_Scope_3_GHG_emissions,narrowMatch,0.2679,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses Scope 3 GHG emissions. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses Scope 3 GHG emissions. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.2717,0.17,0.5,0.3137,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 26.8%.,"Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_102_7_Scope_3_GHG_emissions with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q24_7549452836008929946,Disclosure_Disclosure_2_24_Embedding_policy_commitments,narrowMatch,0.2416,Rejected,Disagree,0.8,noMatch,"The BRSR concept focuses on the entity's material responsible business conduct issues, while the GRI concept pertains to embedding policy commitments. These concepts have different scopes and subject matters, and there is no clear semantic overlap.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on the entity's material responsible business conduct issues, while the GRI concept pertains to embedding policy commitments. These concepts have different scopes and subject matters, and there is no clear semantic overlap.""
+}",0.1395,0.3286,0.5,0.3133,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 24.2%.,"Verified alignment for Disclosure_Q24_7549452836008929946 <-> Disclosure_Disclosure_2_24_Embedding_policy_commitments with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q6_-5688596556448572703,Disclosure_Disclosure_305_4_GHG_emissions_intensity_16,broadMatch,0.2741,Accepted,Disagree,0.8,relatedMatch,"The BRSR concept focuses on providing details of greenhouse gas emissions (Scope 1 and Scope 2), while the GRI concept specifically addresses GHG emissions intensity. While related, they do not have the same scope or meaning.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""relatedMatch"",
+  ""reason"": ""The BRSR concept focuses on providing details of greenhouse gas emissions (Scope 1 and Scope 2), while the GRI concept specifically addresses GHG emissions intensity. While related, they do not have the same scope or meaning.""
+}",0.2881,0.17,0.5,0.3115,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 27.4%.,"Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_305_4_GHG_emissions_intensity_16 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q1_5402110912519703836,Disclosure_Disclosure_103_4_Energy_intensity,narrowMatch,0.2624,Accepted,Disagree,0.8,narrowerMatch,"The BRSR concept focuses on both total energy consumption and energy intensity, while the GRI concept specifically targets energy intensity. The GRI concept is a more specific subset of the BRSR concept, hence it is narrower.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""narrowerMatch"",
+  ""reason"": ""The BRSR concept focuses on both total energy consumption and energy intensity, while the GRI concept specifically targets energy intensity. The GRI concept is a more specific subset of the BRSR concept, hence it is narrower.""
+}",0.2612,0.17,0.5,0.3114,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 26.2%.,"Verified alignment for Disclosure_Q1_5402110912519703836 <-> Disclosure_Disclosure_103_4_Energy_intensity with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q8_-7661858907240690343,Disclosure_Disclosure_102_9_GHG_removals_in_the_value_chain,narrowMatch,0.2654,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on disclosing significant adverse environmental impacts in the value chain, while the GRI concept pertains to disclosing GHG removals in the value chain. These concepts have different scopes and subject matters, making them not semantically aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on disclosing significant adverse environmental impacts in the value chain, while the GRI concept pertains to disclosing GHG removals in the value chain. These concepts have different scopes and subject matters, making them not semantically aligned.""
+}",0.2682,0.17,0.5,0.3112,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 26.5%.,"Verified alignment for Disclosure_Q8_-7661858907240690343 <-> Disclosure_Disclosure_102_9_GHG_removals_in_the_value_chain with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q24_7549452836008929946,Disclosure_Disclosure_2_8_together_with_Disclosure_2_7_give,narrowMatch,0.2382,Rejected,Disagree,0.8,noMatch,"The BRSR concept focuses on the entity's material responsible business conduct issues, while the GRI concept pertains to the organization’s approach to employment. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on the entity's material responsible business conduct issues, while the GRI concept pertains to the organization’s approach to employment. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.1339,0.3286,0.5,0.3109,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 23.8%.,"Verified alignment for Disclosure_Q24_7549452836008929946 <-> Disclosure_Disclosure_2_8_together_with_Disclosure_2_7_give with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q24_7549452836008929946,Disclosure_Disclosure_2_2_Entities_included_in_the_organizati,broadMatch,0.2525,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on the entity's material responsible business conduct issues, while the GRI concept pertains to entities included in the organization’s sustainability reporting. These concepts have different scopes and subject matters, making them not semantically aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on the entity's material responsible business conduct issues, while the GRI concept pertains to entities included in the organization’s sustainability reporting. These concepts have different scopes and subject matters, making them not semantically aligned.""
+}",0.1672,0.3286,0.5,0.3109,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 25.3%.,"Verified alignment for Disclosure_Q24_7549452836008929946 <-> Disclosure_Disclosure_2_2_Entities_included_in_the_organizati with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q24_7549452836008929946,Disclosure_Disclosure_2_22_Statement_on_sustainable_developme,broadMatch,0.2416,Rejected,Disagree,0.8,noMatch,"The BRSR concept focuses on the entity's material responsible business conduct issues, while the GRI concept pertains to a statement on sustainable development strategy. These concepts have different scopes and subject matters, indicating they are not semantically aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on the entity's material responsible business conduct issues, while the GRI concept pertains to a statement on sustainable development strategy. These concepts have different scopes and subject matters, indicating they are not semantically aligned.""
+}",0.1418,0.3286,0.5,0.3108,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 24.2%.,"Verified alignment for Disclosure_Q24_7549452836008929946 <-> Disclosure_Disclosure_2_22_Statement_on_sustainable_developme with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q18_1786218148450392899,Disclosure_Disclosure_2_7_Employees_15,broadMatch,0.2498,Rejected,Disagree,0.8,relatedMatch,"The BRSR concept focuses on details about employees and workers including those with disabilities at the end of the financial year, while the GRI concept pertains specifically to employee numbers. While related, they do not have the same scope or meaning.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""relatedMatch"",
+  ""reason"": ""The BRSR concept focuses on details about employees and workers including those with disabilities at the end of the financial year, while the GRI concept pertains specifically to employee numbers. While related, they do not have the same scope or meaning.""
+}",0.1611,0.3286,0.5,0.3106,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 25.0%.,"Verified alignment for Disclosure_Q18_1786218148450392899 <-> Disclosure_Disclosure_2_7_Employees_15 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q1_-3785314918126152655,Disclosure_Disclosure_2_25_Processes_to_remediate_negative_im,broadMatch,0.2664,Accepted,Disagree,0.8,relatedMatch,"The BRSR concept focuses on actions taken to mitigate negative social impacts, while the GRI concept emphasizes processes to remediate negative impacts. Although both concepts deal with addressing negative impacts, they differ in the specific actions and processes involved, making them related but not exact matches.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""relatedMatch"",
+  ""reason"": ""The BRSR concept focuses on actions taken to mitigate negative social impacts, while the GRI concept emphasizes processes to remediate negative impacts. Although both concepts deal with addressing negative impacts, they differ in the specific actions and processes involved, making them related but not exact matches.""
+}",0.2712,0.17,0.5,0.3105,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 26.6%.,"Verified alignment for Disclosure_Q1_-3785314918126152655 <-> Disclosure_Disclosure_2_25_Processes_to_remediate_negative_im with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q9_-8786632947149269380,Disclosure_Disclosure_2_6_Activities_value_chain_and_other_b,broadMatch,0.2772,Accepted,Disagree,0.7,noMatch,"The BRSR concept focuses on the percentage of value chain partners by value of business done with them, while the GRI concept is about activities related to the value chain and other business relationships. These concepts have different scopes and subject matters, making them not semantically aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.7,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on the percentage of value chain partners by value of business done with them, while the GRI concept is about activities related to the value chain and other business relationships. These concepts have different scopes and subject matters, making them not semantically aligned.""
+}",0.2969,0.17,0.5,0.3098,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 27.7%.,"Verified alignment for Disclosure_Q9_-8786632947149269380 <-> Disclosure_Disclosure_2_6_Activities_value_chain_and_other_b with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q5_4738630364456196912,Disclosure_Disclosure_102_6_Scope_2_GHG_emissions_28,broadMatch,0.2653,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses Scope 2 GHG emissions. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses Scope 2 GHG emissions. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.2698,0.17,0.5,0.309,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 26.5%.,"Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_102_6_Scope_2_GHG_emissions_28 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q5_4738630364456196912,Disclosure_Disclosure_102_7_Scope_3_GHG_emissions_31,broadMatch,0.2652,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses Scope 3 GHG emissions. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses Scope 3 GHG emissions. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.2698,0.17,0.5,0.3089,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 26.5%.,"Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_102_7_Scope_3_GHG_emissions_31 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q5_4738630364456196912,Disclosure_Disclosure_305_1_Direct_Scope_1_GHG_emissions,broadMatch,0.2606,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses Scope 1 GHG emissions. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses Scope 1 GHG emissions. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.2603,0.17,0.5,0.3076,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 26.1%.,"Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_305_1_Direct_Scope_1_GHG_emissions with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q8_-7661858907240690343,Disclosure_Disclosure_308_2_Negative_environmental_impacts_in,narrowMatch,0.2599,Accepted,Disagree,0.8,closeMatch,"Both concepts focus on negative environmental impacts, but the BRSR concept is more specific to the value chain, while the GRI concept includes the supply chain and actions taken. This indicates a close match rather than an exact match.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""closeMatch"",
+  ""reason"": ""Both concepts focus on negative environmental impacts, but the BRSR concept is more specific to the value chain, while the GRI concept includes the supply chain and actions taken. This indicates a close match rather than an exact match.""
+}",0.2585,0.17,0.5,0.3075,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 26.0%.,"Verified alignment for Disclosure_Q8_-7661858907240690343 <-> Disclosure_Disclosure_308_2_Negative_environmental_impacts_in with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q4_8759149838816399254,Disclosure_Disclosure_305_4_GHG_emissions_intensity,broadMatch,0.2687,Accepted,Disagree,0.8,relatedMatch,"The BRSR concept focuses on providing details of total Scope 3 emissions and its intensity, while the GRI concept specifically addresses GHG emissions intensity. Although related, they do not have the same scope or subject matter.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""relatedMatch"",
+  ""reason"": ""The BRSR concept focuses on providing details of total Scope 3 emissions and its intensity, while the GRI concept specifically addresses GHG emissions intensity. Although related, they do not have the same scope or subject matter.""
+}",0.2793,0.17,0.5,0.3074,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 26.9%.,"Verified alignment for Disclosure_Q4_8759149838816399254 <-> Disclosure_Disclosure_305_4_GHG_emissions_intensity with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q19_-7385032484066083245,Disclosure_Disclosure_2_19_Remuneration_policies,narrowMatch,0.2668,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on the participation, inclusion, and representation of women, while the GRI concept pertains to remuneration policies. These concepts have different scopes and subject matters, making them unrelated.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on the participation, inclusion, and representation of women, while the GRI concept pertains to remuneration policies. These concepts have different scopes and subject matters, making them unrelated.""
+}",0.2039,0.3286,0.5,0.3068,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 26.7%.,"Verified alignment for Disclosure_Q19_-7385032484066083245 <-> Disclosure_Disclosure_2_19_Remuneration_policies with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q5_4738630364456196912,Disclosure_Disclosure_305_1_Direct_Scope_1_GHG_emissions_9,broadMatch,0.2597,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses Scope 1 GHG emissions. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on air emissions other than GHG emissions, while the GRI concept specifically addresses Scope 1 GHG emissions. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.2597,0.17,0.5,0.3059,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 26.0%.,"Verified alignment for Disclosure_Q5_4738630364456196912 <-> Disclosure_Disclosure_305_1_Direct_Scope_1_GHG_emissions_9 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q10_-4902536702272193205,Disclosure_Disclosure_403_5_Worker_training_on_occupational_h,broadMatch,0.2679,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on the overall health and safety management system, while the GRI concept specifically relates to worker training on occupational health and safety. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on the overall health and safety management system, while the GRI concept specifically relates to worker training on occupational health and safety. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.2789,0.17,0.5,0.3058,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 26.8%.,"Verified alignment for Disclosure_Q10_-4902536702272193205 <-> Disclosure_Disclosure_403_5_Worker_training_on_occupational_h with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q1_5402110912519703836,Disclosure_Disclosure_302_3_Energy_intensity,broadMatch,0.2601,Accepted,Disagree,0.8,relatedMatch,"While both concepts relate to energy intensity, the BRSR concept focuses on total energy consumption and intensity, while the GRI concept specifically refers to disclosure of energy intensity. The concepts are related but not strictly equivalent.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""relatedMatch"",
+  ""reason"": ""While both concepts relate to energy intensity, the BRSR concept focuses on total energy consumption and intensity, while the GRI concept specifically refers to disclosure of energy intensity. The concepts are related but not strictly equivalent.""
+}",0.2612,0.17,0.5,0.3053,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 26.0%.,"Verified alignment for Disclosure_Q1_5402110912519703836 <-> Disclosure_Disclosure_302_3_Energy_intensity with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q18_1786218148450392899,Disclosure_Disclosure_2_8_together_with_Disclosure_2_7_give,narrowMatch,0.25,Rejected,Disagree,0.8,noMatch,"The BRSR concept focuses on details about employees and workers, including those with disabilities, at the end of the financial year. The GRI concept, on the other hand, pertains to the organization's approach to employment, which is more general and does not specifically address the end-of-year details or the inclusion of differently abled individuals.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on details about employees and workers, including those with disabilities, at the end of the financial year. The GRI concept, on the other hand, pertains to the organization's approach to employment, which is more general and does not specifically address the end-of-year details or the inclusion of differently abled individuals.""
+}",0.1666,0.3286,0.5,0.3047,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 25.0%.,"Verified alignment for Disclosure_Q18_1786218148450392899 <-> Disclosure_Disclosure_2_8_together_with_Disclosure_2_7_give with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q4_8759149838816399254,Disclosure_Disclosure_102_7_Scope_3_GHG_emissions,narrowMatch,0.2538,Accepted,Agree,0.8,exactMatch,"Both concepts refer to the disclosure of Scope 3 greenhouse gas emissions, including details of total emissions and intensity. The BRSR concept specifies the format for reporting, which aligns with the GRI concept's focus on Scope 3 GHG emissions.","{
+  ""decision"": ""Agree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""exactMatch"",
+  ""reason"": ""Both concepts refer to the disclosure of Scope 3 greenhouse gas emissions, including details of total emissions and intensity. The BRSR concept specifies the format for reporting, which aligns with the GRI concept's focus on Scope 3 GHG emissions.""
+}",0.2474,0.17,0.5,0.3042,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 25.4%.,"Verified alignment for Disclosure_Q4_8759149838816399254 <-> Disclosure_Disclosure_102_7_Scope_3_GHG_emissions with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q1_5402110912519703836,Disclosure_Disclosure_103_5_Reduction_in_energy_consumption,narrowMatch,0.2543,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on details of total energy consumption and energy intensity, while the GRI concept specifically addresses the reduction in energy consumption. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on details of total energy consumption and energy intensity, while the GRI concept specifically addresses the reduction in energy consumption. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.2488,0.17,0.5,0.3038,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 25.4%.,"Verified alignment for Disclosure_Q1_5402110912519703836 <-> Disclosure_Disclosure_103_5_Reduction_in_energy_consumption with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q1_5402110912519703836,Disclosure_Disclosure_103_2_Energy_consumption_and_self_gener,broadMatch,0.2627,Accepted,Disagree,0.8,relatedMatch,"The BRSR concept focuses on total energy consumption and energy intensity, while the GRI concept covers energy consumption and self-generation within the organization. Although related, they do not have the same scope or meaning.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""relatedMatch"",
+  ""reason"": ""The BRSR concept focuses on total energy consumption and energy intensity, while the GRI concept covers energy consumption and self-generation within the organization. Although related, they do not have the same scope or meaning.""
+}",0.2689,0.17,0.5,0.3032,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 26.3%.,"Verified alignment for Disclosure_Q1_5402110912519703836 <-> Disclosure_Disclosure_103_2_Energy_consumption_and_self_gener with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q19_-7385032484066083245,Disclosure_Disclosure_2_10_Nomination_and_selection_of_the_hi,broadMatch,0.2514,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on the participation, inclusion, and representation of women, while the GRI concept pertains to the nomination and selection of the highest governance body. These concepts have different scopes and subject matters, making them unrelated.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on the participation, inclusion, and representation of women, while the GRI concept pertains to the nomination and selection of the highest governance body. These concepts have different scopes and subject matters, making them unrelated.""
+}",0.1713,0.3286,0.5,0.3031,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 25.1%.,"Verified alignment for Disclosure_Q19_-7385032484066083245 <-> Disclosure_Disclosure_2_10_Nomination_and_selection_of_the_hi with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q17_-4881588773716442445,Disclosure_Disclosure_2_6_Activities_value_chain_and_other_b,broadMatch,0.2387,Rejected,Disagree,0.8,noMatch,"The BRSR concept focuses on the number of locations served by the entity, while the GRI concept covers a broader range including activities, value chain, and other business relationships. There is no clear semantic overlap between these two concepts.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on the number of locations served by the entity, while the GRI concept covers a broader range including activities, value chain, and other business relationships. There is no clear semantic overlap between these two concepts.""
+}",0.1421,0.3286,0.5,0.3026,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 23.9%.,"Verified alignment for Disclosure_Q17_-4881588773716442445 <-> Disclosure_Disclosure_2_6_Activities_value_chain_and_other_b with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q24_7549452836008929946,Disclosure_Disclosure_2_25_Processes_to_remediate_negative_im,broadMatch,0.2381,Rejected,Disagree,0.7,noMatch,"The BRSR concept focuses on the overview of material responsible business conduct issues, while the GRI concept pertains to processes for remedying negative impacts. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.7,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on the overview of material responsible business conduct issues, while the GRI concept pertains to processes for remedying negative impacts. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.141,0.3286,0.5,0.3023,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 23.8%.,"Verified alignment for Disclosure_Q24_7549452836008929946 <-> Disclosure_Disclosure_2_25_Processes_to_remediate_negative_im with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q18_1786218148450392899,Disclosure_Disclosure_2_7_Employees,narrowMatch,0.2459,Rejected,Disagree,0.8,relatedMatch,"The BRSR concept focuses on details about employees and workers including those with disabilities at the end of the financial year, while the GRI concept pertains to the number of employees. These concepts are related but not strictly equivalent in scope and subject matter.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""relatedMatch"",
+  ""reason"": ""The BRSR concept focuses on details about employees and workers including those with disabilities at the end of the financial year, while the GRI concept pertains to the number of employees. These concepts are related but not strictly equivalent in scope and subject matter.""
+}",0.1591,0.3286,0.5,0.3023,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 24.6%.,"Verified alignment for Disclosure_Q18_1786218148450392899 <-> Disclosure_Disclosure_2_7_Employees with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q7_-7352008972679216635,Disclosure_Disclosure_102_7_Scope_3_GHG_emissions,narrowMatch,0.2568,Accepted,Disagree,0.8,narrowerMatch,"The BRSR concept focuses on a specific project related to reducing Green House Gas (GHG) emissions, while the GRI concept pertains to Scope 3 GHG emissions across the entire organization. The GRI concept is broader in scope and includes more comprehensive data, making it a narrower match for the BRSR concept.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""narrowerMatch"",
+  ""reason"": ""The BRSR concept focuses on a specific project related to reducing Green House Gas (GHG) emissions, while the GRI concept pertains to Scope 3 GHG emissions across the entire organization. The GRI concept is broader in scope and includes more comprehensive data, making it a narrower match for the BRSR concept.""
+}",0.2565,0.17,0.5,0.3016,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 25.7%.,"Verified alignment for Disclosure_Q7_-7352008972679216635 <-> Disclosure_Disclosure_102_7_Scope_3_GHG_emissions with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q17_-4881588773716442445,Disclosure_Disclosure_2_17_Collective_knowledge_of_the_highes,broadMatch,0.2626,Accepted,Disagree,0.8,noMatch,"The BRSR concept pertains to the number of locations served by the entity, while the GRI concept relates to the collective knowledge of the highest governance body. These concepts have different meanings and scopes, making them unrelated.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept pertains to the number of locations served by the entity, while the GRI concept relates to the collective knowledge of the highest governance body. These concepts have different meanings and scopes, making them unrelated.""
+}",0.1987,0.3286,0.5,0.3015,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 26.3%.,"Verified alignment for Disclosure_Q17_-4881588773716442445 <-> Disclosure_Disclosure_2_17_Collective_knowledge_of_the_highes with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q4_8759149838816399254,Disclosure_Disclosure_305_4_GHG_emissions_intensity_16,broadMatch,0.2652,Accepted,Disagree,0.8,relatedMatch,"The BRSR concept focuses on providing details of total Scope 3 emissions and its intensity, while the GRI concept specifically addresses GHG emissions intensity. Although related, they do not have the same scope or subject matter.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""relatedMatch"",
+  ""reason"": ""The BRSR concept focuses on providing details of total Scope 3 emissions and its intensity, while the GRI concept specifically addresses GHG emissions intensity. Although related, they do not have the same scope or subject matter.""
+}",0.2763,0.17,0.5,0.3014,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 26.5%.,"Verified alignment for Disclosure_Q4_8759149838816399254 <-> Disclosure_Disclosure_305_4_GHG_emissions_intensity_16 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q1_5402110912519703836,Disclosure_Disclosure_302_4_Reduction_of_energy_consumption,broadMatch,0.2563,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on the details of total energy consumption and energy intensity, while the GRI concept emphasizes the reduction of energy consumption. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on the details of total energy consumption and energy intensity, while the GRI concept emphasizes the reduction of energy consumption. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.2556,0.17,0.5,0.3014,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 25.6%.,"Verified alignment for Disclosure_Q1_5402110912519703836 <-> Disclosure_Disclosure_302_4_Reduction_of_energy_consumption with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q18_1786218148450392899,Disclosure_Disclosure_2_8_Workers_who_are_not_employees,narrowMatch,0.2417,Rejected,Disagree,0.8,noMatch,"The BRSR concept focuses on details about employees and workers including those with disabilities at the end of the financial year, while the GRI concept pertains to workers who are not employees. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on details about employees and workers including those with disabilities at the end of the financial year, while the GRI concept pertains to workers who are not employees. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.1504,0.3286,0.5,0.3013,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 24.2%.,"Verified alignment for Disclosure_Q18_1786218148450392899 <-> Disclosure_Disclosure_2_8_Workers_who_are_not_employees with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q24_7549452836008929946,Disclosure_Disclosure_2_14_Role_of_the_highest_governance_bod,broadMatch,0.2442,Rejected,Disagree,0.8,noMatch,"The BRSR concept focuses on the entity's material responsible business conduct issues, while the GRI concept pertains to the role of the highest governance body in sustainability reporting. These concepts have different scopes and subject matters, making them not semantically aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on the entity's material responsible business conduct issues, while the GRI concept pertains to the role of the highest governance body in sustainability reporting. These concepts have different scopes and subject matters, making them not semantically aligned.""
+}",0.1562,0.3286,0.5,0.3013,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 24.4%.,"Verified alignment for Disclosure_Q24_7549452836008929946 <-> Disclosure_Disclosure_2_14_Role_of_the_highest_governance_bod with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q19_-7385032484066083245,Disclosure_Disclosure_2_19_Remuneration_policies_30,broadMatch,0.2602,Accepted,Disagree,0.8,noMatch,"The BRSR concept focuses on the participation/inclusion/representation of women, while the GRI concept pertains to remuneration policies. These concepts have different scopes and subject matters, making them unrelated.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on the participation/inclusion/representation of women, while the GRI concept pertains to remuneration policies. These concepts have different scopes and subject matters, making them unrelated.""
+}",0.1937,0.3286,0.5,0.301,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 26.0%.,"Verified alignment for Disclosure_Q19_-7385032484066083245 <-> Disclosure_Disclosure_2_19_Remuneration_policies_30 with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q4_-7927179649578625621,Disclosure_Disclosure_417_1_Requirements_for_product_and_serv,broadMatch,0.2692,Accepted,Disagree,0.7,noMatch,"The BRSR concept focuses on the display of product information by the entity, while the GRI concept pertains to requirements for product and service information and labeling. These concepts have different scopes and subject matters, making them not sufficiently aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.7,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on the display of product information by the entity, while the GRI concept pertains to requirements for product and service information and labeling. These concepts have different scopes and subject matters, making them not sufficiently aligned.""
+}",0.2862,0.17,0.5,0.3009,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 26.9%.,"Verified alignment for Disclosure_Q4_-7927179649578625621 <-> Disclosure_Disclosure_417_1_Requirements_for_product_and_serv with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q24_7549452836008929946,Disclosure_Disclosure_2_5_External_assurance,narrowMatch,0.2309,Rejected,Disagree,0.8,noMatch,"The BRSR concept focuses on the entity's material responsible business conduct issues, while the GRI concept pertains to external assurance of disclosures. These concepts have different scopes and subject matters, indicating they are not semantically aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on the entity's material responsible business conduct issues, while the GRI concept pertains to external assurance of disclosures. These concepts have different scopes and subject matters, indicating they are not semantically aligned.""
+}",0.1255,0.3286,0.5,0.3009,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 23.1%.,"Verified alignment for Disclosure_Q24_7549452836008929946 <-> Disclosure_Disclosure_2_5_External_assurance with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q6_-5688596556448572703,Disclosure_Disclosure_102_9_GHG_removals_in_the_value_chain,narrowMatch,0.2483,Rejected,Disagree,0.8,noMatch,"The BRSR concept focuses on Scope 1 and Scope 2 emissions, while the GRI concept pertains to GHG removals in the value chain. These concepts have different scopes and subject matters, making them not semantically aligned.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept focuses on Scope 1 and Scope 2 emissions, while the GRI concept pertains to GHG removals in the value chain. These concepts have different scopes and subject matters, making them not semantically aligned.""
+}",0.2376,0.17,0.5,0.3008,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 24.8%.,"Verified alignment for Disclosure_Q6_-5688596556448572703 <-> Disclosure_Disclosure_102_9_GHG_removals_in_the_value_chain with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q12_-7498799015999508640,Disclosure_Disclosure_2_24_Embedding_policy_commitments,narrowMatch,0.2356,Rejected,Disagree,0.7,noMatch,"The BRSR concept pertains to the coverage of principles by policies, while the GRI concept relates to embedding policy commitments. These concepts have different scopes and subject matters, and there is no clear semantic overlap.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.7,
+  ""relationship"": ""noMatch"",
+  ""reason"": ""The BRSR concept pertains to the coverage of principles by policies, while the GRI concept relates to embedding policy commitments. These concepts have different scopes and subject matters, and there is no clear semantic overlap.""
+}",0.1368,0.3286,0.5,0.3006,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 23.6%.,"Verified alignment for Disclosure_Q12_-7498799015999508640 <-> Disclosure_Disclosure_2_24_Embedding_policy_commitments with relation narrowMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
+Disclosure_Q1_-8488604756514708917,Disclosure_Disclosure_2_29_Approach_to_stakeholder_engagement,broadMatch,0.2599,Accepted,Disagree,0.8,relatedMatch,"The BRSR concept focuses on the processes for identifying key stakeholder groups, while the GRI concept pertains to the approach to engaging with stakeholders. Although related, they do not have the same scope or meaning.","{
+  ""decision"": ""Disagree"",
+  ""confidence"": 0.8,
+  ""relationship"": ""relatedMatch"",
+  ""reason"": ""The BRSR concept focuses on the processes for identifying key stakeholder groups, while the GRI concept pertains to the approach to engaging with stakeholders. Although related, they do not have the same scope or meaning.""
+}",0.2648,0.17,0.5,0.3005,huggingface,Qwen/Qwen2.5-7B-Instruct,Evaluated with model 'Qwen/Qwen2.5-7B-Instruct' (huggingface); learned weighted confidence 26.0%.,"Verified alignment for Disclosure_Q1_-8488604756514708917 <-> Disclosure_Disclosure_2_29_Approach_to_stakeholder_engagement with relation broadMatch using learned weights {'lexical': 0.4297, 'structural': 0.1935, 'property': 0.0, 'embedding': 0.3768}.",['Low learned confidence score']
